@@ -1,7 +1,7 @@
-<!-- TITLE: Automation Commands -->
-<!-- SUBTITLE: A quick summary of Automation Commands -->
+<!-- TITLE: Automation Commands Overview -->
+<!-- SUBTITLE: A quick summary of each automation command -->
 
-# Automation Commands
+# Automation Commands Overview
 
 [relative link](/automation-commands/clipboard-commands/get-text-command)
 
