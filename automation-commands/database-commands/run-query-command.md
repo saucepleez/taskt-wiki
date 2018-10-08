@@ -13,9 +13,9 @@ Use this command when you want to retrieve data from a database and operate on t
 
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 |---					|---				|---			|---		|
-|   	|   	|   	|   	|
-|   	|   	|   	|   	|
-|   	|   	|   	|   	|
+|Please create a dataset variable name	|   	|   	|   	|
+|Please indicate the connection string  	|   	|   	|   	|
+|Please provide the query to run  	|   	|   	|   	|
 
 
 ## Download a sample task
