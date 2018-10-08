@@ -8,7 +8,7 @@ This command allows you to modify a number or a date to a specified format and a
 ## When would I use this command?
 Use this command when you have a date or number (either free text or in a variable) that is required to be in a specific format.  For example, you may want a date without the time **8/6/17** instead of **8/6/17 12:34:52PM**.  You may also want to add decimal places to a number, convert a number into a percentage, or convert a number into currency.
 
-## Command Parameters:
+## Command Parameters
 
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 |---					|---				|---			|---		|
