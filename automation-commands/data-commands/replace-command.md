@@ -15,7 +15,7 @@ Use this command when you want to replace some text within existing text.
 |---					|---				|---			|---		|
 |Please select text or variable to modify	| Select a variable (or enter text) which will contain the value of that is required to be replaced.   	|  **vSomeVariable** or text **Hello!**  	|  	|
 |Indicate the text to be replaced   	|  Provide the text that will be found in the value  	| If the variable contained **Hello!**, provide **H** to replace the H	| 	|
-|Indicate the replacement value  	|  Provide the text that will replace the existing text	| You could specify **J** which would replace the text to become **Jello**   	|   	|
+|Indicate the replacement value  	|  Provide the text that will replace the existing text	| You could specify **J** which would replace the text to become **Jello!**   	|   	|
 |Please select the variable to receive the changes  	|  Select a variable which will contain the value of the replaced text.  	| vDestinationVariable  	| If you have 'Create Missing Variables During Execution' enabled, you can simply type the name of the variable and it will be created during the task execution.  	|
 
 ## Sample Task
