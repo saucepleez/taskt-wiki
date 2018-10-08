@@ -1,4 +1,4 @@
 <!-- TITLE: Navigate Foreward Command -->
-<!-- SUBTITLE: A quick summary of Navigate Foreward Command -->
+<!-- SUBTITLE: A quick summary of Navigate Forward Command -->
 
-# Header
+# Navigate Forward Command
