@@ -12,7 +12,7 @@ Use this command when you want to write specific data to a file, such as logs fo
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 |---					|---				|---			|---		|
 |Select existing log file or enter a custom name	| Enter the required destination log file   	|  Choose **Engine Logs** or enter a custom value  	| Logs are generated in **taskt\Logs\{LogName}{Date}.txt**  	|
-|Please enter the text to log  	|  Enter the text or variable values that should be written to the log 	| Enter variables encased in quotes [vText] or actual Text **Hello World!**  	|   	|
+|Please enter the text/data to log  	|  Enter the text or variable values that should be written to the log 	| Enter variables encased in quotes [vText] or actual Text **Hello World!**  	|   	|
 
 
 ## Sample Task
