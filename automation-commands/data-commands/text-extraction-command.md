@@ -7,7 +7,7 @@ This command allows you to extract specific text from a larger piece of text
 ## When would I use this command?
 Use this command when you want to extract text before, after, or between a certain occurence of a word or words.
 
-## Command Parameters:
+## Command Parameters
 
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 |---					|---				|---			|---		|
