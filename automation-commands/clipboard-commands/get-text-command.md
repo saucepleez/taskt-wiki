@@ -11,3 +11,5 @@ Use this command when you have copied text or an object to the clipboard and wou
 
 ## Command Parameters:
 **Please select a variable to select Clipboard contents:** Select a variable which will contain the value of the clipboard text.  If you have 'Create Missing Variables During Execution' enabled, you can simply type the name of the variable and it will be created during the task execution.
+
+## Download a sample task
