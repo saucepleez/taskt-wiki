@@ -12,12 +12,8 @@ Use this command when you have a date or number (either free text or in a variab
 
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 |---					|---				|---			|---		|
-|Please supply the value or variable	| Select a variable (or enter text) which will contain the value of that is required to be formatted.   	|   	|   	|
-|Please select the type of data  	|  Indicate whether the type of data is a number or date.  Please note, other types at this time are not supported.  	|   	|   	|
+|Please supply the value or variable	| Select a variable (or enter text) which will contain the value of that is required to be formatted.   	|  **vSomeVariable** or text **12/31/2018 12:34:56PM**  	|  	|
+|Please select the type of data  	|  Indicate whether the type of data is a number or date.  Please note, other types at this time are not supported.  	| "Number" or "Date"  	|  Selecting an invalid type will cause an error. 	|
 |Specify required output format  	|  Enter the format specifier.  [You can find more about output formats here.](https://docs.microsoft.com/en-us/dotnet/standard/base-types/formatting-types)	| You could specify **MM/dd/yy** to trim off time from a date or **C2** to convert a number into currency.   	|   	|
 |Please select the variable to receive output  	|  Select a variable which will contain the value of the formatted text.  If you have 'Create Missing Variables During Execution' enabled, you can simply type the name of the variable and it will be created during the task execution. 	|   	|   	|
 
-**Please supply the value or variable:** 
-**Please select the type of data:** 
-**Specify required output format:**  
-**Please select the variable to receive output:** 
