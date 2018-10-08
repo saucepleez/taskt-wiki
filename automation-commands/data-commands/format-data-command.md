@@ -5,7 +5,7 @@
 ### What does this command do?
 This command allows you to modify a number or a date to a specified format and apply to a user-specified variable.  [Learn more about variables.](/concepts/variables)
 
-### When would I use this command
+### When would I use this command?
 Use this command when you have a date or number (either free text or in a variable) that is required to be in a specific format.  For example, you may want a date without the time **8/6/17** instead of **8/6/17 12:34:52PM**.  You may also want to add decimal places to a number, convert a number into a percentage, or convert a number into currency.
 
 ### Command Parameters:
