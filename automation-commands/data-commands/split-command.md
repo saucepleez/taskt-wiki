@@ -1,2 +1,2 @@
-<!-- TITLE: Data Commands -->
+<!-- TITLE: Split Command -->
 # Split Command

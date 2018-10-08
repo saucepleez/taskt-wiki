@@ -1,2 +1,2 @@
-<!-- TITLE: Data Commands -->
+<!-- TITLE: Substring Command -->
 # Substring Command

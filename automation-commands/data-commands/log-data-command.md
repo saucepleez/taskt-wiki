@@ -1,2 +1,2 @@
-<!-- TITLE: Data Commands -->
+<!-- TITLE: Log Data Command -->
 # Log Data Command

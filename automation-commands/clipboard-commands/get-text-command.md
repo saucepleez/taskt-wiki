@@ -1,2 +1,2 @@
-<!-- TITLE: Clipboard Commands -->
+<!-- TITLE: Get Text Command -->
 # Get Text Command

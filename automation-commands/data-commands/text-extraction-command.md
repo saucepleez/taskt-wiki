@@ -1,2 +1,2 @@
-<!-- TITLE: Data Commands -->
+<!-- TITLE: Text Extraction Command -->
 # Text Extraction Command

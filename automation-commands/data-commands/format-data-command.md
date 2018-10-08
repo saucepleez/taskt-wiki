@@ -1,2 +1,2 @@
-<!-- TITLE: Data Commands -->
+<!-- TITLE: Format Data Command -->
 # Format Data Command

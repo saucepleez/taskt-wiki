@@ -1,2 +1,2 @@
-<!-- TITLE: Data Commands -->
+<!-- TITLE: RegEx Extraction Command -->
 # Regex Extraction Command
