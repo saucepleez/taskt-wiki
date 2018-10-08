@@ -7,7 +7,7 @@ This command allows you to split a string into multiple strings by specifying a 
 ## When would I use this command?
 Use this command when you have a string such as **abc, def, ghi** and you want to split them into individual pieces **abc**, **def**, **ghi**
 
-## Command Parameters:
+## Command Parameters
 
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 |---					|---				|---			|---		|
