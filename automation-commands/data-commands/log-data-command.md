@@ -7,8 +7,8 @@ This command allows you to write/append data to a log file
 
 ## When would I use this command?
 Use this command when you want to write specific data to a file, such as logs for debugging.  You can choose between logging in the engine log file or your own custom file.
-## Command Parameters:
 
+## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 |---					|---				|---			|---		|
 |Select existing log file or enter a custom name	| Enter the required destination log file   	|  Choose **Engine Logs** or enter a custom value  	| Logs are generated in **taskt\Logs\{LogName}{Date}.txt**  	|
