@@ -1,5 +1,6 @@
 <!-- TITLE: Get Text Command -->
 # Get Text Command
+
 ![Clipboard Get Text](/uploads/automation-commands/clipboard-get-text.png "Clipboard Get Text")
 
 ### What does this command do?
