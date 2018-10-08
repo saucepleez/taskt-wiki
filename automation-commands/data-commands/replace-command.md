@@ -9,8 +9,7 @@ This command allows you to replace text within a variable (or string) with new t
 ## When would I use this command?
 Use this command when you want to replace some text within existing text.
 
-## Command Parameters:
-
+## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 |---					|---				|---			|---		|
 |Please select text or variable to modify	| Select a variable (or enter text) which will contain the value of that is required to be replaced.   	|  **vSomeVariable** or text **Hello!**  	|  	|
