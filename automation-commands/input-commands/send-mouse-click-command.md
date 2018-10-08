@@ -1,0 +1,1 @@
+# Send Mouse Click Command
