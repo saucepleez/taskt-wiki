@@ -7,8 +7,7 @@ This command allows you to select a piece of text based on character occurence.
 ## When would I use this command?
 Use this command when you want only a piece of text and you know the position where the text occurs. For example, if you had text with a leading plus sign such as **+18005501394** you could use this command to take everything after the plus sign and assign it to a variable.
 
-## Command Parameters:
-
+## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 |---					|---				|---			|---		|
 |Please select a variable to modify	| Select a variable (or enter text) which will contain the full string that needs to be extracted.   	|  **vSomeVariable** or text **HELLO**  	|  	|
