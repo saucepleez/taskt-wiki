@@ -8,8 +8,7 @@ This is an advanced command which allows you to parse text from a larger piece o
 ## When would I use this command?
 Use this command when you want to parse a value out of text or a variable.  
 
-## Command Parameters:
-
+## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 |---					|---				|---			|---		|
 |Please supply the value or variable	| Select a variable (or enter text) which will contain the value of that is required to be formatted   	|  **vSomeVariable** or text **Hello World!**  	|  	|
