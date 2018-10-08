@@ -15,7 +15,7 @@ Use this command when you have copied text or an object to the clipboard and wou
 
 ## Download a sample task
 
-# Get Text Command
+# Second Type Command
 
 ![Clipboard Get Text](/uploads/automation-commands/clipboard-get-text.png "Clipboard Get Text")
 
