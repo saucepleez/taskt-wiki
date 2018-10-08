@@ -17,3 +17,4 @@ Use this command when you have a date or number (either free text or in a variab
 |Specify required output format  	|  Enter the format specifier.  [You can find more about output formats here.](https://docs.microsoft.com/en-us/dotnet/standard/base-types/formatting-types)	| You could specify **MM/dd/yy** to trim off time from a date or **C2** to convert a number into currency.   	|   	|
 |Please select the variable to receive output  	|  Select a variable which will contain the value of the formatted text.  If you have 'Create Missing Variables During Execution' enabled, you can simply type the name of the variable and it will be created during the task execution. 	|   	|   	|
 
+## Sample Task
