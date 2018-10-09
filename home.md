@@ -6,3 +6,5 @@ taskt (formerly sharpRPA) is the first truly free, easy to use, and open source 
 
 ![Taskt Main](/uploads/taskt-main.png "Taskt Main")
 
+# Quick Links
+Click [here](/automation-commands/automation-commands-overview) to view Automation Command Overview
