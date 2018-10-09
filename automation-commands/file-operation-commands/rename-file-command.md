@@ -1,2 +1,21 @@
-<!-- TITLE: Rename File Command -->
+<!--TITLE: Rename File Command -->
+<!-- SUBTITLE: a command in the File Operation Commands group -->
 # Rename File Command
+
+
+## What does this command do?
+This command moves a file to a specified destination
+
+
+## When would I want to use this command?
+Data not specified
+
+
+## Command Parameters
+| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
+| ---                    | ---               | ---           | ---       |
+|Please indicate the path to the source file|Data not specified|Data not specified|Data not specified|
+|Please indicate the new file name (with extension)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+
+

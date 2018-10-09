@@ -1,20 +1,22 @@
-<!-- TITLE: Run Query Command -->
-<!-- SUBTITLE: A member of Database Commands -->
+<!--TITLE: Run Query Command -->
+<!-- SUBTITLE: a command in the Database Commands group -->
 # Run Query Command
 
+
 ## What does this command do?
-This command queries a database and populates the result into a variable for processing.  [Learn more about variables.](/concepts/variables)
+This command selects data from a database and applies it against a dataset
 
-## When would I use this command?
-Use this command when you want to retrieve data from a database and operate on the retrieved data.
 
-## Command Parameters:
+## When would I want to use this command?
+Data not specified
 
+
+## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-|---					|---				|---			|---		|
-|Please create a dataset variable name	| The variable that will be used to fill the dataset  	|   	|   	|
-|Please indicate the connection string  	|  The full connection string  	|   	|   	|
-|Please provide the query to run  	|  The actual query that you want to run 	|   	|   	|
+| ---                    | ---               | ---           | ---       |
+|Please create a dataset variable name|Data not specified|Data not specified|Data not specified|
+|Please indicate the connection string|Data not specified|Data not specified|Data not specified|
+|Please provide the query to run|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
 
 
-## Download a sample task

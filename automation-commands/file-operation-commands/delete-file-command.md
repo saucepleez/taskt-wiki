@@ -1,2 +1,20 @@
-<!-- TITLE: Delete File Command -->
+<!--TITLE: Delete File Command -->
+<!-- SUBTITLE: a command in the File Operation Commands group -->
 # Delete File Command
+
+
+## What does this command do?
+This command deletes a file from a specified destination
+
+
+## When would I want to use this command?
+Data not specified
+
+
+## Command Parameters
+| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
+| ---                    | ---               | ---           | ---       |
+|Please indicate the path to the source file|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+
+

@@ -1,2 +1,22 @@
-<!-- TITLE: Delete Cell Command -->
+<!--TITLE: Delete Cell Command -->
+<!-- SUBTITLE: a command in the Excel Commands group -->
 # Delete Cell Command
+
+
+## What does this command do?
+This command allows you to delete a specified row in Excel
+
+
+## When would I want to use this command?
+Data not specified
+
+
+## Command Parameters
+| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
+| ---                    | ---               | ---           | ---       |
+|Please Enter the instance name|Data not specified|Data not specified|Data not specified|
+|Indicate the range to delete ex. A1 or A1:C1|Data not specified|Data not specified|Data not specified|
+|Should the cells below shift upward after deletion?|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+
+

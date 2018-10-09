@@ -1,4 +1,21 @@
-<!-- TITLE: Navigate To Url Command -->
-<!-- SUBTITLE: A quick summary of Navigate To Url Command -->
+<!--TITLE: Navigate to URL Command -->
+<!-- SUBTITLE: a command in the Web Browser Commands group -->
+# Navigate to URL Command
 
-# Navigate To URL Command
+
+## What does this command do?
+This command allows you to navigate a Selenium web browser session.
+
+
+## When would I want to use this command?
+Data not specified
+
+
+## Command Parameters
+| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
+| ---                    | ---               | ---           | ---       |
+|Please Enter the instance name|Data not specified|Data not specified|Data not specified|
+|Please Enter the URL to navigate to|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+
+

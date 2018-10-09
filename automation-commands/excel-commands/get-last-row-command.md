@@ -1,2 +1,22 @@
-<!-- TITLE: Get Last Row Command -->
+<!--TITLE: Get Last Row Command -->
+<!-- SUBTITLE: a command in the Excel Commands group -->
 # Get Last Row Command
+
+
+## What does this command do?
+This command allows you to find the last row in a used range in an Excel Workbook.
+
+
+## When would I want to use this command?
+Data not specified
+
+
+## Command Parameters
+| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
+| ---                    | ---               | ---           | ---       |
+|Please Enter the instance name|Data not specified|Data not specified|Data not specified|
+|Please Enter Letter of the Column to check (ex. A, B, C)|Data not specified|Data not specified|Data not specified|
+|Please select the variable to receive the row number|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+
+

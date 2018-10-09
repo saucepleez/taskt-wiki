@@ -1,10 +1,10 @@
-<!--TITLE: Show Message Command -->
+<!--TITLE: Sequence Command Command -->
 <!-- SUBTITLE: a command in the Misc Commands group -->
-# Show Message Command
+# Sequence Command Command
 
 
 ## What does this command do?
-This command allows you to show a MessageBox and supports variables.
+Command that groups multiple actions
 
 
 ## When would I want to use this command?
@@ -14,8 +14,6 @@ Data not specified
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Enter the message to be displayed.|Data not specified|Data not specified|Data not specified|
-|Close After X (Seconds) - 0 to bypass|Data not specified|Data not specified|Data not specified|
 |Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
 
 
