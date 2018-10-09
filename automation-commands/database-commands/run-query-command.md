@@ -9,13 +9,12 @@ This command queries a database and populates the result into a variable for pro
 Use this command when you want to retrieve data from a database and operate on the retrieved data.
 
 ## Command Parameters:
-**Please create a dataset :** Select a variable which will contain the value of the clipboard text.  If you have 'Create Missing Variables During Execution' enabled, you can simply type the name of the variable and it will be created during the task execution.
 
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 |---					|---				|---			|---		|
-|   	|   	|   	|   	|
-|   	|   	|   	|   	|
-|   	|   	|   	|   	|
+|Please create a dataset variable name	| The variable that will be used to fill the dataset  	|   	|   	|
+|Please indicate the connection string  	|  The full connection string  	|   	|   	|
+|Please provide the query to run  	|  The actual query that you want to run 	|   	|   	|
 
 
 ## Download a sample task
