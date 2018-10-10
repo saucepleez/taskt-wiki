@@ -16,6 +16,6 @@ Data not specified
 | ---                    | ---               | ---           | ---       |
 |Please select a variable to modify|Data not specified|Data not specified|Data not specified|
 |Please define the input to be set to above variable|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

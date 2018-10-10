@@ -16,6 +16,6 @@ Data not specified
 | ---                    | ---               | ---           | ---       |
 |Select existing log file or enter a custom name.|Data not specified|Data not specified|Data not specified|
 |Please enter the text to log.|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

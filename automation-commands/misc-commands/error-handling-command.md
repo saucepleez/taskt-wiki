@@ -4,7 +4,7 @@
 
 
 ## What does this command do?
-This command specifies subsequent actions after an error is encountered.
+This command specifies what to do  after an error is encountered.
 
 
 ## When would I want to use this command?

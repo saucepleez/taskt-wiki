@@ -4,18 +4,18 @@
 
 
 ## What does this command do?
-This command sets a target windows state (minimize, maximize, restore)
+This command sets a target window's state.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to change a window's state to minimized, maximized, or restored state
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Select or Type a window Name|Data not specified|Data not specified|Data not specified|
-|Please Select a Window State|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Please Select or Type a window Name|Input or Type the name of the window that you want to change.|**Untitled - Notepad**||
+|Please Select a Window State|Select the appropriate window state required|Choose from **Minimize**, **Maximize** and **Restore**||
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

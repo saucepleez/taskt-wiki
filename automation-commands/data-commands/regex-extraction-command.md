@@ -18,6 +18,6 @@ Data not specified
 |Input the RegEx Extractor Pattern|Data not specified|Data not specified|Data not specified|
 |Select Matching Group Index|Data not specified|Data not specified|Data not specified|
 |Please select the variable to receive the RegEx result|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

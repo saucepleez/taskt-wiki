@@ -17,6 +17,6 @@ Data not specified
 |Please Enter the instance name|Data not specified|Data not specified|Data not specified|
 |Please Enter Letter of the Column to check (ex. A, B, C)|Data not specified|Data not specified|Data not specified|
 |Please select the variable to receive the row number|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

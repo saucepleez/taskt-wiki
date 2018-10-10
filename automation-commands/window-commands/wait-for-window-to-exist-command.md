@@ -4,18 +4,18 @@
 
 
 ## What does this command do?
-This command waits for a window to exist
+This command waits for a window to exist.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to explicitly wait for a window to exist before continuing script execution.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Select or Type a window Name|Data not specified|Data not specified|Data not specified|
-|Seconds To Wait|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Please Select or Type a window Name|Input or Type the name of the window that you want to wait to exist.|**Untitled - Notepad**||
+|Seconds To Wait|Specify how many seconds to wait before an error should be invoked|**5**||
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

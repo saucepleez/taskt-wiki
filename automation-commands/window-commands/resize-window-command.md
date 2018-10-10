@@ -8,15 +8,15 @@ This command resizes a window to a specified size.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to reize a window by name to a specific size on screen.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Select or Type a window name|Data not specified|Data not specified|Data not specified|
-|Please Enter the new window width|Data not specified|Data not specified|Data not specified|
-|Please Enter the new window height|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Please Select or Type a window name|Input or Type the name of the window that you want to resize.|**Untitled - Notepad**||
+|Please Enter the new window width|Input the new width size of the window|0|This number is limited by your resolution. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid width range could be 0-1920|
+|Please Enter the new window height|Input the new heiht size of the window|0|This number is limited by your resolution. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid height range could be 0-1080|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

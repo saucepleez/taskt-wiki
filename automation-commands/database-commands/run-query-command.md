@@ -17,6 +17,6 @@ Data not specified
 |Please create a dataset variable name|Data not specified|Data not specified|Data not specified|
 |Please indicate the connection string|Data not specified|Data not specified|Data not specified|
 |Please provide the query to run|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

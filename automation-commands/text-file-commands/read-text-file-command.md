@@ -16,6 +16,6 @@ Data not specified
 | ---                    | ---               | ---           | ---       |
 |Please indicate the path to the file|Data not specified|Data not specified|Data not specified|
 |Please define where the text should be stored|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

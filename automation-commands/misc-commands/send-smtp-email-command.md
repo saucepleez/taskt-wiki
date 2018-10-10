@@ -4,7 +4,7 @@
 
 
 ## What does this command do?
-This command allows you to send email using SMTP.
+This command allows you to send email using SMTP protocol.
 
 
 ## When would I want to use this command?

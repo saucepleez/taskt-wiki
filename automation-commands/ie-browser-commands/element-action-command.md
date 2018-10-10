@@ -18,6 +18,6 @@ Data not specified
 |Please enter or capture element search parameters|Data not specified|Data not specified|Data not specified|
 |Please select an action|Data not specified|Data not specified|Data not specified|
 |Action Parameters|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

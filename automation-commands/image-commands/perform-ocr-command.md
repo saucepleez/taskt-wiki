@@ -16,6 +16,6 @@ Data not specified
 | ---                    | ---               | ---           | ---       |
 |Select Image to OCR|Data not specified|Data not specified|Data not specified|
 |Apply OCR Result To Variable|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

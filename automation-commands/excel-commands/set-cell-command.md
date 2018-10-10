@@ -17,6 +17,6 @@ Data not specified
 |Please Enter the instance name|Data not specified|Data not specified|Data not specified|
 |Please Enter text to set|Data not specified|Data not specified|Data not specified|
 |Please Enter the Cell Location (ex. A1 or B2)|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

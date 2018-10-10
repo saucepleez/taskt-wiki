@@ -19,6 +19,6 @@ Data not specified
 |Please indicate the directory to copy to|Data not specified|Data not specified|Data not specified|
 |Create folder if destination does not exist|Data not specified|Data not specified|Data not specified|
 |Delete file if it already exists|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

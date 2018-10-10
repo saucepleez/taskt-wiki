@@ -17,6 +17,6 @@ Data not specified
 |Please indicate the path to the file|Data not specified|Data not specified|Data not specified|
 |Please indicate the text to be written|Data not specified|Data not specified|Data not specified|
 |Please select overwrite option|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
