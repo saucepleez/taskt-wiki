@@ -8,7 +8,7 @@ This command allows you to refresh a Selenium web browser session.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to simulate a browser refresh click in the web browser session.
 
 
 ## Command Parameters

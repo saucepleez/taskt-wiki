@@ -8,17 +8,17 @@ This command allows you to close a Selenium web browser session.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to manipulate, set, or get data on a webpage within the web browser.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Enter the instance name|Data not specified|Data not specified|Data not specified|
-|Element Search Method|Data not specified|Data not specified|Data not specified|
-|Element Search Parameter|Data not specified|Data not specified|Data not specified|
-|Element Action|Data not specified|Data not specified|Data not specified|
-|Additional Parameters|Data not specified|Data not specified|Data not specified|
+|Please Enter the instance name|Enter the unique instance name that was specified in the **Create Browser** command|**myInstance** or **seleniumInstance**|Failure to enter the correct instance name or failure to first call **Create Browser** command will cause an error|
+|Element Search Method|Select the specific search type that you want to use to isolate the element in the web page.|Select **Find Element By XPath**, **Find Element By ID**, **Find Element By Name**, **Find Element By Tag Name**, **Find Element By Class Name**, **Find Element By CSS Selector**||
+|Element Search Parameter|Specifies the parameter text that matches to the element based on the previously selected search type.|If search type **Find Element By ID** was specified, for example, given <div id='name'></div>, the value of this field would be **name**||
+|Element Action|Select the appropriate corresponding action to take once the element has been located|Select from **Invoke Click**, **Left Click**, **Right Click**, **Middle Click**, **Double Left Click**, **Clear Element**, **Set Text**, **Get Text**, **Get Attribute**, **Wait For Element To Exist**|Selecting this field changes the parameters that will be required in the next step|
+|Additional Parameters|Enter the necessary parameters to complete the command.|||
 |Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
 
 

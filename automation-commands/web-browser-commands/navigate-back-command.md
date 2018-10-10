@@ -8,13 +8,13 @@ This command allows you to navigate backwards in a Selenium web browser session.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to simulate a back click in the web browser session.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Enter the instance name|Data not specified|Data not specified|Data not specified|
+|Please Enter the instance name|Enter the unique instance name that was specified in the **Create Browser** command|**myInstance** or **seleniumInstance**|Failure to enter the correct instance name or failure to first call **Create Browser** command will cause an error|
 |Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
 
 
