@@ -8,20 +8,20 @@ This command allows you to send email using SMTP.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to send an email and have access to SMTP server credentials to generate an email.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Host Name|Data not specified|Data not specified|Data not specified|
-|Port|Data not specified|Data not specified|Data not specified|
-|Username|Data not specified|Data not specified|Data not specified|
-|Password|Data not specified|Data not specified|Data not specified|
-|From Email|Data not specified|Data not specified|Data not specified|
-|To Email|Data not specified|Data not specified|Data not specified|
-|Subject|Data not specified|Data not specified|Data not specified|
-|Body|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Host Name|Define the host/service name that the script should use|**smtp.gmail.com**||
+|Port|Define the port number that should be used when contacting the SMTP service|**587**||
+|Username|Define the username to use when contacting the SMTP service|**username**||
+|Password|Define the password to use when contacting the SMTP service|**password**||
+|From Email|Specify how the 'From' field should appear.|myRobot@company.com||
+|To Email|Specify the destination email that should be addressed.|jason@company.com||
+|Subject|Define the text subject (or variable) that the email should have.|**Alert!** or **[vStatus]**||
+|Body|Specify the message that should be sent.|**Everything ran ok at [DateTime.Now]**||
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

@@ -4,17 +4,17 @@
 
 
 ## What does this command do?
-This command pauses the script for a set amount of time in milliseconds.
+This command specifies subsequent actions after an error is encountered.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to define how your script should behave when an error is encountered.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Action On Error|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Action On Error|Select the action you want to take when you come across an error.|**Stop Processing** to end the script if an error is encountered or **Continue Processing** to continue running the script|**If Command** allows you to specify and test if a line number encountered an error. In order to use that functionality, you must specify **Continue Processing**|
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 

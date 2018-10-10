@@ -18,7 +18,7 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 |Element Search Method|Select the specific search type that you want to use to isolate the element in the web page.|Select **Find Element By XPath**, **Find Element By ID**, **Find Element By Name**, **Find Element By Tag Name**, **Find Element By Class Name**, **Find Element By CSS Selector**||
 |Element Search Parameter|Specifies the parameter text that matches to the element based on the previously selected search type.|If search type **Find Element By ID** was specified, for example, given <div id='name'></div>, the value of this field would be **name**||
 |Element Action|Select the appropriate corresponding action to take once the element has been located|Select from **Invoke Click**, **Left Click**, **Right Click**, **Middle Click**, **Double Left Click**, **Clear Element**, **Set Text**, **Get Text**, **Get Attribute**, **Wait For Element To Exist**|Selecting this field changes the parameters that will be required in the next step|
-|Additional Parameters|Enter the necessary parameters to complete the command.|||
-|Comment Field (Optional)|Data not specified|Data not specified|Data not specified|
+|Additional Parameters|Additioal Parameters will be required based on the action settings selected.|Additional Parameters range from adding offset coordinates to specifying a variable to apply element text to.||
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
