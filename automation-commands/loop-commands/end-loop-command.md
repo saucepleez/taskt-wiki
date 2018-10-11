@@ -1,5 +1,5 @@
 <!--TITLE: End Loop Command -->
-<!-- SUBTITLE: a command in the Loop Commands group -->
+<!-- SUBTITLE: a command in the Loop Commands group. [Go To Automation Commands Overview](/automation-commands) -->
 # End Loop Command
 
 
@@ -20,10 +20,9 @@ Use this command to signify the end point of a loop command.
 ## Developer/Additional Reference
 Automation Class Name: EndLoopCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:04 PM
+This page was generated on 10/11/18 06:09 PM
 
 
 ## Help
-[Report this document for inaccuracy](/#)
-[Open/Report an issue on GitHub](/#)
-[Ask a question on Gitter](/#)
+[Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+[Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

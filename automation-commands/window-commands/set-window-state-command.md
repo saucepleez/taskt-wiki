@@ -1,5 +1,5 @@
 <!--TITLE: Set Window State Command -->
-<!-- SUBTITLE: a command in the Window Commands group -->
+<!-- SUBTITLE: a command in the Window Commands group. [Go To Automation Commands Overview](/automation-commands) -->
 # Set Window State Command
 
 
@@ -22,10 +22,9 @@ Use this command when you want to change a window's state to minimized, maximize
 ## Developer/Additional Reference
 Automation Class Name: SetWindowStateCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:04 PM
+This page was generated on 10/11/18 06:09 PM
 
 
 ## Help
-[Report this document for inaccuracy](/#)
-[Open/Report an issue on GitHub](/#)
-[Ask a question on Gitter](/#)
+[Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+[Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

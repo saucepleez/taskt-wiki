@@ -1,5 +1,5 @@
 <!--TITLE: Split Command -->
-<!-- SUBTITLE: a command in the Data Commands group -->
+<!-- SUBTITLE: a command in the Data Commands group. [Go To Automation Commands Overview](/automation-commands) -->
 # Split Command
 
 
@@ -23,10 +23,9 @@ Use this command when you want to split a single text or variable into multiple 
 ## Developer/Additional Reference
 Automation Class Name: StringSplitCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:04 PM
+This page was generated on 10/11/18 06:09 PM
 
 
 ## Help
-[Report this document for inaccuracy](/#)
-[Open/Report an issue on GitHub](/#)
-[Ask a question on Gitter](/#)
+[Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+[Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

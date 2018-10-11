@@ -1,5 +1,5 @@
 <!--TITLE: Navigate Forward Command -->
-<!-- SUBTITLE: a command in the Web Browser Commands group -->
+<!-- SUBTITLE: a command in the Web Browser Commands group. [Go To Automation Commands Overview](/automation-commands) -->
 # Navigate Forward Command
 
 
@@ -21,10 +21,9 @@ Use this command when you want to simulate a forward click in the web browser se
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserNavigateForwardCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:04 PM
+This page was generated on 10/11/18 06:09 PM
 
 
 ## Help
-[Report this document for inaccuracy](/#)
-[Open/Report an issue on GitHub](/#)
-[Ask a question on Gitter](/#)
+[Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+[Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
