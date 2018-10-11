@@ -23,7 +23,7 @@ Use this command when you want to click a specific item within an application by
 ## Developer/Additional Reference
 Automation Class Name: ThickAppClickItemCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 05:58 PM
+This page was generated on 10/11/18 06:04 PM
 
 
 ## Help

@@ -22,7 +22,7 @@ Use this command when you want to close an open instance of Excel.
 ## Developer/Additional Reference
 Automation Class Name: ExcelCloseApplicationCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 05:58 PM
+This page was generated on 10/11/18 06:04 PM
 
 
 ## Help

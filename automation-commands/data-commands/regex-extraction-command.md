@@ -24,7 +24,7 @@ Use this command when you want to perform an advanced RegEx extraction from a te
 ## Developer/Additional Reference
 Automation Class Name: RegExExtractorCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 05:58 PM
+This page was generated on 10/11/18 06:04 PM
 
 
 ## Help

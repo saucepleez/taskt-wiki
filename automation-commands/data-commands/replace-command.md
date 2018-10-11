@@ -24,7 +24,7 @@ Use this command when you want to replace existing text within text or a variabl
 ## Developer/Additional Reference
 Automation Class Name: StringReplaceCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 05:58 PM
+This page was generated on 10/11/18 06:04 PM
 
 
 ## Help

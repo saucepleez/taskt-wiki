@@ -20,7 +20,7 @@ Use this command to signify that looping should end and commands outside the loo
 ## Developer/Additional Reference
 Automation Class Name: ExitLoopCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 05:58 PM
+This page was generated on 10/11/18 06:04 PM
 
 
 ## Help

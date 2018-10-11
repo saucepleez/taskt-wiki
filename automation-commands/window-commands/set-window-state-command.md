@@ -22,7 +22,7 @@ Use this command when you want to change a window's state to minimized, maximize
 ## Developer/Additional Reference
 Automation Class Name: SetWindowStateCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 05:58 PM
+This page was generated on 10/11/18 06:04 PM
 
 
 ## Help
