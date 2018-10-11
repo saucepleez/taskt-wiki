@@ -4,24 +4,24 @@
 
 
 ## What does this command do?
-Use this command to simulate mouse click on coordinates.
+Simulates mouse clicks.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command to simulate multiple types of mouse clicks.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please indicate mouse click type|Data not specified|Data not specified|Data not specified|
+|Please indicate mouse click type|Indicate the type of click required|Select from **Left Click**, **Middle Click**, **Right Click**, **Double Left Click**, **Left Down**, **Middle Down**, **Right Down**, **Left Up**, **Middle Up**, **Right Up** |You can simulate custom click by using multiple mouse click commands in succession, adding **Pause Command** in between where required.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: SendMouseClickCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 08:09 PM
+This page was generated on 10/10/18 09:16 PM
 
 
 ## Help

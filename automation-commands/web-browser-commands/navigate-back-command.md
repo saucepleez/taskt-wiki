@@ -21,7 +21,7 @@ Use this command when you want to simulate a back click in the web browser sessi
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserNavigateBackCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 08:09 PM
+This page was generated on 10/10/18 09:16 PM
 
 
 ## Help

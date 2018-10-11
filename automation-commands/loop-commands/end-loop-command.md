@@ -8,7 +8,7 @@ This command signifies the exit point of looped (repeated) actions.  Required fo
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command to signify the end point of a loop command.
 
 
 ## Command Parameters
@@ -20,7 +20,7 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: EndLoopCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 08:09 PM
+This page was generated on 10/10/18 09:16 PM
 
 
 ## Help

@@ -21,7 +21,7 @@ Use this command when you want to active a window by name or bring it to attenti
 ## Developer/Additional Reference
 Automation Class Name: ActivateWindowCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 08:09 PM
+This page was generated on 10/10/18 09:16 PM
 
 
 ## Help

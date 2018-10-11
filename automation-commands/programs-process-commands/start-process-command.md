@@ -4,25 +4,25 @@
 
 
 ## What does this command do?
-This command allows you to start a program or a process. You can use short names 'chrome.exe' or fully qualified names 'c:/some.exe'
+This command allows you to start a program or a process.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command to start applications by entering their name such as 'chrome.exe' or a fully qualified path to a file 'c:/some.exe'
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please enter the name or path to the program (ex. notepad, calc)|Data not specified|Data not specified|Data not specified|
-|Please enter any arguments (if applicable)|Data not specified|Data not specified|Data not specified|
+|Please enter the name or path to the program (ex. notepad, calc)|Provide a valid program name or enter a full path to the script/executable including the extension|**notepad**, **calc**, **c:\temp\myapp.exe**||
+|Please enter any arguments (if applicable)|Enter any arguments or flags if applicable.| **-a** or **-version**|You will need to consult documentation to determine if your executable supports arguments or flags on startup.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: StartProcessCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 08:09 PM
+This page was generated on 10/10/18 09:16 PM
 
 
 ## Help

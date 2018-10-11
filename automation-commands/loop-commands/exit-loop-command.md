@@ -8,7 +8,7 @@ This command signifies the current loop should exit and resume work past the poi
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command to signify that looping should end and commands outside the loop should resume execution.
 
 
 ## Command Parameters
@@ -20,7 +20,7 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: ExitLoopCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 08:09 PM
+This page was generated on 10/10/18 09:16 PM
 
 
 ## Help

@@ -8,20 +8,20 @@ This command allows you to loop through an Excel Dataset
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to iterate over a series of Excel cells.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please indicate the Excel DataSet Name|Data not specified|Data not specified|Data not specified|
+|Please indicate the Excel DataSet Name|Enter a unique dataset name that will be used later to traverse over the data|**myData**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: BeginExcelDatasetLoopCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 08:09 PM
+This page was generated on 10/10/18 09:16 PM
 
 
 ## Help

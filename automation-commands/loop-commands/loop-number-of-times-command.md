@@ -8,20 +8,20 @@ This command allows you to repeat actions several times (loop).  Any 'Begin Loop
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to perform a series of commands a specified amount of times.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Enter how many times to perform the loop|Data not specified|Data not specified|Data not specified|
+|Enter how many times to perform the loop|Enter the amount of times you would like to perform the encased commands.|**5** or **10**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: BeginNumberOfTimesLoopCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 08:09 PM
+This page was generated on 10/10/18 09:16 PM
 
 
 ## Help

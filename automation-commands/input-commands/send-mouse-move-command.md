@@ -4,26 +4,26 @@
 
 
 ## What does this command do?
-Use this command to simulate mouse movement and click the mouse on coordinates.
+Simulates mouse movements
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command to simulate the movement of the mouse, additionally, this command also allows you to perform a click after movement has completed.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please enter the X position to move the mouse to|Data not specified|Data not specified|Data not specified|
-|Please enter the Y position to move the mouse to|Data not specified|Data not specified|Data not specified|
-|Please indicate mouse click type if required|Data not specified|Data not specified|Data not specified|
+|Please enter the X position to move the mouse to|Input the new horizontal coordinate of the mouse, 0 starts at the left and goes to the right|0|This number is the pixel location on screen. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid range could be 0-1920|
+|Please enter the Y position to move the mouse to|Input the new horizontal coordinate of the window, 0 starts at the left and goes down|0|This number is the pixel location on screen. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid range could be 0-1080|
+|Please indicate mouse click type if required|Indicate the type of click required|Select from **Left Click**, **Middle Click**, **Right Click**, **Double Left Click**, **Left Down**, **Middle Down**, **Right Down**, **Left Up**, **Middle Up**, **Right Up** |You can simulate custom click by using multiple mouse click commands in succession, adding **Pause Command** in between where required.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: SendMouseMoveCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 08:09 PM
+This page was generated on 10/10/18 09:16 PM
 
 
 ## Help

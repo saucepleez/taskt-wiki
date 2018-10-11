@@ -8,7 +8,7 @@ This command allows you to repeat actions continuously.  Any 'Begin Loop' comman
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to perform a series of commands an endless amount of times.
 
 
 ## Command Parameters
@@ -20,7 +20,7 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: BeginContinousLoopCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 08:09 PM
+This page was generated on 10/10/18 09:16 PM
 
 
 ## Help
