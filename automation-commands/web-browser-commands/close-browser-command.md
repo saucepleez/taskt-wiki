@@ -21,7 +21,7 @@ Use this command when you want to close and end a web browser session.
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCloseCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 09:16 PM
+This page was generated on 10/11/18 05:58 PM
 
 
 ## Help

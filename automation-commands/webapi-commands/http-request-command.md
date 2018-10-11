@@ -8,21 +8,21 @@ This command downloads the HTML source of a web page for parsing
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to retrieve HTML of a web page without using browser automation.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Enter the URL|Data not specified|Data not specified|Data not specified|
-|Apply Result To Variable|Data not specified|Data not specified|Data not specified|
+|Please Enter the URL|Enter a valid URL that you want to collect data from.|http://mycompany.com/news or [vCompany]||
+|Apply Result To Variable|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: HTTPRequestCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 09:16 PM
+This page was generated on 10/11/18 05:58 PM
 
 
 ## Help

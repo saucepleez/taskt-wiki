@@ -4,11 +4,11 @@
 
 
 ## What does this command do?
-This command allows you to stop the script from executing.
+This command stops the current task.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to stop the current running task.
 
 
 ## Command Parameters
@@ -20,7 +20,7 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: StopTaskCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 09:16 PM
+This page was generated on 10/11/18 05:58 PM
 
 
 ## Help

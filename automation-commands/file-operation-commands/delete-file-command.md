@@ -14,14 +14,14 @@ Data not specified
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please indicate the path to the source file|Data not specified|Data not specified|Data not specified|
+|Please indicate the path to the source file|Enter or Select the path to the file.|C:\temp\myfile.txt or [vTextFilePath]||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: DeleteFileCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 09:16 PM
+This page was generated on 10/11/18 05:58 PM
 
 
 ## Help

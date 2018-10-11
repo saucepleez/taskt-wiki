@@ -4,11 +4,11 @@
 
 
 ## What does this command do?
-TBD
+This command declares the seperation between the actions based on the 'true' or 'false' condition.
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to signify the exit point of your if scenario
 
 
 ## Command Parameters
@@ -20,7 +20,7 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: ElseCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 09:16 PM
+This page was generated on 10/11/18 05:58 PM
 
 
 ## Help

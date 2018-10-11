@@ -25,7 +25,7 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserElementActionCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 09:16 PM
+This page was generated on 10/11/18 05:58 PM
 
 
 ## Help

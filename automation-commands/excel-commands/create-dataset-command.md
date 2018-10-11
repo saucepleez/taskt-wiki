@@ -8,22 +8,22 @@ This command gets a range of cells and applies them against a dataset
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command when you want to quickly iterate over Excel as a dataset.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please create a DataSet name|Data not specified|Data not specified|Data not specified|
-|Please indicate the workbook file path|Data not specified|Data not specified|Data not specified|
-|Please indicate the sheet name|Data not specified|Data not specified|Data not specified|
+|Please create a DataSet name|Indicate a unique reference name for later use|vMyDataset||
+|Please indicate the workbook file path|Enter or Select the path to the workbook file|C:\temp\myfile.xlsx|This command does not require Excel to be opened.  A snapshot will be taken of the workbook as it exists at the time this command runs.|
+|Please indicate the sheet name|Indicate the specific sheet that should be retrieved.|Sheet1, mySheet, [vSheet]||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: ExcelCreateDataSetCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 09:16 PM
+This page was generated on 10/11/18 05:58 PM
 
 
 ## Help

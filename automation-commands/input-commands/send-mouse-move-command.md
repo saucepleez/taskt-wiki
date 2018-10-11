@@ -23,7 +23,7 @@ Use this command to simulate the movement of the mouse, additionally, this comma
 ## Developer/Additional Reference
 Automation Class Name: SendMouseMoveCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 09:16 PM
+This page was generated on 10/11/18 05:58 PM
 
 
 ## Help

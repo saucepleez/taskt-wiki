@@ -8,22 +8,22 @@ This command allows you to find the last row in a used range in an Excel Workboo
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command to determine how many rows have been used in the Excel Workbook.  You can use this value in a **Number Of Times** Loop to get data.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Enter the instance name|Data not specified|Data not specified|Data not specified|
-|Please Enter Letter of the Column to check (ex. A, B, C)|Data not specified|Data not specified|Data not specified|
-|Please select the variable to receive the row number|Data not specified|Data not specified|Data not specified|
+|Please Enter the instance name|Enter the unique instance name that was specified in the **Create Excel** command|**myInstance** or **seleniumInstance**|Failure to enter the correct instance name or failure to first call **Create Excel** command will cause an error|
+|Please Enter Letter of the Column to check (ex. A, B, C)|Enter a valid column letter|A, B, AA, etc.||
+|Please select the variable to receive the row number|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetLastRowCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/10/18 09:16 PM
+This page was generated on 10/11/18 05:58 PM
 
 
 ## Help
