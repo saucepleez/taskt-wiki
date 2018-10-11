@@ -1,5 +1,8 @@
 <!--TITLE: Send Mouse Move Command -->
-<!-- SUBTITLE: a command in the Input Commands group. [Go To Automation Commands Overview](/automation-commands) -->
+<!-- SUBTITLE: a command in the Input Commands group. -->
+[Go To Automation Commands Overview](/automation-commands)
+
+
 # Send Mouse Move Command
 
 
@@ -23,7 +26,7 @@ Use this command to simulate the movement of the mouse, additionally, this comma
 ## Developer/Additional Reference
 Automation Class Name: SendMouseMoveCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:09 PM
+This page was generated on 10/11/18 06:14 PM
 
 
 ## Help

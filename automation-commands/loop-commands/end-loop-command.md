@@ -1,5 +1,8 @@
 <!--TITLE: End Loop Command -->
-<!-- SUBTITLE: a command in the Loop Commands group. [Go To Automation Commands Overview](/automation-commands) -->
+<!-- SUBTITLE: a command in the Loop Commands group. -->
+[Go To Automation Commands Overview](/automation-commands)
+
+
 # End Loop Command
 
 
@@ -20,7 +23,7 @@ Use this command to signify the end point of a loop command.
 ## Developer/Additional Reference
 Automation Class Name: EndLoopCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:09 PM
+This page was generated on 10/11/18 06:14 PM
 
 
 ## Help

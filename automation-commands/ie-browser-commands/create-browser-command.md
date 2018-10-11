@@ -1,5 +1,8 @@
 <!--TITLE: Create Browser Command -->
-<!-- SUBTITLE: a command in the IE Browser Commands group. [Go To Automation Commands Overview](/automation-commands) -->
+<!-- SUBTITLE: a command in the IE Browser Commands group. -->
+[Go To Automation Commands Overview](/automation-commands)
+
+
 # Create Browser Command
 
 
@@ -21,7 +24,7 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: IEBrowserCreateCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:09 PM
+This page was generated on 10/11/18 06:14 PM
 
 
 ## Help

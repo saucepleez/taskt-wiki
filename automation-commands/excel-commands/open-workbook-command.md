@@ -1,5 +1,8 @@
 <!--TITLE: Open Workbook Command -->
-<!-- SUBTITLE: a command in the Excel Commands group. [Go To Automation Commands Overview](/automation-commands) -->
+<!-- SUBTITLE: a command in the Excel Commands group. -->
+[Go To Automation Commands Overview](/automation-commands)
+
+
 # Open Workbook Command
 
 
@@ -22,7 +25,7 @@ Use this command when you want to open an existing Excel Workbook.
 ## Developer/Additional Reference
 Automation Class Name: ExcelOpenWorkbookCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:09 PM
+This page was generated on 10/11/18 06:14 PM
 
 
 ## Help

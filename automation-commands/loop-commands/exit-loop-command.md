@@ -1,5 +1,8 @@
 <!--TITLE: Exit Loop Command -->
-<!-- SUBTITLE: a command in the Loop Commands group. [Go To Automation Commands Overview](/automation-commands) -->
+<!-- SUBTITLE: a command in the Loop Commands group. -->
+[Go To Automation Commands Overview](/automation-commands)
+
+
 # Exit Loop Command
 
 
@@ -20,7 +23,7 @@ Use this command to signify that looping should end and commands outside the loo
 ## Developer/Additional Reference
 Automation Class Name: ExitLoopCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:09 PM
+This page was generated on 10/11/18 06:14 PM
 
 
 ## Help

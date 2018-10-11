@@ -1,5 +1,8 @@
 <!--TITLE: Error Handling Command -->
-<!-- SUBTITLE: a command in the Misc Commands group. [Go To Automation Commands Overview](/automation-commands) -->
+<!-- SUBTITLE: a command in the Misc Commands group. -->
+[Go To Automation Commands Overview](/automation-commands)
+
+
 # Error Handling Command
 
 
@@ -21,7 +24,7 @@ Use this command when you want to define how your script should behave when an e
 ## Developer/Additional Reference
 Automation Class Name: ErrorHandlingCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:09 PM
+This page was generated on 10/11/18 06:14 PM
 
 
 ## Help

@@ -1,5 +1,8 @@
 <!--TITLE: End If Command -->
-<!-- SUBTITLE: a command in the If Commands group. [Go To Automation Commands Overview](/automation-commands) -->
+<!-- SUBTITLE: a command in the If Commands group. -->
+[Go To Automation Commands Overview](/automation-commands)
+
+
 # End If Command
 
 
@@ -20,7 +23,7 @@ Use this command when you want to signify the exit point of your if scenario
 ## Developer/Additional Reference
 Automation Class Name: EndIfCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:09 PM
+This page was generated on 10/11/18 06:14 PM
 
 
 ## Help

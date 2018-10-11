@@ -1,5 +1,8 @@
 <!--TITLE: Refresh Command -->
-<!-- SUBTITLE: a command in the Web Browser Commands group. [Go To Automation Commands Overview](/automation-commands) -->
+<!-- SUBTITLE: a command in the Web Browser Commands group. -->
+[Go To Automation Commands Overview](/automation-commands)
+
+
 # Refresh Command
 
 
@@ -21,7 +24,7 @@ Use this command when you want to simulate a browser refresh click in the web br
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserRefreshCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:09 PM
+This page was generated on 10/11/18 06:14 PM
 
 
 ## Help

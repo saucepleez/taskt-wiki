@@ -1,5 +1,8 @@
 <!--TITLE: Close Window Command -->
-<!-- SUBTITLE: a command in the Window Commands group. [Go To Automation Commands Overview](/automation-commands) -->
+<!-- SUBTITLE: a command in the Window Commands group. -->
+[Go To Automation Commands Overview](/automation-commands)
+
+
 # Close Window Command
 
 
@@ -21,7 +24,7 @@ Use this command when you want to close an existing window by name.
 ## Developer/Additional Reference
 Automation Class Name: CloseWindowCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:09 PM
+This page was generated on 10/11/18 06:14 PM
 
 
 ## Help

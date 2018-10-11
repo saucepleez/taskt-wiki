@@ -1,5 +1,8 @@
 <!--TITLE: Read Text File Command -->
-<!-- SUBTITLE: a command in the Text File Commands group. [Go To Automation Commands Overview](/automation-commands) -->
+<!-- SUBTITLE: a command in the Text File Commands group. -->
+[Go To Automation Commands Overview](/automation-commands)
+
+
 # Read Text File Command
 
 
@@ -22,7 +25,7 @@ Use this command when you want to read data from text files.
 ## Developer/Additional Reference
 Automation Class Name: ReadTextFileCommand
 Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:09 PM
+This page was generated on 10/11/18 06:14 PM
 
 
 ## Help

@@ -83,7 +83,7 @@
 |File Operation Commands|[Delete File](/automation-commands/file-operation-commands/delete-file-command)|This command deletes a file from a specified destination|
 |File Operation Commands|[Rename File](/automation-commands/file-operation-commands/rename-file-command)|This command moves a file to a specified destination|
 |File Operation Commands|[Wait For File](/automation-commands/file-operation-commands/wait-for-file-command)|This command waits for a file to exist at a specified destination|
-This page was generated on 10/11/18 06:09 PM
+This page was generated on 10/11/18 06:14 PM
 
 
 ## Help
