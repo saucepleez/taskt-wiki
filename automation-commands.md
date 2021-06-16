@@ -181,7 +181,7 @@
 |Word Commands|[Save Document](/automation-commands/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |DataTable Commands|[Write DataRow Value](/automation-commands/datatable-commands/write-datarow-value-command.md)|This command allows you to write a Value to a DataRow|
 |Text File Commands|[Write Text File](/automation-commands/text-file-commands/write-text-file-command.md)|This command writes specified data to a text file|
-This page was generated on 06/16/21 10:47 午後
+This page was generated on 06/16/21 10:47 PM
 
 
 ## Help
