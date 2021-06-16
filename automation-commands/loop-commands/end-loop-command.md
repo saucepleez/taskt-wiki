@@ -22,8 +22,8 @@ Use this command to signify the end point of a loop command.
 
 ## Developer/Additional Reference
 Automation Class Name: EndLoopCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/16/21 10:47 午後
 
 
 ## Help

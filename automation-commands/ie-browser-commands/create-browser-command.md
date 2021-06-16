@@ -18,13 +18,15 @@ Data not specified
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please Enter the instance name|Data not specified|Data not specified|Data not specified|
+|Instance Tracking (after task ends)|Specify if taskt should remember this instance name after the script has finished executing.|Select **Forget Instance** to forget the instance or **Keep Instance Alive** to allow subsequent tasks to call the instance by name.|Calling the **Close Browser** command or ending the browser session will end the instance.  This command only works during the lifetime of the application.  If the application is closed, the references will be forgetten automatically.|
+|Please Enter the URL to navigate to|Data not specified|Data not specified|Data not specified|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: IEBrowserCreateCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/16/21 10:47 午後
 
 
 ## Help

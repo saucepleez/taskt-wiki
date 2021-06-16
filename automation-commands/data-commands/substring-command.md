@@ -17,7 +17,7 @@ Use this command when you want to select a subset of text or variable
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please select a variable to modify|Select or provide a variable from the variable list|**vSomeVariable**||
+|Please select a variable or text to modify|Select or provide a variable from the variable list|**vSomeVariable**||
 |Start from Position|Indicate the starting position within the string|0 for beginning, 1 for first character, etc.||
 |Optional - Length (-1 to keep remainder)|Indicate if only so many characters should be kept|-1 to keep remainder, 1 for 1 position after start index, etc.||
 |Please select the variable to receive the changes|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
@@ -26,8 +26,8 @@ Use this command when you want to select a subset of text or variable
 
 ## Developer/Additional Reference
 Automation Class Name: StringSubstringCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/16/21 10:47 午後
 
 
 ## Help

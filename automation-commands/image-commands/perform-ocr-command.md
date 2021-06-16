@@ -24,8 +24,8 @@ Use this command when you want to convert an image into text.  You can then use 
 
 ## Developer/Additional Reference
 Automation Class Name: OCRCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/16/21 10:47 午後
 
 
 ## Help

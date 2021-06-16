@@ -7,11 +7,11 @@
 
 
 ## What does this command do?
-This command moves a file to a specified destination
+This command renames a file at a specified destination
 
 
 ## When would I want to use this command?
-Data not specified
+Use this command to rename an existing file.
 
 
 ## Command Parameters
@@ -24,8 +24,8 @@ Data not specified
 
 ## Developer/Additional Reference
 Automation Class Name: RenameFileCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/16/21 10:47 午後
 
 
 ## Help

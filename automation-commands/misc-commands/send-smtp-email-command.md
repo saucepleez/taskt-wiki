@@ -25,13 +25,15 @@ Use this command when you want to send an email and have access to SMTP server c
 |To Email|Specify the destination email that should be addressed.|jason@company.com||
 |Subject|Define the text subject (or variable) that the email should have.|**Alert!** or **[vStatus]**||
 |Body|Specify the message that should be sent.|**Everything ran ok at [DateTime.Now]**||
+|Attachment Path (Optional)|Indicates the file path to attachment.|**c:\temp\file.txt**||
+|SSL Validation|Select the appropriate option|Select from **Validate SSL**, **Bypass SSL Validation**|This field manages whether taskt will attempt to validate the SSL connection|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: SMTPSendEmailCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/16/21 10:47 午後
 
 
 ## Help
