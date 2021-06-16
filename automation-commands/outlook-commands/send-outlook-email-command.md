@@ -1,6 +1,6 @@
 <!--TITLE: Send Outlook Email Command -->
 <!-- SUBTITLE: a command in the Outlook Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Send Outlook Email Command

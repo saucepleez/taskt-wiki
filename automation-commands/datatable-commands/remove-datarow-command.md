@@ -1,6 +1,6 @@
 <!--TITLE: Remove DataRow Command -->
 <!-- SUBTITLE: a command in the DataTable Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Remove DataRow Command

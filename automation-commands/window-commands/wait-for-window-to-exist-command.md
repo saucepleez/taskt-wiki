@@ -1,6 +1,6 @@
 <!--TITLE: Wait For Window To Exist Command -->
 <!-- SUBTITLE: a command in the Window Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Wait For Window To Exist Command

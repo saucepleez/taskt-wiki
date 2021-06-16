@@ -1,6 +1,6 @@
 <!--TITLE: System Action Command -->
 <!-- SUBTITLE: a command in the System Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # System Action Command

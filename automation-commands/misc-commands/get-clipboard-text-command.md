@@ -1,6 +1,6 @@
 <!--TITLE: Get Clipboard Text Command -->
 <!-- SUBTITLE: a command in the Misc Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Get Clipboard Text Command

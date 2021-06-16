@@ -1,6 +1,6 @@
 <!--TITLE: UI Automation Command -->
 <!-- SUBTITLE: a command in the Input Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # UI Automation Command

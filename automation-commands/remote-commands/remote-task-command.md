@@ -1,6 +1,6 @@
 <!--TITLE: Remote Task Command -->
 <!-- SUBTITLE: a command in the Remote Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Remote Task Command

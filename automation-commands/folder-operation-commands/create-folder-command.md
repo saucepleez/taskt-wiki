@@ -1,6 +1,6 @@
 <!--TITLE: Create Folder Command -->
 <!-- SUBTITLE: a command in the Folder Operation Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Create Folder Command

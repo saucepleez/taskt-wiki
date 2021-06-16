@@ -1,6 +1,6 @@
 <!--TITLE: Remote API Command -->
 <!-- SUBTITLE: a command in the Remote Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Remote API Command

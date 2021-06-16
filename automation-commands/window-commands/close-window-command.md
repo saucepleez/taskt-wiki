@@ -1,6 +1,6 @@
 <!--TITLE: Close Window Command -->
 <!-- SUBTITLE: a command in the Window Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Close Window Command

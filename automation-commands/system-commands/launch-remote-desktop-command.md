@@ -1,6 +1,6 @@
 <!--TITLE: Launch Remote Desktop Command -->
 <!-- SUBTITLE: a command in the System Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Launch Remote Desktop Command

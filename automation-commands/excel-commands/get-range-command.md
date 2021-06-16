@@ -1,6 +1,6 @@
 <!--TITLE: Get Range Command -->
 <!-- SUBTITLE: a command in the Excel Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Get Range Command

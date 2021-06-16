@@ -1,6 +1,6 @@
 <!--TITLE: Execute REST API Command -->
 <!-- SUBTITLE: a command in the API Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Execute REST API Command

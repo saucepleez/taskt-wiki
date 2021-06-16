@@ -1,6 +1,6 @@
 <!--TITLE: Move/Copy File Command -->
 <!-- SUBTITLE: a command in the File Operation Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Move/Copy File Command

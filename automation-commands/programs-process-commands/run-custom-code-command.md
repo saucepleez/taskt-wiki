@@ -1,6 +1,6 @@
 <!--TITLE: Run Custom Code Command -->
 <!-- SUBTITLE: a command in the Programs/Process Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Run Custom Code Command

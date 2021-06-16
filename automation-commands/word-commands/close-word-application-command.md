@@ -1,6 +1,6 @@
 <!--TITLE: Close Word Application Command -->
 <!-- SUBTITLE: a command in the Word Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Close Word Application Command

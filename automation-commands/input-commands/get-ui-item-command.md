@@ -1,6 +1,6 @@
 <!--TITLE: Get UI Item Command -->
 <!-- SUBTITLE: a command in the Input Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Get UI Item Command

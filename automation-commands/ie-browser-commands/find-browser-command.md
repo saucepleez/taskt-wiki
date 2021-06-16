@@ -1,6 +1,6 @@
 <!--TITLE: Find Browser Command -->
 <!-- SUBTITLE: a command in the IE Browser Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Find Browser Command

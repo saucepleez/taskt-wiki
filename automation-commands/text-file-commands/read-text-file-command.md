@@ -1,6 +1,6 @@
 <!--TITLE: Read Text File Command -->
 <!-- SUBTITLE: a command in the Text File Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Read Text File Command

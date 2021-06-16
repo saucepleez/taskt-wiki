@@ -1,6 +1,6 @@
 <!--TITLE: Throw Exception Command -->
 <!-- SUBTITLE: a command in the Error Handling Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Throw Exception Command

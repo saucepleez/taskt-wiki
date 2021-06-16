@@ -1,6 +1,6 @@
 <!--TITLE: Set Engine Delay Command -->
 <!-- SUBTITLE: a command in the Engine Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Set Engine Delay Command

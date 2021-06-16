@@ -1,6 +1,6 @@
 <!--TITLE: Generate NLG Phrase Command -->
 <!-- SUBTITLE: a command in the NLG Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Generate NLG Phrase Command

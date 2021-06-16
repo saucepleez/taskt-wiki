@@ -1,6 +1,6 @@
 <!--TITLE: Else Command -->
 <!-- SUBTITLE: a command in the If Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Else Command

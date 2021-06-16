@@ -1,6 +1,6 @@
 <!--TITLE: Image Recognition Command -->
 <!-- SUBTITLE: a command in the Image Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Image Recognition Command

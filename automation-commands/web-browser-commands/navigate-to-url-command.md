@@ -1,6 +1,6 @@
 <!--TITLE: Navigate to URL Command -->
 <!-- SUBTITLE: a command in the Web Browser Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Navigate to URL Command

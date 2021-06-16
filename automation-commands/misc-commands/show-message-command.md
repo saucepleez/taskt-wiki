@@ -1,6 +1,6 @@
 <!--TITLE: Show Message Command -->
 <!-- SUBTITLE: a command in the Misc Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Show Message Command

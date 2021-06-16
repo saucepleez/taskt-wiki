@@ -1,6 +1,6 @@
 <!--TITLE: Write DataRow Value Command -->
 <!-- SUBTITLE: a command in the DataTable Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Write DataRow Value Command

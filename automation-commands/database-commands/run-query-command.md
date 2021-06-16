@@ -1,6 +1,6 @@
 <!--TITLE: Run Query Command -->
 <!-- SUBTITLE: a command in the Database Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Run Query Command

@@ -1,6 +1,6 @@
 <!--TITLE: Prompt for HTML Input Command -->
 <!-- SUBTITLE: a command in the Input Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Prompt for HTML Input Command

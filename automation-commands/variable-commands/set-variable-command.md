@@ -1,6 +1,6 @@
 <!--TITLE: Set Variable Command -->
 <!-- SUBTITLE: a command in the Variable Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Set Variable Command

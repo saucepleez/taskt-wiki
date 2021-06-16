@@ -1,6 +1,6 @@
 <!--TITLE: Loop Number Of Times Command -->
 <!-- SUBTITLE: a command in the Loop Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Loop Number Of Times Command

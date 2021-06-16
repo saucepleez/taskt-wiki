@@ -1,6 +1,6 @@
 <!--TITLE: Get Dictionary Item Command -->
 <!-- SUBTITLE: a command in the Dictionary Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Get Dictionary Item Command

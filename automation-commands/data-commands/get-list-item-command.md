@@ -1,6 +1,6 @@
 <!--TITLE: Get List Item Command -->
 <!-- SUBTITLE: a command in the Data Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Get List Item Command

@@ -1,6 +1,6 @@
 <!--TITLE: End Loop Command -->
 <!-- SUBTITLE: a command in the Loop Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # End Loop Command

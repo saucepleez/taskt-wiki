@@ -1,6 +1,6 @@
 <!--TITLE: Send Advanced Keystrokes Command -->
 <!-- SUBTITLE: a command in the Input Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Send Advanced Keystrokes Command

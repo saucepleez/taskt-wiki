@@ -1,6 +1,6 @@
 <!--TITLE: RegEx Extraction Command -->
 <!-- SUBTITLE: a command in the Data Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # RegEx Extraction Command

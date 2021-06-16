@@ -1,6 +1,6 @@
 <!--TITLE: Add Code Comment Command -->
 <!-- SUBTITLE: a command in the Misc Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Add Code Comment Command
