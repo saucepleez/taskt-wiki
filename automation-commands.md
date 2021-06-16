@@ -1,5 +1,6 @@
 <!--TITLE: Automation Commands -->
 <!-- SUBTITLE: an overview of available commands in taskt. -->
+
 ## Automation Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
