@@ -1,6 +1,6 @@
 <!--TITLE: Run Query Command -->
 <!-- SUBTITLE: a command in the Database Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Run Query Command
@@ -25,8 +25,8 @@ Use this command to select data from a database.
 
 ## Developer/Additional Reference
 Automation Class Name: DatabaseRunQueryCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

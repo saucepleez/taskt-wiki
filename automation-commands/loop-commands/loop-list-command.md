@@ -1,6 +1,6 @@
 <!--TITLE: Loop List Command -->
 <!-- SUBTITLE: a command in the Loop Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Loop List Command
@@ -17,14 +17,14 @@ Use this command when you want to iterate over each item in a list, or a series 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please input the list variable to be looped|Enter a variable which contains a list of items|[vMyList]|Use this command to iterate over the results of the Split command.|
+|Please input the list variable to be looped|Enter a variable which contains a list of items|{vMyList}|Use this command to iterate over the results of the Split command.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: BeginListLoopCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

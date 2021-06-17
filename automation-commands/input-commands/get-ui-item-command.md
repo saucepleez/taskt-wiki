@@ -1,6 +1,6 @@
 <!--TITLE: Get UI Item Command -->
 <!-- SUBTITLE: a command in the Input Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Get UI Item Command
@@ -26,8 +26,8 @@ Use this command when you want to get text from a specific handle in a window.
 
 ## Developer/Additional Reference
 Automation Class Name: ThickAppGetTextCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

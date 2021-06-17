@@ -1,6 +1,6 @@
 <!--TITLE: Image Recognition Command -->
 <!-- SUBTITLE: a command in the Image Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Image Recognition Command
@@ -27,8 +27,8 @@ Use this command when you want to attempt to locate an image on screen.  You can
 
 ## Developer/Additional Reference
 Automation Class Name: ImageRecognitionCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

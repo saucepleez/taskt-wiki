@@ -1,6 +1,6 @@
 <!--TITLE: UI Automation Command -->
 <!-- SUBTITLE: a command in the Input Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # UI Automation Command
@@ -26,8 +26,8 @@ Data not specified
 
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

@@ -1,6 +1,6 @@
 <!--TITLE: Start Process Command -->
 <!-- SUBTITLE: a command in the Programs/Process Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Start Process Command
@@ -19,13 +19,14 @@ Use this command to start applications by entering their name such as 'chrome.ex
 | ---                    | ---               | ---           | ---       |
 |Please enter the name or path to the program (ex. notepad, calc)|Provide a valid program name or enter a full path to the script/executable including the extension|**notepad**, **calc**, **c:\temp\myapp.exe**||
 |Please enter any arguments (if applicable)|Enter any arguments or flags if applicable.| **-a** or **-version**|You will need to consult documentation to determine if your executable supports arguments or flags on startup.|
+|Wait for the process to complete?|Wait For Exit.|Select 'Yes' or 'No'||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: StartProcessCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

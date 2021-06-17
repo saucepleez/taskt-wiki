@@ -1,6 +1,6 @@
 <!--TITLE: Stop Current Task Command -->
 <!-- SUBTITLE: a command in the Task Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Stop Current Task Command
@@ -22,8 +22,8 @@ Use this command when you want to stop the current running task.
 
 ## Developer/Additional Reference
 Automation Class Name: StopTaskCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

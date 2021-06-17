@@ -1,6 +1,6 @@
 <!--TITLE: Send SMTP Email Command -->
 <!-- SUBTITLE: a command in the Misc Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Send SMTP Email Command
@@ -23,15 +23,17 @@ Use this command when you want to send an email and have access to SMTP server c
 |Password|Define the password to use when contacting the SMTP service|**password**||
 |From Email|Specify how the 'From' field should appear.|myRobot@company.com||
 |To Email|Specify the destination email that should be addressed.|jason@company.com||
-|Subject|Define the text subject (or variable) that the email should have.|**Alert!** or **[vStatus]**||
-|Body|Specify the message that should be sent.|**Everything ran ok at [DateTime.Now]**||
+|Subject|Define the text subject (or variable) that the email should have.|**Alert!** or **{vStatus}**||
+|Body|Specify the message that should be sent.|**Everything ran ok at {DateTime.Now}**||
+|Attachment Path (Optional)|Indicates the file path to attachment.|**c:\temp\file.txt**||
+|SSL Validation|Select the appropriate option|Select from **Validate SSL**, **Bypass SSL Validation**|This field manages whether taskt will attempt to validate the SSL connection|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: SMTPSendEmailCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

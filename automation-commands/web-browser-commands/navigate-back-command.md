@@ -1,6 +1,6 @@
 <!--TITLE: Navigate Back Command -->
 <!-- SUBTITLE: a command in the Web Browser Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Navigate Back Command
@@ -23,8 +23,8 @@ Use this command when you want to simulate a back click in the web browser sessi
 
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserNavigateBackCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

@@ -1,6 +1,6 @@
 <!--TITLE: Take Screenshot Command -->
 <!-- SUBTITLE: a command in the Image Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Take Screenshot Command
@@ -24,8 +24,8 @@ Use this command when you want to take and save a screenshot.
 
 ## Developer/Additional Reference
 Automation Class Name: ScreenshotCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

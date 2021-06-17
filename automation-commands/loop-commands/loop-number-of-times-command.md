@@ -1,6 +1,6 @@
 <!--TITLE: Loop Number Of Times Command -->
 <!-- SUBTITLE: a command in the Loop Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Loop Number Of Times Command
@@ -18,13 +18,14 @@ Use this command when you want to perform a series of commands a specified amoun
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Enter how many times to perform the loop|Enter the amount of times you would like to perform the encased commands.|**5** or **10**||
+|Optional - Define Start Index (Default: 0)|Enter the starting index of the loop.|**5** or **10**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: BeginNumberOfTimesLoopCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

@@ -1,6 +1,6 @@
 <!--TITLE: Element Action Command -->
 <!-- SUBTITLE: a command in the IE Browser Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Element Action Command
@@ -19,15 +19,15 @@ Data not specified
 | ---                    | ---               | ---           | ---       |
 |Please Enter the instance name|Data not specified|Data not specified|Data not specified|
 |Please enter or capture element search parameters|Data not specified|Data not specified|Data not specified|
-|Please select an action|Data not specified|Data not specified|Data not specified|
+|IE Element Action|Select the appropriate corresponding action to take once the element has been located|Select from **Invoke Click**, **Set Text**, **Get Text**, **Get Attribute**|Selecting this field changes the parameters that will be required in the next step|
 |Action Parameters|Data not specified|Data not specified|Data not specified|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
-Automation Class Name: IEBrowserElementCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Automation Class Name: IEBrowserElementActionCommand
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

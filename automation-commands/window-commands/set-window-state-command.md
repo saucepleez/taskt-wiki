@@ -1,6 +1,6 @@
 <!--TITLE: Set Window State Command -->
 <!-- SUBTITLE: a command in the Window Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Set Window State Command
@@ -17,15 +17,15 @@ Use this command when you want to change a window's state to minimized, maximize
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Select or Type a window Name|Input or Type the name of the window that you want to change.|**Untitled - Notepad**||
-|Please Select a Window State|Select the appropriate window state required|Choose from **Minimize**, **Maximize** and **Restore**||
+|Please enter or select the window that you want to target for change.|Input or Type the name of the window that you want to change.|**Untitled - Notepad**||
+|Please choose the new required state of the window.|Select the appropriate window state required|Choose from **Minimize**, **Maximize** and **Restore**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: SetWindowStateCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

@@ -1,6 +1,6 @@
 <!--TITLE: Text Extraction Command -->
 <!-- SUBTITLE: a command in the Data Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Text Extraction Command
@@ -17,7 +17,7 @@ Use this command when you want to extract a piece of text from a larger text or 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Supply the value or variable requiring extraction (ex. [vSomeVariable])|Select or provide a variable or text value|**Hello** or **vSomeVariable**||
+|Supply the value or variable requiring extraction (ex. Hello, {vText})|Select or provide a variable or text value|**Hello** or **{vSomeVariable}**||
 |Please select text extraction type|Select the type of extraction that is required.|Select from Before Text, After Text, Between Text||
 |Extraction Parameters|Define the required extraction parameters, which is dependent on the type of extraction.|n/a||
 |Please select the variable to receive the extracted text|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
@@ -26,8 +26,8 @@ Use this command when you want to extract a piece of text from a larger text or 
 
 ## Developer/Additional Reference
 Automation Class Name: TextExtractorCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help

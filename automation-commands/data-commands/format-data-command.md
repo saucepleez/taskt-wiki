@@ -1,6 +1,6 @@
 <!--TITLE: Format Data Command -->
 <!-- SUBTITLE: a command in the Data Commands group. -->
-[Go To Automation Commands Overview](/automation-commands)
+[Go To Automation Commands Overview](/automation-commands.md)
 
 
 # Format Data Command
@@ -17,17 +17,17 @@ Use this command when you want to apply specific formatting to text or a variabl
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please supply the value or variable (ex. [DateTime.Now]|Specify either text or a variable that contains a date or number requiring formatting|[DateTime.Now], 1/1/2000, 2500|You can use known text or variables.|
-|Please select the type of data|Indicate the source type|Choose **Date** or **Number**||
-|Specify required output format|Specify if a specific string format is required.|MM/dd/yy, hh:mm, C2, D2, etc.||
+|Please supply the value or variable (ex. {DateTime.Now}, 2500, {vNum})|Specify either text or a variable that contains a date or number requiring formatting|{DateTime.Now}, 1/1/2000, 2500|You can use known text or variables.|
+|Please select the type of data|Indicate the source type|Choose **Date** or **Number** or **Path**||
+|Specify required output format (ex. yy/MM/dd, hh:mm, #.0)|Specify if a specific string format is required.|MM/dd/yy, hh:mm, C2, D2, etc.||
 |Please select the variable to receive output|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: FormatDataCommand
-Parent Namespace: taskt.Core.AutomationCommands
-This page was generated on 10/11/18 06:14 PM
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 06/17/21 09:39 午後
 
 
 ## Help
