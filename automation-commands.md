@@ -1,6 +1,5 @@
 <!--TITLE: Automation Commands -->
 <!-- SUBTITLE: an overview of available commands in taskt. -->
-
 ## Automation Commands
 ### API Commands
 | Command Group   	| Command Name 	|  Command Description	|
@@ -79,6 +78,7 @@
 | ---                | ---           | ---                   |
 |Excel Commands|[Activate Sheet](/automation-commands/excel-commands/activate-sheet-command.md)|This command allows you to activate a specific worksheet in a workbook|
 |Excel Commands|[Add Workbook](/automation-commands/excel-commands/add-workbook-command.md)|This command adds a new Excel Workbook.|
+|Excel Commands|[Add Worksheet](/automation-commands/excel-commands/add-worksheet-command.md)|This command adds a new Excel Worksheet.|
 |Excel Commands|[Append Cell](/automation-commands/excel-commands/append-cell-command.md)|Append input to last row of sheet into the first cell.|
 |Excel Commands|[Append Row](/automation-commands/excel-commands/append-row-command.md)|Append to last row of sheet.|
 |Excel Commands|[Close Excel Application](/automation-commands/excel-commands/close-excel-application-command.md)|This command allows you to close Excel.|
@@ -103,7 +103,7 @@
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |File Operation Commands|[Delete File](/automation-commands/file-operation-commands/delete-file-command.md)|This command deletes a file from a specified destination|
-|File Operation Commands|[Extract File](/automation-commands/file-operation-commands/extract-file-command.md)||
+|File Operation Commands|[Extract File](/automation-commands/file-operation-commands/extract-file-command.md)|This command extracts files from a compressed file|
 |File Operation Commands|[Get Files](/automation-commands/file-operation-commands/get-files-command.md)|This command returns a list of file paths from a specified location|
 |File Operation Commands|[Move/Copy File](/automation-commands/file-operation-commands/move-copy-file-command.md)|This command moves a file to a specified destination|
 |File Operation Commands|[Rename File](/automation-commands/file-operation-commands/rename-file-command.md)|This command renames a file at a specified destination|
@@ -214,8 +214,10 @@
 ### Task Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|Task Commands|[Load Task](/automation-commands/task-commands/load-task-command.md)|This command pre-loads tasks for future execution.|
 |Task Commands|[Run Task](/automation-commands/task-commands/run-task-command.md)|This command runs tasks.|
 |Task Commands|[Stop Current Task](/automation-commands/task-commands/stop-current-task-command.md)|This command stops the current task.|
+|Task Commands|[Unload Task](/automation-commands/task-commands/unload-task-command.md)|This command runs tasks.|
 ### Text File Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -267,7 +269,7 @@
 |Word Commands|[Replace Text](/automation-commands/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/automation-commands/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/automation-commands/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 06/17/21 09:39 午後
+This page was generated on 07/14/21 11:39 午後
 
 
 ## Help
