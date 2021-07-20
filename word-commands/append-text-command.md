@@ -30,7 +30,7 @@ Use this command when you want to append text to a specific document.
 ## Developer/Additional Reference
 Automation Class Name: WordAppendTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/14/21 11:39 午後
+This page was generated on 07/21/21 12:05 午前
 
 
 ## Help

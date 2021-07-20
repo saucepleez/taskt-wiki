@@ -18,6 +18,7 @@ Use this command to return a list of file paths from a specific location.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please indicate the path to the source folder. (ex. C:\temp\myfolder, {vFolderPath})|Enter or Select the path to the folder.|**C:\temp\myfolder** or **{vTextFolderPath}**||
+|Optional - Please indicate the extension (Default is empty and searched all files) (ex. txt, {vExtension})|Enter or Select the extension.|**txt** or **{vExtension}**||
 |Assign to Variable|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -25,7 +26,7 @@ Use this command to return a list of file paths from a specific location.
 ## Developer/Additional Reference
 Automation Class Name: GetFilesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/14/21 11:39 午後
+This page was generated on 07/21/21 12:05 午前
 
 
 ## Help

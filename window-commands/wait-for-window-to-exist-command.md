@@ -25,7 +25,7 @@ Use this command when you want to explicitly wait for a window to exist before c
 ## Developer/Additional Reference
 Automation Class Name: WaitForWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/14/21 11:39 午後
+This page was generated on 07/21/21 12:05 午前
 
 
 ## Help

@@ -17,14 +17,14 @@ Use this command when you want to copy the data from the clipboard and apply it 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please select a variable to set clipboard contents|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
+|Please select a variable to get clipboard contents|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
 Automation Class Name: ClipboardGetTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/14/21 11:39 午後
+This page was generated on 07/21/21 12:05 午前
 
 
 ## Help
