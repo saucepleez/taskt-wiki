@@ -18,6 +18,7 @@ Use this command when you want to change a window's state to minimized, maximize
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please enter or select the window that you want to target for change. (ex. Notepad, Current Window, {vWindow})|Input or Type the name of the window that you want to change.|**Untitled - Notepad** or **Current Window** or **{vWindow}**||
+|Optional - Window title search method (Default is Contains)||**Contains** or **Start with** or **End with** or **Exact match**||
 |Please choose the new required state of the window.|Select the appropriate window state required|Choose from **Minimize**, **Maximize** and **Restore**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -25,7 +26,7 @@ Use this command when you want to change a window's state to minimized, maximize
 ## Developer/Additional Reference
 Automation Class Name: SetWindowStateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/21/21 12:05 午前
+This page was generated on 07/24/21 09:12 午後
 
 
 ## Help

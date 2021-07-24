@@ -18,7 +18,7 @@ Use this command when you want to select file to save or open.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Specify the type of dialog|OpenFileDialog or SaveFileDialog|**Open** or **Save**||
-|Specify the value of the Filter property (ex. Text file|*.txt|All files|*.*, {vFilter})||*.txt|Text file|*.*|All Files or {vFilter}||
+|Specify the value of the Filter property (ex. Text file\|\*.txt\|All files\|\*.\*, {vFilter})||**\*.txt\|Text file\|\*.\*\|All Files** or **{vFilter}**||
 |Optional - Specify the value of the FilterIndex property (Default is 1) (ex. 1, 2, {vIndex})||**1** or **2** or **{vIndex}**||
 |Optional - Specify the value of the InitialDirectory property (Default is documents)||**C:\Users\myUser\Documents** or **{vFolderPath}**||
 |Please select the variable to receive file name|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
@@ -28,7 +28,7 @@ Use this command when you want to select file to save or open.
 ## Developer/Additional Reference
 Automation Class Name: FileDialogCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/21/21 12:05 午前
+This page was generated on 07/24/21 09:12 午後
 
 
 ## Help

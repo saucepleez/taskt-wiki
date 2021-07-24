@@ -17,7 +17,7 @@ Use this command when you want to check if a statement is 'true' or 'false' and 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please select type of If Command|Select the necessary comparison type.|Select **Value**, **Window Name Exists**, **Active Window Name Is**, **File Exists**, **Folder Exists**, **Web Element Exists**, **Error Occured**||
+|Please select type of If Command|Select the necessary comparison type.|Select **Value**, **Window Name Exists**, **Active Window Name Is**, **File Exists**, **Folder Exists**, **Web Element Exists**, **Error Occured**, **Boolean**||
 |Additional Parameters|Select the required comparison parameters.|n/a||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -25,7 +25,7 @@ Use this command when you want to check if a statement is 'true' or 'false' and 
 ## Developer/Additional Reference
 Automation Class Name: BeginIfCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/21/21 12:05 午前
+This page was generated on 07/24/21 09:12 午後
 
 
 ## Help

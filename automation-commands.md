@@ -11,6 +11,7 @@
 ### Data Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|Data Commands|[Convert List To JSON](/data-commands/convert-list-to-json-command.md)|This command convert a JSON array to a list.|
 |Data Commands|[Date Calculation](/data-commands/date-calculation-command.md)|This command allows you to build a date and apply it to a variable.|
 |Data Commands|[Format Data](/data-commands/format-data-command.md)|This command allows you to apply formatting to a string|
 |Data Commands|[Get List Count](/data-commands/get-list-count-command.md)|This command allows you to get the item count of a List|
@@ -102,7 +103,7 @@
 ### File Operation Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|File Operation Commands|[Check File Exists](/file-operation-commands/check-file-exists-command.md)|This command returns a existance of file paths from a specified location|
+|File Operation Commands|[Check File Exists](/file-operation-commands/check-file-exists-command.md)|This command returns a existence of file paths from a specified location|
 |File Operation Commands|[Delete File](/file-operation-commands/delete-file-command.md)|This command deletes a file from a specified destination|
 |File Operation Commands|[Extract File](/file-operation-commands/extract-file-command.md)|This command extracts files from a compressed file|
 |File Operation Commands|[Get Files](/file-operation-commands/get-files-command.md)|This command returns a list of file paths from a specified location|
@@ -112,7 +113,7 @@
 ### Folder Operation Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Folder Operation Commands|[Check Folder Exists](/folder-operation-commands/check-folder-exists-command.md)|This command returns existance of folder paths from a specified location|
+|Folder Operation Commands|[Check Folder Exists](/folder-operation-commands/check-folder-exists-command.md)|This command returns existence of folder paths from a specified location|
 |Folder Operation Commands|[Create Folder](/folder-operation-commands/create-folder-command.md)|This command creates a folder in a specified destination|
 |Folder Operation Commands|[Delete Folder](/folder-operation-commands/delete-folder-command.md)|This command deletes a folder from a specified destination|
 |Folder Operation Commands|[Get Folders](/folder-operation-commands/get-folders-command.md)|This command returns a list of folder directories from a specified location|
@@ -253,7 +254,9 @@
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Window Commands|[Activate Window](/window-commands/activate-window-command.md)|This command activates a window and brings it to the front.|
+|Window Commands|[Check Window Name Exists](/window-commands/check-window-name-exists-command.md)|This command returns a existence of window name.|
 |Window Commands|[Close Window](/window-commands/close-window-command.md)|This command closes an open window.|
+|Window Commands|[Get Window Names](/window-commands/get-window-names-command.md)|This command returns window names.|
 |Window Commands|[Move Window](/window-commands/move-window-command.md)|This command moves a window to a specified location on screen.|
 |Window Commands|[Resize Window](/window-commands/resize-window-command.md)|This command resizes a window to a specified size.|
 |Window Commands|[Set Window State](/window-commands/set-window-state-command.md)|This command sets a target window's state.|
@@ -273,7 +276,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 07/21/21 12:05 午前
+This page was generated on 07/24/21 09:12 午後
 
 
 ## Help

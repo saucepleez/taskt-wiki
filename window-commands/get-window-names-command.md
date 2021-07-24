@@ -1,29 +1,30 @@
-<!--TITLE: Close Window Command -->
+<!--TITLE: Get Window Names Command -->
 <!-- SUBTITLE: a command in the Window Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# Close Window Command
+# Get Window Names Command
 
 
 ## What does this command do?
-This command closes an open window.
+This command returns window names.
 
 
 ## When would I want to use this command?
-Use this command when you want to close an existing window by name.
+Use this command when you want window names.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please enter or select the window that you want to close. (ex. Notepad, Current Window, {vWindow})|Input or Type the name of the window that you want to close.|**Untitled - Notepad** or **Current Window** or **{vWindow}**||
+|Please enter or select the window name that you want to. (ex. Notepad, Current Window, {vWindow})|Input or Type the name of the window name that you want to.|**Untitled - Notepad** or **Current Window** or **{vWindow}**||
 |Optional - Window title search method (Default is Contains)||**Contains** or **Start with** or **End with** or **Exact match**||
+|Specify the variable to assign the window names list||**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
 ## Developer/Additional Reference
-Automation Class Name: CloseWindowCommand
+Automation Class Name: GetWindowNamesCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 07/24/21 09:12 午後
 
