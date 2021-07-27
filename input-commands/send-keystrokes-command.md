@@ -18,6 +18,7 @@ Use this command when you want to send keystroke inputs to a window.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please Enter the Window name (ex. Untitled - Notepad, Current Window, {vWindowName})|Input or Type the name of the window that you want to activate or bring forward.|**Untitled - Notepad** or **Current Window** or **{vWindowName}**||
+|Optional - Window name search method (Default is Contains)||**Contains** or **Start with** or **End with** or **Exact match**||
 |Please Enter text to send. (ex. Hello, ^s, {vText}, {WIN_KEY}, {WIN_KEY+R})|Enter the text that should be sent to the specified window.|**Hello, World!** or **{vEntryText}** or **{WIN_KEY}** or **{WIN_KEY+R}**|This command supports sending variables within brackets {vVariable}|
 |Optional - Please Indicate if Text is Encrypted (default is Not Encrypted)|Indicate if the text in 'TextToSend' is Encrypted.|||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
@@ -26,7 +27,7 @@ Use this command when you want to send keystroke inputs to a window.
 ## Developer/Additional Reference
 Automation Class Name: SendKeysCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/24/21 09:12 午後
+This page was generated on 07/27/21 10:46 午後
 
 
 ## Help

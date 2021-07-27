@@ -28,7 +28,7 @@ Use this command to move a file to a new destination.
 ## Developer/Additional Reference
 Automation Class Name: MoveFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/24/21 09:12 午後
+This page was generated on 07/27/21 10:46 午後
 
 
 ## Help

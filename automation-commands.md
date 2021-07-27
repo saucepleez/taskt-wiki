@@ -82,21 +82,26 @@
 |Excel Commands|[Add Worksheet](/excel-commands/add-worksheet-command.md)|This command adds a new Excel Worksheet.|
 |Excel Commands|[Append Cell](/excel-commands/append-cell-command.md)|Append input to last row of sheet into the first cell.|
 |Excel Commands|[Append Row](/excel-commands/append-row-command.md)|Append to last row of sheet.|
+|Excel Commands|[Check Excel Instance Exists](/excel-commands/check-excel-instance-exists-command.md)|This command returns existance of Excel instance.|
 |Excel Commands|[Close Excel Application](/excel-commands/close-excel-application-command.md)|This command allows you to close Excel.|
 |Excel Commands|[Create Dataset](/excel-commands/create-dataset-command.md)|This command gets a range of cells and applies them against a dataset|
 |Excel Commands|[Create Excel Application](/excel-commands/create-excel-application-command.md)|This command opens the Excel Application.|
 |Excel Commands|[Delete Cell](/excel-commands/delete-cell-command.md)|This command allows you to delete a specified cell in Excel|
 |Excel Commands|[Delete Row](/excel-commands/delete-row-command.md)|This command allows you to delete a specified row in Excel|
+|Excel Commands|[Delete Worksheet](/excel-commands/delete-worksheet-command.md)|This command delete a Excel Worksheet.|
 |Excel Commands|[Get Cell](/excel-commands/get-cell-command.md)|This command gets text from a specified Excel Cell.|
+|Excel Commands|[Get Cell RC](/excel-commands/get-cell-rc-command.md)|This command gets text from a specified Excel Cell.|
 |Excel Commands|[Get Last Row Index](/excel-commands/get-last-row-index-command.md)|This command allows you to find the last row in a used range in an Excel Workbook.|
 |Excel Commands|[Get Range](/excel-commands/get-range-command.md)|This command gets text from a specified Excel Range.|
 |Excel Commands|[Get Range As Datatable](/excel-commands/get-range-as-datatable-command.md)|This command gets text from a specified Excel Range and put it into a DataTable.|
 |Excel Commands|[Go To Cell](/excel-commands/go-to-cell-command.md)|This command moves to a specific cell.|
 |Excel Commands|[Open Workbook](/excel-commands/open-workbook-command.md)|This command opens an Excel Workbook.|
+|Excel Commands|[Rename Worksheet](/excel-commands/rename-worksheet-command.md)|This command rename a Excel Worksheet.|
 |Excel Commands|[Run Macro](/excel-commands/run-macro-command.md)|This command runs a macro.|
 |Excel Commands|[Save Workbook](/excel-commands/save-workbook-command.md)|This command allows you to save an Excel workbook.|
 |Excel Commands|[Save Workbook As](/excel-commands/save-workbook-as-command.md)|This command allows you to save an Excel workbook.|
 |Excel Commands|[Set Cell](/excel-commands/set-cell-command.md)|This command sets the value of a cell.|
+|Excel Commands|[Set Cell RC](/excel-commands/set-cell-rc-command.md)|This command sets the value of a cell.|
 |Excel Commands|[Split Range By Column](/excel-commands/split-range-by-column-command.md)|This command gets text from a specified Excel Range and splits it into separate ranges by column.|
 |Excel Commands|[Write Range](/excel-commands/write-range-command.md)|This command writes a datatable to an excel sheet starting from the given cell address.|
 |Excel Commands|[Write Row](/excel-commands/write-row-command.md)|This command writes a DataRow to an excel sheet starting from the given cell address.|
@@ -238,6 +243,7 @@
 ### Web Browser Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|Web Browser Commands|[Check Browser Instance Exists](/web-browser-commands/check-browser-instance-exists-command.md)|This command returns existance of browser instance.|
 |Web Browser Commands|[Close Browser](/web-browser-commands/close-browser-command.md)|This command allows you to close a Selenium web browser session.|
 |Web Browser Commands|[Create Browser](/web-browser-commands/create-browser-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
 |Web Browser Commands|[Element Action](/web-browser-commands/element-action-command.md)|This command allows you to close a Selenium web browser session.|
@@ -268,6 +274,7 @@
 |Word Commands|[Append DataTable](/word-commands/append-datatable-command.md)|This command appends a datatable to a word document.|
 |Word Commands|[Append Image](/word-commands/append-image-command.md)|This command appends an image to a word document.|
 |Word Commands|[Append Text](/word-commands/append-text-command.md)|This command appends text to a word document.|
+|Word Commands|[Check Word Instance Exists](/word-commands/check-word-instance-exists-command.md)|This command returns existance of Word instance.|
 |Word Commands|[Close Word Application](/word-commands/close-word-application-command.md)|This command allows you to close Word.|
 |Word Commands|[Create Word Application](/word-commands/create-word-application-command.md)|This command creates a Word Application.|
 |Word Commands|[Export To PDF](/word-commands/export-to-pdf-command.md)|This command allows you to export a Word document to a PDF.|
@@ -276,7 +283,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 07/24/21 09:12 午後
+This page was generated on 07/27/21 10:46 午後
 
 
 ## Help

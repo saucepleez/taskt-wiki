@@ -25,7 +25,7 @@ Use this command when you want to check if a statement is 'true' or 'false' and 
 ## Developer/Additional Reference
 Automation Class Name: BeginIfCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/24/21 09:12 午後
+This page was generated on 07/27/21 10:46 午後
 
 
 ## Help
