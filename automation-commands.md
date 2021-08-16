@@ -11,6 +11,7 @@
 ### Data Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|Data Commands|[Check String](/data-commands/check-string-command.md)|This command allows you to check a string|
 |Data Commands|[Convert List To JSON](/data-commands/convert-list-to-json-command.md)|This command convert a JSON array to a list.|
 |Data Commands|[Date Calculation](/data-commands/date-calculation-command.md)|This command allows you to build a date and apply it to a variable.|
 |Data Commands|[Format Data](/data-commands/format-data-command.md)|This command allows you to apply formatting to a string|
@@ -82,8 +83,12 @@
 |Excel Commands|[Add Worksheet](/excel-commands/add-worksheet-command.md)|This command adds a new Excel Worksheet.|
 |Excel Commands|[Append Cell](/excel-commands/append-cell-command.md)|Append input to last row of sheet into the first cell.|
 |Excel Commands|[Append Row](/excel-commands/append-row-command.md)|Append to last row of sheet.|
+|Excel Commands|[Check Cell Value Exists](/excel-commands/check-cell-value-exists-command.md)|This command checks existance value from a specified Excel Cell.|
+|Excel Commands|[Check Cell Value Exists RC](/excel-commands/check-cell-value-exists-rc-command.md)|This command checks existance value from a specified Excel Cell.|
 |Excel Commands|[Check Excel Instance Exists](/excel-commands/check-excel-instance-exists-command.md)|This command returns existance of Excel instance.|
+|Excel Commands|[Check Worksheet Exists](/excel-commands/check-worksheet-exists-command.md)|This command allows you to check existance sheet|
 |Excel Commands|[Close Excel Application](/excel-commands/close-excel-application-command.md)|This command allows you to close Excel.|
+|Excel Commands|[Copy Worksheet](/excel-commands/copy-worksheet-command.md)|This command copy a Excel Worksheet.|
 |Excel Commands|[Create Dataset](/excel-commands/create-dataset-command.md)|This command gets a range of cells and applies them against a dataset|
 |Excel Commands|[Create Excel Application](/excel-commands/create-excel-application-command.md)|This command opens the Excel Application.|
 |Excel Commands|[Delete Cell](/excel-commands/delete-cell-command.md)|This command allows you to delete a specified cell in Excel|
@@ -91,9 +96,13 @@
 |Excel Commands|[Delete Worksheet](/excel-commands/delete-worksheet-command.md)|This command delete a Excel Worksheet.|
 |Excel Commands|[Get Cell](/excel-commands/get-cell-command.md)|This command gets text from a specified Excel Cell.|
 |Excel Commands|[Get Cell RC](/excel-commands/get-cell-rc-command.md)|This command gets text from a specified Excel Cell.|
+|Excel Commands|[Get Current Worksheet](/excel-commands/get-current-worksheet-command.md)|This command allows you to get current sheet name.|
+|Excel Commands|[Get Excel Info](/excel-commands/get-excel-info-command.md)|This command allows you to get current sheet name.|
 |Excel Commands|[Get Last Row Index](/excel-commands/get-last-row-index-command.md)|This command allows you to find the last row in a used range in an Excel Workbook.|
 |Excel Commands|[Get Range](/excel-commands/get-range-command.md)|This command gets text from a specified Excel Range.|
 |Excel Commands|[Get Range As Datatable](/excel-commands/get-range-as-datatable-command.md)|This command gets text from a specified Excel Range and put it into a DataTable.|
+|Excel Commands|[Get Worksheet Info](/excel-commands/get-worksheet-info-command.md)|This command allows you to get a sheet info.|
+|Excel Commands|[Get Worksheets](/excel-commands/get-worksheets-command.md)|This command allows you to get a specific worksheet names|
 |Excel Commands|[Go To Cell](/excel-commands/go-to-cell-command.md)|This command moves to a specific cell.|
 |Excel Commands|[Open Workbook](/excel-commands/open-workbook-command.md)|This command opens an Excel Workbook.|
 |Excel Commands|[Rename Worksheet](/excel-commands/rename-worksheet-command.md)|This command rename a Excel Worksheet.|
@@ -111,6 +120,7 @@
 |File Operation Commands|[Check File Exists](/file-operation-commands/check-file-exists-command.md)|This command returns a existence of file paths from a specified location|
 |File Operation Commands|[Delete File](/file-operation-commands/delete-file-command.md)|This command deletes a file from a specified destination|
 |File Operation Commands|[Extract File](/file-operation-commands/extract-file-command.md)|This command extracts files from a compressed file|
+|File Operation Commands|[Get File Info](/file-operation-commands/get-file-info-command.md)|This command returns a list of file paths from a specified location|
 |File Operation Commands|[Get Files](/file-operation-commands/get-files-command.md)|This command returns a list of file paths from a specified location|
 |File Operation Commands|[Move/Copy File](/file-operation-commands/move-copy-file-command.md)|This command moves a file to a specified destination|
 |File Operation Commands|[Rename File](/file-operation-commands/rename-file-command.md)|This command renames a file at a specified destination|
@@ -176,6 +186,7 @@
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Misc Commands|[Add Code Comment](/misc-commands/add-code-comment-command.md)|This command allows you to add an in-line comment to the script.|
+|Misc Commands|[Clear Clipboard Text](/misc-commands/clear-clipboard-text-command.md)|This command allows you to clear text to the clipboard.|
 |Misc Commands|[Encryption Command](/misc-commands/encryption-command-command.md)|This command handles text encryption|
 |Misc Commands|[Get Clipboard Text](/misc-commands/get-clipboard-text-command.md)|This command allows you to get text from the clipboard.|
 |Misc Commands|[Ping Command](/misc-commands/ping-command-command.md)|This command allows you to add an in-line comment to the script.|
@@ -202,6 +213,7 @@
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Programs/Process Commands|[Run Custom Code](/programs-process-commands/run-custom-code-command.md)|This command allows you to run C# code from the input|
+|Programs/Process Commands|[Run Powershell](/programs-process-commands/run-powershell-command.md)|This command allows you to run a powershell script and wait for it to exit before proceeding.|
 |Programs/Process Commands|[Run Script](/programs-process-commands/run-script-command.md)|This command allows you to run a script or program and wait for it to exit before proceeding.|
 |Programs/Process Commands|[Start Process](/programs-process-commands/start-process-command.md)|This command allows you to start a program or a process.|
 |Programs/Process Commands|[Stop Process](/programs-process-commands/stop-process-command.md)|This command allows you to stop a program or a process.|
@@ -263,6 +275,8 @@
 |Window Commands|[Check Window Name Exists](/window-commands/check-window-name-exists-command.md)|This command returns a existence of window name.|
 |Window Commands|[Close Window](/window-commands/close-window-command.md)|This command closes an open window.|
 |Window Commands|[Get Window Names](/window-commands/get-window-names-command.md)|This command returns window names.|
+|Window Commands|[Get Window Position](/window-commands/get-window-position-command.md)|This command returns window position.|
+|Window Commands|[Get Window State](/window-commands/get-window-state-command.md)|This command returns a state of window name.|
 |Window Commands|[Move Window](/window-commands/move-window-command.md)|This command moves a window to a specified location on screen.|
 |Window Commands|[Resize Window](/window-commands/resize-window-command.md)|This command resizes a window to a specified size.|
 |Window Commands|[Set Window State](/window-commands/set-window-state-command.md)|This command sets a target window's state.|
@@ -283,7 +297,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 07/27/21 10:46 午後
+This page was generated on 08/16/21 01:36 午後
 
 
 ## Help

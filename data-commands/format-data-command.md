@@ -17,17 +17,27 @@ Use this command when you want to apply specific formatting to text or a variabl
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please supply the value or variable (ex. {DateTime.Now}, 2500, {vNum})|Specify either text or a variable that contains a date or number requiring formatting|{DateTime.Now}, 1/1/2000, 2500|You can use known text or variables.|
+|Please supply the value or variable.|Specify either text or a variable that contains a date or number requiring formatting|**{DateTime.Now}** or **1/1/2000** or **2500** or **{vNum}** or **C:\temp\myfile.txt**|You can use known text or variables.|
 |Please select the type of data|Indicate the source type|Choose **Date** or **Number** or **Path**||
-|Specify required output format (ex. yy/MM/dd, hh:mm, #.0, file)|Specify if a specific string format is required.|**MM/dd/yy**, **hh:mm**, **C2**, **D2**, **file** etc.|Path supports **file**, **folder**, **filewithoutextension**, **extension**, **drive**|
+|Specify required output format|Specify if a specific string format is required.|**MM/dd/yy** or **hh:mm** or **#.0** or **file** etc.|Path supports **file**, **folder**, **filewithoutextension**, **extension**, **drive**|
 |Please select the variable to receive output|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+
+
+
+
+
+
+
+
+
+
 
 
 ## Developer/Additional Reference
 Automation Class Name: FormatDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/27/21 10:46 午後
+This page was generated on 08/16/21 01:36 午後
 
 
 ## Help

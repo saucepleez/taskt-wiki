@@ -17,17 +17,27 @@ Use this command when you want to perform an advanced RegEx extraction from a te
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please supply the value or variable (ex. hallo hello, {vText})|Select or provide a variable or text value|**Hello** or **{vSomeVariable}**||
-|Input the RegEx Extractor Pattern (ex. \w+)|Enter the RegEx extractor pattern that should be used to extract the text|^([\w\-]+)|If an extractor splits each word in a sentence, for example, you will need to specify the associated index of the word that is required.|
+|Please supply the value or variable|Select or provide a variable or text value|**Hello** or **{vText}**||
+|Input the RegEx Extractor Pattern|Enter the RegEx extractor pattern that should be used to extract the text|**\w+** or **^([\w\-]+)**|If an extractor splits each word in a sentence, for example, you will need to specify the associated index of the word that is required.|
 |Select Matching Group Index|Define the index of the result|1|The extractor will split multiple patterns found into multiple indexes.  Test which index is required to retrieve the value or create a better/more define extractor.|
 |Please select the variable to receive the RegEx result|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
+
+
+
+
+
+
+
+
+
+
 ## Developer/Additional Reference
 Automation Class Name: RegExExtractorCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/27/21 10:46 午後
+This page was generated on 08/16/21 01:36 午後
 
 
 ## Help

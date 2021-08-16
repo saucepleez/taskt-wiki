@@ -19,13 +19,22 @@ Use this command when you want to modify the value of variables.  You can even u
 | ---                    | ---               | ---           | ---       |
 |Please select a variable to modify|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Please define the input to be set to above variable (ex. Hello, 1, {vNum})|Enter the input that the variable's value should be set to.|**1** or **Hello** or {vNum}|You can use variables in input if you encase them within brackets {vName}.  You can also perform basic math operations.|
+|Convert Variables in Input Text Above|Select the necessary option.|Data not specified||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+
+
+
+
+
+
+
+
 
 
 ## Developer/Additional Reference
 Automation Class Name: VariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/27/21 10:46 午後
+This page was generated on 08/16/21 01:36 午後
 
 
 ## Help
