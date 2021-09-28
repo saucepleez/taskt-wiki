@@ -17,7 +17,7 @@ Use this command when you want to convert an image into text.  You can then use 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Select Image to OCR|Enter or Select the path to the image file.|**c:\temp\myimages.png||
+|Select Image to OCR|Enter or Select the path to the image file.|**c:\temp\myimages.png** or **{vFileName}**||
 |Apply OCR Result To Variable|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -31,7 +31,7 @@ Use this command when you want to convert an image into text.  You can then use 
 ## Developer/Additional Reference
 Automation Class Name: OCRCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/16/21 01:36 午後
+This page was generated on 09/28/21 11:00 午後
 
 
 ## Help

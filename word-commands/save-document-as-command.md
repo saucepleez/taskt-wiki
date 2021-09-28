@@ -17,7 +17,9 @@ Use this command when you want to save a document to a file.
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Enter the instance name|Enter the unique instance name that was specified in the **Create Word** command|**myInstance** or **wordInstance**|Failure to enter the correct instance name or failure to first call **Create Word** command will cause an error|
+|Please Enter the instance name|Enter the unique instance name that was specified in the **Create Word** command|**myInstance** or **wordInstance**|Failure to enter the correct instance name or failure to first call **Create Word** command will cause an error.
+If file does not contain extensin, suppliment docx extension.
+If file does not contain folder path, file will be saved in the same folder as script file.|
 |Please indicate the path of the file|Enter or Select the path to the file.|C:\temp\myfile.docx or {vWordFilePath}||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -31,7 +33,7 @@ Use this command when you want to save a document to a file.
 ## Developer/Additional Reference
 Automation Class Name: WordSaveAsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/16/21 01:36 午後
+This page was generated on 09/28/21 11:00 午後
 
 
 ## Help

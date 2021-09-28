@@ -18,10 +18,10 @@ Use this command when you want to attempt to locate an image on screen.  You can
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Capture the search image|Use the tool to capture an image||The image will be used as the image to be found on screen.|
-|Offset X Coordinate - Optional|Specify if an offset is required.|0 or 100|This will move the mouse X pixels to the right of the location of the image|
-|Offset Y Coordinate - Optional|Specify if an offset is required.|0 or 100|This will move the mouse X pixels down from the top of the location of the image|
-|Please indicate mouse click type if required|Indicate the type of click required|Select from **Left Click**, **Middle Click**, **Right Click**, **Double Left Click**, **Left Down**, **Middle Down**, **Right Down**, **Left Up**, **Middle Up**, **Right Up** |You can simulate custom click by using multiple mouse click commands in succession, adding **Pause Command** in between where required.|
-|Timeout (seconds, 0 for unlimited search time)|Enter a timeout length if required.||Search times become excessive for colors such as white. For best results, capture a large color variance on screen, not just a white block.|
+|Optional - Offset X Coordinate (Default is 0)|Specify if an offset is required.|**0** or **100** or **{vXOffset}**|This will move the mouse X pixels to the right of the location of the image|
+|Optional - Offset Y Coordinate (Default is 0)|Specify if an offset is required.|**0** or **100** or **{vYOffset}**|This will move the mouse X pixels down from the top of the location of the image|
+|Optional - Please indicate mouse click type if required (Default is None)|Indicate the type of click required|Select from **Left Click**, **Middle Click**, **Right Click**, **Double Left Click**, **Left Down**, **Middle Down**, **Right Down**, **Left Up**, **Middle Up**, **Right Up** |You can simulate custom click by using multiple mouse click commands in succession, adding **Pause Command** in between where required.|
+|Optional - Timeout (seconds, 0 for unlimited search time) (Default is 30)|Enter a timeout length if required.|**30** or **0** or **{vTimeout}**|Search times become excessive for colors such as white. For best results, capture a large color variance on screen, not just a white block.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -40,7 +40,7 @@ Use this command when you want to attempt to locate an image on screen.  You can
 ## Developer/Additional Reference
 Automation Class Name: ImageRecognitionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/16/21 01:36 午後
+This page was generated on 09/28/21 11:00 午後
 
 
 ## Help

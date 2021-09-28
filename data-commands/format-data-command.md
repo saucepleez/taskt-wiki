@@ -37,7 +37,7 @@ Use this command when you want to apply specific formatting to text or a variabl
 ## Developer/Additional Reference
 Automation Class Name: FormatDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/16/21 01:36 午後
+This page was generated on 09/28/21 11:00 午後
 
 
 ## Help

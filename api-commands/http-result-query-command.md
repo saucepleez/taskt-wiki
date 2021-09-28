@@ -34,7 +34,7 @@ Use this command to parse and extract data from a successful **HTTP Request Comm
 ## Developer/Additional Reference
 Automation Class Name: HTTPQueryResultCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/16/21 01:36 午後
+This page was generated on 09/28/21 11:00 午後
 
 
 ## Help

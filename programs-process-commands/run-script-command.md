@@ -17,7 +17,8 @@ Use this command when you want to run a script (such as vbScript, javascript, or
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Enter the path to the script (ex. C:\temp\myscript.vbs, {vScriptPath})|Enter a fully qualified path to the script, including the script extension.|**C:\temp\myscript.vbs** or **{vScriptPath}**|This command differs from **Start Process** because this command blocks execution until the script has completed.  If you do not want to stop while the script executes, consider using **Start Process** instead.|
+|Enter the path to the script (ex. C:\temp\myscript.vbs, {vScriptPath})|Enter a fully qualified path to the script, including the script extension.|**C:\temp\myscript.vbs** or **{vScriptPath}**|This command differs from **Start Process** because this command blocks execution until the script has completed.  If you do not want to stop while the script executes, consider using **Start Process** instead.If file does not contain extensin, suppliment extensions supported by cmd.
+If file does not contain folder path, file will be opened in the same folder as script file.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -28,7 +29,7 @@ Use this command when you want to run a script (such as vbScript, javascript, or
 ## Developer/Additional Reference
 Automation Class Name: RunScriptCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/16/21 01:36 午後
+This page was generated on 09/28/21 11:00 午後
 
 
 ## Help
