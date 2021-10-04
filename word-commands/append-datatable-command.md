@@ -31,7 +31,7 @@ Use this command when you want to append a datatable to a specific document.
 ## Developer/Additional Reference
 Automation Class Name: WordAppendDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/21 11:00 午後
+This page was generated on 10/04/21 10:21 午後
 
 
 ## Help

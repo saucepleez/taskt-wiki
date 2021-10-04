@@ -18,9 +18,7 @@ Use this command when you want to take and save a screenshot.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please Enter the Window name|Input or Type the name of the window that you want to take a screenshot of.|**Untitled - Notepad** or **Current Window** or **Desktop** or **{vWindow}**||
-|Please indicate the path to save the image|Data not specified|**c:\Temp\image.png** or **{vPath}**|If file does not contain extensin, suppliment png extension.
-If file does not contain folder path, file will be saved in the same folder as script file.
-If file path contains FileCounter variable, it will be replaced by a number that will become the name of a non-existent file.|
+|Please indicate the path to save the image|Data not specified|**c:\Temp\image.png** or **{vPath}**|If file does not contain extensin, suppliment png extension.<br>If file does not contain folder path, file will be saved in the same folder as script file.<br>If file path contains FileCounter variable, it will be replaced by a number that will become the name of a non-existent file.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -33,7 +31,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 ## Developer/Additional Reference
 Automation Class Name: ScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/28/21 11:00 午後
+This page was generated on 10/04/21 10:21 午後
 
 
 ## Help
