@@ -17,7 +17,7 @@ Use this command when you want to create a new Dictionary
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Indicate Dictionary Name|Indicate a unique reference name for later use|vMyDictionary||
+|Please Indicate Dictionary Variable Name|Indicate a unique reference name for later use|**vMyDictionary** or **{vMyDictionary}**|Create Dictionary<string, string>|
 |Define Keys and Values|Enter the Keys and Values required for your dictionary|||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -31,7 +31,7 @@ Use this command when you want to create a new Dictionary
 ## Developer/Additional Reference
 Automation Class Name: CreateDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/04/21 10:21 午後
+This page was generated on 10/19/21 09:30 午後
 
 
 ## Help

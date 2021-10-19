@@ -18,7 +18,7 @@ Use this command when you want to open an existing Excel Workbook.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please Enter the instance name|Enter the unique instance name that was specified in the **Create Excel** command|**myInstance** or **{vInstance}**|Failure to enter the correct instance name or failure to first call **Create Excel** command will cause an error.|
-|Please indicate the workbook file path|Enter or Select the path to the applicable file that should be opened by Excel.|**C:\temp\myfile.xlsx** or **{vFilePath}**|If file does not contain extensin, supplement extensions supported by Excel.<br>If file does not contain folder path, file will be opened in the same folder as script file.|
+|Please indicate the workbook file path|Enter or Select the path to the applicable file that should be opened by Excel.|**C:\temp\myfile.xlsx** or **{vFilePath}**|If file does not contain extension, supplement extensions supported by Excel.<br>If file does not contain folder path, file will be opened in the same folder as script file.|
 |Optional - Please indicate open password|Enter or Select the path to the applicable file that should be opened by Excel.|**myPassword** or **{vPassword}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -34,7 +34,7 @@ Use this command when you want to open an existing Excel Workbook.
 ## Developer/Additional Reference
 Automation Class Name: ExcelOpenWorkbookCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/04/21 10:21 午後
+This page was generated on 10/19/21 09:30 午後
 
 
 ## Help

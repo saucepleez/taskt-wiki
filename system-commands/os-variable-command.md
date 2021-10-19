@@ -18,7 +18,7 @@ Use this command to exclusively retrieve a system variable
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Select the required system variable|Select from one of the options|||
-|Please select the variable to receive output|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
+|Please select the variable to receive output|Select or provide a variable from the variable list|**{vResult}**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -31,7 +31,7 @@ Use this command to exclusively retrieve a system variable
 ## Developer/Additional Reference
 Automation Class Name: OSVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/04/21 10:21 午後
+This page was generated on 10/19/21 09:30 午後
 
 
 ## Help
