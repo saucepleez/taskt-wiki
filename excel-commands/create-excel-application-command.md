@@ -28,7 +28,7 @@ Use this command when you want to launch a new instance of Excel.
 ## Developer/Additional Reference
 Automation Class Name: ExcelCreateApplicationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/19/21 09:30 午後
+This page was generated on 10/24/21 02:26 午後
 
 
 ## Help

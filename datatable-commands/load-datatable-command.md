@@ -1,9 +1,9 @@
-<!--TITLE: Create Dataset Command -->
-<!-- SUBTITLE: a command in the Excel Commands group. -->
+<!--TITLE: Load DataTable Command -->
+<!-- SUBTITLE: a command in the DataTable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# Create Dataset Command
+# Load DataTable Command
 
 
 ## What does this command do?
@@ -35,7 +35,7 @@ Use this command when you want to quickly iterate over Excel as a dataset.
 
 
 ## Developer/Additional Reference
-Automation Class Name: ExcelCreateDataSetCommand
+Automation Class Name: LoadDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 10/24/21 02:26 午後
 

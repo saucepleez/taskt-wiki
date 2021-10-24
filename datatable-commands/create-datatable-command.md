@@ -17,7 +17,7 @@ Use this command when you want to create a new DataTable
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Indicate DataTable Name|Indicate a unique reference name for later use|vMyDatatable||
+|Please Indicate DataTable Variable Name|Indicate a unique reference name for later use|**vMyDatatable** or **{vMyDatatable}**||
 |Define Column Names|Enter the Column Names required for each column of data|||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -31,7 +31,7 @@ Use this command when you want to create a new DataTable
 ## Developer/Additional Reference
 Automation Class Name: CreateDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/19/21 09:30 午後
+This page was generated on 10/24/21 02:26 午後
 
 
 ## Help

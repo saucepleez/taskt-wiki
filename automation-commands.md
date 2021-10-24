@@ -47,6 +47,7 @@
 |DataTable Commands|[Get DataRow](/datatable-commands/get-datarow-command.md)|This command allows you to get a DataRow from a DataTable|
 |DataTable Commands|[Get DataRow Count](/datatable-commands/get-datarow-count-command.md)|This command allows you to get the datarow count of a DataTable|
 |DataTable Commands|[Get DataRow Value](/datatable-commands/get-datarow-value-command.md)|This command allows you to get a DataRow Value from a DataTable|
+|DataTable Commands|[Load DataTable](/datatable-commands/load-datatable-command.md)|This command gets a range of cells and applies them against a dataset|
 |DataTable Commands|[Remove DataRow](/datatable-commands/remove-datarow-command.md)|This command allows you remove specified data rows.|
 |DataTable Commands|[Write DataRow Value](/datatable-commands/write-datarow-value-command.md)|This command allows you to write a Value to a DataRow|
 ### Dictionary Commands
@@ -297,7 +298,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 10/19/21 09:30 午後
+This page was generated on 10/24/21 02:26 午後
 
 
 ## Help

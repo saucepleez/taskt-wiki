@@ -17,10 +17,10 @@ Use this command when you want to add a datarow to a DataTable.
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please indicate the DataRow Name|Enter a existing DataRow to get Values from.|**myData**||
-|Select value by Index or Column Name|Select whether the DataRow value should be found by index or column name|Select from **Index** or **Column Name**||
-|Please enter the index of the DataRow Value|Enter a valid DataRow index value|0 or {vIndex}||
-|Assign to Variable|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
+|Please indicate the DataRow Variable Name|Enter a existing DataRow to get Values from.|**myDataRow** or **{vMyDataRow}**||
+|Optional - Select value by Index or Column Name (Default is Index)|Select whether the DataRow value should be found by index or column name|Select from **Index** or **Column Name**||
+|Please enter the index of the DataRow Value|Enter a valid DataRow index value|**0** or **ColName** or **{vIndex}**||
+|Please Specify the Variable to Assign the Value|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -37,7 +37,7 @@ Use this command when you want to add a datarow to a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: GetDataRowValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/19/21 09:30 午後
+This page was generated on 10/24/21 02:26 午後
 
 
 ## Help

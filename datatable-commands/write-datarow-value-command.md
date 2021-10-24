@@ -17,9 +17,9 @@ Use this command when you want to write a Value to a DataRow.
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please indicate the DataRow Name|Enter a existing DataTable to add rows to.|**myData**||
-|Select value by Index or Column Name|Select whether the DataRow value should be found by index or column name|Select from **Index** or **Column Name**||
-|Please enter the index of the DataRow Value|Enter a valid DataRow index value|0 or {vIndex}||
+|Please indicate the DataRow Variable Name|Enter a existing DataTable to add rows to.|**myDataRow** or **{vMyDataRow}**||
+|Optional - Select value by Index or Column Name (Default is Index)|Select whether the DataRow value should be found by index or column name|Select from **Index** or **Column Name**||
+|Please enter the index of the DataRow Value|Enter a valid DataRow index value|**0** or **{vIndex}**||
 |Please enter the Value|Enter the value to write to the DataRow cell|**vSomeVariable**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -37,7 +37,7 @@ Use this command when you want to write a Value to a DataRow.
 ## Developer/Additional Reference
 Automation Class Name: WriteDataRowValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/19/21 09:30 午後
+This page was generated on 10/24/21 02:26 午後
 
 
 ## Help
