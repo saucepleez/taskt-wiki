@@ -266,6 +266,7 @@
 |Web Browser Commands|[Navigate Forward](/web-browser-commands/navigate-forward-command.md)|This command allows you to navigate forward a Selenium web browser session.|
 |Web Browser Commands|[Navigate to URL](/web-browser-commands/navigate-to-url-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
 |Web Browser Commands|[Refresh](/web-browser-commands/refresh-command.md)|This command allows you to refresh a Selenium web browser session.|
+|Web Browser Commands|[Resize Browser](/web-browser-commands/resize-browser-command.md)|This command allows you to change browser window size.|
 |Web Browser Commands|[Switch Browser Frame](/web-browser-commands/switch-browser-frame-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
 |Web Browser Commands|[Switch Browser Window](/web-browser-commands/switch-browser-window-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
 |Web Browser Commands|[Take Screenshot](/web-browser-commands/take-screenshot-command.md)|This command allows you to take a screenshot in Selenium web browser session.|
@@ -298,7 +299,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 10/24/21 02:26 午後
+This page was generated on 11/06/21 06:53 午後
 
 
 ## Help

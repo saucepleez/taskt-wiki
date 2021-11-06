@@ -17,7 +17,7 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please Enter the instance name (ex. myInstance, {vInstance})|Enter the unique instance name that was specified in the **Create Browser** command|**myInstance** or **{vInstance}**|Failure to enter the correct instance name or failure to first call **Create Browser** command will cause an error|
+|Please Enter the instance name|Enter the unique instance name that was specified in the **Create Browser** command|**myInstance** or **{vInstance}**|Failure to enter the correct instance name or failure to first call **Create Browser** command will cause an error|
 |Element Search Method|Select the specific search type that you want to use to isolate the element in the web page.|Select **Find Element By XPath**, **Find Element By ID**, **Find Element By Name**, **Find Element By Tag Name**, **Find Element By Class Name**, **Find Element By CSS Selector**, **Find Element By Link Text**||
 |Element Search Parameter|Specifies the parameter text that matches to the element based on the previously selected search type.|If search type **Find Element By ID** was specified, for example, given <div id='name'></div>, the value of this field would be **name**||
 |Element Action|Select the appropriate corresponding action to take once the element has been located|Select from **Invoke Click**, **Left Click**, **Right Click**, **Middle Click**, **Double Left Click**, **Clear Element**, **Set Text**, **Get Text**, **Get Attribute**, **Wait For Element To Exist**, **Get Count**|Selecting this field changes the parameters that will be required in the next step|
@@ -40,7 +40,7 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserElementActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 10/24/21 02:26 午後
+This page was generated on 11/06/21 06:53 午後
 
 
 ## Help
