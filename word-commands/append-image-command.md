@@ -31,7 +31,7 @@ Use this command when you want to append an image to a specific document.
 ## Developer/Additional Reference
 Automation Class Name: WordAppendImageCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/06/21 06:53 午後
+This page was generated on 11/07/21 08:47 午後
 
 
 ## Help

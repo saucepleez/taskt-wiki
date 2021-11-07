@@ -7,19 +7,19 @@
 
 
 ## What does this command do?
-This command allows you to loop through an Excel Dataset
+This command allows you to get value in Dictionary
 
 
 ## When would I want to use this command?
-Use this command when you want to iterate over a series of Excel cells.
+Use this command when you want to get value in Dictionary.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please indicate the variable to apply result|Enter a unique dataset name that will be used later to traverse over the data|**vMyData** or **{myData}**||
-|Please input The Dictionary Variable|Enter a string of comma seperated values.|**myDictionary** or **{vMyDic}**||
-|Please indicate the key for the Dictionary|Enter a string of comma seperated values.|**key1** or **{vKeyName}**||
+|Please input The Dictionary Variable||**myDictionary** or **{vMyDic}**||
+|Please indicate the key for the Dictionary||**key1** or **{vKeyName}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -34,7 +34,7 @@ Use this command when you want to iterate over a series of Excel cells.
 ## Developer/Additional Reference
 Automation Class Name: GetDictionaryValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/06/21 06:53 午後
+This page was generated on 11/07/21 08:47 午後
 
 
 ## Help
