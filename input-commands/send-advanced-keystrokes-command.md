@@ -18,7 +18,7 @@ Use this command when you want to send advanced keystroke inputs to a window.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please Enter the Window name (ex. Untitled - Notepad, Current Window, {vWindowName})|Input or Type the name of the window that you want to activate or bring forward.|**Untitled - Notepad** or **Current Window** or **{vWindowName}**||
-|Optional - Window name search method (Default is Contains)||**Contains** or **Start with** or **End with** or **Exact match**||
+|Optional - Window name search method (Default is Contains)||**Contains** or **Starts with** or **Ends with** or **Exact match**||
 |Set Keys and Parameters|Define the parameters for the actions.|n/a|Select Valid Options from the dropdowns|
 |Optional - Return all keys to 'UP' position after execution (Default is No)|Select either 'Yes' or 'No' as to a preference|**Yes** or **No**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
@@ -37,7 +37,7 @@ Use this command when you want to send advanced keystroke inputs to a window.
 ## Developer/Additional Reference
 Automation Class Name: SendAdvancedKeyStrokesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/07/21 08:47 午後
+This page was generated on 11/16/21 11:34 午後
 
 
 ## Help

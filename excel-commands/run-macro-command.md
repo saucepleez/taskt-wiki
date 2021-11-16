@@ -34,7 +34,7 @@ Use this command when you want to get a run a specific macro in the Excel workbo
 ## Developer/Additional Reference
 Automation Class Name: ExcelRunMacroCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/07/21 08:47 午後
+This page was generated on 11/16/21 11:34 午後
 
 
 ## Help

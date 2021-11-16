@@ -18,7 +18,7 @@ Use this command when you want window position.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please enter or select the window position that you want to.|Input or Type the name of the window name that you want to.|**Untitled - Notepad** or **Current Window** or **{vWindow}**||
-|Optional - Window title search method (Default is Contains)||**Contains** or **Start with** or **End with** or **Exact match**||
+|Optional - Window title search method (Default is Contains)||**Contains** or **Starts with** or **Ends with** or **Exact match**||
 |Optional - Specify the variable to recieve the window position X||**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Optional - Specify the variable to recieve the window position Y||**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Optional - Base position (Default is Top Left)||||
@@ -40,7 +40,7 @@ Use this command when you want window position.
 ## Developer/Additional Reference
 Automation Class Name: GetWindowPositionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/07/21 08:47 午後
+This page was generated on 11/16/21 11:34 午後
 
 
 ## Help

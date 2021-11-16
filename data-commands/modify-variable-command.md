@@ -34,7 +34,7 @@ Use this command when you want to select a subset of text or variable
 ## Developer/Additional Reference
 Automation Class Name: ModifyVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/07/21 08:47 午後
+This page was generated on 11/16/21 11:34 午後
 
 
 ## Help

@@ -56,6 +56,7 @@
 |Dictionary Commands|[Add Dictionary Item](/dictionary-commands/add-dictionary-item-command.md)|This command Adds a key and value to a existing Dictionary|
 |Dictionary Commands|[Check Dictionary Key Exists](/dictionary-commands/check-dictionary-key-exists-command.md)|This command allows you to check key existance in Dictionary|
 |Dictionary Commands|[Convert Dictionary To JSON](/dictionary-commands/convert-dictionary-to-json-command.md)|This command allows you to get JSON from Dictionary|
+|Dictionary Commands|[Convert Dictionary To List](/dictionary-commands/convert-dictionary-to-list-command.md)|This command allows you to get List from Dictionary|
 |Dictionary Commands|[Create Dictionary](/dictionary-commands/create-dictionary-command.md)|This command created a DataTable with the column names provided|
 |Dictionary Commands|[Get Dictionary Item](/dictionary-commands/get-dictionary-item-command.md)|This command allows you to get value in Dictionary|
 |Dictionary Commands|[Get Dictionary Key From Value](/dictionary-commands/get-dictionary-key-from-value-command.md)|This command allows you to get Dictionary key Name from Value|
@@ -305,7 +306,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 11/07/21 08:47 午後
+This page was generated on 11/16/21 11:34 午後
 
 
 ## Help

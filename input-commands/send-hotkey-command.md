@@ -18,7 +18,7 @@ Use this command when you want to send keystroke inputs to a window.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please Enter the Window name|Input or Type the name of the window that you want to activate or bring forward.|**Untitled - Notepad** or **Current Window** or **{vWindowName}**||
-|Optional - Window name search method (Default is Contains)||**Contains** or **Start with** or **End with** or **Exact match**||
+|Optional - Window name search method (Default is Contains)||**Contains** or **Starts with** or **Ends with** or **Exact match**||
 |Please select Hotkey to Send.|Enter the text that should be sent to the specified window.|||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -55,7 +55,7 @@ Use this command when you want to send keystroke inputs to a window.
 ## Developer/Additional Reference
 Automation Class Name: SendHotkeyCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/07/21 08:47 午後
+This page was generated on 11/16/21 11:34 午後
 
 
 ## Help
