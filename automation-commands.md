@@ -12,11 +12,8 @@
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Data Commands|[Check String](/data-commands/check-string-command.md)|This command allows you to check a string|
-|Data Commands|[Convert List To JSON](/data-commands/convert-list-to-json-command.md)|This command convert a JSON array to a list.|
 |Data Commands|[Date Calculation](/data-commands/date-calculation-command.md)|This command allows you to build a date and apply it to a variable.|
 |Data Commands|[Format Data](/data-commands/format-data-command.md)|This command allows you to apply formatting to a string|
-|Data Commands|[Get List Count](/data-commands/get-list-count-command.md)|This command allows you to get the item count of a List|
-|Data Commands|[Get List Item](/data-commands/get-list-item-command.md)|This command allows you to get an item from a List|
 |Data Commands|[Get Word Count](/data-commands/get-word-count-command.md)|This command allows you to you to retrieve the word count of a string or variable.|
 |Data Commands|[Get Word Length](/data-commands/get-word-length-command.md)|This command allows you to retrieve the length of a string or variable.|
 |Data Commands|[Log Data](/data-commands/log-data-command.md)|This command logs data to files.|
@@ -178,6 +175,16 @@
 |Input Commands|[Send Mouse Click](/input-commands/send-mouse-click-command.md)|Simulates mouse clicks.|
 |Input Commands|[Send Mouse Move](/input-commands/send-mouse-move-command.md)|Simulates mouse movements|
 |Input Commands|[UI Automation](/input-commands/ui-automation-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
+### List Commands
+| Command Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+|List Commands|[Add List Item](/list-commands/add-list-item-command.md)|This command allows you to modify variables.|
+|List Commands|[Convert List To JSON](/list-commands/convert-list-to-json-command.md)|This command convert a JSON array to a list.|
+|List Commands|[Create List](/list-commands/create-list-command.md)|This command allows you to create new List|
+|List Commands|[Get List Count](/list-commands/get-list-count-command.md)|This command allows you to get the item count of a List|
+|List Commands|[Get List Item](/list-commands/get-list-item-command.md)|This command allows you to get an item from a List|
+|List Commands|[Set List Index](/list-commands/set-list-index-command.md)|This command allows you to modify List Index.|
+|List Commands|[Set List Item](/list-commands/set-list-item-command.md)|This command allows you want to set an item in a List|
 ### Loop Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -306,7 +313,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 11/16/21 11:34 午後
+This page was generated on 11/21/21 08:44 午後
 
 
 ## Help

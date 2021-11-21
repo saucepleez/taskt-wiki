@@ -31,7 +31,7 @@ Use this command when you want to pause your script for a specific amount of tim
 ## Developer/Additional Reference
 Automation Class Name: NLGGeneratePhraseCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/16/21 11:34 午後
+This page was generated on 11/21/21 08:44 午後
 
 
 ## Help

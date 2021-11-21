@@ -40,7 +40,7 @@ This command extracts files from a compressed file
 ## Developer/Additional Reference
 Automation Class Name: ExtractFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/16/21 11:34 午後
+This page was generated on 11/21/21 08:44 午後
 
 
 ## Help
