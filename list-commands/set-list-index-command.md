@@ -17,7 +17,7 @@ Use this command when you want to modify List Index.  You can even use variables
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please select a List Variable to modify|Select or provide a variable from the variable list|**vList** or **{vList}**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
+|Please select a List Variable Name to modify|Select or provide a variable from the variable list|**vList** or **{vList}**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Please set the current Index of the List|Enter the input that the variable's index should be set to.|**0** or **-1** or **{vIndex}**|You can use variables in input if you encase them within brackets {vName}.  You can also perform basic math operations.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -31,7 +31,7 @@ Use this command when you want to modify List Index.  You can even use variables
 ## Developer/Additional Reference
 Automation Class Name: SetListIndexCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/21/21 08:44 午後
+This page was generated on 11/23/21 07:05 午後
 
 
 ## Help

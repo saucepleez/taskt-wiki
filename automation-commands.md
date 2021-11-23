@@ -178,13 +178,16 @@
 ### List Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|List Commands|[Add List Item](/list-commands/add-list-item-command.md)|This command allows you to modify variables.|
+|List Commands|[Add List Item](/list-commands/add-list-item-command.md)|This command allows you to add list item.|
 |List Commands|[Convert List To JSON](/list-commands/convert-list-to-json-command.md)|This command convert a JSON array to a list.|
+|List Commands|[Copy List](/list-commands/copy-list-command.md)|This command allows you to copy list.|
 |List Commands|[Create List](/list-commands/create-list-command.md)|This command allows you to create new List|
 |List Commands|[Get List Count](/list-commands/get-list-count-command.md)|This command allows you to get the item count of a List|
 |List Commands|[Get List Item](/list-commands/get-list-item-command.md)|This command allows you to get an item from a List|
+|List Commands|[Reverse List](/list-commands/reverse-list-command.md)|This command allows you to reverse list.|
 |List Commands|[Set List Index](/list-commands/set-list-index-command.md)|This command allows you to modify List Index.|
 |List Commands|[Set List Item](/list-commands/set-list-item-command.md)|This command allows you want to set an item in a List|
+|List Commands|[Sort List](/list-commands/sort-list-command.md)|This command allows you to sort list.|
 ### Loop Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -313,7 +316,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 11/21/21 08:44 午後
+This page was generated on 11/23/21 07:05 午後
 
 
 ## Help

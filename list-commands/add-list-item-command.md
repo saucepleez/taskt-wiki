@@ -7,18 +7,18 @@
 
 
 ## What does this command do?
-This command allows you to modify variables.
+This command allows you to add list item.
 
 
 ## When would I want to use this command?
-Use this command when you want to modify the value of variables.  You can even use variables to modify other variables.
+Use this command when you want to add list item.  You can even use variables to modify other variables.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please select a list variable to modify|Select or provide a variable from the variable list|**vList** or **{vList}**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Please define the input to be added to the variable (ex. Hello, {vNum})|Enter the input that the variable's value should be set to.|**Hello** or **{vNum}**|You can use variables in input if you encase them within brackets {vName}.  You can also perform basic math operations.|
+|Please select a List Variable Name to modify|Select or provide a variable from the variable list|**vList** or **{vList}**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
+|Please define the input to be added to the variable|Enter the input that the variable's value should be set to.|**Hello** or **{vValue}**|You can use variables in input if you encase them within brackets {vName}.  You can also perform basic math operations.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -31,7 +31,7 @@ Use this command when you want to modify the value of variables.  You can even u
 ## Developer/Additional Reference
 Automation Class Name: AddListItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/21/21 08:44 午後
+This page was generated on 11/23/21 07:05 午後
 
 
 ## Help

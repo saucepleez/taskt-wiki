@@ -1,24 +1,25 @@
-<!--TITLE: OS Variable Command -->
-<!-- SUBTITLE: a command in the System Commands group. -->
+<!--TITLE: Sort List Command -->
+<!-- SUBTITLE: a command in the List Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# OS Variable Command
+# Sort List Command
 
 
 ## What does this command do?
-This command allows you to exclusively select a system/environment variable
+This command allows you to sort list.
 
 
 ## When would I want to use this command?
-Use this command to exclusively retrieve a system variable
+Use this command when you want to sort list.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Select the required system variable|Select from one of the options|||
-|Please select the variable to receive output|Select or provide a variable from the variable list|**{vResult}**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
+|Please select a List Variable Name to sort||**vList** or **{vList}**||
+|Optional - Please select sort order (Default is Ascending)||**Ascending** or **Descending**||
+|Please select a List Variable Name of the Sorted List||**vNewList** or **{vNewList}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -28,8 +29,10 @@ Use this command to exclusively retrieve a system variable
 
 
 
+
+
 ## Developer/Additional Reference
-Automation Class Name: OSVariableCommand
+Automation Class Name: SortListCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 11/23/21 07:05 午後
 

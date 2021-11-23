@@ -1,24 +1,24 @@
-<!--TITLE: OS Variable Command -->
-<!-- SUBTITLE: a command in the System Commands group. -->
+<!--TITLE: Copy List Command -->
+<!-- SUBTITLE: a command in the List Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# OS Variable Command
+# Copy List Command
 
 
 ## What does this command do?
-This command allows you to exclusively select a system/environment variable
+This command allows you to copy list.
 
 
 ## When would I want to use this command?
-Use this command to exclusively retrieve a system variable
+Use this command when you want to copy list.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Select the required system variable|Select from one of the options|||
-|Please select the variable to receive output|Select or provide a variable from the variable list|**{vResult}**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
+|Please select a List Variable Name to copy||**vList** or **{vList}**||
+|Please select a List Variable Name of the New List||**vNewList** or **{vNewList}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -29,7 +29,7 @@ Use this command to exclusively retrieve a system variable
 
 
 ## Developer/Additional Reference
-Automation Class Name: OSVariableCommand
+Automation Class Name: CopyListCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 11/23/21 07:05 午後
 
