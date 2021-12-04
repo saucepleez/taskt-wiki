@@ -34,7 +34,7 @@ Use this command when you want to copy a new worksheet to an Excel Instance
 ## Developer/Additional Reference
 Automation Class Name: ExcelCopyWorksheetCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/23/21 07:05 午後
+This page was generated on 12/04/21 11:27 午後
 
 
 ## Help

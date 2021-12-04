@@ -20,9 +20,6 @@
 |Data Commands|[Math Calculation](/data-commands/math-calculation-command.md)|This command allows you to perform a math calculation and apply it to a variable.|
 |Data Commands|[Modify Variable](/data-commands/modify-variable-command.md)|This command allows you to trim a string|
 |Data Commands|[Parse Dataset Row](/data-commands/parse-dataset-row-command.md)|This command allows you to parse a dataset row column into a variable.|
-|Data Commands|[Parse JSON Array](/data-commands/parse-json-array-command.md)|This command allows you to parse a JSON Array into a list.|
-|Data Commands|[Parse JSON Item](/data-commands/parse-json-item-command.md)|This command allows you to parse a JSON object into a list.|
-|Data Commands|[Parse JSON Model](/data-commands/parse-json-model-command.md)|This command allows you to parse a JSON object into a list.|
 |Data Commands|[PDF Extraction](/data-commands/pdf-extraction-command.md)||
 |Data Commands|[RegEx Extraction](/data-commands/regex-extraction-command.md)|This command allows you to perform advanced string formatting using RegEx.|
 |Data Commands|[Replace Text](/data-commands/replace-text-command.md)|This command allows you to replace text|
@@ -39,6 +36,15 @@
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |DataTable Commands|[Add DataRow](/datatable-commands/add-datarow-command.md)|This command allows you to add a datarow to a DataTable|
+|DataTable Commands|[Convert DataTable Column To DataTable](/datatable-commands/convert-datatable-column-to-datatable-command.md)|This command allows you to convert DataTable Column to DataTable|
+|DataTable Commands|[Convert DataTable Column To Dictionary](/datatable-commands/convert-datatable-column-to-dictionary-command.md)|This command allows you to convert DataTable Column to Dictionary|
+|DataTable Commands|[Convert DataTable Column To JSON](/datatable-commands/convert-datatable-column-to-json-command.md)|This command allows you to convert DataTable Column to JSON|
+|DataTable Commands|[Convert DataTable Column To List](/datatable-commands/convert-datatable-column-to-list-command.md)|This command allows you to convert DataTable Column to List|
+|DataTable Commands|[Convert DataTable Row To DataTable](/datatable-commands/convert-datatable-row-to-datatable-command.md)|This command allows you to convert DataTable Row to DataTable|
+|DataTable Commands|[Convert DataTable Row To Dictionary](/datatable-commands/convert-datatable-row-to-dictionary-command.md)|This command allows you to convert DataTable Row to Dictionary|
+|DataTable Commands|[Convert DataTable Row To JSON](/datatable-commands/convert-datatable-row-to-json-command.md)|This command allows you to convert DataTable Row to JSON|
+|DataTable Commands|[Convert DataTable Row To List](/datatable-commands/convert-datatable-row-to-list-command.md)|This command allows you to convert DataTable Row to List|
+|DataTable Commands|[Convert DataTable To JSON](/datatable-commands/convert-datatable-to-json-command.md)|This command allows you to convert DataTable to JSON|
 |DataTable Commands|[Create DataTable](/datatable-commands/create-datatable-command.md)|This command created a DataTable with the column names provided|
 |DataTable Commands|[Filter DataTable](/datatable-commands/filter-datatable-command.md)|This command allows you filter a DataTable into a new Datatable|
 |DataTable Commands|[Get DataRow](/datatable-commands/get-datarow-command.md)|This command allows you to get a DataRow from a DataTable|
@@ -52,6 +58,7 @@
 | ---                | ---           | ---                   |
 |Dictionary Commands|[Add Dictionary Item](/dictionary-commands/add-dictionary-item-command.md)|This command Adds a key and value to a existing Dictionary|
 |Dictionary Commands|[Check Dictionary Key Exists](/dictionary-commands/check-dictionary-key-exists-command.md)|This command allows you to check key existance in Dictionary|
+|Dictionary Commands|[Convert Dictionary To DataTable](/dictionary-commands/convert-dictionary-to-datatable-command.md)|This command allows you to convert Dictionary to DataTable|
 |Dictionary Commands|[Convert Dictionary To JSON](/dictionary-commands/convert-dictionary-to-json-command.md)|This command allows you to get JSON from Dictionary|
 |Dictionary Commands|[Convert Dictionary To List](/dictionary-commands/convert-dictionary-to-list-command.md)|This command allows you to get List from Dictionary|
 |Dictionary Commands|[Create Dictionary](/dictionary-commands/create-dictionary-command.md)|This command created a DataTable with the column names provided|
@@ -175,14 +182,29 @@
 |Input Commands|[Send Mouse Click](/input-commands/send-mouse-click-command.md)|Simulates mouse clicks.|
 |Input Commands|[Send Mouse Move](/input-commands/send-mouse-move-command.md)|Simulates mouse movements|
 |Input Commands|[UI Automation](/input-commands/ui-automation-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
+### JSON Commands
+| Command Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+|JSON Commands|[Convert JSON To DataTable](/json-commands/convert-json-to-datatable-command.md)|This command allows you to convert JSON to DataTable.|
+|JSON Commands|[Convert JSON To Dictionary](/json-commands/convert-json-to-dictionary-command.md)|This command allows you to convert JSON to Dictionary.|
+|JSON Commands|[Convert JSON To List](/json-commands/convert-json-to-list-command.md)|This command allows you to convert JSON Array into a List.|
+|JSON Commands|[Parse JSON Array](/json-commands/parse-json-array-command.md)|This command allows you to parse a JSON Array into a list.|
+|JSON Commands|[Parse JSON Item](/json-commands/parse-json-item-command.md)|This command allows you to parse a JSON object into a list.|
+|JSON Commands|[Parse JSON Model](/json-commands/parse-json-model-command.md)|This command allows you to parse a JSON object into a list.|
+|JSON Commands|[Read JSON File](/json-commands/read-json-file-command.md)|This command reads JSON data into a variable|
 ### List Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |List Commands|[Add List Item](/list-commands/add-list-item-command.md)|This command allows you to add list item.|
+|List Commands|[Check List Item Exists](/list-commands/check-list-item-exists-command.md)|This command allows you want to check list has a value you specify|
+|List Commands|[Concatenate Lists](/list-commands/concatenate-lists-command.md)|This command allows you to concatenate 2 lists.|
+|List Commands|[Convert List To DataTable](/list-commands/convert-list-to-datatable-command.md)|This command convert a List to a DataTable.|
+|List Commands|[Convert List To Dictionary](/list-commands/convert-list-to-dictionary-command.md)|This command convert a List to Dictionary.|
 |List Commands|[Convert List To JSON](/list-commands/convert-list-to-json-command.md)|This command convert a JSON array to a list.|
 |List Commands|[Copy List](/list-commands/copy-list-command.md)|This command allows you to copy list.|
 |List Commands|[Create List](/list-commands/create-list-command.md)|This command allows you to create new List|
 |List Commands|[Get List Count](/list-commands/get-list-count-command.md)|This command allows you to get the item count of a List|
+|List Commands|[Get List Index From Value](/list-commands/get-list-index-from-value-command.md)|This command allows you want to get list index from value|
 |List Commands|[Get List Item](/list-commands/get-list-item-command.md)|This command allows you to get an item from a List|
 |List Commands|[Reverse List](/list-commands/reverse-list-command.md)|This command allows you to reverse list.|
 |List Commands|[Set List Index](/list-commands/set-list-index-command.md)|This command allows you to modify List Index.|
@@ -316,7 +338,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 11/23/21 07:05 午後
+This page was generated on 12/04/21 11:27 午後
 
 
 ## Help

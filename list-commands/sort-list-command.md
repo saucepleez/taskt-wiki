@@ -19,8 +19,11 @@ Use this command when you want to sort list.
 | ---                    | ---               | ---           | ---       |
 |Please select a List Variable Name to sort||**vList** or **{vList}**||
 |Optional - Please select sort order (Default is Ascending)||**Ascending** or **Descending**||
+|Optional - Please select sort target value type (Default is Text)||**Text** or **Number**||
 |Please select a List Variable Name of the Sorted List||**vNewList** or **{vNewList}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+
+
 
 
 
@@ -34,7 +37,7 @@ Use this command when you want to sort list.
 ## Developer/Additional Reference
 Automation Class Name: SortListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/23/21 07:05 午後
+This page was generated on 12/04/21 11:27 午後
 
 
 ## Help
