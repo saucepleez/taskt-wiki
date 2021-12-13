@@ -36,6 +36,13 @@
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |DataTable Commands|[Add DataRow](/datatable-commands/add-datarow-command.md)|This command allows you to add a datarow to a DataTable|
+|DataTable Commands|[Add DataTable Column](/datatable-commands/add-datatable-column-command.md)|This command allows you to add a column to a DataTable|
+|DataTable Commands|[Add DataTable Column And Fill Values By List](/datatable-commands/add-datatable-column-and-fill-values-by-list-command.md)|This command allows you to add a column to a DataTable by a List|
+|DataTable Commands|[Add DataTable Columns And Fill Values By DataTable](/datatable-commands/add-datatable-columns-and-fill-values-by-datatable-command.md)|This command allows you to add a columns to a DataTable by a DataTable|
+|DataTable Commands|[Add DataTable Row](/datatable-commands/add-datatable-row-command.md)|This command allows you to add a row to a DataTable|
+|DataTable Commands|[Add DataTable Row By DataTable](/datatable-commands/add-datatable-row-by-datatable-command.md)|This command allows you to add a DataTable Row to a DataTable by a DataTable|
+|DataTable Commands|[Add DataTable Row By Dictionary](/datatable-commands/add-datatable-row-by-dictionary-command.md)|This command allows you to add a DataTable Row to a DataTable by a Dictionary|
+|DataTable Commands|[Check DataTable Column Exists](/datatable-commands/check-datatable-column-exists-command.md)|This command allows you to check the column name existance|
 |DataTable Commands|[Convert DataTable Column To DataTable](/datatable-commands/convert-datatable-column-to-datatable-command.md)|This command allows you to convert DataTable Column to DataTable|
 |DataTable Commands|[Convert DataTable Column To Dictionary](/datatable-commands/convert-datatable-column-to-dictionary-command.md)|This command allows you to convert DataTable Column to Dictionary|
 |DataTable Commands|[Convert DataTable Column To JSON](/datatable-commands/convert-datatable-column-to-json-command.md)|This command allows you to convert DataTable Column to JSON|
@@ -45,22 +52,36 @@
 |DataTable Commands|[Convert DataTable Row To JSON](/datatable-commands/convert-datatable-row-to-json-command.md)|This command allows you to convert DataTable Row to JSON|
 |DataTable Commands|[Convert DataTable Row To List](/datatable-commands/convert-datatable-row-to-list-command.md)|This command allows you to convert DataTable Row to List|
 |DataTable Commands|[Convert DataTable To JSON](/datatable-commands/convert-datatable-to-json-command.md)|This command allows you to convert DataTable to JSON|
+|DataTable Commands|[Copy DataTable](/datatable-commands/copy-datatable-command.md)|This command allows you to copy a DataTable|
 |DataTable Commands|[Create DataTable](/datatable-commands/create-datatable-command.md)|This command created a DataTable with the column names provided|
+|DataTable Commands|[Delete DataTable Column](/datatable-commands/delete-datatable-column-command.md)|This command allows you to delete a column to a DataTable|
+|DataTable Commands|[Delete DataTable Row](/datatable-commands/delete-datatable-row-command.md)|This command allows you to delete a DataTable Row|
 |DataTable Commands|[Filter DataTable](/datatable-commands/filter-datatable-command.md)|This command allows you filter a DataTable into a new Datatable|
 |DataTable Commands|[Get DataRow](/datatable-commands/get-datarow-command.md)|This command allows you to get a DataRow from a DataTable|
 |DataTable Commands|[Get DataRow Count](/datatable-commands/get-datarow-count-command.md)|This command allows you to get the datarow count of a DataTable|
 |DataTable Commands|[Get DataRow Value](/datatable-commands/get-datarow-value-command.md)|This command allows you to get a DataRow Value from a DataTable|
+|DataTable Commands|[Get DataTable Column Count](/datatable-commands/get-datatable-column-count-command.md)|This command allows you to get the column count of a DataTable|
+|DataTable Commands|[Get DataTable Column List](/datatable-commands/get-datatable-column-list-command.md)|This command allows you to get the column name List of a DataTable|
+|DataTable Commands|[Get DataTable Row Count](/datatable-commands/get-datatable-row-count-command.md)|This command allows you to get the Row count of a DataTable|
+|DataTable Commands|[Get DataTable Value](/datatable-commands/get-datatable-value-command.md)|This command allows you to get the DataTable value|
 |DataTable Commands|[Load DataTable](/datatable-commands/load-datatable-command.md)|This command gets a range of cells and applies them against a dataset|
 |DataTable Commands|[Remove DataRow](/datatable-commands/remove-datarow-command.md)|This command allows you remove specified data rows.|
+|DataTable Commands|[Set DataTable Column By DataTable](/datatable-commands/set-datatable-column-by-datatable-command.md)|This command allows you to set a column to a DataTable by a DataTable|
+|DataTable Commands|[Set DataTable Column By List](/datatable-commands/set-datatable-column-by-list-command.md)|This command allows you to set a column to a DataTable by a List|
+|DataTable Commands|[Set DataTable Row Values By DataTable](/datatable-commands/set-datatable-row-values-by-datatable-command.md)|This command allows you to set a DataTable Row values to a DataTable by a DataTable|
+|DataTable Commands|[Set DataTable Row Values By Dictionary](/datatable-commands/set-datatable-row-values-by-dictionary-command.md)|This command allows you to set a DataTable Row values to a DataTable by a Dictionary|
+|DataTable Commands|[Set DataTable Value](/datatable-commands/set-datatable-value-command.md)|This command allows you to set the DataTable value|
 |DataTable Commands|[Write DataRow Value](/datatable-commands/write-datarow-value-command.md)|This command allows you to write a Value to a DataRow|
 ### Dictionary Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Dictionary Commands|[Add Dictionary Item](/dictionary-commands/add-dictionary-item-command.md)|This command Adds a key and value to a existing Dictionary|
 |Dictionary Commands|[Check Dictionary Key Exists](/dictionary-commands/check-dictionary-key-exists-command.md)|This command allows you to check key existance in Dictionary|
+|Dictionary Commands|[Concatenate Dictionary](/dictionary-commands/concatenate-dictionary-command.md)|This command allows you to concatenate two Dictionaries.|
 |Dictionary Commands|[Convert Dictionary To DataTable](/dictionary-commands/convert-dictionary-to-datatable-command.md)|This command allows you to convert Dictionary to DataTable|
 |Dictionary Commands|[Convert Dictionary To JSON](/dictionary-commands/convert-dictionary-to-json-command.md)|This command allows you to get JSON from Dictionary|
 |Dictionary Commands|[Convert Dictionary To List](/dictionary-commands/convert-dictionary-to-list-command.md)|This command allows you to get List from Dictionary|
+|Dictionary Commands|[Copy Dictionary](/dictionary-commands/copy-dictionary-command.md)|This command allows you to copy a Dictionary.|
 |Dictionary Commands|[Create Dictionary](/dictionary-commands/create-dictionary-command.md)|This command created a DataTable with the column names provided|
 |Dictionary Commands|[Get Dictionary Item](/dictionary-commands/get-dictionary-item-command.md)|This command allows you to get value in Dictionary|
 |Dictionary Commands|[Get Dictionary Key From Value](/dictionary-commands/get-dictionary-key-from-value-command.md)|This command allows you to get Dictionary key Name from Value|
@@ -338,7 +359,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 12/04/21 11:27 午後
+This page was generated on 12/13/21 09:43 午後
 
 
 ## Help
