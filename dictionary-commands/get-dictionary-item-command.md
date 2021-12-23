@@ -17,9 +17,9 @@ Use this command when you want to get value in Dictionary.
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please indicate the variable to apply result|Enter a unique dataset name that will be used later to traverse over the data|**vMyData** or **{myData}**||
 |Please input The Dictionary Variable||**myDictionary** or **{vMyDic}**||
 |Please indicate the key for the Dictionary||**key1** or **{vKeyName}**||
+|Please indicate the variable to apply result|Enter a unique dataset name that will be used later to traverse over the data|**vMyData** or **{myData}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -34,7 +34,7 @@ Use this command when you want to get value in Dictionary.
 ## Developer/Additional Reference
 Automation Class Name: GetDictionaryValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/13/21 09:43 午後
+This page was generated on 12/23/21 10:28 午後
 
 
 ## Help

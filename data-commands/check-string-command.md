@@ -18,7 +18,7 @@ Use this command when you want to select a subset of text or variable
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Supply the value or variable to check|Select or provide a variable or text value|**Hello** or **{vText}**||
-|Select the check method||**Contains** or **Start with** or **End with** or **Index of** or **Last Index of**||
+|Select the check method||**Contains** or **Starts with** or **Ends with** or **Index of** or **Last Index of**||
 |Select the check method||**Ha** or **{vSearchedText}**||
 |Optional - Case sensitive (Default is Yes)|Indicate if only so many characters should be kept|**Yes** or **No**||
 |Please select the variable to receive the result|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
@@ -48,7 +48,7 @@ Use this command when you want to select a subset of text or variable
 ## Developer/Additional Reference
 Automation Class Name: StringCheckTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/13/21 09:43 午後
+This page was generated on 12/23/21 10:28 午後
 
 
 ## Help

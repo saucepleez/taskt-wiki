@@ -19,7 +19,7 @@ Use this command when you want to get list index from value
 | ---                    | ---               | ---           | ---       |
 |Please indicate the List Variable Name.|Enter a existing List.|**myList** or **{myList}** or **[1,2,3]**||
 |Please enter the value to search.||**0** or **{vValue}**||
-|Optional - Please specify search method. (Default is First Index)|**First Index** or **Last Index**|||
+|Optional - Please specify search method (Default is First Index)|**First Index** or **Last Index**|||
 |Please specify the variable to apply index||**vResult** or **{vResult}**|If list does not contains value, result is -1.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -37,7 +37,7 @@ Use this command when you want to get list index from value
 ## Developer/Additional Reference
 Automation Class Name: GetListIndexFromValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/13/21 09:43 午後
+This page was generated on 12/23/21 10:28 午後
 
 
 ## Help

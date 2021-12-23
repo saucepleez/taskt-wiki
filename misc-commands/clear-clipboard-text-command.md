@@ -25,7 +25,7 @@ Use this command when you want to copy the data from the clipboard and apply it 
 ## Developer/Additional Reference
 Automation Class Name: ClipboardClearTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/13/21 09:43 午後
+This page was generated on 12/23/21 10:28 午後
 
 
 ## Help
