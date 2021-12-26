@@ -28,7 +28,7 @@ Use this command to detete a file from a specific location.
 ## Developer/Additional Reference
 Automation Class Name: DeleteFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/23/21 10:28 午後
+This page was generated on 12/26/21 05:14 午後
 
 
 ## Help

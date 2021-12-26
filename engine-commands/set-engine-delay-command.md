@@ -17,7 +17,7 @@ Use this command when you want to change the execution speed between commands.
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Set Delay between commands (in milliseconds). (ex. 2500, {vWait})|Enter a specific amount of time in milliseconds (ex. to specify 8 seconds, one would enter 8000) or specify a variable containing a value.|**250** or **{vVariableSpeed}**||
+|Set Delay between commands (in milliseconds).|Enter a specific amount of time in milliseconds (ex. to specify 8 seconds, one would enter 8000) or specify a variable containing a value.|**250** or **{vVariableSpeed}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -28,7 +28,7 @@ Use this command when you want to change the execution speed between commands.
 ## Developer/Additional Reference
 Automation Class Name: SetEngineDelayCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/23/21 10:28 午後
+This page was generated on 12/26/21 05:14 午後
 
 
 ## Help

@@ -31,7 +31,7 @@ Use this command when you want to create a new DataTable
 ## Developer/Additional Reference
 Automation Class Name: CreateDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/23/21 10:28 午後
+This page was generated on 12/26/21 05:14 午後
 
 
 ## Help
