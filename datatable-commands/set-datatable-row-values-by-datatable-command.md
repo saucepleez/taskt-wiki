@@ -18,7 +18,7 @@ Use this command when you want to set a DataTable Row values to a DataTable by a
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please indicate the DataTable Variable Name to be setted a row|Enter a existing DataTable Variable Name|**myDataTable** or **{vMyDataTable}**||
-|Please specify the Row index to set values||**0** or **1** or **{vIndex}**||
+|Please specify the Row index to setted values||**0** or **1** or **{vIndex}**||
 |Please specify the DataTable Variable Name to set to the DataTable||||
 |Please specify the Row index to set values||**0** or **1** or **{vIndex}**||
 |Optional - Please specify the if DataTable column does not exists (Default is Ignore)||**Ignore** or **Error**||
@@ -40,7 +40,7 @@ Use this command when you want to set a DataTable Row values to a DataTable by a
 ## Developer/Additional Reference
 Automation Class Name: SetDataTableRowValuesByDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/26/21 05:14 午後
+This page was generated on 01/03/22 01:55 午後
 
 
 ## Help

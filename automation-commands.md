@@ -12,19 +12,24 @@
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Data Commands|[Check String](/data-commands/check-string-command.md)|This command allows you to check a string|
+|Data Commands|[Check Text](/data-commands/check-text-command.md)|This command allows you to check a string|
 |Data Commands|[Date Calculation](/data-commands/date-calculation-command.md)|This command allows you to build a date and apply it to a variable.|
+|Data Commands|[ExtractionText](/data-commands/extractiontext-command.md)|This command allows you to perform advanced string extraction.|
 |Data Commands|[Format Data](/data-commands/format-data-command.md)|This command allows you to apply formatting to a string|
 |Data Commands|[Get Word Count](/data-commands/get-word-count-command.md)|This command allows you to you to retrieve the word count of a string or variable.|
 |Data Commands|[Get Word Length](/data-commands/get-word-length-command.md)|This command allows you to retrieve the length of a string or variable.|
 |Data Commands|[Log Data](/data-commands/log-data-command.md)|This command logs data to files.|
 |Data Commands|[Math Calculation](/data-commands/math-calculation-command.md)|This command allows you to perform a math calculation and apply it to a variable.|
+|Data Commands|[Modify Text](/data-commands/modify-text-command.md)|This command allows you to trim a string|
 |Data Commands|[Modify Variable](/data-commands/modify-variable-command.md)|This command allows you to trim a string|
 |Data Commands|[Parse Dataset Row](/data-commands/parse-dataset-row-command.md)|This command allows you to parse a dataset row column into a variable.|
 |Data Commands|[PDF Extraction](/data-commands/pdf-extraction-command.md)||
 |Data Commands|[RegEx Extraction](/data-commands/regex-extraction-command.md)|This command allows you to perform advanced string formatting using RegEx.|
+|Data Commands|[RegEx Extraction Text](/data-commands/regex-extraction-text-command.md)|This command allows you to perform advanced string formatting using RegEx.|
 |Data Commands|[Replace Text](/data-commands/replace-text-command.md)|This command allows you to replace text|
 |Data Commands|[Split Text](/data-commands/split-text-command.md)|This command allows you to split a string|
 |Data Commands|[Substring](/data-commands/substring-command.md)|This command allows you to trim a string|
+|Data Commands|[Substring Text](/data-commands/substring-text-command.md)|This command allows you to trim a string|
 |Data Commands|[Text Extraction](/data-commands/text-extraction-command.md)|This command allows you to perform advanced string extraction.|
 ### Database Commands
 | Command Group   	| Command Name 	|  Command Description	|
@@ -359,7 +364,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 12/26/21 05:14 午後
+This page was generated on 01/03/22 01:55 午後
 
 
 ## Help

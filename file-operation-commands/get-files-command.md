@@ -40,7 +40,7 @@ Use this command to return a list of file paths from a specific location.
 ## Developer/Additional Reference
 Automation Class Name: GetFilesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/26/21 05:14 午後
+This page was generated on 01/03/22 01:55 午後
 
 
 ## Help
