@@ -14,7 +14,7 @@
 |Data Commands|[Check String](/data-commands/check-string-command.md)|This command allows you to check a string|
 |Data Commands|[Check Text](/data-commands/check-text-command.md)|This command allows you to check a string|
 |Data Commands|[Date Calculation](/data-commands/date-calculation-command.md)|This command allows you to build a date and apply it to a variable.|
-|Data Commands|[ExtractionText](/data-commands/extractiontext-command.md)|This command allows you to perform advanced string extraction.|
+|Data Commands|[Extraction Text](/data-commands/extraction-text-command.md)|This command allows you to perform advanced string extraction.|
 |Data Commands|[Format Data](/data-commands/format-data-command.md)|This command allows you to apply formatting to a string|
 |Data Commands|[Get Word Count](/data-commands/get-word-count-command.md)|This command allows you to you to retrieve the word count of a string or variable.|
 |Data Commands|[Get Word Length](/data-commands/get-word-length-command.md)|This command allows you to retrieve the length of a string or variable.|
@@ -22,7 +22,6 @@
 |Data Commands|[Math Calculation](/data-commands/math-calculation-command.md)|This command allows you to perform a math calculation and apply it to a variable.|
 |Data Commands|[Modify Text](/data-commands/modify-text-command.md)|This command allows you to trim a string|
 |Data Commands|[Modify Variable](/data-commands/modify-variable-command.md)|This command allows you to trim a string|
-|Data Commands|[Parse Dataset Row](/data-commands/parse-dataset-row-command.md)|This command allows you to parse a dataset row column into a variable.|
 |Data Commands|[PDF Extraction](/data-commands/pdf-extraction-command.md)||
 |Data Commands|[RegEx Extraction](/data-commands/regex-extraction-command.md)|This command allows you to perform advanced string formatting using RegEx.|
 |Data Commands|[RegEx Extraction Text](/data-commands/regex-extraction-text-command.md)|This command allows you to perform advanced string formatting using RegEx.|
@@ -70,6 +69,7 @@
 |DataTable Commands|[Get DataTable Row Count](/datatable-commands/get-datatable-row-count-command.md)|This command allows you to get the Row count of a DataTable|
 |DataTable Commands|[Get DataTable Value](/datatable-commands/get-datatable-value-command.md)|This command allows you to get the DataTable value|
 |DataTable Commands|[Load DataTable](/datatable-commands/load-datatable-command.md)|This command gets a range of cells and applies them against a dataset|
+|DataTable Commands|[Parse Dataset Row](/datatable-commands/parse-dataset-row-command.md)|This command allows you to parse a dataset row column into a variable.|
 |DataTable Commands|[Remove DataRow](/datatable-commands/remove-datarow-command.md)|This command allows you remove specified data rows.|
 |DataTable Commands|[Set DataTable Column By DataTable](/datatable-commands/set-datatable-column-by-datatable-command.md)|This command allows you to set a column to a DataTable by a DataTable|
 |DataTable Commands|[Set DataTable Column By List](/datatable-commands/set-datatable-column-by-list-command.md)|This command allows you to set a column to a DataTable by a List|
@@ -134,11 +134,18 @@
 |Excel Commands|[Delete Worksheet](/excel-commands/delete-worksheet-command.md)|This command delete a Excel Worksheet.|
 |Excel Commands|[Get Cell](/excel-commands/get-cell-command.md)|This command gets text from a specified Excel Cell.|
 |Excel Commands|[Get Cell RC](/excel-commands/get-cell-rc-command.md)|This command gets text from a specified Excel Cell.|
+|Excel Commands|[Get Column Values As DataTable](/excel-commands/get-column-values-as-datatable-command.md)|This command get Column values as DataTable.|
+|Excel Commands|[Get Column Values As Dictionary](/excel-commands/get-column-values-as-dictionary-command.md)|This command get Column values as Dictionary.|
+|Excel Commands|[Get Column Values As List](/excel-commands/get-column-values-as-list-command.md)|This command get Column values as List.|
 |Excel Commands|[Get Current Worksheet](/excel-commands/get-current-worksheet-command.md)|This command allows you to get current sheet name.|
 |Excel Commands|[Get Excel Info](/excel-commands/get-excel-info-command.md)|This command allows you to get current sheet name.|
 |Excel Commands|[Get Last Row Index](/excel-commands/get-last-row-index-command.md)|This command allows you to find the last row in a used range in an Excel Workbook.|
 |Excel Commands|[Get Range](/excel-commands/get-range-command.md)|This command gets text from a specified Excel Range.|
 |Excel Commands|[Get Range As Datatable](/excel-commands/get-range-as-datatable-command.md)|This command gets text from a specified Excel Range and put it into a DataTable.|
+|Excel Commands|[Get Range Values As DataTable](/excel-commands/get-range-values-as-datatable-command.md)|This command get Range values as DataTable.|
+|Excel Commands|[Get Row Values As DataTable](/excel-commands/get-row-values-as-datatable-command.md)|This command get Row values as DataTable.|
+|Excel Commands|[Get Row Values As Dictionary](/excel-commands/get-row-values-as-dictionary-command.md)|This command get Row values as Dictionary.|
+|Excel Commands|[Get Row Values As List](/excel-commands/get-row-values-as-list-command.md)|This command get Row values as List.|
 |Excel Commands|[Get Worksheet Info](/excel-commands/get-worksheet-info-command.md)|This command allows you to get a sheet info.|
 |Excel Commands|[Get Worksheets](/excel-commands/get-worksheets-command.md)|This command allows you to get a specific worksheet names|
 |Excel Commands|[Go To Cell](/excel-commands/go-to-cell-command.md)|This command moves to a specific cell.|
@@ -149,6 +156,12 @@
 |Excel Commands|[Save Workbook As](/excel-commands/save-workbook-as-command.md)|This command allows you to save an Excel workbook.|
 |Excel Commands|[Set Cell](/excel-commands/set-cell-command.md)|This command sets the value of a cell.|
 |Excel Commands|[Set Cell RC](/excel-commands/set-cell-rc-command.md)|This command sets the value of a cell.|
+|Excel Commands|[Set Column Values From DataTable](/excel-commands/set-column-values-from-datatable-command.md)|This command set Column values from DataTable.|
+|Excel Commands|[Set Column Values From Dictionary](/excel-commands/set-column-values-from-dictionary-command.md)|This command set Column values from Ditionary.|
+|Excel Commands|[Set Column Values From List](/excel-commands/set-column-values-from-list-command.md)|This command set Column values from List.|
+|Excel Commands|[Set Row Values From DataTable](/excel-commands/set-row-values-from-datatable-command.md)|This command set Row values from DataTable.|
+|Excel Commands|[Set Row Values From Dictionary](/excel-commands/set-row-values-from-dictionary-command.md)|This command set Row values from Dictionary.|
+|Excel Commands|[Set Row Values From List](/excel-commands/set-row-values-from-list-command.md)|This command set Row values from List.|
 |Excel Commands|[Split Range By Column](/excel-commands/split-range-by-column-command.md)|This command gets text from a specified Excel Range and splits it into separate ranges by column.|
 |Excel Commands|[Write Range](/excel-commands/write-range-command.md)|This command writes a datatable to an excel sheet starting from the given cell address.|
 |Excel Commands|[Write Row](/excel-commands/write-row-command.md)|This command writes a DataRow to an excel sheet starting from the given cell address.|
@@ -364,7 +377,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 01/03/22 01:55 午後
+This page was generated on 01/18/22 10:15 午後
 
 
 ## Help

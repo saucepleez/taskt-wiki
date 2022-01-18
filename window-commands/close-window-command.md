@@ -31,7 +31,7 @@ Use this command when you want to close an existing window by name.
 ## Developer/Additional Reference
 Automation Class Name: CloseWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/03/22 01:55 午後
+This page was generated on 01/18/22 10:15 午後
 
 
 ## Help
