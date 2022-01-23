@@ -40,7 +40,7 @@ Use this command when you want to create a browser that will eventually perform 
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserSwitchWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/18/22 10:15 午後
+This page was generated on 01/23/22 09:09 午後
 
 
 ## Help
