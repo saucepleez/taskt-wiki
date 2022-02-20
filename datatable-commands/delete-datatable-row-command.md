@@ -18,7 +18,7 @@ Use this command when you want to delete a DataTable Row.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please indicate the DataTable Variable Name to be delete a row|Enter a existing DataTable Variable Name|**myDataTable** or **{vMyDataTable}**||
-|Please specify the Row Index to delete||**0** or **{vRow}**||
+|Optional - Please specify the Row Index to delete (Default is Current Row)||**0** or **1** or **-1** or **{vRow}**|**-1** means index of the last row.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -31,7 +31,7 @@ Use this command when you want to delete a DataTable Row.
 ## Developer/Additional Reference
 Automation Class Name: DeleteDataTableRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/23/22 09:09 午後
+This page was generated on 02/20/22 08:40 午後
 
 
 ## Help

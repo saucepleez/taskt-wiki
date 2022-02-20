@@ -18,7 +18,7 @@ Use this command when you want to convert DataTable Row to JSON.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please indicate the DataTable Variable Name|Enter a existing DataTable to fet rows from.|**myDataTable** or **{vMyDataTable}**||
-|Please enter the index of the Row|Enter a valid DataRow index value|**0** or **{vRowIndex}**||
+|Optional - Please enter the index of the Row (Default is Current Row)|Enter a valid DataRow index value|**0** or **1** or **-1** or **{vRowIndex}**|**-1** means index of the last row.|
 |Please Specify the Variable Name To Assign The JSON|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -34,7 +34,7 @@ Use this command when you want to convert DataTable Row to JSON.
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableRowToJSONCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/23/22 09:09 午後
+This page was generated on 02/20/22 08:40 午後
 
 
 ## Help

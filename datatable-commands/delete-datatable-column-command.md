@@ -19,7 +19,7 @@ Use this command when you want to delete a column to a DataTable.
 | ---                    | ---               | ---           | ---       |
 |Please indicate the DataTable Variable Name|Enter a existing DataTable to add rows to.|**myDataTable** or **{vMyDataTable}**||
 |Optional - Please specify the Column type (Default is Column Name)||**Column Name** or **Index**||
-|Please specify the Column Name to delete||**0** or **newColumn** or **{vNewColumn}** or **{vIndex}**||
+|Please specify the Column Name to delete||**0** or **newColumn** or **{vColumn}** or **-1**|If **-1** is specified for Column Index, it means the last column.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -34,7 +34,7 @@ Use this command when you want to delete a column to a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: DeleteDataTableColumnCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/23/22 09:09 午後
+This page was generated on 02/20/22 08:40 午後
 
 
 ## Help

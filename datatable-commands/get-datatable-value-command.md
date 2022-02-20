@@ -20,7 +20,7 @@ Use this command when you want to get the DataTable value.
 |Please indicate the DataTable Variable Name|Enter a existing DataTable.|**myDataTable** or **{vMyDataTable}**||
 |Optional - Please specify the Column value type (Default is Column Name)||**Index** or **Column Name**||
 |Please specify the Column Name or Index||**0** or **id** or **{vIndex}** or **{vColumn}**||
-|Please specify the Row Index||**0** or **{vIndex}**||
+|Optional - Please specify the Row Index (Default is Current Row)||**0** or **1** or **-1** or **{vIndex}**|**-1** means index of last row.|
 |Please Specify the Variable Name To Assign the Value|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -40,7 +40,7 @@ Use this command when you want to get the DataTable value.
 ## Developer/Additional Reference
 Automation Class Name: GetDataTableValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/23/22 09:09 午後
+This page was generated on 02/20/22 08:40 午後
 
 
 ## Help

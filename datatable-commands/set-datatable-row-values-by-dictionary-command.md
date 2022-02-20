@@ -18,7 +18,7 @@ Use this command when you want to set a DataTable Row values to a DataTable by a
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please indicate the DataTable Variable Name to be setted a row|Enter a existing DataTable Variable Name|**myDataTable** or **{vMyDataTable}**||
-|Please specify the Row index to set values||**0** or **1** or **{vIndex}**||
+|Optional - Please specify the Row index to set values (Default is Current Row)||**0** or **1** or **-1** or **{vIndex}**|**-1** means index of the last row.|
 |Please specify the Dictionary Variable Name to set to the DataTable||||
 |Optional - Please specify the if Dictionary key does not exists (Default is Ignore)||**Ignore** or **Error**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
@@ -37,7 +37,7 @@ Use this command when you want to set a DataTable Row values to a DataTable by a
 ## Developer/Additional Reference
 Automation Class Name: SetDataTableRowValuesByDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/23/22 09:09 午後
+This page was generated on 02/20/22 08:40 午後
 
 
 ## Help

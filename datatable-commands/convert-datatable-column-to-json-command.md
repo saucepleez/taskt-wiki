@@ -19,7 +19,7 @@ Use this command when you want to convert DataTable Column to JSON.
 | ---                    | ---               | ---           | ---       |
 |Please indicate the DataTable Variable Name|Enter a existing DataTable to fet rows from.|**myDataTable** or **{vMyDataTable}**||
 |Optional - Please specify Column type (Default is Column Name)||**Column Name** or **Index**||
-|Please enter the Name or Index of the Column|Enter a valid Column index value|**id** or **0** or **{vColumn}**||
+|Please enter the Name or Index of the Column|Enter a valid Column index value|**id** or **0** or **{vColumn}** or **-1**|If **-1** is specified for Column Index, it means the last column.|
 |Please Specify the Variable Name To Assign The JSON|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -37,7 +37,7 @@ Use this command when you want to convert DataTable Column to JSON.
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableColumnToJSONCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/23/22 09:09 午後
+This page was generated on 02/20/22 08:40 午後
 
 
 ## Help

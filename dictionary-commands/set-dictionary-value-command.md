@@ -18,7 +18,7 @@ Use this command when you want to set value in Dictionary.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please input The Dictionary Variable|Enter a string of comma seperated values.|**myDictionary** or **{vMyDic}**||
-|Please indicate the key for the Dictionary|Enter a string of comma seperated values.|**key1** or **{vKeyName}**||
+|Optional - Please indicate the key for the Dictionary (Default is Current Position)|Enter a string of comma seperated values.|**key1** or **{vKeyName}**|If it is empty, it will be the value of Current Position, which can be used for Loop List command.|
 |Please indicate the value for the Dictionary||**value1** or **{vValue}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -34,7 +34,7 @@ Use this command when you want to set value in Dictionary.
 ## Developer/Additional Reference
 Automation Class Name: SetDictionaryValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/23/22 09:09 午後
+This page was generated on 02/20/22 08:40 午後
 
 
 ## Help

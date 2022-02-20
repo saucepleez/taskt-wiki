@@ -19,7 +19,7 @@ Use this command when you want to set a column to a DataTable by a List.
 | ---                    | ---               | ---           | ---       |
 |Please indicate the DataTable Variable Name|Enter a existing DataTable to add rows to.|**myDataTable** or **{vMyDataTable}**||
 |Optional - Please specify Column type (Default is Column Name)||**Column Name** or **Index**||
-|Please specify the Column Name to set||**0** or **newColumn** or **{vNewColumn}** or **{vIndex}**||
+|Please specify the Column Name to set||**0** or **newColumn** or **{vNewColumn}** or **-1**|If **-1** is specified for Column Index, it means the last column.|
 |Please specify the List to set new Column values||**vList** or **{vList}**||
 |Optional - If the number of rows is less than the List (Default is Ignore)||**Ignore** or **Add Rows** or **Error**||
 |Optional - If the number of List items is less than the rows (Default is Ignore)||**Ignore** or **Error**||
@@ -43,7 +43,7 @@ Use this command when you want to set a column to a DataTable by a List.
 ## Developer/Additional Reference
 Automation Class Name: SetDataTableColumnValuesByListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/23/22 09:09 午後
+This page was generated on 02/20/22 08:40 午後
 
 
 ## Help
