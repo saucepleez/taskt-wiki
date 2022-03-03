@@ -28,7 +28,7 @@ Use this command when you want to simulate a forward click in the web browser se
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserNavigateForwardCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/20/22 08:40 午後
+This page was generated on 03/03/22 10:15 午後
 
 
 ## Help

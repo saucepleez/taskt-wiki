@@ -339,9 +339,9 @@
 |Web Browser Commands|[Create Browser](/web-browser-commands/create-browser-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
 |Web Browser Commands|[Element Action](/web-browser-commands/element-action-command.md)|This command allows you to close a Selenium web browser session.|
 |Web Browser Commands|[Execute Script](/web-browser-commands/execute-script-command.md)|This command allows you to execute a script in a Selenium web browser session.|
-|Web Browser Commands|[Get A Element Values As DataTable](/web-browser-commands/get-a-element-values-as-datatable-command.md)|This command allows you to get Attributes value for a Element As DataTable.|
-|Web Browser Commands|[Get A Element Values As Dictionary](/web-browser-commands/get-a-element-values-as-dictionary-command.md)|This command allows you to get Attributes value for a Element As Dictionary.|
-|Web Browser Commands|[Get A Element Values As List](/web-browser-commands/get-a-element-values-as-list-command.md)|This command allows you to get Attributes value for a Element As List.|
+|Web Browser Commands|[Get An Element Values As DataTable](/web-browser-commands/get-an-element-values-as-datatable-command.md)|This command allows you to get Attributes value for an Element As DataTable.|
+|Web Browser Commands|[Get An Element Values As Dictionary](/web-browser-commands/get-an-element-values-as-dictionary-command.md)|This command allows you to get Attributes value for an Element As Dictionary.|
+|Web Browser Commands|[Get An Element Values As List](/web-browser-commands/get-an-element-values-as-list-command.md)|This command allows you to get Attributes value for an Element As List.|
 |Web Browser Commands|[Get Browser Info](/web-browser-commands/get-browser-info-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
 |Web Browser Commands|[Get Elements Value As DataTable](/web-browser-commands/get-elements-value-as-datatable-command.md)|This command allows you to get a Attribute value for Elements As DataTable.|
 |Web Browser Commands|[Get Elements Value As Dictionary](/web-browser-commands/get-elements-value-as-dictionary-command.md)|This command allows you to get a Attribute value for Elements As Dictionary.|
@@ -385,7 +385,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 02/20/22 08:40 午後
+This page was generated on 03/03/22 10:15 午後
 
 
 ## Help

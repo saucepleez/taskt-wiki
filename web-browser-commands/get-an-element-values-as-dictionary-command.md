@@ -1,17 +1,17 @@
-<!--TITLE: Get A Element Values As DataTable Command -->
+<!--TITLE: Get An Element Values As Dictionary Command -->
 <!-- SUBTITLE: a command in the Web Browser Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# Get A Element Values As DataTable Command
+# Get An Element Values As Dictionary Command
 
 
 ## What does this command do?
-This command allows you to get Attributes value for a Element As DataTable.
+This command allows you to get Attributes value for an Element As Dictionary.
 
 
 ## When would I want to use this command?
-Use this command when you want to get Attributes value for a Element As DataTable.
+Use this command when you want to get Attributes value for an Element As Dictionary.
 
 
 ## Command Parameters
@@ -22,7 +22,7 @@ Use this command when you want to get Attributes value for a Element As DataTabl
 |Please Specify Element Search Parameter|Specifies the parameter text that matches to the element based on the previously selected search type.|If search type **Find Element By ID** was specified, for example, given <div id='name'></div>, the value of this field would be **name**||
 |Please Specify Element Index||**0** or **1** or **{vIndex}**||
 |Please specify Attributes Name to Get||**id** or **Text** or **textContent** or **{vAttribute}**||
-|Please Specify DataTable Variable Name to store result||||
+|Please Specify Dictionary Variable Name to store result||||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -41,9 +41,9 @@ Use this command when you want to get Attributes value for a Element As DataTabl
 
 
 ## Developer/Additional Reference
-Automation Class Name: SeleniumBrowserGetAElementValuesAsDataTableCommand
+Automation Class Name: SeleniumBrowserGetAnElementValuesAsDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/20/22 08:40 午後
+This page was generated on 03/03/22 10:15 午後
 
 
 ## Help
