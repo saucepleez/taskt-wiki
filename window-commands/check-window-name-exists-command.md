@@ -11,7 +11,7 @@ This command returns a existence of window name.
 
 
 ## When would I want to use this command?
-Use this command when you want to active a window by name or bring it to attention.
+Use this command when you want to check a existence of window name.
 
 
 ## Command Parameters
@@ -34,7 +34,7 @@ Use this command when you want to active a window by name or bring it to attenti
 ## Developer/Additional Reference
 Automation Class Name: CheckWindowNameExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/03/22 10:15 午後
+This page was generated on 04/23/22 09:26 午後
 
 
 ## Help

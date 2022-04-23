@@ -37,7 +37,7 @@ Use this command to return a list of folder directories from a specific location
 ## Developer/Additional Reference
 Automation Class Name: GetFoldersCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/03/22 10:15 午後
+This page was generated on 04/23/22 09:26 午後
 
 
 ## Help
