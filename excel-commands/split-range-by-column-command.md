@@ -46,7 +46,7 @@ Use this command when you want to split a range into separate ranges.
 ## Developer/Additional Reference
 Automation Class Name: ExcelSplitRangeByColumnCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/23/22 09:26 午後
+This page was generated on 04/29/22 03:58 午後
 
 
 ## Help

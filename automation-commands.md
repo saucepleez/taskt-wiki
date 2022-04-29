@@ -35,14 +35,11 @@
 | ---                | ---           | ---                   |
 |Database Commands|[Define Database Connection](/database-commands/define-database-connection-command.md)|This command allows you to define a connection to an OLEDB data source|
 |Database Commands|[Execute Database Query](/database-commands/execute-database-query-command.md)|This command allows you to perform a database query and apply the result to a dataset|
-|Database Commands|[Run Query](/database-commands/run-query-command.md)|This command selects data from a database and applies it against a dataset|
 ### DataTable Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |DataTable Commands|[Add DataRow](/datatable-commands/add-datarow-command.md)|This command allows you to add a datarow to a DataTable|
 |DataTable Commands|[Add DataTable Column](/datatable-commands/add-datatable-column-command.md)|This command allows you to add a column to a DataTable|
-|DataTable Commands|[Add DataTable Column And Fill Values By List](/datatable-commands/add-datatable-column-and-fill-values-by-list-command.md)|This command allows you to add a column to a DataTable by a List|
-|DataTable Commands|[Add DataTable Columns And Fill Values By DataTable](/datatable-commands/add-datatable-columns-and-fill-values-by-datatable-command.md)|This command allows you to add a columns to a DataTable by a DataTable|
 |DataTable Commands|[Add DataTable Row](/datatable-commands/add-datatable-row-command.md)|This command allows you to add a row to a DataTable|
 |DataTable Commands|[Add DataTable Row By DataTable](/datatable-commands/add-datatable-row-by-datatable-command.md)|This command allows you to add a DataTable Row to a DataTable by a DataTable|
 |DataTable Commands|[Add DataTable Row By Dictionary](/datatable-commands/add-datatable-row-by-dictionary-command.md)|This command allows you to add a DataTable Row to a DataTable by a Dictionary|
@@ -209,10 +206,8 @@
 ### Input Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Input Commands|[Click UI Item](/input-commands/click-ui-item-command.md)|This command clicks an item in a Thick Application window.|
 |Input Commands|[File Dialog](/input-commands/file-dialog-command.md)|Show OpenFileDialog or SaveFileDialog|
 |Input Commands|[Folder Dialog](/input-commands/folder-dialog-command.md)|Show FolderBrowserDialog|
-|Input Commands|[Get UI Item](/input-commands/get-ui-item-command.md)|This command gets text from a Thick Application window|
 |Input Commands|[Prompt for HTML Input](/input-commands/prompt-for-html-input-command.md)|Allows the entry of data into a web-enabled form|
 |Input Commands|[Prompt for Input](/input-commands/prompt-for-input-command.md)|Sends keystrokes to a targeted window|
 |Input Commands|[Send Advanced Keystrokes](/input-commands/send-advanced-keystrokes-command.md)|Sends advanced keystrokes to a targeted window|
@@ -257,7 +252,6 @@
 |Loop Commands|[End Loop](/loop-commands/end-loop-command.md)|This command signifies the exit point of looped (repeated) actions.  Required for all loops.|
 |Loop Commands|[Exit Loop](/loop-commands/exit-loop-command.md)|This command signifies the current loop should exit and resume work past the point of the current loop.|
 |Loop Commands|[Loop Continuously](/loop-commands/loop-continuously-command.md)|This command allows you to repeat actions continuously.  Any 'Begin Loop' command must have a following 'End Loop' command.|
-|Loop Commands|[Loop Excel Dataset](/loop-commands/loop-excel-dataset-command.md)|This command allows you to loop through an Excel Dataset|
 |Loop Commands|[Loop List](/loop-commands/loop-list-command.md)|This command allows you to repeat actions several times (loop).  Any 'Begin Loop' command must have a following 'End Loop' command.|
 |Loop Commands|[Loop Number Of Times](/loop-commands/loop-number-of-times-command.md)|This command allows you to repeat actions several times (loop).  Any 'Begin Loop' command must have a following 'End Loop' command.|
 |Loop Commands|[Next Loop](/loop-commands/next-loop-command.md)|This command enables user to break and exit from the current loop|
@@ -266,6 +260,7 @@
 | ---                | ---           | ---                   |
 |Misc Commands|[Add Code Comment](/misc-commands/add-code-comment-command.md)|This command allows you to add an in-line comment to the script.|
 |Misc Commands|[Clear Clipboard Text](/misc-commands/clear-clipboard-text-command.md)|This command allows you to clear text to the clipboard.|
+|Misc Commands|[Create Shortcut](/misc-commands/create-shortcut-command.md)|This command allow to create shortcut file|
 |Misc Commands|[Encryption Command](/misc-commands/encryption-command-command.md)|This command handles text encryption|
 |Misc Commands|[Get Clipboard Text](/misc-commands/get-clipboard-text-command.md)|This command allows you to get text from the clipboard.|
 |Misc Commands|[Ping Command](/misc-commands/ping-command-command.md)|This command allows you to add an in-line comment to the script.|
@@ -328,6 +323,8 @@
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Variable Commands|[Add To Variable](/variable-commands/add-to-variable-command.md)|This command allows you to modify variables.|
+|Variable Commands|[Check Variable Exists](/variable-commands/check-variable-exists-command.md)|This command allows you to check variable existance.|
+|Variable Commands|[Get Variable Type](/variable-commands/get-variable-type-command.md)|This command allows you to get variable type.|
 |Variable Commands|[New Variable](/variable-commands/new-variable-command.md)|This command allows you to explicitly add a variable if you are not using **Set Variable* with the setting **Create Missing Variables** at runtime.|
 |Variable Commands|[Set Variable](/variable-commands/set-variable-command.md)|This command allows you to modify variables.|
 |Variable Commands|[Set Variable Index](/variable-commands/set-variable-index-command.md)|This command allows you to modify variables.|
@@ -385,7 +382,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 04/23/22 09:26 午後
+This page was generated on 04/29/22 03:58 午後
 
 
 ## Help

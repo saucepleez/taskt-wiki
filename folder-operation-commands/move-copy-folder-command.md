@@ -40,7 +40,7 @@ Use this command to move a folder to a new destination.
 ## Developer/Additional Reference
 Automation Class Name: MoveFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/23/22 09:26 午後
+This page was generated on 04/29/22 03:58 午後
 
 
 ## Help
