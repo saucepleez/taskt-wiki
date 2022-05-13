@@ -31,7 +31,7 @@ Use this command when you want to find word count of a string or variable.
 ## Developer/Additional Reference
 Automation Class Name: GetWordCountCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/29/22 03:58 午後
+This page was generated on 05/13/22 01:25 午後
 
 
 ## Help

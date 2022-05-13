@@ -319,6 +319,25 @@
 | ---                | ---           | ---                   |
 |Text File Commands|[Read Text File](/text-file-commands/read-text-file-command.md)|This command reads text data into a variable|
 |Text File Commands|[Write Text File](/text-file-commands/write-text-file-command.md)|This command writes specified data to a text file|
+### UIAutomation Commands
+| Command Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+|UIAutomation Commands|[Click Element](/uiautomation-commands/click-element-command.md)|This command allows you to Click AutomationElement.|
+|UIAutomation Commands|[Expand Collapse Items In Element](/uiautomation-commands/expand-collapse-items-in-element-command.md)|This command allows you to Expand or Collapse Items in AutomationElement.|
+|UIAutomation Commands|[Get Child Element](/uiautomation-commands/get-child-element-command.md)|This command allows you to get Child Element from AutomationElement.|
+|UIAutomation Commands|[Get Children Elements Information](/uiautomation-commands/get-children-elements-information-command.md)|This command allows you to get Children Elements Information from AutomationElement.|
+|UIAutomation Commands|[Get Element From Element](/uiautomation-commands/get-element-from-element-command.md)|This command allows you to get AutomationElement from AutomationElement.|
+|UIAutomation Commands|[Get Element From Table Element](/uiautomation-commands/get-element-from-table-element-command.md)|This command allows you to get Element from Table AutomationElement.|
+|UIAutomation Commands|[Get Element From Window](/uiautomation-commands/get-element-from-window-command.md)|This command allows you to get AutomationElement from Window Name.|
+|UIAutomation Commands|[Get Parent Element](/uiautomation-commands/get-parent-element-command.md)|This command allows you to get Parent Element from AutomationElement.|
+|UIAutomation Commands|[Get Selected State From Element](/uiautomation-commands/get-selected-state-from-element-command.md)|This command allows you to get Selected State from AutomationElement.|
+|UIAutomation Commands|[Get Selection Items From Element](/uiautomation-commands/get-selection-items-from-element-command.md)|This command allows you to get Selection Items Name from AutomationElement.|
+|UIAutomation Commands|[Get Text From Element](/uiautomation-commands/get-text-from-element-command.md)|This command allows you to get Text Value from AutomationElement.|
+|UIAutomation Commands|[Get Text From Table Element](/uiautomation-commands/get-text-from-table-element-command.md)|This command allows you to get Text Value from Table AutomationElement.|
+|UIAutomation Commands|[Scroll Element](/uiautomation-commands/scroll-element-command.md)|This command allows you to Scroll AutomationElement.|
+|UIAutomation Commands|[Select Element](/uiautomation-commands/select-element-command.md)|This command allows you to Select AutomationElement.|
+|UIAutomation Commands|[Select Item In Element](/uiautomation-commands/select-item-in-element-command.md)|This command allows you to Select a Item in AutomationElement.|
+|UIAutomation Commands|[Set Text To Element](/uiautomation-commands/set-text-to-element-command.md)|This command allows you to set Text Value from AutomationElement.|
 ### Variable Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -382,7 +401,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 04/29/22 03:58 午後
+This page was generated on 05/13/22 01:25 午後
 
 
 ## Help

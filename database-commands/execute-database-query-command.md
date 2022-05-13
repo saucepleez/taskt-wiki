@@ -40,7 +40,7 @@ Use this command to select data from a database.
 ## Developer/Additional Reference
 Automation Class Name: DatabaseExecuteQueryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/29/22 03:58 午後
+This page was generated on 05/13/22 01:25 午後
 
 
 ## Help
