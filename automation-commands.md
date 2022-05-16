@@ -8,6 +8,13 @@
 |API Commands|[Execute REST API](/api-commands/execute-rest-api-command.md)|This command allows you to show a message to the user.|
 |API Commands|[HTTP Request](/api-commands/http-request-command.md)|This command downloads the HTML source of a web page for parsing|
 |API Commands|[HTTP Result Query](/api-commands/http-result-query-command.md)|This command processes an HTML source object|
+### Color Commands
+| Command Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+|Color Commands|[Create Color](/color-commands/create-color-command.md)|This command allows you to create Color.|
+|Color Commands|[Create Color From Excel Color](/color-commands/create-color-from-excel-color-command.md)|This command allows you to create Color from Excel Color.|
+|Color Commands|[Create Color From HEX](/color-commands/create-color-from-hex-command.md)|This command allows you to create Color from HEX.|
+|Color Commands|[Format Color](/color-commands/format-color-command.md)|This command allows you to get Format Color Value.|
 ### Data Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -74,6 +81,16 @@
 |DataTable Commands|[Set DataTable Row Values By Dictionary](/datatable-commands/set-datatable-row-values-by-dictionary-command.md)|This command allows you to set a DataTable Row values to a DataTable by a Dictionary|
 |DataTable Commands|[Set DataTable Value](/datatable-commands/set-datatable-value-command.md)|This command allows you to set the DataTable value|
 |DataTable Commands|[Write DataRow Value](/datatable-commands/write-datarow-value-command.md)|This command allows you to write a Value to a DataRow|
+### DateTime Commands
+| Command Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+|DateTime Commands|[Calculate DateTime](/datetime-commands/calculate-datetime-command.md)|This command allows you to Calculate DateTime. Add Day, Minute, etc.|
+|DateTime Commands|[Convert DateTime To Excel Serial](/datetime-commands/convert-datetime-to-excel-serial-command.md)|This command allows you to Convert DateTime To Excel Serial Value.|
+|DateTime Commands|[Create DateTime](/datetime-commands/create-datetime-command.md)|This command allows you to create DateTime.|
+|DateTime Commands|[Create DateTime From Excel Serial](/datetime-commands/create-datetime-from-excel-serial-command.md)|This command allows you to create DateTime from Excel Serial Value.|
+|DateTime Commands|[Create DateTime From Text](/datetime-commands/create-datetime-from-text-command.md)|This command allows you to create DateTime from Text.|
+|DateTime Commands|[Format DateTime](/datetime-commands/format-datetime-command.md)|This command allows you to Format DateTime Text.|
+|DateTime Commands|[Get DateTime Differences](/datetime-commands/get-datetime-differences-command.md)|This command allows you to Get 2 DateTime Differences.|
 ### Dictionary Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -329,6 +346,7 @@
 |UIAutomation Commands|[Get Element From Element](/uiautomation-commands/get-element-from-element-command.md)|This command allows you to get AutomationElement from AutomationElement.|
 |UIAutomation Commands|[Get Element From Table Element](/uiautomation-commands/get-element-from-table-element-command.md)|This command allows you to get Element from Table AutomationElement.|
 |UIAutomation Commands|[Get Element From Window](/uiautomation-commands/get-element-from-window-command.md)|This command allows you to get AutomationElement from Window Name.|
+|UIAutomation Commands|[Get Element Tree XML From Element](/uiautomation-commands/get-element-tree-xml-from-element-command.md)|This command allows you to get Element Tree XML from AutomationElement.|
 |UIAutomation Commands|[Get Parent Element](/uiautomation-commands/get-parent-element-command.md)|This command allows you to get Parent Element from AutomationElement.|
 |UIAutomation Commands|[Get Selected State From Element](/uiautomation-commands/get-selected-state-from-element-command.md)|This command allows you to get Selected State from AutomationElement.|
 |UIAutomation Commands|[Get Selection Items From Element](/uiautomation-commands/get-selection-items-from-element-command.md)|This command allows you to get Selection Items Name from AutomationElement.|
@@ -401,7 +419,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 05/13/22 01:25 午後
+This page was generated on 05/16/22 09:36 午後
 
 
 ## Help

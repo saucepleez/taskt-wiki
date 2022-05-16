@@ -43,7 +43,7 @@ Use this command when you want to get Attributes value for an Element As List.
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetAnElementValuesAsListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/13/22 01:25 午後
+This page was generated on 05/16/22 09:36 午後
 
 
 ## Help
