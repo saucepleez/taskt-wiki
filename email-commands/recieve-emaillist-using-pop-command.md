@@ -1,17 +1,17 @@
-<!--TITLE: Recieve Emails Using POP Command -->
-<!-- SUBTITLE: a command in the Mail Commands group. -->
+<!--TITLE: Recieve EMailList Using POP Command -->
+<!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# Recieve Emails Using POP Command
+# Recieve EMailList Using POP Command
 
 
 ## What does this command do?
-This command allows you to get emails using POP protocol.
+This command allows you to get EMailList(EMails) using POP protocol.
 
 
 ## When would I want to use this command?
-Use this command when you want to get emails using POP protocol.
+Use this command when you want to get MailList(EMails) using POP protocol. Result Variable Type is EMailList.
 
 
 ## Command Parameters
@@ -22,7 +22,7 @@ Use this command when you want to get emails using POP protocol.
 |Please specify POP Username|Define the username to use when contacting the POP service|**username** or **{vUserName}**||
 |Please specify POP Password|Define the password to use when contacting the POP service|**password** or **{vPassword}**||
 |Optional - Please specify Secure Option (Default is Auto)||||
-|Please specify Variable Name to Store Mail List||**vMailList** or **{vMailList}**||
+|Please specify Variable Name to Store EMailList||**vMailList** or **{vMailList}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -41,9 +41,9 @@ Use this command when you want to get emails using POP protocol.
 
 
 ## Developer/Additional Reference
-Automation Class Name: MailKitRecieveEmailsUsingPOPCommand
+Automation Class Name: MailKitRecieveEmailListUsingPOPCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/22/22 08:44 午後
+This page was generated on 05/27/22 11:01 午後
 
 
 ## Help

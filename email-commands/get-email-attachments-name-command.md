@@ -1,25 +1,24 @@
-<!--TITLE: Get Mail Text Command -->
-<!-- SUBTITLE: a command in the Mail Commands group. -->
+<!--TITLE: Get Email Attachments Name Command -->
+<!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# Get Mail Text Command
+# Get Email Attachments Name Command
 
 
 ## What does this command do?
-This command allows you to get Text from Mail.
+This command allows you to get Attachment File Name.
 
 
 ## When would I want to use this command?
-Use this command when you want to get Text from Mail.
+Use this command when you want to get Attachment File Name.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please specify Mail Variable Name||**{vMail}**||
-|Please specify Address Type||||
-|Please specify Variable Name to Store Text||**vText** or **{vText}**||
+|Please specify EMail Variable Name||**{vEMail}**||
+|Please specify Variable Name to Store Result||**vNames** or **{vNames}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -29,12 +28,10 @@ Use this command when you want to get Text from Mail.
 
 
 
-
-
 ## Developer/Additional Reference
-Automation Class Name: MailKitGetMailTextCommand
+Automation Class Name: MailKitGetEmailAttachmentsNameCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/22/22 08:44 午後
+This page was generated on 05/27/22 11:01 午後
 
 
 ## Help

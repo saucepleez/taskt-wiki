@@ -1,25 +1,24 @@
-<!--TITLE: Get Mail From MailList Command -->
-<!-- SUBTITLE: a command in the Mail Commands group. -->
+<!--TITLE: Load Email Command -->
+<!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# Get Mail From MailList Command
+# Load Email Command
 
 
 ## What does this command do?
-This command allows you to get MailKitMail from MailKitMailList.
+This command allows you to load EMail from File.
 
 
 ## When would I want to use this command?
-Use this command when you want to get MailKitMail from MailKitMailList.
+Use this command when you want to load EMail from File.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please specify MailList Variable Name||**{vMailList}**||
-|Optional - Please specify Mail Index (Default is CurrentPosition)||**0** or **1** or **{vIndex}**||
-|Please specify Variable Name to Store Mail||**vMail** or **{vMail}**||
+|Please specify Path to the EMail||**vPath** or **{vPath}**||
+|Please specify EMail Variable Name||**{vEMail}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -29,12 +28,10 @@ Use this command when you want to get MailKitMail from MailKitMailList.
 
 
 
-
-
 ## Developer/Additional Reference
-Automation Class Name: MailKitGetMailFromMailListCommand
+Automation Class Name: MailKitLoadEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/22/22 08:44 午後
+This page was generated on 05/27/22 11:01 午後
 
 
 ## Help

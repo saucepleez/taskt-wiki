@@ -108,6 +108,21 @@
 |Dictionary Commands|[Load Dictionary](/dictionary-commands/load-dictionary-command.md)|This command Reads a Config file and stores it into a Dictionary.|
 |Dictionary Commands|[Remove Dictionary Item](/dictionary-commands/remove-dictionary-item-command.md)|This command allows you to remove item in Dictionary|
 |Dictionary Commands|[Set Dictionary Value](/dictionary-commands/set-dictionary-value-command.md)|This command allows you to set value in Dictionary|
+### EMail Commands
+| Command Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+|EMail Commands|[Get Addresses As DataTable](/email-commands/get-addresses-as-datatable-command.md)|This command allows you to get Addresses from EMail.|
+|EMail Commands|[Get Addresses As Dictionary](/email-commands/get-addresses-as-dictionary-command.md)|This command allows you to get Addresses from EMail.|
+|EMail Commands|[Get Addresses As List](/email-commands/get-addresses-as-list-command.md)|This command allows you to get Addresses from EMail.|
+|EMail Commands|[Get Email Attachments Name](/email-commands/get-email-attachments-name-command.md)|This command allows you to get Attachment File Name.|
+|EMail Commands|[Get EMail From MailList](/email-commands/get-email-from-maillist-command.md)|This command allows you to get EMail from EMailList.|
+|EMail Commands|[Get EMail Text](/email-commands/get-email-text-command.md)|This command allows you to get Text from EMail.|
+|EMail Commands|[Load Email](/email-commands/load-email-command.md)|This command allows you to load EMail from File.|
+|EMail Commands|[Recieve EMailList Using IMAP](/email-commands/recieve-emaillist-using-imap-command.md)|This command allows you to get EMailList(Emails) using IMAP protocol.|
+|EMail Commands|[Recieve EMailList Using POP](/email-commands/recieve-emaillist-using-pop-command.md)|This command allows you to get EMailList(EMails) using POP protocol.|
+|EMail Commands|[Save Email](/email-commands/save-email-command.md)|This command allows you to Save EMail.|
+|EMail Commands|[Save Email Attachments](/email-commands/save-email-attachments-command.md)|This command allows you to save EMail Attachments.|
+|EMail Commands|[Send Email](/email-commands/send-email-command.md)|This command allows you to send EMail using SMTP protocol.|
 ### Engine Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -272,17 +287,6 @@
 |Loop Commands|[Loop List](/loop-commands/loop-list-command.md)|This command allows you to repeat actions several times (loop).  Any 'Begin Loop' command must have a following 'End Loop' command.|
 |Loop Commands|[Loop Number Of Times](/loop-commands/loop-number-of-times-command.md)|This command allows you to repeat actions several times (loop).  Any 'Begin Loop' command must have a following 'End Loop' command.|
 |Loop Commands|[Next Loop](/loop-commands/next-loop-command.md)|This command enables user to break and exit from the current loop|
-### Mail Commands
-| Command Group   	| Command Name 	|  Command Description	|
-| ---                | ---           | ---                   |
-|Mail Commands|[Get Addresses As DataTable](/mail-commands/get-addresses-as-datatable-command.md)|This command allows you to get Addresses from Mail.|
-|Mail Commands|[Get Addresses As Dictionary](/mail-commands/get-addresses-as-dictionary-command.md)|This command allows you to get Addresses from Mail.|
-|Mail Commands|[Get Addresses As List](/mail-commands/get-addresses-as-list-command.md)|This command allows you to get Addresses from Mail.|
-|Mail Commands|[Get Mail From MailList](/mail-commands/get-mail-from-maillist-command.md)|This command allows you to get MailKitMail from MailKitMailList.|
-|Mail Commands|[Get Mail Text](/mail-commands/get-mail-text-command.md)|This command allows you to get Text from Mail.|
-|Mail Commands|[Recieve Emails Using IMAP](/mail-commands/recieve-emails-using-imap-command.md)|This command allows you to get emails using IMAP protocol.|
-|Mail Commands|[Recieve Emails Using POP](/mail-commands/recieve-emails-using-pop-command.md)|This command allows you to get emails using POP protocol.|
-|Mail Commands|[Send Email](/mail-commands/send-email-command.md)|This command allows you to send email using SMTP protocol.|
 ### Misc Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -430,7 +434,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 05/22/22 08:44 午後
+This page was generated on 05/27/22 11:01 午後
 
 
 ## Help

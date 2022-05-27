@@ -1,25 +1,24 @@
-<!--TITLE: Get Addresses As DataTable Command -->
-<!-- SUBTITLE: a command in the Mail Commands group. -->
+<!--TITLE: Save Email Attachments Command -->
+<!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# Get Addresses As DataTable Command
+# Save Email Attachments Command
 
 
 ## What does this command do?
-This command allows you to get Addresses from Mail.
+This command allows you to save EMail Attachments.
 
 
 ## When would I want to use this command?
-Use this command when you want to get Addresses from Mail.
+Use this command when you want to save EMail Attachments.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please specify Mail Variable Name||**{vMailVariable}**||
-|Please specify Address Type||||
-|Please specify Variable Name to Store Addresses||**vAddress** or **{vAddresses}**||
+|Please specify EMail Variable Name||**{vEMail}**||
+|Please specify Folder Path to Save||**C:\Temp** or **{vPath}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -29,12 +28,10 @@ Use this command when you want to get Addresses from Mail.
 
 
 
-
-
 ## Developer/Additional Reference
-Automation Class Name: MailKitGetAddressesAsDataTableCommand
+Automation Class Name: MailKitSaveEmailAttachmentsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/22/22 08:44 午後
+This page was generated on 05/27/22 11:01 午後
 
 
 ## Help

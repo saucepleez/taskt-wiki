@@ -1,5 +1,5 @@
 <!--TITLE: Send Email Command -->
-<!-- SUBTITLE: a command in the Mail Commands group. -->
+<!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
@@ -7,11 +7,11 @@
 
 
 ## What does this command do?
-This command allows you to send email using SMTP protocol.
+This command allows you to send EMail using SMTP protocol.
 
 
 ## When would I want to use this command?
-Use this command when you want to send an email and have access to SMTP server credentials to generate an email.
+Use this command when you want to send an EMail and have access to SMTP server credentials to generate an EMail.
 
 
 ## Command Parameters
@@ -21,10 +21,10 @@ Use this command when you want to send an email and have access to SMTP server c
 |Please specify SMTP Port|Define the port number that should be used when contacting the SMTP service|**25** or **587** or **{vPort}**||
 |Optional - Please specify SMTP Username (Default is From Email)|Define the username to use when contacting the SMTP service|**username** or **{vUserName}**||
 |Please specify SMTP Password|Define the password to use when contacting the SMTP service|**password** or **{vPassword}**||
-|Please specify From Email Address|Specify how the 'From' field should appear.|**myRobot@company.com** or **{vMail}**||
-|Please specify To Email Address|Specify the destination email that should be addressed.|**jason@company.com** or **{vMail}**||
-|Optional - Please specify CC Email Address|Specify the destination email that should be addressed.|**rckt@company.com** or **{vMail}**||
-|Optional - Please specify BCC Email Address|Specify the destination email that should be addressed.|**rncn@company.com** or **{vMail}**||
+|Please specify From Email Address|Specify how the 'From' field should appear.|**my-robot@company.com** or **{vFromMail}**||
+|Please specify To Email Address|Specify the destination email that should be addressed.|**john@company.com** or **{vToMail}**||
+|Optional - Please specify CC Email Address|Specify the destination email that should be addressed.|**tom@company.com** or **{vCCMail}**||
+|Optional - Please specify BCC Email Address|Specify the destination email that should be addressed.|**bob@company.com** or **{vBCCMail}**||
 |Optional - Please specify Email Subject|Define the text subject (or variable) that the email should have.|**Alert!** or **{vTitle}**||
 |Optional - Please specify Email Message|Specify the message that should be sent.|**Everything ran ok at {DateTime.Now}**||
 |Optional - Please specify Email Attachment File Path|Indicates the file path to attachment.|**c:\temp\file.txt** or **{vPath}**||
@@ -61,7 +61,7 @@ Use this command when you want to send an email and have access to SMTP server c
 ## Developer/Additional Reference
 Automation Class Name: MailKitSendEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/22/22 08:44 午後
+This page was generated on 05/27/22 11:01 午後
 
 
 ## Help
