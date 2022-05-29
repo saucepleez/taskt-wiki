@@ -18,25 +18,11 @@
 ### Data Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Data Commands|[Check String](/data-commands/check-string-command.md)|This command allows you to check a string|
-|Data Commands|[Check Text](/data-commands/check-text-command.md)|This command allows you to check a string|
 |Data Commands|[Date Calculation](/data-commands/date-calculation-command.md)|This command allows you to build a date and apply it to a variable.|
-|Data Commands|[Extraction Text](/data-commands/extraction-text-command.md)|This command allows you to perform advanced string extraction.|
 |Data Commands|[Format Data](/data-commands/format-data-command.md)|This command allows you to apply formatting to a string|
-|Data Commands|[Get Word Count](/data-commands/get-word-count-command.md)|This command allows you to you to retrieve the word count of a string or variable.|
-|Data Commands|[Get Word Length](/data-commands/get-word-length-command.md)|This command allows you to retrieve the length of a string or variable.|
 |Data Commands|[Log Data](/data-commands/log-data-command.md)|This command logs data to files.|
 |Data Commands|[Math Calculation](/data-commands/math-calculation-command.md)|This command allows you to perform a math calculation and apply it to a variable.|
-|Data Commands|[Modify Text](/data-commands/modify-text-command.md)|This command allows you to trim a string|
-|Data Commands|[Modify Variable](/data-commands/modify-variable-command.md)|This command allows you to trim a string|
 |Data Commands|[PDF Extraction](/data-commands/pdf-extraction-command.md)||
-|Data Commands|[RegEx Extraction](/data-commands/regex-extraction-command.md)|This command allows you to perform advanced string formatting using RegEx.|
-|Data Commands|[RegEx Extraction Text](/data-commands/regex-extraction-text-command.md)|This command allows you to perform advanced string formatting using RegEx.|
-|Data Commands|[Replace Text](/data-commands/replace-text-command.md)|This command allows you to replace text|
-|Data Commands|[Split Text](/data-commands/split-text-command.md)|This command allows you to split a string|
-|Data Commands|[Substring](/data-commands/substring-command.md)|This command allows you to trim a string|
-|Data Commands|[Substring Text](/data-commands/substring-text-command.md)|This command allows you to trim a string|
-|Data Commands|[Text Extraction](/data-commands/text-extraction-command.md)|This command allows you to perform advanced string extraction.|
 ### Database Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -156,7 +142,6 @@
 |Excel Commands|[Check Worksheet Exists](/excel-commands/check-worksheet-exists-command.md)|This command allows you to check existance sheet|
 |Excel Commands|[Close Excel Application](/excel-commands/close-excel-application-command.md)|This command allows you to close Excel.|
 |Excel Commands|[Copy Worksheet](/excel-commands/copy-worksheet-command.md)|This command copy a Excel Worksheet.|
-|Excel Commands|[Create Dataset](/excel-commands/create-dataset-command.md)|This command gets a range of cells and applies them against a dataset|
 |Excel Commands|[Create Excel Application](/excel-commands/create-excel-application-command.md)|This command opens the Excel Application.|
 |Excel Commands|[Delete Cell](/excel-commands/delete-cell-command.md)|This command allows you to delete a specified cell in Excel|
 |Excel Commands|[Delete Row](/excel-commands/delete-row-command.md)|This command allows you to delete a specified row in Excel|
@@ -346,11 +331,21 @@
 |Task Commands|[Run Task](/task-commands/run-task-command.md)|This command runs tasks.|
 |Task Commands|[Stop Current Task](/task-commands/stop-current-task-command.md)|This command stops the current task.|
 |Task Commands|[Unload Task](/task-commands/unload-task-command.md)|This command runs tasks.|
-### Text File Commands
+### Text Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Text File Commands|[Read Text File](/text-file-commands/read-text-file-command.md)|This command reads text data into a variable|
-|Text File Commands|[Write Text File](/text-file-commands/write-text-file-command.md)|This command writes specified data to a text file|
+|Text Commands|[Check Text](/text-commands/check-text-command.md)|This command allows you to check a string|
+|Text Commands|[Concatenate Text Variable](/text-commands/concatenate-text-variable-command.md)|This command allows you to you to retrieve the word count of a string or variable.|
+|Text Commands|[Extraction Text](/text-commands/extraction-text-command.md)|This command allows you to perform advanced string extraction.|
+|Text Commands|[Get Word Count](/text-commands/get-word-count-command.md)|This command allows you to you to retrieve the word count of a string or variable.|
+|Text Commands|[Get Word Length](/text-commands/get-word-length-command.md)|This command allows you to retrieve the length of a string or variable.|
+|Text Commands|[Modify Text](/text-commands/modify-text-command.md)|This command allows you to trim a string|
+|Text Commands|[Read Text File](/text-commands/read-text-file-command.md)|This command reads text data into a variable|
+|Text Commands|[RegEx Extraction Text](/text-commands/regex-extraction-text-command.md)|This command allows you to perform advanced string formatting using RegEx.|
+|Text Commands|[Replace Text](/text-commands/replace-text-command.md)|This command allows you to replace text|
+|Text Commands|[Split Text](/text-commands/split-text-command.md)|This command allows you to split a string|
+|Text Commands|[Substring Text](/text-commands/substring-text-command.md)|This command allows you to trim a string|
+|Text Commands|[Write Text File](/text-commands/write-text-file-command.md)|This command writes specified data to a text file|
 ### UIAutomation Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -374,7 +369,6 @@
 ### Variable Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Variable Commands|[Add To Variable](/variable-commands/add-to-variable-command.md)|This command allows you to modify variables.|
 |Variable Commands|[Check Variable Exists](/variable-commands/check-variable-exists-command.md)|This command allows you to check variable existance.|
 |Variable Commands|[Get Variable Type](/variable-commands/get-variable-type-command.md)|This command allows you to get variable type.|
 |Variable Commands|[New Variable](/variable-commands/new-variable-command.md)|This command allows you to explicitly add a variable if you are not using **Set Variable* with the setting **Create Missing Variables** at runtime.|
@@ -434,7 +428,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 05/27/22 11:01 午後
+This page was generated on 05/29/22 09:26 午後
 
 
 ## Help

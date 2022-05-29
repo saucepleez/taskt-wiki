@@ -1,9 +1,9 @@
-<!--TITLE: Check String Command -->
-<!-- SUBTITLE: a command in the Data Commands group. -->
+<!--TITLE: Check Text Command -->
+<!-- SUBTITLE: a command in the Text Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# Check String Command
+# Check Text Command
 
 
 ## What does this command do?
@@ -46,9 +46,9 @@ Use this command when you want to select a subset of text or variable
 
 
 ## Developer/Additional Reference
-Automation Class Name: StringCheckTextCommand
+Automation Class Name: CheckTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/27/22 11:01 午後
+This page was generated on 05/29/22 09:26 午後
 
 
 ## Help

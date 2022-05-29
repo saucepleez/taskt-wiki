@@ -1,5 +1,5 @@
 <!--TITLE: RegEx Extraction Text Command -->
-<!-- SUBTITLE: a command in the Data Commands group. -->
+<!-- SUBTITLE: a command in the Text Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
@@ -37,7 +37,7 @@ Use this command when you want to perform an advanced RegEx extraction from a te
 ## Developer/Additional Reference
 Automation Class Name: RegExExtractionTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/27/22 11:01 午後
+This page was generated on 05/29/22 09:26 午後
 
 
 ## Help

@@ -1,23 +1,25 @@
-<!--TITLE: Loop Excel Dataset Command -->
-<!-- SUBTITLE: a command in the Loop Commands group. -->
+<!--TITLE: Concatenate Text Variable Command -->
+<!-- SUBTITLE: a command in the Text Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# Loop Excel Dataset Command
+# Concatenate Text Variable Command
 
 
 ## What does this command do?
-This command allows you to loop through an Excel Dataset
+This command allows you to you to retrieve the word count of a string or variable.
 
 
 ## When would I want to use this command?
-Use this command when you want to iterate over a series of Excel cells.
+Use this command when you want to find word count of a string or variable.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please indicate the Excel DataSet Name|Enter a unique dataset name that will be used later to traverse over the data|**myData**||
+|Please specify Target Text Variable Name||**vText** or **{vText}**||
+|Please specify Text to Concatenate|Select or provide a variable from the variable list|**Hello** or **{vText}**||
+|Optional - Insert Line Break before Concatenate (Default is No)||**Yes** or **No**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -25,10 +27,14 @@ Use this command when you want to iterate over a series of Excel cells.
 
 
 
+
+
+
+
 ## Developer/Additional Reference
-Automation Class Name: BeginExcelDatasetLoopCommand
+Automation Class Name: ConcatenateTextVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/23/22 09:26 午後
+This page was generated on 05/29/22 09:26 午後
 
 
 ## Help
