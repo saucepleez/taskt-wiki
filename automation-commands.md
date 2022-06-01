@@ -21,7 +21,6 @@
 |Data Commands|[Date Calculation](/data-commands/date-calculation-command.md)|This command allows you to build a date and apply it to a variable.|
 |Data Commands|[Format Data](/data-commands/format-data-command.md)|This command allows you to apply formatting to a string|
 |Data Commands|[Log Data](/data-commands/log-data-command.md)|This command logs data to files.|
-|Data Commands|[Math Calculation](/data-commands/math-calculation-command.md)|This command allows you to perform a math calculation and apply it to a variable.|
 |Data Commands|[PDF Extraction](/data-commands/pdf-extraction-command.md)||
 ### Database Commands
 | Command Group   	| Command Name 	|  Command Description	|
@@ -291,6 +290,14 @@
 |NLG Commands|[Create NLG Instance](/nlg-commands/create-nlg-instance-command.md)|This command pauses the script for a set amount of time specified in milliseconds.|
 |NLG Commands|[Generate NLG Phrase](/nlg-commands/generate-nlg-phrase-command.md)|This command pauses the script for a set amount of time specified in milliseconds.|
 |NLG Commands|[Set NLG Parameter](/nlg-commands/set-nlg-parameter-command.md)|This command allows you to define a NLG parameter|
+### Numerical Commands
+| Command Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+|Numerical Commands|[Decrease Numerical Variable](/numerical-commands/decrease-numerical-variable-command.md)|This command allows you to Decrease Value in Numerical Variable.|
+|Numerical Commands|[Increase Numerical Variable](/numerical-commands/increase-numerical-variable-command.md)|This command allows you to Increase Value in Numerical Variable.|
+|Numerical Commands|[Math Calculation](/numerical-commands/math-calculation-command.md)|This command allows you to perform a math calculation and apply it to a variable.|
+|Numerical Commands|[Random Number](/numerical-commands/random-number-command.md)|This command allows you to get Random Number.|
+|Numerical Commands|[Round Number](/numerical-commands/round-number-command.md)|This command allows you to Round up, down, or round off numbers.|
 ### Outlook Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -335,7 +342,7 @@
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Text Commands|[Check Text](/text-commands/check-text-command.md)|This command allows you to check a string|
-|Text Commands|[Concatenate Text Variable](/text-commands/concatenate-text-variable-command.md)|This command allows you to you to retrieve the word count of a string or variable.|
+|Text Commands|[Concatenate Text Variable](/text-commands/concatenate-text-variable-command.md)|This command allows you to you to concatenate text to Text Variable.|
 |Text Commands|[Extraction Text](/text-commands/extraction-text-command.md)|This command allows you to perform advanced string extraction.|
 |Text Commands|[Get Word Count](/text-commands/get-word-count-command.md)|This command allows you to you to retrieve the word count of a string or variable.|
 |Text Commands|[Get Word Length](/text-commands/get-word-length-command.md)|This command allows you to retrieve the length of a string or variable.|
@@ -428,7 +435,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 05/29/22 09:26 午後
+This page was generated on 06/01/22 11:50 午後
 
 
 ## Help

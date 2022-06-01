@@ -7,11 +7,11 @@
 
 
 ## What does this command do?
-This command allows you to you to retrieve the word count of a string or variable.
+This command allows you to you to concatenate text to Text Variable.
 
 
 ## When would I want to use this command?
-Use this command when you want to find word count of a string or variable.
+Use this command when you want to concatenate text to Text Variable.
 
 
 ## Command Parameters
@@ -19,7 +19,7 @@ Use this command when you want to find word count of a string or variable.
 | ---                    | ---               | ---           | ---       |
 |Please specify Target Text Variable Name||**vText** or **{vText}**||
 |Please specify Text to Concatenate|Select or provide a variable from the variable list|**Hello** or **{vText}**||
-|Optional - Insert Line Break before Concatenate (Default is No)||**Yes** or **No**||
+|Optional - Please select Insert Line Break before Concatenate or Not (Default is No)||**Yes** or **No**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -34,7 +34,7 @@ Use this command when you want to find word count of a string or variable.
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateTextVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/29/22 09:26 午後
+This page was generated on 06/01/22 11:50 午後
 
 
 ## Help
