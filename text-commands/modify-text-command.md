@@ -7,18 +7,18 @@
 
 
 ## What does this command do?
-This command allows you to trim a string
+This command allows you to trim Text, convert Text, etc.
 
 
 ## When would I want to use this command?
-Use this command when you want to select a subset of text or variable
+Use this command when you want to trim Text, convert Text, etc.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Supply the value or variable to modify|Select or provide a variable or text value|**Hello** or **{vText}**||
-|Select the case type|Indicate if only so many characters should be kept|||
+|Please Supply the Text or Variable to modify|Select or provide a variable or text value|**Hello** or **{vText}**||
+|Please Select Modify Method|Indicate if only so many characters should be kept|||
 |Please select the variable to receive the changes|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -34,7 +34,7 @@ Use this command when you want to select a subset of text or variable
 ## Developer/Additional Reference
 Automation Class Name: ModifyTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/01/22 11:50 午後
+This page was generated on 06/11/22 06:53 午後
 
 
 ## Help

@@ -7,20 +7,20 @@
 
 
 ## What does this command do?
-This command allows you to check a string
+This command allows you to check a Text
 
 
 ## When would I want to use this command?
-Use this command when you want to select a subset of text or variable
+Use this command when you want to check a Text
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Supply the value or variable to check|Select or provide a variable or text value|**Hello** or **{vText}**||
-|Select the check method||**Contains** or **Starts with** or **Ends with** or **Index of** or **Last Index of**||
-|Select the check method||**Ha** or **{vSearchedText}**||
-|Optional - Case sensitive (Default is Yes)|Indicate if only so many characters should be kept|**Yes** or **No**||
+|Please Supply the Text or Variable to Checked|Select or provide a variable or text value|**Hello** or **{vText}**||
+|Please Select the Check Method||**Contains** or **Starts with** or **Ends with** or **Index of** or **Last Index of**||
+|Please Specify Text to Check or Search||**Ha** or **{vSearchedText}**||
+|Optional - Please Select Case sensitive (Default is Yes)|Indicate if only so many characters should be kept|**Yes** or **No**||
 |Please select the variable to receive the result|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -48,7 +48,7 @@ Use this command when you want to select a subset of text or variable
 ## Developer/Additional Reference
 Automation Class Name: CheckTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/01/22 11:50 午後
+This page was generated on 06/11/22 06:53 午後
 
 
 ## Help

@@ -341,17 +341,17 @@
 ### Text Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Text Commands|[Check Text](/text-commands/check-text-command.md)|This command allows you to check a string|
+|Text Commands|[Check Text](/text-commands/check-text-command.md)|This command allows you to check a Text|
 |Text Commands|[Concatenate Text Variable](/text-commands/concatenate-text-variable-command.md)|This command allows you to you to concatenate text to Text Variable.|
 |Text Commands|[Extraction Text](/text-commands/extraction-text-command.md)|This command allows you to perform advanced string extraction.|
-|Text Commands|[Get Word Count](/text-commands/get-word-count-command.md)|This command allows you to you to retrieve the word count of a string or variable.|
-|Text Commands|[Get Word Length](/text-commands/get-word-length-command.md)|This command allows you to retrieve the length of a string or variable.|
-|Text Commands|[Modify Text](/text-commands/modify-text-command.md)|This command allows you to trim a string|
-|Text Commands|[Read Text File](/text-commands/read-text-file-command.md)|This command reads text data into a variable|
+|Text Commands|[Get Word Count](/text-commands/get-word-count-command.md)|This command allows you to you to retrieve the word count of a Text or Variable.|
+|Text Commands|[Get Word Length](/text-commands/get-word-length-command.md)|This command allows you to retrieve the length of a Text or Variable.|
+|Text Commands|[Modify Text](/text-commands/modify-text-command.md)|This command allows you to trim Text, convert Text, etc.|
+|Text Commands|[Read Text File](/text-commands/read-text-file-command.md)|This command allows you to read text file into a variable|
 |Text Commands|[RegEx Extraction Text](/text-commands/regex-extraction-text-command.md)|This command allows you to perform advanced string formatting using RegEx.|
 |Text Commands|[Replace Text](/text-commands/replace-text-command.md)|This command allows you to replace text|
-|Text Commands|[Split Text](/text-commands/split-text-command.md)|This command allows you to split a string|
-|Text Commands|[Substring Text](/text-commands/substring-text-command.md)|This command allows you to trim a string|
+|Text Commands|[Split Text](/text-commands/split-text-command.md)|This command allows you to split a Text|
+|Text Commands|[Substring Text](/text-commands/substring-text-command.md)|This command allows you to trim a Text|
 |Text Commands|[Write Text File](/text-commands/write-text-file-command.md)|This command writes specified data to a text file|
 ### UIAutomation Commands
 | Command Group   	| Command Name 	|  Command Description	|
@@ -435,7 +435,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 06/01/22 11:50 午後
+This page was generated on 06/11/22 06:53 午後
 
 
 ## Help

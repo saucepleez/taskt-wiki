@@ -18,7 +18,7 @@ Use this command when you want to replace existing text within text or a variabl
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please select text or variable to modify|Select or provide a variable or text value|**Hello** or **{vText}**||
-|Indicate the text to be replaced (ex. H, {vTextA})|Enter the old value of the text that will be replaced|**H** or **{vTextA}**|H in Hello would be targeted for replacement|
+|Indicate the text to be replaced|Enter the old value of the text that will be replaced|**H** or **{vTextA}**|H in Hello would be targeted for replacement|
 |Optional - Indicate the replacement value|Enter the new value after replacement|**J**, **{vTextB}**|H would be replaced with J to create 'Jello'|
 |Please select the variable to receive the changes|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
@@ -37,7 +37,7 @@ Use this command when you want to replace existing text within text or a variabl
 ## Developer/Additional Reference
 Automation Class Name: ReplaceTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/01/22 11:50 午後
+This page was generated on 06/11/22 06:53 午後
 
 
 ## Help
