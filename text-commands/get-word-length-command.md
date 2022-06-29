@@ -31,7 +31,7 @@ Use this command when you want to find the length of a Text or Variable
 ## Developer/Additional Reference
 Automation Class Name: GetWordLengthCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/11/22 06:53 午後
+This page was generated on 06/29/22 09:45 午後
 
 
 ## Help

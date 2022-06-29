@@ -37,7 +37,7 @@ Use this command when you want to automate against a taskt instance that enables
 ## Developer/Additional Reference
 Automation Class Name: RemoteAPICommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/11/22 06:53 午後
+This page was generated on 06/29/22 09:45 午後
 
 
 ## Help

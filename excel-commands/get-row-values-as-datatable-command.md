@@ -20,8 +20,8 @@ Use this command when you want to get a Row values as DataTable.
 |Please Enter the instance name|Enter the unique instance name that was specified in the **Create Excel** command|**myInstance** or **{vInstance}**|Failure to enter the correct instance name or failure to first call **Create Excel** command will cause an error|
 |Please Enter the Row Index||**1** or **2** or **{vRow}**||
 |Optional - Please Specify Column Type (Default is Range)||**Range** or **RC**||
-|Please Enter the Start Column Location||**A** or **1** or **{vColumn}**||
-|Please Enter the End Column Location||**A** or **1** or **{vColumn}**||
+|Optional - Please Enter the Start Column Location (Default is A or 1)||**A** or **1** or **{vColumn}**||
+|Optional - Please Enter the End Column Location (Default is Last Column)||**A** or **1** or **{vColumn}**||
 |Please specify the DataTable Variable Name to store results|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Optional - Please specify the Value type to get (Default is Cell)||**Cell** or **Formula** or **Format** or **Color** or **Comment**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
@@ -46,7 +46,7 @@ Use this command when you want to get a Row values as DataTable.
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetRowValuesAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/11/22 06:53 午後
+This page was generated on 06/29/22 09:45 午後
 
 
 ## Help

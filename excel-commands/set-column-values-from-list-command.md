@@ -20,8 +20,8 @@ Use this command when you want to set Column values from List.
 |Please Enter the instance name|Enter the unique instance name that was specified in the **Create Excel** command|**myInstance** or **{vInstance}**|Failure to enter the correct instance name or failure to first call **Create Excel** command will cause an error|
 |Optional - Please Specify Column Type (Default is Range)||**Range** or **RC**||
 |Please Enter the Column Location or Index||**A** or **1** or **{vColumn}**||
-|Please Enter the Start Row Index||**1** or **2** or **{vRow}**||
-|Please Enter the End Row Index||**1** or **2** or **{vRow}**||
+|Optional - Please Enter the Start Row Index (Default is 1)||**1** or **2** or **{vRow}**||
+|Optional - Please Enter the End Row Index (Default is End of List)||**1** or **2** or **{vRow}**||
 |Please specify the List Variable Name to set|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Optional - Please specify the Value type to get (Default is Cell)||**Cell** or **Formula** or **Format** or **Color** or **Comment**||
 |Optional - Please specify If List Items not enough (Default is Ignore)||**Ignore** or **Error**||
@@ -49,7 +49,7 @@ Use this command when you want to set Column values from List.
 ## Developer/Additional Reference
 Automation Class Name: ExcelSetColumnValuesFromListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/11/22 06:53 午後
+This page was generated on 06/29/22 09:45 午後
 
 
 ## Help

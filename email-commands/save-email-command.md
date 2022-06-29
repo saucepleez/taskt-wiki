@@ -18,7 +18,7 @@ Use this command when you want to Save EMail.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please specify EMail Variable Name||**{vEMail}**||
-|Please specify Path to the File||**vPath** or **{vPath}**||
+|Please specify Path to the File||**C:\Temp\mymail.eml** or **{vPath}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -31,7 +31,7 @@ Use this command when you want to Save EMail.
 ## Developer/Additional Reference
 Automation Class Name: MailKitSaveEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/11/22 06:53 午後
+This page was generated on 06/29/22 09:45 午後
 
 
 ## Help

@@ -17,7 +17,7 @@ Use this command when you want to load EMail from File.
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please specify Path to the EMail||**vPath** or **{vPath}**||
+|Please specify Path to the EMail||**C:\Temp\mymail.eml** or **{vPath}**||
 |Please specify EMail Variable Name||**{vEMail}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -31,7 +31,7 @@ Use this command when you want to load EMail from File.
 ## Developer/Additional Reference
 Automation Class Name: MailKitLoadEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/11/22 06:53 午後
+This page was generated on 06/29/22 09:45 午後
 
 
 ## Help

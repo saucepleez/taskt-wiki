@@ -34,7 +34,7 @@ Use this command when you want to forward emails with your currenty logged in ou
 ## Developer/Additional Reference
 Automation Class Name: OutlookForwardEmailsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/11/22 06:53 午後
+This page was generated on 06/29/22 09:45 午後
 
 
 ## Help
