@@ -198,6 +198,7 @@
 |Folder Operation Commands|[Get Folders](/folder-operation-commands/get-folders-command.md)|This command returns a list of folder directories from a specified location|
 |Folder Operation Commands|[Move/Copy Folder](/folder-operation-commands/move-copy-folder-command.md)|This command moves a folder to a specified destination|
 |Folder Operation Commands|[Rename Folder](/folder-operation-commands/rename-folder-command.md)|This command renames a folder at a specified destination|
+|Folder Operation Commands|[Wait For Folder To Exists](/folder-operation-commands/wait-for-folder-to-exists-command.md)|This command waits for a folder to exist at a specified destination|
 ### IE Browser Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -361,8 +362,10 @@
 |UIAutomation Commands|[Get Child Element](/uiautomation-commands/get-child-element-command.md)|This command allows you to get Child Element from AutomationElement.|
 |UIAutomation Commands|[Get Children Elements Information](/uiautomation-commands/get-children-elements-information-command.md)|This command allows you to get Children Elements Information from AutomationElement.|
 |UIAutomation Commands|[Get Element From Element](/uiautomation-commands/get-element-from-element-command.md)|This command allows you to get AutomationElement from AutomationElement.|
+|UIAutomation Commands|[Get Element From Element By XPath](/uiautomation-commands/get-element-from-element-by-xpath-command.md)|This command allows you to get AutomationElement from AutomationElement using by XPath.|
 |UIAutomation Commands|[Get Element From Table Element](/uiautomation-commands/get-element-from-table-element-command.md)|This command allows you to get Element from Table AutomationElement.|
-|UIAutomation Commands|[Get Element From Window](/uiautomation-commands/get-element-from-window-command.md)|This command allows you to get AutomationElement from Window Name.|
+|UIAutomation Commands|[Get Element From Window](/uiautomation-commands/get-element-from-window-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
+|UIAutomation Commands|[Get Element From Window By XPath](/uiautomation-commands/get-element-from-window-by-xpath-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
 |UIAutomation Commands|[Get Element Tree XML From Element](/uiautomation-commands/get-element-tree-xml-from-element-command.md)|This command allows you to get Element Tree XML from AutomationElement.|
 |UIAutomation Commands|[Get Parent Element](/uiautomation-commands/get-parent-element-command.md)|This command allows you to get Parent Element from AutomationElement.|
 |UIAutomation Commands|[Get Selected State From Element](/uiautomation-commands/get-selected-state-from-element-command.md)|This command allows you to get Selected State from AutomationElement.|
@@ -435,7 +438,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 06/29/22 09:45 午後
+This page was generated on 07/18/22 11:33 午前
 
 
 ## Help

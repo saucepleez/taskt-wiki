@@ -28,7 +28,7 @@ Use this command when you want to add a new workbook to an Exel Instance
 ## Developer/Additional Reference
 Automation Class Name: ExcelAddWorkbookCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/29/22 09:45 午後
+This page was generated on 07/18/22 11:33 午前
 
 
 ## Help

@@ -7,7 +7,7 @@
 
 
 ## What does this command do?
-This command allows you to get AutomationElement from Window Name.
+This command allows you to get AutomationElement from Window Name using by XPath.
 
 
 ## When would I want to use this command?
@@ -34,7 +34,7 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationGetElementFromWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/29/22 09:45 午後
+This page was generated on 07/18/22 11:33 午前
 
 
 ## Help
