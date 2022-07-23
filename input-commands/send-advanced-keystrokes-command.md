@@ -37,7 +37,7 @@ Use this command when you want to send advanced keystroke inputs to a window.
 ## Developer/Additional Reference
 Automation Class Name: SendAdvancedKeyStrokesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/18/22 11:33 午前
+This page was generated on 07/23/22 03:52 午後
 
 
 ## Help
