@@ -34,7 +34,7 @@ Use this command when you want to split a single Text or variable into multiple 
 ## Developer/Additional Reference
 Automation Class Name: SplitTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/18/22 11:33 午前
+This page was generated on 07/31/22 04:25 午後
 
 
 ## Help

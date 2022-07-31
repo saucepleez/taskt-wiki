@@ -254,9 +254,17 @@
 |List Commands|[Convert List To JSON](/list-commands/convert-list-to-json-command.md)|This command convert a JSON array to a list.|
 |List Commands|[Copy List](/list-commands/copy-list-command.md)|This command allows you to copy list.|
 |List Commands|[Create List](/list-commands/create-list-command.md)|This command allows you to create new List|
+|List Commands|[Filter List](/list-commands/filter-list-command.md)|This command allows you to filter list value.|
+|List Commands|[Get Average From List](/list-commands/get-average-from-list-command.md)|This command allows you to get average value from a list.|
 |List Commands|[Get List Count](/list-commands/get-list-count-command.md)|This command allows you to get the item count of a List|
 |List Commands|[Get List Index From Value](/list-commands/get-list-index-from-value-command.md)|This command allows you want to get list index from value|
 |List Commands|[Get List Item](/list-commands/get-list-item-command.md)|This command allows you to get an item from a List|
+|List Commands|[Get Max From List](/list-commands/get-max-from-list-command.md)|This command allows you to get max value from a list.|
+|List Commands|[Get Median From List](/list-commands/get-median-from-list-command.md)|This command allows you to get median value from a list.|
+|List Commands|[Get Min From List](/list-commands/get-min-from-list-command.md)|This command allows you to get min value from a list.|
+|List Commands|[Get Sum From List](/list-commands/get-sum-from-list-command.md)|This command allows you to get sum value from a list.|
+|List Commands|[Get Variance From List](/list-commands/get-variance-from-list-command.md)|This command allows you to get variance value from a list.|
+|List Commands|[Replace List](/list-commands/replace-list-command.md)|This command allows you to filter list value.|
 |List Commands|[Reverse List](/list-commands/reverse-list-command.md)|This command allows you to reverse list.|
 |List Commands|[Set List Index](/list-commands/set-list-index-command.md)|This command allows you to modify List Index.|
 |List Commands|[Set List Item](/list-commands/set-list-item-command.md)|This command allows you want to set an item in a List|
@@ -438,7 +446,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 07/18/22 11:33 午前
+This page was generated on 07/31/22 04:25 午後
 
 
 ## Help

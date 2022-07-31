@@ -28,7 +28,7 @@ Use this command to perform an action such as logoff, restart, shutdown or resta
 ## Developer/Additional Reference
 Automation Class Name: SystemActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/18/22 11:33 午前
+This page was generated on 07/31/22 04:25 午後
 
 
 ## Help

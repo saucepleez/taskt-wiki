@@ -55,7 +55,7 @@ Use this command when you want to send keystroke inputs to a window.
 ## Developer/Additional Reference
 Automation Class Name: SendHotkeyCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/23/22 03:52 午後
+This page was generated on 07/31/22 04:25 午後
 
 
 ## Help

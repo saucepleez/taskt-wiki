@@ -28,7 +28,7 @@ Use this command when you want to iterate over each item in a list, or a series 
 ## Developer/Additional Reference
 Automation Class Name: BeginListLoopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/18/22 11:33 午前
+This page was generated on 07/31/22 04:25 午後
 
 
 ## Help
