@@ -48,7 +48,7 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/31/22 04:25 午後
+This page was generated on 08/07/22 12:05 午後
 
 
 ## Help

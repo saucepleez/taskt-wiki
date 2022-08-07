@@ -1,0 +1,48 @@
+<!--TITLE: Replace Dictionary Command -->
+<!-- SUBTITLE: a command in the Dictionary Commands group. -->
+[Go To Automation Commands Overview](/automation-commands.md)
+
+
+# Replace Dictionary Command
+
+
+## What does this command do?
+This command allows you to relace Dictionary value.
+
+
+## When would I want to use this command?
+Use this command when you want to relpace Dictionary value.
+
+
+## Command Parameters
+| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
+| ---                    | ---               | ---           | ---       |
+|Please select a Dictionary Variable Name to Replace||**vDic** or **{vDic}**||
+|Please select replace target value type||**Text** or **Number**||
+|Please select replace action||||
+|Additional Parameters||||
+|Please specify Replace value||**vNewList** or **{vNewList}**||
+|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Developer/Additional Reference
+Automation Class Name: ReplaceDictionaryCommand
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 08/07/22 12:05 午後
+
+
+## Help
+[Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+[Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

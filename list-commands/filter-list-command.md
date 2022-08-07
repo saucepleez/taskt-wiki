@@ -7,11 +7,11 @@
 
 
 ## What does this command do?
-This command allows you to filter list value.
+This command allows you to filter List value.
 
 
 ## When would I want to use this command?
-Use this command when you want to filter list value.
+Use this command when you want to filter List value.
 
 
 ## Command Parameters
@@ -40,7 +40,7 @@ Use this command when you want to filter list value.
 ## Developer/Additional Reference
 Automation Class Name: FilterListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/31/22 04:25 午後
+This page was generated on 08/07/22 12:05 午後
 
 
 ## Help

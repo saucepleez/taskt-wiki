@@ -7,19 +7,19 @@
 
 
 ## What does this command do?
-This command allows you to filter list value.
+This command allows you to relace List value.
 
 
 ## When would I want to use this command?
-Use this command when you want to filter list value.
+Use this command when you want to relpace List value.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please select a List Variable Name to Filter||**vList** or **{vList}**||
-|Please select filter target value type||**Text** or **Number**||
-|Please select filter action||||
+|Please select a List Variable Name to Replace||**vList** or **{vList}**||
+|Please select replace target value type||**Text** or **Number**||
+|Please select replace action||||
 |Additional Parameters||||
 |Please specify Replace value||**vNewList** or **{vNewList}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
@@ -40,7 +40,7 @@ Use this command when you want to filter list value.
 ## Developer/Additional Reference
 Automation Class Name: ReplaceListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/31/22 04:25 午後
+This page was generated on 08/07/22 12:05 午後
 
 
 ## Help

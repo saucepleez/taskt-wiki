@@ -50,6 +50,8 @@
 |DataTable Commands|[Delete DataTable Column](/datatable-commands/delete-datatable-column-command.md)|This command allows you to delete a column to a DataTable|
 |DataTable Commands|[Delete DataTable Row](/datatable-commands/delete-datatable-row-command.md)|This command allows you to delete a DataTable Row|
 |DataTable Commands|[Filter DataTable](/datatable-commands/filter-datatable-command.md)|This command allows you filter a DataTable into a new Datatable|
+|DataTable Commands|[Filter DataTable Column By Row Value](/datatable-commands/filter-datatable-column-by-row-value-command.md)|This command allows you to Filter Columns by reference to Row values.|
+|DataTable Commands|[Filter DataTable Row By Column Value](/datatable-commands/filter-datatable-row-by-column-value-command.md)|This command allows you to Filter Rows by reference to Column values.|
 |DataTable Commands|[Get DataRow](/datatable-commands/get-datarow-command.md)|This command allows you to get a DataRow from a DataTable|
 |DataTable Commands|[Get DataRow Count](/datatable-commands/get-datarow-count-command.md)|This command allows you to get the datarow count of a DataTable|
 |DataTable Commands|[Get DataRow Value](/datatable-commands/get-datarow-value-command.md)|This command allows you to get a DataRow Value from a DataTable|
@@ -60,6 +62,9 @@
 |DataTable Commands|[Load DataTable](/datatable-commands/load-datatable-command.md)|This command gets a range of cells and applies them against a dataset|
 |DataTable Commands|[Parse Dataset Row](/datatable-commands/parse-dataset-row-command.md)|This command allows you to parse a dataset row column into a variable.|
 |DataTable Commands|[Remove DataRow](/datatable-commands/remove-datarow-command.md)|This command allows you remove specified data rows.|
+|DataTable Commands|[Replace DataTable Column Value](/datatable-commands/replace-datatable-column-value-command.md)|This command allows you to Replace Column values.|
+|DataTable Commands|[Replace DataTable Row Value](/datatable-commands/replace-datatable-row-value-command.md)|This command allows you to Replace Row values.|
+|DataTable Commands|[Replace DataTable Value](/datatable-commands/replace-datatable-value-command.md)|This command allows you to Replace values.|
 |DataTable Commands|[Set DataTable Column By DataTable](/datatable-commands/set-datatable-column-by-datatable-command.md)|This command allows you to set a column to a DataTable by a DataTable|
 |DataTable Commands|[Set DataTable Column By List](/datatable-commands/set-datatable-column-by-list-command.md)|This command allows you to set a column to a DataTable by a List|
 |DataTable Commands|[Set DataTable Row Values By DataTable](/datatable-commands/set-datatable-row-values-by-datatable-command.md)|This command allows you to set a DataTable Row values to a DataTable by a DataTable|
@@ -87,11 +92,13 @@
 |Dictionary Commands|[Convert Dictionary To List](/dictionary-commands/convert-dictionary-to-list-command.md)|This command allows you to get List from Dictionary|
 |Dictionary Commands|[Copy Dictionary](/dictionary-commands/copy-dictionary-command.md)|This command allows you to copy a Dictionary.|
 |Dictionary Commands|[Create Dictionary](/dictionary-commands/create-dictionary-command.md)|This command created a DataTable with the column names provided|
+|Dictionary Commands|[Filter Dictionary](/dictionary-commands/filter-dictionary-command.md)|This command allows you to filter Dictionary value.|
 |Dictionary Commands|[Get Dictionary Item](/dictionary-commands/get-dictionary-item-command.md)|This command allows you to get value in Dictionary|
 |Dictionary Commands|[Get Dictionary Key From Value](/dictionary-commands/get-dictionary-key-from-value-command.md)|This command allows you to get Dictionary key Name from Value|
 |Dictionary Commands|[Get Dictionary Keys List](/dictionary-commands/get-dictionary-keys-list-command.md)|This command allows you to get Keys List in Dictionary|
 |Dictionary Commands|[Load Dictionary](/dictionary-commands/load-dictionary-command.md)|This command Reads a Config file and stores it into a Dictionary.|
 |Dictionary Commands|[Remove Dictionary Item](/dictionary-commands/remove-dictionary-item-command.md)|This command allows you to remove item in Dictionary|
+|Dictionary Commands|[Replace Dictionary](/dictionary-commands/replace-dictionary-command.md)|This command allows you to relace Dictionary value.|
 |Dictionary Commands|[Set Dictionary Value](/dictionary-commands/set-dictionary-value-command.md)|This command allows you to set value in Dictionary|
 ### EMail Commands
 | Command Group   	| Command Name 	|  Command Description	|
@@ -254,7 +261,7 @@
 |List Commands|[Convert List To JSON](/list-commands/convert-list-to-json-command.md)|This command convert a JSON array to a list.|
 |List Commands|[Copy List](/list-commands/copy-list-command.md)|This command allows you to copy list.|
 |List Commands|[Create List](/list-commands/create-list-command.md)|This command allows you to create new List|
-|List Commands|[Filter List](/list-commands/filter-list-command.md)|This command allows you to filter list value.|
+|List Commands|[Filter List](/list-commands/filter-list-command.md)|This command allows you to filter List value.|
 |List Commands|[Get Average From List](/list-commands/get-average-from-list-command.md)|This command allows you to get average value from a list.|
 |List Commands|[Get List Count](/list-commands/get-list-count-command.md)|This command allows you to get the item count of a List|
 |List Commands|[Get List Index From Value](/list-commands/get-list-index-from-value-command.md)|This command allows you want to get list index from value|
@@ -264,7 +271,7 @@
 |List Commands|[Get Min From List](/list-commands/get-min-from-list-command.md)|This command allows you to get min value from a list.|
 |List Commands|[Get Sum From List](/list-commands/get-sum-from-list-command.md)|This command allows you to get sum value from a list.|
 |List Commands|[Get Variance From List](/list-commands/get-variance-from-list-command.md)|This command allows you to get variance value from a list.|
-|List Commands|[Replace List](/list-commands/replace-list-command.md)|This command allows you to filter list value.|
+|List Commands|[Replace List](/list-commands/replace-list-command.md)|This command allows you to relace List value.|
 |List Commands|[Reverse List](/list-commands/reverse-list-command.md)|This command allows you to reverse list.|
 |List Commands|[Set List Index](/list-commands/set-list-index-command.md)|This command allows you to modify List Index.|
 |List Commands|[Set List Item](/list-commands/set-list-item-command.md)|This command allows you want to set an item in a List|
@@ -446,7 +453,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 07/31/22 04:25 午後
+This page was generated on 08/07/22 12:05 午後
 
 
 ## Help
