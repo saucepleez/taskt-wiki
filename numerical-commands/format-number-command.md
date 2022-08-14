@@ -1,27 +1,25 @@
-<!--TITLE: Create Color Command -->
-<!-- SUBTITLE: a command in the Color Commands group. -->
+<!--TITLE: Format Number Command -->
+<!-- SUBTITLE: a command in the Numerical Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-# Create Color Command
+# Format Number Command
 
 
 ## What does this command do?
-This command allows you to create Color.
+This command allows you to Format Number.
 
 
 ## When would I want to use this command?
-Use this command when you want to create Color.
+Use this command when you want to Format Number.
 
 
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please select a Color Variable Name||**vColor** or **{vColor}**||
-|Please specify Red Value||**0** or *255** or **{vRed}**|Values range from 0 to 255|
-|Please specify Green Value||**0** or *255** or **{vGreen}**|Values range from 0 to 255|
-|Please specify Blue Value||**0** or *255** or **{vBlue}**|Values range from 0 to 255|
-|Optional - Please specify Alpha Value (Default is 255)||**0** or *255** or **{Alpha}**|Values range from 0 to 255|
+|Please specify Number to Format||**123** or **{vNumber}**||
+|Please specify Number Format||**0.#** or **C** or **{vFormat}**||
+|Please specify Variable Name to store Result||**vResult** or **{vResult}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -33,12 +31,8 @@ Use this command when you want to create Color.
 
 
 
-
-
-
-
 ## Developer/Additional Reference
-Automation Class Name: CreateColorCommand
+Automation Class Name: FormatNumberCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 08/14/22 09:01 PM
 

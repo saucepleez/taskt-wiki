@@ -43,9 +43,9 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserExecuteScriptCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/07/22 12:05 午後
+This page was generated on 08/14/22 09:01 PM
 
 
 ## Help
-[Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
-[Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

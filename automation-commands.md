@@ -309,7 +309,9 @@
 ### Numerical Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|Numerical Commands|[Create Number Variable](/numerical-commands/create-number-variable-command.md)|This command allows you to create Number Variable.|
 |Numerical Commands|[Decrease Numerical Variable](/numerical-commands/decrease-numerical-variable-command.md)|This command allows you to Decrease Value in Numerical Variable.|
+|Numerical Commands|[Format Number](/numerical-commands/format-number-command.md)|This command allows you to Format Number.|
 |Numerical Commands|[Increase Numerical Variable](/numerical-commands/increase-numerical-variable-command.md)|This command allows you to Increase Value in Numerical Variable.|
 |Numerical Commands|[Math Calculation](/numerical-commands/math-calculation-command.md)|This command allows you to perform a math calculation and apply it to a variable.|
 |Numerical Commands|[Random Number](/numerical-commands/random-number-command.md)|This command allows you to get Random Number.|
@@ -453,9 +455,9 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 08/07/22 12:05 午後
+This page was generated on 08/14/22 09:01 PM
 
 
 ## Help
-[Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
-[Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
