@@ -37,7 +37,7 @@ Use this command when you want to move an existing window by name to a certain p
 ## Developer/Additional Reference
 Automation Class Name: MoveWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/14/22 09:01 PM
+This page was generated on 08/21/22 03:34 PM
 
 
 ## Help

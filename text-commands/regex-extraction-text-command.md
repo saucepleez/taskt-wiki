@@ -37,7 +37,7 @@ Use this command when you want to perform an advanced RegEx extraction from a te
 ## Developer/Additional Reference
 Automation Class Name: RegExExtractionTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/14/22 09:01 PM
+This page was generated on 08/21/22 03:34 PM
 
 
 ## Help

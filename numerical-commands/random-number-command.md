@@ -17,7 +17,7 @@ Use this command when you want to get Random Number.
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please select Random Type||||
+|Optional - Please select Random Type (Default is Integer Number)||||
 |Please specify Variable Name to Store Result||**vValue** or **{vValue}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -31,7 +31,7 @@ Use this command when you want to get Random Number.
 ## Developer/Additional Reference
 Automation Class Name: RandomNumberCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/14/22 09:01 PM
+This page was generated on 08/21/22 03:34 PM
 
 
 ## Help
