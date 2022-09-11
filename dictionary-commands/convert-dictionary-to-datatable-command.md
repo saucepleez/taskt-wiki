@@ -18,7 +18,7 @@ Use this command when you want to convert Dictionary to DataTable.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Please input The Dictionary Variable|Enter a string of comma seperated values.|**myDictionary** or **{vMyDic}**||
-|Please indicate the variable to apply DataTable|Enter a unique dataset name that will be used later to traverse over the data|**vList** or **{vList}**||
+|Please indicate the variable to apply DataTable|Enter a unique dataset name that will be used later to traverse over the data|**vTable** or **{vTable}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -31,7 +31,7 @@ Use this command when you want to convert Dictionary to DataTable.
 ## Developer/Additional Reference
 Automation Class Name: ConvertDictionaryToDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/21/22 03:34 PM
+This page was generated on 09/11/22 03:43 PM
 
 
 ## Help

@@ -259,7 +259,7 @@
 |List Commands|[Convert List To DataTable](/list-commands/convert-list-to-datatable-command.md)|This command convert a List to a DataTable.|
 |List Commands|[Convert List To Dictionary](/list-commands/convert-list-to-dictionary-command.md)|This command convert a List to Dictionary.|
 |List Commands|[Convert List To JSON](/list-commands/convert-list-to-json-command.md)|This command convert a JSON array to a list.|
-|List Commands|[Copy List](/list-commands/copy-list-command.md)|This command allows you to copy list.|
+|List Commands|[Copy List](/list-commands/copy-list-command.md)|This command allows you to list to copy.|
 |List Commands|[Create List](/list-commands/create-list-command.md)|This command allows you to create new List|
 |List Commands|[Filter List](/list-commands/filter-list-command.md)|This command allows you to filter List value.|
 |List Commands|[Get Average From List](/list-commands/get-average-from-list-command.md)|This command allows you to get average value from a list.|
@@ -455,7 +455,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 08/21/22 03:34 PM
+This page was generated on 09/11/22 03:43 PM
 
 
 ## Help

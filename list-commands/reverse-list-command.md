@@ -17,7 +17,7 @@ Use this command when you want to reverse list.
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please select a List Variable Name to copy||**vList** or **{vList}**||
+|Please select a List Variable Name to Reverse||**vList** or **{vList}**||
 |Please select a List Variable Name of the Reverse List||**vNewList** or **{vNewList}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -31,7 +31,7 @@ Use this command when you want to reverse list.
 ## Developer/Additional Reference
 Automation Class Name: ReverseListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/21/22 03:34 PM
+This page was generated on 09/11/22 03:43 PM
 
 
 ## Help

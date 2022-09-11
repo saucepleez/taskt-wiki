@@ -17,7 +17,7 @@ Use this command when you want to copy a Dictionary.
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please input The Dictionary Variable|Enter a string of comma seperated values.|**myDictionary1** or **{vMyDic1}**||
+|Please input The Dictionary Variable to Copy|Enter a string of comma seperated values.|**myDictionary1** or **{vMyDic1}**||
 |Please indicate the new Dictionary||**newDic** or **{newDic}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -31,7 +31,7 @@ Use this command when you want to copy a Dictionary.
 ## Developer/Additional Reference
 Automation Class Name: CopyDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/21/22 03:34 PM
+This page was generated on 09/11/22 03:43 PM
 
 
 ## Help

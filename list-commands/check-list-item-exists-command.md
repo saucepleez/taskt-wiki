@@ -17,7 +17,7 @@ Use this command when you want to check list has a value you specify
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please indicate the List Variable Name.|Enter a existing List.|**myList** or **{myList}** or **[1,2,3]**||
+|Please indicate the List Variable Name.|Enter a existing List.|**myList** or **{myList}**||
 |Please enter the value to search.||**0** or **{vValue}**||
 |Please specify the variable to apply Result||**vResult** or **{vResult}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
@@ -34,7 +34,7 @@ Use this command when you want to check list has a value you specify
 ## Developer/Additional Reference
 Automation Class Name: CheckListItemExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/21/22 03:34 PM
+This page was generated on 09/11/22 03:43 PM
 
 
 ## Help

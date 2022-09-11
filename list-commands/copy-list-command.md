@@ -7,11 +7,11 @@
 
 
 ## What does this command do?
-This command allows you to copy list.
+This command allows you to list to copy.
 
 
 ## When would I want to use this command?
-Use this command when you want to copy list.
+Use this command when you want to list to copy.
 
 
 ## Command Parameters
@@ -31,7 +31,7 @@ Use this command when you want to copy list.
 ## Developer/Additional Reference
 Automation Class Name: CopyListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/21/22 03:34 PM
+This page was generated on 09/11/22 03:43 PM
 
 
 ## Help

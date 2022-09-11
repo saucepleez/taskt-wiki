@@ -21,7 +21,10 @@ Use this command when you want to send keystroke inputs to a window.
 |Optional - Window name search method (Default is Contains)||**Contains** or **Starts with** or **Ends with** or **Exact match**||
 |Please Enter text to send.|Enter the text that should be sent to the specified window.|**Hello, World!** or **^s** or **{vEntryText}** or **{WIN_KEY}** or **{WIN_KEY+R}**|This command supports sending variables within brackets {vVariable}|
 |Optional - Please Indicate if Text is Encrypted (Default is Not Encrypted)|Indicate if the text in 'TextToSend' is Encrypted.|||
+|Optional - Please specify waiting time after keystrokes (ms) (Default is 500)||**500** or **{vWaitTime}|If less than 100 is specified, it will be 100|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+
+
 
 
 
@@ -37,7 +40,7 @@ Use this command when you want to send keystroke inputs to a window.
 ## Developer/Additional Reference
 Automation Class Name: SendKeysCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/21/22 03:34 PM
+This page was generated on 09/11/22 03:43 PM
 
 
 ## Help

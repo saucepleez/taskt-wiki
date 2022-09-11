@@ -34,7 +34,7 @@ Use this command to determine how many rows have been used in the Excel Workbook
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetLastRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/21/22 03:34 PM
+This page was generated on 09/11/22 03:43 PM
 
 
 ## Help

@@ -19,7 +19,7 @@ Use this command when you want to get an item from a List.
 | ---                    | ---               | ---           | ---       |
 |Please indicate the List Variable Name.|Enter a existing List.|**myList** or **{myList}** or **[1,2,3]**||
 |Optional - Please enter the index of the List item. (Default is Current Position)|Enter a valid List index value|**0** or **-1** or **{vIndex}**|**-1** means index of the last row. If it is empty, it will be the value of Current Position, which can be used for Loop List command.|
-|Assign to Variable|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
+|Please specify a Variable Name to Store Result|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -34,7 +34,7 @@ Use this command when you want to get an item from a List.
 ## Developer/Additional Reference
 Automation Class Name: GetListItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/21/22 03:34 PM
+This page was generated on 09/11/22 03:43 PM
 
 
 ## Help
