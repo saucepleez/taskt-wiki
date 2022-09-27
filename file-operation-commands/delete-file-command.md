@@ -17,7 +17,7 @@ Use this command to detete a file from a specific location.
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please indicate the path to the source file. (ex. c:\temp\myfile.txt, {vFilePath})|Enter or Select the path to the file.|**C:\temp\myfile.txt** or **{vTextFilePath}**||
+|Please indicate the File Path to Delete.|Enter or Select the path to the file.|**C:\temp\myfile.txt** or **{vTextFilePath}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -28,7 +28,7 @@ Use this command to detete a file from a specific location.
 ## Developer/Additional Reference
 Automation Class Name: DeleteFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/11/22 03:43 PM
+This page was generated on 09/27/22 10:14 PM
 
 
 ## Help

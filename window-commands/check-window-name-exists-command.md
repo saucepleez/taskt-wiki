@@ -34,7 +34,7 @@ Use this command when you want to check a existence of window name.
 ## Developer/Additional Reference
 Automation Class Name: CheckWindowNameExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/11/22 03:43 PM
+This page was generated on 09/27/22 10:14 PM
 
 
 ## Help

@@ -31,7 +31,7 @@ Use this command when you want to get the column count of a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: GetDataTableColumnCountCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/11/22 03:43 PM
+This page was generated on 09/27/22 10:14 PM
 
 
 ## Help

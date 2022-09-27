@@ -17,8 +17,8 @@ Use this command to wait for a file to exist before proceeding.
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please indicate the directory of the file (ex. C:\temp\myfile.txt, {vFilePath})|Enter or Select the path to the file.|**C:\temp\myfile.txt** or **{vTextFilePath}**||
-|Indicate how many seconds to wait for the file to exist (ex. 10, {vWaitTime})|Specify how long to wait before an error will occur because the file is not found.|**10** or **20** or **{vWaitTime}**||
+|Please indicate the directory of the file|Enter or Select the path to the file.|**C:\temp\myfile.txt** or **{vTextFilePath}**||
+|Indicate how many seconds to wait for the file to exist|Specify how long to wait before an error will occur because the file is not found.|**10** or **20** or **{vWaitTime}**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
 
@@ -31,7 +31,7 @@ Use this command to wait for a file to exist before proceeding.
 ## Developer/Additional Reference
 Automation Class Name: WaitForFileToExistCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/11/22 03:43 PM
+This page was generated on 09/27/22 10:14 PM
 
 
 ## Help

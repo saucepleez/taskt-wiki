@@ -28,7 +28,7 @@ Use this command to simulate multiple types of mouse clicks.
 ## Developer/Additional Reference
 Automation Class Name: SendMouseClickCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/11/22 03:43 PM
+This page was generated on 09/27/22 10:14 PM
 
 
 ## Help

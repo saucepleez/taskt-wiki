@@ -191,6 +191,7 @@
 |File Operation Commands|[Check File Exists](/file-operation-commands/check-file-exists-command.md)|This command returns a existence of file paths from a specified location|
 |File Operation Commands|[Delete File](/file-operation-commands/delete-file-command.md)|This command deletes a file from a specified destination|
 |File Operation Commands|[Extract File](/file-operation-commands/extract-file-command.md)|This command extracts files from a compressed file|
+|File Operation Commands|[Format File Path](/file-operation-commands/format-file-path-command.md)|This command allows you to format file path.|
 |File Operation Commands|[Get File Info](/file-operation-commands/get-file-info-command.md)|This command returns a list of file paths from a specified location|
 |File Operation Commands|[Get Files](/file-operation-commands/get-files-command.md)|This command returns a list of file paths from a specified location|
 |File Operation Commands|[Move/Copy File](/file-operation-commands/move-copy-file-command.md)|This command moves a file to a specified destination|
@@ -202,6 +203,7 @@
 |Folder Operation Commands|[Check Folder Exists](/folder-operation-commands/check-folder-exists-command.md)|This command returns existence of folder paths from a specified location|
 |Folder Operation Commands|[Create Folder](/folder-operation-commands/create-folder-command.md)|This command creates a folder in a specified destination|
 |Folder Operation Commands|[Delete Folder](/folder-operation-commands/delete-folder-command.md)|This command deletes a folder from a specified destination|
+|Folder Operation Commands|[Format Folder Path](/folder-operation-commands/format-folder-path-command.md)|This command allows you to format folder path.|
 |Folder Operation Commands|[Get Folders](/folder-operation-commands/get-folders-command.md)|This command returns a list of folder directories from a specified location|
 |Folder Operation Commands|[Move/Copy Folder](/folder-operation-commands/move-copy-folder-command.md)|This command moves a folder to a specified destination|
 |Folder Operation Commands|[Rename Folder](/folder-operation-commands/rename-folder-command.md)|This command renames a folder at a specified destination|
@@ -296,6 +298,7 @@
 |Misc Commands|[Encryption Command](/misc-commands/encryption-command-command.md)|This command handles text encryption|
 |Misc Commands|[Get Clipboard Text](/misc-commands/get-clipboard-text-command.md)|This command allows you to get text from the clipboard.|
 |Misc Commands|[Ping Command](/misc-commands/ping-command-command.md)|This command allows you to add an in-line comment to the script.|
+|Misc Commands|[Play System Sound](/misc-commands/play-system-sound-command.md)|This command allows you to Play System Sound.|
 |Misc Commands|[Send SMTP Email](/misc-commands/send-smtp-email-command.md)|This command allows you to send email using SMTP protocol.|
 |Misc Commands|[Sequence Command](/misc-commands/sequence-command-command.md)|Command that groups multiple actions|
 |Misc Commands|[Set Clipboard Text](/misc-commands/set-clipboard-text-command.md)|This command allows you to set text to the clipboard.|
@@ -374,6 +377,8 @@
 ### UIAutomation Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|UIAutomation Commands|[Check Element Exist](/uiautomation-commands/check-element-exist-command.md)|This command allows you to to check AutomationElement existence.|
+|UIAutomation Commands|[Check Element Exist By XPath](/uiautomation-commands/check-element-exist-by-xpath-command.md)|This command allows you to check AutomationElement existence.|
 |UIAutomation Commands|[Click Element](/uiautomation-commands/click-element-command.md)|This command allows you to Click AutomationElement.|
 |UIAutomation Commands|[Expand Collapse Items In Element](/uiautomation-commands/expand-collapse-items-in-element-command.md)|This command allows you to Expand or Collapse Items in AutomationElement.|
 |UIAutomation Commands|[Get Child Element](/uiautomation-commands/get-child-element-command.md)|This command allows you to get Child Element from AutomationElement.|
@@ -393,6 +398,8 @@
 |UIAutomation Commands|[Select Element](/uiautomation-commands/select-element-command.md)|This command allows you to Select AutomationElement.|
 |UIAutomation Commands|[Select Item In Element](/uiautomation-commands/select-item-in-element-command.md)|This command allows you to Select a Item in AutomationElement.|
 |UIAutomation Commands|[Set Text To Element](/uiautomation-commands/set-text-to-element-command.md)|This command allows you to set Text Value from AutomationElement.|
+|UIAutomation Commands|[Wait For Element Exist](/uiautomation-commands/wait-for-element-exist-command.md)|This command allows you to Wait until the AutomationElement exists.|
+|UIAutomation Commands|[Wait For Element Exist By XPath](/uiautomation-commands/wait-for-element-exist-by-xpath-command.md)|This command allows you to Wait until the AutomationElement exists using by XPath.|
 ### Variable Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -455,7 +462,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 09/11/22 03:43 PM
+This page was generated on 09/27/22 10:14 PM
 
 
 ## Help

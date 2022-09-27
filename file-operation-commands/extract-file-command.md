@@ -17,10 +17,10 @@ This command extracts files from a compressed file
 ## Command Parameters
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
-|Please enter the file path or location (ex. C:\myfile.zip, {vFilePath}, https://temp.com/myfile.zip)|Enter or Select the path to the applicable file or enter file URL.|**C:\temp\myfile.zip** , **{vFilePath}** or **https://temp.com/myfile.zip**||
-|Please indicate the extraction folder (ex. C:\temp\myzip\, {vFolderPath})|Enter or Select the path to the applicable file or enter file URL.|**C:\temp\** or **{vFilePath}**||
-|Optional - Create folder if destination does not exist (default is No)|Specify whether the directory should be created if it does not already exist.|Select **Yes** or **No**||
-|Optional - Indicate the archive password (ex. mypass, {vPassword})|Enter archive files password.|**mypass** or {vPass}||
+|Please enter the file path or location|Enter or Select the path to the applicable file or enter file URL.|**C:\temp\myfile.zip** , **{vFilePath}** or **https://temp.com/myfile.zip**||
+|Please indicate the extraction folder|Enter or Select the path to the applicable file or enter file URL.|**C:\temp\** or **{vFilePath}**||
+|Optional - Create folder if destination does not exist (Default is No)|Specify whether the directory should be created if it does not already exist.|Select **Yes** or **No**||
+|Optional - Indicate the archive password|Enter archive files password.|**mypass** or {vPass}||
 |Optional - Indicate the variable to receive a list of extracted file names|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
 
@@ -40,7 +40,7 @@ This command extracts files from a compressed file
 ## Developer/Additional Reference
 Automation Class Name: ExtractFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/11/22 03:43 PM
+This page was generated on 09/27/22 10:14 PM
 
 
 ## Help
