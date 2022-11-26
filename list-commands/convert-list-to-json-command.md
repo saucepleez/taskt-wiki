@@ -31,7 +31,7 @@ This command convert a JSON array to a list.
 ## Developer/Additional Reference
 Automation Class Name: ConvertListToJSONCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/22 10:14 PM
+This page was generated on 11/26/22 09:32 PM
 
 
 ## Help

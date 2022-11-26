@@ -19,7 +19,10 @@ Use this command when you want to add a column to a DataTable.
 | ---                    | ---               | ---           | ---       |
 |Please indicate the DataTable Variable Name|Enter a existing DataTable to add rows to.|**myDataTable** or **{vMyDataTable}**||
 |Please specify the Column Name to add||**newColumn** or **{vNewColumn}**||
+|Optional - Please Select If Column Exists (Default is Error)||**Error** or **Ignore** or **Replace**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+
+
 
 
 
@@ -31,7 +34,7 @@ Use this command when you want to add a column to a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: AddDataTableColumnCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/22 10:14 PM
+This page was generated on 11/26/22 09:32 PM
 
 
 ## Help

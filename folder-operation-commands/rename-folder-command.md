@@ -19,7 +19,10 @@ Use this command to rename an existing folder.
 | ---                    | ---               | ---           | ---       |
 |Please indicate the path to the source folder|Enter or Select the path to the folder.|**C:\temp\myFolder** or **{vTextFolderPath}**||
 |Please indicate the new folder name|Specify the new folder name.|**newFolderName** or **{vNewFolderName}**||
+|Optional - Please select If Folder Name Same After the Change (Default is Ignore)||**Ignore** or **Error**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+
+
 
 
 
@@ -31,7 +34,7 @@ Use this command to rename an existing folder.
 ## Developer/Additional Reference
 Automation Class Name: RenameFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/22 10:14 PM
+This page was generated on 11/26/22 09:32 PM
 
 
 ## Help

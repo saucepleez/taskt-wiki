@@ -20,7 +20,10 @@ Use this command when you want to concatenate text to Text Variable.
 |Please specify Target Text Variable Name||**vText** or **{vText}**||
 |Please specify Text to Concatenate|Select or provide a variable from the variable list|**Hello** or **{vText}**||
 |Optional - Please select Insert Line Break before Concatenate or Not (Default is No)||**Yes** or **No**||
+|Optional - Please select Concatenate Position (Default is After Variable Value)||**Before Variable Value** or **After Variable Value**||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+
+
 
 
 
@@ -34,7 +37,7 @@ Use this command when you want to concatenate text to Text Variable.
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateTextVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/22 10:14 PM
+This page was generated on 11/26/22 09:32 PM
 
 
 ## Help

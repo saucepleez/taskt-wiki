@@ -245,13 +245,21 @@
 ### JSON Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|JSON Commands|[Add JSON Array Item](/json-commands/add-json-array-item-command.md)|This command allows you to add item to JSON Array.|
+|JSON Commands|[Add JSON Object Property](/json-commands/add-json-object-property-command.md)|This command allows you to add property to JSON Object.|
 |JSON Commands|[Convert JSON To DataTable](/json-commands/convert-json-to-datatable-command.md)|This command allows you to convert JSON to DataTable.|
 |JSON Commands|[Convert JSON To Dictionary](/json-commands/convert-json-to-dictionary-command.md)|This command allows you to convert JSON to Dictionary.|
 |JSON Commands|[Convert JSON To List](/json-commands/convert-json-to-list-command.md)|This command allows you to convert JSON Array into a List.|
+|JSON Commands|[Create JSON Variable](/json-commands/create-json-variable-command.md)|This command allows you to create JSON Variable.|
+|JSON Commands|[Insert JSON Array Item](/json-commands/insert-json-array-item-command.md)|This command allows you to insert item to JSON Array.|
+|JSON Commands|[Insert JSON Object Property](/json-commands/insert-json-object-property-command.md)|This command allows you to add property to JSON Object.|
 |JSON Commands|[Parse JSON Array](/json-commands/parse-json-array-command.md)|This command allows you to parse a JSON Array into a list.|
 |JSON Commands|[Parse JSON Item](/json-commands/parse-json-item-command.md)|This command allows you to parse a JSON object into a list.|
 |JSON Commands|[Parse JSON Model](/json-commands/parse-json-model-command.md)|This command allows you to parse a JSON object into a list.|
 |JSON Commands|[Read JSON File](/json-commands/read-json-file-command.md)|This command reads JSON data into a variable|
+|JSON Commands|[Remove JSON Array Item](/json-commands/remove-json-array-item-command.md)|This command allows you to remove item to JSON Array.|
+|JSON Commands|[Remove JSON Property](/json-commands/remove-json-property-command.md)|This command allows you to remove a property in JSON|
+|JSON Commands|[Set JSON Value](/json-commands/set-json-value-command.md)|This command allows you to set value in JSON.|
 ### List Commands
 | Command Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -364,6 +372,7 @@
 | ---                | ---           | ---                   |
 |Text Commands|[Check Text](/text-commands/check-text-command.md)|This command allows you to check a Text|
 |Text Commands|[Concatenate Text Variable](/text-commands/concatenate-text-variable-command.md)|This command allows you to you to concatenate text to Text Variable.|
+|Text Commands|[Create Text Variable](/text-commands/create-text-variable-command.md)|This command allows you to create text variables.|
 |Text Commands|[Extraction Text](/text-commands/extraction-text-command.md)|This command allows you to perform advanced string extraction.|
 |Text Commands|[Get Word Count](/text-commands/get-word-count-command.md)|This command allows you to you to retrieve the word count of a Text or Variable.|
 |Text Commands|[Get Word Length](/text-commands/get-word-length-command.md)|This command allows you to retrieve the length of a Text or Variable.|
@@ -462,7 +471,7 @@
 |Word Commands|[Replace Text](/word-commands/replace-text-command.md)|This command allows you to replace text in a Word document.|
 |Word Commands|[Save Document](/word-commands/save-document-command.md)|This command allows you to save a Word document.|
 |Word Commands|[Save Document As](/word-commands/save-document-as-command.md)|This command allows you to save an Word document.|
-This page was generated on 09/27/22 10:14 PM
+This page was generated on 11/26/22 09:32 PM
 
 
 ## Help

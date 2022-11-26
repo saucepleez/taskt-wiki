@@ -20,7 +20,10 @@ Use this command when you want to get value in Dictionary.
 |Please input The Dictionary Variable||**myDictionary** or **{vMyDic}**||
 |Optional - Please indicate the key for the Dictionary (Default is Current Position)||**key1** or **{vKeyName}**|If it is empty, it will be the value of Current Position, which can be used for Loop List command.|
 |Please indicate the variable to apply result|Enter a unique dataset name that will be used later to traverse over the data|**vMyData** or **{myData}**||
+|Optional - Please Select If Key does not Exists (Default is Error)||||
 |Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+
+
 
 
 
@@ -34,7 +37,7 @@ Use this command when you want to get value in Dictionary.
 ## Developer/Additional Reference
 Automation Class Name: GetDictionaryValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/22 10:14 PM
+This page was generated on 11/26/22 09:32 PM
 
 
 ## Help

@@ -18,6 +18,7 @@ This command convert a List to a DataTable.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Supply the List to convert||**vList** or **{vList}**||
+|Optional - Please Select DataTable Columns Type (Default is Column Prefix)||||
 |Optional - Supply the DataTable Columns Name List||**vColumns** or **{vColumns}**|If Columns is empty, DataTable column is column0, column1, ...|
 |Optional - When the number of items in the List is greater than the number of Columns (Default is Ignore)||||
 |Optional - When the number of Columns is greater than the number of items in the List (Default is Ignore)||||
@@ -37,10 +38,12 @@ This command convert a List to a DataTable.
 
 
 
+
+
 ## Developer/Additional Reference
 Automation Class Name: ConvertListToDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/22 10:14 PM
+This page was generated on 11/26/22 09:32 PM
 
 
 ## Help

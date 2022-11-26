@@ -34,7 +34,7 @@ Use this command when you want window names.
 ## Developer/Additional Reference
 Automation Class Name: GetWindowNamesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/22 10:14 PM
+This page was generated on 11/26/22 09:32 PM
 
 
 ## Help

@@ -18,7 +18,8 @@ This command convert a List to Dictionary.
 | Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
 | ---                    | ---               | ---           | ---       |
 |Supply the List to convert||**vList** or **{vList}**||
-|Optional - Supply the Dictionary Keys Name List||**vKeys** or **{vKeys}**|If keys is empty, Dictionary key is item0, item1, ...|
+|Optional - Please Select Dictionary Keys Type (Default is Key Prefix)||||
+|Optional - Supply the Dictionary Keys Name||**a,b,c** or **{vKeys}**|If keys is empty, Dictionary key is item0, item1, ...|
 |Optional - When the number of items in the List is greater than the number of Keys (Default is Ignore)||||
 |Optional - When the number of Keys is greater than the number of items in the List (Default is Ignore)||||
 |Please select the variable to receive the Dictionary Variable|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
@@ -37,10 +38,12 @@ This command convert a List to Dictionary.
 
 
 
+
+
 ## Developer/Additional Reference
 Automation Class Name: ConvertListToDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/22 10:14 PM
+This page was generated on 11/26/22 09:32 PM
 
 
 ## Help
