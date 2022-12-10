@@ -1,6 +1,7 @@
 <!--TITLE: Delete DataTable Column Command -->
 <!-- SUBTITLE: a command in the DataTable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+DataTable Commands &gt; Column Action &gt; Delete DataTable Column
 
 
 # Delete DataTable Column Command
@@ -15,18 +16,60 @@ Use this command when you want to delete a column to a DataTable.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please indicate the DataTable Variable Name|Enter a existing DataTable to add rows to.|**myDataTable** or **{vMyDataTable}**||
-|Optional - Please specify the Column type (Default is Column Name)||**Column Name** or **Index**||
-|Please specify the Column Name to delete||**0** or **newColumn** or **{vColumn}** or **-1**|If **-1** is specified for Column Index, it means the last column.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please indicate the DataTable Variable Name](#param_0)
+- [Optional - Please specify the Column type](#param_1)
+- [Please specify the Column Name to delete](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please indicate the DataTable Variable Name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a existing DataTable to add rows to.</dd>
+<dt>Sample Data</dt><dd>myDataTable or {vMyDataTable}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Optional - Please specify the Column type
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Column Name or Index</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Column Name</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Please specify the Column Name to delete
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>0 or newColumn or {vColumn} or -1</dd>
+<dt>Remarks</dt><dd>If -1 is specified for Column Index, it means the last column.</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to delete a column to a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: DeleteDataTableColumnCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

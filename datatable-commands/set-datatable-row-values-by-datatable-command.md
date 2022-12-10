@@ -1,6 +1,7 @@
 <!--TITLE: Set DataTable Row Values By DataTable Command -->
 <!-- SUBTITLE: a command in the DataTable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+DataTable Commands &gt; Row Action &gt; Set DataTable Row Values By DataTable
 
 
 # Set DataTable Row Values By DataTable Command
@@ -15,24 +16,88 @@ Use this command when you want to set a DataTable Row values to a DataTable by a
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please indicate the DataTable Variable Name to be setted a row|Enter a existing DataTable Variable Name|**myDataTable** or **{vMyDataTable}**||
-|Optional - Please specify the Row index to setted values (Default is Current Row)||**0** or **1** or **-1** or **{vIndex}**|**-1** means index of the last row.|
-|Please specify the DataTable Variable Name to set to the DataTable||||
-|Optional - Please specify the Row index to set values (Default is Current Row)||**0** or **1** or **-1** or **{vIndex}**|**-1** means index of the last row.|
-|Optional - Please specify the if DataTable column does not exists (Default is Ignore)||**Ignore** or **Error**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please indicate the DataTable Variable Name to be setted a row](#param_0)
+- [Optional - Please specify the Row index to setted values](#param_1)
+- [Please specify the DataTable Variable Name to set to the DataTable](#param_2)
+- [Optional - Please specify the Row index to set values](#param_3)
+- [Optional - Please specify the if DataTable column does not exists](#param_4)
+- [Comment Field (Optional)](#param_5)
+
+
+<a id="param_0"></a>
+### Please indicate the DataTable Variable Name to be setted a row
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a existing DataTable Variable Name</dd>
+<dt>Sample Data</dt><dd>myDataTable or {vMyDataTable}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Optional - Please specify the Row index to setted values
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>0 or 1 or -1 or {vIndex}</dd>
+<dt>Remarks</dt><dd>-1 means index of the last row.<b>Optional</b><br>Default Value is Current Row</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Please specify the DataTable Variable Name to set to the DataTable
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Optional - Please specify the Row index to set values
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>0 or 1 or -1 or {vIndex}</dd>
+<dt>Remarks</dt><dd>-1 means index of the last row.<b>Optional</b><br>Default Value is Current Row</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Optional - Please specify the if DataTable column does not exists
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Ignore or Error</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Ignore</dd>
+</dl>
+
+
+
+
+<a id="param_5"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -40,7 +105,7 @@ Use this command when you want to set a DataTable Row values to a DataTable by a
 ## Developer/Additional Reference
 Automation Class Name: SetDataTableRowValuesByDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

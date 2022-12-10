@@ -1,6 +1,7 @@
 <!--TITLE: Set Dictionary Value Command -->
 <!-- SUBTITLE: a command in the Dictionary Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Dictionary Commands &gt; Dictionary Item &gt; Set Dictionary Value
 
 
 # Set Dictionary Value Command
@@ -15,21 +16,74 @@ Use this command when you want to set value in Dictionary.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please input The Dictionary Variable|Enter a string of comma seperated values.|**myDictionary** or **{vMyDic}**||
-|Optional - Please indicate the key for the Dictionary (Default is Current Position)|Enter a string of comma seperated values.|**key1** or **{vKeyName}**|If it is empty, it will be the value of Current Position, which can be used for Loop List command.|
-|Please indicate the value for the Dictionary||**value1** or **{vValue}**||
-|Optional - Please Select If Key does not Exists (Default is Error)||||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please input The Dictionary Variable](#param_0)
+- [Optional - Please indicate the key for the Dictionary](#param_1)
+- [Please indicate the value for the Dictionary](#param_2)
+- [Optional - Please Select If Key does not Exists](#param_3)
+- [Comment Field (Optional)](#param_4)
+
+
+<a id="param_0"></a>
+### Please input The Dictionary Variable
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
+<dt>Sample Data</dt><dd>myDictionary or {vMyDic}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Optional - Please indicate the key for the Dictionary
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
+<dt>Sample Data</dt><dd>key1 or {vKeyName}</dd>
+<dt>Remarks</dt><dd>If it is empty, it will be the value of Current Position, which can be used for Loop List command.<b>Optional</b><br>Default Value is Current Position</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Please indicate the value for the Dictionary
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>value1 or {vValue}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Optional - Please Select If Key does not Exists
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Error</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -37,7 +91,7 @@ Use this command when you want to set value in Dictionary.
 ## Developer/Additional Reference
 Automation Class Name: SetDictionaryValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

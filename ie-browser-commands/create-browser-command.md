@@ -1,6 +1,7 @@
 <!--TITLE: Create Browser Command -->
 <!-- SUBTITLE: a command in the IE Browser Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+IE Browser Commands &gt; Create Browser
 
 
 # Create Browser Command
@@ -11,22 +12,64 @@ This command allows you to create a new IE web browser session.
 
 
 ## When would I want to use this command?
-Data not specified
+
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Enter the instance name|Data not specified|Data not specified|Data not specified|
-|Instance Tracking (after task ends)|Specify if taskt should remember this instance name after the script has finished executing.|Select **Forget Instance** to forget the instance or **Keep Instance Alive** to allow subsequent tasks to call the instance by name.|Calling the **Close Browser** command or ending the browser session will end the instance.  This command only works during the lifetime of the application.  If the application is closed, the references will be forgetten automatically.|
-|Please Enter the URL to navigate to|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Enter the instance name](#param_0)
+- [Instance Tracking (after task ends)](#param_1)
+- [Please Enter the URL to navigate to](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please Enter the instance name
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Instance Tracking (after task ends)
 
 
+<dl>
+<dt>What to input</dt><dd>Specify if taskt should remember this instance name after the script has finished executing.</dd>
+<dt>Sample Data</dt><dd>Select Forget Instance to forget the instance or Keep Instance Alive to allow subsequent tasks to call the instance by name.</dd>
+<dt>Remarks</dt><dd>Calling the Close Browser command or ending the browser session will end the instance.  This command only works during the lifetime of the application.  If the application is closed, the references will be forgetten automatically.</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Please Enter the URL to navigate to
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: IEBrowserCreateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

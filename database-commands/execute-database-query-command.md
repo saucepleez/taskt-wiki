@@ -1,6 +1,7 @@
 <!--TITLE: Execute Database Query Command -->
 <!-- SUBTITLE: a command in the Database Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Database Commands &gt; Execute Database Query
 
 
 # Execute Database Query Command
@@ -15,24 +16,88 @@ Use this command to select data from a database.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Enter the instance name|Enter the unique instance name that was specified in the **Create Excel** command|**myInstance** or **seleniumInstance**|Failure to enter the correct instance name or failure to first call **Create Excel** command will cause an error|
-|Define Query Execution Type||||
-|Define Query to Execute||||
-|Define Query Parameters||||
-|Apply Result To Variable|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Enter the instance name](#param_0)
+- [Define Query Execution Type](#param_1)
+- [Define Query to Execute](#param_2)
+- [Define Query Parameters](#param_3)
+- [Apply Result To Variable](#param_4)
+- [Comment Field (Optional)](#param_5)
+
+
+<a id="param_0"></a>
+### Please Enter the instance name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the unique instance name that was specified in the Create Excel command</dd>
+<dt>Sample Data</dt><dd>myInstance or seleniumInstance</dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call Create Excel command will cause an error</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Define Query Execution Type
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Define Query to Execute
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Define Query Parameters
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Apply Result To Variable
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_5"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -40,7 +105,7 @@ Use this command to select data from a database.
 ## Developer/Additional Reference
 Automation Class Name: DatabaseExecuteQueryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

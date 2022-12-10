@@ -1,6 +1,7 @@
 <!--TITLE: Convert DataTable Column To Dictionary Command -->
 <!-- SUBTITLE: a command in the DataTable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+DataTable Commands &gt; Convert Column &gt; Convert DataTable Column To Dictionary
 
 
 # Convert DataTable Column To Dictionary Command
@@ -15,24 +16,88 @@ Use this command when you want to convert DataTable Column to Dictionary.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please indicate the DataTable Variable Name|Enter a existing DataTable to fet rows from.|**myDataTable** or **{vMyDataTable}**||
-|Optional - Please specify Column type (Default is Column Name)||**Column Name** or **Index**||
-|Please enter the Name or Index of the Column|Enter a valid Column index value|**id** or **0** or **{vColumn}** or **-1**|If **-1** is specified for Column Index, it means the last column.|
-|Optional - Please enter the Dictionary Key prefix (Default is row)|Enter Dictionary Key Prefix|**row** or **{vPrefix}**|If enter **row**, Dictionary key is row0, row1, ...|
-|Please Specify the Variable Name To Assign The Dictionary|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please indicate the DataTable Variable Name](#param_0)
+- [Optional - Please specify Column type](#param_1)
+- [Please enter the Name or Index of the Column](#param_2)
+- [Optional - Please enter the Dictionary Key prefix](#param_3)
+- [Please Specify the Variable Name To Assign The Dictionary](#param_4)
+- [Comment Field (Optional)](#param_5)
+
+
+<a id="param_0"></a>
+### Please indicate the DataTable Variable Name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a existing DataTable to fet rows from.</dd>
+<dt>Sample Data</dt><dd>myDataTable or {vMyDataTable}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Optional - Please specify Column type
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Column Name or Index</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Column Name</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Please enter the Name or Index of the Column
 
 
+<dl>
+<dt>What to input</dt><dd>Enter a valid Column index value</dd>
+<dt>Sample Data</dt><dd>id or 0 or {vColumn} or -1</dd>
+<dt>Remarks</dt><dd>If -1 is specified for Column Index, it means the last column.</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Optional - Please enter the Dictionary Key prefix
+
+
+<dl>
+<dt>What to input</dt><dd>Enter Dictionary Key Prefix</dd>
+<dt>Sample Data</dt><dd>row or {vPrefix}</dd>
+<dt>Remarks</dt><dd>If enter row, Dictionary key is row0, row1, ...<b>Optional</b><br>Default Value is row</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Please Specify the Variable Name To Assign The Dictionary
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_5"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -40,7 +105,7 @@ Use this command when you want to convert DataTable Column to Dictionary.
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableColumnToDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

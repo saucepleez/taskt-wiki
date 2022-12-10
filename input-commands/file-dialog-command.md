@@ -1,6 +1,7 @@
 <!--TITLE: File Dialog Command -->
 <!-- SUBTITLE: a command in the Input Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Input Commands &gt; File Dialog
 
 
 # File Dialog Command
@@ -15,24 +16,88 @@ Use this command when you want to select file to save or open.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Specify the type of dialog|OpenFileDialog or SaveFileDialog|**Open** or **Save**||
-|Specify the value of the Filter property||**Text File (\*.txt)\|\*.txt** or **{vFilter}**||
-|Optional - Specify the value of the FilterIndex property (Default is 1)||**1** or **2** or **{vIndex}**||
-|Optional - Specify the value of the InitialDirectory property (Default is documents)||**C:\Users\myUser\Documents** or **{vFolderPath}**||
-|Please select the variable to receive file name|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Specify the type of dialog](#param_0)
+- [Specify the value of the Filter property](#param_1)
+- [Optional - Specify the value of the FilterIndex property (Default is 1)](#param_2)
+- [Optional - Specify the value of the InitialDirectory property (Default is documents)](#param_3)
+- [Please select the variable to receive file name](#param_4)
+- [Comment Field (Optional)](#param_5)
+
+
+<a id="param_0"></a>
+### Specify the type of dialog
+
+
+<dl>
+<dt>What to input</dt><dd>OpenFileDialog or SaveFileDialog</dd>
+<dt>Sample Data</dt><dd>Open or Save</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Specify the value of the Filter property
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Text File (*.txt)|*.txt or {vFilter}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Optional - Specify the value of the FilterIndex property (Default is 1)
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>1 or 2 or {vIndex}</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br></dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Optional - Specify the value of the InitialDirectory property (Default is documents)
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>C:\Users\myUser\Documents or {vFolderPath}</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br></dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Please select the variable to receive file name
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_5"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -40,7 +105,7 @@ Use this command when you want to select file to save or open.
 ## Developer/Additional Reference
 Automation Class Name: FileDialogCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

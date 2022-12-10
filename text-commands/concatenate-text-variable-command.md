@@ -1,6 +1,7 @@
 <!--TITLE: Concatenate Text Variable Command -->
 <!-- SUBTITLE: a command in the Text Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Text Commands &gt; Action &gt; Concatenate Text Variable
 
 
 # Concatenate Text Variable Command
@@ -15,21 +16,74 @@ Use this command when you want to concatenate text to Text Variable.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please specify Target Text Variable Name||**vText** or **{vText}**||
-|Please specify Text to Concatenate|Select or provide a variable from the variable list|**Hello** or **{vText}**||
-|Optional - Please select Insert Line Break before Concatenate or Not (Default is No)||**Yes** or **No**||
-|Optional - Please select Concatenate Position (Default is After Variable Value)||**Before Variable Value** or **After Variable Value**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please specify Target Text Variable Name](#param_0)
+- [Please specify Text to Concatenate](#param_1)
+- [Optional - Please select Insert Line Break before Concatenate or Not](#param_2)
+- [Optional - Please select Concatenate Position](#param_3)
+- [Comment Field (Optional)](#param_4)
+
+
+<a id="param_0"></a>
+### Please specify Target Text Variable Name
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>vText or {vText}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify Text to Concatenate
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>Hello or {vText}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Optional - Please select Insert Line Break before Concatenate or Not
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Yes or No</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is No</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Optional - Please select Concatenate Position
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Before Variable Value or After Variable Value</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is After Variable Value</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -37,7 +91,7 @@ Use this command when you want to concatenate text to Text Variable.
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateTextVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

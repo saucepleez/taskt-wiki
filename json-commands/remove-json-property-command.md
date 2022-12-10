@@ -1,6 +1,7 @@
 <!--TITLE: Remove JSON Property Command -->
 <!-- SUBTITLE: a command in the JSON Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+JSON Commands &gt; Action &gt; Remove JSON Property
 
 
 # Remove JSON Property Command
@@ -15,15 +16,46 @@ This command allows you to remove a property in JSON
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Specify the JSON Variable Name||**{vSomeVariable}**||
-|Please Specify a JSON extractor (JSONPath)|Input a JSON token extractor|**$.id**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Specify the JSON Variable Name](#param_0)
+- [Please Specify a JSON extractor (JSONPath)](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please Specify the JSON Variable Name
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>{vSomeVariable}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please Specify a JSON extractor (JSONPath)
+
+
+<dl>
+<dt>What to input</dt><dd>Input a JSON token extractor</dd>
+<dt>Sample Data</dt><dd>$.id</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ This command allows you to remove a property in JSON
 ## Developer/Additional Reference
 Automation Class Name: RemoveJSONPropertyCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

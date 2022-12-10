@@ -1,6 +1,7 @@
 <!--TITLE: Create Shortcut Command -->
 <!-- SUBTITLE: a command in the Misc Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Misc Commands &gt; Other &gt; Create Shortcut
 
 
 # Create Shortcut Command
@@ -15,18 +16,60 @@ Use this command when you want to create shortcut file
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please specify Shortcut Target File, Folder, or URL||**C:\temp\target.txt** or **C:\temp** or **http://example.com** or **{vPath}}** or **{vURL}**||
-|Please specify saved Shortcut Path||**C:\temp\shortcut.lnk** or **C:\temp\shortcut.url** or **{vShortcut}**||
-|Optional - Please specify Shortcut Description||||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please specify Shortcut Target File, Folder, or URL](#param_0)
+- [Please specify saved Shortcut Path](#param_1)
+- [Optional - Please specify Shortcut Description](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please specify Shortcut Target File, Folder, or URL
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>C:\temp\target.txt or C:\temp or http://example.com or {vPath}} or {vURL}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify saved Shortcut Path
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>C:\temp\shortcut.lnk or C:\temp\shortcut.url or {vShortcut}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Optional - Please specify Shortcut Description
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br></dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to create shortcut file
 ## Developer/Additional Reference
 Automation Class Name: CreateShortcutCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

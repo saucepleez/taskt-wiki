@@ -1,6 +1,7 @@
 <!--TITLE: Copy DataTable Command -->
 <!-- SUBTITLE: a command in the DataTable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+DataTable Commands &gt; DataTable Action &gt; Copy DataTable
 
 
 # Copy DataTable Command
@@ -15,15 +16,46 @@ Use this command when you want to copy a DataTable.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please indicate the DataTable Variable Name to Copy|Enter a existing DataTable.|**myDataTable** or **{vMyDataTable}**||
-|Please Specify the Variable Name To Assign the copied DataTable|Select or provide a variable from the variable list|**vNewDataTable** or **{vNewDataTable}**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please indicate the DataTable Variable Name to Copy](#param_0)
+- [Please Specify the Variable Name To Assign the copied DataTable](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please indicate the DataTable Variable Name to Copy
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a existing DataTable.</dd>
+<dt>Sample Data</dt><dd>myDataTable or {vMyDataTable}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please Specify the Variable Name To Assign the copied DataTable
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vNewDataTable or {vNewDataTable}</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Use this command when you want to copy a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: CopyDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

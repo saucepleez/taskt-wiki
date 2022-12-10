@@ -1,6 +1,7 @@
 <!--TITLE: Begin Loop Command -->
 <!-- SUBTITLE: a command in the Loop Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Loop Commands &gt; Begin Loop
 
 
 # Begin Loop Command
@@ -15,15 +16,46 @@ Use this command when you want to check if a statement is 'true' or 'false' and 
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please select type of Loop Command|Select the necessary comparison type.|Select **Value**, **Window Name Exists**, **Active Window Name Is**, **File Exists**, **Folder Exists**, **Web Element Exists**, **Error Occured**||
-|Additional Parameters|Select the required comparison parameters.|n/a||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please select type of Loop Command](#param_0)
+- [Additional Parameters](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please select type of Loop Command
+
+
+<dl>
+<dt>What to input</dt><dd>Select the necessary comparison type.</dd>
+<dt>Sample Data</dt><dd>Select Value, Window Name Exists, Active Window Name Is, File Exists, Folder Exists, Web Element Exists, Error Occured</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Additional Parameters
+
+
+<dl>
+<dt>What to input</dt><dd>Select the required comparison parameters.</dd>
+<dt>Sample Data</dt><dd>n/a</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Use this command when you want to check if a statement is 'true' or 'false' and 
 ## Developer/Additional Reference
 Automation Class Name: BeginLoopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

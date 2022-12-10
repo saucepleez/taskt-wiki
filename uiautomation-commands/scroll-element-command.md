@@ -1,6 +1,7 @@
 <!--TITLE: Scroll Element Command -->
 <!-- SUBTITLE: a command in the UIAutomation Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+UIAutomation Commands &gt; Action &gt; Scroll Element
 
 
 # Scroll Element Command
@@ -11,22 +12,64 @@ This command allows you to Scroll AutomationElement.
 
 
 ## When would I want to use this command?
-Data not specified
+
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please specify AutomationElement Variable||**{vElement}**|Supported Element must have a ScrollBar.|
-|Please specify ScrollBar Type||**Horizonal** or **Vertical**||
-|Please specify Scroll Method||**Scroll Small Down or Right** or **Scroll Large Down or Right** or **Scroll Small Up or Left** or **Scroll Large Up or Left**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please specify AutomationElement Variable](#param_0)
+- [Please specify ScrollBar Type](#param_1)
+- [Please specify Scroll Method](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please specify AutomationElement Variable
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>{vElement}</dd>
+<dt>Remarks</dt><dd>Supported Element must have a ScrollBar.</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify ScrollBar Type
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Horizonal or Vertical</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Please specify Scroll Method
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Scroll Small Down or Right or Scroll Large Down or Right or Scroll Small Up or Left or Scroll Large Up or Left</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationScrollElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

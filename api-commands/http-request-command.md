@@ -1,6 +1,7 @@
 <!--TITLE: HTTP Request Command -->
 <!-- SUBTITLE: a command in the API Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+API Commands &gt; HTTP Request
 
 
 # HTTP Request Command
@@ -15,18 +16,60 @@ Use this command when you want to retrieve HTML of a web page without using brow
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Enter the URL|Enter a valid URL that you want to collect data from.|http://mycompany.com/news or {vURL}||
-|Execute Request as the currently logged on user?|Sets currently logged on user authentication information for the request.|Select 'Yes' or 'No'||
-|Apply Result To Variable|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Enter the URL](#param_0)
+- [Execute Request as the currently logged on user?](#param_1)
+- [Apply Result To Variable](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please Enter the URL
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a valid URL that you want to collect data from.</dd>
+<dt>Sample Data</dt><dd>http://mycompany.com/news or {vURL}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Execute Request as the currently logged on user?
 
 
+<dl>
+<dt>What to input</dt><dd>Sets currently logged on user authentication information for the request.</dd>
+<dt>Sample Data</dt><dd>Select 'Yes' or 'No'</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Apply Result To Variable
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to retrieve HTML of a web page without using brow
 ## Developer/Additional Reference
 Automation Class Name: HTTPRequestCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

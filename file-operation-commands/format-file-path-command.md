@@ -1,6 +1,7 @@
 <!--TITLE: Format File Path Command -->
 <!-- SUBTITLE: a command in the File Operation Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+File Operation Commands &gt; Format File Path
 
 
 # Format File Path Command
@@ -15,18 +16,60 @@ Use this command when you want to format file path.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please indicate the File Path to Delete.|Enter or Select the path to the file.|**C:\temp\myfile.txt** or **{vTextFilePath}**||
-|Please specify File Path Format.||**FileName** or **FileNameWithoutExtension** or **Folder** or **Extension** or **DriveName** etc||
-|Please specify Variable Name to store Result.||||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please indicate the File Path to Delete.](#param_0)
+- [Please specify File Path Format.](#param_1)
+- [Please specify Variable Name to store Result.](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please indicate the File Path to Delete.
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the path to the file.</dd>
+<dt>Sample Data</dt><dd>C:\temp\myfile.txt or {vTextFilePath}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify File Path Format.
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>FileName or FileNameWithoutExtension or Folder or Extension or DriveName etc</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Please specify Variable Name to store Result.
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to format file path.
 ## Developer/Additional Reference
 Automation Class Name: FormatFilePathCommnad
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

@@ -1,6 +1,7 @@
 <!--TITLE: Pause Script Command -->
 <!-- SUBTITLE: a command in the Engine Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Engine Commands &gt; Pause Script
 
 
 # Pause Script Command
@@ -15,12 +16,32 @@ Use this command when you want to pause your script for a specific amount of tim
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Amount of time to pause for (in milliseconds). (ex. 2500, {vWait})|Enter a specific amount of time in milliseconds (ex. to specify 8 seconds, one would enter 8000) or specify a variable containing a value.|**8000** or **{vVariableWaitTime}**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Amount of time to pause for (in milliseconds). (ex. 2500, {vWait})](#param_0)
+- [Comment Field (Optional)](#param_1)
 
 
+<a id="param_0"></a>
+### Amount of time to pause for (in milliseconds). (ex. 2500, {vWait})
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a specific amount of time in milliseconds (ex. to specify 8 seconds, one would enter 8000) or specify a variable containing a value.</dd>
+<dt>Sample Data</dt><dd>8000 or {vVariableWaitTime}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_1"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -28,7 +49,7 @@ Use this command when you want to pause your script for a specific amount of tim
 ## Developer/Additional Reference
 Automation Class Name: PauseCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

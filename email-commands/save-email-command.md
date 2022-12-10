@@ -1,6 +1,7 @@
 <!--TITLE: Save Email Command -->
 <!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+EMail Commands &gt; Save Email
 
 
 # Save Email Command
@@ -15,15 +16,46 @@ Use this command when you want to Save EMail.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please specify EMail Variable Name||**{vEMail}**||
-|Please specify Path to the File||**C:\Temp\mymail.eml** or **{vPath}**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please specify EMail Variable Name](#param_0)
+- [Please specify Path to the File](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please specify EMail Variable Name
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>{vEMail}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify Path to the File
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>C:\Temp\mymail.eml or {vPath}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Use this command when you want to Save EMail.
 ## Developer/Additional Reference
 Automation Class Name: MailKitSaveEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

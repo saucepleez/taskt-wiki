@@ -1,6 +1,7 @@
 <!--TITLE: Launch Remote Desktop Command -->
 <!-- SUBTITLE: a command in the System Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+System Commands &gt; Launch Remote Desktop
 
 
 # Launch Remote Desktop Command
@@ -15,24 +16,88 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Enter the name of the machine||||
-|Enter the username||||
-|Enter the password||||
-|Enter the width of the RDP window||||
-|Enter the height of the RDP window||||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Enter the name of the machine](#param_0)
+- [Enter the username](#param_1)
+- [Enter the password](#param_2)
+- [Enter the width of the RDP window](#param_3)
+- [Enter the height of the RDP window](#param_4)
+- [Comment Field (Optional)](#param_5)
+
+
+<a id="param_0"></a>
+### Enter the name of the machine
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Enter the username
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Enter the password
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Enter the width of the RDP window
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Enter the height of the RDP window
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_5"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -40,7 +105,7 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 ## Developer/Additional Reference
 Automation Class Name: RemoteDesktopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

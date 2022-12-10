@@ -1,6 +1,7 @@
 <!--TITLE: Take Screenshot Command -->
 <!-- SUBTITLE: a command in the Web Browser Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Web Browser Commands &gt; Actions &gt; Take Screenshot
 
 
 # Take Screenshot Command
@@ -15,18 +16,60 @@ Use this command when you want to take a screenshot from the current displayed w
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Enter the instance name (ex. myInstance, {vInstance})|Enter the unique instance name that was specified in the **Create Browser** command|**myInstance** or **{vInstance}**|Failure to enter the correct instance name or failure to first call **Create Browser** command will cause an error|
-|Please define folder where the screenshot should be stored (ex. C:\screenshots, {vPath})|Enter folder path or select folder from the list to define where the screenshot should be stored|**C:\screenshots\** or **{vPath}**||
-|Please define the screenshot file name (no extension needed) (ex. screenshot_001, {vName})|Enter file name for the screenshot|**screenshot_001** or **{vName}**|png image|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Enter the instance name (ex. myInstance, {vInstance})](#param_0)
+- [Please define folder where the screenshot should be stored (ex. C:\screenshots, {vPath})](#param_1)
+- [Please define the screenshot file name (no extension needed) (ex. screenshot_001, {vName})](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please Enter the instance name (ex. myInstance, {vInstance})
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the unique instance name that was specified in the Create Browser command</dd>
+<dt>Sample Data</dt><dd>myInstance or {vInstance}</dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call Create Browser command will cause an error</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please define folder where the screenshot should be stored (ex. C:\screenshots, {vPath})
 
 
+<dl>
+<dt>What to input</dt><dd>Enter folder path or select folder from the list to define where the screenshot should be stored</dd>
+<dt>Sample Data</dt><dd>C:\screenshots* or {vPath}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Please define the screenshot file name (no extension needed) (ex. screenshot_001, {vName})
+
+
+<dl>
+<dt>What to input</dt><dd>Enter file name for the screenshot</dd>
+<dt>Sample Data</dt><dd>screenshot_001 or {vName}</dd>
+<dt>Remarks</dt><dd>png image</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to take a screenshot from the current displayed w
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserTakeScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

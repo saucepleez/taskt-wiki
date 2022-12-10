@@ -1,6 +1,7 @@
 <!--TITLE: Ping Command Command -->
 <!-- SUBTITLE: a command in the Misc Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Misc Commands &gt; Network/Internet &gt; Ping Command
 
 
 # Ping Command Command
@@ -15,15 +16,46 @@ Use this command when you want to add code comments or document code.  Usage of 
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Enter ip address or host name that you want to ping (ex. 192.168.0.1, {vHost})|Ip address or hostname you want to ping|**192.168.0.1** or **www.google.com** or **{vHost}**||
-|Apply Result To Variable|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Enter ip address or host name that you want to ping (ex. 192.168.0.1, {vHost})](#param_0)
+- [Apply Result To Variable](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please Enter ip address or host name that you want to ping (ex. 192.168.0.1, {vHost})
+
+
+<dl>
+<dt>What to input</dt><dd>Ip address or hostname you want to ping</dd>
+<dt>Sample Data</dt><dd>192.168.0.1 or www.google.com or {vHost}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Apply Result To Variable
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Use this command when you want to add code comments or document code.  Usage of 
 ## Developer/Additional Reference
 Automation Class Name: PingCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

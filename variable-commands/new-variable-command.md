@@ -1,6 +1,7 @@
 <!--TITLE: New Variable Command -->
 <!-- SUBTITLE: a command in the Variable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Variable Commands &gt; New Variable
 
 
 # New Variable Command
@@ -15,18 +16,60 @@ Use this command when you want to modify the value of variables.  You can even u
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please define the name of the new variable|Select or provide a variable from the variable list|**vSomeVariable**|If the variable exists, the value of the old variable will be replaced with the new one|
-|Please define the input to be set to above variable (ex. Hello, {vNum})|Enter the input that the variable's value should be set to.|**Hello** or **{vNum}**|You can use variables in input if you encase them within brackets {vName}.  You can also perform basic math operations.|
-|Optional - Define the action to take if the variable already exists (Default is Replace If Variable Exists)|Select the appropriate handler from the list|**Do Nothing If Variable Exists** or **Error If Variable Exists** or **Replace If Variable Exists**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please define the name of the new variable](#param_0)
+- [Please define the input to be set to above variable (ex. Hello, {vNum})](#param_1)
+- [Optional - Define the action to take if the variable already exists (Default is Replace If Variable Exists)](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please define the name of the new variable
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If the variable exists, the value of the old variable will be replaced with the new one</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please define the input to be set to above variable (ex. Hello, {vNum})
 
 
+<dl>
+<dt>What to input</dt><dd>Enter the input that the variable's value should be set to.</dd>
+<dt>Sample Data</dt><dd>Hello or {vNum}</dd>
+<dt>Remarks</dt><dd>You can use variables in input if you encase them within brackets {vName}.  You can also perform basic math operations.</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Optional - Define the action to take if the variable already exists (Default is Replace If Variable Exists)
+
+
+<dl>
+<dt>What to input</dt><dd>Select the appropriate handler from the list</dd>
+<dt>Sample Data</dt><dd>Do Nothing If Variable Exists or Error If Variable Exists or Replace If Variable Exists</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to modify the value of variables.  You can even u
 ## Developer/Additional Reference
 Automation Class Name: AddVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

@@ -1,6 +1,7 @@
 <!--TITLE: Parse Dataset Row Command -->
 <!-- SUBTITLE: a command in the DataTable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+DataTable Commands &gt; Other &gt; Parse Dataset Row
 
 
 # Parse Dataset Row Command
@@ -15,24 +16,88 @@ Use this command when you want to extract data from a dataset variable
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Supply the name of the variable containing the datasource|Select or provide a variable|**vSomeVariable**||
-|Please Select Column Parse Type||||
-|Specify Column Name or Index||||
-|Please select the variable to receive the extracted column data|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Optional - Specify Alternate Row Number|If not executing within a loop, select the applicable index of the row required|**0** or **vRowNumber**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Supply the name of the variable containing the datasource](#param_0)
+- [Please Select Column Parse Type](#param_1)
+- [Specify Column Name or Index](#param_2)
+- [Please select the variable to receive the extracted column data](#param_3)
+- [Optional - Specify Alternate Row Number](#param_4)
+- [Comment Field (Optional)](#param_5)
+
+
+<a id="param_0"></a>
+### Supply the name of the variable containing the datasource
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please Select Column Parse Type
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Specify Column Name or Index
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Please select the variable to receive the extracted column data
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Optional - Specify Alternate Row Number
+
+
+<dl>
+<dt>What to input</dt><dd>If not executing within a loop, select the applicable index of the row required</dd>
+<dt>Sample Data</dt><dd>0 or vRowNumber</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_5"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -40,7 +105,7 @@ Use this command when you want to extract data from a dataset variable
 ## Developer/Additional Reference
 Automation Class Name: ParseDatasetRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

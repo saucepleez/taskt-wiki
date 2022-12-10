@@ -1,6 +1,7 @@
 <!--TITLE: Get Sum From List Command -->
 <!-- SUBTITLE: a command in the List Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+List Commands &gt; Math &gt; Get Sum From List
 
 
 # Get Sum From List Command
@@ -15,18 +16,60 @@ Use this command when you want to get sum value from a list.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please select a List Variable Name||**vList** or **{vList}**||
-|Please select a Variable Name to Store Result||**vResult** or **{vResult}**||
-|Optional - Please select If List Value is Not Numeric (Default is Ignore)||**Ignore** or **Error**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please select a List Variable Name](#param_0)
+- [Please select a Variable Name to Store Result](#param_1)
+- [Optional - Please select If List Value is Not Numeric](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please select a List Variable Name
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>vList or {vList}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please select a Variable Name to Store Result
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Optional - Please select If List Value is Not Numeric
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Ignore or Error</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Ignore</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to get sum value from a list.
 ## Developer/Additional Reference
 Automation Class Name: GetSumFromListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

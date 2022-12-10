@@ -1,6 +1,7 @@
 <!--TITLE: Run Script Command -->
 <!-- SUBTITLE: a command in the Programs/Process Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Programs/Process Commands &gt; Run Script
 
 
 # Run Script Command
@@ -15,12 +16,33 @@ Use this command when you want to run a script (such as vbScript, javascript, or
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Enter the path to the script (ex. C:\temp\myscript.vbs, {vScriptPath})|Enter a fully qualified path to the script, including the script extension.|**C:\temp\myscript.vbs** or **{vScriptPath}**|This command differs from **Start Process** because this command blocks execution until the script has completed.  If you do not want to stop while the script executes, consider using **Start Process** instead.If file does not contain extensin, supplement extensions supported by cmd.<br>If file does not contain folder path, file will be opened in the same folder as script file.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Enter the path to the script (ex. C:\temp\myscript.vbs, {vScriptPath})](#param_0)
+- [Comment Field (Optional)](#param_1)
 
 
+<a id="param_0"></a>
+### Enter the path to the script (ex. C:\temp\myscript.vbs, {vScriptPath})
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a fully qualified path to the script, including the script extension.</dd>
+<dt>Sample Data</dt><dd>C:\temp\myscript.vbs or {vScriptPath}</dd>
+<dt>Remarks</dt><dd>This command differs from Start Process because this command blocks execution until the script has completed.  If you do not want to stop while the script executes, consider using Start Process instead.If file does not contain extensin, supplement extensions supported by cmd.
+If file does not contain folder path, file will be opened in the same folder as script file.</dd>
+</dl>
+
+
+
+
+<a id="param_1"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -28,7 +50,7 @@ Use this command when you want to run a script (such as vbScript, javascript, or
 ## Developer/Additional Reference
 Automation Class Name: RunScriptCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

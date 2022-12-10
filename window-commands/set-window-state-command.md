@@ -1,6 +1,7 @@
 <!--TITLE: Set Window State Command -->
 <!-- SUBTITLE: a command in the Window Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Window Commands &gt; Window Actions &gt; Set Window State
 
 
 # Set Window State Command
@@ -15,18 +16,60 @@ Use this command when you want to change a window's state to minimized, maximize
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please enter or select the window that you want to target for change.|Input or Type the name of the window that you want to change.|**Untitled - Notepad** or **Current Window** or **{vWindow}**||
-|Optional - Window title search method (Default is Contains)||**Contains** or **Starts with** or **Ends with** or **Exact match**||
-|Please choose the new required state of the window.|Select the appropriate window state required|Choose from **Minimize**, **Maximize** and **Restore**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please enter or select the window that you want to target for change.](#param_0)
+- [Optional - Window title search method](#param_1)
+- [Please choose the new required state of the window.](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please enter or select the window that you want to target for change.
+
+
+<dl>
+<dt>What to input</dt><dd>Input or Type the name of the window that you want to change.</dd>
+<dt>Sample Data</dt><dd>Untitled - Notepad or Current Window or {vWindow}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Optional - Window title search method
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Contains or Starts with or Ends with or Exact match</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Contains</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Please choose the new required state of the window.
+
+
+<dl>
+<dt>What to input</dt><dd>Select the appropriate window state required</dd>
+<dt>Sample Data</dt><dd>Choose from Minimize, Maximize and Restore</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to change a window's state to minimized, maximize
 ## Developer/Additional Reference
 Automation Class Name: SetWindowStateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

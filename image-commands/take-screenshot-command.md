@@ -1,6 +1,7 @@
 <!--TITLE: Take Screenshot Command -->
 <!-- SUBTITLE: a command in the Image Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Image Commands &gt; Take Screenshot
 
 
 # Take Screenshot Command
@@ -15,15 +16,48 @@ Use this command when you want to take and save a screenshot.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Enter the Window name|Input or Type the name of the window that you want to take a screenshot of.|**Untitled - Notepad** or **Current Window** or **Desktop** or **{vWindow}**||
-|Please indicate the path to save the image|Data not specified|**c:\Temp\image.png** or **{vPath}**|If file does not contain extensin, suppliment png extension.<br>If file does not contain folder path, file will be saved in the same folder as script file.<br>If file path contains FileCounter variable, it will be replaced by a number that will become the name of a non-existent file.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Enter the Window name](#param_0)
+- [Please indicate the path to save the image](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please Enter the Window name
+
+
+<dl>
+<dt>What to input</dt><dd>Input or Type the name of the window that you want to take a screenshot of.</dd>
+<dt>Sample Data</dt><dd>Untitled - Notepad or Current Window or Desktop or {vWindow}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please indicate the path to save the image
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Sample Data</dt><dd>c:\Temp\image.png or {vPath}</dd>
+<dt>Remarks</dt><dd>If file does not contain extensin, suppliment png extension.
+If file does not contain folder path, file will be saved in the same folder as script file.
+If file path contains FileCounter variable, it will be replaced by a number that will become the name of a non-existent file.</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +65,7 @@ Use this command when you want to take and save a screenshot.
 ## Developer/Additional Reference
 Automation Class Name: ScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

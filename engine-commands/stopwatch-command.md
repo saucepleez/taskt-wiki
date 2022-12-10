@@ -1,6 +1,7 @@
 <!--TITLE: Stopwatch Command -->
 <!-- SUBTITLE: a command in the Engine Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Engine Commands &gt; Stopwatch
 
 
 # Stopwatch Command
@@ -15,21 +16,74 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Enter the instance name of the Stopwatch|Provide a unique instance or way to refer to the stopwatch|**myStopwatch**, **{vStopWatch}**||
-|Enter the Stopwatch Action|Provide a unique instance or way to refer to the stopwatch|||
-|Apply Result To Variable|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Optional - Specify String Format (ex. hh:mm)|Specify if a specific string format is required.|MM/dd/yy, hh:mm, etc.||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Enter the instance name of the Stopwatch](#param_0)
+- [Enter the Stopwatch Action](#param_1)
+- [Apply Result To Variable](#param_2)
+- [Optional - Specify String Format (ex. hh:mm)](#param_3)
+- [Comment Field (Optional)](#param_4)
+
+
+<a id="param_0"></a>
+### Enter the instance name of the Stopwatch
+
+
+<dl>
+<dt>What to input</dt><dd>Provide a unique instance or way to refer to the stopwatch</dd>
+<dt>Sample Data</dt><dd>myStopwatch, {vStopWatch}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Enter the Stopwatch Action
+
+
+<dl>
+<dt>What to input</dt><dd>Provide a unique instance or way to refer to the stopwatch</dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Apply Result To Variable
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Optional - Specify String Format (ex. hh:mm)
+
+
+<dl>
+<dt>What to input</dt><dd>Specify if a specific string format is required.</dd>
+<dt>Sample Data</dt><dd>MM/dd/yy, hh:mm, etc.</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -37,7 +91,7 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 ## Developer/Additional Reference
 Automation Class Name: StopwatchCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

@@ -1,6 +1,7 @@
 <!--TITLE: Format Folder Path Command -->
 <!-- SUBTITLE: a command in the Folder Operation Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Folder Operation Commands &gt; Format Folder Path
 
 
 # Format Folder Path Command
@@ -15,18 +16,60 @@ Use this command when you want to format folder path.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please indicate the Folder Path to Delete.|Enter or Select the path to the folder.|**C:\temp\myfolder** or **{vTextFolderPath}**||
-|Please specify File Path Format.||**Folder** or **DriveName** etc||
-|Please specify Variable Name to store Result.||||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please indicate the Folder Path to Delete.](#param_0)
+- [Please specify File Path Format.](#param_1)
+- [Please specify Variable Name to store Result.](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please indicate the Folder Path to Delete.
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the path to the folder.</dd>
+<dt>Sample Data</dt><dd>C:\temp\myfolder or {vTextFolderPath}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify File Path Format.
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Folder or DriveName etc</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Please specify Variable Name to store Result.
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to format folder path.
 ## Developer/Additional Reference
 Automation Class Name: FormatFolderPathCommnad
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

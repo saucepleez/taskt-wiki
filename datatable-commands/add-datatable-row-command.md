@@ -1,6 +1,7 @@
 <!--TITLE: Add DataTable Row Command -->
 <!-- SUBTITLE: a command in the DataTable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+DataTable Commands &gt; Row Action &gt; Add DataTable Row
 
 
 # Add DataTable Row Command
@@ -15,15 +16,46 @@ Use this command when you want to add a row to a DataTable.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please indicate the DataTable Variable Name|Enter a existing DataTable to add rows to.|**myDataTable** or **{vMyDataTable}**||
-|Define Data|Enter the Column Names required for each column of data|||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please indicate the DataTable Variable Name](#param_0)
+- [Define Data](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please indicate the DataTable Variable Name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a existing DataTable to add rows to.</dd>
+<dt>Sample Data</dt><dd>myDataTable or {vMyDataTable}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Define Data
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the Column Names required for each column of data</dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Use this command when you want to add a row to a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: AddDataTableRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

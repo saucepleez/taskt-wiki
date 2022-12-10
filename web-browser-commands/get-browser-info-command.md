@@ -1,6 +1,7 @@
 <!--TITLE: Get Browser Info Command -->
 <!-- SUBTITLE: a command in the Web Browser Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Web Browser Commands &gt; Instance &gt; Get Browser Info
 
 
 # Get Browser Info Command
@@ -15,18 +16,60 @@ Use this command when you want to navigate an existing Selenium instance to a kn
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Enter the instance name (ex. myInstance, {vInstance})|Enter the unique instance name that was specified in the **Create Browser** command|**myInstance** or **{vInstance}**|Failure to enter the correct instance name or failure to first call **Create Browser** command will cause an error|
-|Indicate which info property to retrieve|Select an option which best fits to the specification you would like to make.|Select one of the provided options.||
-|Please select the variable to receive the result|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Enter the instance name (ex. myInstance, {vInstance})](#param_0)
+- [Indicate which info property to retrieve](#param_1)
+- [Please select the variable to receive the result](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please Enter the instance name (ex. myInstance, {vInstance})
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the unique instance name that was specified in the Create Browser command</dd>
+<dt>Sample Data</dt><dd>myInstance or {vInstance}</dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call Create Browser command will cause an error</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Indicate which info property to retrieve
 
 
+<dl>
+<dt>What to input</dt><dd>Select an option which best fits to the specification you would like to make.</dd>
+<dt>Sample Data</dt><dd>Select one of the provided options.</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Please select the variable to receive the result
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to navigate an existing Selenium instance to a kn
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserInfoCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

@@ -1,6 +1,7 @@
 <!--TITLE: Create Number Variable Command -->
 <!-- SUBTITLE: a command in the Numerical Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Numerical Commands &gt; Create Number Variable
 
 
 # Create Number Variable Command
@@ -15,15 +16,46 @@ Use this command when you want to create Number Variable.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please specify Variable Name||**vValue** or **{vValue}**||
-|Please specify Number Value||**1** or **1.1** or **{vNumber}**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please specify Variable Name](#param_0)
+- [Please specify Number Value](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please specify Variable Name
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>vValue or {vValue}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify Number Value
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>1 or 1.1 or {vNumber}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Use this command when you want to create Number Variable.
 ## Developer/Additional Reference
 Automation Class Name: CreateNumberVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

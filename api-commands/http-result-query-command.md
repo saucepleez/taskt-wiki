@@ -1,6 +1,7 @@
 <!--TITLE: HTTP Result Query Command -->
 <!-- SUBTITLE: a command in the API Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+API Commands &gt; HTTP Result Query
 
 
 # HTTP Result Query Command
@@ -15,18 +16,60 @@ Use this command to parse and extract data from a successful **HTTP Request Comm
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Select variable containing HTML|Select or provide a variable from the variable list|**vSomeVariable**||
-|XPath Query|Enter the XPath Query and the item will be extracted.|@//*[@id="aso_search_form_anchor"]/div/input|You can use Chrome Dev Tools to click an element and copy the XPath.|
-|Apply Query Result To Variable|Data not specified|Data not specified|Data not specified|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Select variable containing HTML](#param_0)
+- [XPath Query](#param_1)
+- [Apply Query Result To Variable](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Select variable containing HTML
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### XPath Query
 
 
+<dl>
+<dt>What to input</dt><dd>Enter the XPath Query and the item will be extracted.</dd>
+<dt>Sample Data</dt><dd>@//[@id="aso_search_form_anchor"]/div/input</dd>
+<dt>Remarks</dt><dd>You can use Chrome Dev Tools to click an element and copy the XPath.</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Apply Query Result To Variable
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command to parse and extract data from a successful **HTTP Request Comm
 ## Developer/Additional Reference
 Automation Class Name: HTTPQueryResultCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

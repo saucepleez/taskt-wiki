@@ -1,6 +1,7 @@
 <!--TITLE: Get Text From Table Element Command -->
 <!-- SUBTITLE: a command in the UIAutomation Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+UIAutomation Commands &gt; Get &gt; Get Text From Table Element
 
 
 # Get Text From Table Element Command
@@ -11,25 +12,78 @@ This command allows you to get Text Value from Table AutomationElement.
 
 
 ## When would I want to use this command?
-Data not specified
+
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please specify AutomationElement Variable||**{vElement}**|Supported Element is DataGridView, ListBox, etc.|
-|Please specify Row Value||**0** or **1** **{vRow}**||
-|Please specify Column Value||**0** or **1** or **{vColumn}**||
-|Please specify a Variable to store Text Value||**vText** or **{vText}**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please specify AutomationElement Variable](#param_0)
+- [Please specify Row Value](#param_1)
+- [Please specify Column Value](#param_2)
+- [Please specify a Variable to store Text Value](#param_3)
+- [Comment Field (Optional)](#param_4)
+
+
+<a id="param_0"></a>
+### Please specify AutomationElement Variable
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>{vElement}</dd>
+<dt>Remarks</dt><dd>Supported Element is DataGridView, ListBox, etc.</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify Row Value
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>0 or 1 {vRow}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Please specify Column Value
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>0 or 1 or {vColumn}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Please specify a Variable to store Text Value
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>vText or {vText}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -37,7 +91,7 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationGetTextFromTableElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

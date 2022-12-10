@@ -1,6 +1,7 @@
 <!--TITLE: Upload BotStore Data Command -->
 <!-- SUBTITLE: a command in the Engine Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Engine Commands &gt; Upload BotStore Data
 
 
 # Upload BotStore Data Command
@@ -15,15 +16,46 @@ Use this command when you want to upload or share data across bots.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please indicate a name of the key to create|Select a variable or provide an input value|**vSomeVariable**||
-|Please select a target variable or input value to upload|Select a variable or provide an input value|**vSomeVariable**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please indicate a name of the key to create](#param_0)
+- [Please select a target variable or input value to upload](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please indicate a name of the key to create
+
+
+<dl>
+<dt>What to input</dt><dd>Select a variable or provide an input value</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please select a target variable or input value to upload
+
+
+<dl>
+<dt>What to input</dt><dd>Select a variable or provide an input value</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Use this command when you want to upload or share data across bots.
 ## Developer/Additional Reference
 Automation Class Name: UploadDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

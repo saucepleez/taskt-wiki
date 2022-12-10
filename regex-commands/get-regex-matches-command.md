@@ -1,6 +1,7 @@
 <!--TITLE: Get Regex Matches Command -->
 <!-- SUBTITLE: a command in the Regex Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Regex Commands &gt; Get Regex Matches
 
 
 # Get Regex Matches Command
@@ -15,18 +16,60 @@ Use this command when you want to iterate over a series of Excel cells.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Enter Regex Expressions.|Enter a string of comma seperated values.|name1,name2,name3,name4||
-|Please input the data you want to perform regex on.|Enter a string of comma seperated values.|name1,name2,name3,name4||
-|Please input a variable name.|Enter a string of comma seperated values.|name1,name2,name3,name4||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Enter Regex Expressions.](#param_0)
+- [Please input the data you want to perform regex on.](#param_1)
+- [Please input a variable name.](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Enter Regex Expressions.
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
+<dt>Sample Data</dt><dd>name1,name2,name3,name4</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please input the data you want to perform regex on.
 
 
+<dl>
+<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
+<dt>Sample Data</dt><dd>name1,name2,name3,name4</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Please input a variable name.
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
+<dt>Sample Data</dt><dd>name1,name2,name3,name4</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to iterate over a series of Excel cells.
 ## Developer/Additional Reference
 Automation Class Name: GetRegexMatchesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

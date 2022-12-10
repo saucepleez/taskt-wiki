@@ -1,6 +1,7 @@
 <!--TITLE: Get Variable Type Command -->
 <!-- SUBTITLE: a command in the Variable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Variable Commands &gt; Get Variable Type
 
 
 # Get Variable Type Command
@@ -15,15 +16,46 @@ Use this command when you want to get variable type.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please select a variable to get type|Select or provide a variable from the variable list|**vVariable** **{vVariable}**||
-|Please specify the Variable to store variable type|Enter the input that the variable's value should be set to.|**vResult** or **{vResult}**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please select a variable to get type](#param_0)
+- [Please specify the Variable to store variable type](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please select a variable to get type
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vVariable {vVariable}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify the Variable to store variable type
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the input that the variable's value should be set to.</dd>
+<dt>Sample Data</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Use this command when you want to get variable type.
 ## Developer/Additional Reference
 Automation Class Name: GetVariableTypeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

@@ -1,6 +1,7 @@
 <!--TITLE: Close Word Application Command -->
 <!-- SUBTITLE: a command in the Word Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Word Commands &gt; Close Word Application
 
 
 # Close Word Application Command
@@ -15,15 +16,46 @@ Use this command when you want to close an open instance of Word.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Enter the instance name|Enter the unique instance name that was specified in the **Create Word** command|**myInstance** or **wordInstance**|Failure to enter the correct instance name or failure to first call **Create Word** command will cause an error|
-|Indicate if the Document should be saved|Enter a TRUE or FALSE value|'TRUE' or 'FALSE'||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Enter the instance name](#param_0)
+- [Indicate if the Document should be saved](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please Enter the instance name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the unique instance name that was specified in the Create Word command</dd>
+<dt>Sample Data</dt><dd>myInstance or wordInstance</dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call Create Word command will cause an error</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Indicate if the Document should be saved
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a TRUE or FALSE value</dd>
+<dt>Sample Data</dt><dd>'TRUE' or 'FALSE'</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Use this command when you want to close an open instance of Word.
 ## Developer/Additional Reference
 Automation Class Name: WordCloseApplicationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

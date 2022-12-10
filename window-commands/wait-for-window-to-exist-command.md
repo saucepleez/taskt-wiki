@@ -1,6 +1,7 @@
 <!--TITLE: Wait For Window To Exist Command -->
 <!-- SUBTITLE: a command in the Window Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Window Commands &gt; Window Actions &gt; Wait For Window To Exist
 
 
 # Wait For Window To Exist Command
@@ -15,18 +16,60 @@ Use this command when you want to explicitly wait for a window to exist before c
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please enter or select the window name that you are waiting for to exist.|Input or Type the name of the window that you want to wait to exist.|**Untitled - Notepad** or **Current Window** or **{vWindow}**||
-|Optional - Window title search method (Default is Contains)||**Contains** or **Starts with** or **Ends with** or **Exact match**||
-|Indicate how many seconds to wait before an error should be raised.|Specify how many seconds to wait before an error should be invoked|**5** or **{vWaitTime}**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please enter or select the window name that you are waiting for to exist.](#param_0)
+- [Optional - Window title search method](#param_1)
+- [Indicate how many seconds to wait before an error should be raised.](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please enter or select the window name that you are waiting for to exist.
+
+
+<dl>
+<dt>What to input</dt><dd>Input or Type the name of the window that you want to wait to exist.</dd>
+<dt>Sample Data</dt><dd>Untitled - Notepad or Current Window or {vWindow}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Optional - Window title search method
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Contains or Starts with or Ends with or Exact match</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Contains</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Indicate how many seconds to wait before an error should be raised.
+
+
+<dl>
+<dt>What to input</dt><dd>Specify how many seconds to wait before an error should be invoked</dd>
+<dt>Sample Data</dt><dd>5 or {vWaitTime}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to explicitly wait for a window to exist before c
 ## Developer/Additional Reference
 Automation Class Name: WaitForWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

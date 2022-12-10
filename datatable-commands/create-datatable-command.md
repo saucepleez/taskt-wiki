@@ -1,6 +1,7 @@
 <!--TITLE: Create DataTable Command -->
 <!-- SUBTITLE: a command in the DataTable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+DataTable Commands &gt; DataTable Action &gt; Create DataTable
 
 
 # Create DataTable Command
@@ -15,15 +16,46 @@ Use this command when you want to create a new DataTable
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Indicate DataTable Variable Name|Indicate a unique reference name for later use|**vMyDatatable** or **{vMyDatatable}**||
-|Define Column Names|Enter the Column Names required for each column of data|||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Indicate DataTable Variable Name](#param_0)
+- [Define Column Names](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please Indicate DataTable Variable Name
+
+
+<dl>
+<dt>What to input</dt><dd>Indicate a unique reference name for later use</dd>
+<dt>Sample Data</dt><dd>vMyDatatable or {vMyDatatable}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Define Column Names
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the Column Names required for each column of data</dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Use this command when you want to create a new DataTable
 ## Developer/Additional Reference
 Automation Class Name: CreateDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

@@ -1,6 +1,7 @@
 <!--TITLE: Extraction Text Command -->
 <!-- SUBTITLE: a command in the Text Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Text Commands &gt; Action &gt; Extraction Text
 
 
 # Extraction Text Command
@@ -15,17 +16,48 @@ Use this command when you want to extract a piece of text from a larger text or 
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Supply the value or variable requiring extraction|Select or provide a variable or text value|**Hello** or **{vText}**||
-|Please select text extraction type|Select the type of extraction that is required.|Select from Before Text, After Text, Between Text||
-|Extraction Parameters|Define the required extraction parameters, which is dependent on the type of extraction.|n/a||
-|Please select the variable to receive the extracted text|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Supply the value or variable requiring extraction](#param_0)
+- [Please select text extraction type](#param_1)
+- [Extraction Parameters](#param_2)
+- [Please select the variable to receive the extracted text](#param_3)
+- [Comment Field (Optional)](#param_4)
+
+
+<a id="param_0"></a>
+### Supply the value or variable requiring extraction
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable or text value</dd>
+<dt>Sample Data</dt><dd>Hello or {vText}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please select text extraction type
+
+
+<dl>
+<dt>What to input</dt><dd>Select the type of extraction that is required.</dd>
+<dt>Sample Data</dt><dd>Select from Before Text, After Text, Between Text</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Extraction Parameters
+
+
+<dl>
+<dt>What to input</dt><dd>Define the required extraction parameters, which is dependent on the type of extraction.</dd>
+<dt>Sample Data</dt><dd>n/a</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 ### Addtional Info about &quot;Extraction Parameters&quot;
@@ -40,6 +72,28 @@ Use this command when you want to extract a piece of text from a larger text or 
 |Extract All Between Text &amp; Skip Past Occurences||||
 
 
+<a id="param_3"></a>
+### Please select the variable to receive the extracted text
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -47,7 +101,7 @@ Use this command when you want to extract a piece of text from a larger text or 
 ## Developer/Additional Reference
 Automation Class Name: ExtractionTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

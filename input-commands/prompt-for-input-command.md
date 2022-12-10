@@ -1,6 +1,7 @@
 <!--TITLE: Prompt for Input Command -->
 <!-- SUBTITLE: a command in the Input Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Input Commands &gt; Prompt for Input
 
 
 # Prompt for Input Command
@@ -15,18 +16,60 @@ Use this command when you want to send keystroke inputs to a window.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please specify a heading name|Define the header to be displayed on the input form.|**Please Provide Input**||
-|Please specify input directions|Define the directions you want to give the user.|**Please fill in the following fields**||
-|User Input Parameters|Define the required input parameters.|n/a||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please specify a heading name](#param_0)
+- [Please specify input directions](#param_1)
+- [User Input Parameters](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please specify a heading name
+
+
+<dl>
+<dt>What to input</dt><dd>Define the header to be displayed on the input form.</dd>
+<dt>Sample Data</dt><dd>Please Provide Input</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify input directions
 
 
+<dl>
+<dt>What to input</dt><dd>Define the directions you want to give the user.</dd>
+<dt>Sample Data</dt><dd>Please fill in the following fields</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### User Input Parameters
+
+
+<dl>
+<dt>What to input</dt><dd>Define the required input parameters.</dd>
+<dt>Sample Data</dt><dd>n/a</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to send keystroke inputs to a window.
 ## Developer/Additional Reference
 Automation Class Name: UserInputCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

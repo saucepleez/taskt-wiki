@@ -1,33 +1,34 @@
-<!--TITLE: Convert DataTable To JSON Command -->
-<!-- SUBTITLE: a command in the DataTable Commands group. -->
+<!--TITLE: Get JSON Value List Command -->
+<!-- SUBTITLE: a command in the JSON Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
-DataTable Commands &gt; Convert &gt; Convert DataTable To JSON
+JSON Commands &gt; Get/Set &gt; Get JSON Value List
 
 
-# Convert DataTable To JSON Command
+# Get JSON Value List Command
 
 
 ## What does this command do?
-This command allows you to convert DataTable to JSON
+This command allows you to parse a JSON object into a list.
 
 
 ## When would I want to use this command?
-Use this command when you want to convert DataTable to JSON.
+Use this command when you want to extract data from a JSON object
 
 
 ## Command Parameters
-- [Please indicate the DataTable Variable Name](#param_0)
-- [Please Specify the Variable Name To Assign The JSON](#param_1)
-- [Comment Field (Optional)](#param_2)
+- [Supply the JSON text or variable requiring extraction](#param_0)
+- [Specify a JSON extractor (JSONPath)](#param_1)
+- [Please select the variable to receive the extracted Result](#param_2)
+- [Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please indicate the DataTable Variable Name
+### Supply the JSON text or variable requiring extraction
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a existing DataTable to fet rows from.</dd>
-<dt>Sample Data</dt><dd>myDataTable or {vMyDataTable}</dd>
+<dt>What to input</dt><dd>Select or provide a variable or text value</dd>
+<dt>Sample Data</dt><dd>{"id":2} or {vSomeVariable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -35,7 +36,20 @@ Use this command when you want to convert DataTable to JSON.
 
 
 <a id="param_1"></a>
-### Please Specify the Variable Name To Assign The JSON
+### Specify a JSON extractor (JSONPath)
+
+
+<dl>
+<dt>What to input</dt><dd>Input a JSON token extractor</dd>
+<dt>Sample Data</dt><dd>$.id</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Please select the variable to receive the extracted Result
 
 
 <dl>
@@ -47,7 +61,7 @@ Use this command when you want to convert DataTable to JSON.
 
 
 
-<a id="param_2"></a>
+<a id="param_3"></a>
 ### Comment Field (Optional)
 
 
@@ -61,7 +75,7 @@ Use this command when you want to convert DataTable to JSON.
 
 
 ## Developer/Additional Reference
-Automation Class Name: ConvertDataTableToJSONCommand
+Automation Class Name: GetJSONValueListCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 12/10/22 01:48 PM
 

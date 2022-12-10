@@ -1,6 +1,7 @@
 <!--TITLE: Delete Outlook Emails Command -->
 <!-- SUBTITLE: a command in the Outlook Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Outlook Commands &gt; Delete Outlook Emails
 
 
 # Delete Outlook Emails Command
@@ -15,18 +16,60 @@ Use this command when you want to delete emails with your currenty logged in out
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Provide the source mail folder name|Enter the mail folder you want your emails to come from|**myData**||
-|Provide a filter (Required)|Enter an outlook filter string|[Subject] = 'Hello' and [SenderName] = 'Jane Doe'||
-|Delete read emails only|Specify whether to delete read email messages only|Select **Yes** or **No**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Provide the source mail folder name](#param_0)
+- [Provide a filter (Required)](#param_1)
+- [Delete read emails only](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Provide the source mail folder name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the mail folder you want your emails to come from</dd>
+<dt>Sample Data</dt><dd>myData</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Provide a filter (Required)
 
 
+<dl>
+<dt>What to input</dt><dd>Enter an outlook filter string</dd>
+<dt>Sample Data</dt><dd>[Subject] = 'Hello' and [SenderName] = 'Jane Doe'</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Delete read emails only
+
+
+<dl>
+<dt>What to input</dt><dd>Specify whether to delete read email messages only</dd>
+<dt>Sample Data</dt><dd>Select Yes or No</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to delete emails with your currenty logged in out
 ## Developer/Additional Reference
 Automation Class Name: OutlookDeleteEmailsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

@@ -1,6 +1,7 @@
 <!--TITLE: Rename File Command -->
 <!-- SUBTITLE: a command in the File Operation Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+File Operation Commands &gt; Rename File
 
 
 # Rename File Command
@@ -15,18 +16,60 @@ Use this command to rename an existing file.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please indicate the path to the source file|Enter or Select the path to the file.|**C:\temp\myfile.txt** or **{vTextFilePath}**||
-|Please indicate the new file name (with extension)|Specify the new file name including the extension.|**newfile.txt** or **{vNewFileName}**|Changing the file extension will not automatically convert files.|
-|Optional - Please select If File Name Same After the Change (Default is Ignore)||**Ignore** or **Error**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please indicate the path to the source file](#param_0)
+- [Please indicate the new file name (with extension)](#param_1)
+- [Optional - Please select If File Name Same After the Change](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please indicate the path to the source file
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the path to the file.</dd>
+<dt>Sample Data</dt><dd>C:\temp\myfile.txt or {vTextFilePath}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please indicate the new file name (with extension)
 
 
+<dl>
+<dt>What to input</dt><dd>Specify the new file name including the extension.</dd>
+<dt>Sample Data</dt><dd>newfile.txt or {vNewFileName}</dd>
+<dt>Remarks</dt><dd>Changing the file extension will not automatically convert files.</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Optional - Please select If File Name Same After the Change
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Ignore or Error</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Ignore</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command to rename an existing file.
 ## Developer/Additional Reference
 Automation Class Name: RenameFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

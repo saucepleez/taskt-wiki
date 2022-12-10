@@ -1,6 +1,7 @@
 <!--TITLE: Get Worksheets Command -->
 <!-- SUBTITLE: a command in the Excel Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Excel Commands &gt; Sheet &gt; Get Worksheets
 
 
 # Get Worksheets Command
@@ -15,21 +16,74 @@ Use this command when you want to switch to a specific worksheet
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Enter the instance name|Enter the unique instance name that was specified in the **Create Excel** command|**myInstance** or **{vInstance}**|Failure to enter the correct instance name or failure to first call **Create Excel** command will cause an error|
-|Optional - Indicate the name of the sheet to search (Default is empty, and get all sheets)|Specify the name of the actual sheet|**mySheet** or **Current Sheet** or **{vSheet}**||
-|Optional - Specify search method (Default is Contains)||**Contains** or **Start with** or **End with**||
-|Please select the variable to receive sheet names|Select or provide a variable from the variable list|**vSomeVariable**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Enter the instance name](#param_0)
+- [Optional - Indicate the name of the sheet to search](#param_1)
+- [Optional - Specify search method](#param_2)
+- [Please select the variable to receive sheet names](#param_3)
+- [Comment Field (Optional)](#param_4)
+
+
+<a id="param_0"></a>
+### Please Enter the instance name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the unique instance name that was specified in the Create Excel command</dd>
+<dt>Sample Data</dt><dd>myInstance or {vInstance}</dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call Create Excel command will cause an error</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Optional - Indicate the name of the sheet to search
+
+
+<dl>
+<dt>What to input</dt><dd>Specify the name of the actual sheet</dd>
+<dt>Sample Data</dt><dd>mySheet or Current Sheet or {vSheet}</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is empty, and get all sheets</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Optional - Specify search method
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Contains or Start with or End with</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Contains</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Please select the variable to receive sheet names
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -37,7 +91,7 @@ Use this command when you want to switch to a specific worksheet
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetWorksheetsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

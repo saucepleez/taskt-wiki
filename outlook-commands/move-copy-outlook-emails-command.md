@@ -1,6 +1,7 @@
 <!--TITLE: Move/Copy Outlook Emails Command -->
 <!-- SUBTITLE: a command in the Outlook Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Outlook Commands &gt; Move/Copy Outlook Emails
 
 
 # Move/Copy Outlook Emails Command
@@ -15,24 +16,88 @@ Use this command when you want to move/copy emails with your currenty logged in 
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Indicate whether to Move or Copy the emails|Specify whether you intend to move or copy the Emails. Moving will remove the emails from the original folder while Copying will not.|Select either **Move Emails** or **Copy Emails**||
-|Provide the source mail folder name|Enter the mail folder you want your emails to come from|**myData**||
-|Provide a filter (Optional)|[Subject] = 'Hello' and [SenderName] = 'Jane Doe'|[Subject] = 'Hello'||
-|Move/Copy unread emails only|Specify whether to move/copy unread email messages only|Select **Yes** or **No**||
-|Provide the destination folder name|Enter or Select the path to the directory.|**myData**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Indicate whether to Move or Copy the emails](#param_0)
+- [Provide the source mail folder name](#param_1)
+- [Provide a filter (Optional)](#param_2)
+- [Move/Copy unread emails only](#param_3)
+- [Provide the destination folder name](#param_4)
+- [Comment Field (Optional)](#param_5)
+
+
+<a id="param_0"></a>
+### Indicate whether to Move or Copy the emails
+
+
+<dl>
+<dt>What to input</dt><dd>Specify whether you intend to move or copy the Emails. Moving will remove the emails from the original folder while Copying will not.</dd>
+<dt>Sample Data</dt><dd>Select either Move Emails or Copy Emails</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Provide the source mail folder name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the mail folder you want your emails to come from</dd>
+<dt>Sample Data</dt><dd>myData</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Provide a filter (Optional)
 
 
+<dl>
+<dt>What to input</dt><dd>[Subject] = 'Hello' and [SenderName] = 'Jane Doe'</dd>
+<dt>Sample Data</dt><dd>[Subject] = 'Hello'</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Move/Copy unread emails only
+
+
+<dl>
+<dt>What to input</dt><dd>Specify whether to move/copy unread email messages only</dd>
+<dt>Sample Data</dt><dd>Select Yes or No</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Provide the destination folder name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the path to the directory.</dd>
+<dt>Sample Data</dt><dd>myData</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_5"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -40,7 +105,7 @@ Use this command when you want to move/copy emails with your currenty logged in 
 ## Developer/Additional Reference
 Automation Class Name: OutlookMoveEmailsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

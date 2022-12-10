@@ -1,6 +1,7 @@
 <!--TITLE: Loop List Command -->
 <!-- SUBTITLE: a command in the Loop Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Loop Commands &gt; Loop List
 
 
 # Loop List Command
@@ -15,12 +16,32 @@ Use this command when you want to iterate over each item in a list, or a series 
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please input the list variable to be looped (ex. {vList}, [1,2,3])|Enter a variable which contains a list of items|**{vMyList}** or **[1,2,3]**|Use this command to iterate over the results of the Split command.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please input the list variable to be looped (ex. {vList}, [1,2,3])](#param_0)
+- [Comment Field (Optional)](#param_1)
 
 
+<a id="param_0"></a>
+### Please input the list variable to be looped (ex. {vList}, [1,2,3])
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a variable which contains a list of items</dd>
+<dt>Sample Data</dt><dd>{vMyList} or [1,2,3]</dd>
+<dt>Remarks</dt><dd>Use this command to iterate over the results of the Split command.</dd>
+</dl>
+
+
+
+
+<a id="param_1"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -28,7 +49,7 @@ Use this command when you want to iterate over each item in a list, or a series 
 ## Developer/Additional Reference
 Automation Class Name: BeginListLoopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

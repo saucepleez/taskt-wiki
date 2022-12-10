@@ -1,6 +1,7 @@
 <!--TITLE: Add DataTable Column Command -->
 <!-- SUBTITLE: a command in the DataTable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+DataTable Commands &gt; Column Action &gt; Add DataTable Column
 
 
 # Add DataTable Column Command
@@ -15,18 +16,60 @@ Use this command when you want to add a column to a DataTable.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please indicate the DataTable Variable Name|Enter a existing DataTable to add rows to.|**myDataTable** or **{vMyDataTable}**||
-|Please specify the Column Name to add||**newColumn** or **{vNewColumn}**||
-|Optional - Please Select If Column Exists (Default is Error)||**Error** or **Ignore** or **Replace**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please indicate the DataTable Variable Name](#param_0)
+- [Please specify the Column Name to add](#param_1)
+- [Optional - Please Select If Column Exists](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please indicate the DataTable Variable Name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a existing DataTable to add rows to.</dd>
+<dt>Sample Data</dt><dd>myDataTable or {vMyDataTable}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify the Column Name to add
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>newColumn or {vNewColumn}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Optional - Please Select If Column Exists
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Error or Ignore or Replace</dd>
+<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Error</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to add a column to a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: AddDataTableColumnCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

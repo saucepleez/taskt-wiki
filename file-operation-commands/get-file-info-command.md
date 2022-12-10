@@ -1,6 +1,7 @@
 <!--TITLE: Get File Info Command -->
 <!-- SUBTITLE: a command in the File Operation Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+File Operation Commands &gt; Get File Info
 
 
 # Get File Info Command
@@ -15,18 +16,60 @@ Use this command to return a list of file paths from a specific location.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please indicate the file name|Enter or Select the file name.|**C:\temp\myfile.txt** or **{vFileName}**||
-|Please specify the information type.||||
-|Specify the variable to assign the result||**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please indicate the file name](#param_0)
+- [Please specify the information type.](#param_1)
+- [Specify the variable to assign the result](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please indicate the file name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the file name.</dd>
+<dt>Sample Data</dt><dd>C:\temp\myfile.txt or {vFileName}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify the information type.
 
 
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Specify the variable to assign the result
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command to return a list of file paths from a specific location.
 ## Developer/Additional Reference
 Automation Class Name: GetFileInfoCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

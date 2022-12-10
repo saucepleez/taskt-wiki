@@ -1,6 +1,7 @@
 <!--TITLE: Log Data Command -->
 <!-- SUBTITLE: a command in the Data Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Data Commands &gt; Log Data
 
 
 # Log Data Command
@@ -15,15 +16,46 @@ Use this command when you want to log custom data to a file for debugging or ana
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Select existing log file or enter a custom name.(ex. MyLog, Engine Log)|Indicate the file name where logs should be appended to|Select 'Engine Logs' or specify your own file|Date and Time will be automatically appended to the file name.  Logs are all saved in taskt Root\Logs folder|
-|Please enter the text to log.|Indicate the value of the text to be saved.|Third Step Complete, {vVariable}, etc.||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Select existing log file or enter a custom name.(ex. MyLog, Engine Log)](#param_0)
+- [Please enter the text to log.](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Select existing log file or enter a custom name.(ex. MyLog, Engine Log)
+
+
+<dl>
+<dt>What to input</dt><dd>Indicate the file name where logs should be appended to</dd>
+<dt>Sample Data</dt><dd>Select 'Engine Logs' or specify your own file</dd>
+<dt>Remarks</dt><dd>Date and Time will be automatically appended to the file name.  Logs are all saved in taskt Root\Logs folder</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please enter the text to log.
+
+
+<dl>
+<dt>What to input</dt><dd>Indicate the value of the text to be saved.</dd>
+<dt>Sample Data</dt><dd>Third Step Complete, {vVariable}, etc.</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Use this command when you want to log custom data to a file for debugging or ana
 ## Developer/Additional Reference
 Automation Class Name: LogDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

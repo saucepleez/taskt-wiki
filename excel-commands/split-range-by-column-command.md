@@ -1,6 +1,7 @@
 <!--TITLE: Split Range By Column Command -->
 <!-- SUBTITLE: a command in the Excel Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Excel Commands &gt; Range &gt; Split Range By Column
 
 
 # Split Range By Column Command
@@ -15,30 +16,116 @@ Use this command when you want to split a range into separate ranges.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please Enter the instance name|Enter the unique instance name that was specified in the **Create Excel** command|**myInstance** or **excelInstance**|Failure to enter the correct instance name or failure to first call **Create Excel** command will cause an error|
-|Please Enter the First Cell Location (ex. A1 or B2)|Enter the actual location of the cell.|A1, B10, {vAddress}||
-|Please Enter the Second Cell Location (ex. A1 or B2, Leave Blank for All)|Enter the actual location of the cell.|A1, B10, {vAddress}||
-|Please Enter the Column Name|Enter the name of the column you wish to split by.|ColA, {vColumn}||
-|Please indicate the output directory|Enter or Select the new directory for the split Excel Files.|C:\temp\new path\ or {vTextFolderPath}||
-|Indicate the File Type to save as|Specify the file format type for the split ranges|Select either **xlsx* or **csv**||
-|Assign DataTable List to Variable|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please Enter the instance name](#param_0)
+- [Please Enter the First Cell Location (ex. A1 or B2)](#param_1)
+- [Please Enter the Second Cell Location (ex. A1 or B2, Leave Blank for All)](#param_2)
+- [Please Enter the Column Name](#param_3)
+- [Please indicate the output directory](#param_4)
+- [Indicate the File Type to save as](#param_5)
+- [Assign DataTable List to Variable](#param_6)
+- [Comment Field (Optional)](#param_7)
+
+
+<a id="param_0"></a>
+### Please Enter the instance name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the unique instance name that was specified in the Create Excel command</dd>
+<dt>Sample Data</dt><dd>myInstance or excelInstance</dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call Create Excel command will cause an error</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please Enter the First Cell Location (ex. A1 or B2)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the actual location of the cell.</dd>
+<dt>Sample Data</dt><dd>A1, B10, {vAddress}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_2"></a>
+### Please Enter the Second Cell Location (ex. A1 or B2, Leave Blank for All)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter the actual location of the cell.</dd>
+<dt>Sample Data</dt><dd>A1, B10, {vAddress}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_3"></a>
+### Please Enter the Column Name
 
 
+<dl>
+<dt>What to input</dt><dd>Enter the name of the column you wish to split by.</dd>
+<dt>Sample Data</dt><dd>ColA, {vColumn}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_4"></a>
+### Please indicate the output directory
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the new directory for the split Excel Files.</dd>
+<dt>Sample Data</dt><dd>C:\temp\new path\ or {vTextFolderPath}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_5"></a>
+### Indicate the File Type to save as
+
+
+<dl>
+<dt>What to input</dt><dd>Specify the file format type for the split ranges</dd>
+<dt>Sample Data</dt><dd>Select either xlsx or csv</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_6"></a>
+### Assign DataTable List to Variable
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_7"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -46,7 +133,7 @@ Use this command when you want to split a range into separate ranges.
 ## Developer/Additional Reference
 Automation Class Name: ExcelSplitRangeByColumnCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

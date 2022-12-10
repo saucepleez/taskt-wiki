@@ -1,6 +1,7 @@
 <!--TITLE: Check Dictionary Key Exists Command -->
 <!-- SUBTITLE: a command in the Dictionary Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Dictionary Commands &gt; Dictionary Key &gt; Check Dictionary Key Exists
 
 
 # Check Dictionary Key Exists Command
@@ -15,18 +16,60 @@ Use this command when you want to check key existance in Dictionary.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please input The Dictionary Variable|Enter a string of comma seperated values.|**myDictionary** or **{vMyDic}**||
-|Please indicate the key for the Dictionary|Enter a string of comma seperated values.|**key1** or **{vKeyName}**||
-|Please specify the variable to apply Result||**vResult** or **{vResult}**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please input The Dictionary Variable](#param_0)
+- [Please indicate the key for the Dictionary](#param_1)
+- [Please specify the variable to apply Result](#param_2)
+- [Comment Field (Optional)](#param_3)
+
+
+<a id="param_0"></a>
+### Please input The Dictionary Variable
+
+
+<dl>
+<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
+<dt>Sample Data</dt><dd>myDictionary or {vMyDic}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please indicate the key for the Dictionary
 
 
+<dl>
+<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
+<dt>Sample Data</dt><dd>key1 or {vKeyName}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Please specify the variable to apply Result
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_3"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -34,7 +77,7 @@ Use this command when you want to check key existance in Dictionary.
 ## Developer/Additional Reference
 Automation Class Name: CheckDictionaryKeyExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

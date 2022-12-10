@@ -1,6 +1,7 @@
 <!--TITLE: Get Selection Items From Element Command -->
 <!-- SUBTITLE: a command in the UIAutomation Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+UIAutomation Commands &gt; Get &gt; Get Selection Items From Element
 
 
 # Get Selection Items From Element Command
@@ -11,19 +12,50 @@ This command allows you to get Selection Items Name from AutomationElement.
 
 
 ## When would I want to use this command?
-Data not specified
+
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please specify AutomationElement Variable||**{vElement}**|Supported Element is ComboBox, ListBox, Tree, etc.|
-|Please specify a Variable to store Selection Items||**vList** or **{vList}**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please specify AutomationElement Variable](#param_0)
+- [Please specify a Variable to store Selection Items](#param_1)
+- [Comment Field (Optional)](#param_2)
+
+
+<a id="param_0"></a>
+### Please specify AutomationElement Variable
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>{vElement}</dd>
+<dt>Remarks</dt><dd>Supported Element is ComboBox, ListBox, Tree, etc.</dd>
+</dl>
 
 
 
 
+<a id="param_1"></a>
+### Please specify a Variable to store Selection Items
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>vList or {vList}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_2"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -31,7 +63,7 @@ Data not specified
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationGetSelectionItemsFromElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

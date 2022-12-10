@@ -1,6 +1,7 @@
 <!--TITLE: Play System Sound Command -->
 <!-- SUBTITLE: a command in the Misc Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Misc Commands &gt; Other &gt; Play System Sound
 
 
 # Play System Sound Command
@@ -15,12 +16,32 @@ Use this command when you want to Play System Sound.
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please select Sound to Play||**Asterisk** or **Beep** or **Excalamation** or **Hand** or **Question**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please select Sound to Play](#param_0)
+- [Comment Field (Optional)](#param_1)
 
 
+<a id="param_0"></a>
+### Please select Sound to Play
+
+
+<dl>
+<dt>What to input</dt><dd></dd>
+<dt>Sample Data</dt><dd>Asterisk or Beep or Excalamation or Hand or Question</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_1"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -28,7 +49,7 @@ Use this command when you want to Play System Sound.
 ## Developer/Additional Reference
 Automation Class Name: PlaySystemSoundCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

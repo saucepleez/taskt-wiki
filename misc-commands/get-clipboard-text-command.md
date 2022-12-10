@@ -1,6 +1,7 @@
 <!--TITLE: Get Clipboard Text Command -->
 <!-- SUBTITLE: a command in the Misc Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Misc Commands &gt; Clipboard &gt; Get Clipboard Text
 
 
 # Get Clipboard Text Command
@@ -15,12 +16,32 @@ Use this command when you want to copy the data from the clipboard and apply it 
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please select a variable to get clipboard contents|Select or provide a variable from the variable list|**vSomeVariable**|If you have enabled the setting **Create Missing Variables at Runtime** then you are not required to pre-define your variables, however, it is highly recommended.|
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please select a variable to get clipboard contents](#param_0)
+- [Comment Field (Optional)](#param_1)
 
 
+<a id="param_0"></a>
+### Please select a variable to get clipboard contents
+
+
+<dl>
+<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+</dl>
+
+
+
+
+<a id="param_1"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -28,7 +49,7 @@ Use this command when you want to copy the data from the clipboard and apply it 
 ## Developer/Additional Reference
 Automation Class Name: ClipboardGetTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help

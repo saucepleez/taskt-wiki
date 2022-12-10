@@ -1,33 +1,33 @@
-<!--TITLE: Add Dictionary Item Command -->
-<!-- SUBTITLE: a command in the Dictionary Commands group. -->
+<!--TITLE: Get Multi JSON Value List Command -->
+<!-- SUBTITLE: a command in the JSON Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
-Dictionary Commands &gt; Dictionary Item &gt; Add Dictionary Item
+JSON Commands &gt; Get/Set &gt; Get Multi JSON Value List
 
 
-# Add Dictionary Item Command
+# Get Multi JSON Value List Command
 
 
 ## What does this command do?
-This command Adds a key and value to a existing Dictionary
+This command allows you to parse a JSON object into a list.
 
 
 ## When would I want to use this command?
-Use this command when you want to add to a dictionary
+Use this command when you want to extract data from a JSON object
 
 
 ## Command Parameters
-- [Please Indicate Dictionary Name](#param_0)
-- [Define Keys and Values](#param_1)
+- [Please Supply the JSON value or variable](#param_0)
+- [Please Assign Objects for Parsing.](#param_1)
 - [Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
-### Please Indicate Dictionary Name
+### Please Supply the JSON value or variable
 
 
 <dl>
-<dt>What to input</dt><dd>Indicate a Dictionary to add to</dd>
-<dt>Sample Data</dt><dd>vMyDictionary or {vDictionary}</dd>
+<dt>What to input</dt><dd>Select or provide a variable or text value</dd>
+<dt>Sample Data</dt><dd>{ "id": 123, "name": "john" } or {vJSONVariable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -35,11 +35,11 @@ Use this command when you want to add to a dictionary
 
 
 <a id="param_1"></a>
-### Define Keys and Values
+### Please Assign Objects for Parsing.
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the Keys and Values required for your dictionary</dd>
+<dt>What to input</dt><dd></dd>
 <dt>Sample Data</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -61,7 +61,7 @@ Use this command when you want to add to a dictionary
 
 
 ## Developer/Additional Reference
-Automation Class Name: AddDictionaryCommand
+Automation Class Name: GetMultiJSONValueListCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 12/10/22 01:48 PM
 

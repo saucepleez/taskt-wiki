@@ -1,6 +1,7 @@
 <!--TITLE: Set Clipboard Text Command -->
 <!-- SUBTITLE: a command in the Misc Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+Misc Commands &gt; Clipboard &gt; Set Clipboard Text
 
 
 # Set Clipboard Text Command
@@ -15,12 +16,32 @@ Use this command when you want to copy the data from the clipboard and apply it 
 
 
 ## Command Parameters
-| Parameter Question   	| What to input  	|  Sample Data 	| Remarks  	|
-| ---                    | ---               | ---           | ---       |
-|Please select a target variable or input a value|Select a variable or provide an input value|**vSomeVariable**||
-|Comment Field (Optional)|Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required|I am using this command to ...|Optional|
+- [Please select a target variable or input a value](#param_0)
+- [Comment Field (Optional)](#param_1)
 
 
+<a id="param_0"></a>
+### Please select a target variable or input a value
+
+
+<dl>
+<dt>What to input</dt><dd>Select a variable or provide an input value</dd>
+<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+<a id="param_1"></a>
+### Comment Field (Optional)
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Remarks</dt><dd>Optional</dd>
+</dl>
 
 
 
@@ -28,7 +49,7 @@ Use this command when you want to copy the data from the clipboard and apply it 
 ## Developer/Additional Reference
 Automation Class Name: ClipboardSetTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/26/22 09:32 PM
+This page was generated on 12/10/22 01:48 PM
 
 
 ## Help
