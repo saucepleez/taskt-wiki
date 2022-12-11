@@ -1,6 +1,8 @@
 <!--TITLE: Set Window State Command -->
 <!-- SUBTITLE: a command in the Window Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 Window Commands &gt; Window Actions &gt; Set Window State
 
 
@@ -28,7 +30,10 @@ Use this command when you want to change a window's state to minimized, maximize
 
 <dl>
 <dt>What to input</dt><dd>Input or Type the name of the window that you want to change.</dd>
-<dt>Sample Data</dt><dd>Untitled - Notepad or Current Window or {vWindow}</dd>
+<dt>Value</dt><dd>Window Names</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindow}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -40,9 +45,10 @@ Use this command when you want to change a window's state to minimized, maximize
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>Contains or Starts with or Ends with or Exact match</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Contains</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd><strong>Contains</strong> or <strong>Starts with</strong> or <strong>Ends with</strong> or <strong>Exact match</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
 </dl>
 
 
@@ -54,7 +60,10 @@ Use this command when you want to change a window's state to minimized, maximize
 
 <dl>
 <dt>What to input</dt><dd>Select the appropriate window state required</dd>
-<dt>Sample Data</dt><dd>Choose from Minimize, Maximize and Restore</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd>Choose from <strong>Minimize</strong>, <strong>Maximize</strong> and <strong>Restore</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,6 +76,7 @@ Use this command when you want to change a window's state to minimized, maximize
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -77,9 +87,9 @@ Use this command when you want to change a window's state to minimized, maximize
 ## Developer/Additional Reference
 Automation Class Name: SetWindowStateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

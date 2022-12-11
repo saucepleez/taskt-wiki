@@ -1,6 +1,8 @@
 <!--TITLE: Scroll Element Command -->
 <!-- SUBTITLE: a command in the UIAutomation Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 UIAutomation Commands &gt; Action &gt; Scroll Element
 
 
@@ -27,8 +29,11 @@ This command allows you to Scroll AutomationElement.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>{vElement}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Instance Type</dt><dd>AutomationElement</dd>
+<dt>Parameter Direction</dt><dd>Input</dd><dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>{vElement}</strong></dd>
 <dt>Remarks</dt><dd>Supported Element must have a ScrollBar.</dd>
 </dl>
 
@@ -40,8 +45,11 @@ This command allows you to Scroll AutomationElement.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>Horizonal or Vertical</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>Horizonal</strong> or <strong>Vertical</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -53,8 +61,11 @@ This command allows you to Scroll AutomationElement.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>Scroll Small Down or Right or Scroll Large Down or Right or Scroll Small Up or Left or Scroll Large Up or Left</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>Scroll Small Down or Right</strong> or <strong>Scroll Large Down or Right</strong> or <strong>Scroll Small Up or Left</strong> or <strong>Scroll Large Up or Left</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,6 +78,7 @@ This command allows you to Scroll AutomationElement.
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -77,9 +89,9 @@ This command allows you to Scroll AutomationElement.
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationScrollElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

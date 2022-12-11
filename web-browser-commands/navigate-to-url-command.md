@@ -1,6 +1,8 @@
 <!--TITLE: Navigate to URL Command -->
 <!-- SUBTITLE: a command in the Web Browser Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 Web Browser Commands &gt; Navigate &gt; Navigate to URL
 
 
@@ -27,9 +29,10 @@ Use this command when you want to navigate an existing Selenium instance to a kn
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the Create Browser command</dd>
-<dt>Sample Data</dt><dd>myInstance or {vInstance}</dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call Create Browser command will cause an error</dd>
+<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Browser</strong> command</dd>
+<dt>Instance Type</dt><dd>WebBrowser</dd>
+<dt>Sample Data</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Browser</strong> command will cause an error</dd>
 </dl>
 
 
@@ -41,7 +44,8 @@ Use this command when you want to navigate an existing Selenium instance to a kn
 
 <dl>
 <dt>What to input</dt><dd>Enter the destination URL that you want the selenium instance to navigate to</dd>
-<dt>Sample Data</dt><dd>https://mycompany.com/orders or {vURL}</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>https://mycompany.com/orders</strong> or <strong>{vURL}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -54,7 +58,8 @@ Use this command when you want to navigate an existing Selenium instance to a kn
 
 <dl>
 <dt>What to input</dt><dd>Choose if you want to use HTTP or HTTPS for navigation. If no protocol is specified in the URL above, taskt will resort to this choice.</dd>
-<dt>Sample Data</dt><dd>"True" to use HTTPS, "False" if you want to try HTTP instead</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd>&quot;True&quot; to use HTTPS, &quot;False&quot; if you want to try HTTP instead</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,6 +72,7 @@ Use this command when you want to navigate an existing Selenium instance to a kn
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -77,9 +83,9 @@ Use this command when you want to navigate an existing Selenium instance to a kn
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserNavigateURLCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

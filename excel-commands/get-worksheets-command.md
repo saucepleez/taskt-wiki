@@ -1,6 +1,8 @@
 <!--TITLE: Get Worksheets Command -->
 <!-- SUBTITLE: a command in the Excel Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 Excel Commands &gt; Sheet &gt; Get Worksheets
 
 
@@ -28,9 +30,12 @@ Use this command when you want to switch to a specific worksheet
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the Create Excel command</dd>
-<dt>Sample Data</dt><dd>myInstance or {vInstance}</dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call Create Excel command will cause an error</dd>
+<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Excel</strong> command</dd>
+<dt>Instance Type</dt><dd>Excel</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error</dd>
 </dl>
 
 
@@ -42,8 +47,9 @@ Use this command when you want to switch to a specific worksheet
 
 <dl>
 <dt>What to input</dt><dd>Specify the name of the actual sheet</dd>
-<dt>Sample Data</dt><dd>mySheet or Current Sheet or {vSheet}</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is empty, and get all sheets</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>mySheet</strong> or <strong>Current Sheet</strong> or <strong>{vSheet}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>empty, and get all sheets</strong></dd>
 </dl>
 
 
@@ -54,9 +60,10 @@ Use this command when you want to switch to a specific worksheet
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>Contains or Start with or End with</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Contains</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd><strong>Contains</strong> or <strong>Start with</strong> or <strong>End with</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
 </dl>
 
 
@@ -68,7 +75,10 @@ Use this command when you want to switch to a specific worksheet
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>Output</dd><dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -81,6 +91,7 @@ Use this command when you want to switch to a specific worksheet
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -91,9 +102,9 @@ Use this command when you want to switch to a specific worksheet
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetWorksheetsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

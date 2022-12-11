@@ -1,6 +1,8 @@
 <!--TITLE: New Variable Command -->
 <!-- SUBTITLE: a command in the Variable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 Variable Commands &gt; New Variable
 
 
@@ -28,7 +30,8 @@ Use this command when you want to modify the value of variables.  You can even u
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Sample Data</dt><dd>vSomeVariable</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
 <dt>Remarks</dt><dd>If the variable exists, the value of the old variable will be replaced with the new one</dd>
 </dl>
 
@@ -41,7 +44,8 @@ Use this command when you want to modify the value of variables.  You can even u
 
 <dl>
 <dt>What to input</dt><dd>Enter the input that the variable's value should be set to.</dd>
-<dt>Sample Data</dt><dd>Hello or {vNum}</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>Hello</strong> or <strong>{vNum}</strong></dd>
 <dt>Remarks</dt><dd>You can use variables in input if you encase them within brackets {vName}.  You can also perform basic math operations.</dd>
 </dl>
 
@@ -54,7 +58,8 @@ Use this command when you want to modify the value of variables.  You can even u
 
 <dl>
 <dt>What to input</dt><dd>Select the appropriate handler from the list</dd>
-<dt>Sample Data</dt><dd>Do Nothing If Variable Exists or Error If Variable Exists or Replace If Variable Exists</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd><strong>Do Nothing If Variable Exists</strong> or <strong>Error If Variable Exists</strong> or <strong>Replace If Variable Exists</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,6 +72,7 @@ Use this command when you want to modify the value of variables.  You can even u
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -77,9 +83,9 @@ Use this command when you want to modify the value of variables.  You can even u
 ## Developer/Additional Reference
 Automation Class Name: AddVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

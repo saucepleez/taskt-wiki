@@ -1,6 +1,8 @@
 <!--TITLE: Set List Item Command -->
 <!-- SUBTITLE: a command in the List Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 List Commands &gt; List Item &gt; Set List Item
 
 
@@ -28,7 +30,10 @@ Use this command when you want to set an item in a List.
 
 <dl>
 <dt>What to input</dt><dd>Enter a existing List.</dd>
-<dt>Sample Data</dt><dd>myList or {myList} or [1,2,3]</dd>
+<dt>Instance Type</dt><dd>List</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>myList</strong> or <strong>{myList}</strong> or <strong>[1,2,3]</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -41,8 +46,10 @@ Use this command when you want to set an item in a List.
 
 <dl>
 <dt>What to input</dt><dd>Enter a valid List index value</dd>
-<dt>Sample Data</dt><dd>0 or -1 or {vIndex}</dd>
-<dt>Remarks</dt><dd>-1 means index of the last row. If it is empty, it will be the value of Current Position, which can be used for Loop List command.<b>Optional</b><br>Default Value is Current Position</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>0</strong> or <strong>-1</strong> or <strong>{vIndex}</strong></dd>
+<dt>Remarks</dt><dd><strong>-1</strong> means index of the last row. If it is empty, it will be the value of Current Position, which can be used for Loop List command.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>Current Position</strong></dd>
 </dl>
 
 
@@ -53,8 +60,11 @@ Use this command when you want to set an item in a List.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>1 or {vValue}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt></dt><dd></dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>1</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,6 +77,7 @@ Use this command when you want to set an item in a List.
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -77,9 +88,9 @@ Use this command when you want to set an item in a List.
 ## Developer/Additional Reference
 Automation Class Name: SetListItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

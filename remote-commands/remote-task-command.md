@@ -1,6 +1,8 @@
 <!--TITLE: Remote Task Command -->
 <!-- SUBTITLE: a command in the Remote Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 Remote Commands &gt; Remote Task
 
 
@@ -31,7 +33,8 @@ Use this command when you want to execute a command on another client that has l
 
 <dl>
 <dt>What to input</dt><dd>Define any IP endpoint which is enabled for local listening.</dd>
-<dt>Sample Data</dt><dd>https://example.com or {vMyUrl}</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>https://example.com</strong> or <strong>{vMyUrl}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -44,7 +47,8 @@ Use this command when you want to execute a command on another client that has l
 
 <dl>
 <dt>What to input</dt><dd>Select the necessary parameter.</dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd><strong>Run Raw Script Data</strong> or  <strong>Run Local File</strong> or  <strong>Run Remote File</strong> or  <strong>Run Command Json</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -57,7 +61,8 @@ Use this command when you want to execute a command on another client that has l
 
 <dl>
 <dt>What to input</dt><dd>Select the necessary execution preference.</dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd><strong>Continue Execution</strong> or  <strong>Await For Result</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -70,6 +75,7 @@ Use this command when you want to execute a command on another client that has l
 
 <dl>
 <dt>What to input</dt><dd>Specify the data, typically either raw data, local file, or remote file</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>n/a</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -82,7 +88,8 @@ Use this command when you want to execute a command on another client that has l
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the length of time to wait before the request times out </dd>
+<dt>What to input</dt><dd>Enter the length of time to wait before the request times out</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -96,8 +103,9 @@ Use this command when you want to execute a command on another client that has l
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Sample Data</dt><dd>vSomeVariable</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
+<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
 
 
@@ -109,6 +117,7 @@ Use this command when you want to execute a command on another client that has l
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -119,9 +128,9 @@ Use this command when you want to execute a command on another client that has l
 ## Developer/Additional Reference
 Automation Class Name: RemoteTaskCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

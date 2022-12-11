@@ -1,6 +1,8 @@
 <!--TITLE: Get DateTime Differences Command -->
 <!-- SUBTITLE: a command in the DateTime Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 DateTime Commands &gt; Get DateTime Differences
 
 
@@ -28,8 +30,11 @@ Use this command when you want to Get 2 DateTime Differences.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>{vDateTime}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Instance Type</dt><dd>DateTime</dd>
+<dt>Parameter Direction</dt><dd>Input</dd><dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>{vDateTime}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -41,8 +46,11 @@ Use this command when you want to Get 2 DateTime Differences.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>{vDateTime}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Instance Type</dt><dd>DateTime</dd>
+<dt>Parameter Direction</dt><dd>Input</dd><dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>{vDateTime}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -54,8 +62,11 @@ Use this command when you want to Get 2 DateTime Differences.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>Total Days</strong> or  <strong>Total Hours</strong> or  <strong>Total Minutes</strong> or  <strong>Total Seconds</strong> or  <strong>Days</strong> or  <strong>Hours</strong> or  <strong>Minutes</strong> or  <strong>Seconds</strong> or  <strong>Ticks</strong> or  <strong>DateTime</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,8 +78,11 @@ Use this command when you want to Get 2 DateTime Differences.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>vResult or {vResult}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
 <dt>Remarks</dt><dd>Result is DateTime2 - DateTime1</dd>
 </dl>
 
@@ -81,6 +95,7 @@ Use this command when you want to Get 2 DateTime Differences.
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -91,9 +106,9 @@ Use this command when you want to Get 2 DateTime Differences.
 ## Developer/Additional Reference
 Automation Class Name: GetDateTimeDifferencesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

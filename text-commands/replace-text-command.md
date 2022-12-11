@@ -1,6 +1,8 @@
 <!--TITLE: Replace Text Command -->
 <!-- SUBTITLE: a command in the Text Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 Text Commands &gt; Action &gt; Replace Text
 
 
@@ -29,7 +31,10 @@ Use this command when you want to replace existing text within text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable or text value</dd>
-<dt>Sample Data</dt><dd>Hello or {vText}</dd>
+<dt></dt><dd></dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -42,7 +47,10 @@ Use this command when you want to replace existing text within text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Enter the old value of the text that will be replaced</dd>
-<dt>Sample Data</dt><dd>H or {vTextA}</dd>
+<dt></dt><dd></dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>H</strong> or <strong>{vTextA}</strong></dd>
 <dt>Remarks</dt><dd>H in Hello would be targeted for replacement</dd>
 </dl>
 
@@ -55,8 +63,10 @@ Use this command when you want to replace existing text within text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Enter the new value after replacement</dd>
-<dt>Sample Data</dt><dd>J, {vTextB}</dd>
-<dt>Remarks</dt><dd>H would be replaced with J to create 'Jello'<b>Optional</b><br></dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>J</strong>, <strong>{vTextB}</strong></dd>
+<dt>Remarks</dt><dd>H would be replaced with J to create 'Jello'<br><br>
+<strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -68,8 +78,11 @@ Use this command when you want to replace existing text within text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Sample Data</dt><dd>vSomeVariable</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
+<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
 
 
@@ -81,6 +94,7 @@ Use this command when you want to replace existing text within text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -91,9 +105,9 @@ Use this command when you want to replace existing text within text or a variabl
 ## Developer/Additional Reference
 Automation Class Name: ReplaceTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

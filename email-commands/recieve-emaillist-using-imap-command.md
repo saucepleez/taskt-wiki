@@ -1,6 +1,8 @@
 <!--TITLE: Recieve EMailList Using IMAP Command -->
 <!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 EMail Commands &gt; Recieve EMailList Using IMAP
 
 
@@ -31,7 +33,10 @@ Use this command when you want to get EMailList(Emails) using IMAP protocol. Res
 
 <dl>
 <dt>What to input</dt><dd>Define the host/service name that the script should use</dd>
-<dt>Sample Data</dt><dd>imap.mymail.com or {vHost}</dd>
+<dt></dt><dd></dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>imap.mymail.com</strong> or <strong>{vHost}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -44,7 +49,11 @@ Use this command when you want to get EMailList(Emails) using IMAP protocol. Res
 
 <dl>
 <dt>What to input</dt><dd>Define the port number that should be used when contacting the IMAP service</dd>
-<dt>Sample Data</dt><dd>143 or 993 or {vPort}</dd>
+<dt></dt><dd></dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+<li>Less than Zero</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>143</strong> or <strong>993</strong> or <strong>{vPort}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -57,7 +66,8 @@ Use this command when you want to get EMailList(Emails) using IMAP protocol. Res
 
 <dl>
 <dt>What to input</dt><dd>Define the username to use when contacting the IMAP service</dd>
-<dt>Sample Data</dt><dd>username or {vUserName}</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>username</strong> or <strong>{vUserName}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -70,7 +80,10 @@ Use this command when you want to get EMailList(Emails) using IMAP protocol. Res
 
 <dl>
 <dt>What to input</dt><dd>Define the password to use when contacting the IMAP service</dd>
-<dt>Sample Data</dt><dd>password or {vPassword}</dd>
+<dt></dt><dd></dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>password</strong> or <strong>{vPassword}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -82,9 +95,10 @@ Use this command when you want to get EMailList(Emails) using IMAP protocol. Res
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Auto</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd><strong>Auto</strong> or  <strong>No SSL or TLS</strong> or  <strong>Use SSL or TLS</strong> or  <strong>STARTTLS</strong> or  <strong>STARTTLS When Available</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Auto</strong></dd>
 </dl>
 
 
@@ -95,8 +109,11 @@ Use this command when you want to get EMailList(Emails) using IMAP protocol. Res
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>vMailList or {vMailList}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>Output</dd><dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>vMailList</strong> or <strong>{vMailList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -109,6 +126,7 @@ Use this command when you want to get EMailList(Emails) using IMAP protocol. Res
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -119,9 +137,9 @@ Use this command when you want to get EMailList(Emails) using IMAP protocol. Res
 ## Developer/Additional Reference
 Automation Class Name: MailKitRecieveEmailListUsingIMAPCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

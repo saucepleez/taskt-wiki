@@ -1,6 +1,8 @@
 <!--TITLE: Get EMail From MailList Command -->
 <!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 EMail Commands &gt; Get EMail From MailList
 
 
@@ -27,8 +29,11 @@ Use this command when you want to get EMail from EMailList.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>{vMailList}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Instance Type</dt><dd>MailKitEMailList</dd>
+<dt>Parameter Direction</dt><dd>Input</dd><dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>{vMailList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -40,9 +45,10 @@ Use this command when you want to get EMail from EMailList.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>0 or 1 or {vIndex}</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is CurrentPosition</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>CurrentPosition</strong></dd>
 </dl>
 
 
@@ -53,8 +59,11 @@ Use this command when you want to get EMail from EMailList.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>vEMail or {vEMail}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>Output</dd><dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>vEMail</strong> or <strong>{vEMail}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,6 +76,7 @@ Use this command when you want to get EMail from EMailList.
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -77,9 +87,9 @@ Use this command when you want to get EMail from EMailList.
 ## Developer/Additional Reference
 Automation Class Name: MailKitGetEMailFromEMailListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

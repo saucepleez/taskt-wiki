@@ -1,6 +1,8 @@
 <!--TITLE: Move/Copy Folder Command -->
 <!-- SUBTITLE: a command in the Folder Operation Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 Folder Operation Commands &gt; Move/Copy Folder
 
 
@@ -30,8 +32,9 @@ Use this command to move a folder to a new destination.
 
 <dl>
 <dt>What to input</dt><dd>Specify whether you intend to move the folder or copy the folder. Moving will remove the folder from the original path while Copying will not.</dd>
-<dt>Sample Data</dt><dd>Select either Move Folder or Copy Folder</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Move Folder</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd>Select either <strong>Move Folder</strong> or <strong>Copy Folder</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Move Folder</strong></dd>
 </dl>
 
 
@@ -43,7 +46,10 @@ Use this command to move a folder to a new destination.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the path to the folder.</dd>
-<dt>Sample Data</dt><dd>C:\temp\myfolder or {vTextFolderPath}</dd>
+<dt></dt><dd></dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>C:\temp\myfolder</strong> or <strong>{vTextFolderPath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -56,7 +62,10 @@ Use this command to move a folder to a new destination.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the new path to the file.</dd>
-<dt>Sample Data</dt><dd>C:\temp\newPath or {vTextFolderPath}</dd>
+<dt></dt><dd></dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>C:\temp\newPath</strong> or <strong>{vTextFolderPath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -69,8 +78,9 @@ Use this command to move a folder to a new destination.
 
 <dl>
 <dt>What to input</dt><dd>Specify whether the directory should be created if it does not already exist.</dd>
-<dt>Sample Data</dt><dd>Select Yes or No</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is No</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd>Select <strong>Yes</strong> or <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
@@ -82,8 +92,9 @@ Use this command to move a folder to a new destination.
 
 <dl>
 <dt>What to input</dt><dd>Specify whether the folder should be deleted first if it is already found to exist.</dd>
-<dt>Sample Data</dt><dd>Select Yes or No</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is No</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd>Select <strong>Yes</strong> or <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
@@ -95,6 +106,7 @@ Use this command to move a folder to a new destination.
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -105,9 +117,9 @@ Use this command to move a folder to a new destination.
 ## Developer/Additional Reference
 Automation Class Name: MoveFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

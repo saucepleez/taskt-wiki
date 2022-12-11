@@ -1,6 +1,8 @@
 <!--TITLE: Insert JSON Array Item Command -->
 <!-- SUBTITLE: a command in the JSON Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 JSON Commands &gt; Action &gt; Insert JSON Array Item
 
 
@@ -29,8 +31,11 @@ This command allows you to insert item to JSON Array.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>{vSomeVariable}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Instance Type</dt><dd>JSON</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>{vSomeVariable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -43,7 +48,10 @@ This command allows you to insert item to JSON Array.
 
 <dl>
 <dt>What to input</dt><dd>Input a JSON token extractor</dd>
-<dt>Sample Data</dt><dd>$.id</dd>
+<dt></dt><dd></dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>$.id</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -55,9 +63,10 @@ This command allows you to insert item to JSON Array.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>0 or 1 or {vIndex}</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Last Item</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Last Item</strong></dd>
 </dl>
 
 
@@ -68,8 +77,9 @@ This command allows you to insert item to JSON Array.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>Hello or {vValue}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>Hello</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -81,9 +91,10 @@ This command allows you to insert item to JSON Array.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>Text or Number or bool or Object or Array</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Auto</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd><strong>Text</strong> or <strong>Number</strong> or <strong>bool</strong> or <strong>Object</strong> or <strong>Array</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Auto</strong></dd>
 </dl>
 
 
@@ -95,6 +106,7 @@ This command allows you to insert item to JSON Array.
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -105,9 +117,9 @@ This command allows you to insert item to JSON Array.
 ## Developer/Additional Reference
 Automation Class Name: InsertJSONArrayItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

@@ -1,6 +1,8 @@
 <!--TITLE: Check List Item Exists Command -->
 <!-- SUBTITLE: a command in the List Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 List Commands &gt; List Item &gt; Check List Item Exists
 
 
@@ -28,7 +30,10 @@ Use this command when you want to check list has a value you specify
 
 <dl>
 <dt>What to input</dt><dd>Enter a existing List.</dd>
-<dt>Sample Data</dt><dd>myList or {myList}</dd>
+<dt>Instance Type</dt><dd>List</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>myList</strong> or <strong>{myList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -40,8 +45,9 @@ Use this command when you want to check list has a value you specify
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>0 or {vValue}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt></dt><dd></dd>
+<dt>Sample Data</dt><dd><strong>0</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -53,8 +59,11 @@ Use this command when you want to check list has a value you specify
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>vResult or {vResult}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>Output</dd><dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,6 +76,7 @@ Use this command when you want to check list has a value you specify
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -77,9 +87,9 @@ Use this command when you want to check list has a value you specify
 ## Developer/Additional Reference
 Automation Class Name: CheckListItemExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

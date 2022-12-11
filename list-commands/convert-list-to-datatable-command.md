@@ -1,6 +1,8 @@
 <!--TITLE: Convert List To DataTable Command -->
 <!-- SUBTITLE: a command in the List Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
+
+
 List Commands &gt; Convert &gt; Convert List To DataTable
 
 
@@ -30,8 +32,11 @@ This command convert a List to a DataTable.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>vList or {vList}</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Instance Type</dt><dd>List</dd>
+<dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -43,9 +48,10 @@ This command convert a List to a DataTable.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Column Prefix</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd><strong>List</strong> or  <strong>Comma Separated</strong> or  <strong>Space Separated</strong> or  <strong>Tab Separated</strong> or  <strong>NewLine Separated</strong> or  <strong>Column Prefix</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Column Prefix</strong></dd>
 </dl>
 
 
@@ -56,9 +62,11 @@ This command convert a List to a DataTable.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>vColumns or {vColumns}</dd>
-<dt>Remarks</dt><dd>If Columns is empty, DataTable column is column0, column1, ...<b>Optional</b><br></dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Instance Type</dt><dd>List</dd>
+<dt>Sample Data</dt><dd><strong>vColumns</strong> or <strong>{vColumns}</strong></dd>
+<dt>Remarks</dt><dd>If Columns is empty, DataTable column is column0, column1, ...<br><br>
+<strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -69,9 +77,10 @@ This command convert a List to a DataTable.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Ignore</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd><strong>Ignore</strong> or  <strong>Error</strong> or  <strong>Try Create Columns</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
 </dl>
 
 
@@ -82,9 +91,10 @@ This command convert a List to a DataTable.
 
 
 <dl>
-<dt>What to input</dt><dd></dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd><b>Optional</b><br>Default Value is Ignore</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Data</dt><dd><strong>Ignore</strong> or  <strong>Error</strong> or  <strong>Insert Empty Value</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
 </dl>
 
 
@@ -96,8 +106,11 @@ This command convert a List to a DataTable.
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Sample Data</dt><dd>vSomeVariable</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting Create Missing Variables at Runtime then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>Output</dd><dt>Error When Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd><dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
+<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
 
 
@@ -109,6 +122,7 @@ This command convert a List to a DataTable.
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -119,9 +133,9 @@ This command convert a List to a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: ConvertListToDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/10/22 01:48 PM
+This page was generated on 12/11/22 06:22 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
