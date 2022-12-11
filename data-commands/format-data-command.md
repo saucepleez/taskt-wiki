@@ -31,7 +31,6 @@ Use this command when you want to apply specific formatting to text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Specify either text or a variable that contains a date or number requiring formatting</dd>
-<dt></dt><dd></dd>
 <dt>Error When Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd><dt>Sample Data</dt><dd><strong>{DateTime.Now}</strong> or <strong>1/1/2000</strong> or <strong>2500</strong> or <strong>{vNum}</strong> or <strong>C:\temp\myfile.txt</strong></dd>
@@ -61,7 +60,6 @@ Use this command when you want to apply specific formatting to text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Specify if a specific string format is required.</dd>
-<dt></dt><dd></dd>
 <dt>Error When Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd><dt>Sample Data</dt><dd><strong>MM/dd/yy</strong> or <strong>hh:mm</strong> or <strong>#.0</strong> or <strong>file</strong> etc.</dd>
@@ -93,7 +91,6 @@ Use this command when you want to apply specific formatting to text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -104,7 +101,7 @@ Use this command when you want to apply specific formatting to text or a variabl
 ## Developer/Additional Reference
 Automation Class Name: FormatDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

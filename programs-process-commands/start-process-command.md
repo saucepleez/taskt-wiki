@@ -31,7 +31,6 @@ Use this command to start applications by entering their name such as 'chrome.ex
 <dl>
 <dt>What to input</dt><dd>Provide a valid program name or enter a full path to the script/executable including the extension.
 If file does not contain folder path, this command do not supplement folder path.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>notepad</strong> or <strong>calc</strong> or <strong>c:\temp\myapp.exe</strong> or <strong>{vPath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -45,7 +44,6 @@ If file does not contain folder path, this command do not supplement folder path
 
 <dl>
 <dt>What to input</dt><dd>Enter any arguments or flags if applicable.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>-a</strong> or <strong>-version</strong> or <strong>{vArgs}</strong></dd>
 <dt>Remarks</dt><dd>You will need to consult documentation to determine if your executable supports arguments or flags on startup.</dd>
 </dl>
@@ -73,7 +71,6 @@ If file does not contain folder path, this command do not supplement folder path
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -84,7 +81,7 @@ If file does not contain folder path, this command do not supplement folder path
 ## Developer/Additional Reference
 Automation Class Name: StartProcessCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

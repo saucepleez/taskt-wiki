@@ -47,7 +47,6 @@ Use this command when you want to quickly iterate over Excel as a dataset.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the path to the workbook file</dd>
-<dt></dt><dd></dd>
 <dt>Error When Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd><dt>Sample Data</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vFilePath}</strong></dd>
@@ -63,7 +62,6 @@ Use this command when you want to quickly iterate over Excel as a dataset.
 
 <dl>
 <dt>What to input</dt><dd>Indicate the specific sheet that should be retrieved.</dd>
-<dt></dt><dd></dd>
 <dt>Error When Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd><dt>Sample Data</dt><dd><strong>Sheet1</strong> or <strong>mySheet</strong> or <strong>{vSheet}</strong></dd>
@@ -93,7 +91,6 @@ Use this command when you want to quickly iterate over Excel as a dataset.
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -104,7 +101,7 @@ Use this command when you want to quickly iterate over Excel as a dataset.
 ## Developer/Additional Reference
 Automation Class Name: LoadDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

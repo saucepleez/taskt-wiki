@@ -74,7 +74,6 @@ Combined implementation of the ThickAppClick/GetText command but includes an adv
 
 <dl>
 <dt>What to input</dt><dd>Use the Element Recorder to generate a listing of potential search parameters.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>n/a</dd>
 <dt>Remarks</dt><dd>Once you have clicked on a valid window the search parameters will be populated.  Enable only the ones required to be a match at runtime.</dd>
 </dl>
@@ -88,7 +87,6 @@ Combined implementation of the ThickAppClick/GetText command but includes an adv
 
 <dl>
 <dt>What to input</dt><dd>Define the parameters for the actions.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>n/a</dd>
 <dt>Remarks</dt><dd>Parameters change depending on the Automation Type selected.</dd>
 </dl>
@@ -102,7 +100,6 @@ Combined implementation of the ThickAppClick/GetText command but includes an adv
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -113,7 +110,7 @@ Combined implementation of the ThickAppClick/GetText command but includes an adv
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

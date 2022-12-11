@@ -47,7 +47,6 @@ Use this command when you want to reply to emails with your currenty logged in o
 
 <dl>
 <dt>What to input</dt><dd>Enter the mail folder you want your emails to come from</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>myData</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -61,7 +60,6 @@ Use this command when you want to reply to emails with your currenty logged in o
 
 <dl>
 <dt>What to input</dt><dd>Enter an outlook filter string</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>[Subject] = 'Hello' and [SenderName] = 'Jane Doe'</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -75,7 +73,6 @@ Use this command when you want to reply to emails with your currenty logged in o
 
 <dl>
 <dt>What to input</dt><dd>Enter the body you want on your email to be sent.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>myData</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -103,7 +100,6 @@ Use this command when you want to reply to emails with your currenty logged in o
 
 <dl>
 <dt>What to input</dt><dd>Enter the Filepath of the file you want attached.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>c:sales reportsy06q4.xlsx</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -117,7 +113,6 @@ Use this command when you want to reply to emails with your currenty logged in o
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -128,7 +123,7 @@ Use this command when you want to reply to emails with your currenty logged in o
 ## Developer/Additional Reference
 Automation Class Name: OutlookReplyToEmailsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

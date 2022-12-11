@@ -32,7 +32,6 @@ Use this command when you want to attempt to locate an image on screen.  You can
 
 <dl>
 <dt>What to input</dt><dd>Use the tool to capture an image</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>The image will be used as the image to be found on screen.</dd>
 </dl>
@@ -46,7 +45,6 @@ Use this command when you want to attempt to locate an image on screen.  You can
 
 <dl>
 <dt>What to input</dt><dd>Specify if an offset is required.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vXOffset}</strong></dd>
 <dt>Remarks</dt><dd>This will move the mouse X pixels to the right of the location of the image<br><br>
 <strong>Optional</strong><br></dd>
@@ -61,7 +59,6 @@ Use this command when you want to attempt to locate an image on screen.  You can
 
 <dl>
 <dt>What to input</dt><dd>Specify if an offset is required.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vYOffset}</strong></dd>
 <dt>Remarks</dt><dd>This will move the mouse X pixels down from the top of the location of the image<br><br>
 <strong>Optional</strong><br></dd>
@@ -91,7 +88,6 @@ Use this command when you want to attempt to locate an image on screen.  You can
 
 <dl>
 <dt>What to input</dt><dd>Enter a timeout length if required.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>30</strong> or <strong>0</strong> or <strong>{vTimeout}</strong></dd>
 <dt>Remarks</dt><dd>Search times become excessive for colors such as white. For best results, capture a large color variance on screen, not just a white block.<br><br>
 <strong>Optional</strong><br></dd>
@@ -106,7 +102,6 @@ Use this command when you want to attempt to locate an image on screen.  You can
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -117,7 +112,7 @@ Use this command when you want to attempt to locate an image on screen.  You can
 ## Developer/Additional Reference
 Automation Class Name: ImageRecognitionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

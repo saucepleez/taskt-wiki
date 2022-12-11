@@ -79,7 +79,6 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 
 <dl>
 <dt>What to input</dt><dd>Select optional options to be passed to the Selenium command.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>user-data-dir=c:\users\public\SeleniumTasktProfile</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
@@ -107,7 +106,6 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 
 <dl>
 <dt>What to input</dt><dd>Select Browser Binary Path</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>C:\temp\BrowserPath.exe</strong> or <strong>{vPath}</strong></dd>
 <dt>Remarks</dt><dd>Edge and IE is not supported.
 If you use a fixed web browser version, use this parameter.<br><br>
@@ -123,7 +121,6 @@ If you use a fixed web browser version, use this parameter.<br><br>
 
 <dl>
 <dt>What to input</dt><dd>Select WebDriver Binary Path</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>C:\temp\WebDriverPath.exe</strong> or <strong>{vPath}</strong></dd>
 <dt>Remarks</dt><dd>IE is not supported.
 If you use a fixed web browser version, use this parameter.<br><br>
@@ -139,7 +136,6 @@ If you use a fixed web browser version, use this parameter.<br><br>
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -150,7 +146,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

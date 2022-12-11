@@ -46,7 +46,6 @@ Use this command when you want to copy a new worksheet to an Excel Instance
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt></dt><dd></dd>
 <dt>Error When Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd><dt>Sample Data</dt><dd><strong>mySheet</strong> or <strong>Current Sheet</strong> or <strong>{vSheet}</strong></dd>
@@ -62,7 +61,6 @@ Use this command when you want to copy a new worksheet to an Excel Instance
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>newSheet</strong> or <strong>{vNewSheet}</strong></dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error<br><br>
 <strong>Optional</strong><br></dd>
@@ -77,7 +75,6 @@ Use this command when you want to copy a new worksheet to an Excel Instance
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -88,7 +85,7 @@ Use this command when you want to copy a new worksheet to an Excel Instance
 ## Developer/Additional Reference
 Automation Class Name: ExcelCopyWorksheetCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

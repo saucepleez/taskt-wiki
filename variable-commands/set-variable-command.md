@@ -30,7 +30,6 @@ Use this command when you want to modify the value of variables.  You can even u
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
 <dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
@@ -44,7 +43,6 @@ Use this command when you want to modify the value of variables.  You can even u
 
 <dl>
 <dt>What to input</dt><dd>Enter the input that the variable's value should be set to.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>1</strong> or <strong>Hello</strong> or {vNum}</dd>
 <dt>Remarks</dt><dd>You can use variables in input if you encase them within brackets {vName}.  You can also perform basic math operations.</dd>
 </dl>
@@ -73,7 +71,6 @@ Use this command when you want to modify the value of variables.  You can even u
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -84,7 +81,7 @@ Use this command when you want to modify the value of variables.  You can even u
 ## Developer/Additional Reference
 Automation Class Name: VariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

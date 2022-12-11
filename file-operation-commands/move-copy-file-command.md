@@ -46,7 +46,6 @@ Use this command to move a file to a new destination.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the path to the file.</dd>
-<dt></dt><dd></dd>
 <dt>Error When Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd><dt>Sample Data</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vTextFilePath}</strong></dd>
@@ -62,7 +61,6 @@ Use this command to move a file to a new destination.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the new path to the file.</dd>
-<dt></dt><dd></dd>
 <dt>Error When Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd><dt>Sample Data</dt><dd>*<em>C:\temp\new path*</em> or <strong>{vTextFolderPath}</strong></dd>
@@ -106,7 +104,6 @@ Use this command to move a file to a new destination.
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -117,7 +114,7 @@ Use this command to move a file to a new destination.
 ## Developer/Additional Reference
 Automation Class Name: MoveFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

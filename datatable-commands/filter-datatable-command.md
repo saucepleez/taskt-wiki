@@ -58,7 +58,6 @@ Use this command when you want to get specific rows of a DataTable.
 
 <dl>
 <dt>What to input</dt><dd>Enter a tuple containing the column name and item you would like to filter by.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>{ColumnName1,Item1},{ColumnName2,Item2}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -72,7 +71,6 @@ Use this command when you want to get specific rows of a DataTable.
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -83,7 +81,7 @@ Use this command when you want to get specific rows of a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: FilterDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

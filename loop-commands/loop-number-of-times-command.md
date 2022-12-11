@@ -29,7 +29,6 @@ Use this command when you want to perform a series of commands a specified amoun
 
 <dl>
 <dt>What to input</dt><dd>Enter the amount of times you would like to perform the encased commands.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>5</strong> or <strong>10</strong> or <strong>{vNum}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -43,7 +42,6 @@ Use this command when you want to perform a series of commands a specified amoun
 
 <dl>
 <dt>What to input</dt><dd>Enter the starting index of the loop.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vStartValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -57,7 +55,6 @@ Use this command when you want to perform a series of commands a specified amoun
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -68,7 +65,7 @@ Use this command when you want to perform a series of commands a specified amoun
 ## Developer/Additional Reference
 Automation Class Name: BeginNumberOfTimesLoopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

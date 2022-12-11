@@ -61,7 +61,6 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 
 <dl>
 <dt>What to input</dt><dd>Specifies the parameter text that matches to the element based on the previously selected search type.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>If search type <strong>Find Element By ID</strong> was specified, for example, given <div id='name'></div>, the value of this field would be <strong>name</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -75,7 +74,6 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
 <dt>Remarks</dt><dd>If parameter is $x('//div') and index is 5, it's means target is $x('//div')[5].</dd>
 </dl>
@@ -103,7 +101,6 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 
 <dl>
 <dt>What to input</dt><dd>Additioal Parameters will be required based on the action settings selected.</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>Additional Parameters range from adding offset coordinates to specifying a variable to apply element text to.</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -117,7 +114,6 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -128,7 +124,7 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserElementActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

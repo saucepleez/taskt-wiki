@@ -31,7 +31,6 @@ Use this command when you want to replace existing text within text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable or text value</dd>
-<dt></dt><dd></dd>
 <dt>Error When Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd><dt>Sample Data</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
@@ -47,7 +46,6 @@ Use this command when you want to replace existing text within text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Enter the old value of the text that will be replaced</dd>
-<dt></dt><dd></dd>
 <dt>Error When Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd><dt>Sample Data</dt><dd><strong>H</strong> or <strong>{vTextA}</strong></dd>
@@ -63,7 +61,6 @@ Use this command when you want to replace existing text within text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Enter the new value after replacement</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>J</strong>, <strong>{vTextB}</strong></dd>
 <dt>Remarks</dt><dd>H would be replaced with J to create 'Jello'<br><br>
 <strong>Optional</strong><br></dd>
@@ -94,7 +91,6 @@ Use this command when you want to replace existing text within text or a variabl
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -105,7 +101,7 @@ Use this command when you want to replace existing text within text or a variabl
 ## Developer/Additional Reference
 Automation Class Name: ReplaceTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

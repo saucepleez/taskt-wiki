@@ -30,7 +30,6 @@ Use this command to simulate the movement of the mouse, additionally, this comma
 
 <dl>
 <dt>What to input</dt><dd>Input the new horizontal coordinate of the mouse, 0 starts at the left and goes to the right</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>250</strong> or <strong>{vXPos}</strong></dd>
 <dt>Remarks</dt><dd>This number is the pixel location on screen. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid range could be 0-1920</dd>
 </dl>
@@ -44,7 +43,6 @@ Use this command to simulate the movement of the mouse, additionally, this comma
 
 <dl>
 <dt>What to input</dt><dd>Input the new horizontal coordinate of the window, 0 starts at the left and goes down</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>250</strong> or <strong>{vYPos}</strong></dd>
 <dt>Remarks</dt><dd>This number is the pixel location on screen. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid range could be 0-1080</dd>
 </dl>
@@ -73,7 +71,6 @@ Use this command to simulate the movement of the mouse, additionally, this comma
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -84,7 +81,7 @@ Use this command to simulate the movement of the mouse, additionally, this comma
 ## Developer/Additional Reference
 Automation Class Name: SendMouseMoveCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help

@@ -43,7 +43,6 @@ Use this command when you want to take and save a screenshot.
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd><strong>c:\Temp\image.png</strong> or <strong>{vPath}</strong></dd>
 <dt>Remarks</dt><dd>If file does not contain extensin, suppliment png extension.
 If file does not contain folder path, file will be saved in the same folder as script file.
@@ -59,7 +58,6 @@ If file path contains FileCounter variable, it will be replaced by a number that
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt></dt><dd></dd>
 <dt>Sample Data</dt><dd>I am using this command to ...</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
@@ -70,7 +68,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 ## Developer/Additional Reference
 Automation Class Name: ScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:22 PM
+This page was generated on 12/11/22 06:24 PM
 
 
 ## Help
