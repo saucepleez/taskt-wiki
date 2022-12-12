@@ -18,19 +18,19 @@ Use this command when you want to modify the value of variables.  You can even u
 
 
 ## Command Parameters
-- [Please define the name of the new variable](#param_0)
-- [Please define the input to be set to above variable (ex. Hello, {vNum})](#param_1)
-- [Optional - Define the action to take if the variable already exists (Default is Replace If Variable Exists)](#param_2)
-- [Comment Field (Optional)](#param_3)
+- [Please Specify the Please define the name of the new variable](#param_0)
+- [Please Specify the Please define the input to be set to above variable (ex. Hello, {vNum})](#param_1)
+- [Please Select the Optional - Define the action to take if the variable already exists (Default is Replace If Variable Exists)](#param_2)
+- [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please define the name of the new variable
+### Please Specify the Please define the name of the new variable
 
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>If the variable exists, the value of the old variable will be replaced with the new one</dd>
 </dl>
 
@@ -38,26 +38,26 @@ Use this command when you want to modify the value of variables.  You can even u
 
 
 <a id="param_1"></a>
-### Please define the input to be set to above variable (ex. Hello, {vNum})
+### Please Specify the Please define the input to be set to above variable (ex. Hello, {vNum})
 
 
 <dl>
 <dt>What to input</dt><dd>Enter the input that the variable's value should be set to.</dd>
-<dt>Sample Data</dt><dd><strong>Hello</strong> or <strong>{vNum}</strong></dd>
-<dt>Remarks</dt><dd>You can use variables in input if you encase them within brackets {vName}.  You can also perform basic math operations.</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>You can use variables in input if you encase them within brackets {{{vName}}}.  You can also perform basic math operations.</dd>
 </dl>
 
 
 
 
 <a id="param_2"></a>
-### Optional - Define the action to take if the variable already exists (Default is Replace If Variable Exists)
+### Please Select the Optional - Define the action to take if the variable already exists (Default is Replace If Variable Exists)
 
 
 <dl>
 <dt>What to input</dt><dd>Select the appropriate handler from the list</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd><strong>Do Nothing If Variable Exists</strong> or <strong>Error If Variable Exists</strong> or <strong>Replace If Variable Exists</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Do Nothing If Variable Exists</strong> or  <strong>Error If Variable Exists</strong> or  <strong>Replace If Variable Exists</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -65,12 +65,12 @@ Use this command when you want to modify the value of variables.  You can even u
 
 
 <a id="param_3"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -80,9 +80,9 @@ Use this command when you want to modify the value of variables.  You can even u
 ## Developer/Additional Reference
 Automation Class Name: AddVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

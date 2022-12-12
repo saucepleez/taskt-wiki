@@ -18,21 +18,21 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 
 
 ## Command Parameters
-- [Enter the name of the machine](#param_0)
-- [Enter the username](#param_1)
-- [Enter the password](#param_2)
-- [Enter the width of the RDP window](#param_3)
-- [Enter the height of the RDP window](#param_4)
-- [Comment Field (Optional)](#param_5)
+- [Please Specify the Enter the name of the machine](#param_0)
+- [Please Specify the Enter the username](#param_1)
+- [Please Specify the Enter the password](#param_2)
+- [Please Specify the Enter the width of the RDP window](#param_3)
+- [Please Specify the Enter the height of the RDP window](#param_4)
+- [Please Specify the Comment Field (Optional)](#param_5)
 
 
 <a id="param_0"></a>
-### Enter the name of the machine
+### Please Specify the Enter the name of the machine
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -40,12 +40,12 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 
 
 <a id="param_1"></a>
-### Enter the username
+### Please Specify the Enter the username
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -53,12 +53,12 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 
 
 <a id="param_2"></a>
-### Enter the password
+### Please Specify the Enter the password
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -66,12 +66,12 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 
 
 <a id="param_3"></a>
-### Enter the width of the RDP window
+### Please Specify the Enter the width of the RDP window
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -79,12 +79,12 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 
 
 <a id="param_4"></a>
-### Enter the height of the RDP window
+### Please Specify the Enter the height of the RDP window
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -92,12 +92,12 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 
 
 <a id="param_5"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -107,9 +107,9 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 ## Developer/Additional Reference
 Automation Class Name: RemoteDesktopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

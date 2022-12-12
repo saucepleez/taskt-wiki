@@ -18,22 +18,22 @@ Use this command when you want to get Addresses from EMail.
 
 
 ## Command Parameters
-- [Please specify EMail Variable Name](#param_0)
-- [Please specify Address Type](#param_1)
-- [Please specify Variable Name to Store Addresses](#param_2)
-- [Comment Field (Optional)](#param_3)
+- [Please Select the Please specify EMail Variable Name](#param_0)
+- [Please Select the Please specify Address Type](#param_1)
+- [Please Select the Please specify Variable Name to Store Addresses](#param_2)
+- [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please specify EMail Variable Name
+### Please Select the Please specify EMail Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>MailKitEMail</dd>
-<dt>Parameter Direction</dt><dd>Input</dd><dt>Error When Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Input</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>{vEMail}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>{vEMail}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -41,15 +41,15 @@ Use this command when you want to get Addresses from EMail.
 
 
 <a id="param_1"></a>
-### Please specify Address Type
+### Please Select the Please specify Address Type
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>From</strong> or  <strong>To</strong> or  <strong>CC</strong> or  <strong>BCC</strong> or  <strong>Reply-To</strong> or  <strong>Resent-From</strong> or  <strong>Resent-To</strong> or  <strong>Resent-CC</strong> or  <strong>Resent-BCC</strong> or  <strong>Resent-Reply-To</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>From</strong> or  <strong>To</strong> or  <strong>CC</strong> or  <strong>BCC</strong> or  <strong>Reply-To</strong> or  <strong>Resent-From</strong> or  <strong>Resent-To</strong> or  <strong>Resent-CC</strong> or  <strong>Resent-BCC</strong> or  <strong>Resent-Reply-To</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -57,15 +57,15 @@ Use this command when you want to get Addresses from EMail.
 
 
 <a id="param_2"></a>
-### Please specify Variable Name to Store Addresses
+### Please Select the Please specify Variable Name to Store Addresses
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error When Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>vAddresses</strong> or <strong>{vAddresses}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>vAddresses</strong> or <strong>{vAddresses}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -73,12 +73,12 @@ Use this command when you want to get Addresses from EMail.
 
 
 <a id="param_3"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -88,9 +88,9 @@ Use this command when you want to get Addresses from EMail.
 ## Developer/Additional Reference
 Automation Class Name: MailKitGetAddressesAsDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

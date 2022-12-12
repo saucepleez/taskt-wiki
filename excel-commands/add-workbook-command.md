@@ -19,8 +19,8 @@ Use this command when you want to add a new workbook to an Exel Instance
 
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
-- [Optional - Please Select If Workbook Exists](#param_1)
-- [Comment Field (Optional)](#param_2)
+- [Optional - Please Select the Please Select If Workbook Exists](#param_1)
+- [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
@@ -30,9 +30,9 @@ Use this command when you want to add a new workbook to an Exel Instance
 <dl>
 <dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Excel</strong> command</dd>
 <dt>Instance Type</dt><dd>Excel</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error</dd>
 </dl>
 
@@ -40,13 +40,13 @@ Use this command when you want to add a new workbook to an Exel Instance
 
 
 <a id="param_1"></a>
-### Optional - Please Select If Workbook Exists
+### Optional - Please Select the Please Select If Workbook Exists
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd><strong>Ignore</strong> or <strong>Error</strong> or <strong>Add</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong> or  <strong>Add</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
 
@@ -54,12 +54,12 @@ Use this command when you want to add a new workbook to an Exel Instance
 
 
 <a id="param_2"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -69,9 +69,9 @@ Use this command when you want to add a new workbook to an Exel Instance
 ## Developer/Additional Reference
 Automation Class Name: ExcelAddWorkbookCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

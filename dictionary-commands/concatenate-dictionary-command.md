@@ -18,23 +18,23 @@ Use this command when you want to concatenate two Dictionaries.
 
 
 ## Command Parameters
-- [Please input The Dictionary Variable 1](#param_0)
-- [Please input The Dictionary Variable 2](#param_1)
-- [Optional - If Key already exists](#param_2)
+- [Please Select the Please input The Dictionary Variable 1](#param_0)
+- [Please Select the Please input The Dictionary Variable 2](#param_1)
+- [Optional - Please Select the If Key already exists](#param_2)
 - [Please indicate the result Dictionary](#param_3)
-- [Comment Field (Optional)](#param_4)
+- [Please Specify the Comment Field (Optional)](#param_4)
 
 
 <a id="param_0"></a>
-### Please input The Dictionary Variable 1
+### Please Select the Please input The Dictionary Variable 1
 
 
 <dl>
 <dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>myDictionary1</strong> or <strong>{vMyDic1}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>myDictionary1</strong> or <strong>{vMyDic1}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -42,15 +42,15 @@ Use this command when you want to concatenate two Dictionaries.
 
 
 <a id="param_1"></a>
-### Please input The Dictionary Variable 2
+### Please Select the Please input The Dictionary Variable 2
 
 
 <dl>
 <dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>myDictionary2</strong> or <strong>{vMyDic2}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>myDictionary2</strong> or <strong>{vMyDic2}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -58,13 +58,13 @@ Use this command when you want to concatenate two Dictionaries.
 
 
 <a id="param_2"></a>
-### Optional - If Key already exists
+### Optional - Please Select the If Key already exists
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd><strong>Ignore</strong> or <strong>Overwrite</strong> or <strong>Error</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Overwrite</strong> or  <strong>Error</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
 </dl>
 
@@ -78,9 +78,9 @@ Use this command when you want to concatenate two Dictionaries.
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error When Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>newDic</strong> or <strong>{newDic}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>newDic</strong> or <strong>{newDic}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -88,12 +88,12 @@ Use this command when you want to concatenate two Dictionaries.
 
 
 <a id="param_4"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -103,9 +103,9 @@ Use this command when you want to concatenate two Dictionaries.
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

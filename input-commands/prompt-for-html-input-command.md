@@ -19,8 +19,8 @@ Use this command when you want a fancy data collection.
 
 ## Command Parameters
 - [Please specify the HTML to be used](#param_0)
-- [Optional - Specify if an error should occur on any result other than 'OK' (default is Error On Close)](#param_1)
-- [Comment Field (Optional)](#param_2)
+- [Please Select the Optional - Specify if an error should occur on any result other than 'OK' (default is Error On Close)](#param_1)
+- [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
@@ -29,7 +29,7 @@ Use this command when you want a fancy data collection.
 
 <dl>
 <dt>What to input</dt><dd>Define the HTML to be displayed</dd>
-<dt>Sample Data</dt><dd>n/a</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -37,13 +37,13 @@ Use this command when you want a fancy data collection.
 
 
 <a id="param_1"></a>
-### Optional - Specify if an error should occur on any result other than 'OK' (default is Error On Close)
+### Please Select the Optional - Specify if an error should occur on any result other than 'OK' (default is Error On Close)
 
 
 <dl>
 <dt>What to input</dt><dd>Select if this should throw an exception.</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd><strong>Error On Close</strong> or <strong>Do Not Error On Close</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Error On Close</strong> or  <strong>Do Not Error On Close</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -51,12 +51,12 @@ Use this command when you want a fancy data collection.
 
 
 <a id="param_2"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -66,9 +66,9 @@ Use this command when you want a fancy data collection.
 ## Developer/Additional Reference
 Automation Class Name: HTMLInputCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

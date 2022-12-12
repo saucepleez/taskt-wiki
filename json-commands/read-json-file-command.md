@@ -19,8 +19,8 @@ Use this command when you want to read data from JSON files.
 
 ## Command Parameters
 - [Please indicate the path to the file](#param_0)
-- [Please define where the JSON should be stored](#param_1)
-- [Comment Field (Optional)](#param_2)
+- [Please Select the Please define where the JSON should be stored](#param_1)
+- [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
@@ -29,9 +29,9 @@ Use this command when you want to read data from JSON files.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the path to the text file.</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vTextFilePath}</strong> or <strong>http://example.com/api/</strong> or <strong>{vURL}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vTextFilePath}</strong> or <strong>http://example.com/api/</strong> or <strong>{vURL}</strong></dd>
 <dt>Remarks</dt><dd>If file does not contain extensin, supplement txt automatically.
 If file does not contain folder path, file will be opened in the same folder as script file.</dd>
 </dl>
@@ -40,15 +40,15 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_1"></a>
-### Please define where the JSON should be stored
+### Please Select the Please define where the JSON should be stored
 
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error When Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
 
@@ -56,12 +56,12 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_2"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -71,9 +71,9 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ReadJSONFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

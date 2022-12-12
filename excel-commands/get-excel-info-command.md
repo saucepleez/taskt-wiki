@@ -21,7 +21,7 @@ Use this command when you want to launch a new instance of Excel.
 - [Please Enter the instance name](#param_0)
 - [Please select the information type to receive](#param_1)
 - [Please select the variable to receive a sheet name](#param_2)
-- [Comment Field (Optional)](#param_3)
+- [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
@@ -31,9 +31,9 @@ Use this command when you want to launch a new instance of Excel.
 <dl>
 <dt>What to input</dt><dd>Signifies a unique name that will represemt the application instance.  This unique name allows you to refer to the instance by name in future commands, ensuring that the commands you specify run against the correct application.</dd>
 <dt>Instance Type</dt><dd>Excel</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -47,9 +47,9 @@ Use this command when you want to launch a new instance of Excel.
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>File name</strong> or <strong>Full path file name</strong> or <strong>Current sheet</strong> or <strong>Number of sheets</strong> or <strong>First sheet</strong> or <strong>Last sheet</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>File name</strong> or  <strong>Full path file name</strong> or  <strong>Current sheet</strong> or  <strong>Number of sheets</strong> or  <strong>First sheet</strong> or  <strong>Last sheet</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -63,9 +63,9 @@ Use this command when you want to launch a new instance of Excel.
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -73,12 +73,12 @@ Use this command when you want to launch a new instance of Excel.
 
 
 <a id="param_3"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -88,9 +88,9 @@ Use this command when you want to launch a new instance of Excel.
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetExcelInfoCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

@@ -19,9 +19,9 @@ This command allows you to get AutomationElement from Window Name using by XPath
 
 ## Command Parameters
 - [Please select the Window Name](#param_0)
-- [Optional - Window name search method](#param_1)
-- [Please specify a Variable to store AutomationElement](#param_2)
-- [Comment Field (Optional)](#param_3)
+- [Optional - Please Select the Window name search method](#param_1)
+- [Please Select the Please specify a Variable to store AutomationElement](#param_2)
+- [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
@@ -31,9 +31,9 @@ This command allows you to get AutomationElement from Window Name using by XPath
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Window Names</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindowName}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindowName}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -41,13 +41,13 @@ This command allows you to get AutomationElement from Window Name using by XPath
 
 
 <a id="param_1"></a>
-### Optional - Window name search method
+### Optional - Please Select the Window name search method
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd><strong>Contains</strong> or <strong>Starts with</strong> or <strong>Ends with</strong> or <strong>Exact match</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
 </dl>
 
@@ -55,15 +55,15 @@ This command allows you to get AutomationElement from Window Name using by XPath
 
 
 <a id="param_2"></a>
-### Please specify a Variable to store AutomationElement
+### Please Select the Please specify a Variable to store AutomationElement
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error When Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>vElement</strong> or <strong>{vElement}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>vElement</strong> or <strong>{vElement}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -71,12 +71,12 @@ This command allows you to get AutomationElement from Window Name using by XPath
 
 
 <a id="param_3"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -86,9 +86,9 @@ This command allows you to get AutomationElement from Window Name using by XPath
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationGetElementFromWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

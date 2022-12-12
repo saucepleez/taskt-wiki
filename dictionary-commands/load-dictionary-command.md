@@ -23,7 +23,7 @@ Use this command when you want to load a config file.
 - [Please indicate the Sheet Name](#param_2)
 - [Please indicate the Key Column](#param_3)
 - [Please indicate the Value Column](#param_4)
-- [Comment Field (Optional)](#param_5)
+- [Please Specify the Comment Field (Optional)](#param_5)
 
 
 <a id="param_0"></a>
@@ -33,9 +33,9 @@ Use this command when you want to load a config file.
 <dl>
 <dt>What to input</dt><dd>Enter a name for a Dictionary.</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>myDictionary</strong> or <strong>{vDictionary}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>myDictionary</strong> or <strong>{vDictionary}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -48,9 +48,9 @@ Use this command when you want to load a config file.
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the path to the applicable file that should be loaded into the Dictionary.</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vFilePath}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vFilePath}</strong></dd>
 <dt>Remarks</dt><dd>If file does not contain extension, supplement extensions supported by Excel.
 If file does not contain folder path, file will be opened in the same folder as script file.</dd>
 </dl>
@@ -64,9 +64,9 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 <dl>
 <dt>What to input</dt><dd>Enter the sheet name of the workbook to be read.</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>Sheet1</strong> or <strong>{vSheet}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>Sheet1</strong> or <strong>{vSheet}</strong></dd>
 <dt>Remarks</dt><dd>Sheet has one table</dd>
 </dl>
 
@@ -79,9 +79,9 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 <dl>
 <dt>What to input</dt><dd>Enter the key column name to create a Dictionary off of.</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>Key</strong> or <strong>{vKeyColumn}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>Key</strong> or <strong>{vKeyColumn}</strong></dd>
 <dt>Remarks</dt><dd>This value is NOT Column Index Value like A, B. Please specify table column name.</dd>
 </dl>
 
@@ -94,9 +94,9 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 <dl>
 <dt>What to input</dt><dd>Enter a value column name to create a Dictionary off of.</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>Value</strong> or <strong>{vValueColumn}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>Value</strong> or <strong>{vValueColumn}</strong></dd>
 <dt>Remarks</dt><dd>This value is NOT Column Index Value like A, B. Please specify table column name.</dd>
 </dl>
 
@@ -104,12 +104,12 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_5"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -119,9 +119,9 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: LoadDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

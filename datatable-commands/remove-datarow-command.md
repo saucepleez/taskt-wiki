@@ -19,9 +19,9 @@ Use this command when you want to delete a specific row.
 
 ## Command Parameters
 - [Please indicate the DataTable Variable Name](#param_0)
-- [Please indicate tuples to delete column rows](#param_1)
-- [Please select overwrite option](#param_2)
-- [Comment Field (Optional)](#param_3)
+- [Please Specify the Please indicate tuples to delete column rows](#param_1)
+- [Please Select the Please select overwrite option](#param_2)
+- [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
@@ -31,7 +31,7 @@ Use this command when you want to delete a specific row.
 <dl>
 <dt>What to input</dt><dd>Enter the name of your DataTable</dd>
 <dt>Instance Type</dt><dd>DataTable</dd>
-<dt>Sample Data</dt><dd><strong>myDataTable</strong> or <strong>{vMyDataTable}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>myDataTable</strong> or <strong>{vMyDataTable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -39,12 +39,12 @@ Use this command when you want to delete a specific row.
 
 
 <a id="param_1"></a>
-### Please indicate tuples to delete column rows
+### Please Specify the Please indicate tuples to delete column rows
 
 
 <dl>
 <dt>What to input</dt><dd>Enter a tuple containing the column name and item you would like to remove.</dd>
-<dt>Sample Data</dt><dd>{ColumnName1,Item1},{ColumnName2,Item2}</dd>
+<dt>Sample Usage</dt><dd>{ColumnName1,Item1},{ColumnName2,Item2}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -52,13 +52,13 @@ Use this command when you want to delete a specific row.
 
 
 <a id="param_2"></a>
-### Please select overwrite option
+### Please Select the Please select overwrite option
 
 
 <dl>
 <dt>What to input</dt><dd>Indicate whether this command should remove rows with all the constraints or remove them with 1 or more constraints</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd>Select from <strong>And</strong> or <strong>Or</strong></dd>
+<dt>Sample Usage</dt><dd><strong>And</strong> or  <strong>Or</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -66,12 +66,12 @@ Use this command when you want to delete a specific row.
 
 
 <a id="param_3"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -81,9 +81,9 @@ Use this command when you want to delete a specific row.
 ## Developer/Additional Reference
 Automation Class Name: RemoveDataRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

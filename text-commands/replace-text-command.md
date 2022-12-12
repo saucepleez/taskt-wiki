@@ -18,22 +18,22 @@ Use this command when you want to replace existing text within text or a variabl
 
 
 ## Command Parameters
-- [Please select text or variable to modify](#param_0)
-- [Indicate the text to be replaced](#param_1)
-- [Optional - Indicate the replacement value](#param_2)
+- [Please Specify the Please select text or variable to modify](#param_0)
+- [Please Specify the Indicate the text to be replaced](#param_1)
+- [Optional - Please Specify the Indicate the replacement value](#param_2)
 - [Please select the variable to receive the changes](#param_3)
-- [Comment Field (Optional)](#param_4)
+- [Please Specify the Comment Field (Optional)](#param_4)
 
 
 <a id="param_0"></a>
-### Please select text or variable to modify
+### Please Specify the Please select text or variable to modify
 
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable or text value</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -41,14 +41,14 @@ Use this command when you want to replace existing text within text or a variabl
 
 
 <a id="param_1"></a>
-### Indicate the text to be replaced
+### Please Specify the Indicate the text to be replaced
 
 
 <dl>
 <dt>What to input</dt><dd>Enter the old value of the text that will be replaced</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>H</strong> or <strong>{vTextA}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>H</strong> or <strong>{vTextA}</strong></dd>
 <dt>Remarks</dt><dd>H in Hello would be targeted for replacement</dd>
 </dl>
 
@@ -56,12 +56,12 @@ Use this command when you want to replace existing text within text or a variabl
 
 
 <a id="param_2"></a>
-### Optional - Indicate the replacement value
+### Optional - Please Specify the Indicate the replacement value
 
 
 <dl>
 <dt>What to input</dt><dd>Enter the new value after replacement</dd>
-<dt>Sample Data</dt><dd><strong>J</strong>, <strong>{vTextB}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>J</strong>, <strong>{vTextB}</strong></dd>
 <dt>Remarks</dt><dd>H would be replaced with J to create 'Jello'<br><br>
 <strong>Optional</strong><br></dd>
 </dl>
@@ -76,9 +76,9 @@ Use this command when you want to replace existing text within text or a variabl
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
 
@@ -86,12 +86,12 @@ Use this command when you want to replace existing text within text or a variabl
 
 
 <a id="param_4"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -101,9 +101,9 @@ Use this command when you want to replace existing text within text or a variabl
 ## Developer/Additional Reference
 Automation Class Name: ReplaceTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

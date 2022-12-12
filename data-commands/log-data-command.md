@@ -18,19 +18,19 @@ Use this command when you want to log custom data to a file for debugging or ana
 
 
 ## Command Parameters
-- [Select existing log file or enter a custom name.(ex. MyLog, Engine Log)](#param_0)
+- [Please Select the Select existing log file or enter a custom name.(ex. MyLog, Engine Log)](#param_0)
 - [Please enter the text to log.](#param_1)
-- [Comment Field (Optional)](#param_2)
+- [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
-### Select existing log file or enter a custom name.(ex. MyLog, Engine Log)
+### Please Select the Select existing log file or enter a custom name.(ex. MyLog, Engine Log)
 
 
 <dl>
 <dt>What to input</dt><dd>Indicate the file name where logs should be appended to</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd>Select 'Engine Logs' or specify your own file</dd>
+<dt>Sample Usage</dt><dd><strong>Engine Logs</strong></dd>
 <dt>Remarks</dt><dd>Date and Time will be automatically appended to the file name.  Logs are all saved in taskt Root\Logs folder</dd>
 </dl>
 
@@ -44,7 +44,7 @@ Use this command when you want to log custom data to a file for debugging or ana
 <dl>
 <dt>What to input</dt><dd>Indicate the value of the text to be saved.</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Sample Data</dt><dd>Third Step Complete, {vVariable}, etc.</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -52,12 +52,12 @@ Use this command when you want to log custom data to a file for debugging or ana
 
 
 <a id="param_2"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -67,9 +67,9 @@ Use this command when you want to log custom data to a file for debugging or ana
 ## Developer/Additional Reference
 Automation Class Name: LogDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

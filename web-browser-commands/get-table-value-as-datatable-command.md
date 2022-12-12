@@ -19,13 +19,13 @@ Use this command when you want to get a Table Values As DataTable.
 
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
-- [Please Specify Element Search Method](#param_1)
-- [Please Specify Element Search Parameter](#param_2)
-- [Please Specify Element Index](#param_3)
-- [Optional - Please Specify Attribute Name to Get](#param_4)
-- [Please Specify DataTable Variable Name to store result](#param_5)
+- [Please Select the Please Specify Element Search Method](#param_1)
+- [Please Specify the Please Specify Element Search Parameter](#param_2)
+- [Please Specify the Please Specify Element Index](#param_3)
+- [Optional - Please Specify the Please Specify Attribute Name to Get](#param_4)
+- [Please Select the Please Specify DataTable Variable Name to store result](#param_5)
 - [Optional - Please Specify the method for the First Row](#param_6)
-- [Comment Field (Optional)](#param_7)
+- [Please Specify the Comment Field (Optional)](#param_7)
 
 
 <a id="param_0"></a>
@@ -35,9 +35,9 @@ Use this command when you want to get a Table Values As DataTable.
 <dl>
 <dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Browser</strong> command</dd>
 <dt>Instance Type</dt><dd>WebBrowser</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Browser</strong> command will cause an error</dd>
 </dl>
 
@@ -45,15 +45,15 @@ Use this command when you want to get a Table Values As DataTable.
 
 
 <a id="param_1"></a>
-### Please Specify Element Search Method
+### Please Select the Please Specify Element Search Method
 
 
 <dl>
 <dt>What to input</dt><dd>Select the specific search type that you want to use to isolate the element in the web page.</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd>Select <strong>Find Element By XPath</strong>, <strong>Find Element By ID</strong>, <strong>Find Element By Name</strong>, <strong>Find Element By Tag Name</strong>, <strong>Find Element By Class Name</strong>, <strong>Find Element By CSS Selector</strong>, <strong>Find Element By Link Text</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>Find Element By XPath</strong> or  <strong>Find Element By ID</strong> or  <strong>Find Element By Name</strong> or  <strong>Find Element By Tag Name</strong> or  <strong>Find Element By Class Name</strong> or  <strong>Find Element By CSS Selector</strong> or  <strong>Find Element By Link Text</strong> or  <strong>Find Elements By XPath</strong> or  <strong>Find Elements By ID</strong> or  <strong>Find Elements By Name</strong> or  <strong>Find Elements By Tag Name</strong> or  <strong>Find Elements By Class Name</strong> or  <strong>Find Elements By CSS Selector</strong> or  <strong>Find Elements By Link Text</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -61,14 +61,14 @@ Use this command when you want to get a Table Values As DataTable.
 
 
 <a id="param_2"></a>
-### Please Specify Element Search Parameter
+### Please Specify the Please Specify Element Search Parameter
 
 
 <dl>
 <dt>What to input</dt><dd>Specifies the parameter text that matches to the element based on the previously selected search type.</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd>If search type <strong>Find Element By ID</strong> was specified, for example, given <div id='name'></div>, the value of this field would be <strong>name</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -76,12 +76,12 @@ Use this command when you want to get a Table Values As DataTable.
 
 
 <a id="param_3"></a>
-### Please Specify Element Index
+### Please Specify the Please Specify Element Index
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Data</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -89,14 +89,14 @@ Use this command when you want to get a Table Values As DataTable.
 
 
 <a id="param_4"></a>
-### Optional - Please Specify Attribute Name to Get
+### Optional - Please Specify the Please Specify Attribute Name to Get
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>id</strong> or <strong>Text</strong> or <strong>textContent</strong> or <strong>{vAttribute}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>id</strong> or <strong>Text</strong> or <strong>textContent</strong> or <strong>{vAttribute}</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>textContent</strong></dd>
 </dl>
 
@@ -104,15 +104,15 @@ Use this command when you want to get a Table Values As DataTable.
 
 
 <a id="param_5"></a>
-### Please Specify DataTable Variable Name to store result
+### Please Select the Please Specify DataTable Variable Name to store result
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error When Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd>(nothing)</dd>
+</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -126,7 +126,7 @@ Use this command when you want to get a Table Values As DataTable.
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd><strong>First Row</strong> or <strong>Column Name</strong> or <strong>Ignore</strong></dd>
+<dt>Sample Usage</dt><dd><strong>First Row</strong> or  <strong>Column Name</strong> or  <strong>Ignore</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>First Row</strong></dd>
 </dl>
 
@@ -134,12 +134,12 @@ Use this command when you want to get a Table Values As DataTable.
 
 
 <a id="param_7"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -149,9 +149,9 @@ Use this command when you want to get a Table Values As DataTable.
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetTableValueAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

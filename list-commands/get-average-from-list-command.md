@@ -18,22 +18,22 @@ Use this command when you want to get average value from a list.
 
 
 ## Command Parameters
-- [Please select a List Variable Name](#param_0)
-- [Please select a Variable Name to Store Result](#param_1)
-- [Optional - Please select If List Value is Not Numeric](#param_2)
-- [Comment Field (Optional)](#param_3)
+- [Please Select the Please select a List Variable Name](#param_0)
+- [Please Select the Please select a Variable Name to Store Result](#param_1)
+- [Optional - Please Select the Please select If List Value is Not Numeric](#param_2)
+- [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please select a List Variable Name
+### Please Select the Please select a List Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>List</dd>
-<dt>Error When Value is ...</dt><dd><ul>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -41,15 +41,15 @@ Use this command when you want to get average value from a list.
 
 
 <a id="param_1"></a>
-### Please select a Variable Name to Store Result
+### Please Select the Please select a Variable Name to Store Result
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error When Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Data</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -57,13 +57,13 @@ Use this command when you want to get average value from a list.
 
 
 <a id="param_2"></a>
-### Optional - Please select If List Value is Not Numeric
+### Optional - Please Select the Please select If List Value is Not Numeric
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd><strong>Ignore</strong> or <strong>Error</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
 </dl>
 
@@ -71,12 +71,12 @@ Use this command when you want to get average value from a list.
 
 
 <a id="param_3"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -86,9 +86,9 @@ Use this command when you want to get average value from a list.
 ## Developer/Additional Reference
 Automation Class Name: GetAverageFromListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

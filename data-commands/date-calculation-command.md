@@ -18,21 +18,21 @@ Use this command when you want to perform a date calculation.
 
 
 ## Command Parameters
-- [Please supply the date value or variable](#param_0)
-- [Please Select a Calculation Method](#param_1)
-- [Please supply the increment value](#param_2)
-- [Optional - Specify String Format](#param_3)
+- [Please Specify the Please supply the date value or variable](#param_0)
+- [Please Select the Please Select a Calculation Method](#param_1)
+- [Please Specify the Please supply the increment value](#param_2)
+- [Optional - Please Specify the Specify String Format](#param_3)
 - [Please select the variable to receive the date calculation](#param_4)
-- [Comment Field (Optional)](#param_5)
+- [Please Specify the Comment Field (Optional)](#param_5)
 
 
 <a id="param_0"></a>
-### Please supply the date value or variable
+### Please Specify the Please supply the date value or variable
 
 
 <dl>
 <dt>What to input</dt><dd>Specify either text or a variable that contains the start date.</dd>
-<dt>Sample Data</dt><dd><strong>{DateTime.Now}</strong> or <strong>1/1/2000</strong></dd>
+<dt>Sample Usage</dt><dd><strong>{DateTime.Now}</strong> or <strong>1/1/2000</strong></dd>
 <dt>Remarks</dt><dd>You can use known text or variables.</dd>
 </dl>
 
@@ -40,13 +40,13 @@ Use this command when you want to perform a date calculation.
 
 
 <a id="param_1"></a>
-### Please Select a Calculation Method
+### Please Select the Please Select a Calculation Method
 
 
 <dl>
 <dt>What to input</dt><dd>Select the necessary operation</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd>Select From Add Seconds, Add Minutes, Add Hours, Add Days, Add Years, Subtract Seconds, Subtract Minutes, Subtract Hours, Subtract Days, Subtract Years</dd>
+<dt>Sample Usage</dt><dd><strong>Add Seconds</strong> or  <strong>Add Minutes</strong> or  <strong>Add Hours</strong> or  <strong>Add Days</strong> or  <strong>Add Years</strong> or  <strong>Subtract Seconds</strong> or  <strong>Subtract Minutes</strong> or  <strong>Subtract Hours</strong> or  <strong>Subtract Days</strong> or  <strong>Subtract Years</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -54,12 +54,12 @@ Use this command when you want to perform a date calculation.
 
 
 <a id="param_2"></a>
-### Please supply the increment value
+### Please Specify the Please supply the increment value
 
 
 <dl>
 <dt>What to input</dt><dd>Enter how many units to increment by</dd>
-<dt>Sample Data</dt><dd>15, {vIncrement}</dd>
+<dt>Sample Usage</dt><dd>15, {vIncrement}</dd>
 <dt>Remarks</dt><dd>You can use negative numbers which will do the opposite, ex. Subtract Days and an increment of -5 will Add Days.</dd>
 </dl>
 
@@ -67,12 +67,12 @@ Use this command when you want to perform a date calculation.
 
 
 <a id="param_3"></a>
-### Optional - Specify String Format
+### Optional - Please Specify the Specify String Format
 
 
 <dl>
 <dt>What to input</dt><dd>Specify if a specific string format is required.</dd>
-<dt>Sample Data</dt><dd><strong>MM/dd/yy</strong> or <strong>hh:mm</strong> or etc.</dd>
+<dt>Sample Usage</dt><dd><strong>MM/dd/yy</strong> or <strong>hh:mm</strong> or etc.</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -86,7 +86,7 @@ Use this command when you want to perform a date calculation.
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
 
@@ -94,12 +94,12 @@ Use this command when you want to perform a date calculation.
 
 
 <a id="param_5"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -109,9 +109,9 @@ Use this command when you want to perform a date calculation.
 ## Developer/Additional Reference
 Automation Class Name: DateCalculationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

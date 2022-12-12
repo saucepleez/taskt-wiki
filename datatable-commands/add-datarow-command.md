@@ -19,8 +19,8 @@ Use this command when you want to add a datarow to a DataTable.
 
 ## Command Parameters
 - [Please indicate the DataTable Variable Name](#param_0)
-- [Define Data](#param_1)
-- [Comment Field (Optional)](#param_2)
+- [Please Specify the Define Data](#param_1)
+- [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
@@ -30,7 +30,7 @@ Use this command when you want to add a datarow to a DataTable.
 <dl>
 <dt>What to input</dt><dd>Enter a existing DataTable to add rows to.</dd>
 <dt>Instance Type</dt><dd>DataTable</dd>
-<dt>Sample Data</dt><dd><strong>myDataTable</strong> or <strong>{vMyDataTable}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>myDataTable</strong> or <strong>{vMyDataTable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -38,12 +38,12 @@ Use this command when you want to add a datarow to a DataTable.
 
 
 <a id="param_1"></a>
-### Define Data
+### Please Specify the Define Data
 
 
 <dl>
 <dt>What to input</dt><dd>Enter the Column Names required for each column of data</dd>
-<dt>Sample Data</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -51,12 +51,12 @@ Use this command when you want to add a datarow to a DataTable.
 
 
 <a id="param_2"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -66,9 +66,9 @@ Use this command when you want to add a datarow to a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: AddDataRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

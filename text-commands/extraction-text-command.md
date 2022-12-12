@@ -18,20 +18,20 @@ Use this command when you want to extract a piece of text from a larger text or 
 
 
 ## Command Parameters
-- [Supply the value or variable requiring extraction](#param_0)
-- [Please select text extraction type](#param_1)
-- [Extraction Parameters](#param_2)
+- [Please Specify the Supply the value or variable requiring extraction](#param_0)
+- [Please Select the Please select text extraction type](#param_1)
+- [Please Specify the Extraction Parameters](#param_2)
 - [Please select the variable to receive the extracted text](#param_3)
-- [Comment Field (Optional)](#param_4)
+- [Please Specify the Comment Field (Optional)](#param_4)
 
 
 <a id="param_0"></a>
-### Supply the value or variable requiring extraction
+### Please Specify the Supply the value or variable requiring extraction
 
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable or text value</dd>
-<dt>Sample Data</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -39,13 +39,13 @@ Use this command when you want to extract a piece of text from a larger text or 
 
 
 <a id="param_1"></a>
-### Please select text extraction type
+### Please Select the Please select text extraction type
 
 
 <dl>
 <dt>What to input</dt><dd>Select the type of extraction that is required.</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd>Select from Before Text, After Text, Between Text</dd>
+<dt>Sample Usage</dt><dd><strong>Extract All After Text</strong> or  <strong>Extract All Before Text</strong> or  <strong>Extract All Between Text</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -53,17 +53,17 @@ Use this command when you want to extract a piece of text from a larger text or 
 
 
 <a id="param_2"></a>
-### Extraction Parameters
+### Please Specify the Extraction Parameters
 
 
 <dl>
 <dt>What to input</dt><dd>Define the required extraction parameters, which is dependent on the type of extraction.</dd>
-<dt>Sample Data</dt><dd>n/a</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
-### Addtional Info about &quot;Extraction Parameters&quot;
+#### Addtional Info about &quot;Please Specify the Extraction Parameters&quot;
 | Parameter Value(s) | Description   | Sample Data 	| Remarks  	|
 | ---             | ---           | ---          | ---       |
 |Extract All After Text &amp; Leading Text|The beginning of the text to be extracted|**Hello** or **{vStart}**||
@@ -82,7 +82,7 @@ Use this command when you want to extract a piece of text from a larger text or 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Sample Data</dt><dd><strong>vSomeVariable</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
 
@@ -90,12 +90,12 @@ Use this command when you want to extract a piece of text from a larger text or 
 
 
 <a id="param_4"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -105,9 +105,9 @@ Use this command when you want to extract a piece of text from a larger text or 
 ## Developer/Additional Reference
 Automation Class Name: ExtractionTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

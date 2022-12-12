@@ -20,12 +20,12 @@ Use this command when you want to append text to a specific document.
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Enter the Text Variable Name to Set](#param_1)
-- [Select or Enter the text font name](#param_2)
-- [Select or Enter the text font size](#param_3)
-- [Select Bold](#param_4)
-- [Select Italic](#param_5)
-- [Select Underline](#param_6)
-- [Comment Field (Optional)](#param_7)
+- [Please Select the Select or Enter the text font name](#param_2)
+- [Please Select the Select or Enter the text font size](#param_3)
+- [Please Select the Select Bold](#param_4)
+- [Please Select the Select Italic](#param_5)
+- [Please Select the Select Underline](#param_6)
+- [Please Specify the Comment Field (Optional)](#param_7)
 
 
 <a id="param_0"></a>
@@ -35,7 +35,7 @@ Use this command when you want to append text to a specific document.
 <dl>
 <dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Word</strong> command</dd>
 <dt>Instance Type</dt><dd>Word</dd>
-<dt>Sample Data</dt><dd><strong>myInstance</strong> or <strong>wordInstance</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Word</strong> command will cause an error</dd>
 </dl>
 
@@ -48,7 +48,7 @@ Use this command when you want to append text to a specific document.
 
 <dl>
 <dt>What to input</dt><dd>Enter the text value that will be set.</dd>
-<dt>Sample Data</dt><dd>Hello World or {vText}</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -56,13 +56,13 @@ Use this command when you want to append text to a specific document.
 
 
 <a id="param_2"></a>
-### Select or Enter the text font name
+### Please Select the Select or Enter the text font name
 
 
 <dl>
 <dt>What to input</dt><dd>Specify the font name.</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd>Select <strong>Arial</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Arial</strong> or  <strong>Calibri</strong> or  <strong>Helvetica</strong> or  <strong>Times New Roman</strong> or  <strong>Verdana</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -70,13 +70,13 @@ Use this command when you want to append text to a specific document.
 
 
 <a id="param_3"></a>
-### Select or Enter the text font size
+### Please Select the Select or Enter the text font size
 
 
 <dl>
 <dt>What to input</dt><dd>Specify the font name.</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd>Select <strong>14</strong></dd>
+<dt>Sample Usage</dt><dd><strong>10</strong> or  <strong>11</strong> or  <strong>12</strong> or  <strong>14</strong> or  <strong>16</strong> or  <strong>18</strong> or  <strong>20</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -84,13 +84,13 @@ Use this command when you want to append text to a specific document.
 
 
 <a id="param_4"></a>
-### Select Bold
+### Please Select the Select Bold
 
 
 <dl>
 <dt>What to input</dt><dd>Specify whether the text font should be bold.</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd>Select <strong>Yes</strong> or <strong>No</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -98,13 +98,13 @@ Use this command when you want to append text to a specific document.
 
 
 <a id="param_5"></a>
-### Select Italic
+### Please Select the Select Italic
 
 
 <dl>
 <dt>What to input</dt><dd>Specify whether the text font should be italic.</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd>Select <strong>Yes</strong> or <strong>No</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -112,13 +112,13 @@ Use this command when you want to append text to a specific document.
 
 
 <a id="param_6"></a>
-### Select Underline
+### Please Select the Select Underline
 
 
 <dl>
 <dt>What to input</dt><dd>Specify whether the text font should be underlined.</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Data</dt><dd>Select <strong>Yes</strong> or <strong>No</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -126,12 +126,12 @@ Use this command when you want to append text to a specific document.
 
 
 <a id="param_7"></a>
-### Comment Field (Optional)
+### Please Specify the Comment Field (Optional)
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
-<dt>Sample Data</dt><dd>I am using this command to ...</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Optional</dd>
 </dl>
 
@@ -141,9 +141,9 @@ Use this command when you want to append text to a specific document.
 ## Developer/Additional Reference
 Automation Class Name: WordAppendTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/11/22 06:24 PM
+This page was generated on 12/12/22 09:29 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
