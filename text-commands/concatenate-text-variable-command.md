@@ -17,16 +17,17 @@ This command allows you to you to concatenate text to Text Variable.
 Use this command when you want to concatenate text to Text Variable.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please specify Target Text Variable Name](#param_0)
-- [Please Specify the Please specify Text to Concatenate](#param_1)
-- [Optional - Please Select the Please select Insert Line Break before Concatenate or Not](#param_2)
-- [Optional - Please Select the Please select Concatenate Position](#param_3)
+- [Please specify Target Text Variable Name](#param_0)
+- [Please specify Text to Concatenate](#param_1)
+- [Optional - Please select Insert Line Break before Concatenate or Not](#param_2)
+- [Optional - Please select Concatenate Position](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
 
 
 <a id="param_0"></a>
-### Please Select the Please specify Target Text Variable Name
+### Please specify Target Text Variable Name
 
 
 <dl>
@@ -34,30 +35,50 @@ Use this command when you want to concatenate text to Text Variable.
 <dt>Value</dt><dd>Variables</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>vText</strong> or <strong>{vText}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vText</strong> or <strong>{vText}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Please specify Text to Concatenate
+### Please specify Text to Concatenate
 
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Select the Please select Insert Line Break before Concatenate or Not
+### Optional - Please select Insert Line Break before Concatenate or Not
 
 
 <dl>
@@ -70,8 +91,17 @@ Use this command when you want to concatenate text to Text Variable.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Optional - Please Select the Please select Concatenate Position
+### Optional - Please select Concatenate Position
 
 
 <dl>
@@ -82,6 +112,15 @@ Use this command when you want to concatenate text to Text Variable.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -100,7 +139,7 @@ Use this command when you want to concatenate text to Text Variable.
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateTextVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

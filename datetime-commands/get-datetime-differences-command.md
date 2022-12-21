@@ -17,48 +17,71 @@ This command allows you to Get 2 DateTime Differences.
 Use this command when you want to Get 2 DateTime Differences.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please select a DateTime1 Variable Name](#param_0)
-- [Please Select the Please select a DateTime2 Variable Name](#param_1)
-- [Please Select the Please specify Result Format](#param_2)
-- [Please Select the Please specify Variable Name to store Result](#param_3)
+- [Please select a DateTime1 Variable Name](#param_0)
+- [Please select a DateTime2 Variable Name](#param_1)
+- [Please specify Result Format](#param_2)
+- [Please specify Variable Name to store Result](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
 
 
 <a id="param_0"></a>
-### Please Select the Please select a DateTime1 Variable Name
+### Please select a DateTime1 Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>DateTime</dd>
-<dt>Parameter Direction</dt><dd>Input</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>{vDateTime}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>{vDateTime}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
-### Please Select the Please select a DateTime2 Variable Name
+### Please select a DateTime2 Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>DateTime</dd>
-<dt>Parameter Direction</dt><dd>Input</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>{vDateTime}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>{vDateTime}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Select the Please specify Result Format
+### Please specify Result Format
 
 
 <dl>
@@ -66,15 +89,25 @@ Use this command when you want to Get 2 DateTime Differences.
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>Total Days</strong> or  <strong>Total Hours</strong> or  <strong>Total Minutes</strong> or  <strong>Total Seconds</strong> or  <strong>Days</strong> or  <strong>Hours</strong> or  <strong>Minutes</strong> or  <strong>Seconds</strong> or  <strong>Ticks</strong> or  <strong>DateTime</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Total Days</strong> or  <strong>Total Hours</strong> or  <strong>Total Minutes</strong> or  <strong>Total Seconds</strong> or  <strong>Days</strong> or  <strong>Hours</strong> or  <strong>Minutes</strong> or  <strong>Seconds</strong> or  <strong>Ticks</strong> or  <strong>DateTime</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Please Select the Please specify Variable Name to store Result
+### Please specify Variable Name to store Result
 
 
 <dl>
@@ -82,11 +115,21 @@ Use this command when you want to Get 2 DateTime Differences.
 <dt>Value</dt><dd>Variables</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
 <dt>Remarks</dt><dd>Result is DateTime2 - DateTime1</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -105,7 +148,7 @@ Use this command when you want to Get 2 DateTime Differences.
 ## Developer/Additional Reference
 Automation Class Name: GetDateTimeDifferencesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

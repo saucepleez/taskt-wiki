@@ -17,6 +17,7 @@ This command takes a screenshot and saves it to a location
 Use this command when you want to take and save a screenshot.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the Window name](#param_0)
 - [Please indicate the path to save the image](#param_1)
@@ -37,6 +38,15 @@ Use this command when you want to take and save a screenshot.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please indicate the path to save the image
 
@@ -50,6 +60,15 @@ If file path contains FileCounter variable, it will be replaced by a number that
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -68,7 +87,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 ## Developer/Additional Reference
 Automation Class Name: ScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

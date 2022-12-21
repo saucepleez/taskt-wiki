@@ -17,8 +17,9 @@ This command moves a folder to a specified destination
 Use this command to move a folder to a new destination.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Optional - Please Select the Indicate whether to move or copy the folder](#param_0)
+- [Optional - Please Indicate whether to move or copy the folder](#param_0)
 - [Please indicate the path to the source folder](#param_1)
 - [Please indicate the folder to move/copy to](#param_2)
 - [Optional - Please Select the Create folder if destination does not exist](#param_3)
@@ -27,7 +28,7 @@ Use this command to move a folder to a new destination.
 
 
 <a id="param_0"></a>
-### Optional - Please Select the Indicate whether to move or copy the folder
+### Optional - Please Indicate whether to move or copy the folder
 
 
 <dl>
@@ -40,6 +41,15 @@ Use this command to move a folder to a new destination.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please indicate the path to the source folder
 
@@ -48,11 +58,21 @@ Use this command to move a folder to a new destination.
 <dt>What to input</dt><dd>Enter or Select the path to the folder.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\myfolder</strong> or <strong>{vTextFolderPath}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfolder</strong> or <strong>{vTextFolderPath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -63,11 +83,21 @@ Use this command to move a folder to a new destination.
 <dt>What to input</dt><dd>Enter or Select the new path to the file.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\newPath</strong> or <strong>{vTextFolderPath}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\newPath</strong> or <strong>{vTextFolderPath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -84,6 +114,15 @@ Use this command to move a folder to a new destination.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
 ### Optional - Please Select the Delete folder if it already exists
 
@@ -96,6 +135,15 @@ Use this command to move a folder to a new destination.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -114,7 +162,7 @@ Use this command to move a folder to a new destination.
 ## Developer/Additional Reference
 Automation Class Name: MoveFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,10 +17,11 @@ This command allows you to perform advanced string formatting using RegEx.
 Use this command when you want to perform an advanced RegEx extraction from a text or variable
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Please supply the value or variable](#param_0)
-- [Please Specify the Input the RegEx Extractor Pattern](#param_1)
-- [Please Specify the Select Matching Group Index](#param_2)
+- [Please Input the RegEx Extractor Pattern](#param_1)
+- [Please Select Matching Group Index](#param_2)
 - [Please select the variable to receive the RegEx result](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
 
@@ -38,8 +39,17 @@ Use this command when you want to perform an advanced RegEx extraction from a te
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Input the RegEx Extractor Pattern
+### Please Input the RegEx Extractor Pattern
 
 
 <dl>
@@ -51,8 +61,17 @@ Use this command when you want to perform an advanced RegEx extraction from a te
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Specify the Select Matching Group Index
+### Please Select Matching Group Index
 
 
 <dl>
@@ -62,6 +81,15 @@ Use this command when you want to perform an advanced RegEx extraction from a te
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -76,6 +104,15 @@ Use this command when you want to perform an advanced RegEx extraction from a te
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -94,7 +131,7 @@ Use this command when you want to perform an advanced RegEx extraction from a te
 ## Developer/Additional Reference
 Automation Class Name: RegExExtractionTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

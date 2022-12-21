@@ -17,8 +17,9 @@ This command moves a window to a specified location on screen.
 Use this command when you want to move an existing window by name to a certain point on the screen.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please enter or select the window that you want to move.](#param_0)
+- [Please enter or select the window that you want to move.](#param_0)
 - [Optional - Please Select the Window title search method](#param_1)
 - [Please indicate the new X horizontal coordinate (pixel) for the window's location.  0 starts at the left of the screen.](#param_2)
 - [Please indicate the new Y vertical coordinate (pixel) for the window's location.  0 starts at the top of the screen.](#param_3)
@@ -26,7 +27,7 @@ Use this command when you want to move an existing window by name to a certain p
 
 
 <a id="param_0"></a>
-### Please Select the Please enter or select the window that you want to move.
+### Please enter or select the window that you want to move.
 
 
 <dl>
@@ -34,11 +35,21 @@ Use this command when you want to move an existing window by name to a certain p
 <dt>Value</dt><dd>Window Names</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindow}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindow}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -55,6 +66,15 @@ Use this command when you want to move an existing window by name to a certain p
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
 ### Please indicate the new X horizontal coordinate (pixel) for the window's location.  0 starts at the left of the screen.
 
@@ -63,11 +83,21 @@ Use this command when you want to move an existing window by name to a certain p
 <dt>What to input</dt><dd>Input the new horizontal coordinate of the window, 0 starts at the left and goes to the right</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>0</strong> or <strong>{vXPos}</strong> or <strong>Current Position</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>{vXPos}</strong> or <strong>Current Position</strong></dd>
 <dt>Remarks</dt><dd>This number is the pixel location on screen. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid range could be 0-1920</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -78,11 +108,21 @@ Use this command when you want to move an existing window by name to a certain p
 <dt>What to input</dt><dd>Input the new vertical coordinate of the window, 0 starts at the top and goes downwards</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>0</strong> or <strong>{vYPos}</strong> or <strong>Current Position</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>{vYPos}</strong> or <strong>Current Position</strong></dd>
 <dt>Remarks</dt><dd>This number is the pixel location on screen. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid range could be 0-1080</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -101,7 +141,7 @@ Use this command when you want to move an existing window by name to a certain p
 ## Developer/Additional Reference
 Automation Class Name: MoveWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

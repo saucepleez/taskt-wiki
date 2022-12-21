@@ -17,13 +17,14 @@ This command allows you to set text to the clipboard.
 Use this command when you want to copy the data from the clipboard and apply it to a variable.  You can then use the variable to extract the value.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please select a target variable or input a value](#param_0)
+- [Please select a target variable or input a value](#param_0)
 - [Please Specify the Comment Field (Optional)](#param_1)
 
 
 <a id="param_0"></a>
-### Please Specify the Please select a target variable or input a value
+### Please select a target variable or input a value
 
 
 <dl>
@@ -33,6 +34,15 @@ Use this command when you want to copy the data from the clipboard and apply it 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -51,7 +61,7 @@ Use this command when you want to copy the data from the clipboard and apply it 
 ## Developer/Additional Reference
 Automation Class Name: ClipboardSetTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

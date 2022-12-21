@@ -17,9 +17,10 @@ This command allows you to activate a specific worksheet in a workbook
 Use this command when you want to switch to a specific worksheet
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
-- [Please Specify the Indicate the name of the sheet within the Workbook to activate](#param_1)
+- [Please Indicate the name of the sheet within the Workbook to activate](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
@@ -32,26 +33,46 @@ Use this command when you want to switch to a specific worksheet
 <dt>Instance Type</dt><dd>Excel</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Indicate the name of the sheet within the Workbook to activate
+### Please Indicate the name of the sheet within the Workbook to activate
 
 
 <dl>
 <dt>What to input</dt><dd>Specify the name of the actual sheet</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>mySheet</strong>, <strong>Current Sheet</strong>, <strong>{vSheet}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>mySheet</strong>, <strong>Current Sheet</strong>, <strong>{vSheet}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -70,7 +91,7 @@ Use this command when you want to switch to a specific worksheet
 ## Developer/Additional Reference
 Automation Class Name: ExcelActivateSheetCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

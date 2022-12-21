@@ -17,6 +17,7 @@ This command allows you to close the associated IE web browser
 
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Specify the Comment Field (Optional)](#param_1)
@@ -36,6 +37,15 @@ This command allows you to close the associated IE web browser
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Specify the Comment Field (Optional)
 
@@ -52,7 +62,7 @@ This command allows you to close the associated IE web browser
 ## Developer/Additional Reference
 Automation Class Name: IEBrowserCloseCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

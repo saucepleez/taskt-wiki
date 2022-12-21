@@ -17,15 +17,16 @@ This command allows you to concatenate 2 lists.
 Use this command when you want to concatenate 2 lists.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please select a List Variable Name to concatenate](#param_0)
-- [Please Select the Please select a List Variable Name to concatenate](#param_1)
-- [Please Select the Please select a List Variable Name of the New List](#param_2)
+- [Please select a List Variable Name to concatenate](#param_0)
+- [Please select a List Variable Name to concatenate](#param_1)
+- [Please select a List Variable Name of the New List](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the Please select a List Variable Name to concatenate
+### Please select a List Variable Name to concatenate
 
 
 <dl>
@@ -33,15 +34,25 @@ Use this command when you want to concatenate 2 lists.
 <dt>Instance Type</dt><dd>List</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>vList1</strong> or <strong>{vList1}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vList1</strong> or <strong>{vList1}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
-### Please Select the Please select a List Variable Name to concatenate
+### Please select a List Variable Name to concatenate
 
 
 <dl>
@@ -49,27 +60,48 @@ Use this command when you want to concatenate 2 lists.
 <dt>Instance Type</dt><dd>List</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>vList2</strong> or <strong>{vList2}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vList2</strong> or <strong>{vList2}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Select the Please select a List Variable Name of the New List
+### Please select a List Variable Name of the New List
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -88,7 +120,7 @@ Use this command when you want to concatenate 2 lists.
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateListsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

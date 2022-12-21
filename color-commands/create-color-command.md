@@ -17,33 +17,45 @@ This command allows you to create Color.
 Use this command when you want to create Color.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please select a Color Variable Name](#param_0)
-- [Please Specify the Please specify Red Value](#param_1)
-- [Please Specify the Please specify Green Value](#param_2)
-- [Please Specify the Please specify Blue Value](#param_3)
-- [Optional - Please Specify the Please specify Alpha Value](#param_4)
+- [Please select a Color Variable Name](#param_0)
+- [Please specify Red Value](#param_1)
+- [Please specify Green Value](#param_2)
+- [Please specify Blue Value](#param_3)
+- [Optional - Please specify Alpha Value](#param_4)
 - [Please Specify the Comment Field (Optional)](#param_5)
 
 
 <a id="param_0"></a>
-### Please Select the Please select a Color Variable Name
+### Please select a Color Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>vColor</strong> or <strong>{vColor}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vColor</strong> or <strong>{vColor}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Please specify Red Value
+### Please specify Red Value
 
 
 <dl>
@@ -51,15 +63,25 @@ Use this command when you want to create Color.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>0</strong> or <em>255</em>* or <strong>{vRed}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <em>255</em>* or <strong>{vRed}</strong></dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
-### Please Specify the Please specify Green Value
+### Please specify Green Value
 
 
 <dl>
@@ -67,15 +89,25 @@ Use this command when you want to create Color.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>0</strong> or <em>255</em>* or <strong>{vGreen}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <em>255</em>* or <strong>{vGreen}</strong></dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
-### Please Specify the Please specify Blue Value
+### Please specify Blue Value
 
 
 <dl>
@@ -83,15 +115,25 @@ Use this command when you want to create Color.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>0</strong> or <em>255</em>* or <strong>{vBlue}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <em>255</em>* or <strong>{vBlue}</strong></dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
-### Optional - Please Specify the Please specify Alpha Value
+### Optional - Please specify Alpha Value
 
 
 <dl>
@@ -102,6 +144,15 @@ Use this command when you want to create Color.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -120,7 +171,7 @@ Use this command when you want to create Color.
 ## Developer/Additional Reference
 Automation Class Name: CreateColorCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

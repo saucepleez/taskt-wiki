@@ -17,6 +17,7 @@ This command allows you to define a connection to an OLEDB data source
 Use this command to create a new connection to a database.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Specify the Define Connection String](#param_1)
@@ -32,11 +33,21 @@ Use this command to create a new connection to a database.
 <dl>
 <dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Excel</strong> command</dd>
 <dt>Instance Type</dt><dd>DataBase</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -52,6 +63,15 @@ Use this command to create a new connection to a database.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
 ### Please Specify the Define Connection String Password
 
@@ -63,6 +83,15 @@ Use this command to create a new connection to a database.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -77,6 +106,15 @@ Use this command to create a new connection to a database.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -95,7 +133,7 @@ Use this command to create a new connection to a database.
 ## Developer/Additional Reference
 Automation Class Name: DatabaseDefineConnectionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

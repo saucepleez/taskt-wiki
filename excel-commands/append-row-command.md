@@ -17,6 +17,7 @@ Append to last row of sheet.
 Use this command will take in a comma seprerated value and append it to the end of an excel sheet.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Enter the Row to set](#param_1)
@@ -37,6 +38,15 @@ Use this command will take in a comma seprerated value and append it to the end 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Enter the Row to set
 
@@ -48,6 +58,15 @@ Use this command will take in a comma seprerated value and append it to the end 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -66,7 +85,7 @@ Use this command will take in a comma seprerated value and append it to the end 
 ## Developer/Additional Reference
 Automation Class Name: ExcelAppendRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,31 +17,43 @@ This command allows you to Scroll AutomationElement.
 
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please specify AutomationElement Variable](#param_0)
-- [Please Select the Please specify ScrollBar Type](#param_1)
-- [Please Select the Please specify Scroll Method](#param_2)
+- [Please specify AutomationElement Variable](#param_0)
+- [Please specify ScrollBar Type](#param_1)
+- [Please specify Scroll Method](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the Please specify AutomationElement Variable
+### Please specify AutomationElement Variable
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>AutomationElement</dd>
-<dt>Parameter Direction</dt><dd>Input</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>{vElement}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>{vElement}</strong></dd>
 <dt>Remarks</dt><dd>Supported Element must have a ScrollBar.</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Select the Please specify ScrollBar Type
+### Please specify ScrollBar Type
 
 
 <dl>
@@ -49,15 +61,25 @@ This command allows you to Scroll AutomationElement.
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>Vertical</strong> or  <strong>Horizonal</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Vertical</strong> or  <strong>Horizonal</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
-### Please Select the Please specify Scroll Method
+### Please specify Scroll Method
 
 
 <dl>
@@ -65,11 +87,21 @@ This command allows you to Scroll AutomationElement.
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>Scroll Small Down or Right</strong> or  <strong>Scroll Large Down or Right</strong> or  <strong>Scroll Small Up or Left</strong> or  <strong>Scroll Large Up or Left</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Scroll Small Down or Right</strong> or  <strong>Scroll Large Down or Right</strong> or  <strong>Scroll Small Up or Left</strong> or  <strong>Scroll Large Up or Left</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -88,7 +120,7 @@ This command allows you to Scroll AutomationElement.
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationScrollElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

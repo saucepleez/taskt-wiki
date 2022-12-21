@@ -17,8 +17,9 @@ This command resizes a window to a specified size.
 Use this command when you want to reize a window by name to a specific size on screen.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please enter or select the window that you want to resize.](#param_0)
+- [Please enter or select the window that you want to resize.](#param_0)
 - [Optional - Please Select the Window title search method](#param_1)
 - [Please indicate the new required width (pixel) of the window.](#param_2)
 - [Please indicate the new required height (pixel) of the window.](#param_3)
@@ -26,7 +27,7 @@ Use this command when you want to reize a window by name to a specific size on s
 
 
 <a id="param_0"></a>
-### Please Select the Please enter or select the window that you want to resize.
+### Please enter or select the window that you want to resize.
 
 
 <dl>
@@ -34,11 +35,21 @@ Use this command when you want to reize a window by name to a specific size on s
 <dt>Value</dt><dd>Window Names</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindow}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindow}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -55,6 +66,15 @@ Use this command when you want to reize a window by name to a specific size on s
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
 ### Please indicate the new required width (pixel) of the window.
 
@@ -65,11 +85,21 @@ Use this command when you want to reize a window by name to a specific size on s
 <li>Empty</li>
 <li>Less than Zero</li>
 <li>Equals Zero</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>640</strong> or <strong>{vWidth}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>640</strong> or <strong>{vWidth}</strong></dd>
 <dt>Remarks</dt><dd>This number is limited by your resolution. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid width range could be 0-1920</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -82,11 +112,21 @@ Use this command when you want to reize a window by name to a specific size on s
 <li>Empty</li>
 <li>Less than Zero</li>
 <li>Equals Zero</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>480</strong> or <strong>{vHeight}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>480</strong> or <strong>{vHeight}</strong></dd>
 <dt>Remarks</dt><dd>This number is limited by your resolution. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid height range could be 0-1080</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -105,7 +145,7 @@ Use this command when you want to reize a window by name to a specific size on s
 ## Developer/Additional Reference
 Automation Class Name: ResizeWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

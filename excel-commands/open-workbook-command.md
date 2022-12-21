@@ -17,11 +17,12 @@ This command opens an Excel Workbook.
 Use this command when you want to open an existing Excel Workbook.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please indicate the workbook file path](#param_1)
-- [Optional - Please Specify the Please indicate open password](#param_2)
-- [Optional - Please Select the Please Specify If Worksheet Exists](#param_3)
+- [Optional - Please indicate open password](#param_2)
+- [Optional - Please Specify If Worksheet Exists](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
 
 
@@ -34,11 +35,21 @@ Use this command when you want to open an existing Excel Workbook.
 <dt>Instance Type</dt><dd>Excel</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error.</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -49,7 +60,8 @@ Use this command when you want to open an existing Excel Workbook.
 <dt>What to input</dt><dd>Enter or Select the path to the applicable file that should be opened by Excel.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vFilePath}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vFilePath}</strong></dd>
 <dt>Remarks</dt><dd>If file does not contain extension, supplement extensions supported by Excel.
 If file does not contain folder path, file will be opened in the same folder as script file.</dd>
 </dl>
@@ -57,8 +69,17 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Specify the Please indicate open password
+### Optional - Please indicate open password
 
 
 <dl>
@@ -70,8 +91,17 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Optional - Please Select the Please Specify If Worksheet Exists
+### Optional - Please Specify If Worksheet Exists
 
 
 <dl>
@@ -82,6 +112,15 @@ If file does not contain folder path, file will be opened in the same folder as 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -100,7 +139,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExcelOpenWorkbookCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

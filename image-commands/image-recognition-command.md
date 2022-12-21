@@ -17,11 +17,12 @@ This command attempts to find an existing image on screen.
 Use this command when you want to attempt to locate an image on screen.  You can subsequently take actions such as move the mouse to the location or perform a click.  This command generates a fingerprint from the comparison image and searches for it in on the desktop.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Capture the search image](#param_0)
 - [Optional - Please Specify the Offset X Coordinate (Default is 0)](#param_1)
 - [Optional - Please Specify the Offset Y Coordinate (Default is 0)](#param_2)
-- [Optional - Please Select the Please indicate mouse click type if required (Default is None)](#param_3)
+- [Optional - Please indicate mouse click type if required (Default is None)](#param_3)
 - [Optional - Please Specify the Timeout (seconds, 0 for unlimited search time) (Default is 30)](#param_4)
 - [Please Specify the Comment Field (Optional)](#param_5)
 
@@ -39,6 +40,15 @@ Use this command when you want to attempt to locate an image on screen.  You can
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Optional - Please Specify the Offset X Coordinate (Default is 0)
 
@@ -51,6 +61,15 @@ Use this command when you want to attempt to locate an image on screen.  You can
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -67,8 +86,17 @@ Use this command when you want to attempt to locate an image on screen.  You can
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Optional - Please Select the Please indicate mouse click type if required (Default is None)
+### Optional - Please indicate mouse click type if required (Default is None)
 
 
 <dl>
@@ -80,6 +108,15 @@ Use this command when you want to attempt to locate an image on screen.  You can
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -94,6 +131,15 @@ Use this command when you want to attempt to locate an image on screen.  You can
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -112,7 +158,7 @@ Use this command when you want to attempt to locate an image on screen.  You can
 ## Developer/Additional Reference
 Automation Class Name: ImageRecognitionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

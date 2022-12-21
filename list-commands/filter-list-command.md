@@ -17,17 +17,18 @@ This command allows you to filter List value.
 Use this command when you want to filter List value.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please select a List Variable Name to Filter](#param_0)
-- [Please Select the Please select filter target value type](#param_1)
-- [Please Select the Please select filter action](#param_2)
+- [Please select a List Variable Name to Filter](#param_0)
+- [Please select filter target value type](#param_1)
+- [Please select filter action](#param_2)
 - [Please Specify the Additional Parameters](#param_3)
-- [Please Select the Please select a List Variable Name of the Filtered List](#param_4)
+- [Please select a List Variable Name of the Filtered List](#param_4)
 - [Please Specify the Comment Field (Optional)](#param_5)
 
 
 <a id="param_0"></a>
-### Please Select the Please select a List Variable Name to Filter
+### Please select a List Variable Name to Filter
 
 
 <dl>
@@ -35,15 +36,25 @@ Use this command when you want to filter List value.
 <dt>Instance Type</dt><dd>List</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Select the Please select filter target value type
+### Please select filter target value type
 
 
 <dl>
@@ -51,26 +62,46 @@ Use this command when you want to filter List value.
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>Text</strong> or  <strong>Numeric</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Text</strong> or  <strong>Numeric</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Select the Please select filter action
+### Please select filter action
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -86,20 +117,40 @@ Use this command when you want to filter List value.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
-### Please Select the Please select a List Variable Name of the Filtered List
+### Please select a List Variable Name of the Filtered List
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -118,7 +169,7 @@ Use this command when you want to filter List value.
 ## Developer/Additional Reference
 Automation Class Name: FilterListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

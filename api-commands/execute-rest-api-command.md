@@ -17,14 +17,15 @@ This command allows you to show a message to the user.
 Use this command when you want to present or display a value on screen to the user.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please enter the Base URL (ex. http://mysite.com)](#param_0)
 - [Please enter the endpoint (Ex. /v2/endpoint)](#param_1)
-- [Please Select the Please select method type](#param_2)
+- [Please select method type](#param_2)
 - [Please Specify the Advanced REST Parameters](#param_3)
 - [Please Specify the Basic REST Parameters](#param_4)
 - [Please Specify the Apply Result To Variable](#param_5)
-- [Please Select the Please select method type](#param_6)
+- [Please select method type](#param_6)
 - [Please Specify the Comment Field (Optional)](#param_7)
 
 
@@ -41,6 +42,15 @@ Use this command when you want to present or display a value on screen to the us
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please enter the endpoint (Ex. /v2/endpoint)
 
@@ -54,8 +64,17 @@ Use this command when you want to present or display a value on screen to the us
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Select the Please select method type
+### Please select method type
 
 
 <dl>
@@ -66,6 +85,15 @@ Use this command when you want to present or display a value on screen to the us
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -81,6 +109,15 @@ Use this command when you want to present or display a value on screen to the us
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
 ### Please Specify the Basic REST Parameters
 
@@ -92,6 +129,15 @@ Use this command when you want to present or display a value on screen to the us
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -107,8 +153,17 @@ Use this command when you want to present or display a value on screen to the us
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
 <a id="param_6"></a>
-### Please Select the Please select method type
+### Please select method type
 
 
 <dl>
@@ -119,6 +174,15 @@ Use this command when you want to present or display a value on screen to the us
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
 
 
 <a id="param_7"></a>
@@ -137,7 +201,7 @@ Use this command when you want to present or display a value on screen to the us
 ## Developer/Additional Reference
 Automation Class Name: RESTCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

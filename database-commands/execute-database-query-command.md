@@ -17,6 +17,7 @@ This command allows you to perform a database query and apply the result to a da
 Use this command to select data from a database.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Select the Define Query Execution Type](#param_1)
@@ -40,6 +41,15 @@ Use this command to select data from a database.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Select the Define Query Execution Type
 
@@ -52,6 +62,15 @@ Use this command to select data from a database.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -67,6 +86,15 @@ Use this command to select data from a database.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please Specify the Define Query Parameters
 
@@ -80,6 +108,15 @@ Use this command to select data from a database.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
 ### Please Specify the Apply Result To Variable
 
@@ -91,6 +128,15 @@ Use this command to select data from a database.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -109,7 +155,7 @@ Use this command to select data from a database.
 ## Developer/Additional Reference
 Automation Class Name: DatabaseExecuteQueryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,17 +17,18 @@ This command allows you to stop a program or a process.
 Use this command to close an application by its name such as 'chrome'. Alternatively, you may use the Close Window or Thick App Command instead.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Enter the name of the machine](#param_0)
-- [Please Specify the Enter the username](#param_1)
-- [Please Specify the Enter the password](#param_2)
-- [Please Specify the Enter the width of the RDP window](#param_3)
-- [Please Specify the Enter the height of the RDP window](#param_4)
+- [Please Enter the name of the machine](#param_0)
+- [Please Enter the username](#param_1)
+- [Please Enter the password](#param_2)
+- [Please Enter the width of the RDP window](#param_3)
+- [Please Enter the height of the RDP window](#param_4)
 - [Please Specify the Comment Field (Optional)](#param_5)
 
 
 <a id="param_0"></a>
-### Please Specify the Enter the name of the machine
+### Please Enter the name of the machine
 
 
 <dl>
@@ -37,10 +38,19 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
-### Please Specify the Enter the username
+### Please Enter the username
 
 
 <dl>
@@ -50,10 +60,19 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
-### Please Specify the Enter the password
+### Please Enter the password
 
 
 <dl>
@@ -63,10 +82,19 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
-### Please Specify the Enter the width of the RDP window
+### Please Enter the width of the RDP window
 
 
 <dl>
@@ -76,10 +104,19 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
-### Please Specify the Enter the height of the RDP window
+### Please Enter the height of the RDP window
 
 
 <dl>
@@ -89,6 +126,15 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -107,7 +153,7 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 ## Developer/Additional Reference
 Automation Class Name: RemoteDesktopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,15 +17,16 @@ This command returns a existence of window name.
 Use this command when you want to check a existence of window name.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please enter or select the window that you want to check existence.](#param_0)
+- [Please enter or select the window that you want to check existence.](#param_0)
 - [Optional - Please Select the Window title search method](#param_1)
-- [Please Select the Specify the variable to assign the result](#param_2)
+- [Please Specify the variable to assign the result](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the Please enter or select the window that you want to check existence.
+### Please enter or select the window that you want to check existence.
 
 
 <dl>
@@ -33,11 +34,21 @@ Use this command when you want to check a existence of window name.
 <dt>Value</dt><dd>Window Names</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindow}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindow}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -54,20 +65,40 @@ Use this command when you want to check a existence of window name.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Select the Specify the variable to assign the result
+### Please Specify the variable to assign the result
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Result is <strong>TRUE</strong> or <strong>FALSE</strong></dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -86,7 +117,7 @@ Use this command when you want to check a existence of window name.
 ## Developer/Additional Reference
 Automation Class Name: CheckWindowNameExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

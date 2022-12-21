@@ -17,6 +17,7 @@ This command allows you to clear text to the clipboard.
 Use this command when you want to copy the data from the clipboard and apply it to a variable.  You can then use the variable to extract the value.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Comment Field (Optional)](#param_0)
 
@@ -37,7 +38,7 @@ Use this command when you want to copy the data from the clipboard and apply it 
 ## Developer/Additional Reference
 Automation Class Name: ClipboardClearTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

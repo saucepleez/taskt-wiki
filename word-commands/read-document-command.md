@@ -17,6 +17,7 @@ This command allows you to save a Word document.
 Use this command when you want to save changes to a document.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Specify the Please define where the text should be stored](#param_1)
@@ -37,6 +38,15 @@ Use this command when you want to save changes to a document.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Specify the Please define where the text should be stored
 
@@ -48,6 +58,15 @@ Use this command when you want to save changes to a document.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -66,7 +85,7 @@ Use this command when you want to save changes to a document.
 ## Developer/Additional Reference
 Automation Class Name: WordReadDocumentCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

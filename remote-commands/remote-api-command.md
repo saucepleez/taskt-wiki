@@ -17,9 +17,10 @@ This command allows you to execute automation against another taskt Client.
 Use this command when you want to automate against a taskt instance that enables Local Listener.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please enter the IP:Port (ex. 192.168.2.200:19312)](#param_0)
-- [Please Select the Select Parameter Type](#param_1)
+- [Please Select Parameter Type](#param_1)
 - [Please Specify the Request Timeout (ms)](#param_2)
 - [Please select the variable to receive the response](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
@@ -38,8 +39,17 @@ Use this command when you want to automate against a taskt instance that enables
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Select the Select Parameter Type
+### Please Select Parameter Type
 
 
 <dl>
@@ -50,6 +60,15 @@ Use this command when you want to automate against a taskt instance that enables
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -65,6 +84,15 @@ Use this command when you want to automate against a taskt instance that enables
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please select the variable to receive the response
 
@@ -76,6 +104,15 @@ Use this command when you want to automate against a taskt instance that enables
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -94,7 +131,7 @@ Use this command when you want to automate against a taskt instance that enables
 ## Developer/Additional Reference
 Automation Class Name: RemoteAPICommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,10 +17,11 @@ This command allows you to format file path.
 Use this command when you want to format file path.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please indicate the File Path to Delete.](#param_0)
-- [Please Select the Please specify File Path Format.](#param_1)
-- [Please Select the Please specify Variable Name to store Result.](#param_2)
+- [Please specify File Path Format.](#param_1)
+- [Please specify Variable Name to store Result.](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
@@ -32,15 +33,25 @@ Use this command when you want to format file path.
 <dt>What to input</dt><dd>Enter or Select the path to the file.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vTextFilePath}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vTextFilePath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Select the Please specify File Path Format.
+### Please specify File Path Format.
 
 
 <dl>
@@ -48,15 +59,25 @@ Use this command when you want to format file path.
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>FileName</strong> or  <strong>FileNameWithoutExtension</strong> or  <strong>Folder</strong> or  <strong>Extension</strong> or  <strong>DriveName</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>FileName</strong> or  <strong>FileNameWithoutExtension</strong> or  <strong>Folder</strong> or  <strong>Extension</strong> or  <strong>DriveName</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Select the Please specify Variable Name to store Result.
+### Please specify Variable Name to store Result.
 
 
 <dl>
@@ -64,11 +85,21 @@ Use this command when you want to format file path.
 <dt>Value</dt><dd>Variables</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -87,7 +118,7 @@ Use this command when you want to format file path.
 ## Developer/Additional Reference
 Automation Class Name: FormatFilePathCommnad
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

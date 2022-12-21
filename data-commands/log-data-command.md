@@ -17,14 +17,15 @@ This command logs data to files.
 Use this command when you want to log custom data to a file for debugging or analytical purposes.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Select existing log file or enter a custom name.(ex. MyLog, Engine Log)](#param_0)
+- [Please Select existing log file or enter a custom name.(ex. MyLog, Engine Log)](#param_0)
 - [Please enter the text to log.](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select the Select existing log file or enter a custom name.(ex. MyLog, Engine Log)
+### Please Select existing log file or enter a custom name.(ex. MyLog, Engine Log)
 
 
 <dl>
@@ -35,6 +36,15 @@ Use this command when you want to log custom data to a file for debugging or ana
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -49,6 +59,15 @@ Use this command when you want to log custom data to a file for debugging or ana
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -67,7 +86,7 @@ Use this command when you want to log custom data to a file for debugging or ana
 ## Developer/Additional Reference
 Automation Class Name: LogDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

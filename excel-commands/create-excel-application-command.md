@@ -17,6 +17,7 @@ This command opens the Excel Application.
 Use this command when you want to launch a new instance of Excel.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name (ex. myInstance, {vInstance})](#param_0)
 - [Please Specify the Comment Field (Optional)](#param_1)
@@ -29,13 +30,24 @@ Use this command when you want to launch a new instance of Excel.
 <dl>
 <dt>What to input</dt><dd>Signifies a unique name that will represemt the application instance.  This unique name allows you to refer to the instance by name in future commands, ensuring that the commands you specify run against the correct application.</dd>
 <dt>Instance Type</dt><dd>Excel</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -54,7 +66,7 @@ Use this command when you want to launch a new instance of Excel.
 ## Developer/Additional Reference
 Automation Class Name: ExcelCreateApplicationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

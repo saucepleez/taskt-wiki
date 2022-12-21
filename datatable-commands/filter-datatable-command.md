@@ -17,10 +17,11 @@ This command allows you filter a DataTable into a new Datatable
 Use this command when you want to get specific rows of a DataTable.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please indicate the DataTable Variable Name](#param_0)
 - [Please indicate the output DataTable Variable Name](#param_1)
-- [Please Specify the Please indicate tuples to filter by.](#param_2)
+- [Please indicate tuples to filter by.](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
@@ -38,6 +39,15 @@ Use this command when you want to get specific rows of a DataTable.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please indicate the output DataTable Variable Name
 
@@ -45,15 +55,25 @@ Use this command when you want to get specific rows of a DataTable.
 <dl>
 <dt>What to input</dt><dd>Enter a unique DataTable name for future reference.</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Sample Usage</dt><dd><strong>newData</strong> or <strong>{vNewData}</strong></dd>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Sample Usage</dt><dd><strong>newData</strong> or <strong>{vNewData}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Specify the Please indicate tuples to filter by.
+### Please indicate tuples to filter by.
 
 
 <dl>
@@ -63,6 +83,15 @@ Use this command when you want to get specific rows of a DataTable.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -81,7 +110,7 @@ Use this command when you want to get specific rows of a DataTable.
 ## Developer/Additional Reference
 Automation Class Name: FilterDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

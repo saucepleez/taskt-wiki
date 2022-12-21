@@ -17,14 +17,15 @@ This command allows you to add an in-line comment to the script.
 Use this command when you want to add code comments or document code.  Usage of variables (ex. [vVar]) within the comment block will be parsed and displayed when running the script.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please Enter ip address or host name that you want to ping (ex. 192.168.0.1, {vHost})](#param_0)
+- [Please Enter ip address or host name that you want to ping (ex. 192.168.0.1, {vHost})](#param_0)
 - [Please Specify the Apply Result To Variable](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
-### Please Specify the Please Enter ip address or host name that you want to ping (ex. 192.168.0.1, {vHost})
+### Please Enter ip address or host name that you want to ping (ex. 192.168.0.1, {vHost})
 
 
 <dl>
@@ -34,6 +35,15 @@ Use this command when you want to add code comments or document code.  Usage of 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -47,6 +57,15 @@ Use this command when you want to add code comments or document code.  Usage of 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -65,7 +84,7 @@ Use this command when you want to add code comments or document code.  Usage of 
 ## Developer/Additional Reference
 Automation Class Name: PingCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

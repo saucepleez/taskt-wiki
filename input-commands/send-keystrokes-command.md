@@ -17,12 +17,13 @@ Sends keystrokes to a targeted window
 Use this command when you want to send keystroke inputs to a window.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the Window name](#param_0)
 - [Optional - Please Select the Window name search method](#param_1)
-- [Please Specify the Please Enter text to send.](#param_2)
-- [Optional - Please Select the Please Indicate if Text is Encrypted](#param_3)
-- [Optional - Please Specify the Please specify waiting time after keystrokes (ms)](#param_4)
+- [Please Enter text to send.](#param_2)
+- [Optional - Please Indicate if Text is Encrypted](#param_3)
+- [Optional - Please specify waiting time after keystrokes (ms)](#param_4)
 - [Please Specify the Comment Field (Optional)](#param_5)
 
 
@@ -40,6 +41,15 @@ Use this command when you want to send keystroke inputs to a window.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Optional - Please Select the Window name search method
 
@@ -54,8 +64,17 @@ Use this command when you want to send keystroke inputs to a window.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Specify the Please Enter text to send.
+### Please Enter text to send.
 
 
 <dl>
@@ -67,8 +86,17 @@ Use this command when you want to send keystroke inputs to a window.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Optional - Please Select the Please Indicate if Text is Encrypted
+### Optional - Please Indicate if Text is Encrypted
 
 
 <dl>
@@ -81,8 +109,17 @@ Use this command when you want to send keystroke inputs to a window.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
-### Optional - Please Specify the Please specify waiting time after keystrokes (ms)
+### Optional - Please specify waiting time after keystrokes (ms)
 
 
 <dl>
@@ -93,6 +130,15 @@ Use this command when you want to send keystroke inputs to a window.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -111,7 +157,7 @@ Use this command when you want to send keystroke inputs to a window.
 ## Developer/Additional Reference
 Automation Class Name: SendKeysCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

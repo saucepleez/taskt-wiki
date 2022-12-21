@@ -17,9 +17,10 @@ This command allows you to create a new Selenium web browser session which enabl
 Use this command when you want to create a browser that will eventually perform web automation such as checking an internal company intranet site to retrieve data
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name (ex. myInstance, {vInstance})](#param_0)
-- [Please Select the Please Select type of match to make](#param_1)
+- [Please Select type of match to make](#param_1)
 - [Please Select the Optional - Please define a match specification (Default is Contains Match)](#param_2)
 - [Please Select the Optional - Indicate if search is case-sensitive (Default is No)](#param_3)
 - [Please Specify the Please provide the parameter to match (ex. Window URL, Window Title, Handle ID)](#param_4)
@@ -40,8 +41,17 @@ Use this command when you want to create a browser that will eventually perform 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Select the Please Select type of match to make
+### Please Select type of match to make
 
 
 <dl>
@@ -52,6 +62,15 @@ Use this command when you want to create a browser that will eventually perform 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -68,6 +87,15 @@ Use this command when you want to create a browser that will eventually perform 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please Select the Optional - Indicate if search is case-sensitive (Default is No)
 
@@ -82,6 +110,15 @@ Use this command when you want to create a browser that will eventually perform 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
 ### Please Specify the Please provide the parameter to match (ex. Window URL, Window Title, Handle ID)
 
@@ -93,6 +130,15 @@ Use this command when you want to create a browser that will eventually perform 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -111,7 +157,7 @@ Use this command when you want to create a browser that will eventually perform 
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserSwitchWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,9 +17,10 @@ This command allows you to close Word.
 Use this command when you want to close an open instance of Word.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
-- [Please Specify the Indicate if the Document should be saved](#param_1)
+- [Please Indicate if the Document should be saved](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
@@ -37,8 +38,17 @@ Use this command when you want to close an open instance of Word.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Indicate if the Document should be saved
+### Please Indicate if the Document should be saved
 
 
 <dl>
@@ -48,6 +58,15 @@ Use this command when you want to close an open instance of Word.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -66,7 +85,7 @@ Use this command when you want to close an open instance of Word.
 ## Developer/Additional Reference
 Automation Class Name: WordCloseApplicationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

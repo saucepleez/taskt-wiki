@@ -17,9 +17,10 @@ This command allows you to delete a specified cell in Excel
 Use this command when you want to delete a specific cell from the current sheet.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
-- [Please Specify the Indicate the range to delete ex. A1 or A1:C1](#param_1)
+- [Please Indicate the range to delete ex. A1 or A1:C1](#param_1)
 - [Please Select the Should the cells below shift upward after deletion?](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
@@ -38,8 +39,17 @@ Use this command when you want to delete a specific cell from the current sheet.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Indicate the range to delete ex. A1 or A1:C1
+### Please Indicate the range to delete ex. A1 or A1:C1
 
 
 <dl>
@@ -49,6 +59,15 @@ Use this command when you want to delete a specific cell from the current sheet.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -63,6 +82,15 @@ Use this command when you want to delete a specific cell from the current sheet.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -81,7 +109,7 @@ Use this command when you want to delete a specific cell from the current sheet.
 ## Developer/Additional Reference
 Automation Class Name: ExcelDeleteCellCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

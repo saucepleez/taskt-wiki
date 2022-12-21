@@ -17,33 +17,44 @@ This command allows you to get EMailList(EMails) using POP protocol.
 Use this command when you want to get MailList(EMails) using POP protocol. Result Variable Type is EMailList.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please specify POP Host Name](#param_0)
-- [Please Specify the Please specify POP Port](#param_1)
-- [Please Specify the Please specify POP Username](#param_2)
-- [Please Specify the Please specify POP Password](#param_3)
-- [Optional - Please Select the Please specify Secure Option](#param_4)
-- [Please Select the Please specify Variable Name to Store EMailList](#param_5)
+- [Please specify POP Host Name](#param_0)
+- [Please specify POP Port](#param_1)
+- [Please specify POP Username](#param_2)
+- [Please specify POP Password](#param_3)
+- [Optional - Please specify Secure Option](#param_4)
+- [Please specify Variable Name to Store EMailList](#param_5)
 - [Please Specify the Comment Field (Optional)](#param_6)
 
 
 <a id="param_0"></a>
-### Please Specify the Please specify POP Host Name
+### Please specify POP Host Name
 
 
 <dl>
 <dt>What to input</dt><dd>Define the host/service name that the script should use</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>pop.mymail.com</strong> or <strong>{vHost}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>pop.mymail.com</strong> or <strong>{vHost}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Please specify POP Port
+### Please specify POP Port
 
 
 <dl>
@@ -51,15 +62,25 @@ Use this command when you want to get MailList(EMails) using POP protocol. Resul
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li>Less than Zero</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>110</strong> or <strong>995</strong> or <strong>{vPort}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>110</strong> or <strong>995</strong> or <strong>{vPort}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Specify the Please specify POP Username
+### Please specify POP Username
 
 
 <dl>
@@ -71,23 +92,42 @@ Use this command when you want to get MailList(EMails) using POP protocol. Resul
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Please Specify the Please specify POP Password
+### Please specify POP Password
 
 
 <dl>
 <dt>What to input</dt><dd>Define the password to use when contacting the POP service</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>password</strong> or <strong>{vPassword}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>password</strong> or <strong>{vPassword}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
-### Optional - Please Select the Please specify Secure Option
+### Optional - Please specify Secure Option
 
 
 <dl>
@@ -100,20 +140,40 @@ Use this command when you want to get MailList(EMails) using POP protocol. Resul
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
 <a id="param_5"></a>
-### Please Select the Please specify Variable Name to Store EMailList
+### Please specify Variable Name to Store EMailList
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>vMailList</strong> or <strong>{vMailList}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vMailList</strong> or <strong>{vMailList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
 
 
 <a id="param_6"></a>
@@ -132,7 +192,7 @@ Use this command when you want to get MailList(EMails) using POP protocol. Resul
 ## Developer/Additional Reference
 Automation Class Name: MailKitRecieveEmailListUsingPOPCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

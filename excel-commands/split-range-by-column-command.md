@@ -17,13 +17,14 @@ This command gets text from a specified Excel Range and splits it into separate 
 Use this command when you want to split a range into separate ranges.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Enter the First Cell Location (ex. A1 or B2)](#param_1)
 - [Please Enter the Second Cell Location (ex. A1 or B2, Leave Blank for All)](#param_2)
 - [Please Enter the Column Name](#param_3)
 - [Please indicate the output directory](#param_4)
-- [Please Select the Indicate the File Type to save as](#param_5)
+- [Please Indicate the File Type to save as](#param_5)
 - [Please Specify the Assign DataTable List to Variable](#param_6)
 - [Please Specify the Comment Field (Optional)](#param_7)
 
@@ -42,6 +43,15 @@ Use this command when you want to split a range into separate ranges.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Enter the First Cell Location (ex. A1 or B2)
 
@@ -53,6 +63,15 @@ Use this command when you want to split a range into separate ranges.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -68,6 +87,15 @@ Use this command when you want to split a range into separate ranges.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please Enter the Column Name
 
@@ -79,6 +107,15 @@ Use this command when you want to split a range into separate ranges.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -94,8 +131,17 @@ Use this command when you want to split a range into separate ranges.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
 <a id="param_5"></a>
-### Please Select the Indicate the File Type to save as
+### Please Indicate the File Type to save as
 
 
 <dl>
@@ -106,6 +152,15 @@ Use this command when you want to split a range into separate ranges.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
 
 
 <a id="param_6"></a>
@@ -119,6 +174,15 @@ Use this command when you want to split a range into separate ranges.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
 
 
 <a id="param_7"></a>
@@ -137,7 +201,7 @@ Use this command when you want to split a range into separate ranges.
 ## Developer/Additional Reference
 Automation Class Name: ExcelSplitRangeByColumnCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

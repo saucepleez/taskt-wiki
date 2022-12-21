@@ -17,15 +17,16 @@ This command allows you to split a Text
 Use this command when you want to split a single Text or variable into multiple items
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please select variable or text to split](#param_0)
-- [Please Specify the Please specify Input Delimiter (ex. [crLF] for new line, [chars] for each char, ',' , {vChar})](#param_1)
+- [Please select variable or text to split](#param_0)
+- [Please specify Input Delimiter (ex. [crLF] for new line, [chars] for each char, ',' , {vChar})](#param_1)
 - [Please select the list variable which will contain the results](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please Specify the Please select variable or text to split
+### Please select variable or text to split
 
 
 <dl>
@@ -37,19 +38,38 @@ Use this command when you want to split a single Text or variable into multiple 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Please specify Input Delimiter (ex. [crLF] for new line, [chars] for each char, ',' , {vChar})
+### Please specify Input Delimiter (ex. [crLF] for new line, [chars] for each char, ',' , {vChar})
 
 
 <dl>
 <dt>What to input</dt><dd>Declare the character that will be used to seperate. [crLF] can be used for line breaks and [chars] can be used to split each digit/letter</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -59,13 +79,24 @@ Use this command when you want to split a single Text or variable into multiple 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -84,7 +115,7 @@ Use this command when you want to split a single Text or variable into multiple 
 ## Developer/Additional Reference
 Automation Class Name: SplitTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,11 +17,12 @@ This command allows you to build a date and apply it to a variable.
 Use this command when you want to perform a date calculation.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Please supply the date value or variable](#param_0)
-- [Please Select the Please Select a Calculation Method](#param_1)
+- [Please Select a Calculation Method](#param_1)
 - [Please Specify the Please supply the increment value](#param_2)
-- [Optional - Please Specify the Specify String Format](#param_3)
+- [Optional - Please Specify String Format](#param_3)
 - [Please select the variable to receive the date calculation](#param_4)
 - [Please Specify the Comment Field (Optional)](#param_5)
 
@@ -39,8 +40,17 @@ Use this command when you want to perform a date calculation.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Select the Please Select a Calculation Method
+### Please Select a Calculation Method
 
 
 <dl>
@@ -51,6 +61,15 @@ Use this command when you want to perform a date calculation.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -66,8 +85,17 @@ Use this command when you want to perform a date calculation.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Optional - Please Specify the Specify String Format
+### Optional - Please Specify String Format
 
 
 <dl>
@@ -77,6 +105,15 @@ Use this command when you want to perform a date calculation.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -91,6 +128,15 @@ Use this command when you want to perform a date calculation.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -109,7 +155,7 @@ Use this command when you want to perform a date calculation.
 ## Developer/Additional Reference
 Automation Class Name: DateCalculationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

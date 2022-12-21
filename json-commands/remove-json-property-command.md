@@ -17,9 +17,10 @@ This command allows you to remove a property in JSON
 
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the JSON Variable Name](#param_0)
-- [Please Specify the Please Specify a JSON extractor (JSONPath)](#param_1)
+- [Please Specify a JSON extractor (JSONPath)](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
@@ -32,26 +33,46 @@ This command allows you to remove a property in JSON
 <dt>Instance Type</dt><dd>JSON</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>{vSomeVariable}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>{vSomeVariable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Please Specify a JSON extractor (JSONPath)
+### Please Specify a JSON extractor (JSONPath)
 
 
 <dl>
 <dt>What to input</dt><dd>Input a JSON token extractor</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>$.id</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>$.id</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -70,7 +91,7 @@ This command allows you to remove a property in JSON
 ## Developer/Additional Reference
 Automation Class Name: RemoveJSONPropertyCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

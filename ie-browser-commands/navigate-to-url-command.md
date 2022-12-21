@@ -17,6 +17,7 @@ This command allows you to navigate a IE web browser session to a given URL or r
 Use this command when you want to navigate an existing IE instance to a known URL or web resource
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Enter the URL to navigate to](#param_1)
@@ -37,6 +38,15 @@ Use this command when you want to navigate an existing IE instance to a known UR
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Enter the URL to navigate to
 
@@ -48,6 +58,15 @@ Use this command when you want to navigate an existing IE instance to a known UR
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -66,7 +85,7 @@ Use this command when you want to navigate an existing IE instance to a known UR
 ## Developer/Additional Reference
 Automation Class Name: IEBrowserNavigateURLCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

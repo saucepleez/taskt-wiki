@@ -17,25 +17,37 @@ This command allows you to Select AutomationElement.
 
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please specify AutomationElement Variable](#param_0)
+- [Please specify AutomationElement Variable](#param_0)
 - [Please Specify the Comment Field (Optional)](#param_1)
 
 
 <a id="param_0"></a>
-### Please Select the Please specify AutomationElement Variable
+### Please specify AutomationElement Variable
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>AutomationElement</dd>
-<dt>Parameter Direction</dt><dd>Input</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>{vElement}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>{vElement}</strong></dd>
 <dt>Remarks</dt><dd>Supported Element is CheckBox, RadioButton, List Items, etc.</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -54,7 +66,7 @@ This command allows you to Select AutomationElement.
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSelectElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

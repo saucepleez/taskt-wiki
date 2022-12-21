@@ -17,6 +17,7 @@ This command allows you to get emails and attachments with outlook
 Use this command when you want to get emails and attachments with your currenty logged in outlook account
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Provide the source mail folder name](#param_0)
 - [Please Specify the Provide a filter (Optional)](#param_1)
@@ -42,6 +43,15 @@ Use this command when you want to get emails and attachments with your currenty 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Specify the Provide a filter (Optional)
 
@@ -53,6 +63,15 @@ Use this command when you want to get emails and attachments with your currenty 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -69,6 +88,15 @@ Use this command when you want to get emails and attachments with your currenty 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please Select the Mark emails as read
 
@@ -81,6 +109,15 @@ Use this command when you want to get emails and attachments with your currenty 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -96,6 +133,15 @@ Use this command when you want to get emails and attachments with your currenty 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
 <a id="param_5"></a>
 ### Please Specify the Assign MailItem List to variable
 
@@ -107,6 +153,15 @@ Use this command when you want to get emails and attachments with your currenty 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
 
 
 <a id="param_6"></a>
@@ -123,6 +178,15 @@ Use this command when you want to get emails and attachments with your currenty 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
 <a id="param_7"></a>
 ### Please indicate the output directory for the attachments
 
@@ -134,6 +198,15 @@ Use this command when you want to get emails and attachments with your currenty 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
+
+
+</div>
 
 
 <a id="param_8"></a>
@@ -152,7 +225,7 @@ Use this command when you want to get emails and attachments with your currenty 
 ## Developer/Additional Reference
 Automation Class Name: OutlookGetEmailsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

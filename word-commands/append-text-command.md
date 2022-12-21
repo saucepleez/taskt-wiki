@@ -17,14 +17,15 @@ This command appends text to a word document.
 Use this command when you want to append text to a specific document.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Enter the Text Variable Name to Set](#param_1)
-- [Please Select the Select or Enter the text font name](#param_2)
-- [Please Select the Select or Enter the text font size](#param_3)
-- [Please Select the Select Bold](#param_4)
-- [Please Select the Select Italic](#param_5)
-- [Please Select the Select Underline](#param_6)
+- [Please Select or Enter the text font name](#param_2)
+- [Please Select or Enter the text font size](#param_3)
+- [Please Select Bold](#param_4)
+- [Please Select Italic](#param_5)
+- [Please Select Underline](#param_6)
 - [Please Specify the Comment Field (Optional)](#param_7)
 
 
@@ -42,6 +43,15 @@ Use this command when you want to append text to a specific document.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Enter the Text Variable Name to Set
 
@@ -55,8 +65,17 @@ Use this command when you want to append text to a specific document.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Select the Select or Enter the text font name
+### Please Select or Enter the text font name
 
 
 <dl>
@@ -69,8 +88,17 @@ Use this command when you want to append text to a specific document.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Please Select the Select or Enter the text font size
+### Please Select or Enter the text font size
 
 
 <dl>
@@ -83,8 +111,17 @@ Use this command when you want to append text to a specific document.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
-### Please Select the Select Bold
+### Please Select Bold
 
 
 <dl>
@@ -97,8 +134,17 @@ Use this command when you want to append text to a specific document.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
 <a id="param_5"></a>
-### Please Select the Select Italic
+### Please Select Italic
 
 
 <dl>
@@ -111,8 +157,17 @@ Use this command when you want to append text to a specific document.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
 <a id="param_6"></a>
-### Please Select the Select Underline
+### Please Select Underline
 
 
 <dl>
@@ -123,6 +178,15 @@ Use this command when you want to append text to a specific document.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
 
 
 <a id="param_7"></a>
@@ -141,7 +205,7 @@ Use this command when you want to append text to a specific document.
 ## Developer/Additional Reference
 Automation Class Name: WordAppendTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

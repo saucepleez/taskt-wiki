@@ -17,17 +17,18 @@ Show OpenFileDialog or SaveFileDialog
 Use this command when you want to select file to save or open.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Specify the type of dialog](#param_0)
-- [Please Specify the Specify the value of the Filter property](#param_1)
-- [Optional - Please Specify the Specify the value of the FilterIndex property (Default is 1)](#param_2)
-- [Optional - Please Specify the Specify the value of the InitialDirectory property (Default is documents)](#param_3)
+- [Please Specify the type of dialog](#param_0)
+- [Please Specify the value of the Filter property](#param_1)
+- [Optional - Please Specify the value of the FilterIndex property (Default is 1)](#param_2)
+- [Optional - Please Specify the value of the InitialDirectory property (Default is documents)](#param_3)
 - [Please select the variable to receive file name](#param_4)
 - [Please Specify the Comment Field (Optional)](#param_5)
 
 
 <a id="param_0"></a>
-### Please Select the Specify the type of dialog
+### Please Specify the type of dialog
 
 
 <dl>
@@ -40,8 +41,17 @@ Use this command when you want to select file to save or open.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Specify the value of the Filter property
+### Please Specify the value of the Filter property
 
 
 <dl>
@@ -53,8 +63,17 @@ Use this command when you want to select file to save or open.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Specify the Specify the value of the FilterIndex property (Default is 1)
+### Optional - Please Specify the value of the FilterIndex property (Default is 1)
 
 
 <dl>
@@ -66,8 +85,17 @@ Use this command when you want to select file to save or open.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Optional - Please Specify the Specify the value of the InitialDirectory property (Default is documents)
+### Optional - Please Specify the value of the InitialDirectory property (Default is documents)
 
 
 <dl>
@@ -77,6 +105,15 @@ Use this command when you want to select file to save or open.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -91,6 +128,15 @@ Use this command when you want to select file to save or open.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -109,7 +155,7 @@ Use this command when you want to select file to save or open.
 ## Developer/Additional Reference
 Automation Class Name: FileDialogCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

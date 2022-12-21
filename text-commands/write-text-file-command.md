@@ -17,10 +17,11 @@ This command writes specified data to a text file
 Use this command when you want to write data to text files.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please indicate the path to the file](#param_0)
 - [Please indicate the text to be written. [crLF] inserts a newline.](#param_1)
-- [Optional - Please Select the Please select overwrite option](#param_2)
+- [Optional - Please select overwrite option](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
@@ -32,13 +33,23 @@ Use this command when you want to write data to text files.
 <dt>What to input</dt><dd>Enter or Select the path to the text file.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vTextFilePath}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vTextFilePath}</strong></dd>
 <dt>Remarks</dt><dd>If file does not contain extensin, supplement txt automatically.
 If file does not contain folder path, file will be saved in the same folder as script file.
 If file path contains FileCounter variable, it will be replaced by a number that will become the name of a non-existent file.</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -54,8 +65,17 @@ If file path contains FileCounter variable, it will be replaced by a number that
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Select the Please select overwrite option
+### Optional - Please select overwrite option
 
 
 <dl>
@@ -66,6 +86,15 @@ If file path contains FileCounter variable, it will be replaced by a number that
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -84,7 +113,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 ## Developer/Additional Reference
 Automation Class Name: WriteTextFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

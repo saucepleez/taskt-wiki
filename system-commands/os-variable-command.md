@@ -17,14 +17,15 @@ This command allows you to exclusively select a system/environment variable
 Use this command to exclusively retrieve a system variable
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Select the required system variable](#param_0)
+- [Please Select the required system variable](#param_0)
 - [Please select the variable to receive output](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select the Select the required system variable
+### Please Select the required system variable
 
 
 <dl>
@@ -34,6 +35,15 @@ Use this command to exclusively retrieve a system variable
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -48,6 +58,15 @@ Use this command to exclusively retrieve a system variable
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -66,7 +85,7 @@ Use this command to exclusively retrieve a system variable
 ## Developer/Additional Reference
 Automation Class Name: OSVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

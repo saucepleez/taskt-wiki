@@ -17,10 +17,11 @@ Sends keystrokes to a targeted window
 Use this command when you want to send keystroke inputs to a window.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the Window name](#param_0)
 - [Optional - Please Select the Window name search method (Default is Contains)](#param_1)
-- [Please Select the Please select Hotkey to Send.](#param_2)
+- [Please select Hotkey to Send.](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
@@ -38,6 +39,15 @@ Use this command when you want to send keystroke inputs to a window.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Optional - Please Select the Window name search method (Default is Contains)
 
@@ -52,8 +62,17 @@ Use this command when you want to send keystroke inputs to a window.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Select the Please select Hotkey to Send.
+### Please select Hotkey to Send.
 
 
 <dl>
@@ -64,7 +83,7 @@ Use this command when you want to send keystroke inputs to a window.
 </dl>
 
 
-#### Addtional Info about &quot;Please Select the Please select Hotkey to Send.&quot;
+#### Addtional Info about &quot;Please select Hotkey to Send.&quot;
 | Parameter Value(s) | Description   | Sample Data 	| Remarks  	|
 | ---             | ---           | ---          | ---       |
 |New|Send Ctrl + N|||
@@ -87,6 +106,15 @@ Use this command when you want to send keystroke inputs to a window.
 |Select All|Send Ctrl + A|||
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please Specify the Comment Field (Optional)
 
@@ -103,7 +131,7 @@ Use this command when you want to send keystroke inputs to a window.
 ## Developer/Additional Reference
 Automation Class Name: SendHotkeyCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

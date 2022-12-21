@@ -17,39 +17,50 @@ This command allows you to send EMail using SMTP protocol.
 Use this command when you want to send an EMail and have access to SMTP server credentials to generate an EMail.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please specify SMTP Host Name](#param_0)
-- [Please Specify the Please specify SMTP Port](#param_1)
-- [Optional - Please Specify the Please specify SMTP Username](#param_2)
-- [Please Specify the Please specify SMTP Password](#param_3)
-- [Please Specify the Please specify From Email Address](#param_4)
-- [Please Specify the Please specify To Email Address](#param_5)
-- [Optional - Please Specify the Please specify CC Email Address](#param_6)
-- [Optional - Please Specify the Please specify BCC Email Address](#param_7)
-- [Optional - Please Specify the Please specify Email Subject](#param_8)
-- [Optional - Please Specify the Please specify Email Message](#param_9)
-- [Optional - Please Specify the Please specify Email Attachment File Path](#param_10)
-- [Optional - Please Select the Please specify Secure Option](#param_11)
+- [Please specify SMTP Host Name](#param_0)
+- [Please specify SMTP Port](#param_1)
+- [Optional - Please specify SMTP Username](#param_2)
+- [Please specify SMTP Password](#param_3)
+- [Please specify From Email Address](#param_4)
+- [Please specify To Email Address](#param_5)
+- [Optional - Please specify CC Email Address](#param_6)
+- [Optional - Please specify BCC Email Address](#param_7)
+- [Optional - Please specify Email Subject](#param_8)
+- [Optional - Please specify Email Message](#param_9)
+- [Optional - Please specify Email Attachment File Path](#param_10)
+- [Optional - Please specify Secure Option](#param_11)
 - [Please Specify the Comment Field (Optional)](#param_12)
 
 
 <a id="param_0"></a>
-### Please Specify the Please specify SMTP Host Name
+### Please specify SMTP Host Name
 
 
 <dl>
 <dt>What to input</dt><dd>Define the host/service name that the script should use</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>smtp.mymail.com</strong> or <strong>{vHost}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>smtp.mymail.com</strong> or <strong>{vHost}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Please specify SMTP Port
+### Please specify SMTP Port
 
 
 <dl>
@@ -57,15 +68,25 @@ Use this command when you want to send an EMail and have access to SMTP server c
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li>Less than Zero</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>25</strong> or <strong>587</strong> or <strong>{vPort}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>25</strong> or <strong>587</strong> or <strong>{vPort}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Specify the Please specify SMTP Username
+### Optional - Please specify SMTP Username
 
 
 <dl>
@@ -77,53 +98,92 @@ Use this command when you want to send an EMail and have access to SMTP server c
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Please Specify the Please specify SMTP Password
+### Please specify SMTP Password
 
 
 <dl>
 <dt>What to input</dt><dd>Define the password to use when contacting the SMTP service</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>password</strong> or <strong>{vPassword}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>password</strong> or <strong>{vPassword}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
-### Please Specify the Please specify From Email Address
+### Please specify From Email Address
 
 
 <dl>
 <dt>What to input</dt><dd>Specify how the 'From' field should appear.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>my-robot@company.com</strong> or <strong>{vFromMail}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>my-robot@company.com</strong> or <strong>{vFromMail}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
 <a id="param_5"></a>
-### Please Specify the Please specify To Email Address
+### Please specify To Email Address
 
 
 <dl>
 <dt>What to input</dt><dd>Specify the destination email that should be addressed.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>john@company.com</strong> or <strong>{vToMail}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>john@company.com</strong> or <strong>{vToMail}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
 <a id="param_6"></a>
-### Optional - Please Specify the Please specify CC Email Address
+### Optional - Please specify CC Email Address
 
 
 <dl>
@@ -135,8 +195,17 @@ Use this command when you want to send an EMail and have access to SMTP server c
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
 <a id="param_7"></a>
-### Optional - Please Specify the Please specify BCC Email Address
+### Optional - Please specify BCC Email Address
 
 
 <dl>
@@ -148,8 +217,17 @@ Use this command when you want to send an EMail and have access to SMTP server c
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
+
+
+</div>
+
+
 <a id="param_8"></a>
-### Optional - Please Specify the Please specify Email Subject
+### Optional - Please specify Email Subject
 
 
 <dl>
@@ -161,8 +239,17 @@ Use this command when you want to send an EMail and have access to SMTP server c
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
+
+
+</div>
+
+
 <a id="param_9"></a>
-### Optional - Please Specify the Please specify Email Message
+### Optional - Please specify Email Message
 
 
 <dl>
@@ -174,8 +261,17 @@ Use this command when you want to send an EMail and have access to SMTP server c
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_9) / [list](#param_list) / [next](#param_10)
+
+
+</div>
+
+
 <a id="param_10"></a>
-### Optional - Please Specify the Please specify Email Attachment File Path
+### Optional - Please specify Email Attachment File Path
 
 
 <dl>
@@ -187,8 +283,17 @@ Use this command when you want to send an EMail and have access to SMTP server c
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_10) / [list](#param_list) / [next](#param_11)
+
+
+</div>
+
+
 <a id="param_11"></a>
-### Optional - Please Select the Please specify Secure Option
+### Optional - Please specify Secure Option
 
 
 <dl>
@@ -199,6 +304,15 @@ Use this command when you want to send an EMail and have access to SMTP server c
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_11) / [list](#param_list) / [next](#param_12)
+
+
+</div>
 
 
 <a id="param_12"></a>
@@ -217,7 +331,7 @@ Use this command when you want to send an EMail and have access to SMTP server c
 ## Developer/Additional Reference
 Automation Class Name: MailKitSendEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,6 +17,7 @@ This command allows you to add an in-line comment to the script.
 Use this command when you want to add code comments or document code.  Usage of variables (ex. [vVar]) within the comment block will be parsed and displayed when running the script.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Comment Field (Optional)](#param_0)
 
@@ -37,7 +38,7 @@ Use this command when you want to add code comments or document code.  Usage of 
 ## Developer/Additional Reference
 Automation Class Name: CommentCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,9 +17,10 @@ This command allows you to navigate a Selenium web browser session to a given UR
 Use this command when you want to navigate an existing Selenium instance to a known URL or web resource
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name (ex. myInstance, {vInstance})](#param_0)
-- [Please Select the Indicate which info property to retrieve](#param_1)
+- [Please Indicate which info property to retrieve](#param_1)
 - [Please select the variable to receive the result](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
@@ -38,8 +39,17 @@ Use this command when you want to navigate an existing Selenium instance to a kn
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Select the Indicate which info property to retrieve
+### Please Indicate which info property to retrieve
 
 
 <dl>
@@ -50,6 +60,15 @@ Use this command when you want to navigate an existing Selenium instance to a kn
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -63,6 +82,15 @@ Use this command when you want to navigate an existing Selenium instance to a kn
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -81,7 +109,7 @@ Use this command when you want to navigate an existing Selenium instance to a kn
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserInfoCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

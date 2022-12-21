@@ -17,6 +17,7 @@ This command creates a folder in a specified destination
 Use this command to create a folder in a specific location.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please indicate the name of the new folder](#param_0)
 - [Please indicate the directory for the new folder](#param_1)
@@ -32,11 +33,21 @@ Use this command to create a folder in a specific location.
 <dt>What to input</dt><dd>Enter the name of the new folder.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>myFolderName</strong> or <strong>{vFolderName}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>myFolderName</strong> or <strong>{vFolderName}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -47,11 +58,21 @@ Use this command to create a folder in a specific location.
 <dt>What to input</dt><dd>Enter or Select the path to the directory.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\myfolder</strong> or <strong>{TextFolderPath}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfolder</strong> or <strong>{TextFolderPath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -66,6 +87,15 @@ Use this command to create a folder in a specific location.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -84,7 +114,7 @@ Use this command to create a folder in a specific location.
 ## Developer/Additional Reference
 Automation Class Name: CreateFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

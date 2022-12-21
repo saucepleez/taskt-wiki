@@ -17,6 +17,7 @@ This command allows you to delete emails with outlook
 Use this command when you want to delete emails with your currenty logged in outlook account
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Provide the source mail folder name](#param_0)
 - [Please Specify the Provide a filter (Required)](#param_1)
@@ -37,6 +38,15 @@ Use this command when you want to delete emails with your currenty logged in out
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Specify the Provide a filter (Required)
 
@@ -48,6 +58,15 @@ Use this command when you want to delete emails with your currenty logged in out
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -62,6 +81,15 @@ Use this command when you want to delete emails with your currenty logged in out
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -80,7 +108,7 @@ Use this command when you want to delete emails with your currenty logged in out
 ## Developer/Additional Reference
 Automation Class Name: OutlookDeleteEmailsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

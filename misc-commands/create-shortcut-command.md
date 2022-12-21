@@ -17,45 +17,66 @@ This command allow to create shortcut file
 Use this command when you want to create shortcut file
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please specify Shortcut Target File, Folder, or URL](#param_0)
-- [Please Specify the Please specify saved Shortcut Path](#param_1)
-- [Optional - Please Specify the Please specify Shortcut Description](#param_2)
+- [Please specify Shortcut Target File, Folder, or URL](#param_0)
+- [Please specify saved Shortcut Path](#param_1)
+- [Optional - Please specify Shortcut Description](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please Specify the Please specify Shortcut Target File, Folder, or URL
+### Please specify Shortcut Target File, Folder, or URL
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\target.txt</strong> or <strong>C:\temp</strong> or <strong>http://example.com</strong> or <strong>{vPath}}</strong> or <strong>{vURL}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\target.txt</strong> or <strong>C:\temp</strong> or <strong>http://example.com</strong> or <strong>{vPath}}</strong> or <strong>{vURL}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
-### Please Specify the Please specify saved Shortcut Path
+### Please specify saved Shortcut Path
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\shortcut.lnk</strong> or <strong>C:\temp\shortcut.url</strong> or <strong>{vShortcut}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\shortcut.lnk</strong> or <strong>C:\temp\shortcut.url</strong> or <strong>{vShortcut}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Specify the Please specify Shortcut Description
+### Optional - Please specify Shortcut Description
 
 
 <dl>
@@ -65,6 +86,15 @@ Use this command when you want to create shortcut file
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -83,7 +113,7 @@ Use this command when you want to create shortcut file
 ## Developer/Additional Reference
 Automation Class Name: CreateShortcutCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

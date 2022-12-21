@@ -17,6 +17,7 @@ This command allows you to run C# code from the input
 Use this command when you want to run custom C# code commands.  The code in this command is compiled and run at runtime when this command is invoked.  This command only supports the standard framework classes.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Paste the C# code to execute](#param_0)
 - [Please Specify the Optional - Supply Arguments](#param_1)
@@ -37,6 +38,15 @@ Use this command when you want to run custom C# code commands.  The code in this
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Specify the Optional - Supply Arguments
 
@@ -50,6 +60,15 @@ Use this command when you want to run custom C# code commands.  The code in this
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
 ### Please Specify the Optional - Select the variable to receive the output
 
@@ -61,6 +80,15 @@ Use this command when you want to run custom C# code commands.  The code in this
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -79,7 +107,7 @@ Use this command when you want to run custom C# code commands.  The code in this
 ## Developer/Additional Reference
 Automation Class Name: RunCustomCodeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

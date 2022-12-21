@@ -17,13 +17,14 @@ This command allows you to run a script or program and wait for it to exit befor
 Use this command when you want to run a script (such as vbScript, javascript, or executable) but wait for it to close before taskt continues executing.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Enter the path to the script (ex. C:\temp\myscript.vbs, {vScriptPath})](#param_0)
+- [Please Enter the path to the script (ex. C:\temp\myscript.vbs, {vScriptPath})](#param_0)
 - [Please Specify the Comment Field (Optional)](#param_1)
 
 
 <a id="param_0"></a>
-### Please Specify the Enter the path to the script (ex. C:\temp\myscript.vbs, {vScriptPath})
+### Please Enter the path to the script (ex. C:\temp\myscript.vbs, {vScriptPath})
 
 
 <dl>
@@ -34,6 +35,15 @@ If file does not contain folder path, file will be opened in the same folder as 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -52,7 +62,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: RunScriptCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

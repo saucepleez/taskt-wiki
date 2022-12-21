@@ -17,14 +17,15 @@ This command allows you to modify variables.
 Use this command when you want to modify the value of variables.  You can even use variables to modify other variables.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please select a variable to modify](#param_0)
+- [Please select a variable to modify](#param_0)
 - [Please Specify the Please set the current index of the variable (ex. 1, 2, {vNum})](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
-### Please Specify the Please select a variable to modify
+### Please select a variable to modify
 
 
 <dl>
@@ -34,6 +35,15 @@ Use this command when you want to modify the value of variables.  You can even u
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -47,6 +57,15 @@ Use this command when you want to modify the value of variables.  You can even u
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -65,7 +84,7 @@ Use this command when you want to modify the value of variables.  You can even u
 ## Developer/Additional Reference
 Automation Class Name: SetVariableIndexCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

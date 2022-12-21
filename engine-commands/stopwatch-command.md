@@ -17,30 +17,41 @@ This command allows you to stop a program or a process.
 Use this command to close an application by its name such as 'chrome'. Alternatively, you may use the Close Window or Thick App Command instead.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Enter the instance name of the Stopwatch](#param_0)
-- [Please Select the Enter the Stopwatch Action](#param_1)
+- [Please Enter the instance name of the Stopwatch](#param_0)
+- [Please Enter the Stopwatch Action](#param_1)
 - [Please Specify the Apply Result To Variable](#param_2)
 - [Please Specify the Optional - Specify String Format (ex. hh:mm)](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
 
 
 <a id="param_0"></a>
-### Please Select the Enter the instance name of the Stopwatch
+### Please Enter the instance name of the Stopwatch
 
 
 <dl>
 <dt>What to input</dt><dd>Provide a unique instance or way to refer to the stopwatch</dd>
 <dt>Instance Type</dt><dd>StopWatch</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Select the Enter the Stopwatch Action
+### Please Enter the Stopwatch Action
 
 
 <dl>
@@ -51,6 +62,15 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -66,6 +86,15 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please Specify the Optional - Specify String Format (ex. hh:mm)
 
@@ -77,6 +106,15 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -95,7 +133,7 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 ## Developer/Additional Reference
 Automation Class Name: StopwatchCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

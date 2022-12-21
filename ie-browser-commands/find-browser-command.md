@@ -17,9 +17,10 @@ This command allows you to find and attach to an existing IE web browser session
 
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
-- [Please Specify the Please Select or Enter the Browser Name](#param_1)
+- [Please Select or Enter the Browser Name](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
@@ -37,8 +38,17 @@ This command allows you to find and attach to an existing IE web browser session
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Please Select or Enter the Browser Name
+### Please Select or Enter the Browser Name
 
 
 <dl>
@@ -48,6 +58,15 @@ This command allows you to find and attach to an existing IE web browser session
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -66,7 +85,7 @@ This command allows you to find and attach to an existing IE web browser session
 ## Developer/Additional Reference
 Automation Class Name: IEBrowserFindBrowserCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

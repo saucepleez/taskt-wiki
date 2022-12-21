@@ -17,15 +17,16 @@ This command allows you to modify variables.
 Use this command when you want to modify the value of variables.  You can even use variables to modify other variables.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please select a variable to modify](#param_0)
+- [Please select a variable to modify](#param_0)
 - [Please Specify the Please define the input to be set to above variable (ex. Hello, 1, {vNum})](#param_1)
 - [Optional - Please Select the Convert Variables in Input Text Above (Default is Yes)](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please Specify the Please select a variable to modify
+### Please select a variable to modify
 
 
 <dl>
@@ -35,6 +36,15 @@ Use this command when you want to modify the value of variables.  You can even u
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -50,6 +60,15 @@ Use this command when you want to modify the value of variables.  You can even u
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
 ### Optional - Please Select the Convert Variables in Input Text Above (Default is Yes)
 
@@ -63,6 +82,15 @@ Use this command when you want to modify the value of variables.  You can even u
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -81,7 +109,7 @@ Use this command when you want to modify the value of variables.  You can even u
 ## Developer/Additional Reference
 Automation Class Name: VariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

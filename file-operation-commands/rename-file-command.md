@@ -17,10 +17,11 @@ This command renames a file at a specified destination
 Use this command to rename an existing file.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please indicate the path to the source file](#param_0)
 - [Please indicate the new file name (with extension)](#param_1)
-- [Optional - Please Select the Please select If File Name Same After the Change](#param_2)
+- [Optional - Please select If File Name Same After the Change](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
@@ -32,11 +33,21 @@ Use this command to rename an existing file.
 <dt>What to input</dt><dd>Enter or Select the path to the file.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vTextFilePath}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vTextFilePath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -47,15 +58,25 @@ Use this command to rename an existing file.
 <dt>What to input</dt><dd>Specify the new file name including the extension.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>newfile.txt</strong> or <strong>{vNewFileName}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>newfile.txt</strong> or <strong>{vNewFileName}</strong></dd>
 <dt>Remarks</dt><dd>Changing the file extension will not automatically convert files.</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Select the Please select If File Name Same After the Change
+### Optional - Please select If File Name Same After the Change
 
 
 <dl>
@@ -66,6 +87,15 @@ Use this command to rename an existing file.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -84,7 +114,7 @@ Use this command to rename an existing file.
 ## Developer/Additional Reference
 Automation Class Name: RenameFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

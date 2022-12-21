@@ -17,14 +17,15 @@ This command allows you to evaluate a logical statement to determine if the stat
 Use this command when you want to check if a statement is 'true' or 'false' and subsequently loop actions based on either condition. Any 'BeginLoop' command must have a following 'EndLoop' command.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please select type of Loop Command](#param_0)
+- [Please select type of Loop Command](#param_0)
 - [Please Specify the Additional Parameters](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select the Please select type of Loop Command
+### Please select type of Loop Command
 
 
 <dl>
@@ -35,6 +36,15 @@ Use this command when you want to check if a statement is 'true' or 'false' and 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -48,6 +58,15 @@ Use this command when you want to check if a statement is 'true' or 'false' and 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -66,7 +85,7 @@ Use this command when you want to check if a statement is 'true' or 'false' and 
 ## Developer/Additional Reference
 Automation Class Name: BeginLoopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

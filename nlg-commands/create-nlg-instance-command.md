@@ -17,6 +17,7 @@ This command pauses the script for a set amount of time specified in millisecond
 Use this command when you want to pause your script for a specific amount of time.  After the specified time is finished, the script will resume execution.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Specify the Comment Field (Optional)](#param_1)
@@ -29,11 +30,21 @@ Use this command when you want to pause your script for a specific amount of tim
 <dl>
 <dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create NLG Instance</strong> command</dd>
 <dt>Instance Type</dt><dd>NLG</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create NLG Instance</strong> command will cause an error</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -52,7 +63,7 @@ Use this command when you want to pause your script for a specific amount of tim
 ## Developer/Additional Reference
 Automation Class Name: NLGCreateInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

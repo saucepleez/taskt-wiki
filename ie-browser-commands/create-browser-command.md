@@ -17,6 +17,7 @@ This command allows you to create a new IE web browser session.
 
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Select the Instance Tracking (after task ends)](#param_1)
@@ -31,11 +32,21 @@ This command allows you to create a new IE web browser session.
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>IE</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -52,6 +63,15 @@ This command allows you to create a new IE web browser session.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
 ### Please Enter the URL to navigate to
 
@@ -63,6 +83,15 @@ This command allows you to create a new IE web browser session.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -81,7 +110,7 @@ This command allows you to create a new IE web browser session.
 ## Developer/Additional Reference
 Automation Class Name: IEBrowserCreateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

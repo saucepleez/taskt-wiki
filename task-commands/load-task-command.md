@@ -17,13 +17,14 @@ This command pre-loads tasks for future execution.
 Use this command when you want to load a task but not immediately execute it.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Select a task to load. After, use 'Run Task' with the same path to execute.](#param_0)
+- [Please Select a task to load. After, use 'Run Task' with the same path to execute.](#param_0)
 - [Please Specify the Comment Field (Optional)](#param_1)
 
 
 <a id="param_0"></a>
-### Please Specify the Select a task to load. After, use 'Run Task' with the same path to execute.
+### Please Select a task to load. After, use 'Run Task' with the same path to execute.
 
 
 <dl>
@@ -33,6 +34,15 @@ Use this command when you want to load a task but not immediately execute it.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -51,7 +61,7 @@ Use this command when you want to load a task but not immediately execute it.
 ## Developer/Additional Reference
 Automation Class Name: LoadTaskCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

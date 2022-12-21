@@ -17,16 +17,17 @@ This command allows you to run a powershell script and wait for it to exit befor
 Use this command when you want to run a powershell script and wait for it to close before taskt continues executing.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Enter the path to the powershell script (ex. C:\temp\myscript.ps, {vScriptPath})](#param_0)
-- [Please Specify the Enter Powershell Command Arguments](#param_1)
+- [Please Enter the path to the powershell script (ex. C:\temp\myscript.ps, {vScriptPath})](#param_0)
+- [Please Enter Powershell Command Arguments](#param_1)
 - [Please Select the Convert variables before execution](#param_2)
 - [Please Specify the Optional - Select the variable to receive the output](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
 
 
 <a id="param_0"></a>
-### Please Specify the Enter the path to the powershell script (ex. C:\temp\myscript.ps, {vScriptPath})
+### Please Enter the path to the powershell script (ex. C:\temp\myscript.ps, {vScriptPath})
 
 
 <dl>
@@ -40,8 +41,17 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Enter Powershell Command Arguments
+### Please Enter Powershell Command Arguments
 
 
 <dl>
@@ -51,6 +61,15 @@ If file does not contain folder path, file will be opened in the same folder as 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -67,6 +86,15 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please Specify the Optional - Select the variable to receive the output
 
@@ -78,6 +106,15 @@ If file does not contain folder path, file will be opened in the same folder as 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -96,7 +133,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: RunPowershellCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,46 +17,68 @@ This command allows you to Format DateTime Text.
 Use this command when you want to Format DateTime Text.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please select a DateTime Variable Name](#param_0)
-- [Please Specify the Please specify DateTime Format](#param_1)
-- [Please Select the Please specify Variable Name to store Result](#param_2)
+- [Please select a DateTime Variable Name](#param_0)
+- [Please specify DateTime Format](#param_1)
+- [Please specify Variable Name to store Result](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the Please select a DateTime Variable Name
+### Please select a DateTime Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>DateTime</dd>
-<dt>Parameter Direction</dt><dd>Input</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>{vDateTime}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>{vDateTime}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Please specify DateTime Format
+### Please specify DateTime Format
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>MM/dd/yyyy</strong> or <strong>HH:mm:ss</strong> or <strong>{vFormat}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>MM/dd/yyyy</strong> or <strong>HH:mm:ss</strong> or <strong>{vFormat}</strong></dd>
 <dt>Remarks</dt><dd>Please refer to the Microsoft DateTime.ToString() page for format details</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Select the Please specify Variable Name to store Result
+### Please specify Variable Name to store Result
 
 
 <dl>
@@ -64,11 +86,21 @@ Use this command when you want to Format DateTime Text.
 <dt>Value</dt><dd>Variables</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -87,7 +119,7 @@ Use this command when you want to Format DateTime Text.
 ## Developer/Additional Reference
 Automation Class Name: FormatDateTimeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

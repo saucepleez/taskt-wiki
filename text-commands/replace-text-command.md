@@ -17,46 +17,67 @@ This command allows you to replace text
 Use this command when you want to replace existing text within text or a variable with new text
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please select text or variable to modify](#param_0)
-- [Please Specify the Indicate the text to be replaced](#param_1)
-- [Optional - Please Specify the Indicate the replacement value](#param_2)
+- [Please select text or variable to modify](#param_0)
+- [Please Indicate the text to be replaced](#param_1)
+- [Optional - Please Indicate the replacement value](#param_2)
 - [Please select the variable to receive the changes](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
 
 
 <a id="param_0"></a>
-### Please Specify the Please select text or variable to modify
+### Please select text or variable to modify
 
 
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable or text value</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Indicate the text to be replaced
+### Please Indicate the text to be replaced
 
 
 <dl>
 <dt>What to input</dt><dd>Enter the old value of the text that will be replaced</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>H</strong> or <strong>{vTextA}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>H</strong> or <strong>{vTextA}</strong></dd>
 <dt>Remarks</dt><dd>H in Hello would be targeted for replacement</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Specify the Indicate the replacement value
+### Optional - Please Indicate the replacement value
 
 
 <dl>
@@ -69,6 +90,15 @@ Use this command when you want to replace existing text within text or a variabl
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please select the variable to receive the changes
 
@@ -78,11 +108,21 @@ Use this command when you want to replace existing text within text or a variabl
 <dt>Value</dt><dd>Variables</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -101,7 +141,7 @@ Use this command when you want to replace existing text within text or a variabl
 ## Developer/Additional Reference
 Automation Class Name: ReplaceTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,13 +17,14 @@ This command specifies what to do  after an error is encountered.
 Use this command when you want to define how your script should behave when an error is encountered.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Select an action to take in the event an error occurs](#param_0)
+- [Please Select an action to take in the event an error occurs](#param_0)
 - [Please Specify the Comment Field (Optional)](#param_1)
 
 
 <a id="param_0"></a>
-### Please Select the Select an action to take in the event an error occurs
+### Please Select an action to take in the event an error occurs
 
 
 <dl>
@@ -34,6 +35,15 @@ Use this command when you want to define how your script should behave when an e
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -52,7 +62,7 @@ Use this command when you want to define how your script should behave when an e
 ## Developer/Additional Reference
 Automation Class Name: ErrorHandlingCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

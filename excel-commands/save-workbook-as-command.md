@@ -17,10 +17,11 @@ This command allows you to save an Excel workbook.
 Use this command when you want to save a workbook to a file.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please indicate the file path to save](#param_1)
-- [Optional - Please Select the Please Specify If Excel File Exists](#param_2)
+- [Optional - Please Specify If Excel File Exists](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
@@ -33,11 +34,21 @@ Use this command when you want to save a workbook to a file.
 <dt>Instance Type</dt><dd>Excel</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error.</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -48,7 +59,8 @@ Use this command when you want to save a workbook to a file.
 <dt>What to input</dt><dd>Enter or Select the path to the file.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vExcelFilePath}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vExcelFilePath}</strong></dd>
 <dt>Remarks</dt><dd>If file does not contain extensin, supplement xlsx extension.
 If file does not contain folder path, file will be saved in the same folder as script file.</dd>
 </dl>
@@ -56,8 +68,17 @@ If file does not contain folder path, file will be saved in the same folder as s
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Select the Please Specify If Excel File Exists
+### Optional - Please Specify If Excel File Exists
 
 
 <dl>
@@ -68,6 +89,15 @@ If file does not contain folder path, file will be saved in the same folder as s
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -86,7 +116,7 @@ If file does not contain folder path, file will be saved in the same folder as s
 ## Developer/Additional Reference
 Automation Class Name: ExcelSaveAsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

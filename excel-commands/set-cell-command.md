@@ -17,9 +17,10 @@ This command sets the value of a cell.
 Use this command when you want to set a value to a specific cell.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
-- [Please Specify the Please Enter text to set](#param_1)
+- [Please Enter text to set](#param_1)
 - [Please Enter the Cell Location](#param_2)
 - [Optional - Please Select the Value type](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
@@ -34,15 +35,25 @@ Use this command when you want to set a value to a specific cell.
 <dt>Instance Type</dt><dd>Excel</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Please Enter text to set
+### Please Enter text to set
 
 
 <dl>
@@ -54,6 +65,15 @@ Use this command when you want to set a value to a specific cell.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
 ### Please Enter the Cell Location
 
@@ -62,11 +82,21 @@ Use this command when you want to set a value to a specific cell.
 <dt>What to input</dt><dd>Enter the actual location of the cell.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>A1</strong> or <strong>B10</strong> or <strong>{vAddress}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>A1</strong> or <strong>B10</strong> or <strong>{vAddress}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -81,6 +111,15 @@ Use this command when you want to set a value to a specific cell.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -99,7 +138,7 @@ Use this command when you want to set a value to a specific cell.
 ## Developer/Additional Reference
 Automation Class Name: ExcelSetCellCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

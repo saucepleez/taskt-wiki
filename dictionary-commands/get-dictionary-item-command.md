@@ -17,16 +17,17 @@ This command allows you to get value in Dictionary
 Use this command when you want to get value in Dictionary.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please input The Dictionary Variable](#param_0)
+- [Please input The Dictionary Variable](#param_0)
 - [Optional - Please indicate the key for the Dictionary](#param_1)
 - [Please indicate the variable to apply result](#param_2)
-- [Optional - Please Select the Please Select If Key does not Exists](#param_3)
+- [Optional - Please Select If Key does not Exists](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
 
 
 <a id="param_0"></a>
-### Please Select the Please input The Dictionary Variable
+### Please input The Dictionary Variable
 
 
 <dl>
@@ -34,11 +35,21 @@ Use this command when you want to get value in Dictionary.
 <dt>Instance Type</dt><dd>Dictionary</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>myDictionary</strong> or <strong>{vMyDic}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>myDictionary</strong> or <strong>{vMyDic}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -55,6 +66,15 @@ Use this command when you want to get value in Dictionary.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
 ### Please indicate the variable to apply result
 
@@ -64,15 +84,25 @@ Use this command when you want to get value in Dictionary.
 <dt>Value</dt><dd>Variables</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>vMyData</strong> or <strong>{myData}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vMyData</strong> or <strong>{myData}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Optional - Please Select the Please Select If Key does not Exists
+### Optional - Please Select If Key does not Exists
 
 
 <dl>
@@ -83,6 +113,15 @@ Use this command when you want to get value in Dictionary.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -101,7 +140,7 @@ Use this command when you want to get value in Dictionary.
 ## Developer/Additional Reference
 Automation Class Name: GetDictionaryValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

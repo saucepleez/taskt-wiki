@@ -17,10 +17,11 @@ Simulates mouse movements
 Use this command to simulate the movement of the mouse, additionally, this command also allows you to perform a click after movement has completed.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please enter the X position to move the mouse to](#param_0)
 - [Please enter the Y position to move the mouse to](#param_1)
-- [Optional - Please Select the Please indicate mouse click type if required (defualt is None)](#param_2)
+- [Optional - Please indicate mouse click type if required (defualt is None)](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
@@ -37,6 +38,15 @@ Use this command to simulate the movement of the mouse, additionally, this comma
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please enter the Y position to move the mouse to
 
@@ -50,8 +60,17 @@ Use this command to simulate the movement of the mouse, additionally, this comma
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Select the Please indicate mouse click type if required (defualt is None)
+### Optional - Please indicate mouse click type if required (defualt is None)
 
 
 <dl>
@@ -63,6 +82,15 @@ Use this command to simulate the movement of the mouse, additionally, this comma
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -81,7 +109,7 @@ Use this command to simulate the movement of the mouse, additionally, this comma
 ## Developer/Additional Reference
 Automation Class Name: SendMouseMoveCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,14 +17,15 @@ This command allows you to copy a Dictionary.
 Use this command when you want to copy a Dictionary.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please input The Dictionary Variable to Copy](#param_0)
+- [Please input The Dictionary Variable to Copy](#param_0)
 - [Please indicate the new Dictionary](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select the Please input The Dictionary Variable to Copy
+### Please input The Dictionary Variable to Copy
 
 
 <dl>
@@ -32,11 +33,21 @@ Use this command when you want to copy a Dictionary.
 <dt>Instance Type</dt><dd>Dictionary</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>myDictionary1</strong> or <strong>{vMyDic1}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>myDictionary1</strong> or <strong>{vMyDic1}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -46,13 +57,24 @@ Use this command when you want to copy a Dictionary.
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>newDic</strong> or <strong>{newDic}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>newDic</strong> or <strong>{newDic}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -71,7 +93,7 @@ Use this command when you want to copy a Dictionary.
 ## Developer/Additional Reference
 Automation Class Name: CopyDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

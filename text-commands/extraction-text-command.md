@@ -17,9 +17,10 @@ This command allows you to perform advanced string extraction.
 Use this command when you want to extract a piece of text from a larger text or variable
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Supply the value or variable requiring extraction](#param_0)
-- [Please Select the Please select text extraction type](#param_1)
+- [Please select text extraction type](#param_1)
 - [Please Specify the Extraction Parameters](#param_2)
 - [Please select the variable to receive the extracted text](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
@@ -38,8 +39,17 @@ Use this command when you want to extract a piece of text from a larger text or 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Select the Please select text extraction type
+### Please select text extraction type
 
 
 <dl>
@@ -50,6 +60,15 @@ Use this command when you want to extract a piece of text from a larger text or 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -75,6 +94,15 @@ Use this command when you want to extract a piece of text from a larger text or 
 |Extract All Between Text &amp; Skip Past Occurences||||
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please select the variable to receive the extracted text
 
@@ -87,6 +115,15 @@ Use this command when you want to extract a piece of text from a larger text or 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -105,7 +142,7 @@ Use this command when you want to extract a piece of text from a larger text or 
 ## Developer/Additional Reference
 Automation Class Name: ExtractionTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,31 +17,43 @@ This command allows you to get Addresses from EMail.
 Use this command when you want to get Addresses from EMail.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please specify EMail Variable Name](#param_0)
-- [Please Select the Please specify Address Type](#param_1)
-- [Please Select the Please specify Variable Name to Store Addresses](#param_2)
+- [Please specify EMail Variable Name](#param_0)
+- [Please specify Address Type](#param_1)
+- [Please specify Variable Name to Store Addresses](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the Please specify EMail Variable Name
+### Please specify EMail Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>MailKitEMail</dd>
-<dt>Parameter Direction</dt><dd>Input</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>{vEMail}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>{vEMail}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Select the Please specify Address Type
+### Please specify Address Type
 
 
 <dl>
@@ -49,27 +61,48 @@ Use this command when you want to get Addresses from EMail.
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>From</strong> or  <strong>To</strong> or  <strong>CC</strong> or  <strong>BCC</strong> or  <strong>Reply-To</strong> or  <strong>Resent-From</strong> or  <strong>Resent-To</strong> or  <strong>Resent-CC</strong> or  <strong>Resent-BCC</strong> or  <strong>Resent-Reply-To</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>From</strong> or  <strong>To</strong> or  <strong>CC</strong> or  <strong>BCC</strong> or  <strong>Reply-To</strong> or  <strong>Resent-From</strong> or  <strong>Resent-To</strong> or  <strong>Resent-CC</strong> or  <strong>Resent-BCC</strong> or  <strong>Resent-Reply-To</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Please Select the Please specify Variable Name to Store Addresses
+### Please specify Variable Name to Store Addresses
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>vAddress</strong> or <strong>{vAddresses}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vAddress</strong> or <strong>{vAddresses}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -88,7 +121,7 @@ Use this command when you want to get Addresses from EMail.
 ## Developer/Additional Reference
 Automation Class Name: MailKitGetAddressesAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

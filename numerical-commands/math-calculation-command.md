@@ -17,10 +17,11 @@ This command allows you to perform a math calculation and apply it to a variable
 Use this command when you want to perform a math calculation.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Please supply the input to be computed](#param_0)
-- [Optional - Please Specify the Indicate Thousand Seperator](#param_1)
-- [Optional - Please Specify the Indicate Decimal Seperator](#param_2)
+- [Optional - Please Indicate Thousand Seperator](#param_1)
+- [Optional - Please Indicate Decimal Seperator](#param_2)
 - [Please select the variable to receive the math calculation](#param_3)
 - [Please Specify the Comment Field (Optional)](#param_4)
 
@@ -33,15 +34,25 @@ Use this command when you want to perform a math calculation.
 <dt>What to input</dt><dd>Specify either text or a variable that contains valid math.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>2+1</strong> or <strong>{vNum}+1</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>2+1</strong> or <strong>{vNum}+1</strong></dd>
 <dt>Remarks</dt><dd>You can use known numbers or variables.</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Optional - Please Specify the Indicate Thousand Seperator
+### Optional - Please Indicate Thousand Seperator
 
 
 <dl>
@@ -54,8 +65,17 @@ Use this command when you want to perform a math calculation.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Specify the Indicate Decimal Seperator
+### Optional - Please Indicate Decimal Seperator
 
 
 <dl>
@@ -68,6 +88,15 @@ Use this command when you want to perform a math calculation.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please select the variable to receive the math calculation
 
@@ -77,11 +106,21 @@ Use this command when you want to perform a math calculation.
 <dt>Value</dt><dd>Variables</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -100,7 +139,7 @@ Use this command when you want to perform a math calculation.
 ## Developer/Additional Reference
 Automation Class Name: MathCalculationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,6 +17,7 @@ This command allows you to close a Selenium web browser session.
 Use this command when you want to manipulate, set, or get data on a webpage within the web browser.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please Select the Element Search Method](#param_1)
@@ -41,6 +42,15 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Select the Element Search Method
 
@@ -53,6 +63,15 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -68,6 +87,15 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please Specify the Target Element Index (Only Use Fined Elements ***)
 
@@ -79,6 +107,15 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
 
 
 <a id="param_4"></a>
@@ -95,6 +132,15 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
 <a id="param_5"></a>
 ### Please Specify the Additional Parameters
 
@@ -106,6 +152,15 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
 
 
 <a id="param_6"></a>
@@ -124,7 +179,7 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserElementActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

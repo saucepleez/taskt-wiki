@@ -17,13 +17,14 @@ This command allows you to repeat actions several times (loop).  Any 'Begin Loop
 Use this command when you want to iterate over each item in a list, or a series of items.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please input the list variable to be looped (ex. {vList}, [1,2,3])](#param_0)
+- [Please input the list variable to be looped (ex. {vList}, [1,2,3])](#param_0)
 - [Please Specify the Comment Field (Optional)](#param_1)
 
 
 <a id="param_0"></a>
-### Please Specify the Please input the list variable to be looped (ex. {vList}, [1,2,3])
+### Please input the list variable to be looped (ex. {vList}, [1,2,3])
 
 
 <dl>
@@ -33,6 +34,15 @@ Use this command when you want to iterate over each item in a list, or a series 
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -51,7 +61,7 @@ Use this command when you want to iterate over each item in a list, or a series 
 ## Developer/Additional Reference
 Automation Class Name: BeginListLoopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

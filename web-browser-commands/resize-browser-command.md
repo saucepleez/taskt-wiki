@@ -17,10 +17,11 @@ This command allows you to change browser window size.
 Use this command when you want to change browser window size.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name (ex. myInstance, {vInstance})](#param_0)
-- [Optional - Please Specify the Please specify Browser window Width (Default is Empty and means current width)](#param_1)
-- [Optional - Please Specify the Please specify Browser window Height (Default is Empty and means current width)](#param_2)
+- [Optional - Please specify Browser window Width (Default is Empty and means current width)](#param_1)
+- [Optional - Please specify Browser window Height (Default is Empty and means current width)](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
@@ -38,8 +39,17 @@ Use this command when you want to change browser window size.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Optional - Please Specify the Please specify Browser window Width (Default is Empty and means current width)
+### Optional - Please specify Browser window Width (Default is Empty and means current width)
 
 
 <dl>
@@ -49,10 +59,19 @@ Use this command when you want to change browser window size.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
-### Optional - Please Specify the Please specify Browser window Height (Default is Empty and means current width)
+### Optional - Please specify Browser window Height (Default is Empty and means current width)
 
 
 <dl>
@@ -62,6 +81,15 @@ Use this command when you want to change browser window size.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -80,7 +108,7 @@ Use this command when you want to change browser window size.
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserResizeBrowser
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

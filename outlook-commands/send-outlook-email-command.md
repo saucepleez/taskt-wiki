@@ -17,17 +17,18 @@ This command allows you to send emails with outlook
 Use this command when you want to send emails with your currenty logged in outlook account
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please Indicate Recipients (; delimited)](#param_0)
+- [Please Indicate Recipients (; delimited)](#param_0)
 - [Please Specify the Attachment File Path (Optional)](#param_1)
 - [Please Specify the Provide Email Subject](#param_2)
 - [Please Specify the Provide Email Body](#param_3)
-- [Please Select the Select Email Body Type](#param_4)
+- [Please Select Email Body Type](#param_4)
 - [Please Specify the Comment Field (Optional)](#param_5)
 
 
 <a id="param_0"></a>
-### Please Specify the Please Indicate Recipients (; delimited)
+### Please Indicate Recipients (; delimited)
 
 
 <dl>
@@ -37,6 +38,15 @@ Use this command when you want to send emails with your currenty logged in outlo
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -52,6 +62,15 @@ Use this command when you want to send emails with your currenty logged in outlo
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
 ### Please Specify the Provide Email Subject
 
@@ -63,6 +82,15 @@ Use this command when you want to send emails with your currenty logged in outlo
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -78,8 +106,17 @@ Use this command when you want to send emails with your currenty logged in outlo
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
-### Please Select the Select Email Body Type
+### Please Select Email Body Type
 
 
 <dl>
@@ -90,6 +127,15 @@ Use this command when you want to send emails with your currenty logged in outlo
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -108,7 +154,7 @@ Use this command when you want to send emails with your currenty logged in outlo
 ## Developer/Additional Reference
 Automation Class Name: OutlookEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

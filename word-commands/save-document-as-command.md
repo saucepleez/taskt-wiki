@@ -17,6 +17,7 @@ This command allows you to save an Word document.
 Use this command when you want to save a document to a file.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name](#param_0)
 - [Please indicate the path of the file](#param_1)
@@ -37,6 +38,15 @@ Use this command when you want to save a document to a file.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please indicate the path of the file
 
@@ -49,6 +59,15 @@ If file does not contain folder path, file will be saved in the same folder as s
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -67,7 +86,7 @@ If file does not contain folder path, file will be saved in the same folder as s
 ## Developer/Additional Reference
 Automation Class Name: WordSaveAsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

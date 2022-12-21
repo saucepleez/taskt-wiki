@@ -17,26 +17,38 @@ This command created a DataTable with the column names provided
 Use this command when you want to create a new Dictionary
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Please Indicate Dictionary Variable Name](#param_0)
+- [Please Indicate Dictionary Variable Name](#param_0)
 - [Please Specify the Define Keys and Values](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select the Please Indicate Dictionary Variable Name
+### Please Indicate Dictionary Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>Indicate a unique reference name for later use</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>vMyDictionary</strong> or <strong>{vMyDictionary}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vMyDictionary</strong> or <strong>{vMyDictionary}</strong></dd>
 <dt>Remarks</dt><dd>Create Dictionary&lt;string, string&gt;</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -50,6 +62,15 @@ Use this command when you want to create a new Dictionary
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -68,7 +89,7 @@ Use this command when you want to create a new Dictionary
 ## Developer/Additional Reference
 Automation Class Name: CreateDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

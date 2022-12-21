@@ -17,14 +17,15 @@ This command allows you to upload data to a local tasktServer bot store
 Use this command when you want to upload or share data across bots.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please indicate a name of the key to create](#param_0)
-- [Please Specify the Please select a target variable or input value to upload](#param_1)
+- [Please indicate a name of the key to create](#param_0)
+- [Please select a target variable or input value to upload](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
-### Please Specify the Please indicate a name of the key to create
+### Please indicate a name of the key to create
 
 
 <dl>
@@ -34,10 +35,19 @@ Use this command when you want to upload or share data across bots.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
-### Please Specify the Please select a target variable or input value to upload
+### Please select a target variable or input value to upload
 
 
 <dl>
@@ -47,6 +57,15 @@ Use this command when you want to upload or share data across bots.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -65,7 +84,7 @@ Use this command when you want to upload or share data across bots.
 ## Developer/Additional Reference
 Automation Class Name: UploadDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

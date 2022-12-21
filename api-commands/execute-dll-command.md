@@ -17,6 +17,7 @@ This command processes an HTML source object
 Use this command to parse and extract data from a successful **HTTP Request Command**
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please indicate the path to the DLL file](#param_0)
 - [Please select the name of the class that contains the method to be invoked](#param_1)
@@ -39,6 +40,15 @@ Use this command to parse and extract data from a successful **HTTP Request Comm
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please select the name of the class that contains the method to be invoked
 
@@ -50,6 +60,15 @@ Use this command to parse and extract data from a successful **HTTP Request Comm
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -65,6 +84,15 @@ Use this command to parse and extract data from a successful **HTTP Request Comm
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
 ### Please select the variable to receive the result
 
@@ -78,6 +106,15 @@ Use this command to parse and extract data from a successful **HTTP Request Comm
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
 ### Please indicate the parameters (if required)
 
@@ -89,6 +126,15 @@ Use this command to parse and extract data from a successful **HTTP Request Comm
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
 
 
 <a id="param_5"></a>
@@ -107,7 +153,7 @@ Use this command to parse and extract data from a successful **HTTP Request Comm
 ## Developer/Additional Reference
 Automation Class Name: ExecuteDLLCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

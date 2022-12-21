@@ -17,6 +17,7 @@ This command allows you to show a message to the user.
 Use this command when you want to present or display a value on screen to the user.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the message to be displayed.](#param_0)
 - [Optional - Please Specify the Close After X (Seconds) - 0 to bypass (Default is 0)](#param_1)
@@ -36,6 +37,15 @@ Use this command when you want to present or display a value on screen to the us
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Optional - Please Specify the Close After X (Seconds) - 0 to bypass (Default is 0)
 
@@ -48,6 +58,15 @@ Use this command when you want to present or display a value on screen to the us
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -66,7 +85,7 @@ Use this command when you want to present or display a value on screen to the us
 ## Developer/Additional Reference
 Automation Class Name: MessageBoxCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

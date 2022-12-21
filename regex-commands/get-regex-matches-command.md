@@ -17,15 +17,16 @@ This command allows you to loop through an Excel Dataset
 Use this command when you want to iterate over a series of Excel cells.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Enter Regex Expressions.](#param_0)
-- [Please Specify the Please input the data you want to perform regex on.](#param_1)
-- [Please Specify the Please input a variable name.](#param_2)
+- [Please Enter Regex Expressions.](#param_0)
+- [Please input the data you want to perform regex on.](#param_1)
+- [Please input a variable name.](#param_2)
 - [Please Specify the Comment Field (Optional)](#param_3)
 
 
 <a id="param_0"></a>
-### Please Specify the Enter Regex Expressions.
+### Please Enter Regex Expressions.
 
 
 <dl>
@@ -35,10 +36,19 @@ Use this command when you want to iterate over a series of Excel cells.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
-### Please Specify the Please input the data you want to perform regex on.
+### Please input the data you want to perform regex on.
 
 
 <dl>
@@ -48,10 +58,19 @@ Use this command when you want to iterate over a series of Excel cells.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
-### Please Specify the Please input a variable name.
+### Please input a variable name.
 
 
 <dl>
@@ -61,6 +80,15 @@ Use this command when you want to iterate over a series of Excel cells.
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -79,7 +107,7 @@ Use this command when you want to iterate over a series of Excel cells.
 ## Developer/Additional Reference
 Automation Class Name: GetRegexMatchesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

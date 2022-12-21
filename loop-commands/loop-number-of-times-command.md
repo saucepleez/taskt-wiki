@@ -17,14 +17,15 @@ This command allows you to repeat actions several times (loop).  Any 'Begin Loop
 Use this command when you want to perform a series of commands a specified amount of times.
 
 
+<a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Enter how many times to perform the loop (ex. 5, {vNum})](#param_0)
+- [Please Enter how many times to perform the loop (ex. 5, {vNum})](#param_0)
 - [Please Specify the Optional - Define Start Index (Default: 0)](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
 <a id="param_0"></a>
-### Please Specify the Enter how many times to perform the loop (ex. 5, {vNum})
+### Please Enter how many times to perform the loop (ex. 5, {vNum})
 
 
 <dl>
@@ -34,6 +35,15 @@ Use this command when you want to perform a series of commands a specified amoun
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -47,6 +57,15 @@ Use this command when you want to perform a series of commands a specified amoun
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -65,7 +84,7 @@ Use this command when you want to perform a series of commands a specified amoun
 ## Developer/Additional Reference
 Automation Class Name: BeginNumberOfTimesLoopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

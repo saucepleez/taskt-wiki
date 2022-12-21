@@ -17,9 +17,10 @@ This command waits for a folder to exist at a specified destination
 Use this command to wait for a folder to exist before proceeding.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please indicate the path of the folder](#param_0)
-- [Please Specify the Indicate how many seconds to wait for the file to exist](#param_1)
+- [Please Indicate how many seconds to wait for the file to exist](#param_1)
 - [Please Specify the Comment Field (Optional)](#param_2)
 
 
@@ -31,15 +32,25 @@ Use this command to wait for a folder to exist before proceeding.
 <dt>What to input</dt><dd>Enter or Select the path to the folder.</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>C:\temp\myfolder</strong> or <strong>{vFolderPath}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfolder</strong> or <strong>{vFolderPath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
-### Please Specify the Indicate how many seconds to wait for the file to exist
+### Please Indicate how many seconds to wait for the file to exist
 
 
 <dl>
@@ -48,11 +59,21 @@ Use this command to wait for a folder to exist before proceeding.
 <li>Empty</li>
 <li>Less than Zero</li>
 <li>Equals Zero</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>10</strong> or <strong>20</strong> or <strong>{vWaitTime}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>10</strong> or <strong>20</strong> or <strong>{vWaitTime}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -71,7 +92,7 @@ Use this command to wait for a folder to exist before proceeding.
 ## Developer/Additional Reference
 Automation Class Name: WaitForFolderToExistCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

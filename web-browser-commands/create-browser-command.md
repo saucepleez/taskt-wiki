@@ -19,14 +19,15 @@ If this command does not work, please check your browser version, and WebDriver 
 You can check the WebDriver version with "foo.exe -v" in command prompt.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name (ex. myInstance, {vInstance})](#param_0)
 - [Optional - Please Select the Instance Tracking (after task ends) (Default is Forget Instance)](#param_1)
-- [Optional - Please Select the Please Select a Window State (Default is Normal)](#param_2)
-- [Optional - Please Specify the Please specify Selenium command line options](#param_3)
-- [Optional - Please Select the Please Select a Browser Engine Type (Default is Chrome)](#param_4)
-- [Optional - Please Specify the Please Select Browser Binary Path (Default is Empty)](#param_5)
-- [Optional - Please Specify the Please Select WebDriver Path (Default is Empty)](#param_6)
+- [Optional - Please Select a Window State (Default is Normal)](#param_2)
+- [Optional - Please specify Selenium command line options](#param_3)
+- [Optional - Please Select a Browser Engine Type (Default is Chrome)](#param_4)
+- [Optional - Please Select Browser Binary Path (Default is Empty)](#param_5)
+- [Optional - Please Select WebDriver Path (Default is Empty)](#param_6)
 - [Please Specify the Comment Field (Optional)](#param_7)
 
 
@@ -37,11 +38,21 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 <dl>
 <dt>What to input</dt><dd>Signifies a unique name that will represemt the application instance.  This unique name allows you to refer to the instance by name in future commands, ensuring that the commands you specify run against the correct application.</dd>
 <dt>Instance Type</dt><dd>WebBrowser</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Please install web browser before using this command.</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -59,8 +70,17 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
-### Optional - Please Select the Please Select a Window State (Default is Normal)
+### Optional - Please Select a Window State (Default is Normal)
 
 
 <dl>
@@ -73,8 +93,17 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
 <a id="param_3"></a>
-### Optional - Please Specify the Please specify Selenium command line options
+### Optional - Please specify Selenium command line options
 
 
 <dl>
@@ -86,8 +115,17 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
 <a id="param_4"></a>
-### Optional - Please Select the Please Select a Browser Engine Type (Default is Chrome)
+### Optional - Please Select a Browser Engine Type (Default is Chrome)
 
 
 <dl>
@@ -100,8 +138,17 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
 <a id="param_5"></a>
-### Optional - Please Specify the Please Select Browser Binary Path (Default is Empty)
+### Optional - Please Select Browser Binary Path (Default is Empty)
 
 
 <dl>
@@ -115,8 +162,17 @@ If you use a fixed web browser version, use this parameter.<br><br>
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
 <a id="param_6"></a>
-### Optional - Please Specify the Please Select WebDriver Path (Default is Empty)
+### Optional - Please Select WebDriver Path (Default is Empty)
 
 
 <dl>
@@ -128,6 +184,15 @@ If you use a fixed web browser version, use this parameter.<br><br>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
 
 
 <a id="param_7"></a>
@@ -146,7 +211,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

@@ -17,6 +17,7 @@ This command allows you to take a screenshot in Selenium web browser session.
 Use this command when you want to take a screenshot from the current displayed webpage within the web browser.
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Enter the instance name (ex. myInstance, {vInstance})](#param_0)
 - [Please Specify the Please define folder where the screenshot should be stored (ex. C:\screenshots, {vPath})](#param_1)
@@ -38,6 +39,15 @@ Use this command when you want to take a screenshot from the current displayed w
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 <a id="param_1"></a>
 ### Please Specify the Please define folder where the screenshot should be stored (ex. C:\screenshots, {vPath})
 
@@ -51,6 +61,15 @@ Use this command when you want to take a screenshot from the current displayed w
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
 <a id="param_2"></a>
 ### Please Specify the Please define the screenshot file name (no extension needed) (ex. screenshot_001, {vName})
 
@@ -62,6 +81,15 @@ Use this command when you want to take a screenshot from the current displayed w
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
 
 
 <a id="param_3"></a>
@@ -80,7 +108,7 @@ Use this command when you want to take a screenshot from the current displayed w
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserTakeScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help

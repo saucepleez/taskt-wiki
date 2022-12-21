@@ -17,6 +17,7 @@ This command allows you to convert JSON Array into a List.
 Use this command when you want to convert JSON Array into a List
 
 
+<a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Supply the JSON Array or Variable](#param_0)
 - [Please select the variable to receive the List](#param_1)
@@ -32,11 +33,21 @@ Use this command when you want to convert JSON Array into a List
 <dt>Instance Type</dt><dd>JSON</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd><strong>[1,2,3]</strong> or <strong>[{obj1},{obj2}]</strong> or <strong>{vArrayVariable}</strong></dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>[1,2,3]</strong> or <strong>[{obj1},{obj2}]</strong> or <strong>{vArrayVariable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_0) / [list](#param_list) / [next](#param_1)
+
+
+</div>
 
 
 <a id="param_1"></a>
@@ -46,13 +57,24 @@ Use this command when you want to convert JSON Array into a List
 <dl>
 <dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd><dt>Error Occurs When the Value is ...</dt><dd><ul>
+<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-</ul></dd><dt>Sample Usage</dt><dd>(nothing)</dd>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
 </dl>
 
 
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
 
 
 <a id="param_2"></a>
@@ -71,7 +93,7 @@ Use this command when you want to convert JSON Array into a List
 ## Developer/Additional Reference
 Automation Class Name: ConvertJSONToListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/12/22 09:29 PM
+This page was generated on 12/21/22 09:51 PM
 
 
 ## Help
