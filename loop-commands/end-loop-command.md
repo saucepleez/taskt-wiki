@@ -35,12 +35,21 @@ Use this command to signify the end point of a loop command.
 
 
 
+<div style="font-size: 90%; text-align: center">
+
+
+prev / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
 ## Developer/Additional Reference
 Automation Class Name: EndLoopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/21/22 09:51 PM
+This page was generated on 12/21/22 09:56 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
