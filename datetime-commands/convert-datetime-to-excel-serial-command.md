@@ -19,13 +19,13 @@ Use this command when you want Convert DateTime To Excel Serial Value.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a DateTime Variable Name](#param_0)
-- [Please specify Variable Name to Store Excel Serial Value](#param_1)
-- [Please Specify the Comment Field (Optional)](#param_2)
+- [Please Specify the v_DateTime](#param_0)
+- [Please Specify the Variable Name to Store Excel Serial Value](#param_1)
+- [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please select a DateTime Variable Name
+### Please Specify the v_DateTime
 
 
 <dl>
@@ -35,11 +35,17 @@ Use this command when you want Convert DateTime To Excel Serial Value.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>{vDateTime}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>{vDateTime}</strong> | Specify Value of Variable **vDateTime** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,7 +58,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify Variable Name to Store Excel Serial Value
+### Please Specify the Variable Name to Store Excel Serial Value
 
 
 <dl>
@@ -62,11 +68,18 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vSerial</strong> or <strong>{vSerial}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vSerial</strong> | Specify Variable Name **vSerial** |
+| <strong>{vSerial}</strong> | Specify Variable Name **vSerial** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -79,13 +92,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Comment Field (Optional)
+### Optional - Please Specify the Comment Field
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Optional</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -103,9 +116,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDateTimeToExcelSerialCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/21/22 09:56 PM
+This page was generated on 12/28/22 09:59 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

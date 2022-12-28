@@ -19,13 +19,13 @@ Use this command when you want to create DateTime from Text.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a DateTime Variable Name](#param_0)
-- [Please specify Text Value to Create DateTime](#param_1)
-- [Please Specify the Comment Field (Optional)](#param_2)
+- [Please Specify the v_DateTime](#param_0)
+- [Please Specify the Text Value](#param_1)
+- [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please select a DateTime Variable Name
+### Please Specify the v_DateTime
 
 
 <dl>
@@ -35,11 +35,18 @@ Use this command when you want to create DateTime from Text.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vDateTime</strong> or <strong>{vDateTime}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDateTime</strong> | Specify Variable Name **vDateTime** |
+| <strong>{vDateTime}</strong> | Specify Variable Name **vDateTime** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,7 +59,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify Text Value to Create DateTime
+### Please Specify the Text Value
 
 
 <dl>
@@ -60,11 +67,18 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>2000-01-01</strong> or <strong>{vText}</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>2000-01-01</strong> or <strong>{vText}}</strong></dd>
+<dt>Remarks</dt><dd>Recommended to Disable the Auto Calculation</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>2000-01-01</strong> | Specify **2000-01-01** for DateTime |
+| <strong>{vText}}</strong> | Specify Value of Variable **vText** for DateTime |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -77,13 +91,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Comment Field (Optional)
+### Optional - Please Specify the Comment Field
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Optional</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -101,9 +115,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateDateTimeFromTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/21/22 09:56 PM
+This page was generated on 12/28/22 09:59 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

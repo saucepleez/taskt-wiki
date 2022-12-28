@@ -19,29 +19,37 @@ Use this command when you want to filter List value.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a List Variable Name to Filter](#param_0)
-- [Please select filter target value type](#param_1)
-- [Please select filter action](#param_2)
+- [Please Specify the List Variable Name to Filter](#param_0)
+- [Please Select the Filter Target Value Type](#param_1)
+- [Please Select the Filter Action](#param_2)
 - [Please Specify the Additional Parameters](#param_3)
-- [Please select a List Variable Name of the Filtered List](#param_4)
-- [Please Specify the Comment Field (Optional)](#param_5)
+- [Please Specify the List Variable Name to Filtered List](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please select a List Variable Name to Filter
+### Please Specify the List Variable Name to Filter
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>List</dd>
+<dt>Parameter Direction</dt><dd>Input</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vList</strong> | Specify Variable Name **vList** |
+| <strong>{vList}</strong> | Specify Variable Name **vList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -54,7 +62,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please select filter target value type
+### Please Select the Filter Target Value Type
 
 
 <dl>
@@ -80,7 +88,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please select filter action
+### Please Select the Filter Action
 
 
 <dl>
@@ -127,13 +135,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please select a List Variable Name of the Filtered List
+### Please Specify the List Variable Name to Filtered List
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Instance Type</dt><dd>List</dd>
+<dt>Parameter Direction</dt><dd>Input</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -142,6 +150,13 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vList</strong> | Specify Variable Name **vList** |
+| <strong>{vList}</strong> | Specify Variable Name **vList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -154,13 +169,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please Specify the Comment Field (Optional)
+### Optional - Please Specify the Comment Field
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Optional</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -178,9 +193,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FilterListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/21/22 09:56 PM
+This page was generated on 12/28/22 09:59 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

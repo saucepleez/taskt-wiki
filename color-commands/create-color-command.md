@@ -19,30 +19,37 @@ Use this command when you want to create Color.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a Color Variable Name](#param_0)
-- [Please specify Red Value](#param_1)
-- [Please specify Green Value](#param_2)
-- [Please specify Blue Value](#param_3)
-- [Optional - Please specify Alpha Value](#param_4)
-- [Please Specify the Comment Field (Optional)](#param_5)
+- [Please Specify the v_Color](#param_0)
+- [Please Specify the Red Value](#param_1)
+- [Please Specify the Green Value](#param_2)
+- [Please Specify the Blue Value](#param_3)
+- [Optional - Please Specify the Alpha Value](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please select a Color Variable Name
+### Please Specify the v_Color
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Parameter Direction</dt><dd>Input</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vColor</strong> or <strong>{vColor}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vColor</strong> | Specify Value of Variable **vColor** |
+| <strong>{vColor}</strong> | Specify Value of Variable **vColor** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -55,7 +62,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify Red Value
+### Please Specify the Red Value
 
 
 <dl>
@@ -64,11 +71,19 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <em>255</em>* or <strong>{vRed}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify value **0**. **0** is min value of range |
+| <strong>255</strong> | Specify value **255**. **255** is max value of range |
+| <strong>{vRed}</strong> | Specify Value of Variable **vRed** for Red |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -81,7 +96,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please specify Green Value
+### Please Specify the Green Value
 
 
 <dl>
@@ -90,11 +105,19 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <em>255</em>* or <strong>{vGreen}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify value **0**. **0** is min value of range |
+| <strong>255</strong> | Specify value **255**. **255** is max value of range |
+| <strong>{vGreen}</strong> | Specify Value of Variable **vGreen** for Green |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -107,7 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please specify Blue Value
+### Please Specify the Blue Value
 
 
 <dl>
@@ -116,11 +139,19 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <em>255</em>* or <strong>{vBlue}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify value **0**. **0** is min value of range |
+| <strong>255</strong> | Specify value **255**. **255** is max value of range |
+| <strong>{vBlue}</strong> | Specify Value of Variable **vBlue** for Blue |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -133,17 +164,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please specify Alpha Value
+### Optional - Please Specify the Alpha Value
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <em>255</em>* or <strong>{Alpha}</strong></dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li><strong>Not</strong> Between 0 to 255</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255<br><br>
 <strong>Optional</strong><br>Default Value is <strong>255</strong></dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify value **0**. **0** is min value of range |
+| <strong>255</strong> | Specify value **255**. **255** is max value of range |
+| <strong>{vAlpha}</strong> | Specify Value of Variable **vAlpha** for Alpha |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -156,13 +198,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please Specify the Comment Field (Optional)
+### Optional - Please Specify the Comment Field
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Optional</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -180,9 +222,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateColorCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/21/22 09:56 PM
+This page was generated on 12/28/22 09:59 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

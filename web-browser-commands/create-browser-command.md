@@ -28,7 +28,7 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 - [Optional - Please Select a Browser Engine Type (Default is Chrome)](#param_4)
 - [Optional - Please Select Browser Binary Path (Default is Empty)](#param_5)
 - [Optional - Please Select WebDriver Path (Default is Empty)](#param_6)
-- [Please Specify the Comment Field (Optional)](#param_7)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
@@ -196,13 +196,13 @@ If you use a fixed web browser version, use this parameter.<br><br>
 
 
 <a id="param_7"></a>
-### Please Specify the Comment Field (Optional)
+### Optional - Please Specify the Comment Field
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Optional</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -220,9 +220,9 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/21/22 09:56 PM
+This page was generated on 12/28/22 09:59 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

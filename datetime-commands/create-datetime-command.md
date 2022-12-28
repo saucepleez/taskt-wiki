@@ -19,18 +19,18 @@ Use this command when you want to create DateTime.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a DateTime Variable Name](#param_0)
-- [Optional - Please specify Year to set](#param_1)
-- [Optional - Please specify Month to set](#param_2)
-- [Optional - Please specify Day to set](#param_3)
-- [Optional - Please specify Hour to set](#param_4)
-- [Optional - Please specify Minute to set](#param_5)
-- [Optional - Please specify Second to set](#param_6)
-- [Please Specify the Comment Field (Optional)](#param_7)
+- [Please Specify the v_DateTime](#param_0)
+- [Optional - Please Specify the Year to set](#param_1)
+- [Optional - Please Specify the Month to set](#param_2)
+- [Optional - Please Specify the Day to set](#param_3)
+- [Optional - Please Specify the Hour to set](#param_4)
+- [Optional - Please Specify the Minute to set](#param_5)
+- [Optional - Please Specify the Second to set](#param_6)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### Please select a DateTime Variable Name
+### Please Specify the v_DateTime
 
 
 <dl>
@@ -40,11 +40,18 @@ Use this command when you want to create DateTime.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vDateTime</strong> or <strong>{vDateTime}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDateTime</strong> | Specify Variable Name **vDateTime** |
+| <strong>{vDateTime}</strong> | Specify Variable Name **vDateTime** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -57,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please specify Year to set
+### Optional - Please Specify the Year to set
 
 
 <dl>
@@ -73,6 +80,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>2000</strong> | Specify **2000** for Year |
+| <strong>{vYear}</strong> | Specify Value of Variable **vYear** for Year |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -83,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please specify Month to set
+### Optional - Please Specify the Month to set
 
 
 <dl>
@@ -100,6 +114,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Month |
+| <strong>{vMonth}</strong> | Specify Value of Variable **vMonth** for Month |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -110,7 +131,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please specify Day to set
+### Optional - Please Specify the Day to set
 
 
 <dl>
@@ -127,6 +148,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Day |
+| <strong>{vDay}</strong> | Specify Value of Variable **vDay** for Day |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -137,7 +165,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please specify Hour to set
+### Optional - Please Specify the Hour to set
 
 
 <dl>
@@ -153,6 +181,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Hour |
+| <strong>{vHour}</strong> | Specify Value of Variable **vHour** for Hour |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -163,7 +198,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please specify Minute to set
+### Optional - Please Specify the Minute to set
 
 
 <dl>
@@ -179,6 +214,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Minute |
+| <strong>{vMinute}</strong> | Specify Value of Variable **vMinute** for Minute |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -189,7 +231,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please specify Second to set
+### Optional - Please Specify the Second to set
 
 
 <dl>
@@ -205,6 +247,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Second |
+| <strong>{vSecond}</strong> | Specify Value of Variable **vSecond** for Second |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -215,13 +264,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Please Specify the Comment Field (Optional)
+### Optional - Please Specify the Comment Field
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Optional</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -239,9 +288,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateDateTimeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/21/22 09:56 PM
+This page was generated on 12/28/22 09:59 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

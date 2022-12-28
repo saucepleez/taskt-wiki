@@ -19,26 +19,34 @@ Use this command when you want to add list item.  You can even use variables to 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a List Variable Name to modify](#param_0)
-- [Please Specify the Please define the input to be added to the variable](#param_1)
-- [Please Specify the Comment Field (Optional)](#param_2)
+- [Please Specify the v_ListName](#param_0)
+- [Please Specify the Value to be added the List](#param_1)
+- [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please select a List Variable Name to modify
+### Please Specify the v_ListName
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>List</dd>
+<dt>Parameter Direction</dt><dd>Input</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vList</strong> | Specify Variable Name **vList** |
+| <strong>{vList}</strong> | Specify Variable Name **vList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,16 +59,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Please define the input to be added to the variable
+### Please Specify the Value to be added the List
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the input that the variable's value should be set to.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vValue}</strong></dd>
-<dt>Remarks</dt><dd>You can use variables in input if you encase them within brackets {{{vName}}}.  You can also perform basic math operations.</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>Hello</strong> | Specify **Hello** for the Value to be added List |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for the Value to be added List |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -73,13 +88,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Comment Field (Optional)
+### Optional - Please Specify the Comment Field
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Optional</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -97,9 +112,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: AddListItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/21/22 09:56 PM
+This page was generated on 12/28/22 09:59 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

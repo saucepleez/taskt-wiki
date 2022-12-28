@@ -19,14 +19,14 @@ Use this command when you want to Format DateTime Text.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a DateTime Variable Name](#param_0)
-- [Please specify DateTime Format](#param_1)
-- [Please specify Variable Name to store Result](#param_2)
-- [Please Specify the Comment Field (Optional)](#param_3)
+- [Please Specify the v_DateTime](#param_0)
+- [Please Specify the DateTime Format](#param_1)
+- [Please Specify the v_Result](#param_2)
+- [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please select a DateTime Variable Name
+### Please Specify the v_DateTime
 
 
 <dl>
@@ -36,11 +36,17 @@ Use this command when you want to Format DateTime Text.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>{vDateTime}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>{vDateTime}</strong> | Specify Value of Variable **vDateTime** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -53,7 +59,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify DateTime Format
+### Please Specify the DateTime Format
 
 
 <dl>
@@ -61,11 +67,19 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>MM/dd/yyyy</strong> or <strong>HH:mm:ss</strong> or <strong>{vFormat}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>MM/dd/yyyy</strong> or <strong>HH:mm:ss</strong> or {vFormat}</dd>
 <dt>Remarks</dt><dd>Please refer to the Microsoft DateTime.ToString() page for format details</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>MM/dd/yyyy</strong> | Specify Format Month/Day/Year |
+| <strong>HH:mm:ss</strong> | Specify Format Hour/Minute/Second |
+| {vFormat} | Specify Value of Variable vFormat for Format |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -78,20 +92,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please specify Variable Name to store Result
+### Please Specify the v_Result
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>Output</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -104,13 +126,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify the Comment Field (Optional)
+### Optional - Please Specify the Comment Field
 
 
 <dl>
 <dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Optional</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -128,9 +150,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FormatDateTimeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/21/22 09:56 PM
+This page was generated on 12/28/22 09:59 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
