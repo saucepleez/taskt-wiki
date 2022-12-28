@@ -19,14 +19,14 @@ Use this command when you want to get variance value from a list.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the v_InputList](#param_0)
-- [Please Specify the v_Result](#param_1)
-- [Please Specify the v_IfValueIsNotNumeric](#param_2)
+- [Please Select the List Variable](#param_0)
+- [Please Select the Variable Name to Store Result](#param_1)
+- [Optional - Please Select the Action When List Value is Not Numeric](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Specify the v_InputList
+### Please Select the List Variable
 
 
 <dl>
@@ -60,7 +60,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the v_Result
+### Please Select the Variable Name to Store Result
 
 
 <dl>
@@ -94,7 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the v_IfValueIsNotNumeric
+### Optional - Please Select the Action When List Value is Not Numeric
 
 
 <dl>
@@ -148,9 +148,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetVarianceFromListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 09:59 PM
+This page was generated on 12/28/22 10:04 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

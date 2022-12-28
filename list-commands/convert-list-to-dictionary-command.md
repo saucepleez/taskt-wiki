@@ -19,17 +19,17 @@ This command convert a List to Dictionary.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the List Variable to convert](#param_0)
+- [Please Select the List Variable to convert](#param_0)
 - [Optional - Please Select the Dictionary Keys Type](#param_1)
 - [Optional - Please Select the Supply the Dictionary Keys Name](#param_2)
-- [Please Select the When the number of items in the List is greater than the number of Keys](#param_3)
-- [Please Specify the When the number of Keys is greater than the number of items in the List](#param_4)
+- [Optional - Please Select the When the number of items in the List is greater than the number of Keys](#param_3)
+- [Optional - Please Select the When the number of Keys is greater than the number of items in the List](#param_4)
 - [Please select the variable to receive the Dictionary Variable](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Please Specify the List Variable to convert
+### Please Select the List Variable to convert
 
 
 <dl>
@@ -110,7 +110,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Select the When the number of items in the List is greater than the number of Keys
+### Optional - Please Select the When the number of items in the List is greater than the number of Keys
 
 
 <dl>
@@ -133,7 +133,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Specify the When the number of Keys is greater than the number of items in the List
+### Optional - Please Select the When the number of Keys is greater than the number of items in the List
 
 
 <dl>
@@ -207,9 +207,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertListToDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 09:59 PM
+This page was generated on 12/28/22 10:04 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

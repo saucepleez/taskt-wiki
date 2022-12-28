@@ -19,13 +19,13 @@ Use this command when you want to list to copy.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the List Variable to Copy](#param_0)
-- [Please Specify the v_OutputList](#param_1)
+- [Please Select the List Variable to Copy](#param_0)
+- [Please Select the List Variable](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Specify the List Variable to Copy
+### Please Select the List Variable to Copy
 
 
 <dl>
@@ -59,7 +59,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the v_OutputList
+### Please Select the List Variable
 
 
 <dl>
@@ -117,9 +117,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CopyListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 09:59 PM
+This page was generated on 12/28/22 10:04 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

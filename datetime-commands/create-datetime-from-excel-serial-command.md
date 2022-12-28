@@ -19,13 +19,13 @@ Use this command when you want to create DateTime from Excel Serial Value.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the v_DateTime](#param_0)
+- [Please Select the DateTime Variable Name](#param_0)
 - [Please Specify the Excel Serial Value](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Specify the v_DateTime
+### Please Select the DateTime Variable Name
 
 
 <dl>
@@ -115,9 +115,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateDateTimeFromExcelSerialCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 09:59 PM
+This page was generated on 12/28/22 10:04 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

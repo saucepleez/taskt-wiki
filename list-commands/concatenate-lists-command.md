@@ -19,14 +19,14 @@ Use this command when you want to concatenate 2 lists.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the List1 Variable](#param_0)
-- [Please Specify the List2 Variable](#param_1)
-- [Please Specify the List Variable Name of the New List](#param_2)
+- [Please Select the List1 Variable](#param_0)
+- [Please Select the List2 Variable](#param_1)
+- [Please Select the List Variable Name of the New List](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Specify the List1 Variable
+### Please Select the List1 Variable
 
 
 <dl>
@@ -60,7 +60,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the List2 Variable
+### Please Select the List2 Variable
 
 
 <dl>
@@ -94,7 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the List Variable Name of the New List
+### Please Select the List Variable Name of the New List
 
 
 <dl>
@@ -152,9 +152,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateListsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 09:59 PM
+This page was generated on 12/28/22 10:04 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
