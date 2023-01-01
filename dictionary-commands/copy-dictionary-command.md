@@ -19,26 +19,34 @@ Use this command when you want to copy a Dictionary.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please input The Dictionary Variable to Copy](#param_0)
-- [Please indicate the new Dictionary](#param_1)
+- [Please Select the Dictionary Variable Name to Copy](#param_0)
+- [Please Select the New Dictionary Variable](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please input The Dictionary Variable to Copy
+### Please Select the Dictionary Variable Name to Copy
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
+<dt>Parameter Direction</dt><dd>Input</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myDictionary1</strong> or <strong>{vMyDic1}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
+| <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,21 +59,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please indicate the new Dictionary
+### Please Select the New Dictionary Variable
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>Instance Type</dt><dd>Dictionary</dd>
 <dt>Parameter Direction</dt><dd>Output</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>newDic</strong> or <strong>{newDic}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vNewDictionary</strong> | Specify Variable Name **vNewDictionary** |
+| <strong>{vNewDictionary}</strong> | Specify Variable Name **vNewDictionary** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -102,9 +117,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CopyDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 10:04 PM
+This page was generated on 01/01/23 08:43 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

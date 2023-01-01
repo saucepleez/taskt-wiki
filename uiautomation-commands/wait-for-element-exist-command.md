@@ -126,9 +126,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationWaitForElementExistCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 10:04 PM
+This page was generated on 01/01/23 08:43 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

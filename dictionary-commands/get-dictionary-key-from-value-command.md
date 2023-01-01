@@ -19,27 +19,35 @@ Use this command when you want to get Dictionary key Name from Value.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please input The Dictionary Variable](#param_0)
-- [Please indicate the value for the Dictionary](#param_1)
-- [Please indicate the variable to apply Key name](#param_2)
+- [Please Select the Dictionary Name](#param_0)
+- [Please Specify the Value of the Dictionary](#param_1)
+- [Please Select the Variable Name to Store Key name](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please input The Dictionary Variable
+### Please Select the Dictionary Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
+<dt>Parameter Direction</dt><dd>Input</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myDictionary</strong> or <strong>{vMyDic}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
+| <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,7 +60,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please indicate the value for the Dictionary
+### Please Specify the Value of the Dictionary
 
 
 <dl>
@@ -60,11 +68,18 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>value1</strong> or <strong>{vValue}</strong></dd>
-<dt>Remarks</dt><dd>If Key not found, result is empty.</dd>
+<dt>Sample Usage</dt><dd><strong>A</strong> or <strong>{vValue}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>A</strong> | Specify **A** for Value of the Dictionary |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Value of the Dictionary |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -77,20 +92,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please indicate the variable to apply Key name
+### Please Select the Variable Name to Store Key name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a unique dataset name that will be used later to traverse over the data</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>Output</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vKey</strong> or <strong>{vKey}</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>When value not found, Result is Empty</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -127,9 +150,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetDictionaryKeyFromValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 10:04 PM
+This page was generated on 01/01/23 08:43 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

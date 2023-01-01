@@ -19,29 +19,37 @@ Use this command when you want to filter Dictionary value.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a Dictionary Variable Name to Filter](#param_0)
+- [Please Select the Dictionary Variable Name to Filter](#param_0)
 - [Please select filter target value type](#param_1)
 - [Please select filter action](#param_2)
 - [Please Specify the Additional Parameters](#param_3)
-- [Please select a Dictionary Variable Name of the Filtered List](#param_4)
+- [Please Select the Dictionary Variable Name of the Filtered List](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please select a Dictionary Variable Name to Filter
+### Please Select the Dictionary Variable Name to Filter
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
+<dt>Parameter Direction</dt><dd>Input</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vDic</strong> or <strong>{vDic}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
+| <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -127,12 +135,12 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please select a Dictionary Variable Name of the Filtered List
+### Please Select the Dictionary Variable Name of the Filtered List
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>Instance Type</dt><dd>Dictionary</dd>
 <dt>Parameter Direction</dt><dd>Output</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -142,6 +150,13 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
+| <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -178,9 +193,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FilterDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 10:04 PM
+This page was generated on 01/01/23 08:43 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

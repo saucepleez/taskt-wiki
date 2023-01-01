@@ -19,27 +19,34 @@ Use this command when you want to create a new Dictionary
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Indicate Dictionary Variable Name](#param_0)
+- [Please Select the Dictionary Name](#param_0)
 - [Please Specify the Define Keys and Values](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Indicate Dictionary Variable Name
+### Please Select the Dictionary Name
 
 
 <dl>
-<dt>What to input</dt><dd>Indicate a unique reference name for later use</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Instance Type</dt><dd>Dictionary</dd>
+<dt>Parameter Direction</dt><dd>Input</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vMyDictionary</strong> or <strong>{vMyDictionary}</strong></dd>
-<dt>Remarks</dt><dd>Create Dictionary&lt;string, string&gt;</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
+| <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -62,6 +69,14 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <table><thead><tr><th>Keys</th><th>Values</th></tr></thead><tbody><tr><td><strong>Age</strong></td><td><strong>15</strong></td></tr></tbody></table> | Add an item whose key is **Age** and value is **15** |
+| <table><thead><tr><th>Keys</th><th>Values</th></tr></thead><tbody><tr><td><strong>Name</strong></td><td><strong>Alice</strong></td></tr></tbody></table> | Add an item whose key is **Name** and value is **Alice** |
+| <table><thead><tr><th>Keys</th><th>Values</th></tr></thead><tbody><tr><td><strong>{vKey}}</strong></td><td><strong>{vValue}</strong></td></tr></tbody></table> | Add an item whose key is Value of Variable **vKey** and value is Value of Variable **vValue** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -98,9 +113,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 10:05 PM
+This page was generated on 01/01/23 08:43 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

@@ -19,29 +19,37 @@ Use this command when you want to relpace Dictionary value.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a Dictionary Variable Name to Replace](#param_0)
-- [Please select replace target value type](#param_1)
-- [Please select replace action](#param_2)
+- [Please Select the Dictionary Variable Name to Replace](#param_0)
+- [Please Select the Replace Target Value Type](#param_1)
+- [Please Select the Replace Action](#param_2)
 - [Please Specify the Additional Parameters](#param_3)
-- [Please specify Replace value](#param_4)
+- [Please Specify the Replace value](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please select a Dictionary Variable Name to Replace
+### Please Select the Dictionary Variable Name to Replace
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
+<dt>Parameter Direction</dt><dd>Input</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vDic</strong> or <strong>{vDic}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
+| <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -54,7 +62,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please select replace target value type
+### Please Select the Replace Target Value Type
 
 
 <dl>
@@ -80,7 +88,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please select replace action
+### Please Select the Replace Action
 
 
 <dl>
@@ -127,7 +135,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please specify Replace value
+### Please Specify the Replace value
 
 
 <dl>
@@ -173,9 +181,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReplaceDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 10:04 PM
+This page was generated on 01/01/23 08:43 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)

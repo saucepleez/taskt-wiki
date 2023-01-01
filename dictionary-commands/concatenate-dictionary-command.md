@@ -19,28 +19,36 @@ Use this command when you want to concatenate two Dictionaries.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please input The Dictionary Variable 1](#param_0)
-- [Please input The Dictionary Variable 2](#param_1)
-- [Optional - Please Select the If Key already exists](#param_2)
-- [Please indicate the result Dictionary](#param_3)
+- [Please Select the Name of Dictionary Variable 1](#param_0)
+- [Please Select the Name of Dictionary Variable 2](#param_1)
+- [Optional - Please Select the When Key already Exists](#param_2)
+- [Please Select the Dictionary Name](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please input The Dictionary Variable 1
+### Please Select the Name of Dictionary Variable 1
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
+<dt>Parameter Direction</dt><dd>Input</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myDictionary1</strong> or <strong>{vMyDic1}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDictionary1</strong> | Specify Variable Name **vDictionary1** |
+| <strong>{vDictionary1}</strong> | Specify Variable Name **vDictionary1** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -53,20 +61,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please input The Dictionary Variable 2
+### Please Select the Name of Dictionary Variable 2
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
+<dt>Parameter Direction</dt><dd>Input</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myDictionary2</strong> or <strong>{vMyDic2}</strong></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDictionary2</strong> | Specify Variable Name **vDictionary2** |
+| <strong>{vDictionary2}</strong> | Specify Variable Name **vDictionary2** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -79,7 +95,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the If Key already exists
+### Optional - Please Select the When Key already Exists
 
 
 <dl>
@@ -92,6 +108,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Priority on Dictionary 1 |
+| <strong>Overwrite</strong> | Priority on Dictionary 2 |
+| <strong>Error</strong> | Rise a Error |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -102,21 +126,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please indicate the result Dictionary
+### Please Select the Dictionary Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>Instance Type</dt><dd>Dictionary</dd>
 <dt>Parameter Direction</dt><dd>Output</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>newDic</strong> or <strong>{newDic}</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>Concatenate Dictionary 1, Dictionary 2 in that order</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vNewDic</strong> | Specify Variable Name **vNewDic** |
+| <strong>{vNewDic}</strong> | Specify Variable Name **vNewDic** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -153,9 +184,9 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/28/22 10:04 PM
+This page was generated on 01/01/23 08:43 PM
 
 
 ## Help
-- [Open/Report an issue on GitHub](https://github.com/saucepleez/taskt/issues/new)
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
