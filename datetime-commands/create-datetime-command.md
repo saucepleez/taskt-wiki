@@ -36,11 +36,11 @@ Use this command when you want to create DateTime.
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vDateTime</strong> or <strong>{vDateTime}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -288,7 +288,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateDateTimeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:12 PM
 
 
 ## Help

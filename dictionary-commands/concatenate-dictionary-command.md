@@ -22,7 +22,7 @@ Use this command when you want to concatenate two Dictionaries.
 - [Please Select the Name of Dictionary Variable 1](#param_0)
 - [Please Select the Name of Dictionary Variable 2](#param_1)
 - [Optional - Please Select the When Key already Exists](#param_2)
-- [Please Select the Dictionary Name](#param_3)
+- [Please Select the Dictionary Variable Name](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
@@ -33,11 +33,11 @@ Use this command when you want to concatenate two Dictionaries.
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
-<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vDictionary1</strong> or <strong>{vDictionary1}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,11 +67,11 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
-<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vDictionary2</strong> or <strong>{vDictionary2}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -126,17 +126,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Select the Dictionary Name
+### Please Select the Dictionary Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vNewDic</strong> or <strong>{vNewDic}</strong></dd>
 <dt>Remarks</dt><dd>Concatenate Dictionary 1, Dictionary 2 in that order</dd>
 </dl>
 
@@ -184,7 +184,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:12 PM
 
 
 ## Help

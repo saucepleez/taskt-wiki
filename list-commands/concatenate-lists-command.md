@@ -19,24 +19,24 @@ Use this command when you want to concatenate 2 lists.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the List1 Variable](#param_0)
-- [Please Select the List2 Variable](#param_1)
-- [Please Select the List Variable Name of the New List](#param_2)
+- [Please Select the List1 Variable Name](#param_0)
+- [Please Select the List2 Variable Name](#param_1)
+- [Please Select the New List Variable Name](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the List1 Variable
+### Please Select the List1 Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>List</dd>
-<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vList1</strong> or <strong>{vList1}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -60,17 +60,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the List2 Variable
+### Please Select the List2 Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>List</dd>
-<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vList2</strong> or <strong>{vList2}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -94,17 +94,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the List Variable Name of the New List
+### Please Select the New List Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
 <dt>Remarks</dt><dd>Concatenate List1, List2 in that order</dd>
 </dl>
 
@@ -152,7 +152,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateListsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:12 PM
 
 
 ## Help

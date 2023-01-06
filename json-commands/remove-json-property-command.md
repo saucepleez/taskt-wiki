@@ -19,26 +19,34 @@ This command allows you to remove a property in JSON
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the JSON Variable Name](#param_0)
-- [Please Specify a JSON extractor (JSONPath)](#param_1)
+- [Please Select the JSON Object Variable Name](#param_0)
+- [Please Specify the JSON Extractor (JSONPath)](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Specify the JSON Variable Name
+### Please Select the JSON Object Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Instance Type</dt><dd>JSON</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>{vSomeVariable}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vJSON</strong> or <strong>{vJSON}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vJSON</strong> | Specify Variable Name **vJSON** |
+| <strong>{vJSON}</strong> | Specify Variable Name **vJSON** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,19 +59,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify a JSON extractor (JSONPath)
+### Please Specify the JSON Extractor (JSONPath)
 
 
 <dl>
-<dt>What to input</dt><dd>Input a JSON token extractor</dd>
+<dt>What to input</dt><dd>Specify the JSON token extractor</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>$.id</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>$.id</strong> or <strong>$..id</strong> or <strong>{vPath}</strong></dd>
+<dt>Remarks</dt><dd>See this URL for details. https://github.com/json-path/JsonPath</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>$.id</strong> | Specify **id** for Root child node |
+| <strong>$..id</strong> | Specify Anywhere **id** |
+| <strong>{vPath}</strong> | Specify Value of Variable **vPath** for JSON Extractor |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -100,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RemoveJSONPropertyCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:11 PM
 
 
 ## Help

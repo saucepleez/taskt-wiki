@@ -34,11 +34,11 @@ Use this command when you want to create Color.
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vColor</strong> or <strong>{vColor}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -71,7 +71,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>255</strong> or <strong>{vRed}</strong></dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
@@ -105,7 +105,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>255</strong> or <strong>{vGreen}</strong></dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
@@ -139,7 +139,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>255</strong> or <strong>{vBlue}</strong></dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
@@ -172,7 +172,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li><strong>Not</strong> Between 0 to 255</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>255</strong> or <strong>{vAlpha}</strong></dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255<br><br>
 <strong>Optional</strong><br>Default Value is <strong>255</strong></dd>
 </dl>
@@ -222,7 +222,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateColorCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:11 PM
 
 
 ## Help

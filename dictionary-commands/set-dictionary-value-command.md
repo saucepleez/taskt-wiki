@@ -19,7 +19,7 @@ Use this command when you want to set value in Dictionary.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Dictionary Name](#param_0)
+- [Please Select the Dictionary Variable Name](#param_0)
 - [Please Specify the Name of the Dictionary Key](#param_1)
 - [Please indicate the value for the Dictionary](#param_2)
 - [Optional - Please Select the When Key does not Exists](#param_3)
@@ -27,17 +27,17 @@ Use this command when you want to set value in Dictionary.
 
 
 <a id="param_0"></a>
-### Please Select the Dictionary Name
+### Please Select the Dictionary Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
-<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vDictionary</strong> or <strong>{vDictionary}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>key1</strong> or <strong>{vKey}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -170,7 +170,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetDictionaryValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:12 PM
 
 
 ## Help

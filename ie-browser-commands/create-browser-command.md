@@ -32,7 +32,7 @@ This command allows you to create a new IE web browser session.
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>IE</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -119,7 +119,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: IEBrowserCreateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:12 PM
 
 
 ## Help

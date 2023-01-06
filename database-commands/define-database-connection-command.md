@@ -33,7 +33,7 @@ Use this command to create a new connection to a database.
 <dl>
 <dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Excel</strong> command</dd>
 <dt>Instance Type</dt><dd>DataBase</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error</dd>
 </dl>
@@ -142,7 +142,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: DatabaseDefineConnectionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:12 PM
 
 
 ## Help

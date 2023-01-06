@@ -19,27 +19,34 @@ This command allows you to create JSON Variable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the JSON Variable Name](#param_0)
-- [Please Specify JSON](#param_1)
+- [Please Select the JSON Variable Name](#param_0)
+- [Please Specify the JSON Value](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Specify the JSON Variable Name
+### Please Select the JSON Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>{vSomeVariable}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vJSON</strong> or <strong>{vJSON}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vJSON</strong> | Specify Variable Name **vJSON** |
+| <strong>{vJSON}</strong> | Specify Variable Name **vJSON** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,16 +59,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify JSON
+### Please Specify the JSON Value
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd><strong>{ &quot;name&quot;: &quot;John&quot; }</strong> or <strong>[ 1, 2, 3 ]</strong> or **{vJSON}</dd>
+<dt>Sample Usage</dt><dd><strong>{ &quot;id&quot;: 1, &quot;name&quot;: &quot;John&quot; }</strong> or <strong>[ 1, 2, &quot;Hello&quot; ]</strong> or <strong>{vJSONValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>{ &quot;id&quot;: 1, &quot;name&quot;: &quot;John&quot; }</strong> | Specify JSON Object |
+| <strong>[ 1, 2, &quot;Hello&quot; ]</strong> | Specify JSON Array |
+| <strong>{vJSONValue}</strong> | Specify Value of Variable **vJSONValue** for JSON Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -98,7 +113,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateJSONVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:11 PM
 
 
 ## Help

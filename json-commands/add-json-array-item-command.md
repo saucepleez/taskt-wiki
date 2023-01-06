@@ -19,28 +19,36 @@ This command allows you to add item to JSON Array.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the JSON Variable Name](#param_0)
-- [Please Specify a JSON extractor (JSONPath)](#param_1)
-- [Please Specify Value to Add](#param_2)
-- [Optional - Please Specify Value Type to Add](#param_3)
+- [Please Select the JSON Array Variable Name](#param_0)
+- [Please Specify the JSON Extractor (JSONPath)](#param_1)
+- [Please Specify the Value to Add](#param_2)
+- [Optional - Please Select the Value Type to Add](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please Specify the JSON Variable Name
+### Please Select the JSON Array Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Instance Type</dt><dd>JSON</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>{vSomeVariable}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vJSON</strong> or <strong>{vJSON}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vJSON</strong> | Specify Variable Name **vJSON** |
+| <strong>{vJSON}</strong> | Specify Variable Name **vJSON** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -53,19 +61,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify a JSON extractor (JSONPath)
+### Please Specify the JSON Extractor (JSONPath)
 
 
 <dl>
-<dt>What to input</dt><dd>Input a JSON token extractor</dd>
+<dt>What to input</dt><dd>Specify the JSON token extractor</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>$.id</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>$.id</strong> or <strong>$..id</strong> or <strong>{vPath}</strong></dd>
+<dt>Remarks</dt><dd>See this URL for details. https://github.com/json-path/JsonPath</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>$.id</strong> | Specify **id** for Root child node |
+| <strong>$..id</strong> | Specify Anywhere **id** |
+| <strong>{vPath}</strong> | Specify Value of Variable **vPath** for JSON Extractor |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -78,16 +94,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify Value to Add
+### Please Specify the Value to Add
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vValue}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>1</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>Hello</strong> | Add Text **Hello** |
+| <strong>1</strong> | Add Number **Hello** |
+| <strong>{vValue}</strong> | Add Value of Variable **vValue** |
+| <strong>{ &quot;id&quot;: 1, &quot;value&quot;: &quot;Hello&quot; }</strong> | Add JSON Object |
+| <strong>[ 1, 2, &quot;Hello&quot; ]</strong> | Add JSON Array |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -100,7 +126,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify Value Type to Add
+### Optional - Please Select the Value Type to Add
 
 
 <dl>
@@ -111,6 +137,17 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>Auto</strong> | Automatically determines the Value Type |
+| <strong>Text</strong> | Specify **Text** for Value Type |
+| <strong>Text</strong> | Specify **Text** for Value Type |
+| <strong>bool</strong> | Specify **bool** for Value Type |
+| <strong>Object</strong> | Specify JSON Object for Value Type |
+| <strong>Array</strong> | Specify Array Object for Value Type |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -147,7 +184,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: AddJSONArrayItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:11 PM
 
 
 ## Help

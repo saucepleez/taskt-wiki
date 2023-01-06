@@ -19,29 +19,37 @@ Use this command when you want to Replace values.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a DataTable Variable Name to Replace](#param_0)
-- [Please select replace target value type](#param_1)
-- [Please select replace action](#param_2)
+- [Please Select the DataTable Variable Name](#param_0)
+- [Please Select the replace target value type](#param_1)
+- [Please Select the replace action](#param_2)
 - [Please Specify the Additional Parameters](#param_3)
 - [Please specify replace value](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please select a DataTable Variable Name to Replace
+### Please Select the DataTable Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Instance Type</dt><dd>DataTable</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vTable</strong> or <strong>{vTable}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vDataTable</strong> or <strong>{vDataTable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -54,7 +62,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please select replace target value type
+### Please Select the replace target value type
 
 
 <dl>
@@ -80,7 +88,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please select replace action
+### Please Select the replace action
 
 
 <dl>
@@ -173,7 +181,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReplaceDataTableValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:11 PM
 
 
 ## Help

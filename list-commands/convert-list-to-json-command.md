@@ -19,23 +19,23 @@ This command convert a JSON array to a list.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the List Variable to convert](#param_0)
-- [Please select the variable to receive the JSON](#param_1)
+- [Please Select the List Variable Name to convert](#param_0)
+- [Please Select the JSON Variable Name](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select the List Variable to convert
+### Please Select the List Variable Name to convert
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>List</dd>
-<dt>Parameter Direction</dt><dd>Input</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -59,21 +59,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please select the variable to receive the JSON
+### Please Select the JSON Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Sample Usage</dt><dd><strong>vJSON</strong> or <strong>{vJSON}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vJSON</strong> | Specify Variable Name **vJSON** |
+| <strong>{vJSON}</strong> | Specify Variable Name **vJSON** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -110,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertListToJSONCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:12 PM
 
 
 ## Help

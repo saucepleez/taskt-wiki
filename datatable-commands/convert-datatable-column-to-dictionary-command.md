@@ -19,29 +19,36 @@ Use this command when you want to convert DataTable Column to Dictionary.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please indicate the DataTable Variable Name](#param_0)
-- [Optional - Please specify Column type](#param_1)
-- [Please enter the Name or Index of the Column](#param_2)
-- [Optional - Please enter the Dictionary Key prefix](#param_3)
-- [Please Specify the Variable Name To Assign The Dictionary](#param_4)
+- [Please Select the DataTable Variable Name](#param_0)
+- [Optional - Please Select the Column type](#param_1)
+- [Please Specify the Name or Index of the Column](#param_2)
+- [Optional - Please Specify the Dictionary Key prefix](#param_3)
+- [Please Select the Dictionary Variable Name](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please indicate the DataTable Variable Name
+### Please Select the DataTable Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a existing DataTable to fet rows from.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>DataTable</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myDataTable</strong> or <strong>{vMyDataTable}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vDataTable</strong> or <strong>{vDataTable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -54,7 +61,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please specify Column type
+### Optional - Please Select the Column type
 
 
 <dl>
@@ -67,6 +74,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>Column Name</strong> | Specify the Column Name like **Name** |
+| <strong>Index</strong> | Specify the Column Index like **0** or **1** |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -77,19 +91,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please enter the Name or Index of the Column
+### Please Specify the Name or Index of the Column
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a valid Column index value</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>id</strong> or <strong>0</strong> or <strong>{vColumn}</strong> or <strong>-1</strong></dd>
+<dt>Sample Usage</dt><dd><strong>id</strong> or <strong>0</strong> or <strong>-1</strong> or <strong>{vColumn}</strong></dd>
 <dt>Remarks</dt><dd>If <strong>-1</strong> is specified for Column Index, it means the last column.</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>id</strong> | Specify **id** for Column Name |
+| <strong>0</strong> | Specify **0** for Column Index |
+| <strong>-1</strong> | Specify Last Column Index |
+| <strong>{vColumn}</strong> | Specify Value of Variable **vColumn** for Column Name or Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -102,17 +125,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please enter the Dictionary Key prefix
+### Optional - Please Specify the Dictionary Key prefix
 
 
 <dl>
-<dt>What to input</dt><dd>Enter Dictionary Key Prefix</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Sample Usage</dt><dd><strong>row</strong> or <strong>{vPrefix}</strong></dd>
-<dt>Remarks</dt><dd>If enter <strong>row</strong>, Dictionary key is row0, row1, ...<br><br>
+<dt>Remarks</dt><dd>When Specified <strong>row</strong> for Prefix, the Dictionary key is row0, row1, ...<br><br>
 <strong>Optional</strong><br>Default Value is <strong>row</strong></dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>row</strong> | Specify **row** for prefix |
+| <strong>{vPrefix}</strong> | Specify Value of Variable **vPrefix** for prefix |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -125,21 +155,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Specify the Variable Name To Assign The Dictionary
+### Please Select the Dictionary Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Instance Type</dt><dd>Dictionary</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Sample Usage</dt><dd><strong>vDictionary</strong> or <strong>{vDictionary}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
+| <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -176,7 +213,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableColumnToDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:11 PM
 
 
 ## Help

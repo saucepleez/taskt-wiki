@@ -19,28 +19,35 @@ Use this command when you want to convert DataTable Column to DataTable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please indicate the DataTable Variable Name](#param_0)
-- [Optional - Please specify Column type](#param_1)
-- [Please enter the Name or Index of the Column](#param_2)
-- [Please Specify the Variable Name To Assign The DataTable](#param_3)
+- [Please Select the DataTable Variable Name to Converted](#param_0)
+- [Optional - Please Select the Column type](#param_1)
+- [Please Specify the Name or Index of the Column](#param_2)
+- [Please Select the New DataTable Variable Name](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please indicate the DataTable Variable Name
+### Please Select the DataTable Variable Name to Converted
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a existing DataTable to fet rows from.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>DataTable</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myDataTable</strong> or <strong>{vMyDataTable}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vDataTable</strong> or <strong>{vDataTable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -53,7 +60,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please specify Column type
+### Optional - Please Select the Column type
 
 
 <dl>
@@ -66,6 +73,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>Column Name</strong> | Specify the Column Name like **Name** |
+| <strong>Index</strong> | Specify the Column Index like **0** or **1** |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -76,19 +90,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please enter the Name or Index of the Column
+### Please Specify the Name or Index of the Column
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a valid Column index value</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>id</strong> or <strong>0</strong> or <strong>{vColumn}</strong> or <strong>-1</strong></dd>
+<dt>Sample Usage</dt><dd><strong>id</strong> or <strong>0</strong> or <strong>-1</strong> or <strong>{vColumn}</strong></dd>
 <dt>Remarks</dt><dd>If <strong>-1</strong> is specified for Column Index, it means the last column.</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>id</strong> | Specify **id** for Column Name |
+| <strong>0</strong> | Specify **0** for Column Index |
+| <strong>-1</strong> | Specify Last Column Index |
+| <strong>{vColumn}</strong> | Specify Value of Variable **vColumn** for Column Name or Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -101,21 +124,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify the Variable Name To Assign The DataTable
+### Please Select the New DataTable Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Sample Usage</dt><dd><strong>vNewDataTale</strong> or <strong>{vNewDataTale}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vNewDataTale</strong> | Specify Variable Name **vNewDataTale** |
+| <strong>{vNewDataTale}</strong> | Specify Variable Name **vNewDataTale** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -152,7 +182,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDataTableColumnToDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:11 PM
 
 
 ## Help

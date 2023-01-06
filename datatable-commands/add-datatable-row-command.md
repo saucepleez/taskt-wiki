@@ -19,26 +19,34 @@ Use this command when you want to add a row to a DataTable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please indicate the DataTable Variable Name](#param_0)
-- [Please Specify the Define Data](#param_1)
+- [Please Select the DataTable Variable Name](#param_0)
+- [Please Specify the Column Names and Values](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please indicate the DataTable Variable Name
+### Please Select the DataTable Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a existing DataTable to add rows to.</dd>
-<dt>Instance Type</dt><dd>DataTable</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myDataTable</strong> or <strong>{vMyDataTable}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vDataTable</strong> or <strong>{vDataTable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,7 +59,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Define Data
+### Please Specify the Column Names and Values
 
 
 <dl>
@@ -97,7 +105,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: AddDataTableRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:11 PM
 
 
 ## Help

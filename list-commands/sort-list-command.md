@@ -19,20 +19,21 @@ Use this command when you want to sort list.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a List Variable Name to sort](#param_0)
+- [Please Select the List Variable Name to Sort](#param_0)
 - [Optional - Please select sort order](#param_1)
 - [Optional - Please select sort target value type](#param_2)
-- [Please select a List Variable Name of the Sorted List](#param_3)
+- [Please Select the New List Variable Name](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please select a List Variable Name to sort
+### Please Select the List Variable Name to Sort
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>List</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -41,6 +42,13 @@ Use this command when you want to sort list.
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vList</strong> | Specify Variable Name **vList** |
+| <strong>{vList}</strong> | Specify Variable Name **vList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -99,21 +107,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please select a List Variable Name of the Sorted List
+### Please Select the New List Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vList</strong> | Specify Variable Name **vList** |
+| <strong>{vList}</strong> | Specify Variable Name **vList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -150,7 +165,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SortListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:12 PM
 
 
 ## Help

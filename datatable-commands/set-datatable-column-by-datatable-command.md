@@ -19,30 +19,38 @@ Use this command when you want to set a column to a DataTable by a DataTable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please indicate the DataTable Variable Name](#param_0)
-- [Optional - Please specify Column type](#param_1)
-- [Please specify the Column Name to set](#param_2)
-- [Please specify the DataTable to set new Column values](#param_3)
-- [Optional - Please Select the If the number of rows is less than the DataTable to set](#param_4)
-- [Optional - Please Select the If the number of DataTable items is less than the rows to setted DataTable](#param_5)
+- [Please Select the DataTable Variable Name to be Setted](#param_0)
+- [Optional - Please Select the Column type](#param_1)
+- [Please Specify the Name or Index of the Column](#param_2)
+- [Please Select the DataTable Variable Name to Set](#param_3)
+- [Optional - Please Select the When there are Less Rows than DataTable to set](#param_4)
+- [Optional - Please Select the When there are Less Rows than DataTable to be Setted](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Please indicate the DataTable Variable Name
+### Please Select the DataTable Variable Name to be Setted
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a existing DataTable to add rows to.</dd>
-<dt>Instance Type</dt><dd>DataTable</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myDataTable</strong> or <strong>{vMyDataTable}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vDataTable</strong> or <strong>{vDataTable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -55,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please specify Column type
+### Optional - Please Select the Column type
 
 
 <dl>
@@ -68,6 +76,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>Column Name</strong> | Specify the Column Name like **Name** |
+| <strong>Index</strong> | Specify the Column Index like **0** or **1** |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -78,7 +93,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please specify the Column Name to set
+### Please Specify the Name or Index of the Column
 
 
 <dl>
@@ -86,11 +101,20 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>newColumn</strong> or <strong>{vNewColumn}</strong> or <strong>-1</strong></dd>
+<dt>Sample Usage</dt><dd><strong>id</strong> or <strong>0</strong> or <strong>-1</strong> or <strong>{vColumn}</strong></dd>
 <dt>Remarks</dt><dd>If <strong>-1</strong> is specified for Column Index, it means the last column.</dd>
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>id</strong> | Specify **id** for Column Name |
+| <strong>0</strong> | Specify **0** for Column Index |
+| <strong>-1</strong> | Specify Last Column Index |
+| <strong>{vColumn}</strong> | Specify Value of Variable **vColumn** for Column Name or Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -103,7 +127,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please specify the DataTable to set new Column values
+### Please Select the DataTable Variable Name to Set
 
 
 <dl>
@@ -119,6 +143,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -129,7 +160,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the If the number of rows is less than the DataTable to set
+### Optional - Please Select the When there are Less Rows than DataTable to set
 
 
 <dl>
@@ -142,6 +173,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Do not Add New Rows |
+| <strong>Add Rows</strong> | Add New Rows |
+| <strong>Error</strong> | Rise a Error |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -152,7 +191,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Optional - Please Select the If the number of DataTable items is less than the rows to setted DataTable
+### Optional - Please Select the When there are Less Rows than DataTable to be Setted
 
 
 <dl>
@@ -163,6 +202,13 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### Sample Usage
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Do not Set Value |
+| <strong>Error</strong> | Rise a Error |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -199,7 +245,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetDataTableColumnValuesByDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:11 PM
 
 
 ## Help

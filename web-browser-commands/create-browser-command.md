@@ -38,7 +38,7 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 <dl>
 <dt>What to input</dt><dd>Signifies a unique name that will represemt the application instance.  This unique name allows you to refer to the instance by name in future commands, ensuring that the commands you specify run against the correct application.</dd>
 <dt>Instance Type</dt><dd>WebBrowser</dd>
-<dt>Parameter Direction</dt><dd>Output</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>Please install web browser before using this command.</dd>
 </dl>
@@ -220,7 +220,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/01/23 08:43 PM
+This page was generated on 01/06/23 10:12 PM
 
 
 ## Help
