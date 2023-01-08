@@ -19,9 +19,9 @@ This command convert a List to Dictionary.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the List Variable Name to convert](#param_0)
+- [Please Select the List Variable Name](#param_0)
 - [Optional - Please Select the Dictionary Keys Type](#param_1)
-- [Optional - Please Select the Supply the Dictionary Keys Name](#param_2)
+- [Optional - Please Select the Dictionary Keys Name List or Key Names](#param_2)
 - [Optional - Please Select the When the number of items in the List is greater than the number of Keys](#param_3)
 - [Optional - Please Select the When the number of Keys is greater than the number of items in the List](#param_4)
 - [Please Select the Dictionary Variable Name](#param_5)
@@ -29,11 +29,11 @@ This command convert a List to Dictionary.
 
 
 <a id="param_0"></a>
-### Please Select the List Variable Name to convert
+### Please Select the List Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
 <dt>Instance Type</dt><dd>List</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -46,7 +46,7 @@ This command convert a List to Dictionary.
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
@@ -67,13 +67,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>List</strong> or  <strong>Comma Separated</strong> or  <strong>Space Separated</strong> or  <strong>Tab Separated</strong> or  <strong>NewLine Separated</strong> or  <strong>Key Prefix</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Key Prefix</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>List</strong> | Specify the List Variable Name |
+| <strong>Comman Separated</strong> | Enter like **A,B,C** |
+| <strong>Space Separated</strong> | Enter like **A B C** |
+| <strong>Tab Separated</strong> | Enter like **A	B	C** |
+| <strong>item</strong> | When Select **Key Prefix** and Enter **item**, Key Name is item0, item1, item2, ... |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -86,18 +96,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Supply the Dictionary Keys Name
+### Optional - Please Select the Dictionary Keys Name List or Key Names
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Instance Type</dt><dd>List</dd>
-<dt>Sample Usage</dt><dd><strong>a,b,c</strong> or <strong>{vKeys}</strong></dd>
-<dt>Remarks</dt><dd>If keys is empty, Dictionary key is item0, item1, ...<br><br>
+<dt>Sample Usage</dt><dd>{vColumns} or <strong>A,B,C</strong></dd>
+<dt>Remarks</dt><dd>When keys is empty, Dictionary key is item0, item1, ...<br><br>
 <strong>Optional</strong><br></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| {vColumns} | Specify List Variable Name **vColumns** |
+| <strong>A,B,C</strong> | Specify Column Names **A**, **B**, and **C** As **Comma Separate** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -114,7 +131,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong> or  <strong>Try Create Keys</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
@@ -137,7 +154,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong> or  <strong>Insert Empty Value</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
@@ -160,7 +177,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Dictionary Variable Name</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -173,7 +190,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
@@ -214,7 +231,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertListToDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:12 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

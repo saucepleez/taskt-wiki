@@ -29,8 +29,8 @@ Use this command when you want to add list item.  You can even use variables to 
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
+<dt>Value</dt><dd>List Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -42,7 +42,7 @@ Use this command when you want to add list item.  You can even use variables to 
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
@@ -71,7 +71,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>Hello</strong> | Specify **Hello** for the Value to be added List |
@@ -112,7 +112,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: AddListItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:12 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

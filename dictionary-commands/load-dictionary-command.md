@@ -33,7 +33,7 @@ Use this command when you want to load a config file.
 
 <dl>
 <dt>What to input</dt><dd>Enter a name for a Dictionary.</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>Value</dt><dd>Dictionary Variable</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -179,7 +179,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: LoadDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:12 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

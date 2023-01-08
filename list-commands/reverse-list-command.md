@@ -29,7 +29,7 @@ Use this command when you want to reverse list.
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
 <dt>Instance Type</dt><dd>List</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -42,7 +42,7 @@ Use this command when you want to reverse list.
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
@@ -63,24 +63,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
+<dt>Value</dt><dd>List Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vNewList</strong> or <strong>{vNewList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vList</strong> | Specify Variable Name **vList** |
-| <strong>{vList}</strong> | Specify Variable Name **vList** |
+| <strong>vNewList</strong> | Specify Variable Name **vNewList** |
+| <strong>{vNewList}</strong> | Specify Variable Name **vNewList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -117,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReverseListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:12 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

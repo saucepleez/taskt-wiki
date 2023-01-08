@@ -29,7 +29,7 @@ Use this command when you want to create a new Dictionary
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Dictionary Variable Name</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -42,7 +42,7 @@ Use this command when you want to create a new Dictionary
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the Keys and Values required for your dictionary</dd>
+<dt>What to input</dt><dd>Enter or Select the Keys and Values required for the Dictionary</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -71,7 +71,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <table><thead><tr><th>Keys</th><th>Values</th></tr></thead><tbody><tr><td><strong>Age</strong></td><td><strong>15</strong></td></tr></tbody></table> | Add an item whose key is **Age** and value is **15** |
@@ -113,7 +113,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:12 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

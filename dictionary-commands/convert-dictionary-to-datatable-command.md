@@ -29,7 +29,7 @@ Use this command when you want to convert Dictionary to DataTable.
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Dictionary Variable Name</dd>
 <dt>Instance Type</dt><dd>Dictionary</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -42,7 +42,7 @@ Use this command when you want to convert Dictionary to DataTable.
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
@@ -63,8 +63,8 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -76,7 +76,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
@@ -117,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDictionaryToDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:12 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

@@ -29,7 +29,7 @@ Use this command when you want to get the item count of a List.
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
 <dt>Instance Type</dt><dd>List</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -42,7 +42,7 @@ Use this command when you want to get the item count of a List.
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
@@ -76,7 +76,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vResult</strong> | Specify Variable Name **vResult** |
@@ -117,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetListCountCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:12 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

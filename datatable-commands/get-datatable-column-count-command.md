@@ -29,7 +29,7 @@ Use this command when you want to get the column count of a DataTable.
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
 <dt>Instance Type</dt><dd>DataTable</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -41,7 +41,7 @@ Use this command when you want to get the column count of a DataTable.
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
@@ -75,7 +75,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vResult</strong> | Specify Variable Name **vResult** |
@@ -116,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetDataTableColumnCountCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:11 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

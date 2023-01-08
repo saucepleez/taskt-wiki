@@ -20,7 +20,7 @@ Use this command when you want to get list index from value
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the List Variable Name](#param_0)
-- [Please Specify the Value to Search](#param_1)
+- [Optional - Please Specify the Value to Search](#param_1)
 - [Optional - Please Select the Search Method](#param_2)
 - [Please Select the Variable Name to Store Result](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
@@ -31,7 +31,7 @@ Use this command when you want to get list index from value
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
 <dt>Instance Type</dt><dd>List</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -44,7 +44,7 @@ Use this command when you want to get list index from value
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
@@ -61,19 +61,19 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Value to Search
+### Optional - Please Specify the Value to Search
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Value to Search</dd>
 <dt>Sample Usage</dt><dd><strong>0</strong> or <strong>Hello</strong> or <strong>{vValue}</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Empty</strong></dd>
 </dl>
 
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>0</strong> | Specify **0** for Value to Search |
@@ -95,7 +95,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd><strong>First Index</strong> or <strong>Last Index</strong></dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>First Index</strong> or  <strong>Last Index</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>First Index</strong></dd>
@@ -131,7 +131,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vResult</strong> | Specify Variable Name **vResult** |
@@ -172,7 +172,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetListIndexFromValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:12 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

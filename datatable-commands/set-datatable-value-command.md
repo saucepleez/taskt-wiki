@@ -32,8 +32,8 @@ Use this command when you want to set the DataTable value.
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -45,7 +45,7 @@ Use this command when you want to set the DataTable value.
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
@@ -66,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Column Name</strong> or  <strong>Index</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Column Name</strong></dd>
@@ -75,7 +75,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>Column Name</strong> | Specify the Column Name like **Name** |
@@ -107,7 +107,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>id</strong> | Specify **id** for Column Name |
@@ -130,7 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Index of the Row</dd>
 <dt>Sample Usage</dt><dd><strong>0</strong> or <strong>-1</strong> or <strong>1</strong> or <strong>{vRowIndex}</strong></dd>
 <dt>Remarks</dt><dd><strong>-1</strong> means index of the last row.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>Current Row</strong></dd>
@@ -139,7 +139,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>0</strong> | Specify First Row Index |
@@ -170,7 +170,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>Hello</strong> | Specify **Hello** |
@@ -212,7 +212,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetDataTableValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:11 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

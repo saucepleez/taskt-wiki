@@ -21,10 +21,10 @@ Use this command when you want to Replace Row values.
 ## Command Parameters
 - [Please Select the DataTable Variable Name](#param_0)
 - [Optional - Please Specify the Index of the Row](#param_1)
-- [Please Select the replace target value type](#param_2)
-- [Please Select the replace action](#param_3)
+- [Please Select the Type of Values to be Replaced](#param_2)
+- [Please Select the Replace Action](#param_3)
 - [Please Specify the Additional Parameters](#param_4)
-- [Please specify replace value](#param_5)
+- [Optional - Please Specify the Replace Value](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
 
 
@@ -33,8 +33,8 @@ Use this command when you want to Replace Row values.
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -46,7 +46,7 @@ Use this command when you want to Replace Row values.
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
@@ -67,7 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Index of the Row</dd>
 <dt>Sample Usage</dt><dd><strong>0</strong> or <strong>-1</strong> or <strong>1</strong> or <strong>{vRowIndex}</strong></dd>
 <dt>Remarks</dt><dd><strong>-1</strong> means index of the last row.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>Current Row</strong></dd>
@@ -76,7 +76,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>0</strong> | Specify First Row Index |
@@ -95,11 +95,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the replace target value type
+### Please Select the Type of Values to be Replaced
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -109,6 +109,14 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Text</strong> | Specify **Text** for Type of Values |
+| <strong>Numeric</strong> | Specify **Numeric** for Type of Values |
+| <strong>{vType}</strong> | Specify Value of Variable **vType** for Type of Values |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -121,7 +129,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Select the replace action
+### Please Select the Replace Action
 
 
 <dl>
@@ -168,16 +176,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please specify replace value
+### Optional - Please Specify the Replace Value
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Replace Value</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>a</strong> or <strong>{vValue}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Empty</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Replace with **1** |
+| <strong>a</strong> | Replace with **a** |
+| <strong>{vValue}</strong> | Replace with the Value of Variable **{{{vValue}}}** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -214,7 +230,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReplaceDataTableRowValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:11 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

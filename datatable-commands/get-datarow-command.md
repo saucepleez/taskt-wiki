@@ -31,7 +31,7 @@ Use this command when you want to add a datarow to a DataTable.
 
 <dl>
 <dt>What to input</dt><dd>Enter a existing DataTable to fet rows from.</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
 <dt>Sample Usage</dt><dd><strong>myDataTable</strong> or <strong>{vMyDataTable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -118,7 +118,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetDataRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:12 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

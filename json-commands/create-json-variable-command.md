@@ -29,8 +29,8 @@ This command allows you to create JSON Variable.
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>What to input</dt><dd>Enter or Select the JSON <strong>Variable Name</strong></dd>
+<dt>Value</dt><dd>JSON Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -42,7 +42,7 @@ This command allows you to create JSON Variable.
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vJSON</strong> | Specify Variable Name **vJSON** |
@@ -71,7 +71,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>{ &quot;id&quot;: 1, &quot;name&quot;: &quot;John&quot; }</strong> | Specify JSON Object |
@@ -113,7 +113,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateJSONVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:11 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

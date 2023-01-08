@@ -43,7 +43,7 @@ Use this command when you want to get Format Color Value.
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>{vColor}</strong> | Specify Value of Variable **vColor** |
@@ -111,7 +111,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vResult</strong> | Specify Variable Name **vResult** |
@@ -152,7 +152,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FormatColorCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:11 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help

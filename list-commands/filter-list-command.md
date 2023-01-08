@@ -20,10 +20,10 @@ Use this command when you want to filter List value.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the List Variable Name to Filter](#param_0)
-- [Please Select the Filter Target Value Type](#param_1)
+- [Please Select the Type of Values to be Filterd](#param_1)
 - [Please Select the Filter Action](#param_2)
 - [Please Specify the Additional Parameters](#param_3)
-- [Please Select the Result List Variable Name](#param_4)
+- [Please Select the New List Variable Name](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
@@ -32,7 +32,7 @@ Use this command when you want to filter List value.
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
 <dt>Instance Type</dt><dd>List</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -45,7 +45,7 @@ Use this command when you want to filter List value.
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
 | <strong>vList</strong> | Specify Variable Name **vList** |
@@ -62,11 +62,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Filter Target Value Type
+### Please Select the Type of Values to be Filterd
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -76,6 +76,14 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Text</strong> | Specify **Text** for Type of Values |
+| <strong>Numeric</strong> | Specify **Numeric** for Type of Values |
+| <strong>{vType}</strong> | Specify Value of Variable **vType** for Type of Values |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -135,28 +143,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Select the Result List Variable Name
+### Please Select the New List Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Instance Type</dt><dd>List</dd>
-<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
+<dt>Value</dt><dd>List Variable</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vNewList</strong> or <strong>{vNewList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
 
 
-#### Sample Usage
+#### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vList</strong> | Specify Variable Name **vList** |
-| <strong>{vList}</strong> | Specify Variable Name **vList** |
+| <strong>vNewList</strong> | Specify Variable Name **vNewList** |
+| <strong>{vNewList}</strong> | Specify Variable Name **vNewList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -193,7 +201,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FilterListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/06/23 10:11 PM
+This page was generated on 01/08/23 01:56 PM
 
 
 ## Help
