@@ -21,8 +21,8 @@ This command allows you to get AutomationElement from Window Name using by XPath
 ## Command Parameters
 - [Please specify Window Name](#param_0)
 - [Optional - Please select Window name search method](#param_1)
-- [Please specify search XPath](#param_2)
-- [Please specify a Variable to store Result AutomationElement](#param_3)
+- [Please Specify the Search XPath](#param_2)
+- [Please Select the AutomationElement Variable Name](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
@@ -76,11 +76,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please specify search XPath
+### Please Specify the Search XPath
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Search XPath</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -89,6 +89,14 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>//Button[@Name=&quot;OK&quot;]</strong> | Specify a Button whose **Name** Attribute is **OK** in descendant node of the criteria AutomationElement |
+| <strong>/Pane[1]/Button[2]</strong> | Specify the **second** Button of the **first** Pane child node of the child node of the criteria AutomationElement |
+| <strong>{vXPath}</strong> | Specify Value of Variable **vXPath** for XPath |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -101,11 +109,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please specify a Variable to store Result AutomationElement
+### Please Select the AutomationElement Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the AutomationElement Variable Name</dd>
 <dt>Value</dt><dd>AutomationElement Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -116,6 +124,13 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vElement</strong> | Specify Value of Variable **vElement** |
+| <strong>{vElement}</strong> | Specify Value of Variable **vElement** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -152,7 +167,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationGetElementFromWindowByXPathCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/08/23 01:56 PM
+This page was generated on 01/15/23 01:51 PM
 
 
 ## Help

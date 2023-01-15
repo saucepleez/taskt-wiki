@@ -19,13 +19,13 @@ Use this command when you want to load EMail from File.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please specify Path to the EMail](#param_0)
-- [Please specify EMail Variable Name](#param_1)
+- [Please Select the Path to the EMail](#param_0)
+- [Please Select the EMail Variable Name](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please specify Path to the EMail
+### Please Select the Path to the EMail
 
 
 <dl>
@@ -51,21 +51,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify EMail Variable Name
+### Please Select the EMail Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the EMail Variable Name</dd>
 <dt>Instance Type</dt><dd>MailKitEMail</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>{vEMail}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vEMailName</strong> or <strong>{vEMailName}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vEMailName</strong> | Specify Variable Name **vEMailName** |
+| <strong>{vEMailName}</strong> | Specify Variable Name **vEMailName** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -102,7 +109,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitLoadEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/08/23 01:56 PM
+This page was generated on 01/15/23 01:51 PM
 
 
 ## Help

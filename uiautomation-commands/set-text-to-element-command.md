@@ -19,27 +19,34 @@ This command allows you to set Text Value from AutomationElement.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please specify AutomationElement Variable](#param_0)
-- [Please specify Text to Set](#param_1)
+- [Please Select the AutomationElement Variable Name](#param_0)
+- [Please Specify the Text to Set](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please specify AutomationElement Variable
+### Please Select the AutomationElement Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the AutomationElement Variable Name</dd>
 <dt>Instance Type</dt><dd>AutomationElement</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>{vElement}</strong></dd>
-<dt>Remarks</dt><dd>Supported Element is TextBox, etc.</dd>
+<dt>Sample Usage</dt><dd><strong>vElement</strong> or <strong>{vElement}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vElement</strong> | Specify Value of Variable **vElement** |
+| <strong>{vElement}</strong> | Specify Value of Variable **vElement** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,16 +59,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify Text to Set
+### Please Specify the Text to Set
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Text</dd>
 <dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Hello</strong> | Specify **Hello** |
+| <strong>{vText}</strong> | Specify Value of Variable **vText** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -98,7 +112,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSetTextToElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/08/23 01:56 PM
+This page was generated on 01/15/23 01:51 PM
 
 
 ## Help

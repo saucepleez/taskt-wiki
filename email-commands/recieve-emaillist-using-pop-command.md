@@ -19,29 +19,37 @@ Use this command when you want to get MailList(EMails) using POP protocol. Resul
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please specify POP Host Name](#param_0)
-- [Please specify POP Port](#param_1)
-- [Please specify POP Username](#param_2)
-- [Please specify POP Password](#param_3)
-- [Optional - Please specify Secure Option](#param_4)
-- [Please specify Variable Name to Store EMailList](#param_5)
+- [Please Specify the Host Name](#param_0)
+- [Please Specify the Port](#param_1)
+- [Please Specify the Username](#param_2)
+- [Please Specify the Password](#param_3)
+- [Optional - Please Select the Secure Option](#param_4)
+- [Please Select the EMailList Variable Name](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Please specify POP Host Name
+### Please Specify the Host Name
 
 
 <dl>
-<dt>What to input</dt><dd>Define the host/service name that the script should use</dd>
+<dt>What to input</dt><dd>Enter or Select the Host Name</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>pop.mymail.com</strong> or <strong>{vHost}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>mail.example.com</strong> or <strong>{vHost}</strong> or <strong>pop.example.com</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>mail.example.com</strong> | Specify **mail.example.com** for Host Name |
+| <strong>{vHost}</strong> | Specify Value of Variable **vHost** for Host Name |
+| <strong>pop.example.com</strong> | Specify **pop.example.com** for Host |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -54,20 +62,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify POP Port
+### Please Specify the Port
 
 
 <dl>
-<dt>What to input</dt><dd>Define the port number that should be used when contacting the POP service</dd>
+<dt>What to input</dt><dd>Enter or Select the Port Number</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-<li>Less than Zero</li>
+<li><strong>Not</strong> Between 0 to 65535</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd><strong>110</strong> or <strong>995</strong> or <strong>{vPort}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>110</strong> | Specify **110** for Port |
+| <strong>995</strong> | Specify **995** for Port |
+| <strong>{vPort}</strong> | Specify Value of Variable **vPort** for Port |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -80,16 +96,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please specify POP Username
+### Please Specify the Username
 
 
 <dl>
-<dt>What to input</dt><dd>Define the username to use when contacting the POP service</dd>
-<dt>Sample Usage</dt><dd><strong>username</strong> or <strong>{vUserName}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Username</dd>
+<dt>Sample Usage</dt><dd><strong>john</strong> or <strong>john@example.com</strong> or <strong>{vUser}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>john</strong> | Specify **john** for Username |
+| <strong>john@example.com</strong> | Specify **john@example.com** for Username |
+| <strong>{vUser}</strong> | Specify Value of Variable **vUser** for Username |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -102,19 +126,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please specify POP Password
+### Please Specify the Password
 
 
 <dl>
-<dt>What to input</dt><dd>Define the password to use when contacting the POP service</dd>
+<dt>What to input</dt><dd>Password</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>password</strong> or <strong>{vPassword}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>password</strong> or <strong>{vPass}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>password</strong> | Specify **password** for Password |
+| <strong>{vPass}</strong> | Specify Value of Variable **vPass** for Password |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -127,11 +158,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please specify Secure Option
+### Optional - Please Select the Secure Option
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Auto</strong> or  <strong>No SSL or TLS</strong> or  <strong>Use SSL or TLS</strong> or  <strong>STARTTLS</strong> or  <strong>STARTTLS When Available</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Auto</strong></dd>
@@ -150,21 +181,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please specify Variable Name to Store EMailList
+### Please Select the EMailList Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the EMailList Variable Name</dd>
 <dt>Value</dt><dd>MailKitEMailList Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vMailList</strong> or <strong>{vMailList}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vEMailList</strong> or <strong>{vEMailList}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vEMailList</strong> | Specify Variable Name **vEMailList** |
+| <strong>{vEMailList}</strong> | Specify Variable Name **vEMailList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -201,7 +239,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitRecieveEmailListUsingPOPCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/08/23 01:56 PM
+This page was generated on 01/15/23 01:51 PM
 
 
 ## Help

@@ -19,35 +19,43 @@ Use this command when you want to send an EMail and have access to SMTP server c
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please specify SMTP Host Name](#param_0)
-- [Please specify SMTP Port](#param_1)
-- [Optional - Please specify SMTP Username](#param_2)
-- [Please specify SMTP Password](#param_3)
-- [Please specify From Email Address](#param_4)
-- [Please specify To Email Address](#param_5)
-- [Optional - Please specify CC Email Address](#param_6)
-- [Optional - Please specify BCC Email Address](#param_7)
-- [Optional - Please specify Email Subject](#param_8)
-- [Optional - Please specify Email Message](#param_9)
-- [Optional - Please specify Email Attachment File Path](#param_10)
-- [Optional - Please specify Secure Option](#param_11)
+- [Please Specify the SMTP Host Name](#param_0)
+- [Please Specify the SMTP Port](#param_1)
+- [Please Specify the SMTP User Name](#param_2)
+- [Please Specify the SMTP Password](#param_3)
+- [Please Specify the From EMail Address](#param_4)
+- [Please Specify the To EMail Address](#param_5)
+- [Please Specify the CC EMail Address](#param_6)
+- [Please Specify the BCC EMail Address](#param_7)
+- [Optional - Please Specify the Email Subject](#param_8)
+- [Optional - Please Specify the Email Message](#param_9)
+- [Optional - Please Specify the Email Attachment File Path](#param_10)
+- [Optional - Please Select the Secure Option](#param_11)
 - [Optional - Please Specify the Comment Field](#param_12)
 
 
 <a id="param_0"></a>
-### Please specify SMTP Host Name
+### Please Specify the SMTP Host Name
 
 
 <dl>
-<dt>What to input</dt><dd>Define the host/service name that the script should use</dd>
+<dt>What to input</dt><dd>Enter or Select the Host Name</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>smtp.mymail.com</strong> or <strong>{vHost}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>mail.example.com</strong> or <strong>{vHost}</strong> or <strong>smtp.example.com</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>mail.example.com</strong> | Specify **mail.example.com** for Host Name |
+| <strong>{vHost}</strong> | Specify Value of Variable **vHost** for Host Name |
+| <strong>smtp.example.com</strong> | Specify **smtp.example.com** for Host |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -60,20 +68,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify SMTP Port
+### Please Specify the SMTP Port
 
 
 <dl>
-<dt>What to input</dt><dd>Define the port number that should be used when contacting the SMTP service</dd>
+<dt>What to input</dt><dd>Enter or Select the Port Number</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
-<li>Less than Zero</li>
+<li><strong>Not</strong> Between 0 to 65535</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd><strong>25</strong> or <strong>587</strong> or <strong>{vPort}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>25</strong> | Specify **25** for Port |
+| <strong>587</strong> | Specify **587** for Port |
+| <strong>{vPort}</strong> | Specify Value of Variable **vPort** for Port |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -86,16 +102,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please specify SMTP Username
+### Please Specify the SMTP User Name
 
 
 <dl>
-<dt>What to input</dt><dd>Define the username to use when contacting the SMTP service</dd>
-<dt>Sample Usage</dt><dd><strong>username</strong> or <strong>{vUserName}</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>From Email</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Username</dd>
+<dt>Sample Usage</dt><dd><strong>john</strong> or <strong>john@example.com</strong> or <strong>{vUser}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>john</strong> | Specify **john** for Username |
+| <strong>john@example.com</strong> | Specify **john@example.com** for Username |
+| <strong>{vUser}</strong> | Specify Value of Variable **vUser** for Username |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -108,19 +132,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please specify SMTP Password
+### Please Specify the SMTP Password
 
 
 <dl>
-<dt>What to input</dt><dd>Define the password to use when contacting the SMTP service</dd>
+<dt>What to input</dt><dd>Password</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>password</strong> or <strong>{vPassword}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>password</strong> or <strong>{vPass}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>password</strong> | Specify **password** for Password |
+| <strong>{vPass}</strong> | Specify Value of Variable **vPass** for Password |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -133,19 +164,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please specify From Email Address
+### Please Specify the From EMail Address
 
 
 <dl>
-<dt>What to input</dt><dd>Specify how the 'From' field should appear.</dd>
+<dt>What to input</dt><dd>Enter or Select the EMail Address</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>my-robot@company.com</strong> or <strong>{vFromMail}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>my-robot@example.com</strong> or <strong>{vAddress}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>my-robot@example.com</strong> | Specify **my-robot@example.com** for EMail Address |
+| <strong>{vAddress}</strong> | Specify Value of Variable **vAddress** for EMail Address |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -158,19 +196,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please specify To Email Address
+### Please Specify the To EMail Address
 
 
 <dl>
-<dt>What to input</dt><dd>Specify the destination email that should be addressed.</dd>
+<dt>What to input</dt><dd>Enter or Select the EMail Address</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>john@company.com</strong> or <strong>{vToMail}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>my-robot@example.com</strong> or <strong>{vAddress}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>my-robot@example.com</strong> | Specify **my-robot@example.com** for EMail Address |
+| <strong>{vAddress}</strong> | Specify Value of Variable **vAddress** for EMail Address |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -183,16 +228,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please specify CC Email Address
+### Please Specify the CC EMail Address
 
 
 <dl>
-<dt>What to input</dt><dd>Specify the destination email that should be addressed.</dd>
-<dt>Sample Usage</dt><dd><strong>tom@company.com</strong> or <strong>{vCCMail}</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>What to input</dt><dd>Enter or Select the EMail Address</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>my-robot@example.com</strong> or <strong>{vAddress}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>my-robot@example.com</strong> | Specify **my-robot@example.com** for EMail Address |
+| <strong>{vAddress}</strong> | Specify Value of Variable **vAddress** for EMail Address |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -205,16 +260,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please specify BCC Email Address
+### Please Specify the BCC EMail Address
 
 
 <dl>
-<dt>What to input</dt><dd>Specify the destination email that should be addressed.</dd>
-<dt>Sample Usage</dt><dd><strong>bob@company.com</strong> or <strong>{vBCCMail}</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>What to input</dt><dd>Enter or Select the EMail Address</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>my-robot@example.com</strong> or <strong>{vAddress}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>my-robot@example.com</strong> | Specify **my-robot@example.com** for EMail Address |
+| <strong>{vAddress}</strong> | Specify Value of Variable **vAddress** for EMail Address |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -227,16 +292,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_8"></a>
-### Optional - Please specify Email Subject
+### Optional - Please Specify the Email Subject
 
 
 <dl>
-<dt>What to input</dt><dd>Define the text subject (or variable) that the email should have.</dd>
-<dt>Sample Usage</dt><dd><strong>Alert!</strong> or <strong>{vTitle}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the EMail Subject</dd>
+<dt>Sample Usage</dt><dd><strong>Alert!</strong> or <strong>{vSubject}</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Alert!</strong> | Specify **Alert!** for Subject |
+| <strong>{vSubject}</strong> | Specify Value of Variable **vSubject** for Subject |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -249,16 +321,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_9"></a>
-### Optional - Please specify Email Message
+### Optional - Please Specify the Email Message
 
 
 <dl>
-<dt>What to input</dt><dd>Specify the message that should be sent.</dd>
-<dt>Sample Usage</dt><dd><strong>Everything ran ok at {DateTime.Now}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Message</dd>
+<dt>Sample Usage</dt><dd><strong>Everything ran ok at {DateTime.Now}</strong> or <strong>{vMessage}</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Everything ran ok at {DateTime.Now}</strong> | Send result message and current Date and Time |
+| <strong>{vMessage}</strong> | Specify Value of Variable **vMessage** for Message |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -271,7 +350,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_10"></a>
-### Optional - Please specify Email Attachment File Path
+### Optional - Please Specify the Email Attachment File Path
 
 
 <dl>
@@ -293,11 +372,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_11"></a>
-### Optional - Please specify Secure Option
+### Optional - Please Select the Secure Option
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Auto</strong> or  <strong>No SSL or TLS</strong> or  <strong>Use SSL or TLS</strong> or  <strong>STARTTLS</strong> or  <strong>STARTTLS When Available</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Auto</strong></dd>
@@ -340,7 +419,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitSendEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/08/23 01:56 PM
+This page was generated on 01/15/23 01:51 PM
 
 
 ## Help

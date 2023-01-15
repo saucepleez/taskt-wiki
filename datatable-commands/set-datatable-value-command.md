@@ -23,7 +23,7 @@ Use this command when you want to set the DataTable value.
 - [Optional - Please Select the Column type](#param_1)
 - [Please Specify the Name or Index of the Column](#param_2)
 - [Optional - Please Specify the Index of the Row](#param_3)
-- [Please Specify the Value to Set DataTable](#param_4)
+- [Please Specify the Value to Set](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
@@ -158,7 +158,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Specify the Value to Set DataTable
+### Please Specify the Value to Set
 
 
 <dl>
@@ -212,7 +212,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetDataTableValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/08/23 01:56 PM
+This page was generated on 01/15/23 01:51 PM
 
 
 ## Help

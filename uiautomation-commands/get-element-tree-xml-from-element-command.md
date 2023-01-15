@@ -19,27 +19,34 @@ This command allows you to get Element Tree XML from AutomationElement.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please specify AutomationElement Variable](#param_0)
-- [Please specify a Variable to store XML](#param_1)
+- [Please Select the AutomationElement Variable Name](#param_0)
+- [Please Select the Variable Name to store XML](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please specify AutomationElement Variable
+### Please Select the AutomationElement Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the AutomationElement Variable Name</dd>
 <dt>Instance Type</dt><dd>AutomationElement</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>{vElement}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vElement</strong> or <strong>{vElement}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vElement</strong> | Specify Value of Variable **vElement** |
+| <strong>{vElement}</strong> | Specify Value of Variable **vElement** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,11 +59,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify a Variable to store XML
+### Please Select the Variable Name to store XML
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -66,6 +73,13 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vXML</strong> | Specify Variable Name **vXML** |
+| <strong>{vXML}</strong> | Specify Variable Name **vXML** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -102,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationGetElementTreeXMLFromElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/08/23 01:56 PM
+This page was generated on 01/15/23 01:51 PM
 
 
 ## Help
