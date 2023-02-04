@@ -144,7 +144,7 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>Auto</strong> | Automatically determines the Value Type |
 | <strong>Text</strong> | Specify **Text** for Value Type |
-| <strong>Text</strong> | Specify **Text** for Value Type |
+| <strong>Number</strong> | Specify **Number** for Value Type |
 | <strong>bool</strong> | Specify **bool** for Value Type |
 | <strong>Object</strong> | Specify JSON Object for Value Type |
 | <strong>Array</strong> | Specify Array Object for Value Type |
@@ -184,7 +184,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: AddJSONArrayItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/15/23 01:51 PM
+This page was generated on 02/04/23 04:57 PM
 
 
 ## Help

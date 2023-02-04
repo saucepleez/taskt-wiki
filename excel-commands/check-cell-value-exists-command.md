@@ -19,28 +19,35 @@ Use this command when you want to get a value from a specific cell.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name](#param_0)
-- [Please Enter the Cell Location](#param_1)
-- [Please select the variable to receive the result](#param_2)
-- [Optional - Please Select the Value type](#param_3)
+- [Please Select the Excel Instance Name](#param_0)
+- [Please Specify the Cell Location](#param_1)
+- [Please Select the Variable Name to Store Result](#param_2)
+- [Optional - Please Select the Value Type](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name
+### Please Select the Excel Instance Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Excel</strong> command</dd>
+<dt>What to input</dt><dd>Enter or Select the Excel Instance Name</dd>
 <dt>Instance Type</dt><dd>Excel</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error</dd>
+<dt>Sample Usage</dt><dd><strong>RPAExcel</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -53,11 +60,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Enter the Cell Location
+### Please Specify the Cell Location
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the actual location of the cell.</dd>
+<dt>What to input</dt><dd>Enter or Select the Cell Location</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -66,6 +73,14 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>A1</strong> | Specify **A1** |
+| <strong>B10</strong> | Specify **B10** |
+| <strong>{vAddress}</strong> | Specify Value of Variable **vAddress** for Cell Location |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -78,21 +93,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please select the variable to receive the result
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Boolean Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd>When the Value Exists, Result is <strong>True</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -105,23 +127,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Value type
+### Optional - Please Select the Value Type
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Cell</strong> or  <strong>Formula</strong> or  <strong>Back Color</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Cell</strong></dd>
 </dl>
 
 
-#### Addtional Info about &quot;Optional - Please Select the Value type&quot;
+#### Addtional Info about &quot;Optional - Please Select the Value Type&quot;
 | Parameter Value(s) | Description   | Sample Data 	| Remarks  	|
 | ---             | ---           | ---          | ---       |
-|Cell|Check cell has value or not|||
-|Formula|Check cell has formula or not|||
-|Back Color|Check back color is not white|||
+|Cell|Check the Cell has Value or Not|||
+|Formula|Check the Cell has Formula or Not|||
+|Back Color|Check the Cell Background Color is Not White|||
 
 
 <div style="font-size: 90%; text-align: center">
@@ -158,7 +180,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelCheckCellValueExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/15/23 01:51 PM
+This page was generated on 02/04/23 04:57 PM
 
 
 ## Help

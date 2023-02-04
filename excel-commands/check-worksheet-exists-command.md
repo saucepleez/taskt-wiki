@@ -19,27 +19,34 @@ Use this command when you want to switch to a specific worksheet
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name](#param_0)
-- [Please Indicate the name of the sheet within the Workbook to check](#param_1)
-- [Please select the variable to receive the existance sheet](#param_2)
+- [Please Select the Excel Instance Name](#param_0)
+- [Please Specify the Sheet Name](#param_1)
+- [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name
+### Please Select the Excel Instance Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Excel</strong> command</dd>
+<dt>What to input</dt><dd>Enter or Select the Excel Instance Name</dd>
 <dt>Instance Type</dt><dd>Excel</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error</dd>
+<dt>Sample Usage</dt><dd><strong>RPAExcel</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,19 +59,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Indicate the name of the sheet within the Workbook to check
+### Please Specify the Sheet Name
 
 
 <dl>
-<dt>What to input</dt><dd>Specify the name of the actual sheet</dd>
+<dt>What to input</dt><dd>Enter or Select the Sheet Name</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>mySheet</strong>, <strong>Current Sheet</strong>, <strong>{vSheet}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>mySheet</strong> or <strong>{vSheet}</strong> or <strong>Current Sheet</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>mySheet</strong> | Specify **mySheet** for Sheet Name |
+| <strong>{vSheet}</strong> | Specify Value of Variable **vSheet** for Sheet Name |
+| <strong>Current Sheet</strong> | Specify Current Sheet Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -77,21 +92,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please select the variable to receive the existance sheet
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Boolean Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Result is <strong>TRUE</strong> or <strong>FALSE</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd>When the Sheet Exists, Result is <strong>True</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -128,7 +150,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelCheckWorksheetExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/15/23 01:51 PM
+This page was generated on 02/04/23 04:57 PM
 
 
 ## Help

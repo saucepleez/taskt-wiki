@@ -19,26 +19,33 @@ Use this command when you want to close an open instance of Excel.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name](#param_0)
-- [Optional - Please Indicate if the Workbook should be saved](#param_1)
+- [Please Select the Excel Instance Name](#param_0)
+- [Optional - Please Select the If the Workbook should be Saved](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name
+### Please Select the Excel Instance Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Excel</strong> command</dd>
+<dt>What to input</dt><dd>Enter or Select the Excel Instance Name</dd>
 <dt>Instance Type</dt><dd>Excel</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error</dd>
+<dt>Sample Usage</dt><dd><strong>RPAExcel</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,17 +58,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Indicate if the Workbook should be saved
+### Optional - Please Select the If the Workbook should be Saved
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a True or False value</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>True</strong> or  <strong>False</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>False</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>True</strong> | If the Workbook needs to be Saved, Save it and then Close it |
+| <strong>False</strong> | Whether the Workbook needs to be Saved or not, Close it without saving |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -98,7 +112,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelCloseApplicationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/15/23 01:51 PM
+This page was generated on 02/04/23 04:57 PM
 
 
 ## Help

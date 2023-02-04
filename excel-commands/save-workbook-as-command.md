@@ -19,27 +19,34 @@ Use this command when you want to save a workbook to a file.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name](#param_0)
-- [Please indicate the file path to save](#param_1)
-- [Optional - Please Specify If Excel File Exists](#param_2)
+- [Please Select the Excel Instance Name](#param_0)
+- [Please Specify the Excel File Path to Save](#param_1)
+- [Optional - Please Select the When Excel File Exists](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name
+### Please Select the Excel Instance Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Excel</strong> command</dd>
+<dt>What to input</dt><dd>Enter or Select the Excel Instance Name</dd>
 <dt>Instance Type</dt><dd>Excel</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error.</dd>
+<dt>Sample Usage</dt><dd><strong>RPAExcel</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,20 +59,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please indicate the file path to save
+### Please Specify the Excel File Path to Save
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the path to the file.</dd>
+<dt>What to input</dt><dd>Enter or Select the Excel File Path</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vExcelFilePath}</strong></dd>
-<dt>Remarks</dt><dd>If file does not contain extensin, supplement xlsx extension.
-If file does not contain folder path, file will be saved in the same folder as script file.</dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vFilePath}</strong></dd>
+<dt>Remarks</dt><dd>If file does not contain extension, supplement extensions supported by Excel.
+If file does not contain folder path, file will be opened in the same folder as script file.</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:\temp\myfile.xlsx</strong> | Specify **C:\temp\myfile.xlsx** for File Path |
+| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for File Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -78,17 +92,25 @@ If file does not contain folder path, file will be saved in the same folder as s
 
 
 <a id="param_2"></a>
-### Optional - Please Specify If Excel File Exists
+### Optional - Please Select the When Excel File Exists
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Error</strong> or  <strong>Overwrite</strong> or  <strong>Ignore</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Error</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Error</strong> | Rise a Error |
+| <strong>Overwrite</strong> | Overwrite file |
+| <strong>Ignore</strong> | Don't save the file |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -125,7 +147,7 @@ If file does not contain folder path, file will be saved in the same folder as s
 ## Developer/Additional Reference
 Automation Class Name: ExcelSaveAsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/15/23 01:51 PM
+This page was generated on 02/04/23 04:57 PM
 
 
 ## Help

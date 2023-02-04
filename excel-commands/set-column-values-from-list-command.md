@@ -19,32 +19,39 @@ Use this command when you want to set Column values from List.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name](#param_0)
-- [Optional - Please Specify Column Type](#param_1)
-- [Please Enter the Column Location or Index](#param_2)
-- [Optional - Please Enter the Start Row Index](#param_3)
-- [Optional - Please Enter the End Row Index](#param_4)
-- [Please specify the List Variable Name to set](#param_5)
-- [Optional - Please specify the Value type to get](#param_6)
-- [Optional - Please specify If List Items not enough](#param_7)
+- [Please Select the Excel Instance Name](#param_0)
+- [Optional - Please Select the Column Type](#param_1)
+- [Please Specify the Column Location or Index](#param_2)
+- [Optional - Please Specify the Start Row Index](#param_3)
+- [Optional - Please Specify the End Row Index](#param_4)
+- [Please Select the List Variable Name](#param_5)
+- [Optional - Please Select the Value Type](#param_6)
+- [Optional - Please Select the When List Items Not Enough](#param_7)
 - [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name
+### Please Select the Excel Instance Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Excel</strong> command</dd>
+<dt>What to input</dt><dd>Enter or Select the Excel Instance Name</dd>
 <dt>Instance Type</dt><dd>Excel</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Excel</strong> command will cause an error</dd>
+<dt>Sample Usage</dt><dd><strong>RPAExcel</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -57,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Specify Column Type
+### Optional - Please Select the Column Type
 
 
 <dl>
@@ -70,6 +77,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Range</strong> | Use Range, like **A**. It means first column. |
+| <strong>RC</strong> | Use Row-Column, like **1**. It means first column. |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -80,11 +94,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Enter the Column Location or Index
+### Please Specify the Column Location or Index
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Column Location or Index</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li>Less than Zero</li>
@@ -97,6 +111,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>A</strong> | Specify the First Column when **Range** is specified for Column Type. |
+| <strong>1</strong> | Specify the First Column when **RC** is specified for Column Type. |
+| <strong>{vColumn}</strong> | Specify Value of Variable **vColumn** for Column |
+
+
 <div style="font-size: 90%; text-align: center">
 
 
@@ -107,16 +129,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Enter the Start Row Index
+### Optional - Please Specify the Start Row Index
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Start Row</dd>
 <dt>Sample Usage</dt><dd><strong>1</strong> or <strong>2</strong> or <strong>{vRow}</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>1</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify the First Row Index for Start Row |
+| <strong>2</strong> | Specify **2** for Start Row |
+| <strong>{vRow}</strong> | Specify Value of Variable **vRow** for Start Row |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -129,16 +159,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Enter the End Row Index
+### Optional - Please Specify the End Row Index
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the End Row</dd>
 <dt>Sample Usage</dt><dd><strong>1</strong> or <strong>2</strong> or <strong>{vRow}</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>End of List</strong></dd>
+<dt>Remarks</dt><dd>When End Row Index is Empty, Automatically specifies the Last Row where values are entered consecutively<br><br>
+<strong>Optional</strong><br>Default Value is <strong>Last Row</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify the First Row Index for Start Row |
+| <strong>2</strong> | Specify **2** for Start Row |
+| <strong>{vRow}</strong> | Specify Value of Variable **vRow** for Start Row |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -151,20 +190,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please specify the List Variable Name to set
+### Please Select the List Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
 <dt>Instance Type</dt><dd>List</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vList</strong> | Specify Variable Name **vList** |
+| <strong>{vList}</strong> | Specify Variable Name **vList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -177,17 +224,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please specify the Value type to get
+### Optional - Please Select the Value Type
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Cell</strong> or  <strong>Formula</strong> or  <strong>Format</strong> or  <strong>Font Color</strong> or  <strong>Back Color</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Cell</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Cell</strong> | Specify the Cell Value |
+| <strong>Formula</strong> | Specify the Cell Formula, like **=SUM(A1:A10)** |
+| <strong>Format</strong> | Specify the Cell Format |
+| <strong>Font Color</strong> | Specify the Cell Text Color |
+| <strong>Back Color</strong> | Specify the Cell Background Color |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -200,17 +257,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Optional - Please specify If List Items not enough
+### Optional - Please Select the When List Items Not Enough
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Ignore</strong> | Don't Set the Value |
+| <strong>Error</strong> | Rise a Error |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -247,7 +311,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelSetColumnValuesFromListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 01/15/23 01:51 PM
+This page was generated on 02/04/23 04:57 PM
 
 
 ## Help
