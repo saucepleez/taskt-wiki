@@ -19,26 +19,37 @@ Use this command when you want to create a browser that will eventually perform 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name (ex. myInstance, {vInstance})](#param_0)
-- [Please Select type of match to make](#param_1)
-- [Please Select the Optional - Please define a match specification (Default is Contains Match)](#param_2)
-- [Please Select the Optional - Indicate if search is case-sensitive (Default is No)](#param_3)
-- [Please Specify the Please provide the parameter to match (ex. Window URL, Window Title, Handle ID)](#param_4)
+- [Please Select the WebBrowser Instance Name](#param_0)
+- [Please Select the Type of Match to Make](#param_1)
+- [Optional - Please Select the Match Specification](#param_2)
+- [Optional - Please Select the Search is Case-Sensitive](#param_3)
+- [Please Specify the Parameter to Match](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name (ex. myInstance, {vInstance})
+### Please Select the WebBrowser Instance Name
 
 
 <dl>
-<dt>What to input</dt><dd>Signifies a unique name that will represemt the application instance.  This unique name allows you to refer to the instance by name in future commands, ensuring that the commands you specify run against the correct application.</dd>
+<dt>What to input</dt><dd>Enter or Select the WebBrowser Instance Name</dd>
 <dt>Instance Type</dt><dd>WebBrowser</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Browser</strong> command will cause an error</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>RPABrowser</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Broser</strong> command will cause an error</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPABrowser</strong> | Specify **RPABrowser** for WebBrowser Instance |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for WebBrowser Instance |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,12 +62,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select type of match to make
+### Please Select the Type of Match to Make
 
 
 <dl>
-<dt>What to input</dt><dd>Select an option which best fits to the search type you would like to make.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd><strong>Window URL</strong> or  <strong>Window Title</strong> or  <strong>Handle ID</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -74,14 +88,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the Optional - Please define a match specification (Default is Contains Match)
+### Optional - Please Select the Match Specification
 
 
 <dl>
-<dt>What to input</dt><dd>Select an option which best fits to the specification you would like to make.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Exact Match</strong> or  <strong>Contains Match</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Exact Match</strong></dd>
 </dl>
 
 
@@ -97,14 +111,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Select the Optional - Indicate if search is case-sensitive (Default is No)
+### Optional - Please Select the Search is Case-Sensitive
 
 
 <dl>
-<dt>What to input</dt><dd>Select an option which best fits to the specification you would like to make.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
@@ -120,16 +134,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Specify the Please provide the parameter to match (ex. Window URL, Window Title, Handle ID)
+### Please Specify the Parameter to Match
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Parameter to Match</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>http://www.mysite.com</strong> or <strong>Welcome to Homepage</strong> or <strong>{vTitle}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>http://www.mysite.com</strong> | Specify **http://www.mysite.com** for Parameter |
+| <strong>Welcome to Homepage</strong> | Specify **Welcome to Homepage** for Parameter |
+| <strong>{vTitle}</strong> | Specify Value of Variable **vTitle** for Parameter |
+| <strong>{vURL}</strong> | Specify Value of Variable **vURL** for Parameter |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -166,7 +192,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserSwitchWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/04/23 04:57 PM
+This page was generated on 02/11/23 09:28 PM
 
 
 ## Help

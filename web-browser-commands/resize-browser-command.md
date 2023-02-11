@@ -19,24 +19,35 @@ Use this command when you want to change browser window size.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name (ex. myInstance, {vInstance})](#param_0)
-- [Optional - Please specify Browser window Width (Default is Empty and means current width)](#param_1)
-- [Optional - Please specify Browser window Height (Default is Empty and means current width)](#param_2)
+- [Please Select the WebBrowser Instance Name](#param_0)
+- [Optional - Please Specify the Browser Window Width](#param_1)
+- [Optional - Please Specify the Browser Window Height](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name (ex. myInstance, {vInstance})
+### Please Select the WebBrowser Instance Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Browser</strong> command</dd>
+<dt>What to input</dt><dd>Enter or Select the WebBrowser Instance Name</dd>
 <dt>Instance Type</dt><dd>WebBrowser</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Browser</strong> command will cause an error</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>RPABrowser</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Broser</strong> command will cause an error</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPABrowser</strong> | Specify **RPABrowser** for WebBrowser Instance |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for WebBrowser Instance |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -49,16 +60,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please specify Browser window Width (Default is Empty and means current width)
+### Optional - Please Specify the Browser Window Width
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>What to input</dt><dd>Enter or Select the Width</dd>
+<dt>Sample Usage</dt><dd><strong>640</strong> or <strong>{vWidth}</strong></dd>
+<dt>Remarks</dt><dd>Empty means Current Width<br><br>
+<strong>Optional</strong><br>Default Value is <strong>Empty and means Current Width</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>640</strong> | Specify **640** for Window Width |
+| <strong>{vWidth}</strong> | Specify Value of Variable **vWidth** for Window Width |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -71,16 +90,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please specify Browser window Height (Default is Empty and means current width)
+### Optional - Please Specify the Browser Window Height
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+<dt>What to input</dt><dd>Enter or Select the Height</dd>
+<dt>Sample Usage</dt><dd><strong>480</strong> or <strong>{vHeight}</strong></dd>
+<dt>Remarks</dt><dd>Empty means Current Height<br><br>
+<strong>Optional</strong><br>Default Value is <strong>Empty and means Current Height</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>480</strong> | Specify **480** for Window Height |
+| <strong>{vHeight}</strong> | Specify Value of Variable **vHeight** for Window Height |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -117,7 +144,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserResizeBrowser
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/04/23 04:57 PM
+This page was generated on 02/11/23 09:28 PM
 
 
 ## Help

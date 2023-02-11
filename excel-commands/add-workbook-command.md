@@ -31,6 +31,7 @@ Use this command when you want to add a new workbook to an Exel Instance
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Excel Instance Name</dd>
 <dt>Instance Type</dt><dd>Excel</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -113,7 +114,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelAddWorkbookCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/04/23 04:57 PM
+This page was generated on 02/11/23 09:28 PM
 
 
 ## Help

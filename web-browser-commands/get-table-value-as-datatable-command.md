@@ -19,31 +19,39 @@ Use this command when you want to get a Table Values As DataTable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name](#param_0)
-- [Please Specify Element Search Method](#param_1)
-- [Please Specify Element Search Parameter](#param_2)
-- [Please Specify Element Index](#param_3)
-- [Optional - Please Specify Attribute Name to Get](#param_4)
-- [Please Specify DataTable Variable Name to store result](#param_5)
-- [Optional - Please Specify the method for the First Row](#param_6)
+- [Please Select the WebBrowser Instance Name](#param_0)
+- [Please Select the Element Search Method](#param_1)
+- [Please Specify the Element Search Parameter](#param_2)
+- [Please Specify the Element Index](#param_3)
+- [Optional - Please Specify the Attributes Name to Get](#param_4)
+- [Please Select the DataTable Variable Name](#param_5)
+- [Optional - Please Select the Method for the First Row](#param_6)
 - [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name
+### Please Select the WebBrowser Instance Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Browser</strong> command</dd>
+<dt>What to input</dt><dd>Enter or Select the WebBrowser Instance Name</dd>
 <dt>Instance Type</dt><dd>WebBrowser</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Browser</strong> command will cause an error</dd>
+<dt>Sample Usage</dt><dd><strong>RPABrowser</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Broser</strong> command will cause an error</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPABrowser</strong> | Specify **RPABrowser** for WebBrowser Instance |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for WebBrowser Instance |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -56,17 +64,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify Element Search Method
+### Please Select the Element Search Method
 
 
 <dl>
-<dt>What to input</dt><dd>Select the specific search type that you want to use to isolate the element in the web page.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd><strong>Find Element By XPath</strong> or  <strong>Find Element By ID</strong> or  <strong>Find Element By Name</strong> or  <strong>Find Element By Tag Name</strong> or  <strong>Find Element By Class Name</strong> or  <strong>Find Element By CSS Selector</strong> or  <strong>Find Element By Link Text</strong> or  <strong>Find Elements By XPath</strong> or  <strong>Find Elements By ID</strong> or  <strong>Find Elements By Name</strong> or  <strong>Find Elements By Tag Name</strong> or  <strong>Find Elements By Class Name</strong> or  <strong>Find Elements By CSS Selector</strong> or  <strong>Find Elements By Link Text</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>Select the specific search type that you want to use to isolate the element in the web page.</dd>
 </dl>
 
 
@@ -82,16 +90,16 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify Element Search Parameter
+### Please Specify the Element Search Parameter
 
 
 <dl>
-<dt>What to input</dt><dd>Specifies the parameter text that matches to the element based on the previously selected search type.</dd>
+<dt>What to input</dt><dd>Enter or Select the Element Search Parameter</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>Specifies the parameter text that matches to the element based on the previously selected search type.</dd>
 </dl>
 
 
@@ -107,16 +115,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify Element Index
+### Please Specify the Element Index
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Element Index</dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify the First Element Index |
+| <strong>1</strong> | Specify **1** for Element Index |
+| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Element Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -129,19 +145,35 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify Attribute Name to Get
+### Optional - Please Specify the Attributes Name to Get
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Attributes Name</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>id</strong> or <strong>Text</strong> or <strong>textContent</strong> or <strong>{vAttribute}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>id</strong> or <strong>title</strong> or <strong>textContent</strong> or <strong>{vAttribute}</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>textContent</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>id</strong> | Specify **id** for Attribute |
+| <strong>title</strong> | Specify **title** for Attribute |
+| <strong>textContent</strong> | Specify the Element **Text Content** Value |
+| <strong>{vAttribute}</strong> | Specify Value of Variable **vAttribute** for Attribute |
+| <strong>Displayed</strong> | Get the Specified Element is Displayed or Not |
+| <strong>Enabled</strong> | Get the Specified Element is Enabled or Not |
+| <strong>Location</strong> | Get the Specified Element Location. like **X,Y**, comma separated. |
+| <strong>Selected</strong> | Get the Specified Element is Selected or Not |
+| <strong>Size</strong> | Get the Specified Element Size. like **W,H**, comma separated. |
+| <strong>TagName</strong> | Get the Specified Element Tag Name. |
+| <strong>Text</strong> | Get the Specified Element innerText. |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -154,21 +186,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please Specify DataTable Variable Name to store result
+### Please Select the DataTable Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
 <dt>Value</dt><dd>DataTable Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vDataTable</strong> or <strong>{vDataTable}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -181,17 +220,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Optional - Please Specify the method for the First Row
+### Optional - Please Select the Method for the First Row
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>First Row</strong> or  <strong>Column Name</strong> or  <strong>Ignore</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>First Row</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>First Row</strong> | The First Row is considered the First Row of Data. |
+| <strong>Column Name</strong> | The First Row is considered the Column Name. |
+| <strong>Ignore</strong> | Ignore First Row |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -228,7 +275,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetTableValueAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/04/23 04:57 PM
+This page was generated on 02/11/23 09:28 PM
 
 
 ## Help

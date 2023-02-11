@@ -19,29 +19,37 @@ Use this command when you want to get a Attribute value for Elements As Dictiona
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name](#param_0)
-- [Please Specify Element Search Method](#param_1)
-- [Please Specify Element Search Parameter](#param_2)
-- [Please specify Attribute Name to Get](#param_3)
-- [Please Specify Dictionary Variable Name to store result](#param_4)
+- [Please Select the WebBrowser Instance Name](#param_0)
+- [Please Select the Element Search Method](#param_1)
+- [Please Specify the Element Search Parameter](#param_2)
+- [Please Specify the Attributes Name to Get](#param_3)
+- [Please Select the Dictionary Variable Name](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name
+### Please Select the WebBrowser Instance Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Browser</strong> command</dd>
+<dt>What to input</dt><dd>Enter or Select the WebBrowser Instance Name</dd>
 <dt>Instance Type</dt><dd>WebBrowser</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myInstance</strong> or <strong>{vInstance}</strong></dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Browser</strong> command will cause an error</dd>
+<dt>Sample Usage</dt><dd><strong>RPABrowser</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Broser</strong> command will cause an error</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPABrowser</strong> | Specify **RPABrowser** for WebBrowser Instance |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for WebBrowser Instance |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -54,17 +62,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify Element Search Method
+### Please Select the Element Search Method
 
 
 <dl>
-<dt>What to input</dt><dd>Select the specific search type that you want to use to isolate the element in the web page.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd><strong>Find Element By XPath</strong> or  <strong>Find Element By ID</strong> or  <strong>Find Element By Name</strong> or  <strong>Find Element By Tag Name</strong> or  <strong>Find Element By Class Name</strong> or  <strong>Find Element By CSS Selector</strong> or  <strong>Find Element By Link Text</strong> or  <strong>Find Elements By XPath</strong> or  <strong>Find Elements By ID</strong> or  <strong>Find Elements By Name</strong> or  <strong>Find Elements By Tag Name</strong> or  <strong>Find Elements By Class Name</strong> or  <strong>Find Elements By CSS Selector</strong> or  <strong>Find Elements By Link Text</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>Select the specific search type that you want to use to isolate the element in the web page.</dd>
 </dl>
 
 
@@ -80,16 +88,16 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify Element Search Parameter
+### Please Specify the Element Search Parameter
 
 
 <dl>
-<dt>What to input</dt><dd>Specifies the parameter text that matches to the element based on the previously selected search type.</dd>
+<dt>What to input</dt><dd>Enter or Select the Element Search Parameter</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>Specifies the parameter text that matches to the element based on the previously selected search type.</dd>
 </dl>
 
 
@@ -105,19 +113,35 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please specify Attribute Name to Get
+### Please Specify the Attributes Name to Get
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Attributes Name</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>id</strong> or <strong>Text</strong> or <strong>textContent</strong> or <strong>{vAttribute}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>id</strong> or <strong>title</strong> or <strong>textContent</strong> or <strong>{vAttribute}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>id</strong> | Specify **id** for Attribute |
+| <strong>title</strong> | Specify **title** for Attribute |
+| <strong>textContent</strong> | Specify the Element **Text Content** Value |
+| <strong>{vAttribute}</strong> | Specify Value of Variable **vAttribute** for Attribute |
+| <strong>Displayed</strong> | Get the Specified Element is Displayed or Not |
+| <strong>Enabled</strong> | Get the Specified Element is Enabled or Not |
+| <strong>Location</strong> | Get the Specified Element Location. like **X,Y**, comma separated. |
+| <strong>Selected</strong> | Get the Specified Element is Selected or Not |
+| <strong>Size</strong> | Get the Specified Element Size. like **W,H**, comma separated. |
+| <strong>TagName</strong> | Get the Specified Element Tag Name. |
+| <strong>Text</strong> | Get the Specified Element innerText. |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -130,21 +154,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Specify Dictionary Variable Name to store result
+### Please Select the Dictionary Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Dictionary Variable Name</dd>
 <dt>Value</dt><dd>Dictionary Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vDictionary</strong> or <strong>{vDictionary}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vDictionary</strong> | Specify Variable Name **vDictionary** |
+| <strong>{vDictionary}</strong> | Specify Variable Name **vDictionary** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -181,7 +212,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetElementsValueAsDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/04/23 04:57 PM
+This page was generated on 02/11/23 09:28 PM
 
 
 ## Help

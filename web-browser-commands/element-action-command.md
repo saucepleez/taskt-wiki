@@ -19,7 +19,7 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name](#param_0)
+- [Please Select the WebBrowser Instance Name](#param_0)
 - [Please Select the Element Search Method](#param_1)
 - [Please Specify the Element Search Parameter](#param_2)
 - [Please Specify the Target Element Index (Only Use Fined Elements ***)](#param_3)
@@ -29,7 +29,7 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 
 
 <a id="param_0"></a>
-### Please Enter the instance name
+### Please Select the WebBrowser Instance Name
 
 
 <dl>
@@ -188,7 +188,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserElementActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/04/23 04:57 PM
+This page was generated on 02/11/23 09:28 PM
 
 
 ## Help
