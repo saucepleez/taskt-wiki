@@ -19,28 +19,39 @@ Use this command when you want to append text to a specific document.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name](#param_0)
-- [Please Enter the Text Variable Name to Set](#param_1)
-- [Please Select or Enter the text font name](#param_2)
-- [Please Select or Enter the text font size](#param_3)
-- [Please Select Bold](#param_4)
-- [Please Select Italic](#param_5)
-- [Please Select Underline](#param_6)
+- [Please Select the Word Instance Name](#param_0)
+- [Please Specify the Text to Set](#param_1)
+- [Optional - Please Select the Text Font Name](#param_2)
+- [Optional - Please Specify the Font Size](#param_3)
+- [Optional - Please Select the Bold](#param_4)
+- [Optional - Please Select the Italic](#param_5)
+- [Optional - Please Select the Underline](#param_6)
 - [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name
+### Please Select the Word Instance Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Word</strong> command</dd>
+<dt>What to input</dt><dd>Enter or Select the Word Instance Name</dd>
 <dt>Instance Type</dt><dd>Word</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>RPAWord</strong> or <strong>{vInstance}</strong></dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Word</strong> command will cause an error</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPAWord</strong> | Specify **RPAWord** for Word Instance |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Word Instance |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -53,16 +64,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Enter the Text Variable Name to Set
+### Please Specify the Text to Set
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the text value that will be set.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Text to Set</dd>
+<dt>Sample Usage</dt><dd><strong>Hello World</strong> or <strong>{vText}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Hello World</strong> | Specify **Hello World** for Text |
+| <strong>{vText}</strong> | Specify Value of Variable **vText** for Text |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -75,14 +93,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select or Enter the text font name
+### Optional - Please Select the Text Font Name
 
 
 <dl>
-<dt>What to input</dt><dd>Specify the font name.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Arial</strong> or  <strong>Calibri</strong> or  <strong>Helvetica</strong> or  <strong>Times New Roman</strong> or  <strong>Verdana</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Calibri</strong></dd>
 </dl>
 
 
@@ -98,14 +116,18 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Select or Enter the text font size
+### Optional - Please Specify the Font Size
 
 
 <dl>
-<dt>What to input</dt><dd>Specify the font name.</dd>
-<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>10</strong> or  <strong>11</strong> or  <strong>12</strong> or  <strong>14</strong> or  <strong>16</strong> or  <strong>18</strong> or  <strong>20</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Font Size</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+<li>Less than Zero</li>
+<li>Greater than Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>11</strong></dd>
 </dl>
 
 
@@ -121,14 +143,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Select Bold
+### Optional - Please Select the Bold
 
 
 <dl>
-<dt>What to input</dt><dd>Specify whether the text font should be bold.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
@@ -144,14 +166,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please Select Italic
+### Optional - Please Select the Italic
 
 
 <dl>
-<dt>What to input</dt><dd>Specify whether the text font should be italic.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
@@ -167,14 +189,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Please Select Underline
+### Optional - Please Select the Underline
 
 
 <dl>
-<dt>What to input</dt><dd>Specify whether the text font should be underlined.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
@@ -214,7 +236,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: WordAppendTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/11/23 09:28 PM
+This page was generated on 02/24/23 08:29 PM
 
 
 ## Help

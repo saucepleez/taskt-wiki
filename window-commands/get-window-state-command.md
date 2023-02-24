@@ -19,18 +19,21 @@ Use this command when you want to get a window state.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please enter or select the window that you want to check existence.](#param_0)
-- [Optional - Please Select the Window title search method](#param_1)
-- [Please Specify the variable to assign the result](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [Please Select the Window Name](#param_0)
+- [Optional - Please Select the Search Method for the Window Name](#param_1)
+- [Please Select the Variable Name to Store Result](#param_2)
+- [Optional - Please Select the Match Method for the Window Name](#param_3)
+- [Optional - Please Specify the Window Index](#param_4)
+- [Optional - Please Specify the Wait Time (sec)](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Please enter or select the window that you want to check existence.
+### Please Select the Window Name
 
 
 <dl>
-<dt>What to input</dt><dd>Input or Type the name of the window that you want to check existence.</dd>
+<dt>What to input</dt><dd>Enter or Select the Window Name</dd>
 <dt>Value</dt><dd>Window Names</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -40,6 +43,14 @@ Use this command when you want to get a window state.
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Untitled - Notepad</strong> | Specify the **Notepad** |
+| <strong>Current Window</strong> | Specify the Current Activate Window |
+| <strong>{vWindow}</strong> | Specify Value of Variable **vWindow** for Window Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,11 +63,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Window title search method
+### Optional - Please Select the Search Method for the Window Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
@@ -75,20 +86,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the variable to assign the result
+### Please Select the Variable Name to Store Result
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
 <dt>Remarks</dt><dd>Restore is <strong>1</strong>, Minimize is <strong>2</strong>, Maximize is <strong>3</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -101,6 +120,97 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Optional - Please Select the Match Method for the Window Name
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>First</strong> or  <strong>Last</strong> or  <strong>Index</strong></dd>
+<dt>Remarks</dt><dd>Specify when there are Multiple Matching Windows<br><br>
+<strong>Optional</strong><br>Default Value is <strong>First</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>First</strong> | Specify the First Window |
+| <strong>Last</strong> | Specify the Last Window |
+| <strong>Index</strong> | the Window specifed by Index. **0** means First Window |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
+### Optional - Please Specify the Window Index
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Window Index</dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify the First Window |
+| <strong>1</strong> | Specify **1** for Window Index |
+| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Window Index |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
+### Optional - Please Specify the Wait Time (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>Sample Usage</dt><dd><strong>60</strong> or <strong>{vTime}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>60</strong> | Specify **60** for Wait Time |
+| <strong>{vTime}</strong> | Specify Value of Variable **vTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -116,7 +226,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / next
+[prev](#param_6) / [list](#param_list) / next
 
 
 </div>
@@ -125,7 +235,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowStateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/11/23 09:28 PM
+This page was generated on 02/24/23 08:29 PM
 
 
 ## Help

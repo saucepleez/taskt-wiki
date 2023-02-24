@@ -19,23 +19,34 @@ Use this command when you want to open an existing Word Document.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name](#param_0)
-- [Please indicate the workbook file path](#param_1)
+- [Please Select the Word Instance Name](#param_0)
+- [Please Specify the Word File Path](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name
+### Please Select the Word Instance Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the unique instance name that was specified in the <strong>Create Word</strong> command</dd>
+<dt>What to input</dt><dd>Enter or Select the Word Instance Name</dd>
 <dt>Instance Type</dt><dd>Word</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Word</strong> command will cause an error.</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>RPAWord</strong> or <strong>{vInstance}</strong></dd>
+<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Word</strong> command will cause an error</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPAWord</strong> | Specify **RPAWord** for Word Instance |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Word Instance |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -48,17 +59,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please indicate the workbook file path
+### Please Specify the Word File Path
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the path to the applicable file that should be opened by Excel.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Word File Path</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.docx</strong> or <strong>{vPath}</strong></dd>
 <dt>Remarks</dt><dd>If file does not contain extensin, supplement extentions supported by Word.
 If file does not contain folder path, file will be opened in the same folder as script file.</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:\temp\myfile.docx</strong> | Specify **C:\temp\myfile.docx** for Path |
+| <strong>{vPath}</strong> | Specify Value of Variable **vPath** for Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -95,7 +116,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: WordOpenDocumentCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/11/23 09:28 PM
+This page was generated on 02/24/23 08:29 PM
 
 
 ## Help

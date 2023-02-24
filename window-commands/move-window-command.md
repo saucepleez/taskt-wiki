@@ -19,19 +19,22 @@ Use this command when you want to move an existing window by name to a certain p
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please enter or select the window that you want to move.](#param_0)
-- [Optional - Please Select the Window title search method](#param_1)
-- [Please indicate the new X horizontal coordinate (pixel) for the window's location.  0 starts at the left of the screen.](#param_2)
-- [Please indicate the new Y vertical coordinate (pixel) for the window's location.  0 starts at the top of the screen.](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Please Select the Window Name](#param_0)
+- [Optional - Please Select the Search Method for the Window Name](#param_1)
+- [Please Specify the X horizontal coordinate (pixel) for the Window's Location](#param_2)
+- [Please Specify the Y vertical coordinate (pixel) for the Window's Location](#param_3)
+- [Optional - Please Select the Match Method for the Window Name](#param_4)
+- [Optional - Please Specify the Window Index](#param_5)
+- [Optional - Please Specify the Wait Time (sec)](#param_6)
+- [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### Please enter or select the window that you want to move.
+### Please Select the Window Name
 
 
 <dl>
-<dt>What to input</dt><dd>Input or Type the name of the window that you want to move.</dd>
+<dt>What to input</dt><dd>Enter or Select the Window Name</dd>
 <dt>Value</dt><dd>Window Names</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -41,6 +44,14 @@ Use this command when you want to move an existing window by name to a certain p
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Untitled - Notepad</strong> | Specify the **Notepad** |
+| <strong>Current Window</strong> | Specify the Current Activate Window |
+| <strong>{vWindow}</strong> | Specify Value of Variable **vWindow** for Window Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -53,11 +64,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Window title search method
+### Optional - Please Select the Search Method for the Window Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
@@ -76,19 +87,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please indicate the new X horizontal coordinate (pixel) for the window's location.  0 starts at the left of the screen.
+### Please Specify the X horizontal coordinate (pixel) for the Window's Location
 
 
 <dl>
-<dt>What to input</dt><dd>Input the new horizontal coordinate of the window, 0 starts at the left and goes to the right</dd>
+<dt>What to input</dt><dd>Enter or Select the X Window Location</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>{vXPos}</strong> or <strong>Current Position</strong></dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vXPos}</strong> or <strong>Current Position</strong></dd>
 <dt>Remarks</dt><dd>This number is the pixel location on screen. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid range could be 0-1920</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify X Top Position |
+| <strong>100</strong> | Specify **100** for X Position |
+| <strong>{vXPos}</strong> | Specify Value of Variable **vXPos** for X Position |
+| <strong>Current Position</strong> | Spcify Current Position for X Position |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -101,19 +121,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please indicate the new Y vertical coordinate (pixel) for the window's location.  0 starts at the top of the screen.
+### Please Specify the Y vertical coordinate (pixel) for the Window's Location
 
 
 <dl>
-<dt>What to input</dt><dd>Input the new vertical coordinate of the window, 0 starts at the top and goes downwards</dd>
+<dt>What to input</dt><dd>Enter or Select the Y Window Location</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>{vYPos}</strong> or <strong>Current Position</strong></dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vYPos}</strong> or <strong>Current Position</strong></dd>
 <dt>Remarks</dt><dd>This number is the pixel location on screen. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid range could be 0-1080</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify Y Left Position |
+| <strong>100</strong> | Specify **100** for Y Position |
+| <strong>{vYPos}</strong> | Specify Value of Variable **vYPos** for Y Position |
+| <strong>Current Position</strong> | Spcify Current Position for Y Position |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -126,6 +155,98 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Select the Match Method for the Window Name
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>First</strong> or  <strong>Last</strong> or  <strong>All</strong> or  <strong>Index</strong></dd>
+<dt>Remarks</dt><dd>Specify when there are Multiple Matching Windows<br><br>
+<strong>Optional</strong><br>Default Value is <strong>First</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>First</strong> | Specify the First Window |
+| <strong>Last</strong> | Specify the Last Window |
+| <strong>All</strong> | Specify the All Windows |
+| <strong>Index</strong> | the Window specifed by Index. **0** means First Window |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
+### Optional - Please Specify the Window Index
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Window Index</dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify the First Window |
+| <strong>1</strong> | Specify **1** for Window Index |
+| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Window Index |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
+### Optional - Please Specify the Wait Time (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>Sample Usage</dt><dd><strong>60</strong> or <strong>{vTime}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>60</strong> | Specify **60** for Wait Time |
+| <strong>{vTime}</strong> | Specify Value of Variable **vTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -141,7 +262,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_7) / [list](#param_list) / next
 
 
 </div>
@@ -150,7 +271,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/11/23 09:28 PM
+This page was generated on 02/24/23 08:29 PM
 
 
 ## Help
