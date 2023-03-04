@@ -35,8 +35,8 @@
 |Column Action|[Delete DataTable Column](/datatable-commands/delete-datatable-column-command.md)|This command allows you to delete a column to a DataTable|
 |Column Action|[Get DataTable Column Count](/datatable-commands/get-datatable-column-count-command.md)|This command allows you to get the column count of a DataTable|
 |Column Action|[Get DataTable Column List](/datatable-commands/get-datatable-column-list-command.md)|This command allows you to get the column name List of a DataTable|
-|Column Action|[Set DataTable Column By DataTable](/datatable-commands/set-datatable-column-by-datatable-command.md)|This command allows you to set a column to a DataTable by a DataTable|
-|Column Action|[Set DataTable Column By List](/datatable-commands/set-datatable-column-by-list-command.md)|This command allows you to set a column to a DataTable by a List|
+|Column Action|[Set DataTable Column Values By DataTable](/datatable-commands/set-datatable-column-values-by-datatable-command.md)|This command allows you to set a column to a DataTable by a DataTable|
+|Column Action|[Set DataTable Column Values By List](/datatable-commands/set-datatable-column-values-by-list-command.md)|This command allows you to set a column to a DataTable by a List|
 |Convert|[Convert DataTable To JSON](/datatable-commands/convert-datatable-to-json-command.md)|This command allows you to convert DataTable to JSON|
 |Convert Column|[Convert DataTable Column To DataTable](/datatable-commands/convert-datatable-column-to-datatable-command.md)|This command allows you to convert DataTable Column to DataTable|
 |Convert Column|[Convert DataTable Column To Dictionary](/datatable-commands/convert-datatable-column-to-dictionary-command.md)|This command allows you to convert DataTable Column to Dictionary|
@@ -65,8 +65,8 @@
 |Other|[Remove DataRow](/datatable-commands/remove-datarow-command.md)|This command allows you remove specified data rows.|
 |Other|[Write DataRow Value](/datatable-commands/write-datarow-value-command.md)|This command allows you to write a Value to a DataRow|
 |Row Action|[Add DataTable Row](/datatable-commands/add-datatable-row-command.md)|This command allows you to add a row to a DataTable|
-|Row Action|[Add DataTable Row By DataTable](/datatable-commands/add-datatable-row-by-datatable-command.md)|This command allows you to add a DataTable Row to a DataTable by a DataTable|
 |Row Action|[Add DataTable Row By Dictionary](/datatable-commands/add-datatable-row-by-dictionary-command.md)|This command allows you to add a DataTable Row to a DataTable by a Dictionary|
+|Row Action|[Add DataTable Rows By DataTable](/datatable-commands/add-datatable-rows-by-datatable-command.md)|This command allows you to add a DataTable Row to a DataTable by a DataTable|
 |Row Action|[Delete DataTable Row](/datatable-commands/delete-datatable-row-command.md)|This command allows you to delete a DataTable Row|
 |Row Action|[Get DataTable Row Count](/datatable-commands/get-datatable-row-count-command.md)|This command allows you to get the Row count of a DataTable|
 |Row Action|[Set DataTable Row Values By DataTable](/datatable-commands/set-datatable-row-values-by-datatable-command.md)|This command allows you to set a DataTable Row values to a DataTable by a DataTable|
@@ -85,7 +85,7 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Convert|[Convert Dictionary To DataTable](/dictionary-commands/convert-dictionary-to-datatable-command.md)|This command allows you to convert Dictionary to DataTable|
-|Convert|[Convert Dictionary To JSON](/dictionary-commands/convert-dictionary-to-json-command.md)|This command allows you to get JSON from Dictionary|
+|Convert|[Convert Dictionary To DataTable](/dictionary-commands/convert-dictionary-to-datatable-command.md)|This command allows you to get JSON from Dictionary|
 |Convert|[Convert Dictionary To List](/dictionary-commands/convert-dictionary-to-list-command.md)|This command allows you to get List from Dictionary|
 |Dictionary Action|[Concatenate Dictionary](/dictionary-commands/concatenate-dictionary-command.md)|This command allows you to concatenate two Dictionaries.|
 |Dictionary Action|[Copy Dictionary](/dictionary-commands/copy-dictionary-command.md)|This command allows you to copy a Dictionary.|
@@ -94,7 +94,7 @@
 |Dictionary Action|[Load Dictionary](/dictionary-commands/load-dictionary-command.md)|This command Reads a Config file and stores it into a Dictionary.|
 |Dictionary Action|[Replace Dictionary](/dictionary-commands/replace-dictionary-command.md)|This command allows you to relace Dictionary value.|
 |Dictionary Item|[Add Dictionary Item](/dictionary-commands/add-dictionary-item-command.md)|This command Adds a key and value to a existing Dictionary|
-|Dictionary Item|[Get Dictionary Item](/dictionary-commands/get-dictionary-item-command.md)|This command allows you to get value in Dictionary|
+|Dictionary Item|[Get Dictionary Value](/dictionary-commands/get-dictionary-value-command.md)|This command allows you to get value in Dictionary|
 |Dictionary Item|[Remove Dictionary Item](/dictionary-commands/remove-dictionary-item-command.md)|This command allows you to remove item in Dictionary|
 |Dictionary Item|[Set Dictionary Value](/dictionary-commands/set-dictionary-value-command.md)|This command allows you to set value in Dictionary|
 |Dictionary Key|[Check Dictionary Key Exists](/dictionary-commands/check-dictionary-key-exists-command.md)|This command allows you to check key existance in Dictionary|
@@ -107,7 +107,7 @@
 ||[Get Addresses As Dictionary](/email-commands/get-addresses-as-dictionary-command.md)|This command allows you to get Addresses from EMail.|
 ||[Get Addresses As List](/email-commands/get-addresses-as-list-command.md)|This command allows you to get Addresses from EMail.|
 ||[Get Email Attachments Name](/email-commands/get-email-attachments-name-command.md)|This command allows you to get Attachment File Name.|
-||[Get EMail From MailList](/email-commands/get-email-from-maillist-command.md)|This command allows you to get EMail from EMailList.|
+||[Get EMail From EMailList](/email-commands/get-email-from-emaillist-command.md)|This command allows you to get EMail from EMailList.|
 ||[Get EMail Text](/email-commands/get-email-text-command.md)|This command allows you to get Text from EMail.|
 ||[Load Email](/email-commands/load-email-command.md)|This command allows you to load EMail from File.|
 ||[Recieve EMailList Using IMAP](/email-commands/recieve-emaillist-using-imap-command.md)|This command allows you to get EMailList(Emails) using IMAP protocol.|
@@ -478,4 +478,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 02/24/23 08:29 PM
+This page was generated on 03/04/23 01:28 PM

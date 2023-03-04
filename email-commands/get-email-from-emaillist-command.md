@@ -1,12 +1,12 @@
-<!--TITLE: Get EMail From MailList Command -->
+<!--TITLE: Get EMail From EMailList Command -->
 <!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-EMail Commands &gt; Get EMail From MailList
+EMail Commands &gt; Get EMail From EMailList
 
 
-# Get EMail From MailList Command
+# Get EMail From EMailList Command
 
 
 ## What does this command do?
@@ -149,7 +149,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitGetEMailFromEMailListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/24/23 08:29 PM
+This page was generated on 03/04/23 01:28 PM
 
 
 ## Help

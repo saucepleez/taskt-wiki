@@ -19,18 +19,17 @@ Use this command when you want to load EMail from File.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Path to the EMail](#param_0)
+- [Please Specify the Path to the EMail](#param_0)
 - [Please Select the EMail Variable Name](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select the Path to the EMail
+### Please Specify the Path to the EMail
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
+<dt>What to input</dt><dd>Enter or Select the Path</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -39,6 +38,13 @@ Use this command when you want to load EMail from File.
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:\Temp\mymail.eml</strong> | Specify **C:\Temp\mymail.eml** for Path |
+| <strong>{vPath}</strong> | Specify Value of Variable **vPath** for Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -109,7 +115,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitLoadEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/24/23 08:29 PM
+This page was generated on 03/04/23 01:28 PM
 
 
 ## Help

@@ -354,12 +354,19 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Indicates the file path to attachment.</dd>
-<dt>Sample Usage</dt><dd><strong>c:\temp\file.txt</strong> or <strong>{vPath}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the File Path</dd>
+<dt>Sample Usage</dt><dd><strong>C:	emp\myfile.txt</strong> or <strong>{vPath}</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:	emp\myfile.txt</strong> | Specify **C:	emp\myfile.txt** for File Path |
+| <strong>{vPath}</strong> | Specify Value of Variable **vPath** for File Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -419,7 +426,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitSendEmailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/24/23 08:29 PM
+This page was generated on 03/04/23 01:28 PM
 
 
 ## Help

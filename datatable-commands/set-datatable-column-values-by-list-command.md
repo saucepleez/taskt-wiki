@@ -1,12 +1,12 @@
-<!--TITLE: Set DataTable Column By List Command -->
+<!--TITLE: Set DataTable Column Values By List Command -->
 <!-- SUBTITLE: a command in the DataTable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-DataTable Commands &gt; Column Action &gt; Set DataTable Column By List
+DataTable Commands &gt; Column Action &gt; Set DataTable Column Values By List
 
 
-# Set DataTable Column By List Command
+# Set DataTable Column Values By List Command
 
 
 ## What does this command do?
@@ -246,7 +246,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetDataTableColumnValuesByListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/24/23 08:29 PM
+This page was generated on 03/04/23 01:28 PM
 
 
 ## Help

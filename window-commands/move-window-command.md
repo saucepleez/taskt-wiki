@@ -108,7 +108,9 @@ prev / [list](#param_list) / [next](#param_1)
 | <strong>0</strong> | Specify X Top Position |
 | <strong>100</strong> | Specify **100** for X Position |
 | <strong>{vXPos}</strong> | Specify Value of Variable **vXPos** for X Position |
-| <strong>Current Position</strong> | Spcify Current Position for X Position |
+| <strong>Current Position</strong> | Specify Current Position for X Position |
+| <strong>Current XPosition</strong> | Specify Current X Position for X Position |
+| <strong>Current YPosition</strong> | Specify Current Y Position for X Position |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -142,7 +144,9 @@ prev / [list](#param_list) / [next](#param_1)
 | <strong>0</strong> | Specify Y Left Position |
 | <strong>100</strong> | Specify **100** for Y Position |
 | <strong>{vYPos}</strong> | Specify Value of Variable **vYPos** for Y Position |
-| <strong>Current Position</strong> | Spcify Current Position for Y Position |
+| <strong>Current Position</strong> | Specify Current Position for Y Position |
+| <strong>Current XPosition</strong> | Specify Current X Position for Y Position |
+| <strong>Current YPosition</strong> | Specify Current Y Position for Y Position |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -271,7 +275,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/24/23 08:29 PM
+This page was generated on 03/04/23 01:28 PM
 
 
 ## Help
