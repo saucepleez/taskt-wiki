@@ -21,7 +21,7 @@ This command allows you to add property to JSON Object.
 ## Command Parameters
 - [Please Select the JSON Object Variable Name](#param_0)
 - [Please Specify the JSON Extractor (JSONPath)](#param_1)
-- [Please Specify the Property Name to Insert](#param_2)
+- [Please Specify the Property Name](#param_2)
 - [Please Specify the Value to Add](#param_3)
 - [Optional - Please Select the Value Type to Add](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
@@ -95,11 +95,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Property Name to Insert
+### Please Specify the Property Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Property Name</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -217,7 +217,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: InsertJSONObjectPropertyCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/04/23 01:28 PM
+This page was generated on 03/05/23 07:08 PM
 
 
 ## Help

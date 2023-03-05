@@ -21,7 +21,7 @@ This command allows you to remove item to JSON Array.
 ## Command Parameters
 - [Please Select the JSON Array Variable Name](#param_0)
 - [Please Specify the JSON Extractor (JSONPath)](#param_1)
-- [Please Specify the Index to Remove](#param_2)
+- [Optional - Please Specify the Array Index](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
@@ -93,16 +93,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Index to Remove
+### Optional - Please Specify the Array Index
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
 <dt>Sample Usage</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Last Item</strong></dd>
 </dl>
 
 
@@ -111,9 +108,9 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>0</strong> | Specify the First Index to be Removed |
-| <strong>1</strong> | Specify **1** for Index to Remove |
-| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Index to Remove |
+| <strong>0</strong> | Specify the First Index |
+| <strong>1</strong> | Specify **1** for Index |
+| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -150,7 +147,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RemoveJSONArrayItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/04/23 01:28 PM
+This page was generated on 03/05/23 07:08 PM
 
 
 ## Help

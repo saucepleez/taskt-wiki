@@ -21,7 +21,7 @@ This command allows you to insert item to JSON Array.
 ## Command Parameters
 - [Please Select the JSON Variable Name](#param_0)
 - [Please Specify the JSON Array Variable Name](#param_1)
-- [Optional - Please Specify the Index to Insert](#param_2)
+- [Optional - Please Specify the Array Index](#param_2)
 - [Please Specify the Value to Add](#param_3)
 - [Optional - Please Select the Value Type to Add](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
@@ -95,13 +95,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Specify the Index to Insert
+### Optional - Please Specify the Array Index
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Sample Usage</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Last Item</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Last Index</strong></dd>
 </dl>
 
 
@@ -110,9 +110,9 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>0</strong> | Specify the First Index to be Inserted |
-| <strong>1</strong> | Specify **1** for Index to Insert |
-| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Index to Insert |
+| <strong>0</strong> | Specify the First Index |
+| <strong>1</strong> | Specify **1** for Index |
+| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -215,7 +215,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: InsertJSONArrayItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/04/23 01:28 PM
+This page was generated on 03/05/23 07:08 PM
 
 
 ## Help

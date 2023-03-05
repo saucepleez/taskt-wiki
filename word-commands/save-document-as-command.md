@@ -114,9 +114,9 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 ## Developer/Additional Reference
-Automation Class Name: WordSaveAsCommand
+Automation Class Name: WordSaveDocumentAsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/04/23 01:28 PM
+This page was generated on 03/05/23 07:08 PM
 
 
 ## Help
