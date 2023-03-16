@@ -19,26 +19,34 @@ Use this command when you want to create text variables.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a text variable name](#param_0)
-- [Please Specify Text Value to Set](#param_1)
+- [Please Select the Text Variable Name](#param_0)
+- [Please Specify the Text Value](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please select a text variable name
+### Please Select the Text Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Text Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vText</strong> or <strong>{vText}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vText</strong> | Specify Variable Name **vText** |
+| <strong>{vText}</strong> | Specify Variable Name **vText** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,16 +59,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify Text Value to Set
+### Please Specify the Text Value
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or {vNum}</dd>
+<dt>What to input</dt><dd>Enter or Select the Text Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Text Value |
+| <strong>Hello</strong> | Specify **Hello** for Text Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Text Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -97,7 +114,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateTextVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/05/23 07:08 PM
+This page was generated on 03/16/23 10:27 PM
 
 
 ## Help

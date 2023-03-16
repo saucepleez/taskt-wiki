@@ -284,6 +284,7 @@
 |Math|[Get Min From List](/list-commands/get-min-from-list-command.md)|This command allows you to get min value from a list.|
 |Math|[Get Sum From List](/list-commands/get-sum-from-list-command.md)|This command allows you to get sum value from a list.|
 |Math|[Get Variance From List](/list-commands/get-variance-from-list-command.md)|This command allows you to get variance value from a list.|
+|Other|[Get List Index](/list-commands/get-list-index-command.md)|This command allows you to get List Index.|
 |Other|[Get List Index From Value](/list-commands/get-list-index-from-value-command.md)|This command allows you want to get list index from value|
 |Other|[Set List Index](/list-commands/set-list-index-command.md)|This command allows you to modify List Index.|
 ### Loop Commands
@@ -320,7 +321,7 @@
 ### Numerical Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-||[Create Number Variable](/numerical-commands/create-number-variable-command.md)|This command allows you to create Number Variable.|
+||[Create Numerical Variable](/numerical-commands/create-numerical-variable-command.md)|This command allows you to create Number Variable.|
 ||[Decrease Numerical Variable](/numerical-commands/decrease-numerical-variable-command.md)|This command allows you to Decrease Value in Numerical Variable.|
 ||[Format Number](/numerical-commands/format-number-command.md)|This command allows you to Format Number.|
 ||[Increase Numerical Variable](/numerical-commands/increase-numerical-variable-command.md)|This command allows you to Increase Value in Numerical Variable.|
@@ -413,10 +414,11 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Check Variable Exists](/variable-commands/check-variable-exists-command.md)|This command allows you to check variable existance.|
+||[Get Variable Index](/variable-commands/get-variable-index-command.md)|This command allows you to get Variable Index.|
 ||[Get Variable Type](/variable-commands/get-variable-type-command.md)|This command allows you to get variable type.|
 ||[New Variable](/variable-commands/new-variable-command.md)|This command allows you to explicitly add a variable if you are not using **Set Variable* with the setting **Create Missing Variables** at runtime.|
-||[Set Variable](/variable-commands/set-variable-command.md)|This command allows you to modify variables.|
 ||[Set Variable Index](/variable-commands/set-variable-index-command.md)|This command allows you to modify variables.|
+||[Set Variable Value](/variable-commands/set-variable-value-command.md)|This command allows you to modify variables.|
 ### Web Browser Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -478,4 +480,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 03/05/23 07:08 PM
+This page was generated on 03/16/23 10:27 PM

@@ -19,23 +19,32 @@ Use this command when you want to split a single Text or variable into multiple 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select variable or text to split](#param_0)
-- [Please specify Input Delimiter (ex. [crLF] for new line, [chars] for each char, ',' , {vChar})](#param_1)
-- [Please select the list variable which will contain the results](#param_2)
+- [Please Specify the Text Value](#param_0)
+- [Please Specify the Delimiter](#param_1)
+- [Please Select the List Variable Name](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please select variable or text to split
+### Please Specify the Text Value
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable or text value</dd>
-<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Text Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Text Value |
+| <strong>Hello</strong> | Specify **Hello** for Text Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Text Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -48,19 +57,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify Input Delimiter (ex. [crLF] for new line, [chars] for each char, ',' , {vChar})
+### Please Specify the Delimiter
 
 
 <dl>
-<dt>What to input</dt><dd>Declare the character that will be used to seperate. [crLF] can be used for line breaks and [chars] can be used to split each digit/letter</dd>
+<dt>What to input</dt><dd>Enter or Select the Delimiter</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>,</strong> or <strong>[crLF]</strong> or <strong>[chars]</strong> or <strong>{vChar}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>,</strong> | Specify **,** for Delimiter |
+| <strong>[crLF]</strong> | Specify **Line Break** for Delimiter |
+| <strong>[chars]</strong> | Split by one character |
+| <strong>{vChar}</strong> | Specify Value of Variable **vChar** for Delimiter |
+| <strong>{Char.Space}</strong> | Split by **Space**. Please specify **Disable Auto Calculation** before this command. |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -73,21 +92,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please select the list variable which will contain the results
+### Please Select the List Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
 <dt>Value</dt><dd>List Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vList</strong> | Specify Variable Name **vList** |
+| <strong>{vList}</strong> | Specify Variable Name **vList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -124,7 +150,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SplitTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/05/23 07:08 PM
+This page was generated on 03/16/23 10:27 PM
 
 
 ## Help

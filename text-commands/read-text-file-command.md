@@ -19,27 +19,36 @@ Use this command when you want to read data from text files.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please indicate the path to the file](#param_0)
-- [Optional - Please select the read type](#param_1)
-- [Please Specify Variable the text should be stored](#param_2)
+- [Please Specify the Path to the File](#param_0)
+- [Optional - Please Select the Read Type](#param_1)
+- [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please indicate the path to the file
+### Please Specify the Path to the File
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the path to the text file.</dd>
+<dt>What to input</dt><dd>Enter or Select the Path of the File</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vTextFilePath}</strong> or <strong>http://example.com/mytext.txt</strong> or <strong>{vURL}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vFilePath}</strong> or <strong>http://exmample.com/mytext.txt</strong> or <strong>{vURL}</strong></dd>
 <dt>Remarks</dt><dd>If file does not contain extensin, supplement txt automatically.
 If file does not contain folder path, file will be opened in the same folder as script file.</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:\temp\myfile.txt</strong> | Specify **C:\temp\myfile.txt** for Path |
+| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for Path |
+| <strong>http://exmample.com/mytext.txt</strong> | Specify **http://exmample.com/mytext.txt** for Path |
+| <strong>{vURL}</strong> | Specify Value of Variable **vURL** for Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,11 +61,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please select the read type
+### Optional - Please Select the Read Type
 
 
 <dl>
-<dt>What to input</dt><dd>Select the appropriate window state required</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Content</strong> or  <strong>Line Count</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Content</strong></dd>
@@ -75,20 +84,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify Variable the text should be stored
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vTextFile</strong> or <strong>{vTextFile}</strong></dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -125,7 +142,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReadTextFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/05/23 07:08 PM
+This page was generated on 03/16/23 10:27 PM
 
 
 ## Help

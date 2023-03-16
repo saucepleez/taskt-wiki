@@ -19,25 +19,34 @@ Use this command when you want to check a Text
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please Supply the Text or Variable to Checked](#param_0)
+- [Please Specify the Text to be Checked](#param_0)
 - [Please Select the Check Method](#param_1)
-- [Please Specify Text to Check or Search](#param_2)
-- [Optional - Please Select Case sensitive](#param_3)
-- [Please select the variable to receive the result](#param_4)
+- [Please Specify the Text to Check or Search](#param_2)
+- [Optional - Please Select the Case sensitive](#param_3)
+- [Please Select the Variable Name to Store Result](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please Specify the Please Supply the Text or Variable to Checked
+### Please Specify the Text to be Checked
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable or text value</dd>
-<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Text Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Text Value |
+| <strong>Hello</strong> | Specify **Hello** for Text Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Text Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -54,16 +63,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Index of</strong> or  <strong>Last Index of</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Index of</strong> or  <strong>Last Index of</strong> or  <strong>Has Value</strong> or  <strong>Is a Number</strong> or  <strong>Is a Boolean</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+#### Addtional Info about &quot;Please Select the Check Method&quot;
+| Parameter Value(s) | Description   | Sample Data 	| Remarks  	|
+| ---             | ---           | ---          | ---       |
+|Contains|Result is **TRUE** or **FALSE**|||
+|Starts with|Result is **TRUE** or **FALSE**|||
+|Ends with|Result is **TRUE** or **FALSE**|||
+|Index of|Result is a found position. If not found, the result is -1.|||
+|Last Index of|Result is the last position found. If not found, the result is -1.|||
+|Has Value|Result is **TRUE** or **FALSE**|||
+|Is a Number|Result is **TRUE** or **FALSE**|||
+|Is a Boolean|Result is **TRUE** or **FALSE**|||
 
 
 <div style="font-size: 90%; text-align: center">
@@ -76,19 +96,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify Text to Check or Search
+### Please Specify the Text to Check or Search
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd><strong>Ha</strong> or <strong>{vSearchedText}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Text Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Text Value |
+| <strong>Hello</strong> | Specify **Hello** for Text Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Text Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -101,11 +127,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select Case sensitive
+### Optional - Please Select the Case sensitive
 
 
 <dl>
-<dt>What to input</dt><dd>Indicate if only so many characters should be kept</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Yes</strong></dd>
@@ -124,28 +150,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please select the variable to receive the result
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
-#### Addtional Info about &quot;Please select the variable to receive the result&quot;
-| Parameter Value(s) | Description   | Sample Data 	| Remarks  	|
-| ---             | ---           | ---          | ---       |
-|Contains|Result is TRUE or FALSE|||
-|Start with|Result is TRUE or FALSE|||
-|End with|Result is TRUE or FALSE|||
-|Index of|Result is a found position. If not found, the result is -1.|||
-|Last Index of|Result is the last position found. If not found, the result is -1.|||
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -182,7 +208,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CheckTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/05/23 07:08 PM
+This page was generated on 03/16/23 10:27 PM
 
 
 ## Help

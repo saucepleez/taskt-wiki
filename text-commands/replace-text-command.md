@@ -19,27 +19,33 @@ Use this command when you want to replace existing text within text or a variabl
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select text or variable to modify](#param_0)
-- [Please Indicate the text to be replaced](#param_1)
-- [Optional - Please Indicate the replacement value](#param_2)
-- [Please select the variable to receive the changes](#param_3)
+- [Please Specify the Text Value](#param_0)
+- [Please Specify the Text to be Replaced](#param_1)
+- [Optional - Please Specify the Replacement Text](#param_2)
+- [Please Select the Variable Name to Store Result](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please select text or variable to modify
+### Please Specify the Text Value
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable or text value</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Text Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Text Value |
+| <strong>Hello</strong> | Specify **Hello** for Text Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Text Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,19 +58,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Indicate the text to be replaced
+### Please Specify the Text to be Replaced
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the old value of the text that will be replaced</dd>
+<dt>What to input</dt><dd>Enter or Select the Text to be Replaced</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd><strong>H</strong> or <strong>{vTextA}</strong></dd>
-<dt>Remarks</dt><dd>H in Hello would be targeted for replacement</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>H</strong> | Specify **H** for Text to be Replaced |
+| <strong>{vTextA}</strong> | Specify Value of Variable **vTextA** for Text to be Replaced |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -77,17 +90,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Indicate the replacement value
+### Optional - Please Specify the Replacement Text
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the new value after replacement</dd>
-<dt>Sample Usage</dt><dd><strong>J</strong>, <strong>{vTextB}</strong></dd>
-<dt>Remarks</dt><dd>H would be replaced with J to create 'Jello'<br><br>
-<strong>Optional</strong><br></dd>
+<dt>What to input</dt><dd>Enter or Select the Replacement Text</dd>
+<dt>Sample Usage</dt><dd><strong>J</strong> or <strong>{vTextB}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>J</strong> | Specify **J** for Replacement Text |
+| <strong>{vTextB}</strong> | Specify Value of Variable **vTextB** for Replacement Text |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -100,20 +119,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please select the variable to receive the changes
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -150,7 +177,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReplaceTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/05/23 07:08 PM
+This page was generated on 03/16/23 10:27 PM
 
 
 ## Help

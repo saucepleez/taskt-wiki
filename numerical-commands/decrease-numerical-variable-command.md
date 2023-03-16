@@ -19,18 +19,19 @@ Use this command when you want to Decrease Value in Numerical Variable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please specify Numerical Variable](#param_0)
-- [Optional - Please specify value to decrease](#param_1)
+- [Please Select the Numerical Variable Name](#param_0)
+- [Optional - Please Specify the Numerical Value to Decrease](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please specify Numerical Variable
+### Please Select the Numerical Variable Name
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -39,6 +40,13 @@ Use this command when you want to Decrease Value in Numerical Variable.
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vNum</strong> | Specify Variable Name **vNum** |
+| <strong>{vNum}</strong> | Specify Variable Name **vNum** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,16 +59,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please specify value to decrease
+### Optional - Please Specify the Numerical Value to Decrease
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Numerical Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>1</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -97,7 +113,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: DecreaseNumericalVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/05/23 07:08 PM
+This page was generated on 03/16/23 10:27 PM
 
 
 ## Help

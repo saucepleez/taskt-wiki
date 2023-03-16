@@ -19,26 +19,34 @@ Use this command when you want to modify List Index.  You can even use variables
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a List Variable Name to modify](#param_0)
-- [Please Specify the Please set the current Index of the List](#param_1)
+- [Please Select the List Variable Name](#param_0)
+- [Please Specify the Index of the List](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please select a List Variable Name to modify
+### Please Select the List Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Instance Type</dt><dd>List</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
+<dt>Value</dt><dd>List Variable</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command And also The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vList</strong> | Specify Variable Name **vList** |
+| <strong>{vList}</strong> | Specify Variable Name **vList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,20 +59,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Please set the current Index of the List
+### Please Specify the Index of the List
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the input that the variable's index should be set to.</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-<li>Less than Zero</li>
-</ul></dd>
+<dt>What to input</dt><dd>Enter or Select the Index of the List</dd>
 <dt>Sample Usage</dt><dd><strong>0</strong> or <strong>-1</strong> or <strong>{vIndex}</strong></dd>
-<dt>Remarks</dt><dd>You can use variables in input if you encase them within brackets {{{vName}}}.  You can also perform basic math operations.</dd>
+<dt>Remarks</dt><dd><strong>-1</strong> means index of the last row. If it is empty, it will be the value of Current Position, which can be used for Loop List command.</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Get First List Item |
+| <strong>-1</strong> | Get Last List Item |
+| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -101,7 +113,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetListIndexCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/05/23 07:08 PM
+This page was generated on 03/16/23 10:27 PM
 
 
 ## Help

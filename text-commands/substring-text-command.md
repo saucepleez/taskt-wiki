@@ -19,24 +19,33 @@ Use this command when you want to select a subset of text or variable
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please select a variable or text](#param_0)
-- [Please specify Start from Position](#param_1)
-- [Optional - Please specify Extract Length (-1 to keep remainder)](#param_2)
-- [Please select the variable to receive the Result](#param_3)
+- [Please Specify the Text Value](#param_0)
+- [Please Specify the Start Position](#param_1)
+- [Optional - Please Specify the Extract Length](#param_2)
+- [Please Select the Variable Name to Store Result](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please select a variable or text
+### Please Specify the Text Value
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable or text value</dd>
-<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Text Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Text Value |
+| <strong>Hello</strong> | Specify **Hello** for Text Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Text Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -49,20 +58,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify Start from Position
+### Please Specify the Start Position
 
 
 <dl>
-<dt>What to input</dt><dd>Indicate the starting position within the string</dd>
+<dt>What to input</dt><dd>Enter or Select the Start Position</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li>Less than Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>{vPosition}</strong></dd>
-<dt>Remarks</dt><dd>0 for beginning, 1 for first character, etc.</dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vStart}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify **First Charactor** for Start Position |
+| <strong>1</strong> | Specify **1** for Start Position |
+| <strong>{vStart}</strong> | Specify Value of Variable **vStart** for Start Position |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -75,17 +92,24 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please specify Extract Length (-1 to keep remainder)
+### Optional - Please Specify the Extract Length
 
 
 <dl>
-<dt>What to input</dt><dd>Indicate if only so many characters should be kept</dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>-1</strong> or <strong>{vLength}</strong></dd>
-<dt>Remarks</dt><dd>-1 to keep remainder, 1 for 1 position after start index.<br><br>
-<strong>Optional</strong><br>Default Value is <strong>-1</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Extract Length</dd>
+<dt>Sample Usage</dt><dd><strong>-1</strong> or <strong>1</strong> or <strong>{vLength}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>-1</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>-1</strong> | Specify **Keep Remainder** for Extract Length |
+| <strong>1</strong> | Specify **1** for Extract Length |
+| <strong>{vLength}</strong> | Specify Value of Variable **vLength** for Extract Length |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -98,20 +122,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please select the variable to receive the Result
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -148,7 +180,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SubstringTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/05/23 07:08 PM
+This page was generated on 03/16/23 10:27 PM
 
 
 ## Help

@@ -19,26 +19,34 @@ Use this command when you want to Format Number.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please specify Number to Format](#param_0)
-- [Please specify Number Format](#param_1)
-- [Please specify Variable Name to store Result](#param_2)
+- [Please Specify the Numerical Value](#param_0)
+- [Please Specify the Number Format](#param_1)
+- [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please specify Number to Format
+### Please Specify the Numerical Value
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Numerical Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>123</strong> or <strong>{vNumber}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,19 +59,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify Number Format
+### Please Specify the Number Format
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Number Format</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
 <dt>Sample Usage</dt><dd><strong>0.#</strong> or <strong>C</strong> or <strong>{vFormat}</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd>For more detailed information, please refer to this URL.
+https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings
+https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0.#</strong> | Specify **0.#** for Format |
+| <strong>C</strong> | Specify **C** for Format |
+| <strong>{vFormat}</strong> | Specify Value of Variable **vFormat** for Format |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -76,12 +94,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please specify Variable Name to store Result
+### Please Select the Variable Name to Store Result
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -90,6 +109,13 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -126,7 +152,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FormatNumberCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/05/23 07:08 PM
+This page was generated on 03/16/23 10:27 PM
 
 
 ## Help

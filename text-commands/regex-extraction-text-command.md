@@ -19,24 +19,33 @@ Use this command when you want to perform an advanced RegEx extraction from a te
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Please supply the value or variable](#param_0)
-- [Please Input the RegEx Extractor Pattern](#param_1)
-- [Please Select Matching Group Index](#param_2)
-- [Please select the variable to receive the RegEx result](#param_3)
+- [Please Specify the Text Value](#param_0)
+- [Please Specify the RegEx Extractor Pattern](#param_1)
+- [Please Specify the Matching Group Index](#param_2)
+- [Please Select the Variable Name to Store Result](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please Specify the Please supply the value or variable
+### Please Specify the Text Value
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable or text value</dd>
-<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Text Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Text Value |
+| <strong>Hello</strong> | Specify **Hello** for Text Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Text Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -49,11 +58,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Input the RegEx Extractor Pattern
+### Please Specify the RegEx Extractor Pattern
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the RegEx extractor pattern that should be used to extract the text</dd>
+<dt>What to input</dt><dd>Enter or Select the RegEx Extractor Pattern</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd><strong>\w+</strong> or <strong>^([\w-]+)</strong></dd>
 <dt>Remarks</dt><dd>If an extractor splits each word in a sentence, for example, you will need to specify the associated index of the word that is required.</dd>
 </dl>
@@ -71,16 +83,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select Matching Group Index
+### Please Specify the Matching Group Index
 
 
 <dl>
-<dt>What to input</dt><dd>Define the index of the result</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Index</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>-1</strong> or <strong>{vIndex}</strong></dd>
 <dt>Remarks</dt><dd>The extractor will split multiple patterns found into multiple indexes.  Test which index is required to retrieve the value or create a better/more define extractor.</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify the First Matche |
+| <strong>1</strong> | Specify **1** for Index |
+| <strong>-1</strong> | Specify the Last Matches |
+| <strong>{vIndex}</strong> | Specify Value of Variable **vIndex** for Index |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -93,17 +117,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please select the variable to receive the RegEx result
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -140,7 +175,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RegExExtractionTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/05/23 07:08 PM
+This page was generated on 03/16/23 10:27 PM
 
 
 ## Help
