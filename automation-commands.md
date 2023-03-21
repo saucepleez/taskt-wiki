@@ -354,20 +354,20 @@
 | ---                | ---           | ---                   |
 ||[Remote API](/remote-commands/remote-api-command.md)|This command allows you to execute automation against another taskt Client.|
 ||[Remote Task](/remote-commands/remote-task-command.md)|This command allows you to execute a task remotely on another taskt instance|
+### Script File Commands
+| Sub Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+||[Load Script File](/script-file-commands/load-script-file-command.md)|This command pre-loads tasks for future execution.|
+||[Run Script File](/script-file-commands/run-script-file-command.md)|This command runs tasks.|
+||[Stop Current Script File](/script-file-commands/stop-current-script-file-command.md)|This command stops the current task.|
+||[Unload Script File](/script-file-commands/unload-script-file-command.md)|This command runs tasks.|
 ### System Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-||[Environment Variable](/system-commands/environment-variable-command.md)|This command allows you to exclusively select a system/environment variable|
+||[Get Environment Variable](/system-commands/get-environment-variable-command.md)|This command allows you to exclusively select a system/environment variable|
+||[Get OS Variable](/system-commands/get-os-variable-command.md)|This command allows you to exclusively select a system/environment variable|
 ||[Launch Remote Desktop](/system-commands/launch-remote-desktop-command.md)|This command allows you to stop a program or a process.|
-||[OS Variable](/system-commands/os-variable-command.md)|This command allows you to exclusively select a system/environment variable|
 ||[System Action](/system-commands/system-action-command.md)|This command allows you to perform an account action|
-### Task Commands
-| Sub Group   	| Command Name 	|  Command Description	|
-| ---                | ---           | ---                   |
-||[Load Task](/task-commands/load-task-command.md)|This command pre-loads tasks for future execution.|
-||[Run Task](/task-commands/run-task-command.md)|This command runs tasks.|
-||[Stop Current Task](/task-commands/stop-current-task-command.md)|This command stops the current task.|
-||[Unload Task](/task-commands/unload-task-command.md)|This command runs tasks.|
 ### Text Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -480,4 +480,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 03/16/23 10:27 PM
+This page was generated on 03/21/23 01:49 PM

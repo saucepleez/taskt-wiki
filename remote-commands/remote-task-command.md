@@ -19,26 +19,37 @@ Use this command when you want to execute a command on another client that has l
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please enter the IP:Port (ex. 192.168.2.200:19312)](#param_0)
-- [Please Select Parameter Type](#param_1)
-- [Please Select the Execution Preference](#param_2)
-- [Please Specify the Script Parameter Data](#param_3)
+- [Please Specify the IP:Port](#param_0)
+- [Please Select the Parameter Type](#param_1)
+- [Optional - Please Select the Execution Preference](#param_2)
+- [Optional - Please Specify the Script Parameter Data](#param_3)
 - [Please Specify the Request Timeout (ms)](#param_4)
-- [Please select the variable to receive the response](#param_5)
+- [Please Select the Variable Name to Store Result](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Please enter the IP:Port (ex. 192.168.2.200:19312)
+### Please Specify the IP:Port
 
 
 <dl>
-<dt>What to input</dt><dd>Define any IP endpoint which is enabled for local listening.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the IP and Port</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>192.168.0.15:19312</strong> or <strong>{vRemoteHost}</strong> or **{vIP}:{vPort}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>192.168.0.15:19312</strong> | Specify **192.168.0.15:19312** for IP and Port |
+| <strong>{vRemoteHost}</strong> | Specify Value of Variable **vRemoteHost** for IP and Port |
+| **{vIP}:{vPort} | Specify **{{{vIP}}}:{{{vPort}}} for IP and Port |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,12 +62,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select Parameter Type
+### Please Select the Parameter Type
 
 
 <dl>
-<dt>What to input</dt><dd>Select the necessary parameter.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd><strong>Run Raw Script Data</strong> or  <strong>Run Local File</strong> or  <strong>Run Remote File</strong> or  <strong>Run Command Json</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -74,14 +88,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the Execution Preference
+### Optional - Please Select the Execution Preference
 
 
 <dl>
-<dt>What to input</dt><dd>Select the necessary execution preference.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Continue Execution</strong> or  <strong>Await For Result</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Continue Execution</strong></dd>
 </dl>
 
 
@@ -97,13 +111,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify the Script Parameter Data
+### Optional - Please Specify the Script Parameter Data
 
 
 <dl>
-<dt>What to input</dt><dd>Specify the data, typically either raw data, local file, or remote file</dd>
+<dt>What to input</dt><dd>Enter or Select the Script Parameter</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -123,12 +137,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the length of time to wait before the request times out</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Request Timeout</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+<li>Less than Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>1000</strong> or <strong>{vTime}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1000</strong> | Specify **1000** for Timeout |
+| <strong>{vTime}</strong> | Specify Value of Variable **vTime** for Timeout |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -141,16 +166,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please select the variable to receive the response
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -187,7 +224,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RemoteTaskCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/16/23 10:27 PM
+This page was generated on 03/21/23 01:49 PM
 
 
 ## Help

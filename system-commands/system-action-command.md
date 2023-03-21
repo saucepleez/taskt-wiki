@@ -19,17 +19,21 @@ Use this command to perform an action such as logoff, restart, shutdown or resta
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select a system action to perform](#param_0)
+- [Please Select the System Action](#param_0)
 - [Optional - Please Specify the Comment Field](#param_1)
 
 
 <a id="param_0"></a>
-### Please Select a system action to perform
+### Please Select the System Action
 
 
 <dl>
-<dt>What to input</dt><dd>Select from one of the options</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Shutdown</strong> or  <strong>Restart</strong> or  <strong>Logoff</strong> or  <strong>Lock Screen</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -70,7 +74,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SystemActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/16/23 10:27 PM
+This page was generated on 03/21/23 01:49 PM
 
 
 ## Help

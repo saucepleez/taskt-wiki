@@ -19,25 +19,35 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the name of the machine](#param_0)
-- [Please Enter the username](#param_1)
-- [Please Enter the password](#param_2)
-- [Please Enter the width of the RDP window](#param_3)
-- [Please Enter the height of the RDP window](#param_4)
+- [Please Specify the Machine Name](#param_0)
+- [Please Specify the User Name](#param_1)
+- [Please Specify the Password](#param_2)
+- [Optional - Please Specify the Width of the RDP Window](#param_3)
+- [Optional - Please Specify the Height of the RDP Window](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please Enter the name of the machine
+### Please Specify the Machine Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Machine Name</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>TOM-PC</strong> or <strong>{vMachine}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>TOM-PC</strong> | Specify **TOM-PC** for Machine Name |
+| <strong>{vMachine}</strong> | Specify Value of Variable **vMachine** for Machine Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -50,16 +60,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Enter the username
+### Please Specify the User Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the User Name</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>tom</strong> or <strong>{vUser}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>tom</strong> | Specify **tom** for User |
+| <strong>{vUser}</strong> | Specify Value of Variable **vUser** for User |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -72,16 +92,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Enter the password
+### Please Specify the Password
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Password</dd>
+<dt>Sample Usage</dt><dd><strong>mySecretPass</strong> or <strong>{vPass}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>mySecretPass</strong> | Specify **mySecretPass** for Password |
+| <strong>{vPass}</strong> | Specify Value of Variable **vPass** for Password |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -94,16 +121,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Enter the width of the RDP window
+### Optional - Please Specify the Width of the RDP Window
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Width</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Less than Zero</li>
+<li>Equals Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>1024</strong> or <strong>{vWidth}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Primary Monitor Size</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1024</strong> | Specify **1024** for Width |
+| <strong>{vWidth}</strong> | Specify Value of Variable **vWidth** for Width |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -116,16 +154,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Enter the height of the RDP window
+### Optional - Please Specify the Height of the RDP Window
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Height</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Less than Zero</li>
+<li>Equals Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>768</strong> or <strong>{vHeight}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Primary Monitor Size</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>768</strong> | Specify **768** for Height |
+| <strong>{vHeight}</strong> | Specify Value of Variable **vHeight** for Height |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -160,9 +209,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: RemoteDesktopCommand
+Automation Class Name: LaunchRemoteDesktopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/16/23 10:27 PM
+This page was generated on 03/21/23 01:49 PM
 
 
 ## Help
