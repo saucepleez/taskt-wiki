@@ -19,22 +19,29 @@ Use this command when you want to present or display a value on screen to the us
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the message to be displayed.](#param_0)
-- [Optional - Please Specify the Close After X (Seconds) - 0 to bypass (Default is 0)](#param_1)
+- [Please Specify the Message to be Displayed](#param_0)
+- [Optional - Please Specify the Close After X (Seconds) - 0 to Bypass](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Enter the message to be displayed.
+### Please Specify the Message to be Displayed
 
 
 <dl>
-<dt>What to input</dt><dd>Specify any text that should be displayed on screen.  You may also include variables for display purposes.</dd>
-<dt>Sample Usage</dt><dd><strong>Hello World</strong> or <strong>{vMyText}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Message</dd>
+<dt>Sample Usage</dt><dd><strong>Hello World</strong> or <strong>{vText}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Hello World</strong> | Specify **Hello World** for Message |
+| <strong>{vText}</strong> | Specify Value of Variable **vText** for Message |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -47,17 +54,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Specify the Close After X (Seconds) - 0 to bypass (Default is 0)
+### Optional - Please Specify the Close After X (Seconds) - 0 to Bypass
 
 
 <dl>
-<dt>What to input</dt><dd>Specify how many seconds to display on screen. After the amount of seconds passes, the message box will be automatically closed and script will resume execution.</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>{vTime}</strong></dd>
-<dt>Remarks</dt><dd><strong>0</strong> to remain open indefinitely or <strong>5</strong> to stay open for 5 seconds.<br><br>
-<strong>Optional</strong><br></dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>0</strong> or <strong>{vTime}</strong></dd>
+<dt>Remarks</dt><dd>Specify how many seconds to display on screen.After the amount of seconds passes, the message box will be automatically closed and script will resume execution. <strong>0</strong> to remain open indefinitely or <strong>5</strong> to stay open for 5 seconds.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Close After 1 second |
+| <strong>0</strong> | Don't Close Automatically |
+| <strong>{vTime}</strong> | Close After Value of Variable **vTime** seconds |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -92,9 +107,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: MessageBoxCommand
+Automation Class Name: ShowMessageCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/21/23 01:49 PM
+This page was generated on 03/26/23 01:37 PM
 
 
 ## Help

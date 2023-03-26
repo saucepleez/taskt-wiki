@@ -8,6 +8,18 @@
 ||[Execute REST API](/api-commands/execute-rest-api-command.md)|This command allows you to show a message to the user.|
 ||[HTTP Request](/api-commands/http-request-command.md)|This command downloads the HTML source of a web page for parsing|
 ||[HTTP Result Query](/api-commands/http-result-query-command.md)|This command processes an HTML source object|
+### Application/Script Commands
+| Sub Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+|Application|[Start Application](/application-script-commands/start-application-command.md)|This command allows you to start a program or a process.|
+|Application|[Stop Application](/application-script-commands/stop-application-command.md)|This command allows you to stop a program or a process.|
+|taskt Script File|[Load Script File](/application-script-commands/load-script-file-command.md)|This command pre-loads tasks for future execution.|
+|taskt Script File|[Run Script File](/application-script-commands/run-script-file-command.md)|This command runs tasks.|
+|taskt Script File|[Stop Current Script File](/application-script-commands/stop-current-script-file-command.md)|This command stops the current task.|
+|taskt Script File|[Unload Script File](/application-script-commands/unload-script-file-command.md)|This command runs tasks.|
+|Windows Script File|[Run Batch Script File](/application-script-commands/run-batch-script-file-command.md)|This command allows you to run a script or program and wait for it to exit before proceeding.|
+|Windows Script File|[Run CSharp Code](/application-script-commands/run-csharp-code-command.md)|This command allows you to run C# code from the input|
+|Windows Script File|[Run PowerShell Script File](/application-script-commands/run-powershell-script-file-command.md)|This command allows you to run a powershell script and wait for it to exit before proceeding.|
 ### Color Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -304,13 +316,12 @@
 |Clipboard|[Clear Clipboard Text](/misc-commands/clear-clipboard-text-command.md)|This command allows you to clear text to the clipboard.|
 |Clipboard|[Get Clipboard Text](/misc-commands/get-clipboard-text-command.md)|This command allows you to get text from the clipboard.|
 |Clipboard|[Set Clipboard Text](/misc-commands/set-clipboard-text-command.md)|This command allows you to set text to the clipboard.|
-|Network/Internet|[Ping Command](/misc-commands/ping-command-command.md)|This command allows you to add an in-line comment to the script.|
+|Network/Internet|[Ping](/misc-commands/ping-command.md)|This command allows you to add an in-line comment to the script.|
 |Network/Internet|[Send SMTP Email](/misc-commands/send-smtp-email-command.md)|This command allows you to send email using SMTP protocol.|
-|Other|[Add Code Comment](/misc-commands/add-code-comment-command.md)|This command allows you to add an in-line comment to the script.|
+|Other|[Comment](/misc-commands/comment-command.md)|This command allows you to add an in-line comment to the script.|
 |Other|[Create Shortcut](/misc-commands/create-shortcut-command.md)|This command allow to create shortcut file|
-|Other|[Encryption Command](/misc-commands/encryption-command-command.md)|This command handles text encryption|
 |Other|[Play System Sound](/misc-commands/play-system-sound-command.md)|This command allows you to Play System Sound.|
-|Other|[Sequence Command](/misc-commands/sequence-command-command.md)|Command that groups multiple actions|
+|Other|[Sequence](/misc-commands/sequence-command.md)|Command that groups multiple actions|
 |Other|[Show Message](/misc-commands/show-message-command.md)|This command allows you to show a message to the user.|
 ### NLG Commands
 | Sub Group   	| Command Name 	|  Command Description	|
@@ -337,14 +348,6 @@
 ||[Move/Copy Outlook Emails](/outlook-commands/move-copy-outlook-emails-command.md)|This command allows you to move/copy emails with outlook|
 ||[Reply To Outlook Emails](/outlook-commands/reply-to-outlook-emails-command.md)|This command allows you to reply to emails with outlook|
 ||[Send Outlook Email](/outlook-commands/send-outlook-email-command.md)|This command allows you to send emails with outlook|
-### Programs/Process Commands
-| Sub Group   	| Command Name 	|  Command Description	|
-| ---                | ---           | ---                   |
-||[Run Custom Code](/programs-process-commands/run-custom-code-command.md)|This command allows you to run C# code from the input|
-||[Run Powershell](/programs-process-commands/run-powershell-command.md)|This command allows you to run a powershell script and wait for it to exit before proceeding.|
-||[Run Script](/programs-process-commands/run-script-command.md)|This command allows you to run a script or program and wait for it to exit before proceeding.|
-||[Start Process](/programs-process-commands/start-process-command.md)|This command allows you to start a program or a process.|
-||[Stop Process](/programs-process-commands/stop-process-command.md)|This command allows you to stop a program or a process.|
 ### Regex Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -354,13 +357,6 @@
 | ---                | ---           | ---                   |
 ||[Remote API](/remote-commands/remote-api-command.md)|This command allows you to execute automation against another taskt Client.|
 ||[Remote Task](/remote-commands/remote-task-command.md)|This command allows you to execute a task remotely on another taskt instance|
-### Script File Commands
-| Sub Group   	| Command Name 	|  Command Description	|
-| ---                | ---           | ---                   |
-||[Load Script File](/script-file-commands/load-script-file-command.md)|This command pre-loads tasks for future execution.|
-||[Run Script File](/script-file-commands/run-script-file-command.md)|This command runs tasks.|
-||[Stop Current Script File](/script-file-commands/stop-current-script-file-command.md)|This command stops the current task.|
-||[Unload Script File](/script-file-commands/unload-script-file-command.md)|This command runs tasks.|
 ### System Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -373,6 +369,7 @@
 | ---                | ---           | ---                   |
 |Action|[Concatenate Text Variable](/text-commands/concatenate-text-variable-command.md)|This command allows you to you to concatenate text to Text Variable.|
 |Action|[Create Text Variable](/text-commands/create-text-variable-command.md)|This command allows you to create text variables.|
+|Action|[Encrypt Decrypt Text](/text-commands/encrypt-decrypt-text-command.md)|This command handles text encryption|
 |Action|[Extraction Text](/text-commands/extraction-text-command.md)|This command allows you to perform advanced string extraction.|
 |Action|[Modify Text](/text-commands/modify-text-command.md)|This command allows you to trim Text, convert Text, etc.|
 |Action|[RegEx Extraction Text](/text-commands/regex-extraction-text-command.md)|This command allows you to perform advanced string formatting using RegEx.|
@@ -480,4 +477,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 03/21/23 01:49 PM
+This page was generated on 03/26/23 01:37 PM

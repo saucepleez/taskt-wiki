@@ -19,23 +19,32 @@ Use this command when you want to iterate over a series of Excel cells.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter Regex Expressions.](#param_0)
-- [Please input the data you want to perform regex on.](#param_1)
-- [Please input a variable name.](#param_2)
+- [Please Specify the Text Value](#param_0)
+- [Please Specify the Regex Expression](#param_1)
+- [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Enter Regex Expressions.
+### Please Specify the Text Value
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Text Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Text Value |
+| <strong>Hello</strong> | Specify **Hello** for Text Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Text Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -48,16 +57,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please input the data you want to perform regex on.
+### Please Specify the Regex Expression
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Reget Expression</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>\w</strong> or <strong>{vRegex}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>\w</strong> | Specify **\w** for Regex |
+| <strong>{vRegex}</strong> | Specify Value of Variable **vRegex** for Regex |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -70,16 +89,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please input a variable name.
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a string of comma seperated values.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd>If the Matched Text is <strong>A</strong>, <strong>B</strong>, and <strong>C</strong>, the result will be <strong>A,B,C</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -116,7 +147,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetRegexMatchesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/21/23 01:49 PM
+This page was generated on 03/26/23 01:37 PM
 
 
 ## Help

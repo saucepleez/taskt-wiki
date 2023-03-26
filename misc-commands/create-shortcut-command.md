@@ -19,26 +19,35 @@ Use this command when you want to create shortcut file
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please specify Shortcut Target File, Folder, or URL](#param_0)
-- [Please specify saved Shortcut Path](#param_1)
-- [Optional - Please specify Shortcut Description](#param_2)
+- [Please Specify the Target File, Folder, or URL](#param_0)
+- [Please Specify the Saved Shortcut Path](#param_1)
+- [Optional - Please Specify the Shortcut Description](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please specify Shortcut Target File, Folder, or URL
+### Please Specify the Target File, Folder, or URL
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the File, Folder, or URL</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\target.txt</strong> or <strong>C:\temp</strong> or <strong>http://example.com</strong> or <strong>{vPath}}</strong> or <strong>{vURL}</strong></dd>
+<dt>Sample Usage</dt><dd>**C:\temp\target.txt or **C:\temp\ or **http://example.com or **{vPath}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| **C:\temp\target.txt | Specify **C:\temp\target.txt for Target File |
+| **C:\temp\ | Specify **C:\temp\ for Target Folder |
+| **http://example.com | Specify **http://example.com for Target URL |
+| **{vPath} | Specify Value of Variable **vPath for Target File, Folder, or URL |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,11 +60,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify saved Shortcut Path
+### Please Specify the Saved Shortcut Path
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Shortcut Path</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
@@ -64,6 +73,14 @@ prev / [list](#param_list) / [next](#param_1)
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:\temp\shortcut.lnk</strong> | Specify **C:\temp\shortcut.lnk** for Shortcut Path |
+| <strong>C:\temp\shortcut.url</strong> | Specify **C:\temp\shortcut.url** for Shortcut Path |
+| <strong>{vShortcut}</strong> | Specify Value of Variable **vShortcut** for Shortcut Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -76,11 +93,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please specify Shortcut Description
+### Optional - Please Specify the Shortcut Description
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Description</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
@@ -122,7 +139,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateShortcutCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/21/23 01:49 PM
+This page was generated on 03/26/23 01:37 PM
 
 
 ## Help
