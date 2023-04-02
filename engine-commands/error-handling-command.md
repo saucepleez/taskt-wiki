@@ -19,22 +19,33 @@ Use this command when you want to define how your script should behave when an e
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select an action to take in the event an error occurs](#param_0)
+- [Please Select the Action to Take in the Event an Error Occurs](#param_0)
 - [Optional - Please Specify the Comment Field](#param_1)
 
 
 <a id="param_0"></a>
-### Please Select an action to take in the event an error occurs
+### Please Select the Action to Take in the Event an Error Occurs
 
 
 <dl>
-<dt>What to input</dt><dd>Select the action you want to take when you come across an error.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd><strong>Stop Processing</strong> or  <strong>Continue Processing</strong></dd>
 <dt>Remarks</dt><dd><strong>If Command</strong> allows you to specify and test if a line number encountered an error. In order to use that functionality, you must specify <strong>Continue Processing</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Stop Processing</strong> | End the Script if an Error is Encountered |
+| <strong>Continue Processing</strong> | Continue Running the Script |
+| <strong>{vAction}</strong> | Specify Value of Variable **vAction** for Action |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -71,7 +82,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ErrorHandlingCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

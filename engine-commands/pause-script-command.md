@@ -19,21 +19,32 @@ Use this command when you want to pause your script for a specific amount of tim
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Amount of time to pause for (in milliseconds). (ex. 2500, {vWait})](#param_0)
+- [Please Specify the Amount of Time to Pause for (in milliseconds)](#param_0)
 - [Optional - Please Specify the Comment Field](#param_1)
 
 
 <a id="param_0"></a>
-### Please Specify the Amount of time to pause for (in milliseconds). (ex. 2500, {vWait})
+### Please Specify the Amount of Time to Pause for (in milliseconds)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a specific amount of time in milliseconds (ex. to specify 8 seconds, one would enter 8000) or specify a variable containing a value.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Pause Time</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+<li>Less than Zero</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>8000</strong> or <strong>{vTime}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>8000</strong> | Specify **8000** for Pause |
+| <strong>{vTime}</strong> | Specify Value of Variable **vTime** for Pause |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -68,9 +79,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: PauseCommand
+Automation Class Name: PauseScriptCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

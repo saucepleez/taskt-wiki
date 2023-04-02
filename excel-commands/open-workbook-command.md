@@ -23,7 +23,8 @@ Use this command when you want to open an existing Excel Workbook.
 - [Please Specify the Workbook (Excel File) Path](#param_1)
 - [Optional - Please Specify the Open Password](#param_2)
 - [Optional - Please Select the When Worksheet Exists](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
@@ -69,6 +70,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
+<dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance Required</li><li>Support Extensions: xlsx,xlsm,xls,xlm,csv,ods</li><li>FileCounter Variable Support: No Support</li></ul></dd>
 <dt>Sample Usage</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vFilePath}</strong></dd>
 <dt>Remarks</dt><dd>If file does not contain extension, supplement extensions supported by Excel.
 If file does not contain folder path, file will be opened in the same folder as script file.</dd>
@@ -154,6 +156,37 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 
 <a id="param_4"></a>
+### Optional - Please Specify the Wait Time for the File to Exist (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>10</strong> or <strong>{vWaitTime}</strong></dd>
+<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the File is not Found.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -169,7 +202,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_5) / [list](#param_list) / next
 
 
 </div>
@@ -178,7 +211,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExcelOpenWorkbookCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

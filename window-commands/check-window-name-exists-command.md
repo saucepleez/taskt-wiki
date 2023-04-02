@@ -22,7 +22,7 @@ Use this command when you want to check a existence of window name.
 - [Please Select the Window Name](#param_0)
 - [Optional - Please Select the Search Method for the Window Name](#param_1)
 - [Please Select the Variable Name to Store Result](#param_2)
-- [Optional - Please Specify the Wait Time (sec)](#param_3)
+- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
@@ -118,13 +118,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Specify the Wait Time (sec)
+### Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
 <dt>Sample Usage</dt><dd><strong>60</strong> or <strong>{vTime}</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
+<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
 
@@ -171,7 +172,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CheckWindowNameExistsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

@@ -19,21 +19,24 @@ Use this command when you want to run another task.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Script File](#param_0)
+- [Please Specify the Path to the Script File](#param_0)
 - [Optional - Please Select the I want to assign Variables on Startup](#param_1)
 - [Please Specify the Assign Variables](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
-### Please Specify the Script File
+### Please Specify the Path to the Script File
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Script File</dd>
+<dt>What to input</dt><dd>Enter or Select the File Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
+<dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance <string>Not</string> Required</li><li>Support Extensions: xml</li><li>FileCounter Variable Support: No Support</li></ul></dd>
 <dt>Sample Usage</dt><dd><strong>C:\temp\myscript.xml</strong> or <strong>{vPath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -103,6 +106,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Optional - Please Specify the Wait Time for the File to Exist (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>10</strong> or <strong>{vWaitTime}</strong></dd>
+<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the File is not Found.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -118,7 +152,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / next
+[prev](#param_4) / [list](#param_list) / next
 
 
 </div>
@@ -127,7 +161,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunScriptFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

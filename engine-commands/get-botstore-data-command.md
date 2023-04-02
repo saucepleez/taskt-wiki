@@ -19,23 +19,33 @@ Use this command when you want to retrieve data from tasktServer
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please indicate a name of the key to retrieve](#param_0)
-- [Please Indicate whether to retrieve the whole record or just the value](#param_1)
-- [Please Select the variable to receive the output](#param_2)
+- [Please Specify the Name of the Key to Retrieve](#param_0)
+- [Please Select the Retrieve the whole Record or just the Value](#param_1)
+- [Optional - Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please indicate a name of the key to retrieve
+### Please Specify the Name of the Key to Retrieve
 
 
 <dl>
-<dt>What to input</dt><dd>Select a variable or provide an input value</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Key</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Key</strong> or <strong>{vKey}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Key</strong> | Specify **Key** for Key |
+| <strong>{vKey}</strong> | Specify Value of Variable **vKey** for Key |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -48,12 +58,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Indicate whether to retrieve the whole record or just the value
+### Please Select the Retrieve the whole Record or just the Value
 
 
 <dl>
-<dt>What to input</dt><dd>Depending upon the option selected, the whole record with metadata may be required.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd><strong>Retrieve Value</strong> or  <strong>Retrieve Entire Record</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -71,16 +84,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the variable to receive the output
+### Optional - Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -115,9 +137,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: GetDataCommand
+Automation Class Name: GetBotStoreDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

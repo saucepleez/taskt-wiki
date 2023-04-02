@@ -19,26 +19,35 @@ Use this command when you want to format file path.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please indicate the File Path to Delete.](#param_0)
-- [Please specify File Path Format.](#param_1)
-- [Please specify Variable Name to store Result.](#param_2)
+- [Please Specify the File Path](#param_0)
+- [Please Select the File Path Format](#param_1)
+- [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please indicate the File Path to Delete.
+### Please Specify the File Path
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the path to the file.</dd>
+<dt>What to input</dt><dd>Enter or Select the File Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vTextFilePath}</strong></dd>
+<dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension <string>Not</string> Required, Existance <string>Not</string> Required</li><li>FileCounter Variable Support: No Support</li></ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.txt</strong> or <strong>{vFilePath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:\temp\myfile.txt</strong> | Specify **C:\temp\myfile.txt** for File Path |
+| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for File Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -51,11 +60,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please specify File Path Format.
+### Please Select the File Path Format
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the File Path Format</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -77,20 +86,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please specify Variable Name to store Result.
+### Please Select the Variable Name to Store Result
 
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -125,9 +142,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: FormatFilePathCommnad
+Automation Class Name: FormatFilePathCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

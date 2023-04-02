@@ -19,16 +19,16 @@ Use this command to return a list of file paths from a specific location.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please indicate the path to the source folder.](#param_0)
-- [Optional - Please indicate the file name filter](#param_1)
-- [Optional - Please indicate the file name search method](#param_2)
-- [Optional - Please indicate the extension](#param_3)
-- [Please Specify the variable to assign the file path list](#param_4)
+- [Please Specify the Path to the Source Folder](#param_0)
+- [Optional - Please Specify the File Name Filter](#param_1)
+- [Optional - Please Select the File Name Search Method](#param_2)
+- [Optional - Please Specify the Extension](#param_3)
+- [Please Select the List Variable Name to Store Result](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please indicate the path to the source folder.
+### Please Specify the Path to the Source Folder
 
 
 <dl>
@@ -53,16 +53,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please indicate the file name filter
+### Optional - Please Specify the File Name Filter
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the file name filter.</dd>
-<dt>Sample Usage</dt><dd><strong>hello</strong> or <strong>{vFileName}</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>empty and search all files</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the File Name Filter</dd>
+<dt>Sample Usage</dt><dd><strong>hello</strong> or <strong>{vName}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Empty and Search All Files</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>hello</strong> | Specify **hello** for File Name Filter |
+| <strong>{vName}</strong> | Specify Variable Name **vName** for File Name Filter |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -75,11 +82,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please indicate the file name search method
+### Optional - Please Select the File Name Search Method
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
@@ -98,16 +105,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please indicate the extension
+### Optional - Please Specify the Extension
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the extension.</dd>
+<dt>What to input</dt><dd>Enter or Select the Extention</dd>
 <dt>Sample Usage</dt><dd><strong>txt</strong> or <strong>{vExtension}</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>empty and search all files</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Empty and Search All Files</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>txt</strong> | Specify text file for Extension |
+| <strong>{vExtension}</strong> | Specify Value of Variable **vExtension** for Extension |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -120,21 +134,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Specify the variable to assign the file path list
+### Please Select the List Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
+<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
 <dt>Value</dt><dd>List Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vList</strong> | Specify Variable Name **vList** |
+| <strong>{vList}</strong> | Specify Variable Name **vList** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -171,7 +192,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetFilesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

@@ -19,22 +19,33 @@ Use this command when you want to upload or share data across bots.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please indicate a name of the key to create](#param_0)
-- [Please select a target variable or input value to upload](#param_1)
-- [Optional - Please Specify the Comment Field](#param_2)
+- [Please Specify the Name of the Key to Create](#param_0)
+- [Please Specify the Value to Upload](#param_1)
+- [Optional - Please Select the Variable Name to Store Result](#param_2)
+- [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please indicate a name of the key to create
+### Please Specify the Name of the Key to Create
 
 
 <dl>
-<dt>What to input</dt><dd>Select a variable or provide an input value</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Key</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>myKey</strong> or <strong>{vKey}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>myKey</strong> | Specify **myKey** for Key |
+| <strong>{vKey}</strong> | Specify Value of Variable **vKey** for Key |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -47,16 +58,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please select a target variable or input value to upload
+### Please Specify the Value to Upload
 
 
 <dl>
-<dt>What to input</dt><dd>Select a variable or provide an input value</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Text Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or <strong>{vValue}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Text Value |
+| <strong>Hello</strong> | Specify **Hello** for Text Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Text Value |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -69,6 +89,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
+### Optional - Please Select the Variable Name to Store Result
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -84,16 +135,16 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / next
+[prev](#param_3) / [list](#param_list) / next
 
 
 </div>
 
 
 ## Developer/Additional Reference
-Automation Class Name: UploadDataCommand
+Automation Class Name: UploadBotStoreDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

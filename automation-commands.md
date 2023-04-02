@@ -136,7 +136,6 @@
 ||[Set Engine Delay](/engine-commands/set-engine-delay-command.md)|This command allows you to set delays between execution of commands in a running instance.|
 ||[Set Engine Preference](/engine-commands/set-engine-preference-command.md)|This command allows you to set preferences for engine behavior.|
 ||[Show Engine Context](/engine-commands/show-engine-context-command.md)|This command allows you to show a message to the user.|
-||[Stopwatch](/engine-commands/stopwatch-command.md)|This command allows you to stop a program or a process.|
 ||[Upload BotStore Data](/engine-commands/upload-botstore-data-command.md)|This command allows you to upload data to a local tasktServer bot store|
 ### Error Handling Commands
 | Sub Group   	| Command Name 	|  Command Description	|
@@ -202,7 +201,7 @@
 | ---                | ---           | ---                   |
 ||[Check File Exists](/file-operation-commands/check-file-exists-command.md)|This command returns a existence of file paths from a specified location|
 ||[Delete File](/file-operation-commands/delete-file-command.md)|This command deletes a file from a specified destination|
-||[Extract File](/file-operation-commands/extract-file-command.md)|This command extracts files from a compressed file|
+||[Extract Zip File](/file-operation-commands/extract-zip-file-command.md)|This command extracts files from a compressed file|
 ||[Format File Path](/file-operation-commands/format-file-path-command.md)|This command allows you to format file path.|
 ||[Get File Info](/file-operation-commands/get-file-info-command.md)|This command returns a list of file paths from a specified location|
 ||[Get Files](/file-operation-commands/get-files-command.md)|This command returns a list of file paths from a specified location|
@@ -357,6 +356,10 @@
 | ---                | ---           | ---                   |
 ||[Remote API](/remote-commands/remote-api-command.md)|This command allows you to execute automation against another taskt Client.|
 ||[Remote Task](/remote-commands/remote-task-command.md)|This command allows you to execute a task remotely on another taskt instance|
+### StopWatch Commands
+| Sub Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+||[StopWatch](/stopwatch-commands/stopwatch-command.md)|This command allows you to stop a program or a process.|
 ### System Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -477,4 +480,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM

@@ -19,18 +19,21 @@ Use this command when you want to change the engine behavior.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select Parameter Type](#param_0)
-- [Please Specify Parameter Value](#param_1)
+- [Please Select the Parameter Type](#param_0)
+- [Please Specify the Parameter Value](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select Parameter Type
+### Please Select the Parameter Type
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd><strong>Enable Automatic Calculations</strong> or  <strong>Disable Automatic Calculations</strong> or  <strong>Start Variable Marker</strong> or  <strong>End Variable Marker</strong> or  <strong>Engine Delay</strong> or  <strong>Current Window Keyword</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -48,11 +51,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify Parameter Value
+### Please Specify the Parameter Value
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Parameter Value</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -94,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetEnginePreferenceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

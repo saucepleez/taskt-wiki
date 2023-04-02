@@ -23,7 +23,8 @@ Use this command when you want to run a powershell script and wait for it to clo
 - [Optional - Please Specify the Arguments](#param_1)
 - [Optional - Please Select the Convert Variables before Execution](#param_2)
 - [Optional - Please Select the Variable Name to Receive the Output](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
@@ -31,10 +32,12 @@ Use this command when you want to run a powershell script and wait for it to clo
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Path</dd>
+<dt>What to input</dt><dd>Enter or Select the File Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
+<dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance Required</li><li>Support Extensions: ps1</li><li>FileCounter Variable Support: No Support</li></ul></dd>
 <dt>Sample Usage</dt><dd><strong>C:\temp\myscript.ps1</strong> or <strong>{vScriptPath}</strong></dd>
 <dt>Remarks</dt><dd>This command differs from <strong>Start Process</strong> because this command blocks execution until the script has completed. If you do not want to stop while the script executes, consider using <strong>Start Process</strong> instead.
 If file does not contain extensin, supplement ps1 or bat extension.
@@ -146,6 +149,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Specify the Wait Time for the File to Exist (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>10</strong> or <strong>{vWaitTime}</strong></dd>
+<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the File is not Found.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -161,7 +195,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_5) / [list](#param_list) / next
 
 
 </div>
@@ -170,7 +204,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunPowerShellScriptFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

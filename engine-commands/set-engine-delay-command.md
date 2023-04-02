@@ -19,25 +19,32 @@ Use this command when you want to change the execution speed between commands.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Set Delay between commands (in milliseconds).](#param_0)
+- [Please Specify the Delay between Commands (in milliseconds)](#param_0)
 - [Optional - Please Specify the Comment Field](#param_1)
 
 
 <a id="param_0"></a>
-### Please Specify the Set Delay between commands (in milliseconds).
+### Please Specify the Delay between Commands (in milliseconds)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a specific amount of time in milliseconds (ex. to specify 8 seconds, one would enter 8000) or specify a variable containing a value.</dd>
+<dt>What to input</dt><dd>Enter or Select the Delay</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li>Less than Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>250</strong> or <strong>{vVariableSpeed}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>1000</strong> or <strong>{vTime}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1000</strong> | Specify **1000** for Delay |
+| <strong>{vTime}</strong> | Specify Value of Variable **vTime** for Delay |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -74,7 +81,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetEngineDelayCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

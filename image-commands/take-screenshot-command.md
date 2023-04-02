@@ -53,6 +53,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
+<dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance <string>Not</string> Required</li><li>Support Extensions: </li><li>FileCounter Variable Support: Number **Not** Found First</li></ul></dd>
 <dt>Sample Usage</dt><dd><strong>c:\Temp\image.png</strong> or <strong>{vPath}</strong></dd>
 <dt>Remarks</dt><dd>If file does not contain extensin, suppliment png extension.
 If file does not contain folder path, file will be saved in the same folder as script file.
@@ -96,7 +97,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 ## Developer/Additional Reference
 Automation Class Name: ScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help

@@ -67,6 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
+<dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance <string>Not</string> Required</li><li>Support Extensions: docx</li><li>FileCounter Variable Support: No Support</li></ul></dd>
 <dt>Sample Usage</dt><dd><strong>C:\temp\myfile.docx</strong> or <strong>{vPath}</strong></dd>
 <dt>Remarks</dt><dd>If file does not contain extensin, supplement extentions supported by Word.
 If file does not contain folder path, file will be opened in the same folder as script file.</dd>
@@ -116,7 +117,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: WordSaveDocumentAsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/26/23 01:37 PM
+This page was generated on 04/02/23 03:36 PM
 
 
 ## Help
