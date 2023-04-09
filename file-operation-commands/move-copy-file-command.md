@@ -21,8 +21,8 @@ Use this command to move a file to a new destination.
 ## Command Parameters
 - [Optional - Please Select the File Operation](#param_0)
 - [Please Specify the File Path](#param_1)
-- [Please Specify the Folder to Move/Copy to](#param_2)
-- [Optional - Please Select the When Destination Folder does not Exist](#param_3)
+- [Please Specify the Destination Folder Path to Move/Copy](#param_2)
+- [Optional - Please Select the Create Folder When Destination Folder does not Exist](#param_3)
 - [Optional - Please Select the Delete File if it already Exists](#param_4)
 - [Optional - Please Specify the Wait Time for the File to Exist (sec)](#param_5)
 - [Optional - Please Specify the Comment Field](#param_6)
@@ -87,19 +87,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the Folder to Move/Copy to
+### Please Specify the Destination Folder Path to Move/Copy
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the new path to the file.</dd>
+<dt>What to input</dt><dd>Enter or Select the Folder Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>*<em>C:\temp\new path*</em> or <strong>{vTextFolderPath}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp</strong> or <strong>{vFilePath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:\temp</strong> | Specify **C:\temp** for Folder Path |
+| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for Folder Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -112,7 +120,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the When Destination Folder does not Exist
+### Optional - Please Select the Create Folder When Destination Folder does not Exist
 
 
 <dl>
@@ -215,7 +223,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/02/23 03:36 PM
+This page was generated on 04/09/23 11:31 AM
 
 
 ## Help

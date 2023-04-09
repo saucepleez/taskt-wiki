@@ -19,20 +19,21 @@ Use this command to move a folder to a new destination.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Optional - Please Indicate whether to move or copy the folder](#param_0)
-- [Please indicate the path to the source folder](#param_1)
-- [Please indicate the folder to move/copy to](#param_2)
-- [Optional - Please Select the Create folder if destination does not exist](#param_3)
-- [Optional - Please Select the Delete folder if it already exists](#param_4)
-- [Optional - Please Specify the Comment Field](#param_5)
+- [Optional - Please Select the Folder Action](#param_0)
+- [Please Specify the Target Folder](#param_1)
+- [Please Specify the Destination Folder for Move/Copy](#param_2)
+- [Optional - Please Select the Create Folder when the Destination Folder does not Exists](#param_3)
+- [Optional - Please Select the Delete Folder when it already Exists](#param_4)
+- [Optional - Please Specify the Wait Time for the Target Folder to Exist (sec)](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
-### Optional - Please Indicate whether to move or copy the folder
+### Optional - Please Select the Folder Action
 
 
 <dl>
-<dt>What to input</dt><dd>Specify whether you intend to move the folder or copy the folder. Moving will remove the folder from the original path while Copying will not.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Move Folder</strong> or  <strong>Copy Folder</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Move Folder</strong></dd>
@@ -51,19 +52,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please indicate the path to the source folder
+### Please Specify the Target Folder
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the path to the folder.</dd>
+<dt>What to input</dt><dd>Enter or Select the Folder Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\myfolder</strong> or <strong>{vTextFolderPath}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp</strong> or <strong>{vFilePath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:\temp</strong> | Specify **C:\temp** for Folder Path |
+| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for Folder Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -76,19 +85,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please indicate the folder to move/copy to
+### Please Specify the Destination Folder for Move/Copy
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the new path to the file.</dd>
+<dt>What to input</dt><dd>Enter or Select the Folder Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\newPath</strong> or <strong>{vTextFolderPath}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp</strong> or <strong>{vFilePath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:\temp</strong> | Specify **C:\temp** for Folder Path |
+| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for Folder Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -101,11 +118,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please Select the Create folder if destination does not exist
+### Optional - Please Select the Create Folder when the Destination Folder does not Exists
 
 
 <dl>
-<dt>What to input</dt><dd>Specify whether the directory should be created if it does not already exist.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
@@ -124,11 +141,11 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Delete folder if it already exists
+### Optional - Please Select the Delete Folder when it already Exists
 
 
 <dl>
-<dt>What to input</dt><dd>Specify whether the folder should be deleted first if it is already found to exist.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
 <dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
@@ -147,6 +164,37 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
+### Optional - Please Specify the Wait Time for the Target Folder to Exist (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>10</strong> or <strong>{vWaitTime}</strong></dd>
+<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Folder is not Found.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vWaitTime}</strong> | Specify Value of Variable **vWaitTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -162,7 +210,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / next
+[prev](#param_6) / [list](#param_list) / next
 
 
 </div>
@@ -171,7 +219,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/02/23 03:36 PM
+This page was generated on 04/09/23 11:31 AM
 
 
 ## Help

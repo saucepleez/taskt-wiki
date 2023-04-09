@@ -67,15 +67,23 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the path to the applicable file or enter file URL.</dd>
+<dt>What to input</dt><dd>Enter or Select the Folder Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>*<em>C:\temp*</em> or <strong>{vFilePath}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp</strong> or <strong>{vFilePath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:\temp</strong> | Specify **C:\temp** for Folder Path |
+| <strong>{vFilePath}</strong> | Specify Value of Variable **vFilePath** for Folder Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -116,11 +124,18 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter archive files password.</dd>
-<dt>Sample Usage</dt><dd><strong>mypass</strong> or {vPass}</dd>
+<dt>Sample Usage</dt><dd><strong>mypass</strong> or <strong>{vPass}</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>mypass</strong> | Specify **mypass** for Password |
+| <strong>{vPass}</strong> | Specify Value of Variable **vPass** for Password |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -219,7 +234,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExtractZipFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/02/23 03:36 PM
+This page was generated on 04/09/23 11:31 AM
 
 
 ## Help
