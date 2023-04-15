@@ -19,20 +19,23 @@ Use this command when you want to attempt to locate an image on screen.  You can
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Capture the search image](#param_0)
-- [Optional - Please Specify the Offset X Coordinate (Default is 0)](#param_1)
-- [Optional - Please Specify the Offset Y Coordinate (Default is 0)](#param_2)
-- [Optional - Please indicate mouse click type if required (Default is None)](#param_3)
-- [Optional - Please Specify the Timeout (seconds, 0 for unlimited search time) (Default is 30)](#param_4)
+- [Please Specify the Search Image](#param_0)
+- [Optional - Please Select the Mouse Click Type](#param_1)
+- [Optional - Please Specify the Offset X Coordinate](#param_2)
+- [Optional - Please Specify the Offset Y Coordinate](#param_3)
+- [Optional - Please Specify the Timeout Length (sec)](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please Specify the Capture the search image
+### Please Specify the Search Image
 
 
 <dl>
-<dt>What to input</dt><dd>Use the tool to capture an image</dd>
+<dt>What to input</dt><dd>Specify the Search Image</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
 <dt>Remarks</dt><dd>The image will be used as the image to be found on screen.</dd>
 </dl>
@@ -50,14 +53,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Specify the Offset X Coordinate (Default is 0)
+### Optional - Please Select the Mouse Click Type
 
 
 <dl>
-<dt>What to input</dt><dd>Specify if an offset is required.</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vXOffset}</strong></dd>
-<dt>Remarks</dt><dd>This will move the mouse X pixels to the right of the location of the image<br><br>
-<strong>Optional</strong><br></dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>None</strong> or  <strong>Left Click</strong> or  <strong>Middle Click</strong> or  <strong>Right Click</strong> or  <strong>Left Down</strong> or  <strong>Middle Down</strong> or  <strong>Right Down</strong> or  <strong>Left Up</strong> or  <strong>Middle Up</strong> or  <strong>Right Up</strong> or  <strong>Double Left Click</strong></dd>
+<dt>Remarks</dt><dd>You can simulate custom click by using multiple mouse click commands in succession, adding <strong>Pause Command</strong> in between where required.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>None</strong></dd>
 </dl>
 
 
@@ -73,17 +77,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Specify the Offset Y Coordinate (Default is 0)
+### Optional - Please Specify the Offset X Coordinate
 
 
 <dl>
-<dt>What to input</dt><dd>Specify if an offset is required.</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vYOffset}</strong></dd>
-<dt>Remarks</dt><dd>This will move the mouse X pixels down from the top of the location of the image<br><br>
-<strong>Optional</strong><br></dd>
+<dt>What to input</dt><dd>Enter or Select the Offset X</dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vXOffset}</strong></dd>
+<dt>Remarks</dt><dd>This will move the mouse X pixels to the right of the location of the image<br><br>
+<strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify **0** for Offset X |
+| <strong>100</strong> | Specify **100** for Offset X |
+| <strong>{vXOffset}</strong> | Specify Value of Variable **vXOffset** for Offset X |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -96,18 +108,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Optional - Please indicate mouse click type if required (Default is None)
+### Optional - Please Specify the Offset Y Coordinate
 
 
 <dl>
-<dt>What to input</dt><dd>Indicate the type of click required</dd>
-<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>None</strong> or  <strong>Left Click</strong> or  <strong>Middle Click</strong> or  <strong>Right Click</strong> or  <strong>Left Down</strong> or  <strong>Middle Down</strong> or  <strong>Right Down</strong> or  <strong>Left Up</strong> or  <strong>Middle Up</strong> or  <strong>Right Up</strong> or  <strong>Double Left Click</strong></dd>
-<dt>Remarks</dt><dd>You can simulate custom click by using multiple mouse click commands in succession, adding <strong>Pause Command</strong> in between where required.<br><br>
-<strong>Optional</strong><br></dd>
+<dt>What to input</dt><dd>Offset Y</dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vYOffset}</strong></dd>
+<dt>Remarks</dt><dd>This will move the mouse Y pixels down from the top of the location of the image<br><br>
+<strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify **0** for Offset Y |
+| <strong>100</strong> | Specify **100** for Offset Y |
+| <strong>{vYOffset}</strong> | Specify Value of Variable **vYOffset** for Offset Y |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -120,17 +139,25 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Specify the Timeout (seconds, 0 for unlimited search time) (Default is 30)
+### Optional - Please Specify the Timeout Length (sec)
 
 
 <dl>
-<dt>What to input</dt><dd>Enter a timeout length if required.</dd>
-<dt>Sample Usage</dt><dd><strong>30</strong> or <strong>0</strong> or <strong>{vTimeout}</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Timeout Length</dd>
+<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>30</strong> or <strong>{vTimeout}</strong></dd>
 <dt>Remarks</dt><dd>Search times become excessive for colors such as white. For best results, capture a large color variance on screen, not just a white block.<br><br>
-<strong>Optional</strong><br></dd>
+<strong>Optional</strong><br>Default Value is <strong>30</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>0</strong> | Specify **0** for Timeout |
+| <strong>30</strong> | Specify **30** for Timeout |
+| <strong>{vTimeout}</strong> | Specify Value of Variable **vTimeout** for Timeout |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -167,7 +194,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ImageRecognitionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/09/23 11:31 AM
+This page was generated on 04/15/23 09:00 PM
 
 
 ## Help

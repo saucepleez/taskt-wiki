@@ -237,21 +237,21 @@
 ### Image Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+||[Execute OCR](/image-commands/execute-ocr-command.md)|This command allows you to covert an image file into text for parsing.|
 ||[Image Recognition](/image-commands/image-recognition-command.md)|This command attempts to find an existing image on screen.|
-||[Perform OCR](/image-commands/perform-ocr-command.md)|This command allows you to covert an image file into text for parsing.|
 ||[Take Screenshot](/image-commands/take-screenshot-command.md)|This command takes a screenshot and saves it to a location|
 ### Input Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-||[File Dialog](/input-commands/file-dialog-command.md)|Show OpenFileDialog or SaveFileDialog|
-||[Folder Dialog](/input-commands/folder-dialog-command.md)|Show FolderBrowserDialog|
-||[Prompt for HTML Input](/input-commands/prompt-for-html-input-command.md)|Allows the entry of data into a web-enabled form|
+||[Click Mouse](/input-commands/click-mouse-command.md)|Simulates mouse clicks.|
+||[Enter Keys](/input-commands/enter-keys-command.md)|Sends keystrokes to a targeted window|
+||[Enter Shortcut Key](/input-commands/enter-shortcut-key-command.md)|Sends keystrokes to a targeted window|
+||[Move Mouse](/input-commands/move-mouse-command.md)|Simulates mouse movements|
 ||[Prompt for Input](/input-commands/prompt-for-input-command.md)|Sends keystrokes to a targeted window|
 ||[Send Advanced Keystrokes](/input-commands/send-advanced-keystrokes-command.md)|Sends advanced keystrokes to a targeted window|
-||[Send Hotkey](/input-commands/send-hotkey-command.md)|Sends keystrokes to a targeted window|
-||[Send Keystrokes](/input-commands/send-keystrokes-command.md)|Sends keystrokes to a targeted window|
-||[Send Mouse Click](/input-commands/send-mouse-click-command.md)|Simulates mouse clicks.|
-||[Send Mouse Move](/input-commands/send-mouse-move-command.md)|Simulates mouse movements|
+||[Show File Dialog](/input-commands/show-file-dialog-command.md)|Show OpenFileDialog or SaveFileDialog|
+||[Show Folder Dialog](/input-commands/show-folder-dialog-command.md)|Show FolderBrowserDialog|
+||[Show HTML Input Dialog](/input-commands/show-html-input-dialog-command.md)|Allows the entry of data into a web-enabled form|
 ||[UI Automation](/input-commands/ui-automation-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
 ### JSON Commands
 | Sub Group   	| Command Name 	|  Command Description	|
@@ -480,4 +480,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 04/09/23 11:31 AM
+This page was generated on 04/15/23 09:00 PM
