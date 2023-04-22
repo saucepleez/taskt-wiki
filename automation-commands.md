@@ -93,6 +93,14 @@
 ||[Create DateTime From Text](/datetime-commands/create-datetime-from-text-command.md)|This command allows you to create DateTime from Text.|
 ||[Format DateTime](/datetime-commands/format-datetime-command.md)|This command allows you to Format DateTime Text.|
 ||[Get DateTime Differences](/datetime-commands/get-datetime-differences-command.md)|This command allows you to Get 2 DateTime Differences.|
+### Dialog/Message Commands
+| Sub Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+||[Show File Dialog](/dialog-message-commands/show-file-dialog-command.md)|Show OpenFileDialog or SaveFileDialog|
+||[Show Folder Dialog](/dialog-message-commands/show-folder-dialog-command.md)|Show FolderBrowserDialog|
+||[Show HTML Input Dialog](/dialog-message-commands/show-html-input-dialog-command.md)|Allows the entry of data into a web-enabled form|
+||[Show Message](/dialog-message-commands/show-message-command.md)|This command allows you to show a message to the user.|
+||[Show User Input Dialog](/dialog-message-commands/show-user-input-dialog-command.md)|Sends keystrokes to a targeted window|
 ### Dictionary Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -240,19 +248,6 @@
 ||[Execute OCR](/image-commands/execute-ocr-command.md)|This command allows you to covert an image file into text for parsing.|
 ||[Image Recognition](/image-commands/image-recognition-command.md)|This command attempts to find an existing image on screen.|
 ||[Take Screenshot](/image-commands/take-screenshot-command.md)|This command takes a screenshot and saves it to a location|
-### Input Commands
-| Sub Group   	| Command Name 	|  Command Description	|
-| ---                | ---           | ---                   |
-||[Click Mouse](/input-commands/click-mouse-command.md)|Simulates mouse clicks.|
-||[Enter Keys](/input-commands/enter-keys-command.md)|Sends keystrokes to a targeted window|
-||[Enter Shortcut Key](/input-commands/enter-shortcut-key-command.md)|Sends keystrokes to a targeted window|
-||[Move Mouse](/input-commands/move-mouse-command.md)|Simulates mouse movements|
-||[Prompt for Input](/input-commands/prompt-for-input-command.md)|Sends keystrokes to a targeted window|
-||[Send Advanced Keystrokes](/input-commands/send-advanced-keystrokes-command.md)|Sends advanced keystrokes to a targeted window|
-||[Show File Dialog](/input-commands/show-file-dialog-command.md)|Show OpenFileDialog or SaveFileDialog|
-||[Show Folder Dialog](/input-commands/show-folder-dialog-command.md)|Show FolderBrowserDialog|
-||[Show HTML Input Dialog](/input-commands/show-html-input-dialog-command.md)|Allows the entry of data into a web-enabled form|
-||[UI Automation](/input-commands/ui-automation-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
 ### JSON Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -271,6 +266,14 @@
 |Get/Set|[Get JSON Value List](/json-commands/get-json-value-list-command.md)|This command allows you to parse a JSON object into a list.|
 |Get/Set|[Get Multi JSON Value List](/json-commands/get-multi-json-value-list-command.md)|This command allows you to parse a JSON object into a list.|
 |Get/Set|[Set JSON Value](/json-commands/set-json-value-command.md)|This command allows you to set value in JSON.|
+### Key/Mouse Commands
+| Sub Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+|Key|[Enter Keys](/key-mouse-commands/enter-keys-command.md)|Sends keystrokes to a targeted window|
+|Key|[Enter Shortcut Key](/key-mouse-commands/enter-shortcut-key-command.md)|Sends keystrokes to a targeted window|
+|Key|[Send Advanced Keystrokes](/key-mouse-commands/send-advanced-keystrokes-command.md)|Sends advanced keystrokes to a targeted window|
+|Mouse|[Click Mouse](/key-mouse-commands/click-mouse-command.md)|Simulates mouse clicks.|
+|Mouse|[Move Mouse](/key-mouse-commands/move-mouse-command.md)|Simulates mouse movements|
 ### List Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -321,7 +324,7 @@
 |Other|[Create Shortcut](/misc-commands/create-shortcut-command.md)|This command allow to create shortcut file|
 |Other|[Play System Sound](/misc-commands/play-system-sound-command.md)|This command allows you to Play System Sound.|
 |Other|[Sequence](/misc-commands/sequence-command.md)|Command that groups multiple actions|
-|Other|[Show Message](/misc-commands/show-message-command.md)|This command allows you to show a message to the user.|
+|Other|[UI Automation](/misc-commands/ui-automation-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
 ### NLG Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -401,13 +404,13 @@
 |Get|[Get Text From Table Element](/uiautomation-commands/get-text-from-table-element-command.md)|This command allows you to get Text Value from Table AutomationElement.|
 |Search|[Check Element Exist](/uiautomation-commands/check-element-exist-command.md)|This command allows you to to check AutomationElement existence.|
 |Search|[Check Element Exist By XPath](/uiautomation-commands/check-element-exist-by-xpath-command.md)|This command allows you to check AutomationElement existence.|
-|Search|[Get Child Element](/uiautomation-commands/get-child-element-command.md)|This command allows you to get Child Element from AutomationElement.|
-|Search|[Get Element From Element](/uiautomation-commands/get-element-from-element-command.md)|This command allows you to get AutomationElement from AutomationElement.|
-|Search|[Get Element From Element By XPath](/uiautomation-commands/get-element-from-element-by-xpath-command.md)|This command allows you to get AutomationElement from AutomationElement using by XPath.|
-|Search|[Get Element From Table Element](/uiautomation-commands/get-element-from-table-element-command.md)|This command allows you to get Element from Table AutomationElement.|
-|Search|[Get Element From Window](/uiautomation-commands/get-element-from-window-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
-|Search|[Get Element From Window By XPath](/uiautomation-commands/get-element-from-window-by-xpath-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
-|Search|[Get Parent Element](/uiautomation-commands/get-parent-element-command.md)|This command allows you to get Parent Element from AutomationElement.|
+|Search|[Search Child Element](/uiautomation-commands/search-child-element-command.md)|This command allows you to get Child Element from AutomationElement.|
+|Search|[Search Element From Element](/uiautomation-commands/search-element-from-element-command.md)|This command allows you to get AutomationElement from AutomationElement.|
+|Search|[Search Element From Element By XPath](/uiautomation-commands/search-element-from-element-by-xpath-command.md)|This command allows you to get AutomationElement from AutomationElement using by XPath.|
+|Search|[Search Element From Table Element](/uiautomation-commands/search-element-from-table-element-command.md)|This command allows you to get Element from Table AutomationElement.|
+|Search|[Search Element From Window](/uiautomation-commands/search-element-from-window-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
+|Search|[Search Element From Window By XPath](/uiautomation-commands/search-element-from-window-by-xpath-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
+|Search|[Search Parent Element](/uiautomation-commands/search-parent-element-command.md)|This command allows you to get Parent Element from AutomationElement.|
 |Search|[Wait For Element Exist](/uiautomation-commands/wait-for-element-exist-command.md)|This command allows you to Wait until the AutomationElement exists.|
 |Search|[Wait For Element Exist By XPath](/uiautomation-commands/wait-for-element-exist-by-xpath-command.md)|This command allows you to Wait until the AutomationElement exists using by XPath.|
 ### Variable Commands
@@ -480,4 +483,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 04/15/23 09:00 PM
+This page was generated on 04/22/23 07:07 PM
