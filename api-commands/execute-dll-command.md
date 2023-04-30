@@ -19,25 +19,37 @@ Use this command to parse and extract data from a successful **HTTP Request Comm
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please indicate the path to the DLL file](#param_0)
-- [Please select the name of the class that contains the method to be invoked](#param_1)
-- [Please select the name of the method in the class to invoke](#param_2)
-- [Please select the variable to receive the result](#param_3)
-- [Please indicate the parameters (if required)](#param_4)
+- [Please Specify the Path to the DLL file](#param_0)
+- [Please Specify the Name of the Class that contains the Method to be Invoked](#param_1)
+- [Please Specify the Name of the Method in the class to Invoke](#param_2)
+- [Please Select the Variable Name to Store Result](#param_3)
+- [Optional - Please Specify the Method Parameters](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
-### Please indicate the path to the DLL file
+### Please Specify the Path to the DLL file
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the path to the DLL File</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the File Path</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance Required</li><li>Support Extensions: dll</li><li>FileCounter Variable Support: No Support</li></ul></dd>
+<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.dll</strong> or <strong>{vDLLFilePath}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>C:\temp\myfile.dll</strong> | Specify **C:\temp\myfile.dll** for File Path |
+| <strong>{vDLLFilePath}</strong> | Specify Value of Variable **vDLLFilePath** for File Path |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -50,16 +62,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please select the name of the class that contains the method to be invoked
+### Please Specify the Name of the Class that contains the Method to be Invoked
 
 
 <dl>
-<dt>What to input</dt><dd>Provide the parent class name in the DLL.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Class Name</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>myNamespace.myClass</strong> or <strong>{vClass}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>myNamespace.myClass</strong> | Specify **myNamespace.myClass** for Class Name |
+| <strong>{vClass}</strong> | Specify Value of Variable **vClass** for Class Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -72,16 +94,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please select the name of the method in the class to invoke
+### Please Specify the Name of the Method in the class to Invoke
 
 
 <dl>
-<dt>What to input</dt><dd>Provide the method name in the DLL to be invoked.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Method Name</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>MyMethod</strong> or <strong>{vMethod}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>MyMethod</strong> | Specify **MyMethod** for Method Name |
+| <strong>{vMethod}</strong> | Specify Value of Variable **vMethod** for Method Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -94,16 +126,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please select the variable to receive the result
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -116,13 +160,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please indicate the parameters (if required)
+### Optional - Please Specify the Method Parameters
 
 
 <dl>
-<dt>What to input</dt><dd>Select the 'Generate Parameters' button once you have indicated a file, class, and method.</dd>
+<dt>What to input</dt><dd>Enter or Select the Parameters</dd>
 <dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -162,7 +206,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExecuteDLLCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/22/23 07:07 PM
+This page was generated on 04/30/23 09:31 PM
 
 
 ## Help

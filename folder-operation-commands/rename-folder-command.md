@@ -23,7 +23,9 @@ Use this command to rename an existing folder.
 - [Please Specify the New Folder Name](#param_1)
 - [Optional - Please Select the When Folder Name Same After the Change](#param_2)
 - [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Optional - Please Select the Variable Name to Store Folder Path Before Rename](#param_4)
+- [Optional - Please Select the Variable Name to Store Folder Path After Rename](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
 
 
 <a id="param_0"></a>
@@ -153,6 +155,68 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Select the Variable Name to Store Folder Path Before Rename
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd><strong>vPath</strong> or <strong>{vPath}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vPath</strong> | Specify Variable Name **vPath** |
+| <strong>{vPath}</strong> | Specify Variable Name **vPath** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
+### Optional - Please Select the Variable Name to Store Folder Path After Rename
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -168,7 +232,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_6) / [list](#param_list) / next
 
 
 </div>
@@ -177,7 +241,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RenameFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/22/23 07:07 PM
+This page was generated on 04/30/23 09:31 PM
 
 
 ## Help

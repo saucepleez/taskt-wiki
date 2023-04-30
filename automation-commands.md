@@ -6,8 +6,7 @@
 | ---                | ---           | ---                   |
 ||[Execute DLL](/api-commands/execute-dll-command.md)|This command processes an HTML source object|
 ||[Execute REST API](/api-commands/execute-rest-api-command.md)|This command allows you to show a message to the user.|
-||[HTTP Request](/api-commands/http-request-command.md)|This command downloads the HTML source of a web page for parsing|
-||[HTTP Result Query](/api-commands/http-result-query-command.md)|This command processes an HTML source object|
+||[Send HTTP Request](/api-commands/send-http-request-command.md)|This command downloads the HTML source of a web page for parsing|
 ### Application/Script Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -32,6 +31,7 @@
 | ---                | ---           | ---                   |
 ||[Date Calculation](/data-commands/date-calculation-command.md)|This command allows you to build a date and apply it to a variable.|
 ||[Format Data](/data-commands/format-data-command.md)|This command allows you to apply formatting to a string|
+||[Get HTML Text By XPath](/data-commands/get-html-text-by-xpath-command.md)|This command processes an HTML source object|
 ||[Log Data](/data-commands/log-data-command.md)|This command logs data to files.|
 ||[PDF Extraction](/data-commands/pdf-extraction-command.md)||
 ### Database Commands
@@ -483,4 +483,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 04/22/23 07:07 PM
+This page was generated on 04/30/23 09:31 PM

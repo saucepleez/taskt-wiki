@@ -1,42 +1,42 @@
-<!--TITLE: Read Document Command -->
-<!-- SUBTITLE: a command in the Word Commands group. -->
+<!--TITLE: Get HTML Text By XPath Command -->
+<!-- SUBTITLE: a command in the Data Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Word Commands &gt; Read Document
+Data Commands &gt; Get HTML Text By XPath
 
 
-# Read Document Command
+# Get HTML Text By XPath Command
 
 
 ## What does this command do?
-This command allows you to save a Word document.
+This command processes an HTML source object
 
 
 ## When would I want to use this command?
-Use this command when you want to save changes to a document.
+Use this command to parse and extract data from a successful **HTTP Request Command**
 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Word Instance Name](#param_0)
-- [Please Select the Variable Name to Store Result](#param_1)
-- [Optional - Please Specify the Comment Field](#param_2)
+- [Please Specify the HTML](#param_0)
+- [Please Specify the XPath Query](#param_1)
+- [Please Select the Variable Name to Store Result](#param_2)
+- [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the Word Instance Name
+### Please Specify the HTML
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Word Instance Name</dd>
-<dt>Instance Type</dt><dd>Word</dd>
+<dt>What to input</dt><dd>Enter or Select the HTML</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>RPAWord</strong> or <strong>{vInstance}</strong></dd>
-<dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Word</strong> command will cause an error</dd>
+<dt>Sample Usage</dt><dd>**{vHTML} or <strong><html><head>...</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -45,8 +45,8 @@ Use this command when you want to save changes to a document.
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>RPAWord</strong> | Specify **RPAWord** for Word Instance |
-| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Word Instance |
+| **{vHTML} | Specify Value of Variable **vHTML for HTML |
+| <strong><html><head>...</strong> | Specify **<html><head>...** for HTML |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -59,6 +59,31 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
+### Please Specify the XPath Query
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the XPath Query</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>@//*[@id=&quot;aso_search_form_anchor&quot;]/div/input</dd>
+<dt>Remarks</dt><dd>You can use Chrome Dev Tools to click an element and copy the XPath.</dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
 ### Please Select the Variable Name to Store Result
 
 
@@ -86,13 +111,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_1) / [list](#param_list) / [next](#param_2)
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
 
 
 </div>
 
 
-<a id="param_2"></a>
+<a id="param_3"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -108,14 +133,14 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / next
+[prev](#param_3) / [list](#param_list) / next
 
 
 </div>
 
 
 ## Developer/Additional Reference
-Automation Class Name: WordReadDocumentCommand
+Automation Class Name: HTMLGetHTMLTextByXPath
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 04/30/23 09:31 PM
 

@@ -20,8 +20,10 @@ Use this command to delete a folder from a specific location.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Folder Path](#param_0)
-- [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_1)
-- [Optional - Please Specify the Comment Field](#param_2)
+- [Optional - Please Select the Folder Move to the Recycle Bin](#param_1)
+- [Optional - Please Specify the Wait Time for the Folder to Exist (sec)](#param_2)
+- [Optional - Please Select the Variable Name to Store Folder Path](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
@@ -58,6 +60,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
+### Optional - Please Select the Folder Move to the Recycle Bin
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
 ### Optional - Please Specify the Wait Time for the Folder to Exist (sec)
 
 
@@ -82,13 +107,44 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_1) / [list](#param_list) / [next](#param_2)
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
 
 
 </div>
 
 
-<a id="param_2"></a>
+<a id="param_3"></a>
+### Optional - Please Select the Variable Name to Store Folder Path
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd><strong>vPath</strong> or <strong>{vPath}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vPath</strong> | Specify Variable Name **vPath** |
+| <strong>{vPath}</strong> | Specify Variable Name **vPath** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -104,7 +160,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / next
+[prev](#param_4) / [list](#param_list) / next
 
 
 </div>
@@ -113,7 +169,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: DeleteFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/22/23 07:07 PM
+This page was generated on 04/30/23 09:31 PM
 
 
 ## Help

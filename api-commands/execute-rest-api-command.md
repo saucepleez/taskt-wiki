@@ -19,27 +19,37 @@ Use this command when you want to present or display a value on screen to the us
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please enter the Base URL (ex. http://mysite.com)](#param_0)
-- [Please enter the endpoint (Ex. /v2/endpoint)](#param_1)
-- [Please select method type](#param_2)
+- [Please Specify the Base URL](#param_0)
+- [Please Specify the Endpoint](#param_1)
+- [Please Select the Method Type](#param_2)
 - [Please Specify the Advanced REST Parameters](#param_3)
 - [Please Specify the Basic REST Parameters](#param_4)
-- [Please Specify the Apply Result To Variable](#param_5)
-- [Please select method type](#param_6)
+- [Please Select the Variable Name to Store Result](#param_5)
+- [Please Select the Format Type](#param_6)
 - [Optional - Please Specify the Comment Field](#param_7)
 
 
 <a id="param_0"></a>
-### Please enter the Base URL (ex. http://mysite.com)
+### Please Specify the Base URL
 
 
 <dl>
-<dt>What to input</dt><dd>Define any API endpoint which contains the full URL.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Bsae URL</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>https://example.com</strong> or <strong>{vURL}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>https://example.com</strong> | URL |
+| <strong>{vURL}</strong> | Specify Value of Variable **vURL** for URL |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -52,16 +62,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please enter the endpoint (Ex. /v2/endpoint)
+### Please Specify the Endpoint
 
 
 <dl>
-<dt>What to input</dt><dd>Define any API endpoint which contains the full URL.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Endpoint</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>/v2/getUser/1</strong> or <strong>{vMyURL}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>/v2/getUser/1</strong> | Specify **/v2/getUser/1** for Endpoint |
+| <strong>{vMyURL}</strong> | Specify Value of Variable **vMyURL** for Endpoint |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -74,12 +94,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please select method type
+### Please Select the Method Type
 
 
 <dl>
-<dt>What to input</dt><dd>Select the necessary method type.</dd>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd><strong>GET</strong> or  <strong>POST</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
@@ -141,16 +164,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
-### Please Specify the Apply Result To Variable
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -163,17 +198,26 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Please select method type
+### Please Select the Format Type
 
 
 <dl>
-<dt>What to input</dt><dd>Select the necessary method type.</dd>
+<dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
 <dt>Sample Usage</dt><dd><strong>Json</strong> or  <strong>Xml</strong> or  <strong>None</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| GeneralPropertyControls | v_ComboBox |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -208,9 +252,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: RESTCommand
+Automation Class Name: HTTPExecuteRESTAPICommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/22/23 07:07 PM
+This page was generated on 04/30/23 09:31 PM
 
 
 ## Help

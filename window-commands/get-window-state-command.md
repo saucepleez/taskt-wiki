@@ -25,7 +25,9 @@ Use this command when you want to get a window state.
 - [Optional - Please Select the Match Method for the Window Name](#param_3)
 - [Optional - Please Specify the Window Index](#param_4)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_6)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_7)
+- [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
@@ -212,6 +214,70 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
+### Optional - Please Select the Variable Name to Store Window Name Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd><strong>vWin</strong> or <strong>{vWin}</strong></dd>
+<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
+<strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vWin</strong> | Specify Variable Name **vWin** |
+| <strong>{vWin}</strong> | Specify Variable Name **vWin** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
+### Optional - Please Select the Variable Name to Store Window Handle Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd><strong>vHandle</strong> or <strong>{vHandle}</strong></dd>
+<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
+<strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vHandle</strong> | Specify Variable Name **vHandle** |
+| <strong>{vHandle}</strong> | Specify Variable Name **vHandle** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
+
+
+</div>
+
+
+<a id="param_8"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -227,7 +293,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / next
+[prev](#param_8) / [list](#param_list) / next
 
 
 </div>
@@ -236,7 +302,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowStateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 04/22/23 07:07 PM
+This page was generated on 04/30/23 09:31 PM
 
 
 ## Help
