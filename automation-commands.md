@@ -208,18 +208,20 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Check File Exists](/file-operation-commands/check-file-exists-command.md)|This command returns a existence of file paths from a specified location|
+||[Copy File](/file-operation-commands/copy-file-command.md)|This command moves a file to a specified destination|
 ||[Delete File](/file-operation-commands/delete-file-command.md)|This command deletes a file from a specified destination|
 ||[Extract Zip File](/file-operation-commands/extract-zip-file-command.md)|This command extracts files from a compressed file|
 ||[Format File Path](/file-operation-commands/format-file-path-command.md)|This command allows you to format file path.|
 ||[Get File Info](/file-operation-commands/get-file-info-command.md)|This command returns a list of file paths from a specified location|
 ||[Get Files](/file-operation-commands/get-files-command.md)|This command returns a list of file paths from a specified location|
-||[Move/Copy File](/file-operation-commands/move-copy-file-command.md)|This command moves a file to a specified destination|
+||[Move File](/file-operation-commands/move-file-command.md)|This command moves a file to a specified destination|
 ||[Rename File](/file-operation-commands/rename-file-command.md)|This command renames a file at a specified destination|
 ||[Wait For File](/file-operation-commands/wait-for-file-command.md)|This command waits for a file to exist at a specified destination|
 ### Folder Operation Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Check Folder Exists](/folder-operation-commands/check-folder-exists-command.md)|This command returns existence of folder paths from a specified location|
+||[Copy Folder](/folder-operation-commands/copy-folder-command.md)|This command copies a folder to a specified destination|
 ||[Create Folder](/folder-operation-commands/create-folder-command.md)|This command creates a folder in a specified destination|
 ||[Delete Folder](/folder-operation-commands/delete-folder-command.md)|This command deletes a folder from a specified destination|
 ||[Format Folder Path](/folder-operation-commands/format-folder-path-command.md)|This command allows you to format folder path.|
@@ -483,4 +485,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 04/30/23 09:31 PM
+This page was generated on 05/05/23 02:58 PM
