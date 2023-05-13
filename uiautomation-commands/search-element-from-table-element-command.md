@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-UIAutomation Commands &gt; Search &gt; Search Element From Table Element
+UIAutomation Commands &gt; Search Element &gt; Search Element From Table Element
 
 
 # Search Element From Table Element Command
@@ -185,7 +185,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSearchElementFromTableElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/05/23 02:58 PM
+This page was generated on 05/13/23 08:50 PM
 
 
 ## Help

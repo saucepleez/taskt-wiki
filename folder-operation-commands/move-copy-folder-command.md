@@ -20,7 +20,7 @@ Use this command to move a folder to a new destination.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Specify the Target Folder](#param_0)
-- [Please Specify the Destination Folder for Move/Copy](#param_1)
+- [Please Specify the Destination Folder for Move](#param_1)
 - [Optional - Please Select the Create Folder when the Destination Folder does not Exists](#param_2)
 - [Optional - Please Select the Delete Folder when it already Exists](#param_3)
 - [Optional - Please Specify the Wait Time for the Target Folder to Exist (sec)](#param_4)
@@ -63,7 +63,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Destination Folder for Move/Copy
+### Please Specify the Destination Folder for Move
 
 
 <dl>
@@ -259,7 +259,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveFolderCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/05/23 02:58 PM
+This page was generated on 05/13/23 08:50 PM
 
 
 ## Help

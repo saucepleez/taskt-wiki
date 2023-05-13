@@ -20,8 +20,8 @@ Use this command when you want to send keystroke inputs to a window.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Window Name](#param_0)
-- [Optional - Please Select the Search Method for the Window Name](#param_1)
-- [Please Select the Shortcut Key to Enter](#param_2)
+- [Please Select the Shortcut Key to Enter](#param_1)
+- [Optional - Please Select the Search Method for the Window Name](#param_2)
 - [Optional - Please Select the Match Method for the Window Name](#param_3)
 - [Optional - Please Specify the Window Index](#param_4)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_5)
@@ -64,29 +64,6 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Search Method for the Window Name
-
-
-<dl>
-<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
-<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
-</dl>
-
-
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_1) / [list](#param_list) / [next](#param_2)
-
-
-</div>
-
-
-<a id="param_2"></a>
 ### Please Select the Shortcut Key to Enter
 
 
@@ -122,6 +99,29 @@ prev / [list](#param_list) / [next](#param_1)
 |Replace|Send Ctrl + H|||
 |Go To|Send Ctrl + G|||
 |Select All|Send Ctrl + A|||
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
+### Optional - Please Select the Search Method for the Window Name
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
+</dl>
+
+
 
 
 <div style="font-size: 90%; text-align: center">
@@ -235,7 +235,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Less than Zero</li>
 <li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd><strong>500</strong> or <strong>{vWaitTime}</strong></dd>
 <dt>Remarks</dt><dd>When the Wait Time is less than <strong>100</strong> is specified, it will be <strong>100</strong><br><br>
 <strong>Optional</strong><br>Default Value is <strong>500</strong></dd>
 </dl>
@@ -284,7 +284,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: EnterShortcutKeyCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/05/23 02:58 PM
+This page was generated on 05/13/23 08:50 PM
 
 
 ## Help

@@ -22,10 +22,10 @@
 ### Color Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+||[Convert Color](/color-commands/convert-color-command.md)|This command allows you to get convert Color Value.|
 ||[Create Color](/color-commands/create-color-command.md)|This command allows you to create Color.|
 ||[Create Color From Excel Color](/color-commands/create-color-from-excel-color-command.md)|This command allows you to create Color from Excel Color.|
 ||[Create Color From HEX](/color-commands/create-color-from-hex-command.md)|This command allows you to create Color from HEX.|
-||[Format Color](/color-commands/format-color-command.md)|This command allows you to get Format Color Value.|
 ### Data Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -208,10 +208,10 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 ||[Check File Exists](/file-operation-commands/check-file-exists-command.md)|This command returns a existence of file paths from a specified location|
-||[Copy File](/file-operation-commands/copy-file-command.md)|This command moves a file to a specified destination|
+||[Copy File](/file-operation-commands/copy-file-command.md)|This command copies a file to a specified destination|
 ||[Delete File](/file-operation-commands/delete-file-command.md)|This command deletes a file from a specified destination|
 ||[Extract Zip File](/file-operation-commands/extract-zip-file-command.md)|This command extracts files from a compressed file|
-||[Format File Path](/file-operation-commands/format-file-path-command.md)|This command allows you to format file path.|
+||[Extraction File Path](/file-operation-commands/extraction-file-path-command.md)|This command allows you to extract from file path.|
 ||[Get File Info](/file-operation-commands/get-file-info-command.md)|This command returns a list of file paths from a specified location|
 ||[Get Files](/file-operation-commands/get-files-command.md)|This command returns a list of file paths from a specified location|
 ||[Move File](/file-operation-commands/move-file-command.md)|This command moves a file to a specified destination|
@@ -224,7 +224,7 @@
 ||[Copy Folder](/folder-operation-commands/copy-folder-command.md)|This command copies a folder to a specified destination|
 ||[Create Folder](/folder-operation-commands/create-folder-command.md)|This command creates a folder in a specified destination|
 ||[Delete Folder](/folder-operation-commands/delete-folder-command.md)|This command deletes a folder from a specified destination|
-||[Format Folder Path](/folder-operation-commands/format-folder-path-command.md)|This command allows you to format folder path.|
+||[Extraction Folder Path](/folder-operation-commands/extraction-folder-path-command.md)|This command allows you to extract from folder path.|
 ||[Get Folders](/folder-operation-commands/get-folders-command.md)|This command returns a list of folder directories from a specified location|
 ||[Move/Copy Folder](/folder-operation-commands/move-copy-folder-command.md)|This command moves a folder to a specified destination|
 ||[Rename Folder](/folder-operation-commands/rename-folder-command.md)|This command renames a folder at a specified destination|
@@ -392,29 +392,30 @@
 ### UIAutomation Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Action|[Click Element](/uiautomation-commands/click-element-command.md)|This command allows you to Click AutomationElement.|
-|Action|[Expand Collapse Items In Element](/uiautomation-commands/expand-collapse-items-in-element-command.md)|This command allows you to Expand or Collapse Items in AutomationElement.|
-|Action|[Scroll Element](/uiautomation-commands/scroll-element-command.md)|This command allows you to Scroll AutomationElement.|
-|Action|[Select Element](/uiautomation-commands/select-element-command.md)|This command allows you to Select AutomationElement.|
-|Action|[Select Item In Element](/uiautomation-commands/select-item-in-element-command.md)|This command allows you to Select a Item in AutomationElement.|
-|Action|[Set Text To Element](/uiautomation-commands/set-text-to-element-command.md)|This command allows you to set Text Value from AutomationElement.|
+|Element Action|[Click Element](/uiautomation-commands/click-element-command.md)|This command allows you to Click AutomationElement.|
+|Element Action|[Expand Collapse Items In Element](/uiautomation-commands/expand-collapse-items-in-element-command.md)|This command allows you to Expand or Collapse Items in AutomationElement.|
+|Element Action|[Scroll Element](/uiautomation-commands/scroll-element-command.md)|This command allows you to Scroll AutomationElement.|
+|Element Action|[Select Element](/uiautomation-commands/select-element-command.md)|This command allows you to Select AutomationElement.|
+|Element Action|[Select Item In Element](/uiautomation-commands/select-item-in-element-command.md)|This command allows you to Select a Item in AutomationElement.|
+|Element Action|[Set Text To Element](/uiautomation-commands/set-text-to-element-command.md)|This command allows you to set Text Value from AutomationElement.|
 |Get|[Get Children Elements Information](/uiautomation-commands/get-children-elements-information-command.md)|This command allows you to get Children Elements Information from AutomationElement.|
 |Get|[Get Element Tree XML From Element](/uiautomation-commands/get-element-tree-xml-from-element-command.md)|This command allows you to get Element Tree XML from AutomationElement.|
 |Get|[Get Selected State From Element](/uiautomation-commands/get-selected-state-from-element-command.md)|This command allows you to get Selected State from AutomationElement.|
 |Get|[Get Selection Items From Element](/uiautomation-commands/get-selection-items-from-element-command.md)|This command allows you to get Selection Items Name from AutomationElement.|
 |Get|[Get Text From Element](/uiautomation-commands/get-text-from-element-command.md)|This command allows you to get Text Value from AutomationElement.|
 |Get|[Get Text From Table Element](/uiautomation-commands/get-text-from-table-element-command.md)|This command allows you to get Text Value from Table AutomationElement.|
-|Search|[Check Element Exist](/uiautomation-commands/check-element-exist-command.md)|This command allows you to to check AutomationElement existence.|
-|Search|[Check Element Exist By XPath](/uiautomation-commands/check-element-exist-by-xpath-command.md)|This command allows you to check AutomationElement existence.|
-|Search|[Search Child Element](/uiautomation-commands/search-child-element-command.md)|This command allows you to get Child Element from AutomationElement.|
-|Search|[Search Element From Element](/uiautomation-commands/search-element-from-element-command.md)|This command allows you to get AutomationElement from AutomationElement.|
-|Search|[Search Element From Element By XPath](/uiautomation-commands/search-element-from-element-by-xpath-command.md)|This command allows you to get AutomationElement from AutomationElement using by XPath.|
-|Search|[Search Element From Table Element](/uiautomation-commands/search-element-from-table-element-command.md)|This command allows you to get Element from Table AutomationElement.|
-|Search|[Search Element From Window](/uiautomation-commands/search-element-from-window-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
-|Search|[Search Element From Window By XPath](/uiautomation-commands/search-element-from-window-by-xpath-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
-|Search|[Search Parent Element](/uiautomation-commands/search-parent-element-command.md)|This command allows you to get Parent Element from AutomationElement.|
-|Search|[Wait For Element Exist](/uiautomation-commands/wait-for-element-exist-command.md)|This command allows you to Wait until the AutomationElement exists.|
-|Search|[Wait For Element Exist By XPath](/uiautomation-commands/wait-for-element-exist-by-xpath-command.md)|This command allows you to Wait until the AutomationElement exists using by XPath.|
+|Search Element|[Check Element Exist](/uiautomation-commands/check-element-exist-command.md)|This command allows you to to check AutomationElement existence.|
+|Search Element|[Check Element Exist By XPath](/uiautomation-commands/check-element-exist-by-xpath-command.md)|This command allows you to check AutomationElement existence.|
+|Search Element|[Search Child Element](/uiautomation-commands/search-child-element-command.md)|This command allows you to get Child Element from AutomationElement.|
+|Search Element|[Search Element From Element](/uiautomation-commands/search-element-from-element-command.md)|This command allows you to get AutomationElement from AutomationElement.|
+|Search Element|[Search Element From Element By XPath](/uiautomation-commands/search-element-from-element-by-xpath-command.md)|This command allows you to get AutomationElement from AutomationElement using by XPath.|
+|Search Element|[Search Element From Table Element](/uiautomation-commands/search-element-from-table-element-command.md)|This command allows you to get Element from Table AutomationElement.|
+|Search Element|[Search Parent Element](/uiautomation-commands/search-parent-element-command.md)|This command allows you to get Parent Element from AutomationElement.|
+|Search Element|[Wait For Element Exist](/uiautomation-commands/wait-for-element-exist-command.md)|This command allows you to Wait until the AutomationElement exists.|
+|Search Element|[Wait For Element Exist By XPath](/uiautomation-commands/wait-for-element-exist-by-xpath-command.md)|This command allows you to Wait until the AutomationElement exists using by XPath.|
+|Search Element & Window|[Search Element And Window](/uiautomation-commands/search-element-and-window-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
+|Search Element & Window|[Search Element And Window By XPath](/uiautomation-commands/search-element-and-window-by-xpath-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
+|Search Window|[Search Element From Window](/uiautomation-commands/search-element-from-window-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
 ### Variable Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -485,4 +486,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 05/05/23 02:58 PM
+This page was generated on 05/13/23 08:50 PM

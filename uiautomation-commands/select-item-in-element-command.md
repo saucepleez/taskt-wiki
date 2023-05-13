@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-UIAutomation Commands &gt; Action &gt; Select Item In Element
+UIAutomation Commands &gt; Element Action &gt; Select Item In Element
 
 
 # Select Item In Element Command
@@ -120,7 +120,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSelectItemInElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/05/23 02:58 PM
+This page was generated on 05/13/23 08:50 PM
 
 
 ## Help

@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-UIAutomation Commands &gt; Search &gt; Search Parent Element
+UIAutomation Commands &gt; Search Element &gt; Search Parent Element
 
 
 # Search Parent Element Command
@@ -21,7 +21,8 @@ This command allows you to get Parent Element from AutomationElement.
 ## Command Parameters
 - [Please Select the AutomationElement Variable Name](#param_0)
 - [Please Select the AutomationElement Variable Name to Store Parent AutomationElement](#param_1)
-- [Optional - Please Specify the Comment Field](#param_2)
+- [Optional - Please Specify the Wait Time for the AutomationElement to Exist (sec)](#param_2)
+- [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
@@ -93,6 +94,36 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
+### Optional - Please Specify the Wait Time for the AutomationElement to Exist (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>Sample Usage</dt><dd><strong>10</strong> or <strong>{vTime}</strong></dd>
+<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the AutomationElement is Not Found.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>10</strong> | Specify **10** for Wait Time |
+| <strong>{vTime}</strong> | Specify Value of Variable **vTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -108,7 +139,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / next
+[prev](#param_3) / [list](#param_list) / next
 
 
 </div>
@@ -117,7 +148,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSearchParentElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/05/23 02:58 PM
+This page was generated on 05/13/23 08:50 PM
 
 
 ## Help
