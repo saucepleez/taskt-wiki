@@ -295,7 +295,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetWindowStateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/13/23 08:50 PM
+This page was generated on 06/04/23 07:56 PM
 
 
 ## Help

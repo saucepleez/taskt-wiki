@@ -26,7 +26,8 @@ Use this command when you want to get a Table Values As DataTable.
 - [Optional - Please Specify the Attributes Name to Get](#param_4)
 - [Please Select the DataTable Variable Name](#param_5)
 - [Optional - Please Select the Method for the First Row](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [Optional - Please Specify the Wait Time for the WebElement to Exist (sec)](#param_7)
+- [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
@@ -251,6 +252,36 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
+### Optional - Please Specify the Wait Time for the WebElement to Exist (sec)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>Sample Usage</dt><dd><strong>120</strong> or <strong>{vTime}</strong></dd>
+<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the WebElement is Not Found.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>120</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>120</strong> | Specify **120** for Wait Time |
+| <strong>{vTime}</strong> | Specify Value of Variable **vTime** for Wait Time |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
+
+
+</div>
+
+
+<a id="param_8"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -266,7 +297,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / next
+[prev](#param_8) / [list](#param_list) / next
 
 
 </div>
@@ -275,7 +306,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetTableValueAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 05/13/23 08:50 PM
+This page was generated on 06/04/23 07:56 PM
 
 
 ## Help

@@ -226,7 +226,7 @@
 ||[Delete Folder](/folder-operation-commands/delete-folder-command.md)|This command deletes a folder from a specified destination|
 ||[Extraction Folder Path](/folder-operation-commands/extraction-folder-path-command.md)|This command allows you to extract from folder path.|
 ||[Get Folders](/folder-operation-commands/get-folders-command.md)|This command returns a list of folder directories from a specified location|
-||[Move/Copy Folder](/folder-operation-commands/move-copy-folder-command.md)|This command moves a folder to a specified destination|
+||[Move Folder](/folder-operation-commands/move-folder-command.md)|This command moves a folder to a specified destination|
 ||[Rename Folder](/folder-operation-commands/rename-folder-command.md)|This command renames a folder at a specified destination|
 ||[Wait For Folder To Exists](/folder-operation-commands/wait-for-folder-to-exists-command.md)|This command waits for a folder to exist at a specified destination|
 ### IE Browser Commands
@@ -442,14 +442,27 @@
 |Navigate|[Navigate Back](/web-browser-commands/navigate-back-command.md)|This command allows you to navigate backwards in a Selenium web browser session.|
 |Navigate|[Navigate Forward](/web-browser-commands/navigate-forward-command.md)|This command allows you to navigate forward a Selenium web browser session.|
 |Navigate|[Navigate to URL](/web-browser-commands/navigate-to-url-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
-|Scraping|[Get An Element Values As DataTable](/web-browser-commands/get-an-element-values-as-datatable-command.md)|This command allows you to get Attributes value for an Element As DataTable.|
-|Scraping|[Get An Element Values As Dictionary](/web-browser-commands/get-an-element-values-as-dictionary-command.md)|This command allows you to get Attributes value for an Element As Dictionary.|
-|Scraping|[Get An Element Values As List](/web-browser-commands/get-an-element-values-as-list-command.md)|This command allows you to get Attributes value for an Element As List.|
-|Scraping|[Get Elements Value As DataTable](/web-browser-commands/get-elements-value-as-datatable-command.md)|This command allows you to get a Attribute value for Elements As DataTable.|
-|Scraping|[Get Elements Value As Dictionary](/web-browser-commands/get-elements-value-as-dictionary-command.md)|This command allows you to get a Attribute value for Elements As Dictionary.|
-|Scraping|[Get Elements Value As List](/web-browser-commands/get-elements-value-as-list-command.md)|This command allows you to get a Attribute value for Elements As List.|
-|Scraping|[Get Elements Values As DataTable](/web-browser-commands/get-elements-values-as-datatable-command.md)|This command allows you to get Attributes value for Elements As DataTable.|
+|Scraping|[Get An WebElement Values As DataTable](/web-browser-commands/get-an-webelement-values-as-datatable-command.md)|This command allows you to get Attributes value for an WebElement As DataTable.|
+|Scraping|[Get An WebElement Values As Dictionary](/web-browser-commands/get-an-webelement-values-as-dictionary-command.md)|This command allows you to get Attributes value for an WebElement As Dictionary.|
+|Scraping|[Get An WebElement Values As List](/web-browser-commands/get-an-webelement-values-as-list-command.md)|This command allows you to get Attributes value for an WebElement As List.|
 |Scraping|[Get Table Value As DataTable](/web-browser-commands/get-table-value-as-datatable-command.md)|This command allows you to get a Table Values As DataTable.|
+|Scraping|[Get WebElements Value As DataTable](/web-browser-commands/get-webelements-value-as-datatable-command.md)|This command allows you to get a Attribute value for WegElements As DataTable.|
+|Scraping|[Get WebElements Value As Dictionary](/web-browser-commands/get-webelements-value-as-dictionary-command.md)|This command allows you to get a Attribute value for WegElements As Dictionary.|
+|Scraping|[Get WebElements Value As List](/web-browser-commands/get-webelements-value-as-list-command.md)|This command allows you to get a Attribute value for WegElements As List.|
+|Scraping|[Get WebElements Values As DataTable](/web-browser-commands/get-webelements-values-as-datatable-command.md)|This command allows you to get Attributes value for WegElements As DataTable.|
+|Search|[Check WebElement Exists](/web-browser-commands/check-webelement-exists-command.md)|This command allows you to check WebElement existance.|
+|Search|[Search WebElement](/web-browser-commands/search-webelement-command.md)|This command allows you to search WebElement.|
+|Search|[Wait For WebElement Exist](/web-browser-commands/wait-for-webelement-exist-command.md)|This command allows you to Wait for WebElement exists.|
+|WebElement Action|[Clear Text In WebElement](/web-browser-commands/clear-text-in-webelement-command.md)|This command allows you to Clear Text in WebElement.|
+|WebElement Action|[Click WebElement](/web-browser-commands/click-webelement-command.md)|This command allows you to Click to WebElement.|
+|WebElement Action|[Get Attribute From WebElement](/web-browser-commands/get-attribute-from-webelement-command.md)|This command allows you to Get Attribute Value from WebElement.|
+|WebElement Action|[Get HTML From WebElement](/web-browser-commands/get-html-from-webelement-command.md)|This command allows you to Get HTML from WebElement.|
+|WebElement Action|[Get Options From WebElement](/web-browser-commands/get-options-from-webelement-command.md)|This command allows you to Get Options Value from WebElement.|
+|WebElement Action|[Get Text From WebElement](/web-browser-commands/get-text-from-webelement-command.md)|This command allows you to Get Text Value from WebElement.|
+|WebElement Action|[Scroll To WebElement](/web-browser-commands/scroll-to-webelement-command.md)|This command allows you to Scroll to WebElement.|
+|WebElement Action|[Select Option For WebElement](/web-browser-commands/select-option-for-webelement-command.md)|This command allows you to Select an Option for WebElement.|
+|WebElement Action|[Set Text To WebElement](/web-browser-commands/set-text-to-webelement-command.md)|This command allows you to Set Text in WebElement.|
+|WebElement Action|[Switch Frame To WebElement](/web-browser-commands/switch-frame-to-webelement-command.md)|This command allows you to Switch Frame to WebElement.|
 ### Window Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -486,4 +499,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 05/13/23 08:50 PM
+This page was generated on 06/04/23 07:56 PM
