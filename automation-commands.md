@@ -428,7 +428,6 @@
 ### Web Browser Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Actions|[Element Action](/web-browser-commands/element-action-command.md)|This command allows you to close a Selenium web browser session.|
 |Actions|[Execute Script](/web-browser-commands/execute-script-command.md)|This command allows you to execute a script in a Selenium web browser session.|
 |Actions|[Refresh](/web-browser-commands/refresh-command.md)|This command allows you to refresh a Selenium web browser session.|
 |Actions|[Resize Browser](/web-browser-commands/resize-browser-command.md)|This command allows you to change browser window size.|
@@ -451,6 +450,8 @@
 |Scraping|[Get WebElements Value As List](/web-browser-commands/get-webelements-value-as-list-command.md)|This command allows you to get a Attribute value for WegElements As List.|
 |Scraping|[Get WebElements Values As DataTable](/web-browser-commands/get-webelements-values-as-datatable-command.md)|This command allows you to get Attributes value for WegElements As DataTable.|
 |Search|[Check WebElement Exists](/web-browser-commands/check-webelement-exists-command.md)|This command allows you to check WebElement existance.|
+|Search|[Get Matched WebElements](/web-browser-commands/get-matched-webelements-command.md)|This command allows you to get Matched WebElements HTML.|
+|Search|[Get WebElements Count](/web-browser-commands/get-webelements-count-command.md)|This command allows you to count WebElements.|
 |Search|[Search WebElement](/web-browser-commands/search-webelement-command.md)|This command allows you to search WebElement.|
 |Search|[Wait For WebElement Exist](/web-browser-commands/wait-for-webelement-exist-command.md)|This command allows you to Wait for WebElement exists.|
 |WebElement Action|[Clear Text In WebElement](/web-browser-commands/clear-text-in-webelement-command.md)|This command allows you to Clear Text in WebElement.|
@@ -463,6 +464,7 @@
 |WebElement Action|[Select Option For WebElement](/web-browser-commands/select-option-for-webelement-command.md)|This command allows you to Select an Option for WebElement.|
 |WebElement Action|[Set Text To WebElement](/web-browser-commands/set-text-to-webelement-command.md)|This command allows you to Set Text in WebElement.|
 |WebElement Action|[Switch Frame To WebElement](/web-browser-commands/switch-frame-to-webelement-command.md)|This command allows you to Switch Frame to WebElement.|
+|WebElement Action|[WebElement Action](/web-browser-commands/webelement-action-command.md)|This command allows you to close a Selenium web browser session.|
 ### Window Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -499,4 +501,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 06/04/23 07:56 PM
+This page was generated on 06/24/23 06:14 PM
