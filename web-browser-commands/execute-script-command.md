@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Web Browser Commands &gt; Actions &gt; Execute Script
+Web Browser Commands &gt; Web Browser Actions &gt; Execute Script
 
 
 # Execute Script Command
@@ -243,7 +243,7 @@ When Selected <strong>File</strong>, please Enter the JavaScript File Path.</dd>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserExecuteScriptCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/24/23 06:14 PM
+This page was generated on 07/16/23 05:54 PM
 
 
 ## Help

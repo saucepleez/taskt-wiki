@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Web Browser Commands &gt; Actions &gt; Resize Browser
+Web Browser Commands &gt; Web Browser Actions &gt; Resize Browser
 
 
 # Resize Browser Command
@@ -144,7 +144,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserResizeBrowserCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/24/23 06:14 PM
+This page was generated on 07/16/23 05:54 PM
 
 
 ## Help

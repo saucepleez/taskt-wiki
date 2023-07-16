@@ -326,7 +326,6 @@
 |Other|[Create Shortcut](/misc-commands/create-shortcut-command.md)|This command allow to create shortcut file|
 |Other|[Play System Sound](/misc-commands/play-system-sound-command.md)|This command allows you to Play System Sound.|
 |Other|[Sequence](/misc-commands/sequence-command.md)|Command that groups multiple actions|
-|Other|[UI Automation](/misc-commands/ui-automation-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
 ### NLG Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -392,30 +391,31 @@
 ### UIAutomation Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Element Action|[Click Element](/uiautomation-commands/click-element-command.md)|This command allows you to Click AutomationElement.|
-|Element Action|[Expand Collapse Items In Element](/uiautomation-commands/expand-collapse-items-in-element-command.md)|This command allows you to Expand or Collapse Items in AutomationElement.|
-|Element Action|[Scroll Element](/uiautomation-commands/scroll-element-command.md)|This command allows you to Scroll AutomationElement.|
-|Element Action|[Select Element](/uiautomation-commands/select-element-command.md)|This command allows you to Select AutomationElement.|
-|Element Action|[Select Item In Element](/uiautomation-commands/select-item-in-element-command.md)|This command allows you to Select a Item in AutomationElement.|
-|Element Action|[Set Text To Element](/uiautomation-commands/set-text-to-element-command.md)|This command allows you to set Text Value from AutomationElement.|
-|Get|[Get Children Elements Information](/uiautomation-commands/get-children-elements-information-command.md)|This command allows you to get Children Elements Information from AutomationElement.|
-|Get|[Get Element Tree XML From Element](/uiautomation-commands/get-element-tree-xml-from-element-command.md)|This command allows you to get Element Tree XML from AutomationElement.|
-|Get|[Get Selected State From Element](/uiautomation-commands/get-selected-state-from-element-command.md)|This command allows you to get Selected State from AutomationElement.|
-|Get|[Get Selection Items From Element](/uiautomation-commands/get-selection-items-from-element-command.md)|This command allows you to get Selection Items Name from AutomationElement.|
-|Get|[Get Text From Element](/uiautomation-commands/get-text-from-element-command.md)|This command allows you to get Text Value from AutomationElement.|
-|Get|[Get Text From Table Element](/uiautomation-commands/get-text-from-table-element-command.md)|This command allows you to get Text Value from Table AutomationElement.|
-|Search Element|[Check Element Exist](/uiautomation-commands/check-element-exist-command.md)|This command allows you to to check AutomationElement existence.|
-|Search Element|[Check Element Exist By XPath](/uiautomation-commands/check-element-exist-by-xpath-command.md)|This command allows you to check AutomationElement existence.|
-|Search Element|[Search Child Element](/uiautomation-commands/search-child-element-command.md)|This command allows you to get Child Element from AutomationElement.|
-|Search Element|[Search Element From Element](/uiautomation-commands/search-element-from-element-command.md)|This command allows you to get AutomationElement from AutomationElement.|
-|Search Element|[Search Element From Element By XPath](/uiautomation-commands/search-element-from-element-by-xpath-command.md)|This command allows you to get AutomationElement from AutomationElement using by XPath.|
-|Search Element|[Search Element From Table Element](/uiautomation-commands/search-element-from-table-element-command.md)|This command allows you to get Element from Table AutomationElement.|
-|Search Element|[Search Parent Element](/uiautomation-commands/search-parent-element-command.md)|This command allows you to get Parent Element from AutomationElement.|
-|Search Element|[Wait For Element Exist](/uiautomation-commands/wait-for-element-exist-command.md)|This command allows you to Wait until the AutomationElement exists.|
-|Search Element|[Wait For Element Exist By XPath](/uiautomation-commands/wait-for-element-exist-by-xpath-command.md)|This command allows you to Wait until the AutomationElement exists using by XPath.|
-|Search Element & Window|[Search Element And Window](/uiautomation-commands/search-element-and-window-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
-|Search Element & Window|[Search Element And Window By XPath](/uiautomation-commands/search-element-and-window-by-xpath-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
-|Search Window|[Search Element From Window](/uiautomation-commands/search-element-from-window-command.md)|This command allows you to get AutomationElement from Window Name using by XPath.|
+|Get From UIElement|[Get Children Elements Information](/uiautomation-commands/get-children-elements-information-command.md)|This command allows you to get Children UIElements Information from UIElement.|
+|Get From UIElement|[Get Selected State From UIElement](/uiautomation-commands/get-selected-state-from-uielement-command.md)|This command allows you to get Selected State from UIElement.|
+|Get From UIElement|[Get Selection Items From UIElement](/uiautomation-commands/get-selection-items-from-uielement-command.md)|This command allows you to get Selection Items Name from UIElement.|
+|Get From UIElement|[Get Text From Table UIElement](/uiautomation-commands/get-text-from-table-uielement-command.md)|This command allows you to get Text Value from Table UIElement.|
+|Get From UIElement|[Get Text From UIElement](/uiautomation-commands/get-text-from-uielement-command.md)|This command allows you to get Text Value from UIElement.|
+|Get From UIElement|[Get UIElement Tree XML From UIElement](/uiautomation-commands/get-uielement-tree-xml-from-uielement-command.md)|This command allows you to get UIElement Tree XML from UIElement.|
+|Search UIElement|[Check UIElement Exist](/uiautomation-commands/check-uielement-exist-command.md)|This command allows you to to check UIElement existence.|
+|Search UIElement|[Check UIElement Exist By XPath](/uiautomation-commands/check-uielement-exist-by-xpath-command.md)|This command allows you to check UIElement existence.|
+|Search UIElement|[Search Child UIElement](/uiautomation-commands/search-child-uielement-command.md)|This command allows you to get Child Element from UIElement.|
+|Search UIElement|[Search Parent UIElement](/uiautomation-commands/search-parent-uielement-command.md)|This command allows you to get Parent UIElement from UIElement.|
+|Search UIElement|[Search UIElement From Table UIElement](/uiautomation-commands/search-uielement-from-table-uielement-command.md)|This command allows you to get UIElement from Table UIElement.|
+|Search UIElement|[Search UIElement From UIElement](/uiautomation-commands/search-uielement-from-uielement-command.md)|This command allows you to get UIElement from UIElement.|
+|Search UIElement|[Search UIElement From UIElement By XPath](/uiautomation-commands/search-uielement-from-uielement-by-xpath-command.md)|This command allows you to get UIElement from UIElement using by XPath.|
+|Search UIElement|[Wait For UIElement Exist](/uiautomation-commands/wait-for-uielement-exist-command.md)|This command allows you to Wait until the UIElement exists.|
+|Search UIElement|[Wait For UIElement Exist By XPath](/uiautomation-commands/wait-for-uielement-exist-by-xpath-command.md)|This command allows you to Wait until the UIElement exists using by XPath.|
+|Search UIElement & Window|[Search UIElement And Window](/uiautomation-commands/search-uielement-and-window-command.md)|This command allows you to get UIElement from Window Name.|
+|Search UIElement & Window|[Search UIElement And Window By XPath](/uiautomation-commands/search-uielement-and-window-by-xpath-command.md)|This command allows you to get UIElement from Window Name using by XPath.|
+|Search Window|[Search UIElement From Window](/uiautomation-commands/search-uielement-from-window-command.md)|This command allows you to get UIElement from Window Name using by XPath.|
+|UIElement Action|[Click UIElement](/uiautomation-commands/click-uielement-command.md)|This command allows you to Click UIElement.|
+|UIElement Action|[Expand Collapse Items In UIElement](/uiautomation-commands/expand-collapse-items-in-uielement-command.md)|This command allows you to Expand or Collapse Items in UIElement.|
+|UIElement Action|[Scroll UIElement](/uiautomation-commands/scroll-uielement-command.md)|This command allows you to Scroll UIElement.|
+|UIElement Action|[Select Item In UIElement](/uiautomation-commands/select-item-in-uielement-command.md)|This command allows you to Select a Item in UIElement.|
+|UIElement Action|[Select UIElement](/uiautomation-commands/select-uielement-command.md)|This command allows you to Select UIElement.|
+|UIElement Action|[Set Text To UIElement](/uiautomation-commands/set-text-to-uielement-command.md)|This command allows you to set Text Value from UIElement.|
+|UIElement Action|[UIElement Action](/uiautomation-commands/uielement-action-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
 ### Variable Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -428,12 +428,6 @@
 ### Web Browser Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Actions|[Execute Script](/web-browser-commands/execute-script-command.md)|This command allows you to execute a script in a Selenium web browser session.|
-|Actions|[Refresh](/web-browser-commands/refresh-command.md)|This command allows you to refresh a Selenium web browser session.|
-|Actions|[Resize Browser](/web-browser-commands/resize-browser-command.md)|This command allows you to change browser window size.|
-|Actions|[Switch Browser Frame](/web-browser-commands/switch-browser-frame-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
-|Actions|[Switch Browser Window](/web-browser-commands/switch-browser-window-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
-|Actions|[Take Screenshot](/web-browser-commands/take-screenshot-command.md)|This command allows you to take a screenshot in Selenium web browser session.|
 |Instance|[Check Browser Instance Exists](/web-browser-commands/check-browser-instance-exists-command.md)|This command returns existance of browser instance.|
 |Instance|[Close Browser](/web-browser-commands/close-browser-command.md)|This command allows you to close a Selenium web browser session.|
 |Instance|[Create Browser](/web-browser-commands/create-browser-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
@@ -453,7 +447,14 @@
 |Search|[Get Matched WebElements](/web-browser-commands/get-matched-webelements-command.md)|This command allows you to get Matched WebElements HTML.|
 |Search|[Get WebElements Count](/web-browser-commands/get-webelements-count-command.md)|This command allows you to count WebElements.|
 |Search|[Search WebElement](/web-browser-commands/search-webelement-command.md)|This command allows you to search WebElement.|
+|Search|[Search WebElement From WebElement](/web-browser-commands/search-webelement-from-webelement-command.md)|This command allows you to search WebElement from WebElement.|
 |Search|[Wait For WebElement Exist](/web-browser-commands/wait-for-webelement-exist-command.md)|This command allows you to Wait for WebElement exists.|
+|Web Browser Actions|[Execute Script](/web-browser-commands/execute-script-command.md)|This command allows you to execute a script in a Selenium web browser session.|
+|Web Browser Actions|[Refresh](/web-browser-commands/refresh-command.md)|This command allows you to refresh a Selenium web browser session.|
+|Web Browser Actions|[Resize Browser](/web-browser-commands/resize-browser-command.md)|This command allows you to change browser window size.|
+|Web Browser Actions|[Switch Browser Frame](/web-browser-commands/switch-browser-frame-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
+|Web Browser Actions|[Switch Browser Window](/web-browser-commands/switch-browser-window-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
+|Web Browser Actions|[Take Screenshot](/web-browser-commands/take-screenshot-command.md)|This command allows you to take a screenshot in Selenium web browser session.|
 |WebElement Action|[Clear Text In WebElement](/web-browser-commands/clear-text-in-webelement-command.md)|This command allows you to Clear Text in WebElement.|
 |WebElement Action|[Click WebElement](/web-browser-commands/click-webelement-command.md)|This command allows you to Click to WebElement.|
 |WebElement Action|[Get Attribute From WebElement](/web-browser-commands/get-attribute-from-webelement-command.md)|This command allows you to Get Attribute Value from WebElement.|
@@ -501,4 +502,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 06/24/23 06:14 PM
+This page was generated on 07/16/23 05:54 PM

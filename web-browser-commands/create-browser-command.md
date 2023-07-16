@@ -260,7 +260,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/24/23 06:14 PM
+This page was generated on 07/16/23 05:54 PM
 
 
 ## Help

@@ -152,7 +152,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Click WebElement</strong> or  <strong>Clear WebElement</strong> or  <strong>Set Text</strong> or  <strong>Get Text</strong> or  <strong>Get Attribute</strong> or  <strong>Get Matching WebElements</strong> or  <strong>Wait For WebElement To Exist</strong> or  <strong>Switch To Frame</strong> or  <strong>Get WebElements Count</strong> or  <strong>Get Options</strong> or  <strong>Select Option</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Click WebElement</strong> or  <strong>Clear WebElement</strong> or  <strong>Set Text</strong> or  <strong>Get Text</strong> or  <strong>Get Attribute</strong> or  <strong>Get Matching WebElements</strong> or  <strong>Wait For WebElement To Exists</strong> or  <strong>Switch To Frame</strong> or  <strong>Get WebElements Count</strong> or  <strong>Get Options</strong> or  <strong>Select Option</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -268,7 +268,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserWebElementActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/24/23 06:14 PM
+This page was generated on 07/16/23 05:54 PM
 
 
 ## Help

@@ -3,14 +3,14 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-UIAutomation Commands &gt; Get &gt; Get Children Elements Information
+UIAutomation Commands &gt; Get From UIElement &gt; Get Children Elements Information
 
 
 # Get Children Elements Information Command
 
 
 ## What does this command do?
-This command allows you to get Children Elements Information from AutomationElement.
+This command allows you to get Children UIElements Information from UIElement.
 
 
 ## When would I want to use this command?
@@ -19,18 +19,18 @@ This command allows you to get Children Elements Information from AutomationElem
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the AutomationElement Variable Name](#param_0)
+- [Please Select the UIElement Variable Name](#param_0)
 - [Please Specify the Search Parameters](#param_1)
 - [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the AutomationElement Variable Name
+### Please Select the UIElement Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the AutomationElement Variable Name</dd>
+<dt>What to input</dt><dd>Enter or Select the UIElement Variable Name</dd>
 <dt>Instance Type</dt><dd>AutomationElement</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
@@ -138,9 +138,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: UIAutomationGetChildrenElementsInformationCommand
+Automation Class Name: UIAutomationGetChildrenUIElementsInformationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 06/24/23 06:14 PM
+This page was generated on 07/16/23 05:54 PM
 
 
 ## Help
