@@ -68,7 +68,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the     Variable Name</dd>
-<dt>Value</dt><dd>AutomationElement Variable</dd>
+<dt>Value</dt><dd>UIElement Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
@@ -236,7 +236,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSearchUIElementFromWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/16/23 05:54 PM
+This page was generated on 07/23/23 01:03 PM
 
 
 ## Help

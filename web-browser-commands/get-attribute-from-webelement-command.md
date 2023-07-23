@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Web Browser Commands &gt; WebElement Action &gt; Get Attribute From WebElement
+Web Browser Commands &gt; Get From WebElement &gt; Get Attribute From WebElement
 
 
 # Get Attribute From WebElement Command
@@ -234,7 +234,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetAttributeFromWebElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/16/23 05:54 PM
+This page was generated on 07/23/23 01:03 PM
 
 
 ## Help

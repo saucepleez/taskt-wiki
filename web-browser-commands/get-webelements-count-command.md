@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Web Browser Commands &gt; Search &gt; Get WebElements Count
+Web Browser Commands &gt; Search WebElement &gt; Get WebElements Count
 
 
 # Get WebElements Count Command
@@ -201,7 +201,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetWebElementsCountCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 07/16/23 05:54 PM
+This page was generated on 07/23/23 01:03 PM
 
 
 ## Help

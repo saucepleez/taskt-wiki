@@ -176,8 +176,8 @@
 |File/Book|[Save Workbook](/excel-commands/save-workbook-command.md)|This command allows you to save an Excel workbook.|
 |File/Book|[Save Workbook As](/excel-commands/save-workbook-as-command.md)|This command allows you to save an Excel workbook.|
 |Instance|[Check Excel Instance Exists](/excel-commands/check-excel-instance-exists-command.md)|This command returns existance of Excel instance.|
-|Instance|[Close Excel Application](/excel-commands/close-excel-application-command.md)|This command allows you to close Excel.|
-|Instance|[Create Excel Application](/excel-commands/create-excel-application-command.md)|This command opens the Excel Application.|
+|Instance|[Close Excel Instance](/excel-commands/close-excel-instance-command.md)|This command allows you to close Excel instance.|
+|Instance|[Create Excel Instance](/excel-commands/create-excel-instance-command.md)|This command opens the Excel Instance.|
 |Other|[Get Excel Info](/excel-commands/get-excel-info-command.md)|This command allows you to get current sheet name.|
 |Other|[Run Macro](/excel-commands/run-macro-command.md)|This command runs a macro.|
 |Range|[Get Range](/excel-commands/get-range-command.md)|This command gets text from a specified Excel Range.|
@@ -216,7 +216,7 @@
 ||[Get Files](/file-operation-commands/get-files-command.md)|This command returns a list of file paths from a specified location|
 ||[Move File](/file-operation-commands/move-file-command.md)|This command moves a file to a specified destination|
 ||[Rename File](/file-operation-commands/rename-file-command.md)|This command renames a file at a specified destination|
-||[Wait For File](/file-operation-commands/wait-for-file-command.md)|This command waits for a file to exist at a specified destination|
+||[Wait For File To Exists](/file-operation-commands/wait-for-file-to-exists-command.md)|This command waits for a file to exist at a specified destination|
 ### Folder Operation Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -392,6 +392,7 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Get From UIElement|[Get Children Elements Information](/uiautomation-commands/get-children-elements-information-command.md)|This command allows you to get Children UIElements Information from UIElement.|
+|Get From UIElement|[Get Property Value From UIElement](/uiautomation-commands/get-property-value-from-uielement-command.md)|This command allows you to get Property Value from UIElement.|
 |Get From UIElement|[Get Selected State From UIElement](/uiautomation-commands/get-selected-state-from-uielement-command.md)|This command allows you to get Selected State from UIElement.|
 |Get From UIElement|[Get Selection Items From UIElement](/uiautomation-commands/get-selection-items-from-uielement-command.md)|This command allows you to get Selection Items Name from UIElement.|
 |Get From UIElement|[Get Text From Table UIElement](/uiautomation-commands/get-text-from-table-uielement-command.md)|This command allows you to get Text Value from Table UIElement.|
@@ -404,8 +405,8 @@
 |Search UIElement|[Search UIElement From Table UIElement](/uiautomation-commands/search-uielement-from-table-uielement-command.md)|This command allows you to get UIElement from Table UIElement.|
 |Search UIElement|[Search UIElement From UIElement](/uiautomation-commands/search-uielement-from-uielement-command.md)|This command allows you to get UIElement from UIElement.|
 |Search UIElement|[Search UIElement From UIElement By XPath](/uiautomation-commands/search-uielement-from-uielement-by-xpath-command.md)|This command allows you to get UIElement from UIElement using by XPath.|
-|Search UIElement|[Wait For UIElement Exist](/uiautomation-commands/wait-for-uielement-exist-command.md)|This command allows you to Wait until the UIElement exists.|
-|Search UIElement|[Wait For UIElement Exist By XPath](/uiautomation-commands/wait-for-uielement-exist-by-xpath-command.md)|This command allows you to Wait until the UIElement exists using by XPath.|
+|Search UIElement|[Wait For UIElement To Exists](/uiautomation-commands/wait-for-uielement-to-exists-command.md)|This command allows you to Wait until the UIElement exists.|
+|Search UIElement|[Wait For UIElement To Exists By XPath](/uiautomation-commands/wait-for-uielement-to-exists-by-xpath-command.md)|This command allows you to Wait until the UIElement exists using by XPath.|
 |Search UIElement & Window|[Search UIElement And Window](/uiautomation-commands/search-uielement-and-window-command.md)|This command allows you to get UIElement from Window Name.|
 |Search UIElement & Window|[Search UIElement And Window By XPath](/uiautomation-commands/search-uielement-and-window-by-xpath-command.md)|This command allows you to get UIElement from Window Name using by XPath.|
 |Search Window|[Search UIElement From Window](/uiautomation-commands/search-uielement-from-window-command.md)|This command allows you to get UIElement from Window Name using by XPath.|
@@ -428,39 +429,39 @@
 ### Web Browser Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|Get From WebElement|[Get Attribute From WebElement](/web-browser-commands/get-attribute-from-webelement-command.md)|This command allows you to Get Attribute Value from WebElement.|
+|Get From WebElement|[Get HTML From WebElement](/web-browser-commands/get-html-from-webelement-command.md)|This command allows you to Get HTML from WebElement.|
+|Get From WebElement|[Get Options From WebElement](/web-browser-commands/get-options-from-webelement-command.md)|This command allows you to Get Options Value from WebElement.|
+|Get From WebElement|[Get Text From WebElement](/web-browser-commands/get-text-from-webelement-command.md)|This command allows you to Get Text Value from WebElement.|
 |Instance|[Check Browser Instance Exists](/web-browser-commands/check-browser-instance-exists-command.md)|This command returns existance of browser instance.|
-|Instance|[Close Browser](/web-browser-commands/close-browser-command.md)|This command allows you to close a Selenium web browser session.|
-|Instance|[Create Browser](/web-browser-commands/create-browser-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
-|Instance|[Get Browser Info](/web-browser-commands/get-browser-info-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
+|Instance|[Close Web Browser Instance](/web-browser-commands/close-web-browser-instance-command.md)|This command allows you to close a Selenium web browser session.|
+|Instance|[Create Web Browser Instance](/web-browser-commands/create-web-browser-instance-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
+|Instance|[Get Web Browser Info](/web-browser-commands/get-web-browser-info-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
 |Navigate|[Navigate Back](/web-browser-commands/navigate-back-command.md)|This command allows you to navigate backwards in a Selenium web browser session.|
 |Navigate|[Navigate Forward](/web-browser-commands/navigate-forward-command.md)|This command allows you to navigate forward a Selenium web browser session.|
 |Navigate|[Navigate to URL](/web-browser-commands/navigate-to-url-command.md)|This command allows you to navigate a Selenium web browser session to a given URL or resource.|
-|Scraping|[Get An WebElement Values As DataTable](/web-browser-commands/get-an-webelement-values-as-datatable-command.md)|This command allows you to get Attributes value for an WebElement As DataTable.|
-|Scraping|[Get An WebElement Values As Dictionary](/web-browser-commands/get-an-webelement-values-as-dictionary-command.md)|This command allows you to get Attributes value for an WebElement As Dictionary.|
-|Scraping|[Get An WebElement Values As List](/web-browser-commands/get-an-webelement-values-as-list-command.md)|This command allows you to get Attributes value for an WebElement As List.|
+|Scraping|[Get A WebElement Values As DataTable](/web-browser-commands/get-a-webelement-values-as-datatable-command.md)|This command allows you to get Attributes value for a WebElement As DataTable.|
+|Scraping|[Get A WebElement Values As Dictionary](/web-browser-commands/get-a-webelement-values-as-dictionary-command.md)|This command allows you to get Attributes value for a WebElement As Dictionary.|
+|Scraping|[Get A WebElement Values As List](/web-browser-commands/get-a-webelement-values-as-list-command.md)|This command allows you to get Attributes value for a WebElement As List.|
 |Scraping|[Get Table Value As DataTable](/web-browser-commands/get-table-value-as-datatable-command.md)|This command allows you to get a Table Values As DataTable.|
 |Scraping|[Get WebElements Value As DataTable](/web-browser-commands/get-webelements-value-as-datatable-command.md)|This command allows you to get a Attribute value for WegElements As DataTable.|
 |Scraping|[Get WebElements Value As Dictionary](/web-browser-commands/get-webelements-value-as-dictionary-command.md)|This command allows you to get a Attribute value for WegElements As Dictionary.|
 |Scraping|[Get WebElements Value As List](/web-browser-commands/get-webelements-value-as-list-command.md)|This command allows you to get a Attribute value for WegElements As List.|
 |Scraping|[Get WebElements Values As DataTable](/web-browser-commands/get-webelements-values-as-datatable-command.md)|This command allows you to get Attributes value for WegElements As DataTable.|
-|Search|[Check WebElement Exists](/web-browser-commands/check-webelement-exists-command.md)|This command allows you to check WebElement existance.|
-|Search|[Get Matched WebElements](/web-browser-commands/get-matched-webelements-command.md)|This command allows you to get Matched WebElements HTML.|
-|Search|[Get WebElements Count](/web-browser-commands/get-webelements-count-command.md)|This command allows you to count WebElements.|
-|Search|[Search WebElement](/web-browser-commands/search-webelement-command.md)|This command allows you to search WebElement.|
-|Search|[Search WebElement From WebElement](/web-browser-commands/search-webelement-from-webelement-command.md)|This command allows you to search WebElement from WebElement.|
-|Search|[Wait For WebElement Exist](/web-browser-commands/wait-for-webelement-exist-command.md)|This command allows you to Wait for WebElement exists.|
+|Search WebElement|[Check WebElement Exists](/web-browser-commands/check-webelement-exists-command.md)|This command allows you to check WebElement existance.|
+|Search WebElement|[Get Matched WebElements](/web-browser-commands/get-matched-webelements-command.md)|This command allows you to get Matched WebElements HTML.|
+|Search WebElement|[Get WebElements Count](/web-browser-commands/get-webelements-count-command.md)|This command allows you to count WebElements.|
+|Search WebElement|[Search WebElement](/web-browser-commands/search-webelement-command.md)|This command allows you to search WebElement.|
+|Search WebElement|[Search WebElement From WebElement](/web-browser-commands/search-webelement-from-webelement-command.md)|This command allows you to search WebElement from WebElement.|
+|Search WebElement|[Wait For WebElement To Exists](/web-browser-commands/wait-for-webelement-to-exists-command.md)|This command allows you to Wait for WebElement exists.|
 |Web Browser Actions|[Execute Script](/web-browser-commands/execute-script-command.md)|This command allows you to execute a script in a Selenium web browser session.|
 |Web Browser Actions|[Refresh](/web-browser-commands/refresh-command.md)|This command allows you to refresh a Selenium web browser session.|
-|Web Browser Actions|[Resize Browser](/web-browser-commands/resize-browser-command.md)|This command allows you to change browser window size.|
-|Web Browser Actions|[Switch Browser Frame](/web-browser-commands/switch-browser-frame-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
-|Web Browser Actions|[Switch Browser Window](/web-browser-commands/switch-browser-window-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
+|Web Browser Actions|[Resize Web Browser](/web-browser-commands/resize-web-browser-command.md)|This command allows you to change web browser window size.|
+|Web Browser Actions|[Switch Web Browser Frame](/web-browser-commands/switch-web-browser-frame-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
+|Web Browser Actions|[Switch Web Browser Window](/web-browser-commands/switch-web-browser-window-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
 |Web Browser Actions|[Take Screenshot](/web-browser-commands/take-screenshot-command.md)|This command allows you to take a screenshot in Selenium web browser session.|
 |WebElement Action|[Clear Text In WebElement](/web-browser-commands/clear-text-in-webelement-command.md)|This command allows you to Clear Text in WebElement.|
 |WebElement Action|[Click WebElement](/web-browser-commands/click-webelement-command.md)|This command allows you to Click to WebElement.|
-|WebElement Action|[Get Attribute From WebElement](/web-browser-commands/get-attribute-from-webelement-command.md)|This command allows you to Get Attribute Value from WebElement.|
-|WebElement Action|[Get HTML From WebElement](/web-browser-commands/get-html-from-webelement-command.md)|This command allows you to Get HTML from WebElement.|
-|WebElement Action|[Get Options From WebElement](/web-browser-commands/get-options-from-webelement-command.md)|This command allows you to Get Options Value from WebElement.|
-|WebElement Action|[Get Text From WebElement](/web-browser-commands/get-text-from-webelement-command.md)|This command allows you to Get Text Value from WebElement.|
 |WebElement Action|[Scroll To WebElement](/web-browser-commands/scroll-to-webelement-command.md)|This command allows you to Scroll to WebElement.|
 |WebElement Action|[Select Option For WebElement](/web-browser-commands/select-option-for-webelement-command.md)|This command allows you to Select an Option for WebElement.|
 |WebElement Action|[Set Text To WebElement](/web-browser-commands/set-text-to-webelement-command.md)|This command allows you to Set Text in WebElement.|
@@ -474,7 +475,7 @@
 |Window Actions|[Move Window](/window-commands/move-window-command.md)|This command moves a window to a specified location on screen.|
 |Window Actions|[Resize Window](/window-commands/resize-window-command.md)|This command resizes a window to a specified size.|
 |Window Actions|[Set Window State](/window-commands/set-window-state-command.md)|This command sets a target window's state.|
-|Window Actions|[Wait For Window To Exist](/window-commands/wait-for-window-to-exist-command.md)|This command waits for a window to exist.|
+|Window Actions|[Wait For Window To Exists](/window-commands/wait-for-window-to-exists-command.md)|This command waits for a window to exist.|
 |Window State|[Check Window Name Exists](/window-commands/check-window-name-exists-command.md)|This command returns a existence of window name.|
 |Window State|[Get Window Names](/window-commands/get-window-names-command.md)|This command returns window names.|
 |Window State|[Get Window Position](/window-commands/get-window-position-command.md)|This command returns window position.|
@@ -487,8 +488,8 @@
 ||[Append Image](/word-commands/append-image-command.md)|This command appends an image to a word document.|
 ||[Append Text](/word-commands/append-text-command.md)|This command appends text to a word document.|
 ||[Check Word Instance Exists](/word-commands/check-word-instance-exists-command.md)|This command returns existance of Word instance.|
-||[Close Word Application](/word-commands/close-word-application-command.md)|This command allows you to close Word.|
-||[Create Word Application](/word-commands/create-word-application-command.md)|This command creates a Word Application.|
+||[Close Word Instance](/word-commands/close-word-instance-command.md)|This command allows you to close Word Instance.|
+||[Create Word Instance](/word-commands/create-word-instance-command.md)|This command creates a Word Instance.|
 ||[Export To PDF](/word-commands/export-to-pdf-command.md)|This command allows you to export a Word document to a PDF.|
 ||[Open Document](/word-commands/open-document-command.md)|This command opens an Word Document.|
 ||[Read Document](/word-commands/read-document-command.md)|This command allows you to save a Word document.|
@@ -502,4 +503,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 07/16/23 05:54 PM
+This page was generated on 07/23/23 01:03 PM
