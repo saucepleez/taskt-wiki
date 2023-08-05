@@ -417,6 +417,7 @@
 |UIElement Action|[Select UIElement](/uiautomation-commands/select-uielement-command.md)|This command allows you to Select UIElement.|
 |UIElement Action|[Set Text To UIElement](/uiautomation-commands/set-text-to-uielement-command.md)|This command allows you to set Text Value from UIElement.|
 |UIElement Action|[UIElement Action](/uiautomation-commands/uielement-action-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
+|UIElement Action|[UIElement Action By XPath](/uiautomation-commands/uielement-action-by-xpath-command.md)|Combined implementation of the ThickAppClick/GetText command but includes an advanced Window Recorder to record the required element.|
 ### Variable Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -503,4 +504,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 07/23/23 01:03 PM
+This page was generated on 08/05/23 07:03 PM
