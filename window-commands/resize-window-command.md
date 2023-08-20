@@ -338,7 +338,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ResizeWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/05/23 07:03 PM
+This page was generated on 08/20/23 05:51 PM
 
 
 ## Help

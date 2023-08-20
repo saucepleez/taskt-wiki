@@ -1,20 +1,20 @@
-<!--TITLE: Get Email Attachments Name Command -->
+<!--TITLE: Get EMail Attachments Name Command -->
 <!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-EMail Commands &gt; Get Email Attachments Name
+EMail Commands &gt; Get EMail Attachments Name
 
 
-# Get Email Attachments Name Command
+# Get EMail Attachments Name Command
 
 
 ## What does this command do?
-This command allows you to get Attachment File Name.
+This command allows you to get EMail Attachment File Name.
 
 
 ## When would I want to use this command?
-Use this command when you want to get Attachment File Name.
+Use this command when you want to get EMail Attachment File Name.
 
 
 <a id="param_list"></a>
@@ -115,9 +115,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: MailKitGetEmailAttachmentsNameCommand
+Automation Class Name: MailKitGetEMailAttachmentsNameCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/05/23 07:03 PM
+This page was generated on 08/20/23 05:50 PM
 
 
 ## Help

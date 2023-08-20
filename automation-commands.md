@@ -126,15 +126,15 @@
 ||[Get Addresses As DataTable](/email-commands/get-addresses-as-datatable-command.md)|This command allows you to get Addresses from EMail.|
 ||[Get Addresses As Dictionary](/email-commands/get-addresses-as-dictionary-command.md)|This command allows you to get Addresses from EMail.|
 ||[Get Addresses As List](/email-commands/get-addresses-as-list-command.md)|This command allows you to get Addresses from EMail.|
-||[Get Email Attachments Name](/email-commands/get-email-attachments-name-command.md)|This command allows you to get Attachment File Name.|
+||[Get EMail Attachments Name](/email-commands/get-email-attachments-name-command.md)|This command allows you to get EMail Attachment File Name.|
 ||[Get EMail From EMailList](/email-commands/get-email-from-emaillist-command.md)|This command allows you to get EMail from EMailList.|
 ||[Get EMail Text](/email-commands/get-email-text-command.md)|This command allows you to get Text from EMail.|
-||[Load Email](/email-commands/load-email-command.md)|This command allows you to load EMail from File.|
+||[Load EMail](/email-commands/load-email-command.md)|This command allows you to load EMail from File.|
 ||[Recieve EMailList Using IMAP](/email-commands/recieve-emaillist-using-imap-command.md)|This command allows you to get EMailList(Emails) using IMAP protocol.|
 ||[Recieve EMailList Using POP](/email-commands/recieve-emaillist-using-pop-command.md)|This command allows you to get EMailList(EMails) using POP protocol.|
-||[Save Email](/email-commands/save-email-command.md)|This command allows you to Save EMail.|
-||[Save Email Attachments](/email-commands/save-email-attachments-command.md)|This command allows you to save EMail Attachments.|
-||[Send Email](/email-commands/send-email-command.md)|This command allows you to send EMail using SMTP protocol.|
+||[Save EMail](/email-commands/save-email-command.md)|This command allows you to Save EMail.|
+||[Save EMail Attachments](/email-commands/save-email-attachments-command.md)|This command allows you to save EMail Attachments.|
+||[Send EMail](/email-commands/send-email-command.md)|This command allows you to send EMail using SMTP protocol.|
 ### Engine Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -504,4 +504,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 08/05/23 07:03 PM
+This page was generated on 08/20/23 05:51 PM

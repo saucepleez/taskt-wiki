@@ -1,12 +1,12 @@
-<!--TITLE: Send Email Command -->
+<!--TITLE: Send EMail Command -->
 <!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-EMail Commands &gt; Send Email
+EMail Commands &gt; Send EMail
 
 
-# Send Email Command
+# Send EMail Command
 
 
 ## What does this command do?
@@ -25,8 +25,8 @@ Use this command when you want to send an EMail and have access to SMTP server c
 - [Please Specify the SMTP Password](#param_3)
 - [Please Specify the From EMail Address](#param_4)
 - [Please Specify the To EMail Address](#param_5)
-- [Please Specify the CC EMail Address](#param_6)
-- [Please Specify the BCC EMail Address](#param_7)
+- [Optional - Please Specify the CC EMail Address](#param_6)
+- [Optional - Please Specify the BCC EMail Address](#param_7)
 - [Optional - Please Specify the Email Subject](#param_8)
 - [Optional - Please Specify the Email Message](#param_9)
 - [Optional - Please Specify the Email Attachment File Path](#param_10)
@@ -228,16 +228,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
-### Please Specify the CC EMail Address
+### Optional - Please Specify the CC EMail Address
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the EMail Address</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
 <dt>Sample Usage</dt><dd><strong>my-robot@example.com</strong> or <strong>{vAddress}</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -260,16 +257,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_7"></a>
-### Please Specify the BCC EMail Address
+### Optional - Please Specify the BCC EMail Address
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the EMail Address</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
 <dt>Sample Usage</dt><dd><strong>my-robot@example.com</strong> or <strong>{vAddress}</strong></dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -424,9 +418,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: MailKitSendEmailCommand
+Automation Class Name: MailKitSendEMailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/05/23 07:03 PM
+This page was generated on 08/20/23 05:50 PM
 
 
 ## Help

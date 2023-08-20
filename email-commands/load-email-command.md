@@ -1,12 +1,12 @@
-<!--TITLE: Load Email Command -->
+<!--TITLE: Load EMail Command -->
 <!-- SUBTITLE: a command in the EMail Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-EMail Commands &gt; Load Email
+EMail Commands &gt; Load EMail
 
 
-# Load Email Command
+# Load EMail Command
 
 
 ## What does this command do?
@@ -146,9 +146,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: MailKitLoadEmailCommand
+Automation Class Name: MailKitLoadEMailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/05/23 07:03 PM
+This page was generated on 08/20/23 05:50 PM
 
 
 ## Help
