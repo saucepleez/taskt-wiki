@@ -22,13 +22,14 @@ You can check the WebDriver version with "foo.exe -v" in command prompt.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the WebBrowser Instance Name](#param_0)
-- [Optional - Please Select the Instance Tracking (After task ends)](#param_1)
-- [Optional - Please Select the Window State](#param_2)
-- [Optional - Please Specify the We bBrowser Command Line Options](#param_3)
-- [Optional - Please Select the Web Browser Type](#param_4)
-- [Optional - Please Specify the Web Browser Binary Path](#param_5)
-- [Optional - Please Specify the Web Driver Binary Path](#param_6)
-- [Optional - Please Specify the Comment Field](#param_7)
+- [Optional - Please Select the Web Browser Type](#param_1)
+- [Optional - Please Select the Instance Tracking (After task ends)](#param_2)
+- [Optional - Please Select the Window State](#param_3)
+- [Optional - Please Specify the Web Browser Command Line Options](#param_4)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_5)
+- [Optional - Please Specify the Web Browser Binary Path](#param_6)
+- [Optional - Please Specify the Web Driver Binary Path](#param_7)
+- [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
@@ -66,6 +67,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
+### Optional - Please Select the Web Browser Type
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Edge</strong> or  <strong>Chrome</strong> or  <strong>Firefox</strong> or  <strong>IE</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Chrome</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
 ### Optional - Please Select the Instance Tracking (After task ends)
 
 
@@ -90,13 +114,13 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_1) / [list](#param_list) / [next](#param_2)
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
 
 
 </div>
 
 
-<a id="param_2"></a>
+<a id="param_3"></a>
 ### Optional - Please Select the Window State
 
 
@@ -120,28 +144,6 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
-
-
-</div>
-
-
-<a id="param_3"></a>
-### Optional - Please Specify the We bBrowser Command Line Options
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the Command Line Options</dd>
-<dt>Sample Usage</dt><dd>user-data-dir=c:\users\public\SeleniumTasktProfile</dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
-</dl>
-
-
-
-
-<div style="font-size: 90%; text-align: center">
-
-
 [prev](#param_3) / [list](#param_list) / [next](#param_4)
 
 
@@ -149,14 +151,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Optional - Please Select the Web Browser Type
+### Optional - Please Specify the Web Browser Command Line Options
 
 
 <dl>
-<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
-<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Edge</strong> or  <strong>Chrome</strong> or  <strong>Firefox</strong> or  <strong>IE</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Chrome</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Command Line Options</dd>
+<dt>Sample Usage</dt><dd>user-data-dir=c:\users\public\SeleniumTasktProfile</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -172,6 +173,38 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_5"></a>
+### Optional - Please Select the Variable Name to Store Window Handle Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>WindowHandle Variable</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd><strong>vHandle</strong> or <strong>{vHandle}</strong></dd>
+<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
+<strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vHandle</strong> | Specify Variable Name **vHandle** |
+| <strong>{vHandle}</strong> | Specify Variable Name **vHandle** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
 ### Optional - Please Specify the Web Browser Binary Path
 
 
@@ -197,13 +230,13 @@ If you use a fixed web browser version, use this parameter.<br><br>
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_7"></a>
 ### Optional - Please Specify the Web Driver Binary Path
 
 
@@ -229,13 +262,13 @@ If you use a fixed web browser version, use this parameter.<br><br>
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / [next](#param_7)
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
 
 
 </div>
 
 
-<a id="param_7"></a>
+<a id="param_8"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -251,7 +284,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_7) / [list](#param_list) / next
+[prev](#param_8) / [list](#param_list) / next
 
 
 </div>
@@ -260,7 +293,7 @@ If you use a fixed web browser version, use this parameter.<br><br>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserCreateWebBrowserInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/20/23 05:51 PM
+This page was generated on 11/28/23 11:23 PM
 
 
 ## Help

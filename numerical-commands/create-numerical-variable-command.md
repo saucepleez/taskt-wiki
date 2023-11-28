@@ -19,13 +19,13 @@ Use this command when you want to create Number Variable.
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the Numerical Variable Name](#param_0)
+- [Please Select the Numerical Variable Name to Store Result](#param_0)
 - [Please Specify the Numerical Value](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
-### Please Select the Numerical Variable Name
+### Please Select the Numerical Variable Name to Store Result
 
 
 <dl>
@@ -116,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateNumericalVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/20/23 05:50 PM
+This page was generated on 11/28/23 11:23 PM
 
 
 ## Help

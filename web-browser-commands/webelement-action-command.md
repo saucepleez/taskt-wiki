@@ -23,7 +23,7 @@ Use this command when you want to manipulate, set, or get data on a webpage with
 - [Please Select the Element Search Method](#param_1)
 - [Please Specify the Element Search Parameter](#param_2)
 - [Please Specify the Element Index](#param_3)
-- [Please Select the Element Action](#param_4)
+- [Please Select the WebElement Action](#param_4)
 - [Please Specify the Additional Parameters](#param_5)
 - [Optional - Please Specify the Wait Time for the WebElement to Exist (sec)](#param_6)
 - [Optional - Please Select the Scroll to WebElement](#param_7)
@@ -146,13 +146,16 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
-### Please Select the Element Action
+### Please Select the WebElement Action
 
 
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Click WebElement</strong> or  <strong>Clear WebElement</strong> or  <strong>Set Text</strong> or  <strong>Get Text</strong> or  <strong>Get Attribute</strong> or  <strong>Get Matching WebElements</strong> or  <strong>Wait For WebElement To Exists</strong> or  <strong>Switch To Frame</strong> or  <strong>Get WebElements Count</strong> or  <strong>Get Options</strong> or  <strong>Select Option</strong></dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd><strong>Click WebElement</strong> or  <strong>Clear WebElement</strong> or  <strong>Set Text</strong> or  <strong>Get Text</strong> or  <strong>Get Attribute</strong> or  <strong>Get Matching WebElements</strong> or  <strong>Wait For WebElement To Exists</strong> or  <strong>Switch To Frame</strong> or  <strong>Get WebElements Count</strong> or  <strong>Get WebElement Position</strong> or  <strong>Get WebElement Size</strong> or  <strong>Get Options</strong> or  <strong>Select Option</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -268,7 +271,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserWebElementActionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/20/23 05:51 PM
+This page was generated on 11/28/23 11:23 PM
 
 
 ## Help

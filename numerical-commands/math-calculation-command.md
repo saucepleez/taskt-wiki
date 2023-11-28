@@ -22,7 +22,7 @@ Use this command when you want to perform a math calculation.
 - [Please Specify the Formula to be Computed](#param_0)
 - [Optional - Please Specify the Thousand Seperator](#param_1)
 - [Optional - Please Specify the Decimal Seperator](#param_2)
-- [Please Select the Variable Name to Store Result](#param_3)
+- [Please Select the Numerical Variable Name to Store Result](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
@@ -121,7 +121,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Select the Variable Name to Store Result
+### Please Select the Numerical Variable Name to Store Result
 
 
 <dl>
@@ -131,7 +131,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vNum</strong> or <strong>{vNum}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -141,8 +141,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+| <strong>vNum</strong> | Specify Variable Name **vNum** |
+| <strong>{vNum}</strong> | Specify Variable Name **vNum** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -179,7 +179,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MathCalculationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/20/23 05:51 PM
+This page was generated on 11/28/23 11:23 PM
 
 
 ## Help

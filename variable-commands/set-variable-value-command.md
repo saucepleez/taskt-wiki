@@ -22,7 +22,8 @@ Use this command when you want to modify the value of variables.  You can even u
 - [Please Specify the Variable Name](#param_0)
 - [Optional - Please Specify the Variable Value](#param_1)
 - [Optional - Please Select the Convert Variables in Input Text Above](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [Optional - Please Select the Create New Variable when that Variable Does not Exist](#param_3)
+- [Optional - Please Specify the Comment Field](#param_4)
 
 
 <a id="param_0"></a>
@@ -112,6 +113,30 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
+### Optional - Please Select the Create New Variable when that Variable Does not Exist
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd>This command ignores the 'Create Missing Variable During Execution' value in the Settings<br><br>
+<strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -127,7 +152,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / next
+[prev](#param_4) / [list](#param_list) / next
 
 
 </div>
@@ -136,7 +161,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetVariableValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 08/20/23 05:51 PM
+This page was generated on 11/28/23 11:23 PM
 
 
 ## Help

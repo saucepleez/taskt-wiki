@@ -314,6 +314,20 @@
 ||[Loop List](/loop-commands/loop-list-command.md)|This command allows you to repeat actions several times (loop).  Any 'Begin Loop' command must have a following 'End Loop' command.|
 ||[Loop Number Of Times](/loop-commands/loop-number-of-times-command.md)|This command allows you to repeat actions several times (loop).  Any 'Begin Loop' command must have a following 'End Loop' command.|
 ||[Next Loop](/loop-commands/next-loop-command.md)|This command enables user to break and exit from the current loop|
+### Math Commands
+| Sub Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+||[Get Absolute](/math-commands/get-absolute-command.md)|This command allows you to get abs.|
+||[Get Arccos](/math-commands/get-arccos-command.md)|This command allows you to get arccos.|
+||[Get Arcsin](/math-commands/get-arcsin-command.md)|This command allows you to get arcsin.|
+||[Get Arctan](/math-commands/get-arctan-command.md)|This command allows you to get arctan.|
+||[Get Cos](/math-commands/get-cos-command.md)|This command allows you to get cos.|
+||[Get Exponential](/math-commands/get-exponential-command.md)|This command allows you to get exp.|
+||[Get Logarithm](/math-commands/get-logarithm-command.md)|This command allows you to get log.|
+||[Get Power](/math-commands/get-power-command.md)|This command allows you to get power.|
+||[Get Sin](/math-commands/get-sin-command.md)|This command allows you to get sin.|
+||[Get Square Root](/math-commands/get-square-root-command.md)|This command allows you to get Square Root.|
+||[Get Tan](/math-commands/get-tan-command.md)|This command allows you to get tan.|
 ### Misc Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -397,6 +411,8 @@
 |Get From UIElement|[Get Selection Items From UIElement](/uiautomation-commands/get-selection-items-from-uielement-command.md)|This command allows you to get Selection Items Name from UIElement.|
 |Get From UIElement|[Get Text From Table UIElement](/uiautomation-commands/get-text-from-table-uielement-command.md)|This command allows you to get Text Value from Table UIElement.|
 |Get From UIElement|[Get Text From UIElement](/uiautomation-commands/get-text-from-uielement-command.md)|This command allows you to get Text Value from UIElement.|
+|Get From UIElement|[Get UIElement Position](/uiautomation-commands/get-uielement-position-command.md)|This command allows you to get UIElement Position.|
+|Get From UIElement|[Get UIElement Size](/uiautomation-commands/get-uielement-size-command.md)|This command allows you to get UIElement Size.|
 |Get From UIElement|[Get UIElement Tree XML From UIElement](/uiautomation-commands/get-uielement-tree-xml-from-uielement-command.md)|This command allows you to get UIElement Tree XML from UIElement.|
 |Search UIElement|[Check UIElement Exist](/uiautomation-commands/check-uielement-exist-command.md)|This command allows you to to check UIElement existence.|
 |Search UIElement|[Check UIElement Exist By XPath](/uiautomation-commands/check-uielement-exist-by-xpath-command.md)|This command allows you to check UIElement existence.|
@@ -434,6 +450,8 @@
 |Get From WebElement|[Get HTML From WebElement](/web-browser-commands/get-html-from-webelement-command.md)|This command allows you to Get HTML from WebElement.|
 |Get From WebElement|[Get Options From WebElement](/web-browser-commands/get-options-from-webelement-command.md)|This command allows you to Get Options Value from WebElement.|
 |Get From WebElement|[Get Text From WebElement](/web-browser-commands/get-text-from-webelement-command.md)|This command allows you to Get Text Value from WebElement.|
+|Get From WebElement|[Get WebElement Position](/web-browser-commands/get-webelement-position-command.md)|This command allows you to Get WebElement Position.|
+|Get From WebElement|[Get WebElement Size](/web-browser-commands/get-webelement-size-command.md)|This command allows you to Get WebElement Size.|
 |Instance|[Check Browser Instance Exists](/web-browser-commands/check-browser-instance-exists-command.md)|This command returns existance of browser instance.|
 |Instance|[Close Web Browser Instance](/web-browser-commands/close-web-browser-instance-command.md)|This command allows you to close a Selenium web browser session.|
 |Instance|[Create Web Browser Instance](/web-browser-commands/create-web-browser-instance-command.md)|This command allows you to create a new Selenium web browser session which enables automation for websites.|
@@ -471,15 +489,27 @@
 ### Window Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|Get From Window Handle|[Check Window Handle Exists](/window-commands/check-window-handle-exists-command.md)|This command returns a existence of Window Handle.|
+|Get From Window Handle|[Get Window Name From Window Handle](/window-commands/get-window-name-from-window-handle-command.md)|This command returns window names.|
+|Get From Window Handle|[Get Window Position From Window Handle](/window-commands/get-window-position-from-window-handle-command.md)|This command returns window position.|
+|Get From Window Handle|[Get Window Size From Window Handle](/window-commands/get-window-size-from-window-handle-command.md)|This command returns window size.|
+|Get From Window Handle|[Get Window State From Window Handle](/window-commands/get-window-state-from-window-handle-command.md)|This command returns a state of window name.|
 |Window Actions|[Activate Window](/window-commands/activate-window-command.md)|This command activates a window and brings it to the front.|
 |Window Actions|[Close Window](/window-commands/close-window-command.md)|This command closes an open window.|
+|Window Actions|[Get Window Handle From Window Name](/window-commands/get-window-handle-from-window-name-command.md)|This command allows you to Get Window Handle from Window Name.|
 |Window Actions|[Move Window](/window-commands/move-window-command.md)|This command moves a window to a specified location on screen.|
 |Window Actions|[Resize Window](/window-commands/resize-window-command.md)|This command resizes a window to a specified size.|
 |Window Actions|[Set Window State](/window-commands/set-window-state-command.md)|This command sets a target window's state.|
 |Window Actions|[Wait For Window To Exists](/window-commands/wait-for-window-to-exists-command.md)|This command waits for a window to exist.|
+|Window Handle Actions|[Activate Window By Window Handle](/window-commands/activate-window-by-window-handle-command.md)|This command activates a window and brings it to the front.|
+|Window Handle Actions|[Close Window By Window Handle](/window-commands/close-window-by-window-handle-command.md)|This command closes an open window.|
+|Window Handle Actions|[Move Window By Window Handle](/window-commands/move-window-by-window-handle-command.md)|This command moves a window to a specified location on screen.|
+|Window Handle Actions|[Resize Window By Window Handle](/window-commands/resize-window-by-window-handle-command.md)|This command resizes a window to a specified size.|
+|Window Handle Actions|[Set Window State By Window Handle](/window-commands/set-window-state-by-window-handle-command.md)|This command sets a target window's state.|
 |Window State|[Check Window Name Exists](/window-commands/check-window-name-exists-command.md)|This command returns a existence of window name.|
 |Window State|[Get Window Names](/window-commands/get-window-names-command.md)|This command returns window names.|
 |Window State|[Get Window Position](/window-commands/get-window-position-command.md)|This command returns window position.|
+|Window State|[Get Window Size](/window-commands/get-window-size-command.md)|This command returns window size.|
 |Window State|[Get Window State](/window-commands/get-window-state-command.md)|This command returns a state of window name.|
 ### Word Commands
 | Sub Group   	| Command Name 	|  Command Description	|
@@ -504,4 +534,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 08/20/23 05:51 PM
+This page was generated on 11/28/23 11:23 PM
