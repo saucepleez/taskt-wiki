@@ -1,42 +1,42 @@
-<!--TITLE: Get Median From List Command -->
-<!-- SUBTITLE: a command in the List Commands group. -->
+<!--TITLE: Get Process Name From Window Handle Command -->
+<!-- SUBTITLE: a command in the Window Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-List Commands &gt; Math &gt; Get Median From List
+Window Commands &gt; Get From Window Handle &gt; Get Process Name From Window Handle
 
 
-# Get Median From List Command
+# Get Process Name From Window Handle Command
 
 
 ## What does this command do?
-This command allows you to get median value from a list.
+This command returns process name.
 
 
 ## When would I want to use this command?
-Use this command when you want to get median value from a list.
+Use this command when you want to get process name.
 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Select the List Variable Name](#param_0)
-- [Please Select the Variable Name to Store Result](#param_1)
-- [Optional - Please Select the Action When List Value is Not Numeric](#param_2)
+- [Please Select the Window Handle Variable Name](#param_0)
+- [Please Select the Variable Name to Store Process Name](#param_1)
+- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Select the List Variable Name
+### Please Select the Window Handle Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the List Variable Name</dd>
-<dt>Instance Type</dt><dd>List</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Instance Type</dt><dd>WindowHandle</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+<dt>Sample Usage</dt><dd><strong>vHandle</strong> or <strong>{vHandle}</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -46,8 +46,8 @@ Use this command when you want to get median value from a list.
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vList</strong> | Specify Variable Name **vList** |
-| <strong>{vList}</strong> | Specify Variable Name **vList** |
+| <strong>vHandle</strong> | Specify Variable Name **vHandle** |
+| <strong>{vHandle}</strong> | Specify Variable Name **vHandle** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -60,7 +60,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Variable Name to Store Result
+### Please Select the Variable Name to Store Process Name
 
 
 <dl>
@@ -94,14 +94,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Action When List Value is Not Numeric
+### Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
-<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
-<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Ignore</strong> or  <strong>Error</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Ignore</strong></dd>
+<dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
+<dt>Sample Usage</dt><dd><strong>60</strong> or <strong>{vTime}</strong></dd>
+<dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
+<strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
 
@@ -110,8 +110,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| Ignore | Ignore not numeric value |
-| Error | Rise the Error |
+| <strong>60</strong> | Specify **60** for Wait Time |
+| <strong>{vTime}</strong> | Specify Value of Variable **vTime** for Wait Time |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -146,7 +146,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: GetMedianFromListCommand
+Automation Class Name: GetProcessNameFromWindowHandleCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 12/08/23 11:18 PM
 

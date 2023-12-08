@@ -10,7 +10,7 @@ Application/Script Commands &gt; Application &gt; Stop Application
 
 
 ## What does this command do?
-This command allows you to stop a program or a process.
+This command allows you to Stop a Application.
 
 
 ## When would I want to use this command?
@@ -19,12 +19,12 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Application Name](#param_0)
+- [Please Specify the Application Process Name](#param_0)
 - [Optional - Please Specify the Comment Field](#param_1)
 
 
 <a id="param_0"></a>
-### Please Specify the Application Name
+### Please Specify the Application Process Name
 
 
 <dl>
@@ -81,7 +81,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: StopApplicationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/28/23 11:23 PM
+This page was generated on 12/08/23 11:18 PM
 
 
 ## Help

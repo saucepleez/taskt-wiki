@@ -20,7 +20,8 @@ Use this command when you want to launch a new instance of Word.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Word Instance Name](#param_0)
-- [Optional - Please Specify the Comment Field](#param_1)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_1)
+- [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
@@ -58,6 +59,38 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
+### Optional - Please Select the Variable Name to Store Window Handle Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>WindowHandle Variable</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd><strong>vHandle</strong> or <strong>{vHandle}</strong></dd>
+<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
+<strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vHandle</strong> | Specify Variable Name **vHandle** |
+| <strong>{vHandle}</strong> | Specify Variable Name **vHandle** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -73,7 +106,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_1) / [list](#param_list) / next
+[prev](#param_2) / [list](#param_list) / next
 
 
 </div>
@@ -82,7 +115,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: WordCreateWordInstanceCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/28/23 11:23 PM
+This page was generated on 12/08/23 11:18 PM
 
 
 ## Help

@@ -92,7 +92,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>First</strong> or  <strong>Last</strong> or  <strong>All</strong> or  <strong>Index</strong> or  <strong>First</strong> or  <strong>Last</strong> or  <strong>Index</strong></dd>
+<dt>Sample Usage</dt><dd><strong>First</strong> or  <strong>Last</strong> or  <strong>Index</strong></dd>
 <dt>Remarks</dt><dd>Specify when there are Multiple Matching Windows<br><br>
 <strong>Optional</strong><br>Default Value is <strong>First</strong></dd>
 </dl>
@@ -105,7 +105,6 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>First</strong> | Specify the First Window |
 | <strong>Last</strong> | Specify the Last Window |
-| <strong>All</strong> | Specify the All Windows |
 | <strong>Index</strong> | the Window specifed by Index. **0** means First Window |
 
 
@@ -237,7 +236,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowHandleFromWindowNameCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/28/23 11:23 PM
+This page was generated on 12/08/23 11:18 PM
 
 
 ## Help

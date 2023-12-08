@@ -11,7 +11,7 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Application|[Start Application](/application-script-commands/start-application-command.md)|This command allows you to start a program or a process.|
-|Application|[Stop Application](/application-script-commands/stop-application-command.md)|This command allows you to stop a program or a process.|
+|Application|[Stop Application](/application-script-commands/stop-application-command.md)|This command allows you to Stop a Application.|
 |taskt Script File|[Load Script File](/application-script-commands/load-script-file-command.md)|This command pre-loads tasks for future execution.|
 |taskt Script File|[Run Script File](/application-script-commands/run-script-file-command.md)|This command runs tasks.|
 |taskt Script File|[Stop Current Script File](/application-script-commands/stop-current-script-file-command.md)|This command stops the current task.|
@@ -490,12 +490,14 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Get From Window Handle|[Check Window Handle Exists](/window-commands/check-window-handle-exists-command.md)|This command returns a existence of Window Handle.|
+|Get From Window Handle|[Get Process Name From Window Handle](/window-commands/get-process-name-from-window-handle-command.md)|This command returns process name.|
 |Get From Window Handle|[Get Window Name From Window Handle](/window-commands/get-window-name-from-window-handle-command.md)|This command returns window names.|
 |Get From Window Handle|[Get Window Position From Window Handle](/window-commands/get-window-position-from-window-handle-command.md)|This command returns window position.|
 |Get From Window Handle|[Get Window Size From Window Handle](/window-commands/get-window-size-from-window-handle-command.md)|This command returns window size.|
 |Get From Window Handle|[Get Window State From Window Handle](/window-commands/get-window-state-from-window-handle-command.md)|This command returns a state of window name.|
 |Window Actions|[Activate Window](/window-commands/activate-window-command.md)|This command activates a window and brings it to the front.|
 |Window Actions|[Close Window](/window-commands/close-window-command.md)|This command closes an open window.|
+|Window Actions|[Get Process Name From Window Name](/window-commands/get-process-name-from-window-name-command.md)|This command allows you to Get Process Name from Window Name.|
 |Window Actions|[Get Window Handle From Window Name](/window-commands/get-window-handle-from-window-name-command.md)|This command allows you to Get Window Handle from Window Name.|
 |Window Actions|[Move Window](/window-commands/move-window-command.md)|This command moves a window to a specified location on screen.|
 |Window Actions|[Resize Window](/window-commands/resize-window-command.md)|This command resizes a window to a specified size.|
@@ -534,4 +536,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 11/28/23 11:23 PM
+This page was generated on 12/08/23 11:18 PM

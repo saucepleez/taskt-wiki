@@ -19,15 +19,19 @@ Use this command to start applications by entering their name such as 'chrome.ex
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Specify the Path to the Application](#param_0)
+- [Please Specify the Path to the Application or Application Name](#param_0)
 - [Optional - Please Specify the Arguments](#param_1)
 - [Optional - Please Select the Wait for the Application to Complete](#param_2)
 - [Optional - Please Select the Variable Name to Store Application Process Name](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Optional - Please Select the Variable Name to Store Window Name](#param_4)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_5)
+- [Optional - Please Specify the Wait Time until Application Starts (ms)](#param_6)
+- [Optional - Please Specify the Wait Time before Executing Next Command (ms)](#param_7)
+- [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
-### Please Specify the Path to the Application
+### Please Specify the Path to the Application or Application Name
 
 
 <dl>
@@ -146,6 +150,129 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Select the Variable Name to Store Window Name
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
+### Optional - Please Select the Variable Name to Store Window Handle Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>WindowHandle Variable</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd><strong>vHandle</strong> or <strong>{vHandle}</strong></dd>
+<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
+<strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vHandle</strong> | Specify Variable Name **vHandle** |
+| <strong>{vHandle}</strong> | Specify Variable Name **vHandle** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
+### Optional - Please Specify the Wait Time until Application Starts (ms)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Numerical Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>{vValue}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>2000</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Value |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
+### Optional - Please Specify the Wait Time before Executing Next Command (ms)
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Numerical Value</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>{vValue}</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>2000</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>1</strong> | Specify **1** for Value |
+| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Value |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
+
+
+</div>
+
+
+<a id="param_8"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -161,7 +288,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_8) / [list](#param_list) / next
 
 
 </div>
@@ -170,7 +297,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: StartApplicationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 11/28/23 11:23 PM
+This page was generated on 12/08/23 11:18 PM
 
 
 ## Help
