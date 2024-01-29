@@ -35,7 +35,7 @@ Use this command when you want to apply specific formatting to text or a variabl
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>{DateTime.Now}</strong> or <strong>1/1/2000</strong> or <strong>2500</strong> or <strong>{vNum}</strong> or <strong>C:\temp\myfile.txt</strong></dd>
+<dt>Sample Usage</dt><dd>{DateTime.Now} or 1/1/2000 or 2500 or {vNum} or C:\temp\myfile.txt</dd>
 <dt>Remarks</dt><dd>You can use known text or variables.</dd>
 </dl>
 
@@ -83,7 +83,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>MM/dd/yy</strong> or <strong>hh:mm</strong> or <strong>#.0</strong> or <strong>file</strong> etc.</dd>
+<dt>Sample Usage</dt><dd>MM/dd/yy or hh:mm or #.0 or file etc.</dd>
 <dt>Remarks</dt><dd>Path supports <strong>file</strong>, <strong>folder</strong>, <strong>filewithoutextension</strong>, <strong>extension</strong>, <strong>drive</strong></dd>
 </dl>
 
@@ -150,7 +150,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FormatDataCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

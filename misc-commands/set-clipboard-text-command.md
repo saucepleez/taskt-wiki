@@ -29,7 +29,7 @@ Use this command when you want to copy the data from the clipboard and apply it 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Value</dd>
-<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
+<dt>Sample Usage</dt><dd>Hello or {vText}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -77,7 +77,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SetClipboardTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

@@ -39,7 +39,7 @@ Use this command when you want to Get Attribute Value from WebElement.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vElement</strong> or <strong>{vElement}</strong></dd>
+<dt>Sample Usage</dt><dd>vElement or {vElement}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -71,7 +71,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>class</strong> or <strong>{vAttribute}</strong></dd>
+<dt>Sample Usage</dt><dd>class or {vAttribute}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -105,7 +105,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -185,7 +185,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>RPABrowser</strong> or <strong>{vInstance}</strong></dd>
+<dt>Sample Usage</dt><dd>RPABrowser or {vInstance}</dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Broser</strong> command will cause an error<br><br>
 <strong>Optional</strong><br></dd>
 </dl>
@@ -234,7 +234,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserGetAttributeFromWebElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

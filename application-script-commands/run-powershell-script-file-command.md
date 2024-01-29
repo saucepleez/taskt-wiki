@@ -38,7 +38,7 @@ Use this command when you want to run a powershell script and wait for it to clo
 <li>Empty</li>
 </ul></dd>
 <dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance Required</li><li>Support Extensions: ps1</li><li>FileCounter Variable Support: No Support</li></ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\myscript.ps1</strong> or <strong>{vScriptPath}</strong></dd>
+<dt>Sample Usage</dt><dd>C:\temp\myscript.ps1 or {vScriptPath}</dd>
 <dt>Remarks</dt><dd>This command differs from <strong>Start Process</strong> because this command blocks execution until the script has completed. If you do not want to stop while the script executes, consider using <strong>Start Process</strong> instead.
 If file does not contain extensin, supplement ps1 or bat extension.
 If file does not contain folder path, file will be opened in the same folder as script file.</dd>
@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Arguments</dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or <strong>1 2 3</strong> or <strong>{vArgs}</strong></dd>
+<dt>Sample Usage</dt><dd>1 or Hello or 1 2 3 or {vArgs}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -125,7 +125,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -155,7 +155,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>10</strong> or <strong>{vWaitTime}</strong></dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the File is not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
 </dl>
@@ -204,7 +204,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: RunPowerShellScriptFileCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

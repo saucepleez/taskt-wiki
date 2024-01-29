@@ -317,17 +317,8 @@
 ### Math Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-||[Get Absolute](/math-commands/get-absolute-command.md)|This command allows you to get abs.|
-||[Get Arccos](/math-commands/get-arccos-command.md)|This command allows you to get arccos.|
-||[Get Arcsin](/math-commands/get-arcsin-command.md)|This command allows you to get arcsin.|
-||[Get Arctan](/math-commands/get-arctan-command.md)|This command allows you to get arctan.|
-||[Get Cos](/math-commands/get-cos-command.md)|This command allows you to get cos.|
 ||[Get Exponential](/math-commands/get-exponential-command.md)|This command allows you to get exp.|
-||[Get Logarithm](/math-commands/get-logarithm-command.md)|This command allows you to get log.|
 ||[Get Power](/math-commands/get-power-command.md)|This command allows you to get power.|
-||[Get Sin](/math-commands/get-sin-command.md)|This command allows you to get sin.|
-||[Get Square Root](/math-commands/get-square-root-command.md)|This command allows you to get Square Root.|
-||[Get Tan](/math-commands/get-tan-command.md)|This command allows you to get tan.|
 ### Misc Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -486,33 +477,6 @@
 |WebElement Action|[Set Text To WebElement](/web-browser-commands/set-text-to-webelement-command.md)|This command allows you to Set Text in WebElement.|
 |WebElement Action|[Switch Frame To WebElement](/web-browser-commands/switch-frame-to-webelement-command.md)|This command allows you to Switch Frame to WebElement.|
 |WebElement Action|[WebElement Action](/web-browser-commands/webelement-action-command.md)|This command allows you to close a Selenium web browser session.|
-### Window Commands
-| Sub Group   	| Command Name 	|  Command Description	|
-| ---                | ---           | ---                   |
-|Get From Window Handle|[Check Window Handle Exists](/window-commands/check-window-handle-exists-command.md)|This command returns a existence of Window Handle.|
-|Get From Window Handle|[Get Process Name From Window Handle](/window-commands/get-process-name-from-window-handle-command.md)|This command returns process name.|
-|Get From Window Handle|[Get Window Name From Window Handle](/window-commands/get-window-name-from-window-handle-command.md)|This command returns window names.|
-|Get From Window Handle|[Get Window Position From Window Handle](/window-commands/get-window-position-from-window-handle-command.md)|This command returns window position.|
-|Get From Window Handle|[Get Window Size From Window Handle](/window-commands/get-window-size-from-window-handle-command.md)|This command returns window size.|
-|Get From Window Handle|[Get Window State From Window Handle](/window-commands/get-window-state-from-window-handle-command.md)|This command returns a state of window name.|
-|Window Actions|[Activate Window](/window-commands/activate-window-command.md)|This command activates a window and brings it to the front.|
-|Window Actions|[Close Window](/window-commands/close-window-command.md)|This command closes an open window.|
-|Window Actions|[Get Process Name From Window Name](/window-commands/get-process-name-from-window-name-command.md)|This command allows you to Get Process Name from Window Name.|
-|Window Actions|[Get Window Handle From Window Name](/window-commands/get-window-handle-from-window-name-command.md)|This command allows you to Get Window Handle from Window Name.|
-|Window Actions|[Move Window](/window-commands/move-window-command.md)|This command moves a window to a specified location on screen.|
-|Window Actions|[Resize Window](/window-commands/resize-window-command.md)|This command resizes a window to a specified size.|
-|Window Actions|[Set Window State](/window-commands/set-window-state-command.md)|This command sets a target window's state.|
-|Window Actions|[Wait For Window To Exists](/window-commands/wait-for-window-to-exists-command.md)|This command waits for a window to exist.|
-|Window Handle Actions|[Activate Window By Window Handle](/window-commands/activate-window-by-window-handle-command.md)|This command activates a window and brings it to the front.|
-|Window Handle Actions|[Close Window By Window Handle](/window-commands/close-window-by-window-handle-command.md)|This command closes an open window.|
-|Window Handle Actions|[Move Window By Window Handle](/window-commands/move-window-by-window-handle-command.md)|This command moves a window to a specified location on screen.|
-|Window Handle Actions|[Resize Window By Window Handle](/window-commands/resize-window-by-window-handle-command.md)|This command resizes a window to a specified size.|
-|Window Handle Actions|[Set Window State By Window Handle](/window-commands/set-window-state-by-window-handle-command.md)|This command sets a target window's state.|
-|Window State|[Check Window Name Exists](/window-commands/check-window-name-exists-command.md)|This command returns a existence of window name.|
-|Window State|[Get Window Names](/window-commands/get-window-names-command.md)|This command returns window names.|
-|Window State|[Get Window Position](/window-commands/get-window-position-command.md)|This command returns window position.|
-|Window State|[Get Window Size](/window-commands/get-window-size-command.md)|This command returns window size.|
-|Window State|[Get Window State](/window-commands/get-window-state-command.md)|This command returns a state of window name.|
 ### Word Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -536,4 +500,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM

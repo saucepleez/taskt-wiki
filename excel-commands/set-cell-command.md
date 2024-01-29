@@ -37,7 +37,7 @@ Use this command when you want to set a value to a specific cell.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>RPAExcel</strong> or <strong>{vInstance}</strong></dd>
+<dt>Sample Usage</dt><dd>RPAExcel or {vInstance}</dd>
 <dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
@@ -66,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Text to Set</dd>
-<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vText}</strong></dd>
+<dt>Sample Usage</dt><dd>Hello or {vText}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -91,7 +91,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>A1</strong> or <strong>B10</strong> or <strong>{vAddress}</strong></dd>
+<dt>Sample Usage</dt><dd>A1 or B10 or {vAddress}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -173,7 +173,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelSetCellCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

@@ -36,7 +36,7 @@ Use this command when you want to Format DateTime Text.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>{vDateTime}</strong></dd>
+<dt>Sample Usage</dt><dd>{vDateTime}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,7 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>MM/dd/yyyy</strong> or <strong>HH:mm:ss</strong> or {vFormat}</dd>
+<dt>Sample Usage</dt><dd>MM/dd/yyyy or HH:mm:ss or {vFormat}</dd>
 <dt>Remarks</dt><dd>Please refer to the Microsoft DateTime.ToString() page for format details</dd>
 </dl>
 
@@ -102,7 +102,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -150,7 +150,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: FormatDateTimeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

@@ -38,7 +38,7 @@ Use this command when you want to create Color.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vColor</strong> or <strong>{vColor}</strong></dd>
+<dt>Sample Usage</dt><dd>vColor or {vColor}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -71,7 +71,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>255</strong> or <strong>{vRed}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 255 or {vRed}</dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
@@ -105,7 +105,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>255</strong> or <strong>{vGreen}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 255 or {vGreen}</dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
@@ -139,7 +139,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 255</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>255</strong> or <strong>{vBlue}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 255 or {vBlue}</dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255</dd>
 </dl>
 
@@ -172,7 +172,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li><strong>Not</strong> Between 0 to 255</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>255</strong> or <strong>{vAlpha}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 255 or {vAlpha}</dd>
 <dt>Remarks</dt><dd>Values range from 0 to 255<br><br>
 <strong>Optional</strong><br>Default Value is <strong>255</strong></dd>
 </dl>
@@ -222,7 +222,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateColorCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

@@ -38,7 +38,7 @@ Use this command when you want to open an existing Excel Workbook.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>RPAExcel</strong> or <strong>{vInstance}</strong></dd>
+<dt>Sample Usage</dt><dd>RPAExcel or {vInstance}</dd>
 <dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
@@ -71,7 +71,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 </ul></dd>
 <dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance Required</li><li>Support Extensions: xlsx,xlsm,xls,xlm,csv,ods</li><li>FileCounter Variable Support: No Support</li></ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vFilePath}</strong></dd>
+<dt>Sample Usage</dt><dd>C:\temp\myfile.xlsx or {vFilePath}</dd>
 <dt>Remarks</dt><dd>If file does not contain extension, supplement extensions supported by Excel.
 If file does not contain folder path, file will be opened in the same folder as script file.</dd>
 </dl>
@@ -101,7 +101,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Excel Password</dd>
-<dt>Sample Usage</dt><dd><strong>myPassword</strong> or <strong>{vPassword}</strong></dd>
+<dt>Sample Usage</dt><dd>myPassword or {vPassword}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -162,7 +162,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>10</strong> or <strong>{vWaitTime}</strong></dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the File is not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
 </dl>
@@ -211,7 +211,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: ExcelOpenWorkbookCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

@@ -36,7 +36,7 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>TOM-PC</strong> or <strong>{vMachine}</strong></dd>
+<dt>Sample Usage</dt><dd>TOM-PC or {vMachine}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -68,7 +68,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>tom</strong> or <strong>{vUser}</strong></dd>
+<dt>Sample Usage</dt><dd>tom or {vUser}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Password</dd>
-<dt>Sample Usage</dt><dd><strong>mySecretPass</strong> or <strong>{vPass}</strong></dd>
+<dt>Sample Usage</dt><dd>mySecretPass or {vPass}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -130,7 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Less than Zero</li>
 <li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>1024</strong> or <strong>{vWidth}</strong></dd>
+<dt>Sample Usage</dt><dd>1024 or {vWidth}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Primary Monitor Size</strong></dd>
 </dl>
 
@@ -163,7 +163,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Less than Zero</li>
 <li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>768</strong> or <strong>{vHeight}</strong></dd>
+<dt>Sample Usage</dt><dd>768 or {vHeight}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Primary Monitor Size</strong></dd>
 </dl>
 
@@ -211,7 +211,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: LaunchRemoteDesktopCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

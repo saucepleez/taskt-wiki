@@ -35,7 +35,7 @@ This command convert a JSON array to a list.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+<dt>Sample Usage</dt><dd>vList or {vList}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vJSON</strong> or <strong>{vJSON}</strong></dd>
+<dt>Sample Usage</dt><dd>vJSON or {vJSON}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -117,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertListToJSONCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

@@ -36,7 +36,7 @@ Use this command when you want to get a run a specific macro in the Excel workbo
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>RPAExcel</strong> or <strong>{vInstance}</strong></dd>
+<dt>Sample Usage</dt><dd>RPAExcel or {vInstance}</dd>
 <dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
@@ -68,7 +68,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Macro1</strong> or <strong>Module1.Macro1</strong> or <strong>{vMacro}</strong></dd>
+<dt>Sample Usage</dt><dd>Macro1 or Module1.Macro1 or {vMacro}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -98,7 +98,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter the value of the macro argument</dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>Hello</strong> or <strong>{vArgument}</strong></dd>
+<dt>Sample Usage</dt><dd>1 or Hello or {vArgument}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -139,7 +139,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelRunMacroCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

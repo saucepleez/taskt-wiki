@@ -37,7 +37,7 @@ Use this command when you want to load a config file.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>myDictionary</strong> or <strong>{vDictionary}</strong></dd>
+<dt>Sample Usage</dt><dd>myDictionary or {vDictionary}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -62,7 +62,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vFilePath}</strong></dd>
+<dt>Sample Usage</dt><dd>C:\temp\myfile.xlsx or {vFilePath}</dd>
 <dt>Remarks</dt><dd>If file does not contain extension, supplement extensions supported by Excel.
 If file does not contain folder path, file will be opened in the same folder as script file.</dd>
 </dl>
@@ -88,7 +88,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Sheet1</strong> or <strong>{vSheet}</strong></dd>
+<dt>Sample Usage</dt><dd>Sheet1 or {vSheet}</dd>
 <dt>Remarks</dt><dd>Sheet has one table</dd>
 </dl>
 
@@ -113,7 +113,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Key</strong> or <strong>{vKeyColumn}</strong></dd>
+<dt>Sample Usage</dt><dd>Key or {vKeyColumn}</dd>
 <dt>Remarks</dt><dd>This value is NOT Column Index Value like A, B. Please specify table column name.</dd>
 </dl>
 
@@ -138,7 +138,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Value</strong> or <strong>{vValueColumn}</strong></dd>
+<dt>Sample Usage</dt><dd>Value or {vValueColumn}</dd>
 <dt>Remarks</dt><dd>This value is NOT Column Index Value like A, B. Please specify table column name.</dd>
 </dl>
 
@@ -179,7 +179,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: LoadDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

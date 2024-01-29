@@ -35,7 +35,7 @@ Use this command when you want to create DateTime from Text.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vDateTime</strong> or <strong>{vDateTime}</strong></dd>
+<dt>Sample Usage</dt><dd>vDateTime or {vDateTime}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,7 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>2000-01-01</strong> or <strong>{vText}}</strong></dd>
+<dt>Sample Usage</dt><dd>2000-01-01 or {vText}}</dd>
 <dt>Remarks</dt><dd>Recommended to Disable the Auto Calculation</dd>
 </dl>
 
@@ -115,7 +115,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateDateTimeFromTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

@@ -39,7 +39,7 @@ Use this command to start applications by entering their name such as 'chrome.ex
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>notepad</strong> or <strong>C:\Apps\myapp.exe</strong> or <strong>{vPath}</strong></dd>
+<dt>Sample Usage</dt><dd>notepad or C:\Apps\myapp.exe or {vPath}</dd>
 <dt>Remarks</dt><dd>Provide a valid program name or enter a full path to the script/executable including the extension.
 If file does not contain folder path, this command do not supplement folder path.</dd>
 </dl>
@@ -70,7 +70,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Arguments</dd>
-<dt>Sample Usage</dt><dd><strong>-a</strong> or <strong>-verswion</strong> or <strong>{vArgs}</strong></dd>
+<dt>Sample Usage</dt><dd>-a or -verswion or {vArgs}</dd>
 <dt>Remarks</dt><dd>You will need to consult documentation to determine if your executable supports arguments or flags on startup.<br><br>
 <strong>Optional</strong><br></dd>
 </dl>
@@ -126,7 +126,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -157,7 +157,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -188,7 +188,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>WindowHandle Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd><strong>vHandle</strong> or <strong>{vHandle}</strong></dd>
+<dt>Sample Usage</dt><dd>vHandle or {vHandle}</dd>
 <dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
 <strong>Optional</strong><br></dd>
 </dl>
@@ -219,7 +219,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Numerical Value</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>{vValue}</strong></dd>
+<dt>Sample Usage</dt><dd>1 or {vValue}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>2000</strong></dd>
 </dl>
 
@@ -249,7 +249,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Numerical Value</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>{vValue}</strong></dd>
+<dt>Sample Usage</dt><dd>1 or {vValue}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>2000</strong></dd>
 </dl>
 
@@ -297,7 +297,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: StartApplicationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

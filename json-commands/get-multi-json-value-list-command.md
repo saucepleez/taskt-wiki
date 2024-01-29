@@ -34,7 +34,7 @@ Use this command when you want to extract data from a JSON object
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>{ &quot;id&quot;: 123, &quot;name&quot;: &quot;john&quot; }</strong> or <strong>{vJSONVariable}</strong></dd>
+<dt>Sample Usage</dt><dd>{ &quot;id&quot;: 123, &quot;name&quot;: &quot;john&quot; } or {vJSONVariable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -97,7 +97,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetMultiJSONValueListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

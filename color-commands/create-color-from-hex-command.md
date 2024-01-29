@@ -35,7 +35,7 @@ Use this command when you want to create Color from HEX.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vColor</strong> or <strong>{vColor}</strong></dd>
+<dt>Sample Usage</dt><dd>vColor or {vColor}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,7 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>#ff22bb</strong> or <strong>ff22bb</strong> or <strong>{vHex}</strong></dd>
+<dt>Sample Usage</dt><dd>#ff22bb or ff22bb or {vHex}</dd>
 <dt>Remarks</dt><dd>Please specify a 6-digit Hexadecimal number</dd>
 </dl>
 
@@ -116,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateColorFromHexCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

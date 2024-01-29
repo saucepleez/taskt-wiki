@@ -31,7 +31,7 @@ Use this command when you want to add a datarow to a DataTable.
 <dl>
 <dt>What to input</dt><dd>Enter a existing DataTable to add rows to.</dd>
 <dt>Instance Type</dt><dd>DataTable</dd>
-<dt>Sample Usage</dt><dd><strong>myDataTable</strong> or <strong>{vMyDataTable}</strong></dd>
+<dt>Sample Usage</dt><dd>myDataTable or {vMyDataTable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -94,7 +94,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: AddDataRowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

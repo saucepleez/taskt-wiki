@@ -37,7 +37,7 @@ Use this command when you want to concatenate two Dictionaries.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vDictionary1</strong> or <strong>{vDictionary1}</strong></dd>
+<dt>Sample Usage</dt><dd>vDictionary1 or {vDictionary1}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -71,7 +71,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vDictionary2</strong> or <strong>{vDictionary2}</strong></dd>
+<dt>Sample Usage</dt><dd>vDictionary2 or {vDictionary2}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -136,7 +136,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vNewDictionary</strong> or <strong>{vNewDictionary}</strong></dd>
+<dt>Sample Usage</dt><dd>vNewDictionary or {vNewDictionary}</dd>
 <dt>Remarks</dt><dd>Concatenate Dictionary 1, Dictionary 2 in that order</dd>
 </dl>
 
@@ -184,7 +184,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

@@ -32,7 +32,7 @@ Use this command to close an application by its name such as 'chrome'. Alternati
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>notepad</strong> or <strong>myapp</strong> or <strong>{vProcess}</strong></dd>
+<dt>Sample Usage</dt><dd>notepad or myapp or {vProcess}</dd>
 <dt>Remarks</dt><dd>Provide the <strong>Program Process Name</strong> as it appears as a process in Windows Task Manager, <strong>NOT</strong> Window Name. The program name may vary from the actual process name.  You can use Thick App commands instead to close an application window.</dd>
 </dl>
 
@@ -81,7 +81,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: StopApplicationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

@@ -36,7 +36,7 @@ Use this command when you want to concatenate 2 lists.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vList1</strong> or <strong>{vList1}</strong></dd>
+<dt>Sample Usage</dt><dd>vList1 or {vList1}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -70,7 +70,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vList2</strong> or <strong>{vList2}</strong></dd>
+<dt>Sample Usage</dt><dd>vList2 or {vList2}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -104,7 +104,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vNewList</strong> or <strong>{vNewList}</strong></dd>
+<dt>Sample Usage</dt><dd>vNewList or {vNewList}</dd>
 <dt>Remarks</dt><dd>Concatenate List1, List2 in that order</dd>
 </dl>
 
@@ -152,7 +152,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConcatenateListsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

@@ -36,7 +36,7 @@ Use this command when you want to open an existing Word Document.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>RPAWord</strong> or <strong>{vInstance}</strong></dd>
+<dt>Sample Usage</dt><dd>RPAWord or {vInstance}</dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Word</strong> command will cause an error</dd>
 </dl>
 
@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 </ul></dd>
 <dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance Required</li><li>Support Extensions: docx,docm,doc,odt,rtf</li><li>FileCounter Variable Support: No Support</li></ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.docx</strong> or <strong>{vPath}</strong></dd>
+<dt>Sample Usage</dt><dd>C:\temp\myfile.docx or {vPath}</dd>
 <dt>Remarks</dt><dd>If file does not contain extensin, supplement extentions supported by Word.
 If file does not contain folder path, file will be opened in the same folder as script file.</dd>
 </dl>
@@ -100,7 +100,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>10</strong> or <strong>{vWaitTime}</strong></dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the File is not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
 </dl>
@@ -149,7 +149,7 @@ If file does not contain folder path, file will be opened in the same folder as 
 ## Developer/Additional Reference
 Automation Class Name: WordOpenDocumentCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

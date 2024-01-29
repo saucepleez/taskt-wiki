@@ -30,7 +30,7 @@ Use this command when you want to present or display a value on screen to the us
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Message</dd>
-<dt>Sample Usage</dt><dd><strong>Hello World</strong> or <strong>{vText}</strong></dd>
+<dt>Sample Usage</dt><dd>Hello World or {vText}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -59,7 +59,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>0</strong> or <strong>{vTime}</strong></dd>
+<dt>Sample Usage</dt><dd>1 or 0 or {vTime}</dd>
 <dt>Remarks</dt><dd>Specify how many seconds to display on screen.After the amount of seconds passes, the message box will be automatically closed and script will resume execution. <strong>0</strong> to remain open indefinitely or <strong>5</strong> to stay open for 5 seconds.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
@@ -109,7 +109,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ShowMessageCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

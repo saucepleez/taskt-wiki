@@ -21,11 +21,15 @@ Use this command when you want to take and save a screenshot.
 ## Command Parameters
 - [Please Select the Window Name](#param_0)
 - [Please Specify the Image File Path](#param_1)
-- [Optional - Please Select the Search Method for the Window Name](#param_2)
-- [Optional - Please Select the Match Method for the Window Name](#param_3)
-- [Optional - Please Specify the Window Index](#param_4)
-- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [Optional - Please Select the Activate Window Before Capture](#param_2)
+- [Optional - Please Specify the Wait Time before Capture](#param_3)
+- [Optional - Please Select the Compare Method for the Window Name](#param_4)
+- [Optional - Please Select the Match Method for the Window Name](#param_5)
+- [Optional - Please Specify the Window Index](#param_6)
+- [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_7)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_8)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_9)
+- [Optional - Please Specify the Comment Field](#param_10)
 
 
 <a id="param_0"></a>
@@ -38,7 +42,7 @@ Use this command when you want to take and save a screenshot.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindow}</strong></dd>
+<dt>Sample Usage</dt><dd>Untitled - Notepad or {Window.CurrentWindowName} or {vWindow}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -73,7 +77,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 </ul></dd>
 <dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance <string>Not</string> Required</li><li>Support Extensions: </li><li>FileCounter Variable Support: Number **Not** Found First</li></ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\myimages.png</strong> or <strong>{vFilePath}</strong></dd>
+<dt>Sample Usage</dt><dd>C:\temp\myimages.png or {vFilePath}</dd>
 <dt>Remarks</dt><dd>If file does not contain extensin, suppliment png extension.
 If file does not contain folder path, file will be saved in the same folder as script file.
 If file path contains FileCounter variable, it will be replaced by a number that will become the name of a non-existent file.</dd>
@@ -99,14 +103,14 @@ If file path contains FileCounter variable, it will be replaced by a number that
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Search Method for the Window Name
+### Optional - Please Select the Activate Window Before Capture
 
 
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong></dd>
-<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
 </dl>
 
 
@@ -122,6 +126,51 @@ If file path contains FileCounter variable, it will be replaced by a number that
 
 
 <a id="param_3"></a>
+### Optional - Please Specify the Wait Time before Capture
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>500</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
+### Optional - Please Select the Compare Method for the Window Name
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong> or  <strong>Exact match</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Optional - Please Select the Match Method for the Window Name
 
 
@@ -147,19 +196,19 @@ If file path contains FileCounter variable, it will be replaced by a number that
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
 
 
 </div>
 
 
-<a id="param_4"></a>
+<a id="param_6"></a>
 ### Optional - Please Specify the Window Index
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Window Index</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 1 or {vIndex}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
@@ -177,19 +226,19 @@ If file path contains FileCounter variable, it will be replaced by a number that
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / [next](#param_5)
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
 
 
 </div>
 
 
-<a id="param_5"></a>
+<a id="param_7"></a>
 ### Optional - Please Specify the Wait Time for the Window to Exist (sec)
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
-<dt>Sample Usage</dt><dd><strong>60</strong> or <strong>{vTime}</strong></dd>
+<dt>Sample Usage</dt><dd>60 or {vTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
 </dl>
@@ -207,13 +256,77 @@ If file path contains FileCounter variable, it will be replaced by a number that
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_5) / [list](#param_list) / [next](#param_6)
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
 
 
 </div>
 
 
-<a id="param_6"></a>
+<a id="param_8"></a>
+### Optional - Please Select the Variable Name to Store Window Name Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vWin or {vWin}</dd>
+<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
+<strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vWin</strong> | Specify Variable Name **vWin** |
+| <strong>{vWin}</strong> | Specify Variable Name **vWin** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_8) / [list](#param_list) / [next](#param_9)
+
+
+</div>
+
+
+<a id="param_9"></a>
+### Optional - Please Select the Variable Name to Store Window Handle Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>WindowHandle Variable</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vHandle or {vHandle}</dd>
+<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
+<strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vHandle</strong> | Specify Variable Name **vHandle** |
+| <strong>{vHandle}</strong> | Specify Variable Name **vHandle** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_9) / [list](#param_list) / [next](#param_10)
+
+
+</div>
+
+
+<a id="param_10"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -229,7 +342,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / next
+[prev](#param_10) / [list](#param_list) / next
 
 
 </div>
@@ -238,7 +351,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 ## Developer/Additional Reference
 Automation Class Name: TakeScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

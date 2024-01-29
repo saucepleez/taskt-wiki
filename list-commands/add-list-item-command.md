@@ -35,7 +35,7 @@ Use this command when you want to add list item.  You can even use variables to 
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+<dt>Sample Usage</dt><dd>vList or {vList}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -64,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd><strong>Hello</strong> or <strong>{vValue}</strong></dd>
+<dt>Sample Usage</dt><dd>Hello or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -112,7 +112,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: AddListItemCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

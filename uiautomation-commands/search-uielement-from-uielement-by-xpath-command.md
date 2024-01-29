@@ -37,7 +37,7 @@ This command allows you to get UIElement from UIElement using by XPath.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vElement</strong> or <strong>{vElement}</strong></dd>
+<dt>Sample Usage</dt><dd>vElement or {vElement}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -104,7 +104,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vNewElement</strong> or <strong>{vNewElement}</strong></dd>
+<dt>Sample Usage</dt><dd>vNewElement or {vNewElement}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -133,7 +133,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
-<dt>Sample Usage</dt><dd><strong>10</strong> or <strong>{vTime}</strong></dd>
+<dt>Sample Usage</dt><dd>10 or {vTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the UIElement is Not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
 </dl>
@@ -182,7 +182,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSearchUIElementFromUIElementByXPathCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

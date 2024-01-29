@@ -70,7 +70,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 </ul></dd>
 <dt>File Path Setting</dt><dd><ul><li>Allow URL: No</li><li>File Extension and Existance: Extension Required, Existance <string>Not</string> Required</li><li>Support Extensions: lnk,url</li><li>FileCounter Variable Support: No Support</li></ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\shortcut.lnk</strong> or <strong>C:\temp\shortcut.url</strong> or <strong>{vShortcut}</strong></dd>
+<dt>Sample Usage</dt><dd>C:\temp\shortcut.lnk or C:\temp\shortcut.url or {vShortcut}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -141,7 +141,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateShortcutCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

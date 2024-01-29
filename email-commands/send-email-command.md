@@ -43,7 +43,7 @@ Use this command when you want to send an EMail and have access to SMTP server c
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>mail.example.com</strong> or <strong>{vHost}</strong> or <strong>smtp.example.com</strong></dd>
+<dt>Sample Usage</dt><dd>mail.example.com or {vHost} or smtp.example.com</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -77,7 +77,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Empty</li>
 <li><strong>Not</strong> Between 0 to 65535</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>25</strong> or <strong>587</strong> or <strong>{vPort}</strong></dd>
+<dt>Sample Usage</dt><dd>25 or 587 or {vPort}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -107,7 +107,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Username</dd>
-<dt>Sample Usage</dt><dd><strong>john</strong> or <strong>john@example.com</strong> or <strong>{vUser}</strong></dd>
+<dt>Sample Usage</dt><dd>john or john@example.com or {vUser}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -140,7 +140,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>password</strong> or <strong>{vPass}</strong></dd>
+<dt>Sample Usage</dt><dd>password or {vPass}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -172,7 +172,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>my-robot@example.com</strong> or <strong>{vAddress}</strong></dd>
+<dt>Sample Usage</dt><dd>my-robot@example.com or {vAddress}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -204,7 +204,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>my-robot@example.com</strong> or <strong>{vAddress}</strong></dd>
+<dt>Sample Usage</dt><dd>my-robot@example.com or {vAddress}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -233,7 +233,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the EMail Address</dd>
-<dt>Sample Usage</dt><dd><strong>my-robot@example.com</strong> or <strong>{vAddress}</strong></dd>
+<dt>Sample Usage</dt><dd>my-robot@example.com or {vAddress}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -262,7 +262,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the EMail Address</dd>
-<dt>Sample Usage</dt><dd><strong>my-robot@example.com</strong> or <strong>{vAddress}</strong></dd>
+<dt>Sample Usage</dt><dd>my-robot@example.com or {vAddress}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -291,7 +291,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the EMail Subject</dd>
-<dt>Sample Usage</dt><dd><strong>Alert!</strong> or <strong>{vSubject}</strong></dd>
+<dt>Sample Usage</dt><dd>Alert! or {vSubject}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -320,7 +320,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Message</dd>
-<dt>Sample Usage</dt><dd><strong>Everything ran ok at {DateTime.Now}</strong> or <strong>{vMessage}</strong></dd>
+<dt>Sample Usage</dt><dd>Everything ran ok at {DateTime.Now} or {vMessage}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -349,7 +349,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the File Path</dd>
-<dt>Sample Usage</dt><dd><strong>C:	emp\myfile.txt</strong> or <strong>{vPath}</strong></dd>
+<dt>Sample Usage</dt><dd>C:	emp\myfile.txt or {vPath}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -420,7 +420,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitSendEMailCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

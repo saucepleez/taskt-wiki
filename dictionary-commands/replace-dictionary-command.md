@@ -38,7 +38,7 @@ Use this command when you want to relpace Dictionary value.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vDictionary</strong> or <strong>{vDictionary}</strong></dd>
+<dt>Sample Usage</dt><dd>vDictionary or {vDictionary}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -148,7 +148,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Replace Value</dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>a</strong> or <strong>{vValue}</strong></dd>
+<dt>Sample Usage</dt><dd>1 or a or {vValue}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Empty</strong></dd>
 </dl>
 
@@ -197,7 +197,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ReplaceDictionaryCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

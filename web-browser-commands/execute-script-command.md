@@ -39,7 +39,7 @@ This command allows you to execute a script in a Selenium web browser session.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>RPABrowser</strong> or <strong>{vInstance}</strong></dd>
+<dt>Sample Usage</dt><dd>RPABrowser or {vInstance}</dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Broser</strong> command will cause an error</dd>
 </dl>
 
@@ -101,7 +101,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>return (2);</strong> or <strong>c:\js\mycode.js</strong> or <strong>{vCode}</strong></dd>
+<dt>Sample Usage</dt><dd>return (2); or c:\js\mycode.js or {vCode}</dd>
 <dt>Remarks</dt><dd>When Selected <strong>Code</strong>, plese Enter the JavaScript Code.
 When Selected <strong>File</strong>, please Enter the JavaScript File Path.</dd>
 </dl>
@@ -132,7 +132,7 @@ When Selected <strong>File</strong>, please Enter the JavaScript File Path.</dd>
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Timeout in Seconds</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>10</strong> or <strong>{vWaitTime}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 10 or {vWaitTime}</dd>
 <dt>Remarks</dt><dd>When Value is Less Than or Equals to <strong>0</strong>, this means Waiting until JavaScript is finished.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
@@ -163,7 +163,7 @@ When Selected <strong>File</strong>, please Enter the JavaScript File Path.</dd>
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Argument</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>{vValue}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or {vValue}</dd>
 <dt>Remarks</dt><dd>The value of the argument can be obtained with 'arguments[0]' in code.<br><br>
 <strong>Optional</strong><br></dd>
 </dl>
@@ -195,7 +195,7 @@ When Selected <strong>File</strong>, please Enter the JavaScript File Path.</dd>
 <dt>What to input</dt><dd>(nothing)</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -243,7 +243,7 @@ When Selected <strong>File</strong>, please Enter the JavaScript File Path.</dd>
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserExecuteScriptCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

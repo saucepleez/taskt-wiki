@@ -21,11 +21,13 @@ This command allows you to get UIElement from Window Name using by XPath.
 ## Command Parameters
 - [Please Select the Window Name](#param_0)
 - [Please Select the UIElement Variable Name](#param_1)
-- [Optional - Please Select the Search Method for the Window Name](#param_2)
+- [Optional - Please Select the Compare Method for the Window Name](#param_2)
 - [Optional - Please Select the Match Method for the Window Name](#param_3)
 - [Optional - Please Specify the Window Index](#param_4)
 - [Optional - Please Specify the Wait Time for the Window to Exist (sec)](#param_5)
-- [Optional - Please Specify the Comment Field](#param_6)
+- [Optional - Please Select the Variable Name to Store Window Name Result](#param_6)
+- [Optional - Please Select the Variable Name to Store Window Handle Result](#param_7)
+- [Optional - Please Specify the Comment Field](#param_8)
 
 
 <a id="param_0"></a>
@@ -38,7 +40,7 @@ This command allows you to get UIElement from Window Name using by XPath.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindow}</strong></dd>
+<dt>Sample Usage</dt><dd>Untitled - Notepad or {Window.CurrentWindowName} or {vWindow}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -73,7 +75,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vElement</strong> or <strong>{vElement}</strong></dd>
+<dt>Sample Usage</dt><dd>vElement or {vElement}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -97,7 +99,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Search Method for the Window Name
+### Optional - Please Select the Compare Method for the Window Name
 
 
 <dl>
@@ -157,7 +159,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Window Index</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 1 or {vIndex}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
@@ -187,7 +189,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
-<dt>Sample Usage</dt><dd><strong>60</strong> or <strong>{vTime}</strong></dd>
+<dt>Sample Usage</dt><dd>60 or {vTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
 </dl>
@@ -212,6 +214,70 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_6"></a>
+### Optional - Please Select the Variable Name to Store Window Name Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vWin or {vWin}</dd>
+<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
+<strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vWin</strong> | Specify Variable Name **vWin** |
+| <strong>{vWin}</strong> | Specify Variable Name **vWin** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / [next](#param_7)
+
+
+</div>
+
+
+<a id="param_7"></a>
+### Optional - Please Select the Variable Name to Store Window Handle Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>WindowHandle Variable</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Sample Usage</dt><dd>vHandle or {vHandle}</dd>
+<dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
+<strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vHandle</strong> | Specify Variable Name **vHandle** |
+| <strong>{vHandle}</strong> | Specify Variable Name **vHandle** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_7) / [list](#param_list) / [next](#param_8)
+
+
+</div>
+
+
+<a id="param_8"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -227,7 +293,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_6) / [list](#param_list) / next
+[prev](#param_8) / [list](#param_list) / next
 
 
 </div>
@@ -236,7 +302,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationSearchUIElementFromWindowCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

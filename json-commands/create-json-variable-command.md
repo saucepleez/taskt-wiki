@@ -35,7 +35,7 @@ This command allows you to create JSON Variable.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vJSON</strong> or <strong>{vJSON}</strong></dd>
+<dt>Sample Usage</dt><dd>vJSON or {vJSON}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -64,7 +64,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd><strong>{ &quot;id&quot;: 1, &quot;name&quot;: &quot;John&quot; }</strong> or <strong>[ 1, 2, &quot;Hello&quot; ]</strong> or <strong>{vJSONValue}</strong></dd>
+<dt>Sample Usage</dt><dd>{ &quot;id&quot;: 1, &quot;name&quot;: &quot;John&quot; } or [ 1, 2, &quot;Hello&quot; ] or {vJSONValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -113,7 +113,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: CreateJSONVariableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

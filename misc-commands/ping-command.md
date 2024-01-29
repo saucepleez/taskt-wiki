@@ -33,7 +33,7 @@ Use this command when you want to add code comments or document code.  Usage of 
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>192.168.0.1</strong> or <strong>http://example.com</strong> or <strong>{vHost}</strong></dd>
+<dt>Sample Usage</dt><dd>192.168.0.1 or http://example.com or {vHost}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -68,7 +68,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>The result is PingRelay class converted to JSON format.</dd>
 </dl>
 
@@ -116,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: PingCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

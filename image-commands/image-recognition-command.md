@@ -82,7 +82,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Offset X</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vXOffset}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 100 or {vXOffset}</dd>
 <dt>Remarks</dt><dd>This will move the mouse X pixels to the right of the location of the image<br><br>
 <strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
@@ -113,7 +113,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Offset Y</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vYOffset}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 100 or {vYOffset}</dd>
 <dt>Remarks</dt><dd>This will move the mouse Y pixels down from the top of the location of the image<br><br>
 <strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
@@ -144,7 +144,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Timeout Length</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>30</strong> or <strong>{vTimeout}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 30 or {vTimeout}</dd>
 <dt>Remarks</dt><dd>Search times become excessive for colors such as white. For best results, capture a large color variance on screen, not just a white block.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>30</strong></dd>
 </dl>
@@ -194,7 +194,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ImageRecognitionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

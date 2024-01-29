@@ -21,7 +21,8 @@ Use this command to simulate multiple types of mouse clicks.
 ## Command Parameters
 - [Please Select the Mouse Click Type](#param_0)
 - [Optional - Please Specify the Wait Time after Mouse Click (ms)](#param_1)
-- [Optional - Please Specify the Comment Field](#param_2)
+- [Optional - Please Select the Ignore Wait Time When Click Type is 'None'](#param_2)
+- [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
@@ -60,7 +61,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Less than Zero</li>
 <li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>500</strong> or <strong>{vWaitTime}</strong></dd>
+<dt>Sample Usage</dt><dd>500 or {vWaitTime}</dd>
 <dt>Remarks</dt><dd>When the Wait Time is less than <strong>100</strong> is specified, it will be <strong>100</strong><br><br>
 <strong>Optional</strong><br>Default Value is <strong>500</strong></dd>
 </dl>
@@ -85,6 +86,29 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
+### Optional - Please Select the Ignore Wait Time When Click Type is 'None'
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>No</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -100,7 +124,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / next
+[prev](#param_3) / [list](#param_list) / next
 
 
 </div>
@@ -109,7 +133,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ClickMouseCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

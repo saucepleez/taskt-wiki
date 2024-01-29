@@ -41,7 +41,7 @@ Use this command when you want to get Range values as DataTable.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>RPAExcel</strong> or <strong>{vInstance}</strong></dd>
+<dt>Sample Usage</dt><dd>RPAExcel or {vInstance}</dd>
 <dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
 </dl>
 
@@ -105,7 +105,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Less than Zero</li>
 <li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>A</strong> or <strong>1</strong> or <strong>{vColumn}</strong></dd>
+<dt>Sample Usage</dt><dd>A or 1 or {vColumn}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -135,7 +135,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Column Location or Index</dd>
-<dt>Sample Usage</dt><dd><strong>A</strong> or <strong>1</strong> or <strong>{vColumn}</strong></dd>
+<dt>Sample Usage</dt><dd>A or 1 or {vColumn}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Last Column</strong></dd>
 </dl>
 
@@ -165,7 +165,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Start Row</dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>2</strong> or <strong>{vRow}</strong></dd>
+<dt>Sample Usage</dt><dd>1 or 2 or {vRow}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -195,7 +195,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the End Row</dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>2</strong> or <strong>{vRow}</strong></dd>
+<dt>Sample Usage</dt><dd>1 or 2 or {vRow}</dd>
 <dt>Remarks</dt><dd>When End Row Index is Empty, Automatically specifies the Last Row where values are entered consecutively<br><br>
 <strong>Optional</strong><br>Default Value is <strong>Last Row</strong></dd>
 </dl>
@@ -231,7 +231,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vDataTable</strong> or <strong>{vDataTable}</strong></dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -312,7 +312,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetRangeValuesAsDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

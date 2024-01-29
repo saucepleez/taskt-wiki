@@ -35,7 +35,7 @@ Use this command when you want to save EMail Attachments.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vEMailName</strong> or <strong>{vEMailName}</strong></dd>
+<dt>Sample Usage</dt><dd>vEMailName or {vEMailName}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,7 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\Temp</strong> or <strong>{vPath}</strong></dd>
+<dt>Sample Usage</dt><dd>C:\Temp or {vPath}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -115,7 +115,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MailKitSaveEMailAttachmentsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

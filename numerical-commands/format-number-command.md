@@ -35,7 +35,7 @@ Use this command when you want to Format Number.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>1</strong> or <strong>{vValue}</strong></dd>
+<dt>Sample Usage</dt><dd>1 or {vValue}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,7 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0.#</strong> or <strong>C</strong> or <strong>{vFormat}</strong></dd>
+<dt>Sample Usage</dt><dd>0.# or C or {vFormat}</dd>
 <dt>Remarks</dt><dd>For more detailed information, please refer to this URL.
 https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings
 https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings</dd>
@@ -104,7 +104,7 @@ https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-fo
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -152,7 +152,7 @@ https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-fo
 ## Developer/Additional Reference
 Automation Class Name: FormatNumberCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

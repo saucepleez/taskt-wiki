@@ -36,7 +36,7 @@ Use this command when you want to create a browser that will eventually perform 
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>RPABrowser</strong> or <strong>{vInstance}</strong></dd>
+<dt>Sample Usage</dt><dd>RPABrowser or {vInstance}</dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Broser</strong> command will cause an error</dd>
 </dl>
 
@@ -101,7 +101,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>Index: <strong>0</strong> or <strong>{vIndex}</strong>, Name/ID: <strong>top</strong> or <strong>{vName}</strong></dd>
+<dt>Sample Usage</dt><dd>Index: 0 or {vIndex}, Name/ID: top or {vName}</dd>
 <dt>Remarks</dt><dd>If Frame Type is <strong>Index</strong> or <strong>Name of ID</strong>, please enter. If Frame Type is <strong>Index</strong>, default index is <strong>0</strong>.<br><br>
 <strong>Optional</strong><br></dd>
 </dl>
@@ -143,7 +143,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserSwitchWebBrowserFrameCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

@@ -37,7 +37,7 @@ Use this command when you want to quickly iterate over Excel as a dataset.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vMyDataset</strong> or <strong>{vMyDataset}</strong></dd>
+<dt>Sample Usage</dt><dd>vMyDataset or {vMyDataset}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -62,7 +62,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.xlsx</strong> or <strong>{vFilePath}</strong></dd>
+<dt>Sample Usage</dt><dd>C:\temp\myfile.xlsx or {vFilePath}</dd>
 <dt>Remarks</dt><dd>This command does not require Excel to be opened.  A snapshot will be taken of the workbook as it exists at the time this command runs.</dd>
 </dl>
 
@@ -87,7 +87,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Sheet1</strong> or <strong>mySheet</strong> or <strong>{vSheet}</strong></dd>
+<dt>Sample Usage</dt><dd>Sheet1 or mySheet or {vSheet}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -151,7 +151,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: LoadDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

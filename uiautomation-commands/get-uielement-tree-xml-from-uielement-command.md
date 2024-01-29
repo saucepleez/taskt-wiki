@@ -35,7 +35,7 @@ This command allows you to get UIElement Tree XML from UIElement.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vElement</strong> or <strong>{vElement}</strong></dd>
+<dt>Sample Usage</dt><dd>vElement or {vElement}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -68,7 +68,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vXML</strong> or <strong>{vXML}</strong></dd>
+<dt>Sample Usage</dt><dd>vXML or {vXML}</dd>
 <dt>Remarks</dt><dd>XML content is based on WinAppDriver UI Recorder.</dd>
 </dl>
 
@@ -116,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: UIAutomationGetUIElementTreeXMLFromUIElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

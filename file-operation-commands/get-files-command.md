@@ -38,7 +38,7 @@ Use this command to return a list of file paths from a specific location.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp</strong> or <strong>{vFilePath}</strong></dd>
+<dt>Sample Usage</dt><dd>C:\temp or {vFilePath}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -67,7 +67,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the File Name Filter</dd>
-<dt>Sample Usage</dt><dd><strong>hello</strong> or <strong>{vName}</strong></dd>
+<dt>Sample Usage</dt><dd>hello or {vName}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Empty and Search All Files</strong></dd>
 </dl>
 
@@ -119,7 +119,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Extention</dd>
-<dt>Sample Usage</dt><dd><strong>txt</strong> or <strong>{vExtension}</strong></dd>
+<dt>Sample Usage</dt><dd>txt or {vExtension}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Empty and Search All Files</strong></dd>
 </dl>
 
@@ -153,7 +153,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vList</strong> or <strong>{vList}</strong></dd>
+<dt>Sample Usage</dt><dd>vList or {vList}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -183,7 +183,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
-<dt>Sample Usage</dt><dd><strong>10</strong> or <strong>{vWaitTime}</strong></dd>
+<dt>Sample Usage</dt><dd>10 or {vWaitTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Folder is not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>10</strong></dd>
 </dl>
@@ -232,7 +232,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetFilesCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

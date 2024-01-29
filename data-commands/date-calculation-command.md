@@ -33,7 +33,7 @@ Use this command when you want to perform a date calculation.
 
 <dl>
 <dt>What to input</dt><dd>Specify either text or a variable that contains the start date.</dd>
-<dt>Sample Usage</dt><dd><strong>{DateTime.Now}</strong> or <strong>1/1/2000</strong></dd>
+<dt>Sample Usage</dt><dd>{DateTime.Now} or 1/1/2000</dd>
 <dt>Remarks</dt><dd>You can use known text or variables.</dd>
 </dl>
 
@@ -100,7 +100,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Specify if a specific string format is required.</dd>
-<dt>Sample Usage</dt><dd><strong>MM/dd/yy</strong> or <strong>hh:mm</strong> or etc.</dd>
+<dt>Sample Usage</dt><dd>MM/dd/yy or hh:mm or etc.</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -164,7 +164,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: DateCalculationCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

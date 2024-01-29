@@ -31,7 +31,7 @@ Data Commands &gt; PDF Extraction
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the path to the applicable file or enter file URL.</dd>
-<dt>Sample Usage</dt><dd><strong>C:\temp\myfile.pdf</strong> or *<em>{vFilePath}</em> or <strong>https://temp.com/myfile.pdf</strong></dd>
+<dt>Sample Usage</dt><dd>C:\temp\myfile.pdf or *{vFilePath} or https://temp.com/myfile.pdf</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -118,7 +118,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: PDFTextExtractionCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help

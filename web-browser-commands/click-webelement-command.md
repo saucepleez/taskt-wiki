@@ -40,7 +40,7 @@ Use this command when you want to Click to WebElement.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vElement</strong> or <strong>{vElement}</strong></dd>
+<dt>Sample Usage</dt><dd>vElement or {vElement}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -100,7 +100,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>RPABrowser</strong> or <strong>{vInstance}</strong></dd>
+<dt>Sample Usage</dt><dd>RPABrowser or {vInstance}</dd>
 <dt>Remarks</dt><dd>Failure to enter the correct instance name or failure to first call <strong>Create Broser</strong> command will cause an error<br><br>
 <strong>Optional</strong><br></dd>
 </dl>
@@ -130,7 +130,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Offset X</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vXOffset}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 100 or {vXOffset}</dd>
 <dt>Remarks</dt><dd>It is strongly recommended to Enter a value between <strong>10</strong> and <strong>20</strong> depending on your WebBrowser.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
@@ -161,7 +161,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Offset Y</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vYOffset}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 100 or {vYOffset}</dd>
 <dt>Remarks</dt><dd>It is strongly recommended to Enter a value between <strong>100</strong> and <strong>200</strong> depending on your WebBrowser.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
@@ -257,7 +257,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: SeleniumBrowserClickWebElementCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 01/29/24 10:47 PM
 
 
 ## Help
