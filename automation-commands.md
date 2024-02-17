@@ -157,53 +157,14 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Cell|[Append Cell](/excel-commands/append-cell-command.md)|Append input to last row of sheet into the first cell.|
-|Cell|[Check Cell Value Exists](/excel-commands/check-cell-value-exists-command.md)|This command checks existance value from a specified Excel Cell.|
-|Cell|[Check Cell Value Exists RC](/excel-commands/check-cell-value-exists-rc-command.md)|This command checks existance value from a specified Excel Cell.|
 |Cell|[Delete Cell](/excel-commands/delete-cell-command.md)|This command allows you to delete a specified cell in Excel|
-|Cell|[Get Cell](/excel-commands/get-cell-command.md)|This command gets text from a specified Excel Cell.|
-|Cell|[Get Cell RC](/excel-commands/get-cell-rc-command.md)|This command gets text from a specified Excel Cell.|
-|Cell|[Go To Cell](/excel-commands/go-to-cell-command.md)|This command moves to a specific cell.|
-|Cell|[Set Cell](/excel-commands/set-cell-command.md)|This command sets the value of a cell.|
-|Cell|[Set Cell RC](/excel-commands/set-cell-rc-command.md)|This command sets the value of a cell.|
-|Column|[Get Column Values As DataTable](/excel-commands/get-column-values-as-datatable-command.md)|This command get Column values as DataTable.|
-|Column|[Get Column Values As Dictionary](/excel-commands/get-column-values-as-dictionary-command.md)|This command get Column values as Dictionary.|
-|Column|[Get Column Values As List](/excel-commands/get-column-values-as-list-command.md)|This command get Column values as List.|
-|Column|[Set Column Values From DataTable](/excel-commands/set-column-values-from-datatable-command.md)|This command set Column values from DataTable.|
-|Column|[Set Column Values From Dictionary](/excel-commands/set-column-values-from-dictionary-command.md)|This command set Column values from Ditionary.|
-|Column|[Set Column Values From List](/excel-commands/set-column-values-from-list-command.md)|This command set Column values from List.|
-|File/Book|[Add Workbook](/excel-commands/add-workbook-command.md)|This command adds a new Excel Workbook.|
-|File/Book|[Open Workbook](/excel-commands/open-workbook-command.md)|This command opens an Excel Workbook.|
-|File/Book|[Save Workbook](/excel-commands/save-workbook-command.md)|This command allows you to save an Excel workbook.|
-|File/Book|[Save Workbook As](/excel-commands/save-workbook-as-command.md)|This command allows you to save an Excel workbook.|
-|Instance|[Check Excel Instance Exists](/excel-commands/check-excel-instance-exists-command.md)|This command returns existance of Excel instance.|
-|Instance|[Close Excel Instance](/excel-commands/close-excel-instance-command.md)|This command allows you to close Excel instance.|
-|Instance|[Create Excel Instance](/excel-commands/create-excel-instance-command.md)|This command opens the Excel Instance.|
-|Other|[Get Excel Info](/excel-commands/get-excel-info-command.md)|This command allows you to get current sheet name.|
-|Other|[Run Macro](/excel-commands/run-macro-command.md)|This command runs a macro.|
 |Range|[Get Range](/excel-commands/get-range-command.md)|This command gets text from a specified Excel Range.|
 |Range|[Get Range As Datatable](/excel-commands/get-range-as-datatable-command.md)|This command gets text from a specified Excel Range and put it into a DataTable.|
-|Range|[Get Range Values As DataTable](/excel-commands/get-range-values-as-datatable-command.md)|This command get Range values as DataTable.|
 |Range|[Split Range By Column](/excel-commands/split-range-by-column-command.md)|This command gets text from a specified Excel Range and splits it into separate ranges by column.|
 |Range|[Write Range](/excel-commands/write-range-command.md)|This command writes a datatable to an excel sheet starting from the given cell address.|
 |Row|[Append Row](/excel-commands/append-row-command.md)|Append to last row of sheet.|
 |Row|[Delete Row](/excel-commands/delete-row-command.md)|This command allows you to delete a specified row in Excel|
-|Row|[Get Last Row Index](/excel-commands/get-last-row-index-command.md)|This command allows you to find the last row in a used range in an Excel Workbook.|
-|Row|[Get Row Values As DataTable](/excel-commands/get-row-values-as-datatable-command.md)|This command get Row values as DataTable.|
-|Row|[Get Row Values As Dictionary](/excel-commands/get-row-values-as-dictionary-command.md)|This command get Row values as Dictionary.|
-|Row|[Get Row Values As List](/excel-commands/get-row-values-as-list-command.md)|This command get Row values as List.|
-|Row|[Set Row Values From DataTable](/excel-commands/set-row-values-from-datatable-command.md)|This command set Row values from DataTable.|
-|Row|[Set Row Values From Dictionary](/excel-commands/set-row-values-from-dictionary-command.md)|This command set Row values from Dictionary.|
-|Row|[Set Row Values From List](/excel-commands/set-row-values-from-list-command.md)|This command set Row values from List.|
 |Row|[Write Row](/excel-commands/write-row-command.md)|This command writes a DataRow to an excel sheet starting from the given cell address.|
-|Sheet|[Activate Sheet](/excel-commands/activate-sheet-command.md)|This command allows you to activate a specific worksheet in a workbook|
-|Sheet|[Add Worksheet](/excel-commands/add-worksheet-command.md)|This command adds a new Excel Worksheet.|
-|Sheet|[Check Worksheet Exists](/excel-commands/check-worksheet-exists-command.md)|This command allows you to check existance sheet|
-|Sheet|[Copy Worksheet](/excel-commands/copy-worksheet-command.md)|This command copy a Excel Worksheet.|
-|Sheet|[Delete Worksheet](/excel-commands/delete-worksheet-command.md)|This command delete a Excel Worksheet.|
-|Sheet|[Get Current Worksheet](/excel-commands/get-current-worksheet-command.md)|This command allows you to get current sheet name.|
-|Sheet|[Get Worksheet Info](/excel-commands/get-worksheet-info-command.md)|This command allows you to get a sheet info.|
-|Sheet|[Get Worksheets](/excel-commands/get-worksheets-command.md)|This command allows you to get a specific worksheet names|
-|Sheet|[Rename Worksheet](/excel-commands/rename-worksheet-command.md)|This command rename a Excel Worksheet.|
 ### File Operation Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -500,4 +461,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 02/04/24 11:26 AM
+This page was generated on 02/17/24 07:27 PM
