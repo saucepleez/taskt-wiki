@@ -10,17 +10,17 @@ Dictionary Commands &gt; Convert &gt; Convert Dictionary To DataTable
 
 
 ## What does this command do?
-This command allows you to get JSON from Dictionary
+This command allows you to convert Dictionary to DataTable
 
 
 ## When would I want to use this command?
-Use this command when you want to get JSON from Dictionary.
+Use this command when you want to convert Dictionary to DataTable.
 
 
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Dictionary Variable Name](#param_0)
-- [Please Select the JSON Variable Name](#param_1)
+- [Please Select the DataTable Variable Name](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
@@ -59,17 +59,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the JSON Variable Name
+### Please Select the DataTable Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the JSON <strong>Variable Name</strong></dd>
-<dt>Value</dt><dd>JSON Variable</dd>
+<dt>What to input</dt><dd>Enter or Select the DataTable Variable Name</dd>
+<dt>Value</dt><dd>DataTable Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vJSON or {vJSON}</dd>
+<dt>Sample Usage</dt><dd>vDataTable or {vDataTable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -79,8 +79,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vJSON</strong> | Specify Variable Name **vJSON** |
-| <strong>{vJSON}</strong> | Specify Variable Name **vJSON** |
+| <strong>vDataTable</strong> | Specify Variable Name **vDataTable** |
+| <strong>{vDataTable}</strong> | Specify Variable Name **vDataTable** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -115,9 +115,9 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: ConvertDictionaryToJSONCommand
+Automation Class Name: ConvertDictionaryToDataTableCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/17/24 07:27 PM
+This page was generated on 03/02/24 04:01 PM
 
 
 ## Help

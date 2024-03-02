@@ -1,28 +1,27 @@
-<!--TITLE: Get Dictionary Key From Value Command -->
+<!--TITLE: Convert Dictionary To JSON Command -->
 <!-- SUBTITLE: a command in the Dictionary Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Dictionary Commands &gt; Dictionary Key &gt; Get Dictionary Key From Value
+Dictionary Commands &gt; Convert &gt; Convert Dictionary To JSON
 
 
-# Get Dictionary Key From Value Command
+# Convert Dictionary To JSON Command
 
 
 ## What does this command do?
-This command allows you to get Dictionary key Name from Value
+This command allows you to get JSON from Dictionary
 
 
 ## When would I want to use this command?
-Use this command when you want to get Dictionary key Name from Value.
+Use this command when you want to get JSON from Dictionary.
 
 
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Dictionary Variable Name](#param_0)
-- [Please Specify the Dictionary Value](#param_1)
-- [Please Select the Variable Name to Store Key name](#param_2)
-- [Optional - Please Specify the Comment Field](#param_3)
+- [Please Select the JSON Variable Name](#param_1)
+- [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
@@ -60,12 +59,17 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Dictionary Value
+### Please Select the JSON Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Dictionary Value</dd>
-<dt>Sample Usage</dt><dd>Hello or 1 or {vValue}</dd>
+<dt>What to input</dt><dd>Enter or Select the JSON <strong>Variable Name</strong></dd>
+<dt>Value</dt><dd>JSON Variable</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>vJSON or {vJSON}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -75,9 +79,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>Hello</strong> | Specify **Hello** for Dictionary Value |
-| <strong>1</strong> | Specify **1** for Dictionary Value |
-| <strong>{vValue}</strong> | Specify Value of Variable **vValue** for Dictionary Value |
+| <strong>vJSON</strong> | Specify Variable Name **vJSON** |
+| <strong>{vJSON}</strong> | Specify Variable Name **vJSON** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -90,40 +93,6 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Select the Variable Name to Store Key name
-
-
-<dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Value</dt><dd>Variables</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
-<dt>Remarks</dt><dd>When value not found, Result is Empty</dd>
-</dl>
-
-
-
-
-#### More Detailed Sample Usage(s)
-| Value | Means |
-|---|---|
-| <strong>vResult</strong> | Specify Variable Name **vResult** |
-| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
-
-
-</div>
-
-
-<a id="param_3"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -139,14 +108,14 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_3) / [list](#param_list) / next
+[prev](#param_2) / [list](#param_list) / next
 
 
 </div>
 
 
 ## Developer/Additional Reference
-Automation Class Name: GetDictionaryKeyFromValueCommand
+Automation Class Name: ConvertDictionaryToJSONCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 03/02/24 04:01 PM
 

@@ -105,7 +105,7 @@
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
 |Convert|[Convert Dictionary To DataTable](/dictionary-commands/convert-dictionary-to-datatable-command.md)|This command allows you to convert Dictionary to DataTable|
-|Convert|[Convert Dictionary To DataTable](/dictionary-commands/convert-dictionary-to-datatable-command.md)|This command allows you to get JSON from Dictionary|
+|Convert|[Convert Dictionary To JSON](/dictionary-commands/convert-dictionary-to-json-command.md)|This command allows you to get JSON from Dictionary|
 |Convert|[Convert Dictionary To List](/dictionary-commands/convert-dictionary-to-list-command.md)|This command allows you to get List from Dictionary|
 |Dictionary Action|[Concatenate Dictionary](/dictionary-commands/concatenate-dictionary-command.md)|This command allows you to concatenate two Dictionaries.|
 |Dictionary Action|[Copy Dictionary](/dictionary-commands/copy-dictionary-command.md)|This command allows you to copy a Dictionary.|
@@ -156,15 +156,7 @@
 ### Excel Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
-|Cell|[Append Cell](/excel-commands/append-cell-command.md)|Append input to last row of sheet into the first cell.|
-|Cell|[Delete Cell](/excel-commands/delete-cell-command.md)|This command allows you to delete a specified cell in Excel|
-|Range|[Get Range](/excel-commands/get-range-command.md)|This command gets text from a specified Excel Range.|
 |Range|[Get Range As Datatable](/excel-commands/get-range-as-datatable-command.md)|This command gets text from a specified Excel Range and put it into a DataTable.|
-|Range|[Split Range By Column](/excel-commands/split-range-by-column-command.md)|This command gets text from a specified Excel Range and splits it into separate ranges by column.|
-|Range|[Write Range](/excel-commands/write-range-command.md)|This command writes a datatable to an excel sheet starting from the given cell address.|
-|Row|[Append Row](/excel-commands/append-row-command.md)|Append to last row of sheet.|
-|Row|[Delete Row](/excel-commands/delete-row-command.md)|This command allows you to delete a specified row in Excel|
-|Row|[Write Row](/excel-commands/write-row-command.md)|This command writes a DataRow to an excel sheet starting from the given cell address.|
 ### File Operation Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -461,4 +453,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 02/17/24 07:27 PM
+This page was generated on 03/02/24 04:01 PM
