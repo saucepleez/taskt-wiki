@@ -37,7 +37,7 @@ Use this command when you want to reize a window by name to a specific size on s
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vHandle</strong> or <strong>{vHandle}</strong></dd>
+<dt>Sample Usage</dt><dd>vHandle or {vHandle}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -71,7 +71,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Less than Zero</li>
 <li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>640</strong> or <strong>{vWidth}</strong></dd>
+<dt>Sample Usage</dt><dd>640 or {vWidth} or {Window.CurrentSize}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -83,6 +83,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>640</strong> | Specify **640** for Width |
 | <strong>{vWidth}</strong> | Specify Value of Variable **vWidth** for Width |
+| <strong>{Window.CurrentSize}</strong> | Specify Current Window Width for Window Width |
+| <strong>{Window.CurrentWidth}</strong> | Specify Current Window Width for Window Width |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -105,7 +107,7 @@ prev / [list](#param_list) / [next](#param_1)
 <li>Less than Zero</li>
 <li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>480</strong> or <strong>{vHeight}</strong></dd>
+<dt>Sample Usage</dt><dd>480 or {vHeight} or {Window.CurrentSize}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -117,6 +119,8 @@ prev / [list](#param_list) / [next](#param_1)
 |---|---|
 | <strong>480</strong> | Specify **480** for Height |
 | <strong>{vHeight}</strong> | Specify Value of Variable **vHeight** for Height |
+| <strong>{Window.CurrentSize}</strong> | Specify Current Window Height for Window Height |
+| <strong>{Window.CurrentHeight}</strong> | Specify Current Window Height for Window Height |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -134,7 +138,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
-<dt>Sample Usage</dt><dd><strong>60</strong> or <strong>{vTime}</strong></dd>
+<dt>Sample Usage</dt><dd>60 or {vTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
 </dl>
@@ -183,7 +187,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ResizeWindowByWindowHandleCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 03/07/24 09:15 PM
 
 
 ## Help

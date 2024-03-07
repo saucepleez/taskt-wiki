@@ -1,39 +1,38 @@
-<!--TITLE: Create Browser Command -->
-<!-- SUBTITLE: a command in the IE Browser Commands group. -->
+<!--TITLE: Search And Delete DataTable Rows Command -->
+<!-- SUBTITLE: a command in the DataTable Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-IE Browser Commands &gt; Create Browser
+DataTable Commands &gt; Row Action &gt; Search And Delete DataTable Rows
 
 
-# Create Browser Command
+# Search And Delete DataTable Rows Command
 
 
 ## What does this command do?
-This command allows you to create a new IE web browser session.
+This command allows you Delete specified DataTable Rows.
 
 
 ## When would I want to use this command?
-
+Use this command when you want to Delete a specific Row.
 
 
 <a id="param_list"></a>
 ## Command Parameters
-- [Please Enter the instance name](#param_0)
-- [Please Select the Instance Tracking (after task ends)](#param_1)
-- [Please Enter the URL to navigate to](#param_2)
+- [Please indicate the DataTable Variable Name](#param_0)
+- [Please indicate tuples to delete column rows](#param_1)
+- [Please select overwrite option](#param_2)
 - [Optional - Please Specify the Comment Field](#param_3)
 
 
 <a id="param_0"></a>
-### Please Enter the instance name
+### Please indicate the DataTable Variable Name
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Instance Type</dt><dd>IE</dd>
-<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter the name of your DataTable</dd>
+<dt>Instance Type</dt><dd>DataTable</dd>
+<dt>Sample Usage</dt><dd>myDataTable or {vMyDataTable}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -50,14 +49,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Select the Instance Tracking (after task ends)
+### Please indicate tuples to delete column rows
 
 
 <dl>
-<dt>What to input</dt><dd>Specify if taskt should remember this instance name after the script has finished executing.</dd>
-<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Forget Instance</strong> or  <strong>Keep Instance Alive</strong></dd>
-<dt>Remarks</dt><dd>Calling the <strong>Close Browser</strong> command or ending the browser session will end the instance.  This command only works during the lifetime of the application.  If the application is closed, the references will be forgetten automatically.</dd>
+<dt>What to input</dt><dd>Enter a tuple containing the column name and item you would like to remove.</dd>
+<dt>Sample Usage</dt><dd>{ColumnName1,Item1},{ColumnName2,Item2}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
@@ -73,12 +71,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Enter the URL to navigate to
+### Please select overwrite option
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Indicate whether this command should remove rows with all the constraints or remove them with 1 or more constraints</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>And</strong> or  <strong>Or</strong></dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -117,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 ## Developer/Additional Reference
-Automation Class Name: IEBrowserCreateCommand
+Automation Class Name: SearchAndDeleteDataTableRowsCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 03/07/24 09:15 PM
 

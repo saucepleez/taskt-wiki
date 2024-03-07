@@ -20,9 +20,9 @@ Use this command when you want to set a value to a specific cell.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Excel Instance Name](#param_0)
-- [Please Specify the Text to Set](#param_1)
-- [Please Specify the Row Location](#param_2)
-- [Please Specify the Column Location](#param_3)
+- [Please Specify the Row Location](#param_1)
+- [Please Specify the Column Location or Index](#param_2)
+- [Please Specify the Value to Set](#param_3)
 - [Optional - Please Select the Value Type](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
 
@@ -62,28 +62,6 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Text to Set
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the Text to Set</dd>
-<dt>Sample Usage</dt><dd>Hello World or {vText}</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
-</dl>
-
-
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_1) / [list](#param_list) / [next](#param_2)
-
-
-</div>
-
-
-<a id="param_2"></a>
 ### Please Specify the Row Location
 
 
@@ -112,24 +90,24 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
 
 
 </div>
 
 
-<a id="param_3"></a>
-### Please Specify the Column Location
+<a id="param_2"></a>
+### Please Specify the Column Location or Index
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Column Location</dd>
+<dt>What to input</dt><dd>Enter or Select the Column Location or Index</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 <li>Less than Zero</li>
 <li>Equals Zero</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>1 or 2 or {vColumn}</dd>
+<dt>Sample Usage</dt><dd>A or 1 or {vColumn}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -139,9 +117,38 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>1</strong> | Specify the First Column |
-| <strong>2</strong> | Specify **2** for Column Location |
-| <strong>{vColumn}</strong> | Specify Value of Variable **vColumn** for Column Location |
+| <strong>A</strong> | Specify the First Column when **Range** is specified for Column Type. |
+| <strong>1</strong> | Specify the First Column when **RC** is specified for Column Type. |
+| <strong>{vColumn}</strong> | Specify Value of Variable **vColumn** for Column |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
+### Please Specify the Value to Set
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Value to Set</dd>
+<dt>Sample Usage</dt><dd>Hello or {vText}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Hello</strong> | Specify **Hello** for Value to Set |
+| <strong>{vText}</strong> | Specify Variable Name **vText** for Value to Set |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -211,7 +218,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelSetCellRCCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/04/24 11:26 AM
+This page was generated on 03/07/24 09:15 PM
 
 
 ## Help

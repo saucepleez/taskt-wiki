@@ -37,7 +37,7 @@ Use this command when you want to move an existing window by name to a certain p
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vHandle</strong> or <strong>{vHandle}</strong></dd>
+<dt>Sample Usage</dt><dd>vHandle or {vHandle}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -69,7 +69,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vXPos}</strong> or <strong>Current Position</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 100 or {vXPos} or {Window.CurrentPosition}</dd>
 <dt>Remarks</dt><dd>This number is the pixel location on screen. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid range could be 0-1920</dd>
 </dl>
 
@@ -82,9 +82,9 @@ prev / [list](#param_list) / [next](#param_1)
 | <strong>0</strong> | Specify X Top Position |
 | <strong>100</strong> | Specify **100** for X Position |
 | <strong>{vXPos}</strong> | Specify Value of Variable **vXPos** for X Position |
-| <strong>Current Position</strong> | Specify Current Position for X Position |
-| <strong>Current XPosition</strong> | Specify Current X Position for X Position |
-| <strong>Current YPosition</strong> | Specify Current Y Position for X Position |
+| <strong>{Window.CurrentPosition}</strong> | Specify Current Position for X Position |
+| <strong>{Window.CurrentXPosition}</strong> | Specify Current X Position for X Position |
+| <strong>{Window.CurrentYPosition}</strong> | Specify Current Y Position for X Position |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -105,7 +105,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>100</strong> or <strong>{vYPos}</strong> or <strong>Current Position</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 100 or {vYPos} or {Window.CurrentPosition}</dd>
 <dt>Remarks</dt><dd>This number is the pixel location on screen. Maximum value should be the maximum value allowed by your resolution. For 1920x1080, the valid range could be 0-1080</dd>
 </dl>
 
@@ -118,9 +118,9 @@ prev / [list](#param_list) / [next](#param_1)
 | <strong>0</strong> | Specify Y Left Position |
 | <strong>100</strong> | Specify **100** for Y Position |
 | <strong>{vYPos}</strong> | Specify Value of Variable **vYPos** for Y Position |
-| <strong>Current Position</strong> | Specify Current Position for Y Position |
-| <strong>Current XPosition</strong> | Specify Current X Position for Y Position |
-| <strong>Current YPosition</strong> | Specify Current Y Position for Y Position |
+| <strong>{Window.CurrentPosition}</strong> | Specify Current Position for Y Position |
+| <strong>{Window.CurrentXPosition}</strong> | Specify Current X Position for Y Position |
+| <strong>{Window.CurrentYPosition}</strong> | Specify Current Y Position for Y Position |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -138,7 +138,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
-<dt>Sample Usage</dt><dd><strong>60</strong> or <strong>{vTime}</strong></dd>
+<dt>Sample Usage</dt><dd>60 or {vTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
 </dl>
@@ -187,7 +187,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: MoveWindowByWindowHandleCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 03/07/24 09:15 PM
 
 
 ## Help

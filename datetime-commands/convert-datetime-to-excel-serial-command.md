@@ -68,7 +68,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>vSerial or {vSerial}</dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -78,8 +78,8 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>vSerial</strong> | Specify Variable Name **vSerial** |
-| <strong>{vSerial}</strong> | Specify Variable Name **vSerial** |
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -116,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ConvertDateTimeToExcelSerialCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/02/24 04:01 PM
+This page was generated on 03/07/24 09:15 PM
 
 
 ## Help

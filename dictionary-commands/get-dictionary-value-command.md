@@ -23,7 +23,8 @@ Use this command when you want to get value in Dictionary.
 - [Please Specify the Name of the Dictionary Key](#param_1)
 - [Please Select the Variable Name to Store Result](#param_2)
 - [Optional - Please Select the When Key does not Exists](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Optional - Please Select the Key Type](#param_4)
+- [Optional - Please Specify the Comment Field](#param_5)
 
 
 <a id="param_0"></a>
@@ -157,6 +158,36 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_4"></a>
+### Optional - Please Select the Key Type
+
+
+<dl>
+<dt>What to input</dt><dd>(nothing)</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Sample Usage</dt><dd><strong>Key</strong> or  <strong>Index</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Key</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Key</strong> | Key Value is Dictionary Key Name |
+| <strong>Key</strong> | Key Value is Dictionary Key Index |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -172,7 +203,7 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_5) / [list](#param_list) / next
 
 
 </div>
@@ -181,7 +212,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetDictionaryValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/02/24 04:01 PM
+This page was generated on 03/07/24 09:15 PM
 
 
 ## Help

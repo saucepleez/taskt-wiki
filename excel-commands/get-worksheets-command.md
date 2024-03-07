@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Excel Commands &gt; Sheet &gt; Get Worksheets
+Excel Commands &gt; Worksheet &gt; Get Worksheets
 
 
 # Get Worksheets Command
@@ -20,8 +20,8 @@ Use this command when you want to switch to a specific worksheet
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Excel Instance Name](#param_0)
-- [Please Specify the Sheet Name](#param_1)
-- [Optional - Please Select the Search Method](#param_2)
+- [Optional - Please Specify the Worksheet Name](#param_1)
+- [Optional - Please Select the Compare Method](#param_2)
 - [Please Select the List Variable Name](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
@@ -61,16 +61,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Sheet Name
+### Optional - Please Specify the Worksheet Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Sheet Name</dd>
-<dt>Error Occurs When the Value is ...</dt><dd><ul>
-<li>Empty</li>
-</ul></dd>
-<dt>Sample Usage</dt><dd>mySheet or {vSheet} or Current Sheet</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Worksheet Name</dd>
+<dt>Sample Usage</dt><dd>mySheet or {vSheet} or {Excel.CurrentWorksheet}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -79,9 +76,9 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>mySheet</strong> | Specify **mySheet** for Sheet Name |
-| <strong>{vSheet}</strong> | Specify Value of Variable **vSheet** for Sheet Name |
-| <strong>Current Sheet</strong> | Specify Current Sheet Name |
+| <strong>mySheet</strong> | Specify **mySheet** for Worksheet Name |
+| <strong>{vSheet}</strong> | Specify Value of Variable **vSheet** for Worksheet Name |
+| <strong>{Excel.CurrentWorksheet}</strong> | Specify Current Worksheet Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -94,13 +91,13 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Optional - Please Select the Search Method
+### Optional - Please Select the Compare Method
 
 
 <dl>
 <dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
 <dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
-<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Start with</strong> or  <strong>End with</strong></dd>
+<dt>Sample Usage</dt><dd><strong>Contains</strong> or  <strong>Starts with</strong> or  <strong>Ends with</strong></dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Contains</strong></dd>
 </dl>
 
@@ -175,7 +172,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetWorksheetsCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/04/24 11:26 AM
+This page was generated on 03/07/24 09:15 PM
 
 
 ## Help

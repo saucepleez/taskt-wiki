@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Excel Commands &gt; Sheet &gt; Delete Worksheet
+Excel Commands &gt; Worksheet &gt; Delete Worksheet
 
 
 # Delete Worksheet Command
@@ -20,7 +20,7 @@ Use this command when you want to add a new worksheet to an Excel Instance
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Excel Instance Name](#param_0)
-- [Please Specify the Sheet Name](#param_1)
+- [Please Specify the Worksheet Name](#param_1)
 - [Optional - Please Specify the Comment Field](#param_2)
 
 
@@ -59,15 +59,15 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Sheet Name
+### Please Specify the Worksheet Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter or Select the Sheet Name</dd>
+<dt>What to input</dt><dd>Enter or Select the Worksheet Name</dd>
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd>mySheet or {vSheet} or Current Sheet</dd>
+<dt>Sample Usage</dt><dd>mySheet or {vSheet} or {Excel.CurrentWorksheet}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -77,9 +77,9 @@ prev / [list](#param_list) / [next](#param_1)
 #### More Detailed Sample Usage(s)
 | Value | Means |
 |---|---|
-| <strong>mySheet</strong> | Specify **mySheet** for Sheet Name |
-| <strong>{vSheet}</strong> | Specify Value of Variable **vSheet** for Sheet Name |
-| <strong>Current Sheet</strong> | Specify Current Sheet Name |
+| <strong>mySheet</strong> | Specify **mySheet** for Worksheet Name |
+| <strong>{vSheet}</strong> | Specify Value of Variable **vSheet** for Worksheet Name |
+| <strong>{Excel.CurrentWorksheet}</strong> | Specify Current Worksheet Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -116,7 +116,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelDeleteWorksheetCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/04/24 11:26 AM
+This page was generated on 03/07/24 09:15 PM
 
 
 ## Help

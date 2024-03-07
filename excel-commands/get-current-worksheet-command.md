@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Excel Commands &gt; Sheet &gt; Get Current Worksheet
+Excel Commands &gt; Worksheet &gt; Get Current Worksheet
 
 
 # Get Current Worksheet Command
@@ -117,7 +117,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelGetCurrentWorksheetCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/04/24 11:26 AM
+This page was generated on 03/07/24 09:15 PM
 
 
 ## Help

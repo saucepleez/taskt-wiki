@@ -20,8 +20,8 @@ Use this command when you want to set a value to a specific cell.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Excel Instance Name](#param_0)
-- [Please Specify the Text to Set](#param_1)
-- [Please Specify the Cell Location](#param_2)
+- [Please Specify the Cell Location](#param_1)
+- [Please Specify the Value to Set](#param_2)
 - [Optional - Please Select the Value Type](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
@@ -61,28 +61,6 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Specify the Text to Set
-
-
-<dl>
-<dt>What to input</dt><dd>Enter or Select the Text to Set</dd>
-<dt>Sample Usage</dt><dd>Hello or {vText}</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
-</dl>
-
-
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_1) / [list](#param_list) / [next](#param_2)
-
-
-</div>
-
-
-<a id="param_2"></a>
 ### Please Specify the Cell Location
 
 
@@ -104,6 +82,35 @@ prev / [list](#param_list) / [next](#param_1)
 | <strong>A1</strong> | Specify **A1** |
 | <strong>B10</strong> | Specify **B10** |
 | <strong>{vAddress}</strong> | Specify Value of Variable **vAddress** for Cell Location |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
+### Please Specify the Value to Set
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Value to Set</dd>
+<dt>Sample Usage</dt><dd>Hello or {vText}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Hello</strong> | Specify **Hello** for Value to Set |
+| <strong>{vText}</strong> | Specify Variable Name **vText** for Value to Set |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -173,7 +180,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelSetCellCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 02/04/24 11:26 AM
+This page was generated on 03/07/24 09:15 PM
 
 
 ## Help

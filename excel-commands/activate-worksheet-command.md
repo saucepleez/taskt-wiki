@@ -1,29 +1,27 @@
-<!--TITLE: Get Range Command -->
+<!--TITLE: Activate Worksheet Command -->
 <!-- SUBTITLE: a command in the Excel Commands group. -->
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Excel Commands &gt; Range &gt; Get Range
+Excel Commands &gt; Worksheet &gt; Activate Worksheet
 
 
-# Get Range Command
+# Activate Worksheet Command
 
 
 ## What does this command do?
-This command gets text from a specified Excel Range.
+This command allows you to activate a specific worksheet in a workbook
 
 
 ## When would I want to use this command?
-Use this command when you want to get a value from a specific cell.
+Use this command when you want to switch to a specific worksheet
 
 
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Excel Instance Name](#param_0)
-- [Please Enter the First Cell Location (ex. A1 or B2)](#param_1)
-- [Please Enter the Second Cell Location (ex. A1 or B2)](#param_2)
-- [Please Specify the Assign to Variable](#param_3)
-- [Optional - Please Specify the Comment Field](#param_4)
+- [Please Specify the Worksheet Name](#param_1)
+- [Optional - Please Specify the Comment Field](#param_2)
 
 
 <a id="param_0"></a>
@@ -61,16 +59,27 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Please Enter the First Cell Location (ex. A1 or B2)
+### Please Specify the Worksheet Name
 
 
 <dl>
-<dt>What to input</dt><dd>Enter the actual location of the cell.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Worksheet Name</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>mySheet or {vSheet} or {Excel.CurrentWorksheet}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>mySheet</strong> | Specify **mySheet** for Worksheet Name |
+| <strong>{vSheet}</strong> | Specify Value of Variable **vSheet** for Worksheet Name |
+| <strong>{Excel.CurrentWorksheet}</strong> | Specify Current Worksheet Name |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -83,50 +92,6 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Enter the Second Cell Location (ex. A1 or B2)
-
-
-<dl>
-<dt>What to input</dt><dd>Enter the actual location of the cell.</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
-</dl>
-
-
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_2) / [list](#param_list) / [next](#param_3)
-
-
-</div>
-
-
-<a id="param_3"></a>
-### Please Specify the Assign to Variable
-
-
-<dl>
-<dt>What to input</dt><dd>Select or provide a variable from the variable list</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
-<dt>Remarks</dt><dd>If you have enabled the setting <strong>Create Missing Variables at Runtime</strong> then you are not required to pre-define your variables, however, it is highly recommended.</dd>
-</dl>
-
-
-
-
-<div style="font-size: 90%; text-align: center">
-
-
-[prev](#param_3) / [list](#param_list) / [next](#param_4)
-
-
-</div>
-
-
-<a id="param_4"></a>
 ### Optional - Please Specify the Comment Field
 
 
@@ -142,14 +107,14 @@ prev / [list](#param_list) / [next](#param_1)
 <div style="font-size: 90%; text-align: center">
 
 
-[prev](#param_4) / [list](#param_list) / next
+[prev](#param_2) / [list](#param_list) / next
 
 
 </div>
 
 
 ## Developer/Additional Reference
-Automation Class Name: ExcelGetRangeCommand
+Automation Class Name: ExcelActivateWorksheetCommand
 Parent Namespace: taskt.Core.Automation.Commands
 This page was generated on 03/07/24 09:15 PM
 

@@ -20,7 +20,7 @@ Use this command when you want window size.
 <a id="param_list"></a>
 ## Command Parameters
 - [Please Select the Window Name](#param_0)
-- [Optional - Please Select the Search Method for the Window Name](#param_1)
+- [Optional - Please Select the Compare Method for the Window Name](#param_1)
 - [Optional - Please Select the Variable Name to Recieve the Window Width](#param_2)
 - [Optional - Please Select the Variable Name to Recieve the Window Height](#param_3)
 - [Optional - Please Select the Match Method for the Window Name](#param_4)
@@ -41,7 +41,7 @@ Use this command when you want window size.
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>Untitled - Notepad</strong> or <strong>Current Window</strong> or <strong>{vWindow}</strong></dd>
+<dt>Sample Usage</dt><dd>Untitled - Notepad or {Window.CurrentWindowName} or {vWindow}</dd>
 <dt>Remarks</dt><dd>(nothing)</dd>
 </dl>
 
@@ -52,7 +52,7 @@ Use this command when you want window size.
 | Value | Means |
 |---|---|
 | <strong>Untitled - Notepad</strong> | Specify the **Notepad** |
-| <strong>Current Window</strong> | Specify the Current Activate Window |
+| <strong>{Window.CurrentWindowName}</strong> | Specify the Current Activate Window |
 | <strong>{vWindow}</strong> | Specify Value of Variable **vWindow** for Window Name |
 
 
@@ -66,7 +66,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_1"></a>
-### Optional - Please Select the Search Method for the Window Name
+### Optional - Please Select the Compare Method for the Window Name
 
 
 <dl>
@@ -99,7 +99,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -133,7 +133,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>Error Occurs When the Value is ...</dt><dd><ul>
 <li>Empty</li>
 </ul></dd>
-<dt>Sample Usage</dt><dd><strong>vResult</strong> or <strong>{vResult}</strong></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
@@ -194,7 +194,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Window Index</dd>
-<dt>Sample Usage</dt><dd><strong>0</strong> or <strong>1</strong> or <strong>{vIndex}</strong></dd>
+<dt>Sample Usage</dt><dd>0 or 1 or {vIndex}</dd>
 <dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>0</strong></dd>
 </dl>
 
@@ -224,7 +224,7 @@ prev / [list](#param_list) / [next](#param_1)
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Wait Time</dd>
-<dt>Sample Usage</dt><dd><strong>60</strong> or <strong>{vTime}</strong></dd>
+<dt>Sample Usage</dt><dd>60 or {vTime}</dd>
 <dt>Remarks</dt><dd>Specify how long to Wait before an Error will occur because the Window is Not Found.<br><br>
 <strong>Optional</strong><br>Default Value is <strong>60</strong></dd>
 </dl>
@@ -256,7 +256,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>Variables</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd><strong>vWin</strong> or <strong>{vWin}</strong></dd>
+<dt>Sample Usage</dt><dd>vWin or {vWin}</dd>
 <dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
 <strong>Optional</strong><br></dd>
 </dl>
@@ -288,7 +288,7 @@ prev / [list](#param_list) / [next](#param_1)
 <dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
 <dt>Value</dt><dd>WindowHandle Variable</dd>
 <dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
-<dt>Sample Usage</dt><dd><strong>vHandle</strong> or <strong>{vHandle}</strong></dd>
+<dt>Sample Usage</dt><dd>vHandle or {vHandle}</dd>
 <dt>Remarks</dt><dd>When Match Method is <strong>All</strong>, data type is LIST, otherwise it is BASIC<br><br>
 <strong>Optional</strong><br></dd>
 </dl>
@@ -337,7 +337,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowSizeCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 12/08/23 11:18 PM
+This page was generated on 03/07/24 09:15 PM
 
 
 ## Help

@@ -53,7 +53,7 @@ Use this command when you want to take and save a screenshot.
 | Value | Means |
 |---|---|
 | <strong>Untitled - Notepad</strong> | Specify the **Notepad** |
-| <strong>Current Window</strong> | Specify the Current Activate Window |
+| <strong>{Window.CurrentWindowName}</strong> | Specify the Current Activate Window |
 | <strong>{vWindow}</strong> | Specify Value of Variable **vWindow** for Window Name |
 
 
@@ -351,7 +351,7 @@ If file path contains FileCounter variable, it will be replaced by a number that
 ## Developer/Additional Reference
 Automation Class Name: TakeScreenshotCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 03/02/24 04:01 PM
+This page was generated on 03/07/24 09:15 PM
 
 
 ## Help

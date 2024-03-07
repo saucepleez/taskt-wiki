@@ -68,19 +68,13 @@
 |DataTable Action|[Replace DataTable Row Value](/datatable-commands/replace-datatable-row-value-command.md)|This command allows you to Replace Row values.|
 |DataTable Action|[Replace DataTable Value](/datatable-commands/replace-datatable-value-command.md)|This command allows you to Replace values.|
 |DataTable Action|[Set DataTable Value](/datatable-commands/set-datatable-value-command.md)|This command allows you to set the DataTable value|
-|Other|[Add DataRow](/datatable-commands/add-datarow-command.md)|This command allows you to add a datarow to a DataTable|
 |Other|[Filter DataTable](/datatable-commands/filter-datatable-command.md)|This command allows you filter a DataTable into a new Datatable|
-|Other|[Get DataRow](/datatable-commands/get-datarow-command.md)|This command allows you to get a DataRow from a DataTable|
-|Other|[Get DataRow Count](/datatable-commands/get-datarow-count-command.md)|This command allows you to get the datarow count of a DataTable|
-|Other|[Get DataRow Value](/datatable-commands/get-datarow-value-command.md)|This command allows you to get a DataRow Value from a DataTable|
-|Other|[Parse Dataset Row](/datatable-commands/parse-dataset-row-command.md)|This command allows you to parse a dataset row column into a variable.|
-|Other|[Remove DataRow](/datatable-commands/remove-datarow-command.md)|This command allows you remove specified data rows.|
-|Other|[Write DataRow Value](/datatable-commands/write-datarow-value-command.md)|This command allows you to write a Value to a DataRow|
 |Row Action|[Add DataTable Row](/datatable-commands/add-datatable-row-command.md)|This command allows you to add a row to a DataTable|
 |Row Action|[Add DataTable Row By Dictionary](/datatable-commands/add-datatable-row-by-dictionary-command.md)|This command allows you to add a DataTable Row to a DataTable by a Dictionary|
 |Row Action|[Add DataTable Rows By DataTable](/datatable-commands/add-datatable-rows-by-datatable-command.md)|This command allows you to add a DataTable Row to a DataTable by a DataTable|
 |Row Action|[Delete DataTable Row](/datatable-commands/delete-datatable-row-command.md)|This command allows you to delete a DataTable Row|
 |Row Action|[Get DataTable Row Count](/datatable-commands/get-datatable-row-count-command.md)|This command allows you to get the Row count of a DataTable|
+|Row Action|[Search And Delete DataTable Rows](/datatable-commands/search-and-delete-datatable-rows-command.md)|This command allows you Delete specified DataTable Rows.|
 |Row Action|[Set DataTable Row Values By DataTable](/datatable-commands/set-datatable-row-values-by-datatable-command.md)|This command allows you to set a DataTable Row values to a DataTable by a DataTable|
 |Row Action|[Set DataTable Row Values By Dictionary](/datatable-commands/set-datatable-row-values-by-dictionary-command.md)|This command allows you to set a DataTable Row values to a DataTable by a Dictionary|
 ### DateTime Commands
@@ -156,7 +150,53 @@
 ### Excel Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|Cell|[Append Cell](/excel-commands/append-cell-command.md)|Append input to last row of sheet into the first cell.|
+|Cell|[Check Cell Value Exists](/excel-commands/check-cell-value-exists-command.md)|This command checks existance value from a specified Excel Cell.|
+|Cell|[Check Cell Value Exists RC](/excel-commands/check-cell-value-exists-rc-command.md)|This command checks existance value from a specified Excel Cell.|
+|Cell|[Delete Cell](/excel-commands/delete-cell-command.md)|This command allows you to delete a specified cell in Excel|
+|Cell|[Get Cell](/excel-commands/get-cell-command.md)|This command gets text from a specified Excel Cell.|
+|Cell|[Get Cell RC](/excel-commands/get-cell-rc-command.md)|This command gets text from a specified Excel Cell.|
+|Cell|[Go To Cell](/excel-commands/go-to-cell-command.md)|This command moves to a specific cell.|
+|Cell|[Set Cell](/excel-commands/set-cell-command.md)|This command sets the value of a cell.|
+|Cell|[Set Cell RC](/excel-commands/set-cell-rc-command.md)|This command sets the value of a cell.|
+|Column|[Get Column Values As DataTable](/excel-commands/get-column-values-as-datatable-command.md)|This command get Column values as DataTable.|
+|Column|[Get Column Values As Dictionary](/excel-commands/get-column-values-as-dictionary-command.md)|This command get Column values as Dictionary.|
+|Column|[Get Column Values As List](/excel-commands/get-column-values-as-list-command.md)|This command get Column values as List.|
+|Column|[Set Column Values From DataTable](/excel-commands/set-column-values-from-datatable-command.md)|This command set Column values from DataTable.|
+|Column|[Set Column Values From Dictionary](/excel-commands/set-column-values-from-dictionary-command.md)|This command set Column values from Ditionary.|
+|Column|[Set Column Values From List](/excel-commands/set-column-values-from-list-command.md)|This command set Column values from List.|
+|File/Book|[Add Workbook](/excel-commands/add-workbook-command.md)|This command adds a new Excel Workbook.|
+|File/Book|[Open Workbook](/excel-commands/open-workbook-command.md)|This command opens an Excel Workbook.|
+|File/Book|[Save Workbook](/excel-commands/save-workbook-command.md)|This command allows you to save an Excel workbook.|
+|File/Book|[Save Workbook As](/excel-commands/save-workbook-as-command.md)|This command allows you to save an Excel workbook.|
+|Instance|[Check Excel Instance Exists](/excel-commands/check-excel-instance-exists-command.md)|This command returns existance of Excel instance.|
+|Instance|[Close Excel Instance](/excel-commands/close-excel-instance-command.md)|This command allows you to close Excel instance.|
+|Instance|[Create Excel Instance](/excel-commands/create-excel-instance-command.md)|This command opens the Excel Instance.|
+|Other|[Get Excel Info](/excel-commands/get-excel-info-command.md)|This command allows you to get current sheet name.|
+|Other|[Run Macro](/excel-commands/run-macro-command.md)|This command runs a macro.|
+|Range|[Get Range](/excel-commands/get-range-command.md)|This command gets text from a specified Excel Range.|
 |Range|[Get Range As Datatable](/excel-commands/get-range-as-datatable-command.md)|This command gets text from a specified Excel Range and put it into a DataTable.|
+|Range|[Get Range Values As DataTable](/excel-commands/get-range-values-as-datatable-command.md)|This command get Range values as DataTable.|
+|Range|[Split Range By Column](/excel-commands/split-range-by-column-command.md)|This command gets text from a specified Excel Range and splits it into separate ranges by column.|
+|Range|[Write Range](/excel-commands/write-range-command.md)|This command writes a datatable to an excel sheet starting from the given cell address.|
+|Row|[Append Row](/excel-commands/append-row-command.md)|Append to last row of sheet.|
+|Row|[Delete Row](/excel-commands/delete-row-command.md)|This command allows you to delete a specified row in Excel|
+|Row|[Get Last Row Index](/excel-commands/get-last-row-index-command.md)|This command allows you to find the last row in a used range in an Excel Workbook.|
+|Row|[Get Row Values As DataTable](/excel-commands/get-row-values-as-datatable-command.md)|This command get Row values as DataTable.|
+|Row|[Get Row Values As Dictionary](/excel-commands/get-row-values-as-dictionary-command.md)|This command get Row values as Dictionary.|
+|Row|[Get Row Values As List](/excel-commands/get-row-values-as-list-command.md)|This command get Row values as List.|
+|Row|[Set Row Values From DataTable](/excel-commands/set-row-values-from-datatable-command.md)|This command set Row values from DataTable.|
+|Row|[Set Row Values From Dictionary](/excel-commands/set-row-values-from-dictionary-command.md)|This command set Row values from Dictionary.|
+|Row|[Set Row Values From List](/excel-commands/set-row-values-from-list-command.md)|This command set Row values from List.|
+|Worksheet|[Activate Worksheet](/excel-commands/activate-worksheet-command.md)|This command allows you to activate a specific worksheet in a workbook|
+|Worksheet|[Add Worksheet](/excel-commands/add-worksheet-command.md)|This command adds a new Excel Worksheet.|
+|Worksheet|[Check Worksheet Exists](/excel-commands/check-worksheet-exists-command.md)|This command allows you to check existance sheet|
+|Worksheet|[Copy Worksheet](/excel-commands/copy-worksheet-command.md)|This command copy a Excel Worksheet.|
+|Worksheet|[Delete Worksheet](/excel-commands/delete-worksheet-command.md)|This command delete a Excel Worksheet.|
+|Worksheet|[Get Current Worksheet](/excel-commands/get-current-worksheet-command.md)|This command allows you to get current sheet name.|
+|Worksheet|[Get Worksheet Info](/excel-commands/get-worksheet-info-command.md)|This command allows you to get a sheet info.|
+|Worksheet|[Get Worksheets](/excel-commands/get-worksheets-command.md)|This command allows you to get a specific worksheet names|
+|Worksheet|[Rename Worksheet](/excel-commands/rename-worksheet-command.md)|This command rename a Excel Worksheet.|
 ### File Operation Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -270,8 +310,17 @@
 ### Math Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+||[Get Absolute](/math-commands/get-absolute-command.md)|This command allows you to get abs.|
+||[Get Arccos](/math-commands/get-arccos-command.md)|This command allows you to get arccos.|
+||[Get Arcsin](/math-commands/get-arcsin-command.md)|This command allows you to get arcsin.|
+||[Get Arctan](/math-commands/get-arctan-command.md)|This command allows you to get arctan.|
+||[Get Cos](/math-commands/get-cos-command.md)|This command allows you to get cos.|
 ||[Get Exponential](/math-commands/get-exponential-command.md)|This command allows you to get exp.|
+||[Get Logarithm](/math-commands/get-logarithm-command.md)|This command allows you to get log.|
 ||[Get Power](/math-commands/get-power-command.md)|This command allows you to get power.|
+||[Get Sin](/math-commands/get-sin-command.md)|This command allows you to get sin.|
+||[Get Square Root](/math-commands/get-square-root-command.md)|This command allows you to get Square Root.|
+||[Get Tan](/math-commands/get-tan-command.md)|This command allows you to get tan.|
 ### Misc Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -430,6 +479,33 @@
 |WebElement Action|[Set Text To WebElement](/web-browser-commands/set-text-to-webelement-command.md)|This command allows you to Set Text in WebElement.|
 |WebElement Action|[Switch Frame To WebElement](/web-browser-commands/switch-frame-to-webelement-command.md)|This command allows you to Switch Frame to WebElement.|
 |WebElement Action|[WebElement Action](/web-browser-commands/webelement-action-command.md)|This command allows you to close a Selenium web browser session.|
+### Window Commands
+| Sub Group   	| Command Name 	|  Command Description	|
+| ---                | ---           | ---                   |
+|Get From Window Handle|[Check Window Handle Exists](/window-commands/check-window-handle-exists-command.md)|This command returns a existence of Window Handle.|
+|Get From Window Handle|[Get Process Name From Window Handle](/window-commands/get-process-name-from-window-handle-command.md)|This command returns process name.|
+|Get From Window Handle|[Get Window Name From Window Handle](/window-commands/get-window-name-from-window-handle-command.md)|This command returns window names.|
+|Get From Window Handle|[Get Window Position From Window Handle](/window-commands/get-window-position-from-window-handle-command.md)|This command returns window position.|
+|Get From Window Handle|[Get Window Size From Window Handle](/window-commands/get-window-size-from-window-handle-command.md)|This command returns window size.|
+|Get From Window Handle|[Get Window State From Window Handle](/window-commands/get-window-state-from-window-handle-command.md)|This command returns a state of window name.|
+|Window Actions|[Activate Window](/window-commands/activate-window-command.md)|This command activates a window and brings it to the front.|
+|Window Actions|[Close Window](/window-commands/close-window-command.md)|This command closes an open window.|
+|Window Actions|[Get Process Name From Window Name](/window-commands/get-process-name-from-window-name-command.md)|This command allows you to Get Process Name from Window Name.|
+|Window Actions|[Get Window Handle From Window Name](/window-commands/get-window-handle-from-window-name-command.md)|This command allows you to Get Window Handle from Window Name.|
+|Window Actions|[Move Window](/window-commands/move-window-command.md)|This command moves a window to a specified location on screen.|
+|Window Actions|[Resize Window](/window-commands/resize-window-command.md)|This command resizes a window to a specified size.|
+|Window Actions|[Set Window State](/window-commands/set-window-state-command.md)|This command sets a target window's state.|
+|Window Actions|[Wait For Window To Exists](/window-commands/wait-for-window-to-exists-command.md)|This command waits for a window to exist.|
+|Window Handle Actions|[Activate Window By Window Handle](/window-commands/activate-window-by-window-handle-command.md)|This command activates a window and brings it to the front.|
+|Window Handle Actions|[Close Window By Window Handle](/window-commands/close-window-by-window-handle-command.md)|This command closes an open window.|
+|Window Handle Actions|[Move Window By Window Handle](/window-commands/move-window-by-window-handle-command.md)|This command moves a window to a specified location on screen.|
+|Window Handle Actions|[Resize Window By Window Handle](/window-commands/resize-window-by-window-handle-command.md)|This command resizes a window to a specified size.|
+|Window Handle Actions|[Set Window State By Window Handle](/window-commands/set-window-state-by-window-handle-command.md)|This command sets a target window's state.|
+|Window State|[Check Window Name Exists](/window-commands/check-window-name-exists-command.md)|This command returns a existence of window name.|
+|Window State|[Get Window Names](/window-commands/get-window-names-command.md)|This command returns window names.|
+|Window State|[Get Window Position](/window-commands/get-window-position-command.md)|This command returns window position.|
+|Window State|[Get Window Size](/window-commands/get-window-size-command.md)|This command returns window size.|
+|Window State|[Get Window State](/window-commands/get-window-state-command.md)|This command returns a state of window name.|
 ### Word Commands
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
@@ -453,4 +529,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 03/02/24 04:01 PM
+This page was generated on 03/07/24 09:15 PM
