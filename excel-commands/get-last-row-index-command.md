@@ -1,0 +1,245 @@
+<!--TITLE: Get Last Row Index Command -->
+<!-- SUBTITLE: a command in the Excel group. -->
+[Go To Automation Commands Overview](/automation-commands.md)
+
+
+Excel &gt; Row &gt; Get Last Row Index
+
+
+# Get Last Row Index Command
+
+
+## What does this command do?
+This command allows you to find the last row in a used range in an Excel Workbook.
+
+
+## When would I want to use this command?
+Use this command to determine how many rows have been used in the Excel Workbook.  You can use this value in a **Number Of Times** Loop to get data.
+
+
+<a id="param_list"></a>
+## Command Parameters
+- [Please Select the Excel Instance Name](#param_0)
+- [Optional - Please Select the Column Type](#param_1)
+- [Optional - Please Specify the Column Location or Index](#param_2)
+- [Please Select the Variable Name to Store Result](#param_3)
+- [Optional - Please Select the Value Type](#param_4)
+- [Optional - Please Select the Use Fast Method To Cell](#param_5)
+- [Optional - Please Specify the Comment Field](#param_6)
+
+
+<a id="param_0"></a>
+### Please Select the Excel Instance Name
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Excel Instance Name</dd>
+<dt>Value</dt><dd>Excel Variable</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>RPAExcel or {vInstance}</dd>
+<dt>Remarks</dt><dd>Please specify the Excel Instance Name created by <strong>Create Excel Instance</strong> command in advance.</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>RPAExcel</strong> | Specify **RPAExcel** for Excel Instance Name |
+| <strong>{vInstance}</strong> | Specify Value of Variable **vInstance** for Excel Instance Name |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+prev / [list](#param_list) / [next](#param_1)
+
+
+</div>
+
+
+<a id="param_1"></a>
+### Optional - Please Select the Column Type
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Range</strong> or  <strong>RC</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Range</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>Range</strong> | Use Range, like **A**. It means first column. |
+| <strong>RC</strong> | Use Row-Column, like **1**. It means first column. |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_1) / [list](#param_list) / [next](#param_2)
+
+
+</div>
+
+
+<a id="param_2"></a>
+### Optional - Please Specify the Column Location or Index
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Column Location (Text) or Index (Number)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd>A or 1 or {vColumn}</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>A</strong></dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>A</strong> | Specify the First Column when **Range** is specified for Column Type. |
+| <strong>1</strong> | Specify the First Column when **RC** is specified for Column Type. |
+| <strong>{vColumn}</strong> | Specify Value of Variable **vColumn** for Column |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_2) / [list](#param_list) / [next](#param_3)
+
+
+</div>
+
+
+<a id="param_3"></a>
+### Please Select the Variable Name to Store Result
+
+
+<dl>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
+<dt>Remarks</dt><dd>(nothing)</dd>
+</dl>
+
+
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_3) / [list](#param_list) / [next](#param_4)
+
+
+</div>
+
+
+<a id="param_4"></a>
+### Optional - Please Select the Value Type
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Cell</strong> or  <strong>Formula</strong> or  <strong>Back Color</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Cell</strong></dd>
+</dl>
+
+
+#### Addtional Info about &quot;Optional - Please Select the Value Type&quot;
+| Parameter Value(s) | Description   | Sample Data 	| Remarks  	|
+| ---             | ---           | ---          | ---       |
+|Cell|Check the Cell has Value or Not|||
+|Formula|Check the Cell has Formula or Not|||
+|Back Color|Check the Cell Background Color is Not White|||
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_4) / [list](#param_list) / [next](#param_5)
+
+
+</div>
+
+
+<a id="param_5"></a>
+### Optional - Please Select the Use Fast Method To Cell
+
+
+<dl>
+<dt>What to input</dt><dd>Select or Enter the One of the Options</dd>
+<dt>Value</dt><dd>Selection Values (Case Sensitive: No, Whilte-Space Sensitive: Yes)</dd>
+<dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
+<dt>Sample Usage</dt><dd><strong>Yes</strong> or  <strong>No</strong></dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br>Default Value is <strong>Yes</strong></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_5) / [list](#param_list) / [next](#param_6)
+
+
+</div>
+
+
+<a id="param_6"></a>
+### Optional - Please Specify the Comment Field
+
+
+<dl>
+<dt>What to input</dt><dd>Optional field to enter a custom comment which could potentially describe this command or the need for this command, if required</dd>
+<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
+</dl>
+
+
+
+
+<div style="font-size: 90%; text-align: center">
+
+
+[prev](#param_6) / [list](#param_list) / next
+
+
+</div>
+
+
+## Developer/Additional Reference
+Automation Class Name: ExcelGetLastRowIndexCommand
+Parent Namespace: taskt.Core.Automation.Commands
+This page was generated on 09/27/26 12:03 PM
+
+
+## Help
+- [Open/Report an issue on GitHub](https://github.com/rcktrncn/taskt/issues/new)
+- [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
