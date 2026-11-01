@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-DataTable &gt; Column Action &gt; Join DataTable Column As Text
+DataTable &gt; Convert Column &gt; Join DataTable Column As Text
 
 
 # Join DataTable Column As Text Command
@@ -281,7 +281,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: JoinDataTableColumnAsTextCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/26 12:03 PM
+This page was generated on 11/01/26 02:49 PM
 
 
 ## Help

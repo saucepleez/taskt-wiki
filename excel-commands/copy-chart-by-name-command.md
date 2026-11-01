@@ -21,7 +21,7 @@ Use this command when you want to copy Chart by Name
 ## Command Parameters
 - [Please Select the Excel Instance Name](#param_0)
 - [Please Specify the Chart Name](#param_1)
-- [Please Specify the New Chart Name](#param_2)
+- [Optional - Please Specify the New Chart Name](#param_2)
 - [Optional - Please Select the Variable Name to Store New Chart Name](#param_3)
 - [Optional - Please Select the When Fail Action](#param_4)
 - [Optional - Please Specify the Comment Field](#param_5)
@@ -95,14 +95,14 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_2"></a>
-### Please Specify the New Chart Name
+### Optional - Please Specify the New Chart Name
 
 
 <dl>
 <dt>What to input</dt><dd>Enter or Select the Text</dd>
 <dt>Parameter Direction</dt><dd>The Input Parameter for Executing the command</dd>
 <dt>Sample Usage</dt><dd>Chart 1 or {vChart}</dd>
-<dt>Remarks</dt><dd>(nothing)</dd>
+<dt>Remarks</dt><dd><strong>Optional</strong><br></dd>
 </dl>
 
 
@@ -211,7 +211,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: ExcelCopyChartByNameCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/26 12:03 PM
+This page was generated on 11/01/26 02:49 PM
 
 
 ## Help

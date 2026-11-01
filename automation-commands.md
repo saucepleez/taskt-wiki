@@ -55,7 +55,6 @@
 |Column Action|[Delete DataTable Column](/datatable-commands/delete-datatable-column-command.md)|This command allows you to delete a column to a DataTable|
 |Column Action|[Get DataTable Column Count](/datatable-commands/get-datatable-column-count-command.md)|This command allows you to get the column count of a DataTable|
 |Column Action|[Get DataTable Column List](/datatable-commands/get-datatable-column-list-command.md)|This command allows you to get the column name List of a DataTable|
-|Column Action|[Join DataTable Column As Text](/datatable-commands/join-datatable-column-as-text-command.md)|This command allows you to Join DataTable Column Values as Text|
 |Column Action|[Set DataTable Column Values By DataTable](/datatable-commands/set-datatable-column-values-by-datatable-command.md)|This command allows you to set a column to a DataTable by a DataTable|
 |Column Action|[Set DataTable Column Values By List](/datatable-commands/set-datatable-column-values-by-list-command.md)|This command allows you to set a column to a DataTable by a List|
 |Convert|[Convert DataTable To JSON](/datatable-commands/convert-datatable-to-json-command.md)|This command allows you to convert DataTable to JSON|
@@ -66,11 +65,13 @@
 |Convert Column|[Convert DataTable Column To JSON](/datatable-commands/convert-datatable-column-to-json-command.md)|This command allows you to convert DataTable Column to JSON|
 |Convert Column|[Convert DataTable Column To List](/datatable-commands/convert-datatable-column-to-list-command.md)|This command allows you to convert DataTable Column to List|
 |Convert Column|[Convert DataTable Column To Text](/datatable-commands/convert-datatable-column-to-text-command.md)|This command allows you to convert DataTable Column to Text|
+|Convert Column|[Join DataTable Column As Text](/datatable-commands/join-datatable-column-as-text-command.md)|This command allows you to Join DataTable Column Values as Text|
 |Convert Row|[Convert DataTable Row To DataTable](/datatable-commands/convert-datatable-row-to-datatable-command.md)|This command allows you to convert DataTable Row to DataTable|
 |Convert Row|[Convert DataTable Row To Dictionary](/datatable-commands/convert-datatable-row-to-dictionary-command.md)|This command allows you to convert DataTable Row to Dictionary|
 |Convert Row|[Convert DataTable Row To JSON](/datatable-commands/convert-datatable-row-to-json-command.md)|This command allows you to convert DataTable Row to JSON|
 |Convert Row|[Convert DataTable Row To List](/datatable-commands/convert-datatable-row-to-list-command.md)|This command allows you to convert DataTable Row to List|
 |Convert Row|[Convert DataTable Row To Text](/datatable-commands/convert-datatable-row-to-text-command.md)|This command allows you to convert DataTable Row to Text.|
+|Convert Row|[Join DataTable Row As Text](/datatable-commands/join-datatable-row-as-text-command.md)|This command allows you to join DataTable Row Values as Text|
 |DataTable Action|[Copy DataTable](/datatable-commands/copy-datatable-command.md)|This command allows you to copy a DataTable|
 |DataTable Action|[Create DataTable](/datatable-commands/create-datatable-command.md)|This command created a DataTable with the column names provided|
 |DataTable Action|[Filter DataTable Column By Row Value](/datatable-commands/filter-datatable-column-by-row-value-command.md)|This command allows you to Filter Columns by reference to Row values.|
@@ -89,7 +90,6 @@
 |Row Action|[Add DataTable Rows By DataTable](/datatable-commands/add-datatable-rows-by-datatable-command.md)|This command allows you to add a DataTable Row to a DataTable by a DataTable|
 |Row Action|[Delete DataTable Row](/datatable-commands/delete-datatable-row-command.md)|This command allows you to delete a DataTable Row|
 |Row Action|[Get DataTable Row Count](/datatable-commands/get-datatable-row-count-command.md)|This command allows you to get the Row count of a DataTable|
-|Row Action|[Join DataTable Row As Text](/datatable-commands/join-datatable-row-as-text-command.md)|This command allows you to join DataTable Row Values as Text|
 |Row Action|[Search And Delete DataTable Rows](/datatable-commands/search-and-delete-datatable-rows-command.md)|This command allows you Delete specified DataTable Rows.|
 |Row Action|[Set DataTable Row Values By DataTable](/datatable-commands/set-datatable-row-values-by-datatable-command.md)|This command allows you to set a DataTable Row values to a DataTable by a DataTable|
 |Row Action|[Set DataTable Row Values By Dictionary](/datatable-commands/set-datatable-row-values-by-dictionary-command.md)|This command allows you to set a DataTable Row values to a DataTable by a Dictionary|
@@ -634,29 +634,29 @@
 ### Window
 | Sub Group   	| Command Name 	|  Command Description	|
 | ---                | ---           | ---                   |
+|Get From Multi Window Name|[Get Process Names From Window Names As DataTable](/window-commands/get-process-names-from-window-names-as-datatable-command.md)|This command returns window process names.|
+|Get From Multi Window Name|[Get Process Names From Window Names As List](/window-commands/get-process-names-from-window-names-as-list-command.md)|This command returns window process names.|
+|Get From Multi Window Name|[Get Window Handles From Window Names As DataTable](/window-commands/get-window-handles-from-window-names-as-datatable-command.md)|This command returns window handles.|
+|Get From Multi Window Name|[Get Window Handles From Window Names As List](/window-commands/get-window-handles-from-window-names-as-list-command.md)|This command returns window handles.|
+|Get From Multi Window Name|[Get Window Names](/window-commands/get-window-names-command.md)|This command returns window names.|
+|Get From Multi Window Name|[Get Window Positions From Window Names As DataTable](/window-commands/get-window-positions-from-window-names-as-datatable-command.md)|This command returns window process names.|
+|Get From Multi Window Name|[Get Window Positions From Window Names As List](/window-commands/get-window-positions-from-window-names-as-list-command.md)|This command returns window handles.|
+|Get From Multi Window Name|[Get Window Sizes From Window Names As DataTable](/window-commands/get-window-sizes-from-window-names-as-datatable-command.md)|This command returns window process names.|
+|Get From Multi Window Name|[Get Window Sizes From Window Names As List](/window-commands/get-window-sizes-from-window-names-as-list-command.md)|This command returns window handles.|
+|Get From Multi Window Name|[Get Window States From Window Names As DataTable](/window-commands/get-window-states-from-window-names-as-datatable-command.md)|This command returns window process states.|
+|Get From Multi Window Name|[Get Window States From Window Names As List](/window-commands/get-window-states-from-window-names-as-list-command.md)|This command returns window handles.|
+|Get From One Window Name|[Check Window Name Exists](/window-commands/check-window-name-exists-command.md)|This command returns a existence of window name.|
+|Get From One Window Name|[Get One Process Name From One Window Name](/window-commands/get-one-process-name-from-one-window-name-command.md)|This command returns one window process name.|
+|Get From One Window Name|[Get One Window Handle From One Window Name](/window-commands/get-one-window-handle-from-one-window-name-command.md)|This command returns one window handle.|
+|Get From One Window Name|[Get One Window Position](/window-commands/get-one-window-position-command.md)|This command returns one window position.|
+|Get From One Window Name|[Get One Window Size](/window-commands/get-one-window-size-command.md)|This command returns one window size.|
+|Get From One Window Name|[Get One Window State](/window-commands/get-one-window-state-command.md)|This command returns one window state.|
 |Get From Window Handle|[Check Window Handle Exists](/window-commands/check-window-handle-exists-command.md)|This command returns a existence of Window Handle.|
 |Get From Window Handle|[Get Process Name From Window Handle](/window-commands/get-process-name-from-window-handle-command.md)|This command returns process name.|
 |Get From Window Handle|[Get Window Name From Window Handle](/window-commands/get-window-name-from-window-handle-command.md)|This command returns window names.|
 |Get From Window Handle|[Get Window Position From Window Handle](/window-commands/get-window-position-from-window-handle-command.md)|This command returns window position.|
 |Get From Window Handle|[Get Window Size From Window Handle](/window-commands/get-window-size-from-window-handle-command.md)|This command returns window size.|
 |Get From Window Handle|[Get Window State From Window Handle](/window-commands/get-window-state-from-window-handle-command.md)|This command returns a state of window name.|
-|Get From Window Name|[Check Window Name Exists](/window-commands/check-window-name-exists-command.md)|This command returns a existence of window name.|
-|Get From Window Name|[Get One Process Name From One Window Name](/window-commands/get-one-process-name-from-one-window-name-command.md)|This command returns one window process name.|
-|Get From Window Name|[Get One Window Handle From One Window Name](/window-commands/get-one-window-handle-from-one-window-name-command.md)|This command returns one window handle.|
-|Get From Window Name|[Get One Window Position](/window-commands/get-one-window-position-command.md)|This command returns one window position.|
-|Get From Window Name|[Get One Window Size](/window-commands/get-one-window-size-command.md)|This command returns one window size.|
-|Get From Window Name|[Get One Window State](/window-commands/get-one-window-state-command.md)|This command returns one window state.|
-|Get From Window Name|[Get Process Names From Window Names As DataTable](/window-commands/get-process-names-from-window-names-as-datatable-command.md)|This command returns window process names.|
-|Get From Window Name|[Get Process Names From Window Names As List](/window-commands/get-process-names-from-window-names-as-list-command.md)|This command returns window process names.|
-|Get From Window Name|[Get Window Handles From Window Names As DataTable](/window-commands/get-window-handles-from-window-names-as-datatable-command.md)|This command returns window handles.|
-|Get From Window Name|[Get Window Handles From Window Names As List](/window-commands/get-window-handles-from-window-names-as-list-command.md)|This command returns window handles.|
-|Get From Window Name|[Get Window Names](/window-commands/get-window-names-command.md)|This command returns window names.|
-|Get From Window Name|[Get Window Positions From Window Names As DataTable](/window-commands/get-window-positions-from-window-names-as-datatable-command.md)|This command returns window process names.|
-|Get From Window Name|[Get Window Positions From Window Names As List](/window-commands/get-window-positions-from-window-names-as-list-command.md)|This command returns window handles.|
-|Get From Window Name|[Get Window Sizes From Window Names As DataTable](/window-commands/get-window-sizes-from-window-names-as-datatable-command.md)|This command returns window process names.|
-|Get From Window Name|[Get Window Sizes From Window Names As List](/window-commands/get-window-sizes-from-window-names-as-list-command.md)|This command returns window handles.|
-|Get From Window Name|[Get Window States From Window Names As DataTable](/window-commands/get-window-states-from-window-names-as-datatable-command.md)|This command returns window process states.|
-|Get From Window Name|[Get Window States From Window States As List](/window-commands/get-window-states-from-window-states-as-list-command.md)|This command returns window handles.|
 |Multi Window Actions|[Activate Windows](/window-commands/activate-windows-command.md)|This command activates windows|
 |Multi Window Actions|[Close Windows](/window-commands/close-windows-command.md)|This command closes windows.|
 |Multi Window Actions|[Move Windows](/window-commands/move-windows-command.md)|This command Move windows.|
@@ -696,4 +696,4 @@
 - [Ask a question on Gitter](https://gitter.im/taskt-rpa/Lobby)
 
 
-This page was generated on 09/27/26 12:03 PM
+This page was generated on 11/01/26 02:49 PM

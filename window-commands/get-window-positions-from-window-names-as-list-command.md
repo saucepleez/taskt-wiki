@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Window &gt; Get From Window Name &gt; Get Window Positions From Window Names As List
+Window &gt; Get From Multi Window Name &gt; Get Window Positions From Window Names As List
 
 
 # Get Window Positions From Window Names As List Command
@@ -457,7 +457,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetWindowPositionsFromWindowNamesAsListCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/26 12:03 PM
+This page was generated on 11/01/26 02:49 PM
 
 
 ## Help

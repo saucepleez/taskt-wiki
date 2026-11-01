@@ -22,7 +22,7 @@ Use this command when you want to get list index from value
 - [Please Select the List Variable Name](#param_0)
 - [Optional - Please Specify the Value to Search](#param_1)
 - [Optional - Please Select the Search Method](#param_2)
-- [Please Specify the v_Result](#param_3)
+- [Please Select the Variable Name to Store Result](#param_3)
 - [Optional - Please Specify the Comment Field](#param_4)
 
 
@@ -116,16 +116,28 @@ prev / [list](#param_list) / [next](#param_1)
 
 
 <a id="param_3"></a>
-### Please Specify the v_Result
+### Please Select the Variable Name to Store Result
 
 
 <dl>
-<dt>What to input</dt><dd>(nothing)</dd>
-<dt>Sample Usage</dt><dd>(nothing)</dd>
+<dt>What to input</dt><dd>Enter or Select the Variable Name</dd>
+<dt>Value</dt><dd>Variables</dd>
+<dt>Parameter Direction</dt><dd>The Parameter for Storing the Result of command execution</dd>
+<dt>Error Occurs When the Value is ...</dt><dd><ul>
+<li>Empty</li>
+</ul></dd>
+<dt>Sample Usage</dt><dd>vResult or {vResult}</dd>
 <dt>Remarks</dt><dd>When List does not have value, Result is <strong>-1</strong></dd>
 </dl>
 
 
+
+
+#### More Detailed Sample Usage(s)
+| Value | Means |
+|---|---|
+| <strong>vResult</strong> | Specify Variable Name **vResult** |
+| <strong>{vResult}</strong> | Specify Variable Name **vResult** |
 
 
 <div style="font-size: 90%; text-align: center">
@@ -162,7 +174,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetListIndexFromValueCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/26 12:03 PM
+This page was generated on 11/01/26 02:49 PM
 
 
 ## Help

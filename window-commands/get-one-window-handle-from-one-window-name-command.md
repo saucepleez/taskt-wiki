@@ -3,7 +3,7 @@
 [Go To Automation Commands Overview](/automation-commands.md)
 
 
-Window &gt; Get From Window Name &gt; Get One Window Handle From One Window Name
+Window &gt; Get From One Window Name &gt; Get One Window Handle From One Window Name
 
 
 # Get One Window Handle From One Window Name Command
@@ -366,7 +366,7 @@ prev / [list](#param_list) / [next](#param_1)
 ## Developer/Additional Reference
 Automation Class Name: GetOneWindowHandleFromOneWindowNameCommand
 Parent Namespace: taskt.Core.Automation.Commands
-This page was generated on 09/27/26 12:03 PM
+This page was generated on 11/01/26 02:49 PM
 
 
 ## Help
